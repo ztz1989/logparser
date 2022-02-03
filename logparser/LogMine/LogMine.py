@@ -13,6 +13,11 @@ import hashlib
 import pandas as pd
 from datetime import datetime
 from collections import defaultdict
+import codecs
+
+import io
+#reload(sys)
+#sys.setdefaultencoding('utf8')
 
 class partition():
     def __init__(self, idx, log="", lev=-1):
@@ -57,7 +62,11 @@ class LogParser():
                     cluster.patterns = [self.sequential_merge(cluster.patterns)]
                 self.level_clusters[lev] = clusters
         self.dump()
-        print('Parsing done. [Time taken: {!s}]'.format(datetime.now() - starttime))
+        endtime = datetime.now()
+        print('Parsing done. [Time taken: {!s}]'.format(endtime - starttime))
+
+        with open("PT_LogMine.txt", "a") as f:
+		f.write(logname.split('.')[0]+' '+str(endtime-starttime)+'\n')
 
     def dump(self):
         if not os.path.isdir(self.savePath):
@@ -75,6 +84,7 @@ class LogParser():
             for idx in cluster.logs_idx:
                 ids[idx] = EventId
                 templates[idx]= EventTemplate
+
         self.df_log['EventId'] = ids
         self.df_log['EventTemplate'] = templates
 
@@ -85,8 +95,8 @@ class LogParser():
         df_event['EventId'] = self.df_log['EventTemplate'].map(lambda x: hashlib.md5(x.encode('utf-8')).hexdigest()[0:8])
 
         self.df_log.drop("Content_", inplace=True, axis=1)
-        self.df_log.to_csv(os.path.join(self.savePath, self.logname + '_structured.csv'), index=False)
-        df_event.to_csv(os.path.join(self.savePath, self.logname + '_templates.csv'), index=False, columns=["EventId","EventTemplate","Occurrences"])
+        self.df_log.to_csv(os.path.join(self.savePath, self.logname + '_structured.csv'), index=False, encoding="utf-8")
+        df_event.to_csv(os.path.join(self.savePath, self.logname + '_templates.csv'), index=False, columns=["EventId","EventTemplate","Occurrences"], encoding="utf-8")
 
     def get_clusters(self, logs, lev, old_clusters=None):
         clusters = []
@@ -103,7 +113,7 @@ class LogParser():
                         cluster.patterns.append(old_clusters[logidx].patterns[0])
                     match = True
 
-            if not match: 
+            if not match:
                 if lev == 0:
                     clusters.append(partition(logidx, log, lev)) # generate new cluster
                 else:
@@ -173,7 +183,7 @@ class LogParser():
         ''' Function to transform log file to dataframe '''
         log_messages = []
         linecount = 0
-        with open(log_file, 'r') as fin:
+        with codecs.open(log_file, 'r', encoding='utf-8', errors='ignore') as fin:
             for line in fin.readlines():
                 try:
                     match = regex.search(line.strip())
@@ -188,7 +198,7 @@ class LogParser():
         return logdf
 
     def generate_logformat_regex(self, logformat):
-        ''' 
+        '''
         Function to generate regular expression to split log messages
         '''
         headers = []

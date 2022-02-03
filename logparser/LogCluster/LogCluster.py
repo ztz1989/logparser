@@ -10,7 +10,7 @@ import re
 import hashlib
 from datetime import datetime
 import subprocess
-
+import codecs
 
 class LogParser():
     def __init__(self, indir, log_format, outdir, rex =[], support=None, rsupport=None, separator=None, lfilter=None, template=None,
@@ -65,7 +65,7 @@ class LogParser():
         self.filename = filename
         headers, regex = self.generate_logformat_regex(self.log_format)
         self.df_log = self.log_to_dataframe(filepath, regex, headers, self.log_format)
-        with open('logcluster_input.log', 'w') as fw:
+        with codecs.open('logcluster_input.log', 'w', encoding='utf-8') as fw:
             for line in self.df_log['Content']:
                 if self.rex:
                     for currentRex in self.rex:
@@ -77,11 +77,14 @@ class LogParser():
         except:
             print("LogCluster run failed! Please check perl installed.\n")
             raise
-        self.wirteResultToFile()
-        os.remove("logcluster_input.log")
-        os.remove("logcluster_output.txt")
+        #self.wirteResultToFile()
+        #os.remove("logcluster_input.log")
+        #os.remove("logcluster_output.txt")
+	end_time = datetime.now()
         print('Parsing done. [Time taken: {!s}]'.format(datetime.now() - start_time))
 
+        with open("PT_LogCluster.txt", "a") as f:
+            f.write(filename.split('.')[0]+' '+str(end_time - start_time)+'\n')
 
     def wirteResultToFile(self):
         if not os.path.isdir(self.savepath):
@@ -118,7 +121,6 @@ class LogParser():
 
         self.df_log["EventId"] = EventId
         self.df_log["EventTemplate"] = EventTemplate
-        
 
         # eventDF = pd.DataFrame()
         # eventDF['EventId'] = EventIdx_hash
@@ -133,14 +135,14 @@ class LogParser():
         df_event['EventTemplate'] = self.df_log['EventTemplate'].unique()
         df_event['Occurrences'] = df_event['EventTemplate'].map(occ_dict)
         df_event['EventId'] = df_event['EventTemplate'].map(lambda x: hashlib.md5(x.encode('utf-8')).hexdigest()[0:8])
-        self.df_log.to_csv(os.path.join(self.savepath, self.filename + '_structured.csv'), index=False)
+        self.df_log.to_csv(os.path.join(self.savepath, self.filename + '_structured.csv'), index=False, encoding='utf-8')
 
     def log_to_dataframe(self, log_file, regex, headers, logformat):
         """ Function to transform log file to dataframe 
         """
         log_messages = []
         linecount = 0
-        with open(log_file, 'r') as fin:
+        with codecs.open(log_file, 'r', encoding='utf-8', errors='ignore') as fin:
             for line in fin.readlines():
                 try:
                     match = regex.search(line.strip())

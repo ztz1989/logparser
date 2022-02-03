@@ -4,13 +4,14 @@ Author: LogPAI team
 License: MIT
 """
 
-from templateminer import lenma_template 
+from templateminer import lenma_template
 import pandas as pd
 import re
 import os
 import hashlib
 from collections import defaultdict
 from datetime import datetime
+import codecs
 
 class LogParser(object):
     def __init__(self, indir, outdir, log_format, threshold=0.9, predefined_templates=None, rex=[]):
@@ -38,7 +39,11 @@ class LogParser(object):
             words = line.split()
             self.templ_mgr.infer_template(words, idx)
         self.dump_results()
-        print('Parsing done. [Time taken: {!s}]'.format(datetime.now() - starttime))
+        endtime = datetime.now()
+        print('Parsing done. [Time taken: {!s}]'.format(endtime - starttime))
+
+        with open("PT_LenMa.txt", "a") as f:
+		f.write(logname.split('.')[0]+' '+str(endtime-starttime)+'\n')
 
     def dump_results(self):
         if not os.path.isdir(self.savePath):
@@ -59,15 +64,15 @@ class LogParser(object):
         self.df_log['EventId'] = template_ids
         self.df_log['EventTemplate'] = templates
 
-        pd.DataFrame(df_event, columns=['EventId', 'EventTemplate', 'Occurrences']).to_csv(os.path.join(self.savePath, self.logname + '_templates.csv'), index=False)
-        self.df_log.to_csv(os.path.join(self.savePath, self.logname + '_structured.csv'), index=False)
+        pd.DataFrame(df_event, columns=['EventId', 'EventTemplate', 'Occurrences']).to_csv(os.path.join(self.savePath, self.logname + '_templates.csv'), index=False, encoding='utf-8')
+        self.df_log.to_csv(os.path.join(self.savePath, self.logname + '_structured.csv'), index=False, encoding='utf-8')
 
 
     def log_to_dataframe(self, log_file, regex, headers, logformat):
         ''' Function to transform log file to dataframe '''
         log_messages = []
         linecount = 0
-        with open(log_file, 'r') as fin:
+        with codecs.open(log_file, 'r', encoding='utf-8', errors='ignore') as fin:
             for line in fin.readlines():
                 try:
                     match = regex.search(line.strip())
