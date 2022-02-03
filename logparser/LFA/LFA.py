@@ -14,7 +14,7 @@ import pandas as pd
 import numpy as np
 from collections import defaultdict
 from datetime import datetime
-
+import codecs
 
 class LogParser(object):
     def __init__(self, indir, outdir, log_format, rex=[]):
@@ -32,12 +32,16 @@ class LogParser(object):
         start_time = datetime.now()
         self.firstpass()
         self.secondpass()
-        print('Parsing done. [Time taken: {!s}]'.format(datetime.now() - start_time))
+	end_time = datetime.now()
+        print('Parsing done. [Time taken: {!s}]'.format(end_time - start_time))
+
+        with open("PT_LFA.txt", "a") as f:
+        	f.write(logname.split('.')[0]+' '+str(end_time - start_time)+'\n')
 
     def firstpass(self):
         headers, regex = self.generate_logformat_regex(self.logformat)
         self.df_log = self.log_to_dataframe(os.path.join(self.path, self.logname), regex, headers, self.logformat)
-            
+
         self.wordseqs = []
         for idx, line in self.df_log.iterrows():
             line = line['Content']
@@ -59,7 +63,7 @@ class LogParser(object):
         templatel = []
         for wordseq in self.wordseqs:
             countsl = [self.wordpos_count[(pos, word)] for pos, word in enumerate(wordseq) if word != "<*>"]
-            if len(countsl) > 1:              
+            if len(countsl) > 1:
                 # find max gap
                 countsl_sorted = sorted(countsl)
                 gaps = [(countsl_sorted[idx + 1] - countsl_sorted[idx], idx) for idx in range(len(countsl_sorted) - 1)]
@@ -88,15 +92,15 @@ class LogParser(object):
         df_templates = pd.DataFrame([[self.templates[key]['id'], key, self.templates[key]['count']]for key in self.templates],
          columns=['EventId', 'EventTemplate', 'Occurrences'])
 
-        df_templates.to_csv(os.path.join(self.savePath, self.logname + '_templates.csv'), index=False)
-        self.df_log.to_csv(os.path.join(self.savePath, self.logname + '_structured.csv'), index=False)
+        df_templates.to_csv(os.path.join(self.savePath, self.logname + '_templates.csv'), index=False, encoding='utf-8')
+        self.df_log.to_csv(os.path.join(self.savePath, self.logname + '_structured.csv'), index=False, encoding='utf-8')
 
     def log_to_dataframe(self, log_file, regex, headers, logformat):
         """ Function to transform log file to dataframe 
         """
         log_messages = []
         linecount = 0
-        with open(log_file, 'r') as fin:
+        with codecs.open(log_file, 'r', encoding='utf-8', errors="ignore") as fin:
             for line in fin.readlines():
                 try:
                     match = regex.search(line.strip())

@@ -13,10 +13,10 @@ import re
 import os
 import pandas as pd
 import hashlib
-
+import codecs
 
 class Para:
-    def __init__(self, path, rex, savePath, groupNum, logformat): 
+    def __init__(self, path, rex, savePath, groupNum, logformat):
         self.path = path
         self.rex = rex
         self.savePath = savePath
@@ -213,8 +213,7 @@ class LogParser:
 
         self.df_log['EventId'] = EventId
         self.df_log['EventTemplate'] = EventTemplate
-        self.df_log.to_csv(os.path.join(self.para.savePath, self.logname + '_structured.csv'), index=False)
-
+        self.df_log.to_csv(os.path.join(self.para.savePath, self.logname + '_structured.csv'), index=False, encoding='utf-8')
 
         occ_dict = dict(self.df_log['EventTemplate'].value_counts())
         df_event = pd.DataFrame()
@@ -222,13 +221,13 @@ class LogParser:
         df_event['EventId'] = df_event['EventTemplate'].map(lambda x: hashlib.md5(x.encode('utf-8')).hexdigest()[0:8])
         df_event['Occurrences'] = df_event['EventTemplate'].map(occ_dict)
 
-        df_event.to_csv(os.path.join(self.para.savePath, self.logname + '_templates.csv'), index=False, columns=["EventId", "EventTemplate","Occurrences"])
+        df_event.to_csv(os.path.join(self.para.savePath, self.logname + '_templates.csv'), index=False, columns=["EventId", "EventTemplate","Occurrences"], encoding='utf-8')
 
     def log_to_dataframe(self, log_file, regex, headers, logformat):
         """ Function to transform log file to dataframe """
         log_messages = []
         linecount = 0
-        with open(log_file, 'r') as fin:
+        with codecs.open(log_file, 'r', encoding='utf-8', errors='ignore') as fin:
             for line in fin.readlines():
                 try:
                     match = regex.search(line.strip())
@@ -269,8 +268,11 @@ class LogParser:
         self.LogMessParti()
         self.signatConstr()
         self.writeResultToFile()
-        print('Parsing done. [Time taken: {!s}]'.format(datetime.now() - start_time))
+	end_time = datetime.now()
+        print('Parsing done. [Time taken: {!s}]'.format(end_time - start_time))
 
+        with open("PT_LogSig.txt", "a") as f:
+		f.write(logname.split('.')[0]+' '+str(end_time-start_time)+'\n')
 
 def potenFunc(curGroupIndex, termPairLogNumLD, logNumPerGroup, lineNum, termpairLT, k):
     maxDeltaD = 0

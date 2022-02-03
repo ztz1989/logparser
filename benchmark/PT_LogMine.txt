@@ -1,0 +1,15 @@
+HealthApp_2k 0:00:08.129660
+HealthApp_4k 0:00:28.939126
+HealthApp_6k 0:01:04.603766
+HealthApp_8k 0:01:53.953257
+HealthApp_10k 0:02:56.328865
+HealthApp_12k 0:04:12.380120
+HealthApp_14k 0:05:46.611200
+HealthApp_16k 0:08:02.971240
+HealthApp_18k 0:10:22.245653
+HealthApp_20k 0:13:13.618364
+HealthApp_30k 0:30:25.738672
+HealthApp_40k 0:55:01.451801
+HealthApp_50k 1:25:59.056442
+HealthApp_60k 2:02:46.655728
+HealthApp_70k 2:48:20.970316

@@ -10,7 +10,7 @@ import numpy as np
 import pandas as pd
 import hashlib
 from datetime import datetime
-
+import codecs
 
 class Logcluster:
     def __init__(self, logTemplate='', logIDL=None):
@@ -30,7 +30,7 @@ class Node:
 
 
 class LogParser:
-    def __init__(self, log_format, indir='./', outdir='./result/', depth=4, st=0.4, 
+    def __init__(self, log_format, indir='./', outdir='./result/', depth=4, st=0.4,
                  maxChild=100, rex=[], keep_para=True):
         """
         Attributes
@@ -127,7 +127,7 @@ class LogParser:
                             parentn = newNode
                         else:
                             parentn = parentn.childD['<*>']
-            
+
                 else:
                     if '<*>' not in parentn.childD:
                         newNode = Node(depth=currentDepth+1, digitOrtoken='<*>')
@@ -153,7 +153,7 @@ class LogParser:
                 numOfPar += 1
                 continue
             if token1 == token2:
-                simTokens += 1 
+                simTokens += 1
 
         retVal = float(simTokens) / len(seq1)
 
@@ -175,7 +175,7 @@ class LogParser:
                 maxClust = logClust
 
         if maxSim >= self.st:
-            retLogClust = maxClust  
+            retLogClust = maxClust
 
         return retLogClust
 
@@ -213,20 +213,20 @@ class LogParser:
         self.df_log['EventTemplate'] = log_templates
 
         if self.keep_para:
-            self.df_log["ParameterList"] = self.df_log.apply(self.get_parameter_list, axis=1) 
-        self.df_log.to_csv(os.path.join(self.savePath, self.logName + '_structured.csv'), index=False)
+            self.df_log["ParameterList"] = self.df_log.apply(self.get_parameter_list, axis=1)
 
+        self.df_log.to_csv(os.path.join(self.savePath, self.logName + '_structured.csv'), index=False, encoding='utf-8')
 
         occ_dict = dict(self.df_log['EventTemplate'].value_counts())
         df_event = pd.DataFrame()
         df_event['EventTemplate'] = self.df_log['EventTemplate'].unique()
         df_event['EventId'] = df_event['EventTemplate'].map(lambda x: hashlib.md5(x.encode('utf-8')).hexdigest()[0:8])
         df_event['Occurrences'] = df_event['EventTemplate'].map(occ_dict)
-        df_event.to_csv(os.path.join(self.savePath, self.logName + '_templates.csv'), index=False, columns=["EventId", "EventTemplate", "Occurrences"])
+        df_event.to_csv(os.path.join(self.savePath, self.logName + '_templates.csv'), index=False, columns=["EventId", "EventTemplate", "Occurrences"], encoding='utf-8')
 
 
     def printTree(self, node, dep):
-        pStr = ''   
+        pStr = ''
         for i in range(dep):
             pStr += '\t'
 
@@ -271,7 +271,7 @@ class LogParser:
             else:
                 newTemplate = self.getTemplate(logmessageL, matchCluster.logTemplate)
                 matchCluster.logIDL.append(logID)
-                if ' '.join(newTemplate) != ' '.join(matchCluster.logTemplate): 
+                if ' '.join(newTemplate) != ' '.join(matchCluster.logTemplate):
                     matchCluster.logTemplate = newTemplate
 
             count += 1
@@ -284,7 +284,12 @@ class LogParser:
 
         self.outputResult(logCluL)
 
-        print('Parsing done. [Time taken: {!s}]'.format(datetime.now() - start_time))
+        end_time = datetime.now()
+        print('Parsing done. [Time taken: {!s}]'.format(end_time - start_time))
+
+	with open("PT_Drain.txt", "a") as f:
+		f.write(self.logName.split('.')[0]+' '+str(end_time-start_time)+'\n')
+
 
     def load_data(self):
         headers, regex = self.generate_logformat_regex(self.log_format)
@@ -296,11 +301,11 @@ class LogParser:
         return line
 
     def log_to_dataframe(self, log_file, regex, headers, logformat):
-        """ Function to transform log file to dataframe 
+        """ Function to transform log file to dataframe
         """
         log_messages = []
         linecount = 0
-        with open(log_file, 'r') as fin:
+        with codecs.open(log_file, 'r', encoding='utf-8', errors="ignore") as fin:
             for line in fin.readlines():
                 try:
                     match = regex.search(line.strip())

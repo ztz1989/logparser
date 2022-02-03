@@ -12,7 +12,7 @@ import pandas as pd
 import hashlib
 from datetime import datetime
 import string
-
+import codecs
 
 class LCSObject:
     """ Class object to store a log group with the same template
@@ -204,11 +204,11 @@ class LogParser:
         self.df_log['EventTemplate'] = templates
         if self.keep_para:
             self.df_log["ParameterList"] = self.df_log.apply(self.get_parameter_list, axis=1) 
-        self.df_log.to_csv(os.path.join(self.savePath, self.logname + '_structured.csv'), index=False)
-        df_event.to_csv(os.path.join(self.savePath, self.logname + '_templates.csv'), index=False)
+        self.df_log.to_csv(os.path.join(self.savePath, self.logname + '_structured.csv'), index=False, encoding='utf-8')
+        df_event.to_csv(os.path.join(self.savePath, self.logname + '_templates.csv'), index=False, encoding='utf-8')
 
     def printTree(self, node, dep):
-        pStr = ''   
+        pStr = ''
         for i in xrange(dep):
             pStr += '\t'
 
@@ -240,10 +240,8 @@ class LogParser:
 
             #Find an existing matched log cluster
             matchCluster = self.PrefixTreeMatch(rootNode, constLogMessL, 0)
-            
             if matchCluster is None:
                 matchCluster = self.SimpleLoopMatch(logCluL, constLogMessL)
-                
                 if matchCluster is None:
                     matchCluster = self.LCSMatch(logCluL, logmessageL)
 
@@ -265,12 +263,15 @@ class LogParser:
             count += 1
             if count % 1000 == 0 or count == len(self.df_log):
                 print('Processed {0:.1f}% of log lines.'.format(count * 100.0 / len(self.df_log)))
-            
         if not os.path.exists(self.savePath):
             os.makedirs(self.savePath)
 
-        self.outputResult(logCluL)
-        print('Parsing done. [Time taken: {!s}]'.format(datetime.now() - starttime))
+        #self.outputResult(logCluL)
+	endtime = datetime.now()
+        print('Parsing done. [Time taken: {!s}]'.format(endtime - starttime))
+
+	with open("PT_Spell.txt", "a") as f:
+		f.write(logname.split('.')[0]+' '+str(endtime-starttime)+'\n')
 
     def load_data(self):
         headers, regex = self.generate_logformat_regex(self.logformat)
@@ -286,7 +287,7 @@ class LogParser:
         """
         log_messages = []
         linecount = 0
-        with open(log_file, 'r') as fin:
+        with codecs.open(log_file, 'r', encoding='utf-8', errors='ignore') as fin:
             for line in fin.readlines():
                 line = re.sub(r'[^\x00-\x7F]+', '<NASCII>', line)
                 try:

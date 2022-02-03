@@ -13,6 +13,7 @@ import numpy as np
 import pandas as pd
 import hashlib
 from datetime import datetime
+import codecs
 
 class Node:
     def __init__(self, format='', logIDL=None, childL=None):
@@ -185,7 +186,6 @@ class LogParser:
 
         #Loop until either find a format node, or create a new format node by itself
         while len(f) == 0:
-            
             dmin = 1.1
             selectNode = None
             selectIdx = -1
@@ -233,7 +233,7 @@ class LogParser:
         fmax = []
         nodemax = None
         superF = []
-        f = n.format    
+        f = n.format
         G = set( ngrams(f, 3) ) #trigram: [(w1, w2, w3), (,,), ...]
 
         #self.formatTable: (ngram, node)
@@ -289,7 +289,6 @@ class LogParser:
                     self.formatTable[' '.join(superF)][1].logIDL.extend(nodemax.logIDL)
                     nodemax.logIDL = []
                     nodemax.format = ''
-    
 
     def outputResult(self, node):
         templateNo = 1
@@ -320,12 +319,12 @@ class LogParser:
 
         self.df_log['EventId'] = ids
         self.df_log['EventTemplate'] = templates
-        self.df_log.to_csv(os.path.join(self.savePath, self.logname + '_structured.csv'), index=False)
-        df_event.to_csv(os.path.join(self.savePath, self.logname + '_templates.csv'), index=False)
+        self.df_log.to_csv(os.path.join(self.savePath, self.logname + '_structured.csv'), index=False, encoding='utf-8')
+        df_event.to_csv(os.path.join(self.savePath, self.logname + '_templates.csv'), index=False, encoding='utf-8')
 
 
     def printTree(self, node, dep):
-        pStr = ''   
+        pStr = ''
         for i in xrange(dep):
             pStr += '\t'
 
@@ -358,7 +357,7 @@ class LogParser:
             currentNode = Node( format=logmessageL, logIDL=[ID])
 
             (parentNode, newIdx, newFormNode, hasNewForm) = self.Search(n=currentNode, nroot=rootNode)
-            
+
             if hasNewForm:
                 self.Adjust(pn=parentNode, nidx=newIdx, n=newFormNode)
             count += 1
@@ -366,9 +365,12 @@ class LogParser:
         if not os.path.exists(self.savePath):
             os.makedirs(self.savePath)
 
-        self.outputResult(rootNode)
-        print('Parsing done. [Time taken: {!s}]'.format(datetime.now() - starttime))
+        #self.outputResult(rootNode)
+	endtime = datetime.now()
+        print('Parsing done. [Time taken: {!s}]'.format(endtime - starttime))
 
+	with open("PT_SHISO.txt", 'a') as f:
+		f.write(logname.split('.')[0]+' '+str(endtime-starttime)+'\n')
 
     def load_data(self):
         headers, regex = self.generate_logformat_regex(self.logformat)
@@ -377,12 +379,12 @@ class LogParser:
 
 
     def log_to_dataframe(self, log_file, regex, headers, logformat):
-        ''' 
-        Function to transform log file to dataframe 
+        '''
+        Function to transform log file to dataframe
         '''
         log_messages = []
         linecount = 0
-        with open(log_file, 'r') as fin:
+        with codecs.open(log_file, 'r', encoding='utf-8', errors='ignore') as fin:
             for line in fin.readlines():
                 try:
                     match = regex.search(line.strip())

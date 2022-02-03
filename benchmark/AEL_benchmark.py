@@ -83,8 +83,8 @@ benchmark_settings = {
         'merge_percent' : 0.6
         },
 
-    'Andriod': {
-        'log_file': 'Andriod/Andriod_2k.log',
+    'Android': {
+        'log_file': 'Andriod/Android_2k.log',
         'log_format': '<Date> <Time>  <Pid>  <Tid> <Level> <Component>: <Content>',
         'regex': [r'(/[\w-]+)+', r'([\w-]+\.){2,}[\w-]+', r'\b(\-?\+?\d+)\b|\b0[Xx][a-fA-F\d]+\b|\b[a-fA-F\d]{4,}\b'],
         'minEventCount': 2,
@@ -147,9 +147,9 @@ for dataset, setting in benchmark_settings.iteritems():
     log_file = os.path.basename(setting['log_file'])
 
     parser = AEL.LogParser(log_format=setting['log_format'], indir=indir, outdir=output_dir,
-                             minEventCount=setting['minEventCount'], merge_percent=setting['merge_percent'], rex=setting['regex'])
+                             minEventCount=setting['minEventCount'], merge_percent=setting['merge_percent'], rex=setting['regex'], keep_para=False)
     parser.parse(log_file)
-    
+
     F1_measure, accuracy = evaluator.evaluate(
                            groundtruth=os.path.join(indir, log_file + '_structured.csv'),
                            parsedresult=os.path.join(output_dir, log_file + '_structured.csv')

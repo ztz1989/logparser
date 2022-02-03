@@ -6,12 +6,13 @@ License: MIT
 
 import sys
 import re
-import os
+import os, io
 import hashlib
 import pandas as pd
 from datetime import datetime
 from collections import defaultdict
 from functools import reduce
+import codecs
 
 class Event():
     def __init__(self, logidx, Eventstr=""):
@@ -26,7 +27,7 @@ class Event():
 
 
 class LogParser():
-    def __init__(self, indir, outdir, log_format, minEventCount=2, merge_percent=1, 
+    def __init__(self, indir, outdir, log_format, minEventCount=2, merge_percent=1,
                  rex=[], keep_para=True):
         self.logformat = log_format
         self.path = indir
@@ -49,7 +50,12 @@ class LogParser():
         self.categorize()
         self.reconcile()
         self.dump()
-        print('Parsing done. [Time taken: {!s}]'.format(datetime.now() - start_time))
+        end_time = datetime.now()
+        print('Parsing done. [Time taken: {!s}]'.format(end_time - start_time))
+
+        with open("PT_AEL.txt", "a") as f:
+               f.write(logname.split('.')[0]+' '+str(end_time - start_time)+'\n')
+
 
     def tokenize(self):
         '''
@@ -68,6 +74,7 @@ class LogParser():
                 self.bins[(len(tokens), para_count)]['Logs'] = [idx]
             else:
                 self.bins[(len(tokens), para_count)]['Logs'].append(idx)
+
 
     def categorize(self):
         '''
@@ -99,12 +106,12 @@ class LogParser():
             abin = self.bins[key]
             if len(abin['Events']) > self.minEventCount:
                 tobeMerged = []
-                for e1 in abin['Events']:   
+                for e1 in abin['Events']:
                     if e1.merged:
                         continue
                     e1.merged = True
                     tobeMerged.append([e1])
-                    
+
                     for e2 in abin['Events']:
                         if e2.merged:
                             continue
@@ -141,14 +148,14 @@ class LogParser():
         self.df_log.drop("Content_", axis=1, inplace=True)
         if self.keep_para:
             self.df_log["ParameterList"] = self.df_log.apply(self.get_parameter_list, axis=1) 
-        self.df_log.to_csv(os.path.join(self.savePath, self.logname + '_structured.csv'), index=False)
+        self.df_log.to_csv(os.path.join(self.savePath, self.logname + '_structured.csv'), index=False, encoding='utf-8')
 
         occ_dict = dict(self.df_log['EventTemplate'].value_counts())
         df_event = pd.DataFrame()
         df_event['EventTemplate'] = self.df_log['EventTemplate'].unique()
         df_event['EventId'] = df_event['EventTemplate'].map(lambda x: hashlib.md5(x.encode('utf-8')).hexdigest()[0:8])
         df_event['Occurrences'] = df_event['EventTemplate'].map(occ_dict)
-        df_event.to_csv(os.path.join(self.savePath, self.logname + '_templates.csv'), index=False, columns=["EventId", "EventTemplate", "Occurrences"])
+        df_event.to_csv(os.path.join(self.savePath, self.logname + '_templates.csv'), index=False, columns=["EventId", "EventTemplate", "Occurrences"], encoding='utf-8')
 
     def merge_event(self, e1, e2):
         for pos in range(len(e1.EventToken)):
@@ -186,7 +193,7 @@ class LogParser():
         ''' Function to transform log file to dataframe '''
         log_messages = []
         linecount = 0
-        with open(log_file, 'r') as fin:
+        with codecs.open(log_file, 'r', encoding="utf-8", errors="ignore") as fin:
             for line in fin.readlines():
                 try:
                     match = regex.search(line.strip())
@@ -201,7 +208,7 @@ class LogParser():
         return logdf
 
     def generate_logformat_regex(self, logformat):
-        ''' 
+        '''
         Function to generate regular expression to split log messages
 
         '''

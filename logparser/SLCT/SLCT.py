@@ -13,7 +13,7 @@ from datetime import datetime
 from ..logmatch import regexmatch
 import subprocess
 import os
-
+import codecs
 
 class LogParser(object):
     def __init__(self, indir, outdir, log_format, support, para_j=True, saveLog=False, rex=[]):
@@ -52,7 +52,7 @@ def SLCT(para, log_format, rex):
     df_log = log_to_dataframe(logname, regex, headers, log_format)
 
     # Generate input file
-    with open('slct_input.log', 'w') as fw:
+    with codecs.open('slct_input.log', 'w', encoding="utf-8", errors="ignore") as fw:
         for line in df_log['Content']:
             if rex:
                 for currentRex in rex:
@@ -93,9 +93,13 @@ def SLCT(para, log_format, rex):
     df_event['EventId'] = df_event['EventTemplate'].map(lambda x: hashlib.md5(x.encode('utf-8')).hexdigest()[0:8])
     df_event['Occurrences'] = df_event['EventTemplate'].map(occ_dict)
 
-    df_event.to_csv(os.path.join(para['savePath'], para['dataName'] + "_templates.csv"), index=False, columns=["EventId", "EventTemplate", "Occurrences"])
-    matched_df.to_csv(os.path.join(para['savePath'], para['dataName'] + "_structured.csv"), index=False)
-    print('Parsing done. [Time: {!s}]'.format(datetime.now() - startTime))
+    df_event.to_csv(os.path.join(para['savePath'], para['dataName'] + "_templates.csv"), index=False, columns=["EventId", "EventTemplate", "Occurrences"], encoding='utf-8')
+    matched_df.to_csv(os.path.join(para['savePath'], para['dataName'] + "_structured.csv"), index=False, encoding='utf-8')
+    endTime = datetime.now()
+    print('Parsing done. [Time: {!s}]'.format(endTime - startTime))
+
+    with open("PT_SLCT.txt", "a") as f:
+	f.write(para['dataName'].split('.')[0]+' '+str(endTime-startTime)+'\n')
 
 def extract_command(para, logname):
     support = para['support']
@@ -112,7 +116,7 @@ def log_to_dataframe(log_file, regex, headers, logformat):
     ''' Function to transform log file to dataframe '''
     log_messages = []
     linecount = 0
-    with open(log_file, 'r') as fin:
+    with codecs.open(log_file, 'r', encoding='utf-8', errors='ignore') as fin:
         for line in fin.readlines():
             try:
                 match = regex.search(line.strip())
@@ -163,7 +167,7 @@ def tempProcess(tempPara):
         for line in tl:
             templates.append([0, line.strip(), 0])
 
-    pd.DataFrame(templates, columns=["EventId","EventTemplate","Occurrences"]).to_csv("temp_templates.csv", index=False)
+    pd.DataFrame(templates, columns=["EventId","EventTemplate","Occurrences"]).to_csv("temp_templates.csv", index=False, encoding='utf-8')
 
 
 
