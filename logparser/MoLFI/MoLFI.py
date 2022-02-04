@@ -17,7 +17,6 @@ from .main.org.core.utility.match_utility import match
 from .main.org.core.metaheuristics.NSGA_II_2D import main
 from datetime import datetime
 
-
 class LogParser():
     def __init__(self, indir, outdir, log_format, rex=[], n_workers=1):
         self.input_dir = indir
@@ -37,7 +36,7 @@ class LogParser():
                 return " ".join(template.token)
 
     def parse(self, log_file):
-        starttime = datetime.now() 
+        starttime = datetime.now()
         loader = logloader.LogLoader(self.log_format, self.n_workers)
         log_dataframe = loader.load_to_dataframe(os.path.join(self.input_dir, log_file))
         chrom_gen = ChromosomeGenerator(log_dataframe, self.rex)
@@ -56,6 +55,8 @@ class LogParser():
         df_event['EventId'] = df_event['EventTemplate'].map(lambda x: hashlib.md5(x.encode('utf-8')).hexdigest()[0:8])
         df_event.to_csv(os.path.join(self.output_dir, log_file + '_templates.csv'), index=False, columns=["EventId", "EventTemplate", "Occurrences"])
         log_dataframe.to_csv(os.path.join(self.output_dir, log_file + '_structured.csv'), index=False)
-        print('Parsing done. [Time taken: {!s}]'.format(datetime.now() - starttime))
-        
+        endtime = datetime.now()
+        print('Parsing done. [Time taken: {!s}]'.format(endtime - starttime))
 
+        with open("PT_MoLFI.txt", "a") as f:
+            f.write(log_file.split('.')[0]+' '+str(endtime-starttime)+'\n')
