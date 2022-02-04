@@ -65,7 +65,7 @@ benchmark_settings = {
         'regex': [r'(\d+\.){3}\d+', r'\d{2}:\d{2}:\d{2}']
         },
 
-    'Andriod': {
+    'Android': {
         'log_file': 'Andriod/Andriod_2k.log',
         'log_format': '<Date> <Time>  <Pid>  <Tid> <Level> <Component>: <Content>',
         'regex': [r'(/[\w-]+)+', r'([\w-]+\.){2,}[\w-]+', r'\b(\-?\+?\d+)\b|\b0[Xx][a-fA-F\d]+\b|\b[a-fA-F\d]{4,}\b']
@@ -88,7 +88,7 @@ benchmark_settings = {
         'log_format': '\[<Time>\] <Program> - <Content>',
         'regex': [r'<\d+\ssec', r'([\w-]+\.)+[\w-]+(:\d+)?', r'\d{2}:\d{2}(:\d{2})*', r'[KGTM]B'],
         },
-        
+
     'OpenSSH': {
         'log_file': 'OpenSSH/OpenSSH_2k.log',
         'log_format': '<Date> <Day> <Time> <Component> sshd\[<Pid>\]: <Content>',
@@ -116,7 +116,7 @@ for dataset, setting in benchmark_settings.items():
 
     parser = MoLFI.LogParser(log_format=setting['log_format'], indir=indir, outdir=output_dir, rex=setting['regex'])
     parser.parse(log_file)
-    
+
     F1_measure, accuracy = evaluator.evaluate(
                            groundtruth=os.path.join(indir, log_file + '_structured.csv'),
                            parsedresult=os.path.join(output_dir, log_file + '_structured.csv')
