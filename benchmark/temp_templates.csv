@@ -1,1046 +1,465 @@
 EventId,EventTemplate,Occurrences
-0,<*> open through proxy <*> SOCKS5,0
-0,<*> open through proxy <*> HTTPS,0
-0,"<*> close, <*> bytes sent, <*> bytes received, lifetime <*>",0
-0,"<*> close, <*> bytes sent, 196 bytes received, lifetime <*>",0
-0,"<*> close, 816 bytes sent, <*> bytes received, lifetime <*>",0
-0,"<*> close, <*> bytes sent, 254 bytes received, lifetime <*>",0
-0,"<*> close, 674 bytes sent, <*> bytes received, lifetime <*>",0
-0,"<*> close, <*> bytes sent, 195 bytes received, lifetime <*>",0
-0,"<*> close, 204 bytes sent, <*> bytes received, lifetime <*>",0
-0,"<*> close, 783 bytes sent, <*> bytes received, lifetime <*>",0
-0,"<*> close, 8<*> bytes sent, 264 bytes received, lifetime <*>",0
-0,"<*> close, 807 bytes sent, <*> bytes received, lifetime <*>",0
-0,"<*> close, <*> bytes sent, 857 bytes received, lifetime <*>",0
-0,"<*> close, <*> bytes sent, 166 bytes received, lifetime <*>",0
-0,"<*> close, 286 bytes sent, <*> bytes received, lifetime <*>",0
-0,"<*> close, 26<*> bytes sent, 70 bytes received, lifetime <*>",0
-0,"<*> close, 303 bytes sent, <*> bytes received, lifetime <*>",0
-0,"<*> close, 787 bytes sent, <*> bytes received, lifetime <*>",0
-0,"<*> close, <*> bytes sent, 139 bytes received, lifetime <*>",0
-0,"<*> close, <*> bytes sent, 535 bytes received, lifetime <*>",0
-0,"<*> close, <*> bytes sent, 147 bytes received, lifetime <*>",0
-0,"<*> close, 0 bytes sent, <*> bytes received, lifetime <*>",0
-0,"<*> close, <*> bytes <*> <*>) sent, <*> bytes received, lifetime <*>",0
-0,"<*> close, 850 bytes sent, <*> bytes received, lifetime <*>",0
-0,"<*> close, 747 bytes sent, 40<*> bytes received, lifetime <*>",0
-0,"<*> close, 458 bytes sent, <*> bytes received, lifetime <*>",0
-0,"<*> close, 7<*> bytes sent, 229 bytes received, lifetime <*>",0
-0,"<*> close, <*> bytes sent, 176 bytes received, lifetime <*>",0
-0,"<*> close, 655 bytes sent, 2<*> bytes received, lifetime <*>",0
-0,"<*> close, <*> bytes sent, 145 bytes received, lifetime <*>",0
-0,"<*> close, 357 bytes sent, <*> bytes received, lifetime <*>",0
-0,"<*> close, 631 bytes sent, <*> bytes received, lifetime <*>",0
-0,"<*> close, 4<*> bytes sent, 419 bytes received, lifetime <*>",0
-0,"<*> close, 6<*> bytes sent, 579 bytes received, lifetime <*>",0
-0,"<*> close, <*> bytes sent, 404 bytes received, lifetime <*>",0
-0,"<*> close, 915 bytes sent, <*> bytes received, lifetime <*>",0
-0,"<*> close, <*> bytes sent, 368 bytes received, lifetime <*>",0
-0,"<*> close, <*> bytes sent, 347 bytes received, lifetime <*>",0
-0,"<*> close, 735 bytes sent, <*> bytes received, lifetime <*>",0
-0,"<*> close, 795 bytes sent, <*> bytes received, lifetime <*>",0
-0,"<*> close, 435 bytes sent, <*> bytes received, lifetime <*>",0
-0,"<*> close, <*> bytes sent, 384 bytes received, lifetime <*>",0
-0,"<*> close, 1012 bytes sent, <*> bytes received, lifetime <*>",0
-0,"<*> close, 504 bytes sent, <*> bytes received, lifetime <*>",0
-0,"<*> close, 968 bytes sent, <*> bytes received, lifetime <*>",0
-0,"<*> close, 9<*> bytes sent, 398 bytes received, lifetime <*>",0
-0,"<*> close, <*> bytes sent, 348 bytes received, lifetime <*>",0
-0,"<*> close, 627 bytes sent, <*> bytes received, lifetime <*>",0
-0,"<*> close, 944 bytes sent, <*> bytes received, lifetime <*>",0
-0,"<*> close, <*> bytes sent, 310 bytes received, lifetime <*>",0
-0,"<*> close, <*> bytes sent, 889 bytes received, lifetime <*>",0
-0,"<*> close, 494 bytes sent, <*> bytes received, lifetime <*>",0
-0,"<*> close, <*> bytes sent, 320 bytes received, lifetime <*>",0
-0,"<*> close, 555 bytes sent, <*> bytes received, lifetime <*>",0
-0,"<*> close, <*> bytes sent, 392 bytes received, lifetime <*>",0
-0,"<*> close, 1007 bytes sent, <*> bytes received, lifetime <*>",0
-0,"<*> close, 419 bytes sent, 72<*> bytes received, lifetime <*>",0
-0,"<*> close, <*> bytes sent, 388 bytes received, lifetime <*>",0
-0,"<*> close, 896 bytes sent, <*> bytes received, lifetime <*>",0
-0,"<*> close, 671 bytes sent, <*> bytes received, lifetime <*>",0
-0,"<*> close, 548 bytes sent, <*> bytes received, lifetime <*>",0
-0,"<*> close, <*> bytes sent, 409 bytes received, lifetime <*>",0
-0,"<*> close, <*> bytes sent, 523 bytes received, lifetime <*>",0
-0,"<*> close, 923 bytes sent, <*> bytes received, lifetime <*>",0
-0,"<*> close, 568 bytes sent, <*> bytes received, lifetime <*>",0
-0,"<*> close, <*> bytes sent, 0 bytes received, lifetime <*>",0
-0,"<*> close, 5 bytes sent, <*> bytes received, lifetime <*>",0
-0,"<*> close, <*> bytes sent, 163 bytes received, lifetime <*>",0
-0,"<*> close, 960 bytes sent, <*> bytes received, lifetime <*>",0
-0,"<*> close, 429 bytes sent, <*> bytes received, lifetime <*>",0
-0,"<*> close, 964 bytes sent, <*> bytes received, lifetime <*>",0
-0,"<*> close, 902 bytes sent, <*> bytes received, lifetime <*>",0
-0,"<*> close, <*> bytes sent, 39 bytes received, lifetime <*>",0
-0,"<*> close, 451 bytes sent, 3<*> bytes received, lifetime <*>",0
-0,"<*> close, <*> bytes sent, 323 bytes received, lifetime <*>",0
-0,"<*> close, <*> bytes sent, 336 bytes received, lifetime <*>",0
-0,"<*> close, <*> bytes sent, 316 bytes received, lifetime <*>",0
-0,"<*> close, 666 bytes sent, <*> bytes received, lifetime <*>",0
-0,"<*> close, <*> bytes sent, 410 bytes received, lifetime <*>",0
-0,"<*> close, 724 bytes sent, <*> bytes received, lifetime <*>",0
-0,"<*> close, 484 bytes sent, <*> bytes received, lifetime <*>",0
-0,"<*> close, <*> bytes sent, 324 bytes received, lifetime <*>",0
-0,"<*> close, <*> bytes sent, 387 bytes received, lifetime <*>",0
-0,"<*> close, <*> bytes sent, 590 bytes received, lifetime <*>",0
-0,"<*> close, <*> bytes sent, 507 bytes received, lifetime <*>",0
-0,"<*> close, <*> bytes sent, 269 bytes received, lifetime <*>",0
-0,"<*> close, <*> bytes sent, <*> bytes <*> <*>) received, lifetime <*>",0
-0,"<*> close, 4<*> bytes sent, 426 bytes received, lifetime <*>",0
-0,"<*> close, <*> bytes sent, 358 bytes received, lifetime <*>",0
-0,"<*> close, 441 bytes sent, <*> bytes received, lifetime <*>",0
-0,"<*> close, <*> bytes sent, 378 bytes received, lifetime <*>",0
-0,"<*> close, 406 bytes sent, 5<*> bytes received, lifetime <*>",0
-0,"<*> close, 628 bytes sent, <*> bytes received, lifetime <*>",0
-0,"<*> close, 852 bytes sent, <*> bytes received, lifetime <*>",0
-0,"<*> close, 9<*> bytes sent, 784 bytes received, lifetime <*>",0
-0,"<*> close, 607 bytes sent, <*> bytes received, lifetime <*>",0
-0,"<*> close, 651 bytes sent, <*> bytes received, lifetime <*>",0
-0,"<*> close, 859 bytes sent, <*> bytes received, lifetime <*>",0
-0,"<*> close, 791 bytes sent, <*> bytes received, lifetime <*>",0
-0,"<*> close, <*> bytes sent, 454 bytes received, lifetime <*>",0
-0,"<*> close, 9<*> bytes sent, 326 bytes received, lifetime <*>",0
-0,"<*> close, 729 bytes sent, <*> bytes received, lifetime <*>",0
-0,"<*> close, 715 bytes sent, <*> bytes received, lifetime <*>",0
-0,"<*> close, <*>7 bytes sent, 277 bytes received, lifetime <*>",0
-0,"<*> close, <*> bytes sent, 278 bytes received, lifetime <*>",0
-0,"<*> close, 608 bytes sent, <*> bytes received, lifetime <*>",0
-0,"<*> close, 489 bytes sent, <*> bytes received, lifetime <*>",0
-0,"<*> close, <*> bytes sent, 344 bytes received, lifetime <*>",0
-0,"<*> close, 483 bytes sent, <*> bytes received, lifetime <*>",0
-0,"<*> close, <*> bytes sent, 334 bytes received, lifetime <*>",0
-0,"<*> close, 408 bytes sent, <*> bytes received, lifetime <*>",0
-0,"<*> close, <*> bytes sent, 248 bytes received, lifetime <*>",0
-0,"<*> close, 383 bytes sent, 5<*> bytes received, lifetime <*>",0
-0,"<*> close, 674 bytes sent, 254 bytes received, lifetime <*>",0
-0,"<*> close, 673 bytes sent, 254 bytes received, lifetime <*>",0
-0,"<*> close, 672 bytes sent, 254 bytes received, lifetime <*>",0
-0,"<*> close, 289 bytes sent, 176 bytes received, lifetime <*>",0
-0,"<*> close, 666 bytes sent, 254 bytes received, lifetime <*>",0
-0,"<*> close, 856 bytes sent, 195 bytes received, lifetime <*>",0
-0,"<*> close, 668 bytes sent, 254 bytes received, lifetime <*>",0
-0,"<*> close, 568 bytes sent, 137 bytes received, lifetime <*>",0
-0,"<*> close, 665 bytes sent, 254 bytes received, lifetime <*>",0
-0,"<*> close, 289 bytes sent, 145 bytes received, lifetime <*>",0
-0,"<*> close, 667 bytes sent, 254 bytes received, lifetime <*>",0
-0,"<*> close, 810 bytes sent, 502 bytes received, lifetime <*>",0
-0,"<*> close, 809 bytes sent, 502 bytes received, lifetime <*>",0
-0,"<*> close, 847 bytes sent, 195 bytes received, lifetime <*>",0
-0,"<*> close, 809 bytes sent, 0 bytes received, lifetime <*>",0
-0,"<*> close, 454 bytes sent, 419 bytes received, lifetime <*>",0
-0,"<*> close, 722 bytes sent, 701 bytes received, lifetime <*>",0
-0,"<*> close, 652 bytes sent, 579 bytes received, lifetime <*>",0
-0,"<*> close, 653 bytes sent, 579 bytes received, lifetime <*>",0
-0,"<*> close, 759 bytes sent, 701 bytes received, lifetime <*>",0
-0,"<*> close, 457 bytes sent, 419 bytes received, lifetime <*>",0
-0,"<*> close, 656 bytes sent, 579 bytes received, lifetime <*>",0
-0,"<*> close, 408 bytes sent, 458 bytes received, lifetime <*>",0
-0,"<*> close, 423 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 985 bytes sent, 463 bytes received, lifetime <*>",0
-0,"<*> close, <*> bytes <*> <*>) sent, 616 bytes received, lifetime <*>",0
-0,"<*> close, 745 bytes sent, 229 bytes received, lifetime <*>",0
-0,"<*> close, 192 bytes sent, 134 bytes received, lifetime <*>",0
-0,"<*> close, 184 bytes sent, 134 bytes received, lifetime <*>",0
-0,"<*> close, 180 bytes sent, 413 bytes received, lifetime <*>",0
-0,"<*> close, 568 bytes sent, 187 bytes received, lifetime <*>",0
-0,"<*> close, 568 bytes sent, 227 bytes received, lifetime <*>",0
-0,"<*> close, 799 bytes sent, 330 bytes received, lifetime <*>",0
-0,"<*> close, 262 bytes sent, 70 bytes received, lifetime <*>",0
-0,"<*> close, 396 bytes sent, 226 bytes received, lifetime <*>",0
-0,"<*> close, 446 bytes sent, <*> bytes <*> <*>) received, lifetime <*>",0
-0,"<*> close, 409 bytes sent, 161 bytes received, lifetime <*>",0
-0,"<*> close, <*> bytes (<*> <*>) sent, 156 bytes received, lifetime <*>",0
-0,"<*> close, 357 bytes sent, 484 bytes received, lifetime <*>",0
-0,"<*> close, 281 bytes sent, 156 bytes received, lifetime <*>",0
-0,"<*> close, 281 bytes sent, 187 bytes received, lifetime <*>",0
-0,"<*> close, 568 bytes sent, 160 bytes received, lifetime <*>",0
-0,"<*> close, 568 bytes sent, 152 bytes received, lifetime <*>",0
-0,"<*> close, 836 bytes sent, 388 bytes received, lifetime <*>",0
-0,"<*> close, 403 bytes sent, 586 bytes received, lifetime <*>",0
-0,"<*> close, 733 bytes sent, 292 bytes received, lifetime <*>",0
-0,"<*> close, 204 bytes sent, 117 bytes received, lifetime <*>",0
-0,"<*> close, 357 bytes sent, 500 bytes received, lifetime <*>",0
-0,"<*> close, 632 bytes sent, 371 bytes received, lifetime <*>",0
-0,"<*> close, 859 bytes sent, 368 bytes received, lifetime <*>",0
-0,"<*> close, 441 bytes sent, 139 bytes received, lifetime <*>",0
-0,"<*> close, 627 bytes sent, 277 bytes received, lifetime <*>",0
-0,"<*> close, 545 bytes sent, 278 bytes received, lifetime <*>",0
-0,"<*> close, 548 bytes sent, 166 bytes received, lifetime <*>",0
-0,"<*> close, 561 bytes sent, 166 bytes received, lifetime <*>",0
-0,"<*> close, 671 bytes sent, 328 bytes received, lifetime <*>",0
-0,"<*> close, 651 bytes sent, 328 bytes received, lifetime <*>",0
-0,"<*> close, 734 bytes sent, 229 bytes received, lifetime <*>",0
-0,"<*> close, 389 bytes sent, 410 bytes received, lifetime <*>",0
-0,"<*> close, 568 bytes sent, 156 bytes received, lifetime <*>",0
-0,"<*> close, 568 bytes sent, 225 bytes received, lifetime <*>",0
-0,"<*> close, 743 bytes sent, 229 bytes received, lifetime <*>",0
-0,"<*> close, 733 bytes sent, 151 bytes received, lifetime <*>",0
-0,"<*> close, 985 bytes sent, 447 bytes received, lifetime <*>",0
-0,"<*> close, 425 bytes sent, 161 bytes received, lifetime <*>",0
-0,"<*> close, 410 bytes sent, 458 bytes received, lifetime <*>",0
-0,"<*> close, 568 bytes sent, 223 bytes received, lifetime <*>",0
-0,"<*> close, 494 bytes sent, 208 bytes received, lifetime <*>",0
-0,"<*> close, 733 bytes sent, 229 bytes received, lifetime <*>",0
-0,"<*> close, 899 bytes sent, 348 bytes received, lifetime <*>",0
-0,"<*> close, 403 bytes sent, 584 bytes received, lifetime <*>",0
-0,"<*> close, 787 bytes sent, 191 bytes received, lifetime <*>",0
-0,"<*> close, 358 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 944 bytes sent, 783 bytes received, lifetime <*>",0
-0,"<*> close, 866 bytes sent, 401 bytes received, lifetime <*>",0
-0,"<*> close, 435 bytes sent, 356 bytes received, lifetime <*>",0
-0,"<*> close, 725 bytes sent, 313 bytes received, lifetime <*>",0
-0,"<*> close, 643 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 589 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 942 bytes sent, 398 bytes received, lifetime <*>",0
-0,"<*> close, 731 bytes sent, 310 bytes received, lifetime <*>",0
-0,"<*> close, 725 bytes sent, 310 bytes received, lifetime <*>",0
-0,"<*> close, 697 bytes sent, 889 bytes received, lifetime <*>",0
-0,"<*> close, 970 bytes sent, 297 bytes received, lifetime <*>",0
-0,"<*> close, 941 bytes sent, 398 bytes received, lifetime <*>",0
-0,"<*> close, 941 bytes sent, 401 bytes received, lifetime <*>",0
-0,"<*> close, 786 bytes sent, 348 bytes received, lifetime <*>",0
-0,"<*> close, 728 bytes sent, 310 bytes received, lifetime <*>",0
-0,"<*> close, 722 bytes sent, 310 bytes received, lifetime <*>",0
-0,"<*> close, 694 bytes sent, 876 bytes received, lifetime <*>",0
-0,"<*> close, 587 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 968 bytes sent, 272 bytes received, lifetime <*>",0
-0,"<*> close, 526 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 531 bytes sent, <*> bytes <*> <*>) received, lifetime <*>",0
-0,"<*> close, 451 bytes sent, 356 bytes received, lifetime <*>",0
-0,"<*> close, 904 bytes sent, 404 bytes received, lifetime <*>",0
-0,"<*> close, 902 bytes sent, 404 bytes received, lifetime <*>",0
-0,"<*> close, 933 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 326 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 972 bytes sent, 784 bytes received, lifetime <*>",0
-0,"<*> close, 986 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 339 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 425 bytes sent, 322 bytes received, lifetime <*>",0
-0,"<*> close, 5 bytes sent, 0 bytes received, lifetime <*>",0
-0,"<*> close, 983 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 441 bytes sent, 687 bytes received, lifetime <*>",0
-0,"<*> close, 493 bytes sent, 523 bytes received, lifetime <*>",0
-0,"<*> close, 466 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 477 bytes sent, 448 bytes received, lifetime <*>",0
-0,"<*> close, 149 bytes sent, 121 bytes received, lifetime <*>",0
-0,"<*> close, 149 bytes sent, 0 bytes received, lifetime <*>",0
-0,"<*> close, 793 bytes sent, 180 bytes received, lifetime <*>",0
-0,"<*> close, 960 bytes sent, 784 bytes received, lifetime <*>",0
-0,"<*> close, 948 bytes sent, 782 bytes received, lifetime <*>",0
-0,"<*> close, 989 bytes sent, 590 bytes received, lifetime <*>",0
-0,"<*> close, 799 bytes sent, 186 bytes received, lifetime <*>",0
-0,"<*> close, 538 bytes sent, 417 bytes received, lifetime <*>",0
-0,"<*> close, 793 bytes sent, 191 bytes received, lifetime <*>",0
-0,"<*> close, 777 bytes sent, 191 bytes received, lifetime <*>",0
-0,"<*> close, 811 bytes sent, 186 bytes received, lifetime <*>",0
-0,"<*> close, 993 bytes sent, 590 bytes received, lifetime <*>",0
-0,"<*> close, 830 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 795 bytes sent, 191 bytes received, lifetime <*>",0
-0,"<*> close, 651 bytes sent, 346 bytes received, lifetime <*>",0
-0,"<*> close, 779 bytes sent, 330 bytes received, lifetime <*>",0
-0,"<*> close, 691 bytes sent, 184 bytes received, lifetime <*>",0
-0,"<*> close, 735 bytes sent, 184 bytes received, lifetime <*>",0
-0,"<*> close, 133 bytes sent, 0 bytes received, lifetime <*>",0
-0,"<*> close, <*> bytes <*> <*>) sent, <*> bytes <*> <*>) received, lifetime <*>",0
-0,"<*> close, 859 bytes sent, 316 bytes received, lifetime <*>",0
-0,"<*> close, 809 bytes sent, 186 bytes received, lifetime <*>",0
-0,"<*> close, 803 bytes sent, 186 bytes received, lifetime <*>",0
-0,"<*> close, 791 bytes sent, 778 bytes received, lifetime <*>",0
-0,"<*> close, 946 bytes sent, 783 bytes received, lifetime <*>",0
-0,"<*> close, 451 bytes sent, 353 bytes received, lifetime <*>",0
-0,"<*> close, 435 bytes sent, 353 bytes received, lifetime <*>",0
-0,"<*> close, 85 bytes sent, 45 bytes received, lifetime <*>",0
-0,"<*> close, 441 bytes sent, 684 bytes received, lifetime <*>",0
-0,"<*> close, 956 bytes sent, 782 bytes received, lifetime <*>",0
-0,"<*> close, 489 bytes sent, 563 bytes received, lifetime <*>",0
-0,"<*> close, 716 bytes sent, 805 bytes received, lifetime <*>",0
-0,"<*> close, 952 bytes sent, 782 bytes received, lifetime <*>",0
-0,"<*> close, 716 bytes sent, 808 bytes received, lifetime <*>",0
-0,"<*> close, 439 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, <*> bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, <*> bytes (<*> <*>) sent, <*> bytes received, lifetime <*>",0
-0,"<*> close, 0 bytes sent, 0 bytes received, lifetime <*>",0
-0,"<*> close, 1160 bytes (<*> <*>) sent, <*> bytes received, lifetime <*>",0
-0,"<*> close, <*> bytes (<*> <*>) sent, 378 bytes received, lifetime <*>",0
-0,"<*> close, 835 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, <*> bytes (<*> <*>) sent, 702 bytes received, lifetime <*>",0
-0,"<*> close, 889 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1107 bytes (<*> <*>) sent, <*> bytes received, lifetime <*>",0
-0,"<*> close, 388 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1<*> bytes (<*> <*>) sent, 471 bytes received, lifetime <*>",0
-0,"<*> close, 9<*> bytes sent, 2668 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1<*> bytes <*> <*>) sent, 272<*> bytes (266 <*>) received, lifetime <*>",0
-0,"<*> close, 911 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 476 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, <*> bytes (<*> <*>) sent, 429 bytes received, lifetime <*>",0
-0,"<*> close, 887 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 466 bytes sent, <*>0 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1369 bytes (<*> <*>) sent, <*> bytes received, lifetime <*>",0
-0,"<*> close, 595 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 2570 bytes (<*> <*>) sent, 6<*> bytes received, lifetime <*>",0
-0,"<*> close, 1050 bytes (<*> <*>) sent, <*> bytes received, lifetime <*>",0
-0,"<*> close, 913 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 158 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1738 bytes (<*> <*>) sent, <*> bytes received, lifetime <*>",0
-0,"<*> close, 1343 bytes (<*> <*>) sent, <*> bytes received, lifetime <*>",0
-0,"<*> close, 820 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 983 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 384 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 379 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 291 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1220 bytes (<*> <*>) sent, <*> bytes received, lifetime <*>",0
-0,"<*> close, 334 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1021 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, <*> bytes (<*> <*>) sent, 754 bytes received, lifetime <*>",0
-0,"<*> close, <*> bytes (<*> <*>) sent, 917 bytes received, lifetime <*>",0
-0,"<*> close, 892 bytes sent, 1<*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, <*> bytes sent, 32788 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 314 bytes sent, 10<*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 781 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 459 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 754 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 690 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 738 bytes sent, 1<*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1576 bytes (<*> <*>) sent, <*> bytes received, lifetime <*>",0
-0,"<*> close, 11<*> bytes (<*> <*>) sent, 666 bytes received, lifetime <*>",0
-0,"<*> close, 335 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 797 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 471 bytes sent, 4<*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 999 bytes sent, 4<*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 330 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1207 bytes (<*> <*>) sent, <*> bytes received, lifetime <*>",0
-0,"<*> close, 427 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1387 bytes (<*> <*>) sent, 4<*> bytes received, lifetime <*>",0
-0,"<*> close, 909 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 324 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 523 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1190 bytes (<*> <*>) sent, <*> bytes received, lifetime <*>",0
-0,"<*> close, 328 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 775 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, <*> bytes (<*> <*>) sent, 736 bytes received, lifetime <*>",0
-0,"<*> close, 457 bytes sent, 47<*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 674 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 296 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1<*> bytes (<*> <*>) sent, 607 bytes received, lifetime <*>",0
-0,"<*> close, <*> bytes sent, 2424 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, <*> bytes sent, 4385 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1910 bytes (<*> <*>) sent, <*> bytes received, lifetime <*>",0
-0,"<*> close, 2590 bytes (<*> <*>) sent, <*> bytes received, lifetime <*>",0
-0,"<*> close, 332 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 327 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 329 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, <*> bytes (<*> <*>) sent, 959 bytes received, lifetime <*>",0
-0,"<*> close, 1<*> bytes (<*> <*>) sent, 333 bytes received, lifetime <*>",0
-0,"<*> close, 951 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1045 bytes (<*> <*>) sent, 57<*> bytes received, lifetime <*>",0
-0,"<*> close, 1<*> bytes (<*> <*>) sent, 113 bytes received, lifetime <*>",0
-0,"<*> close, 580 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 369 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 36<*> bytes sent, 3805 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 942 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 759 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 473 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 927 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1344 bytes (<*> <*>) sent, <*> bytes received, lifetime <*>",0
-0,"<*> close, 1957 bytes (<*> <*>) sent, <*> bytes received, lifetime <*>",0
-0,"<*> close, 1<*> bytes (<*> <*>) sent, 233 bytes received, lifetime <*>",0
-0,"<*> close, <*> bytes (<*> <*>) sent, 332 bytes received, lifetime <*>",0
-0,"<*> close, <*> bytes (<*> <*>) sent, 229 bytes received, lifetime <*>",0
-0,"<*> close, 629 bytes sent, 8<*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 10<*> bytes (<*> <*>) sent, 311 bytes received, lifetime <*>",0
-0,"<*> close, 948 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 356 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 814 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, <*> bytes (<*> <*>) sent, 289 bytes received, lifetime <*>",0
-0,"<*> close, 706 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 863 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 864 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 837 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 442 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 2567 bytes (<*> <*>) sent, <*> bytes received, lifetime <*>",0
-0,"<*> close, 452 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 924 bytes sent, 23<*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 926 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1<*> bytes (<*> <*>) sent, 576 bytes received, lifetime <*>",0
-0,"<*> close, 358 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1303 bytes (<*> <*>) sent, <*> bytes received, lifetime <*>",0
-0,"<*> close, <*> bytes sent, 4868 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 709 bytes sent, 485<*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 715 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 643 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 978 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 991 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 526 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1377 bytes (<*> <*>) sent, <*> bytes received, lifetime <*>",0
-0,"<*> close, 259 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, <*> bytes (<*> <*>) sent, 626 bytes received, lifetime <*>",0
-0,"<*> close, 1<*> bytes (<*> <*>) sent, 491 bytes received, lifetime <*>",0
-0,"<*> close, 11<*> bytes (<*> <*>) sent, 406 bytes received, lifetime <*>",0
-0,"<*> close, 2<*> bytes (<*> <*>) sent, 665 bytes received, lifetime <*>",0
-0,"<*> close, 1111 bytes (<*> <*>) sent, <*> bytes received, lifetime <*>",0
-0,"<*> close, <*> bytes (<*> <*>) sent, 648 bytes received, lifetime <*>",0
-0,"<*> close, 2<*> bytes (<*> <*>) sent, 659 bytes received, lifetime <*>",0
-0,"<*> close, <*> bytes (<*> <*>) sent, 279 bytes received, lifetime <*>",0
-0,"<*> close, 25<*> bytes (<*> <*>) sent, 317 bytes received, lifetime <*>",0
-0,"<*> close, 1424 bytes (<*> <*>) sent, 68<*> bytes received, lifetime <*>",0
-0,"<*> close, 1423 bytes (<*> <*>) sent, <*> bytes received, lifetime <*>",0
-0,"<*> close, <*> bytes sent, 3235 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1<*> bytes (<*> <*>) sent, 375 bytes received, lifetime <*>",0
-0,"<*> close, 1<*> bytes (<*> <*>) sent, 505 bytes received, lifetime <*>",0
-0,"<*> close, 1065 bytes (<*> <*>) sent, 3<*> bytes received, lifetime <*>",0
-0,"<*> close, 1<*> bytes (<*> <*>) sent, 245 bytes received, lifetime <*>",0
-0,"<*> close, <*> bytes (<*> <*>) sent, 902 bytes received, lifetime <*>",0
-0,"<*> close, 921 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 869 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 867 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 484 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 901 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 902 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 22<*> bytes (<*> <*>) sent, 812 bytes received, lifetime <*>",0
-0,"<*> close, <*> bytes (<*> <*>) sent, 816 bytes received, lifetime <*>",0
-0,"<*> close, <*> bytes (<*> <*>) sent, 331 bytes received, lifetime <*>",0
-0,"<*> close, 2<*> bytes (<*> <*>) sent, 822 bytes received, lifetime <*>",0
-0,"<*> close, <*> bytes (<*> <*>) sent, 1016 bytes received, lifetime <*>",0
-0,"<*> close, 6<*> bytes sent, 2052 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 258<*> bytes (<*> <*>) sent, 320 bytes received, lifetime <*>",0
-0,"<*> close, 437 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 872 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1047 bytes (<*> <*>) sent, <*> bytes received, lifetime <*>",0
-0,"<*> close, 1341 bytes (<*> <*>) sent, <*> bytes received, lifetime <*>",0
-0,"<*> close, 898 bytes sent, 1<*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1022 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1008 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1205 bytes (<*> <*>) sent, 3<*> bytes received, lifetime <*>",0
-0,"<*> close, 810 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 576 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 415 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 946 bytes sent, 2<*>8 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, <*> bytes (<*> <*>) sent, 420 bytes received, lifetime <*>",0
-0,"<*> close, <*> bytes (<*> <*>) sent, 268 bytes received, lifetime <*>",0
-0,"<*> close, 1318 bytes (<*> <*>) sent, <*> bytes received, lifetime <*>",0
-0,"<*> close, 1<*> bytes (<*> <*>) sent, 427 bytes received, lifetime <*>",0
-0,"<*> close, 1130 bytes (<*> <*>) sent, <*> bytes received, lifetime <*>",0
-0,"<*> close, 1<*> bytes (<*> <*>) sent, 0 bytes received, lifetime <*>",0
-0,"<*> close, 24<*> bytes (<*> <*>) sent, 1010 bytes received, lifetime <*>",0
-0,"<*> close, 1010 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, <*> bytes (<*> <*>) sent, 750 bytes received, lifetime <*>",0
-0,"<*> close, 513 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 10<*> bytes (<*> <*>) sent, 345 bytes received, lifetime <*>",0
-0,"<*> close, 474 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 890 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 433 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1108 bytes (<*> <*>) sent, <*> bytes received, lifetime <*>",0
-0,"<*> close, 1012 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 478 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 596 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 618 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 531 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 937 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 533 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1929 bytes (<*> <*>) sent, <*> bytes received, lifetime <*>",0
-0,"<*> close, 960 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 976 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 849 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 557 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1<*> bytes (<*> <*>) sent, 598 bytes received, lifetime <*>",0
-0,"<*> close, <*> bytes (<*> <*>) sent, 663 bytes received, lifetime <*>",0
-0,"<*> close, 1<*> bytes (<*> <*>) sent, 419 bytes received, lifetime <*>",0
-0,"<*> close, <*> bytes (<*> <*>) sent, 411 bytes received, lifetime <*>",0
-0,"<*> close, 930 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 962 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 789 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 833 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 263 bytes sent, 2<*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 499 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1000 bytes sent, 4<*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1051 bytes (<*> <*>) sent, <*> bytes received, lifetime <*>",0
-0,"<*> close, 748 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 553 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, <*> bytes sent, 3231 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 915 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 265 bytes sent, 2<*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 673 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, <*> bytes (<*> <*>) sent, 388 bytes received, lifetime <*>",0
-0,"<*> close, 2<*> bytes (<*> <*>) sent, 770 bytes received, lifetime <*>",0
-0,"<*> close, 343 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 600 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 336 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 357 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 574 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, <*> bytes (<*> <*>) sent, 654 bytes received, lifetime <*>",0
-0,"<*> close, <*> bytes sent, 4581 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1<*> bytes (<*> <*>) sent, 592 bytes received, lifetime <*>",0
-0,"<*> close, 351<*> bytes (<*> <*>) sent, 744 bytes received, lifetime <*>",0
-0,"<*> close, <*> bytes (<*> <*>) sent, 1014 bytes received, lifetime <*>",0
-0,"<*> close, 556 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, <*> bytes (<*> <*>) sent, 716 bytes received, lifetime <*>",0
-0,"<*> close, <*> bytes (<*> <*>) sent, 972 bytes received, lifetime <*>",0
-0,"<*> close, 765 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 733 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 586 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, <*> bytes (<*> <*>) sent, 327 bytes received, lifetime <*>",0
-0,"<*> close, 860 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1757 bytes (<*> <*>) sent, <*> bytes received, lifetime <*>",0
-0,"<*> close, 447 bytes sent, 2<*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 564 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 461 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 443 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 421 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 468 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, <*> bytes <*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, <*>1 bytes (<*> <*>) sent, 731 bytes received, lifetime <*>",0
-0,"<*> close, 856 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1007 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,<*> error : A connection request was canceled before the completion.,0
-0,"<*> close, 1013 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 571 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, <*> bytes (<*> <*>) sent, 692 bytes received, lifetime <*>",0
-0,"<*> close, 817 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 929 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1213 bytes (<*> <*>) sent, <*> bytes received, lifetime <*>",0
-0,"<*> close, 1228 bytes (<*> <*>) sent, <*> bytes received, lifetime <*>",0
-0,"<*> close, <*> bytes (<*> <*>) sent, 418 bytes received, lifetime <*>",0
-0,"<*> close, <*> bytes (<*> <*>) sent, 401 bytes received, lifetime <*>",0
-0,"<*> close, 470 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 2449 bytes (<*> <*>) sent, <*> bytes received, lifetime <*>",0
-0,"<*> close, 1204 bytes (<*> <*>) sent, <*> bytes received, lifetime <*>",0
-0,"<*> close, <*> bytes (<*> <*>) sent, 836 bytes received, lifetime <*>",0
-0,"<*> close, 2372 bytes (<*> <*>) sent, <*> bytes received, lifetime <*>",0
-0,"<*> close, <*> bytes (<*> <*>) sent, 938 bytes received, lifetime <*>",0
-0,"<*> close, 1<*> bytes (<*> <*>) sent, 540 bytes received, lifetime <*>",0
-0,"<*> close, 453 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1198 bytes (<*> <*>) sent, <*> bytes received, lifetime <*>",0
-0,"<*> close, 1206 bytes (<*> <*>) sent, <*> bytes received, lifetime <*>",0
-0,"<*> close, 1<*> bytes (<*> <*>) sent, 403 bytes received, lifetime <*>",0
-0,"<*> close, 1159 bytes (<*> <*>) sent, <*> bytes received, lifetime <*>",0
-0,"<*> close, 1248 bytes (<*> <*>) sent, <*> bytes received, lifetime <*>",0
-0,"<*> close, 1219 bytes (<*> <*>) sent, <*> bytes received, lifetime <*>",0
-0,"<*> close, 1301 bytes (<*> <*>) sent, <*> bytes received, lifetime <*>",0
-0,"<*> close, 939 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 938 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 469 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, <*> bytes (<*> <*>) sent, 421 bytes received, lifetime <*>",0
-0,"<*> close, <*> bytes (<*> <*>) sent, 842 bytes received, lifetime <*>",0
-0,"<*> close, <*> bytes (<*> <*>) sent, 976 bytes received, lifetime <*>",0
-0,"<*> close, 439 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1293 bytes (<*> <*>) sent, 4<*> bytes received, lifetime <*>",0
-0,"<*> close, 974 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 494 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 492 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 495 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1325 bytes (<*> <*>) sent, <*> bytes received, lifetime <*>",0
-0,"<*> close, 529 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 530 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, <*> bytes (<*> <*>) sent, 732 bytes received, lifetime <*>",0
-0,"<*> close, 1<*> bytes (<*> <*>) sent, 338 bytes received, lifetime <*>",0
-0,"<*> close, 1137 bytes (<*> <*>) sent, <*> bytes received, lifetime <*>",0
-0,"<*> close, <*> bytes (<*> <*>) sent, 408 bytes received, lifetime <*>",0
-0,"<*> close, 465 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 463 bytes sent, 4<*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, <*> bytes (<*> <*>) sent, 469 bytes received, lifetime <*>",0
-0,"<*> close, 414 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 460 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, <*> bytes (<*> <*>) sent, 944 bytes received, lifetime <*>",0
-0,"<*> close, 836 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 444 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 410 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 412 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, <*> bytes (<*> <*>) sent, 324 bytes received, lifetime <*>",0
-0,"<*> close, 431 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 904 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1<*> bytes (<*> <*>) sent, 365 bytes received, lifetime <*>",0
-0,"<*> close, 418 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 663 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 536 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 696 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 906 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 423 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 845 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 866 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1<*> bytes (<*> <*>) sent, 339 bytes received, lifetime <*>",0
-0,"<*> close, 434 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 432 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 428 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1<*> bytes (<*> <*>) sent, 366 bytes received, lifetime <*>",0
-0,"<*> close, <*> bytes (<*> <*>) sent, 340 bytes received, lifetime <*>",0
-0,"<*> close, 1165 bytes (<*> <*>) sent, <*> bytes received, lifetime <*>",0
-0,"<*> close, <*> bytes (<*> <*>) sent, <*> bytes <*> <*>) received, lifetime <*>",0
-0,"<*> close, 464 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1<*> bytes (<*> <*>) sent, 472 bytes received, lifetime <*>",0
-0,"<*> close, 446 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 440 bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 420 bytes sent, 1<*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1<*> bytes (<*> <*>) sent, 367 bytes received, lifetime <*>",0
-0,"<*> close, 1459 bytes (<*> <*>) sent, 415 bytes received, lifetime <*>",0
-0,"<*> close, 335 bytes sent, 3716 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 4837 bytes (<*> <*>) sent, <*> bytes <*> <*>) received, lifetime <*>",0
-0,"<*> close, 1323 bytes (<*> <*>) sent, 415 bytes received, lifetime <*>",0
-0,"<*> close, 948 bytes sent, 2670 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 946 bytes sent, 2668 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 835 bytes sent, 3191 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 911 bytes sent, 1249 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 974 bytes sent, 2668 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 976 bytes sent, 2670 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1163 bytes (<*> <*>) sent, <*> bytes <*> <*>) received, lifetime <*>",0
-0,"<*> close, 1047 bytes (<*> <*>) sent, 607 bytes received, lifetime <*>",0
-0,"<*> close, 696 bytes sent, 5019 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1738 bytes (<*> <*>) sent, 487 bytes received, lifetime <*>",0
-0,"<*> close, 2867 bytes (<*> <*>) sent, 1014 bytes received, lifetime <*>",0
-0,"<*> close, 296 bytes sent, 4748 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 643 bytes sent, 4385 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 327 bytes sent, 3699 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 811 bytes sent, 4066 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 447 bytes sent, 2098 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, <*> bytes (<*> <*>) sent, 20<*> bytes (197 <*>) received, lifetime <*>",0
-0,"<*> close, <*> bytes (<*> <*>) sent, <*> bytes (543 <*>) received, lifetime <*>",0
-0,"<*> close, 470 bytes sent, 4691 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 291 bytes sent, 4150 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 330 bytes sent, 4169 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 336 bytes sent, 3713 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 2917 bytes (<*> <*>) sent, 1<*> bytes <*> <*>) received, lifetime <*>",0
-0,"<*> close, 643 bytes sent, 3323 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 457 bytes sent, 4781 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 343 bytes sent, 3040 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 335 bytes sent, 3323 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 471 bytes sent, 4691 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 326 bytes sent, 5710 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 329 bytes sent, 3175 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 473 bytes sent, 4449 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 324 bytes sent, 3166 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 335 bytes sent, 3827 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 335 bytes sent, 3828 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 999 bytes sent, 4669 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 447 bytes sent, 2122 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1051 bytes (<*> <*>) sent, 554 bytes received, lifetime <*>",0
-0,"<*> close, 797 bytes sent, 4686 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 474 bytes sent, 4464 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1286 bytes (<*> <*>) sent, 452 bytes received, lifetime <*>",0
-0,"<*> close, 797 bytes sent, 4670 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 781 bytes sent, 6147 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1387 bytes (<*> <*>) sent, 494 bytes received, lifetime <*>",0
-0,"<*> close, 328 bytes sent, 3654 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1208 bytes (<*> <*>) sent, 273 bytes received, lifetime <*>",0
-0,"<*> close, 463 bytes sent, 4786 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 797 bytes sent, 4814 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 48<*> bytes (475 <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 476 bytes sent, 4417 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 478 bytes sent, 5141 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 471 bytes sent, 4224 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 463 bytes sent, 4788 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 643 bytes sent, 3122 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 332 bytes sent, 3763 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 343 bytes sent, 3122 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 330 bytes sent, 3763 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 690 bytes sent, 1215 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 690 bytes sent, 2692 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 690 bytes sent, 1359 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 460 bytes sent, 4784 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 48<*> bytes (476 <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 889 bytes sent, 4891 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 328 bytes sent, 3611 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1207 bytes (<*> <*>) sent, 452 bytes received, lifetime <*>",0
-0,"<*> close, 460 bytes sent, 4191 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 461 bytes sent, 4786 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 335 bytes sent, 4369 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 447 bytes sent, 2059 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1109 bytes (<*> <*>) sent, 332 bytes received, lifetime <*>",0
-0,"<*> close, 324 bytes sent, 3691 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 328 bytes sent, 3642 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, <*> bytes (<*> <*>) sent, 6745 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 474 bytes sent, 4042 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 465 bytes sent, 4790 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 912 bytes sent, 3881 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, <*> bytes (<*> <*>) sent, 4712 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1910 bytes (<*> <*>) sent, 276 bytes received, lifetime <*>",0
-0,"<*> close, 357 bytes sent, 1050 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 789 bytes sent, 4588 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 330 bytes sent, 3569 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 696 bytes sent, 5005 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 461 bytes sent, 4784 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 461 bytes sent, 4217 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 523 bytes sent, 1886 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, <*> bytes (<*> <*>) sent, 4962 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 924 bytes sent, 2376 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 913 bytes sent, 3881 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 347 bytes sent, 10733 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 759 bytes sent, 42151 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 820 bytes sent, 5620 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 915 bytes sent, 3881 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 471 bytes sent, 4692 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 459 bytes sent, 4187 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 471 bytes sent, 4693 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 471 bytes sent, 4694 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 465 bytes sent, 4230 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 461 bytes sent, 4785 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1642 bytes (<*> <*>) sent, <*> bytes <*> <*>) received, lifetime <*>",0
-0,"<*> close, 334 bytes sent, 3713 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, <*> bytes (<*> <*>) sent, 118<*> bytes (115 <*>) received, lifetime <*>",0
-0,"<*> close, 465 bytes sent, 4788 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, <*> bytes (<*> <*>) sent, 143<*> bytes (140 <*>) received, lifetime <*>",0
-0,"<*> close, 465 bytes sent, 4789 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 463 bytes sent, 4787 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 356 bytes sent, 2764 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1362 bytes (<*> <*>) sent, <*> bytes <*> <*>) received, lifetime <*>",0
-0,"<*> close, 1021 bytes sent, 4906 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 789 bytes sent, 4626 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 580 bytes sent, 2673 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1829 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 338 bytes sent, 3597 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 333 bytes sent, 3697 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, <*> bytes (<*> <*>) sent, 14<*> bytes (139 <*>) received, lifetime <*>",0
-0,"<*> close, 864 bytes sent, 4576 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 709 bytes sent, 4852 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1033 bytes (<*> <*>) sent, <*> bytes <*> <*>) received, lifetime <*>",0
-0,"<*> close, 1576 bytes (<*> <*>) sent, 696 bytes received, lifetime <*>",0
-0,"<*> close, 618 bytes sent, 3235 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 2231 bytes (<*> <*>) sent, 659 bytes received, lifetime <*>",0
-0,"<*> close, 2590 bytes (<*> <*>) sent, 317 bytes received, lifetime <*>",0
-0,"<*> close, 2844 bytes (<*> <*>) sent, 279 bytes received, lifetime <*>",0
-0,"<*> close, 388 bytes sent, 2504 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1359 bytes (<*> <*>) sent, 378 bytes received, lifetime <*>",0
-0,"<*> close, 2132 bytes (<*> <*>) sent, 822 bytes received, lifetime <*>",0
-0,"<*> close, 617 bytes sent, 3238 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1762 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 2842 bytes (<*> <*>) sent, 282 bytes received, lifetime <*>",0
-0,"<*> close, 1359 bytes (<*> <*>) sent, 375 bytes received, lifetime <*>",0
-0,"<*> close, 2588 bytes (<*> <*>) sent, 317 bytes received, lifetime <*>",0
-0,"<*> close, 2842 bytes (<*> <*>) sent, 279 bytes received, lifetime <*>",0
-0,"<*> close, 1008 bytes sent, 21998 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 617 bytes sent, 3235 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 2841 bytes (<*> <*>) sent, 279 bytes received, lifetime <*>",0
-0,"<*> close, 1106 bytes (<*> <*>) sent, 406 bytes received, lifetime <*>",0
-0,"<*> close, 2810 bytes (<*> <*>) sent, 282 bytes received, lifetime <*>",0
-0,"<*> close, 1220 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1318 bytes (<*> <*>) sent, 268 bytes received, lifetime <*>",0
-0,"<*> close, 2177 bytes (<*> <*>) sent, 279 bytes received, lifetime <*>",0
-0,"<*> close, 2279 bytes (<*> <*>) sent, 279 bytes received, lifetime <*>",0
-0,"<*> close, 1345 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1343 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 2403 bytes (<*> <*>) sent, <*>2 bytes <*> <*>) received, lifetime <*>",0
-0,"<*> close, 1368 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, <*> bytes (<*> <*>) sent, 12<*> bytes (120 <*>) received, lifetime <*>",0
-0,"<*> close, 673 bytes sent, 1954 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 571 bytes sent, 4489 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, <*> bytes (<*> <*>) sent, 13<*> bytes (134 <*>) received, lifetime <*>",0
-0,"<*> close, <*> bytes (<*> <*>) sent, 1<*> bytes (175 <*>) received, lifetime <*>",0
-0,"<*> close, <*> bytes (<*> <*>) sent, 125<*> bytes (122 <*>) received, lifetime <*>",0
-0,"<*> close, 1041 bytes (<*> <*>) sent, 397 bytes received, lifetime <*>",0
-0,"<*> close, 1237 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 101 bytes sent, 3449 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 820 bytes sent, 28273 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 388 bytes sent, 2501 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1315 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1311 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1578 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 715 bytes sent, 4417 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 595 bytes sent, 4581 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 101 bytes sent, 3444 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1180 bytes (<*> <*>) sent, 418 bytes received, lifetime <*>",0
-0,"<*> close, 1257 bytes (<*> <*>) sent, 418 bytes received, lifetime <*>",0
-0,"<*> close, <*> bytes (<*> <*>) sent, 16<*> bytes (161 <*>) received, lifetime <*>",0
-0,"<*> close, 1180 bytes (<*> <*>) sent, 337 bytes received, lifetime <*>",0
-0,"<*> close, 1180 bytes (<*> <*>) sent, 421 bytes received, lifetime <*>",0
-0,"<*> close, 1198 bytes (<*> <*>) sent, 365 bytes received, lifetime <*>",0
-0,"<*> close, <*> bytes (<*> <*>) sent, 212<*> bytes (207 <*>) received, lifetime <*>",0
-0,"<*> close, <*> bytes (<*> <*>) sent, 1<*> bytes (166 <*>) received, lifetime <*>",0
-0,"<*> close, 1195 bytes (<*> <*>) sent, 421 bytes received, lifetime <*>",0
-0,"<*> close, 1166 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1165 bytes (<*> <*>) sent, 0 bytes received, lifetime <*>",0
-0,"<*> close, <*> bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, <*> bytes (<*> <*>) sent, 5006 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1684 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 24<*> bytes (<*> <*>) sent, 3222 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 2<*> bytes (<*> <*>) sent, 4702 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, <*> bytes (<*> <*>) sent, 5636 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1358 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1330 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1<*> bytes (<*> <*>) sent, 1293 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 2214 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, <*> bytes (<*> <*>) sent, 3680 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, <*> bytes (<*> <*>) sent, 2599 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 2987 bytes (<*> <*>) sent, 59<*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 2771 bytes (<*> <*>) sent, 5<*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, <*> bytes (<*> <*>) sent, 2437 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 3874 bytes (<*> <*>) sent, 2<*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 2867 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 3919 bytes (<*> <*>) sent, 2<*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 2<*> bytes (<*> <*>) sent, 4976 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, <*> bytes (<*> <*>) sent, 1078 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 2215 bytes (<*> <*>) sent, 54<*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1847 bytes (<*> <*>) sent, 2<*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 2486 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1<*> bytes (<*> <*>) sent, 4808 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1<*> bytes (<*> <*>) sent, 5405 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1<*> bytes (<*> <*>) sent, 11041 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 2485 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1529 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1<*> bytes (<*> <*>) sent, 3637 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 2772 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 2710 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 2048 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 2<*> bytes (<*> <*>) sent, 2339 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 4012 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1364 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 17<*> bytes (<*> <*>) sent, 4964 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 18<*> bytes (<*> <*>) sent, 4970 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 2293 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, <*> bytes (<*> <*>) sent, 4712 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 365607 bytes (357 <*>) sent, 3<*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 2920 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1686 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 22<*> bytes (<*> <*>) sent, 5451 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, <*> bytes (<*> <*>) sent, 4962 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1343 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 2564 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 2<*> bytes (<*> <*>) sent, 5000 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, <*> bytes (<*> <*>) sent, 4207 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 2719 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1573 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 3646 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 20<*> bytes (<*> <*>) sent, 17986 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1193 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 2213 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1<*> bytes (<*> <*>) sent, 4832 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1319 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1<*> bytes (<*> <*>) sent, 4958 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1367 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, <*> bytes (<*> <*>) sent, 2377 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1848 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 2016 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1995 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, <*> bytes (<*> <*>) sent, 4713 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 5129 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1<*> bytes (<*> <*>) sent, 4946 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1572 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1829 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1883 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1444 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, <*> bytes (<*> <*>) sent, 4982 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 13118 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 3785 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 2135 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 2508 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, <*> bytes (<*> <*>) sent, 1297 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, <*> bytes (<*> <*>) sent, 3042 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1824 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 2584 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 2<*> bytes (<*> <*>) sent, 2361 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 2843 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 3154 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1452 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 3104 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 2197 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1363 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 2130 bytes (<*> <*>) sent, 1<*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1077 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 3047 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1080 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1079 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1247 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, <*> bytes (<*> <*>) sent, 1134 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 3149 bytes (<*> <*>) sent, 2<*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, <*> bytes (<*> <*>) sent, 1500 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1345 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1377 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, <*> bytes (<*> <*>) sent, 2436 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, <*> bytes (<*> <*>) sent, 1416 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, <*> bytes (<*> <*>) sent, 1794 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, <*> bytes (<*> <*>) sent, 1125 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 2751 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1376 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 52<*> bytes (<*> <*>) sent, 6808 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1375 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 33<*> bytes (<*> <*>) sent, 1034 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 2752 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1374 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 4272 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, <*> bytes (<*> <*>) sent, 2466 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, <*> bytes (<*> <*>) sent, 1490 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1619 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 3205 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1059 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 2193 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, <*> bytes (<*> <*>) sent, 1276 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1<*> bytes (<*> <*>) sent, 5414 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, <*> bytes (<*> <*>) sent, 1182 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1986 bytes (<*> <*>) sent, 1<*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1299 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1387 bytes (<*> <*>) sent, 1<*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1642 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1862 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 2374 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1403 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1278 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, <*> bytes (<*> <*>) sent, 2278 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1289 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1277 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1063 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, <*> bytes (<*> <*>) sent, 6426 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1221 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, <*> bytes (<*> <*>) sent, 5734 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1187 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, <*> bytes (<*> <*>) sent, 5818 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1982 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1203 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1318 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1104 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 2813 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 3459 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1430 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1065 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1733 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1901 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 2711 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1269 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, <*> bytes (<*> <*>) sent, 1689 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 2194 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1237 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1127 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1334 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 2419 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 2216 bytes (<*> <*>) sent, 5<*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1282 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 198<*> bytes (<*> <*>) sent, 1180 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, <*> bytes (<*> <*>) sent, 23858 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1736 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 5<*> bytes (<*> <*>) sent, 2368 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 19<*> bytes (<*> <*>) sent, 23862 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, <*> bytes (<*> <*>) sent, 1184 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, <*> bytes (<*> <*>) sent, 1776 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1051 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, <*>8 bytes (<*> <*>) sent, 1781 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1850 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, <*> bytes (<*> <*>) sent, 5452 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1362 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1226 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1397 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, <*> bytes (<*> <*>) sent, 3626 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 2543 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1673 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1939 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 3952 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 5071 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 2330 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, <*> bytes (<*> <*>) sent, 1093 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1594 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 2123 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1355 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 2074 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1227 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1225 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1132 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, <*> bytes (<*> <*>) sent, 4988 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1664 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1465 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1320 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1477 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1285 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1207 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, <*> bytes (<*> <*>) sent, 1030 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1705 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1331 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 2818 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1446 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1735 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1393 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, <*>7 bytes (<*> <*>) sent, 1432 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, <*> bytes (<*> <*>) sent, 2442 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1867 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1301 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1031 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1398 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1400 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1292 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 3690 bytes (<*> <*>) sent, 1<*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1853 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1909 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1164 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, <*> bytes (<*> <*>) sent, 1136 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 2473 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1028 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1411 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1248 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1030 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1033 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1252 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1184 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1032 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1238 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1130 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1239 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1137 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1293 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1133 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1366 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, <*> bytes (<*> <*>) sent, 1263 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 7076 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1327 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1417 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1111 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1298 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1086 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1071 bytes (<*> <*>) sent, <*>6 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1168 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1166 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1169 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1090 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1300 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1181 bytes (<*> <*>) sent, 2<*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1107 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1097 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 22<*> bytes (<*> <*>) sent, 1392 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, <*> bytes (<*> <*>) sent, 1133 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1873 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1728 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1078 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1165 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1061 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1121 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1088 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1060 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1066 bytes (<*> <*>) sent, <*>2 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1036 bytes (<*> <*>) sent, <*> bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 2485 bytes (<*> <*>) sent, 2359 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 365607 bytes (357 <*>) sent, 30280 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1173 bytes (<*> <*>) sent, 11041 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 5129 bytes (<*> <*>) sent, 17057 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1573 bytes (<*> <*>) sent, 16743 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1175 bytes (<*> <*>) sent, 11041 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1494 bytes (<*> <*>) sent, 4887 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 2485 bytes (<*> <*>) sent, 2337 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1364 bytes (<*> <*>) sent, 3626 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 2487 bytes (<*> <*>) sent, 2361 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1685 bytes (<*> <*>) sent, 10151 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 5129 bytes (<*> <*>) sent, 17056 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 5129 bytes (<*> <*>) sent, 17063 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1573 bytes (<*> <*>) sent, 16749 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 2486 bytes (<*> <*>) sent, 2338 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 2275 bytes (<*> <*>) sent, 71974 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 2710 bytes (<*> <*>) sent, 4508 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1066 bytes (<*> <*>) sent, 3042 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1455 bytes (<*> <*>) sent, 1800 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1455 bytes (<*> <*>) sent, 1794 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1448 bytes (<*> <*>) sent, 1794 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1076 bytes (<*> <*>) sent, 1030 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 2636 bytes (<*> <*>) sent, 2279 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1292 bytes (<*> <*>) sent, 2457 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1293 bytes (<*> <*>) sent, 2457 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1417 bytes (<*> <*>) sent, 4631 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1293 bytes (<*> <*>) sent, 1503 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1293 bytes (<*> <*>) sent, 2439 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1293 bytes (<*> <*>) sent, 2460 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 2711 bytes (<*> <*>) sent, 5932 bytes (<*> <*>) received, lifetime <*>",0
-0,"<*> close, 1237 bytes (<*> <*>) sent, 1164 bytes (<*> <*>) received, lifetime <*>",0
-0,<*> error : Could not connect through proxy <*> - Proxy closed the connection unexpectedly.,0
-0,<*> error : Could not connect to proxy <*> - connection attempt failed with error 10061,0
-0,wpad:80 error : Could not connect to proxy <*> - Could not resolve <*> error 11001,0
-0,nmjylyjluykle:80 error : Could not connect to proxy <*> - Could not resolve <*> error 11001,0
-0,awqiizxequsixgr:80 error : Could not connect to proxy <*> - Could not resolve <*> error 11001,0
-0,dshytnh:80 error : Could not connect to proxy <*> - Could not resolve <*> error 11001,0
-0,<*> error : Could not connect to proxy <*> - Could not resolve <*> error 11001,0
-0,"qumccyndmsiwf:80 error : Could not connect through proxy <*> - Proxy server cannot establish a connection with the target, status code 503",0
-0,"yrexdrpj:80 error : Could not connect through proxy <*> - Proxy server cannot establish a connection with the target, status code 503",0
-0,"srkodhptqlryvjp:80 error : Could not connect through proxy <*> - Proxy server cannot establish a connection with the target, status code 503",0
-0,"wpad:80 error : Could not connect through proxy <*> - Proxy server cannot establish a connection with the target, status code 503",0
-0,"<*> error : Could not connect through proxy <*> - Proxy server cannot establish a connection with the target, status code 503",0
-0,"<*> error : Could not connect through proxy <*> - Proxy server cannot establish a connection with the target, status code 403",0
-0,"<*> (IPv6) error : Could not connect through proxy <*> - Proxy server cannot establish a connection with the target, status code 503",0
+0,<*> of <*> <*> <*> <*> <*> <*>,0
+0,ciod: <*> <*> <*> <*> <*>,0
+0,<*> <*> <*> <*> error <*>,0
+0,<*> <*> <*> on <*> <*>,0
+0,<*> 13:1eeeeeee <*> 15:000<*>,0
+0,data <*> <*>,0
+0,idoproxydb <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*>,0
+0,rts <*> <*>,0
+0,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> is <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*>,0
+0,<*> <*> <*> read <*> <*>,0
+0,<*> <*> <*> 23:00000000,0
+0,4,0
+0,2,0
+0,8,0
+0,0:0000<*> 1:<*>0 2:1eeeeeee 3:<*>0,0
+0,<*> <*> parity <*>,0
+0,machine check <*>,0
+0,instruction address: <*>,0
+0,iar <*> dear 0<*>,0
+0,Microloader Assertion,0
+0,store operation.............................0,0
+0,program interrupt,0
+0,<*> purpose registers:,0
+0,auxiliary processor.........................0,0
+0,store operation.............................1,0
+0,data address: 0x<*>,0
+0,generating <*>,0
+0,iar <*> dear 0252528c,0
+0,iar 001069b8 dear 02<*>c,0
+0,iar 00113898 dear <*>,0
+0,iar 00113890 dear 0fee9<*>c,0
+0,iar 00113888 dear <*>,0
+0,iar 00113880 dear <*>,0
+0,iar 00106288 dear 02f<*>c,0
+0,iar 00106284 dear 024<*>c,0
+0,iar 00106274 dear 024<*>c,0
+0,iar 00106494 dear 024<*>c,0
+0,iar 00106448 dear 024<*>c,0
+0,iar 00106470 dear 024<*>c,0
+0,iar 00106aa0 dear 0246d<*>c,0
+0,iar 00106c0c dear 0246d<*>c,0
+0,iar 00106ba0 dear 0246d<*>c,0
+0,iar 00106b98 dear 0246dd<*>c,0
+0,iar 00106ba8 dear 0246d<*>c,0
+0,iar 00105e84 dear 024<*>c,0
+0,iar 00105e88 dear <*>,0
+0,iar 00100788 dear <*>,0
+0,iar 00106678 dear 025252<*>c,0
+0,iar 001066c4 dear 02525<*>c,0
+0,iar 001066ac dear <*>,0
+0,iar 00106<*> dear 0246f78c,0
+0,iar 00106b0c dear <*>,0
+0,iar <*> dear 0246f77c,0
+0,iar <*> dear 0246a95c,0
+0,iar 00106368 dear <*>,0
+0,iar 001061dc dear <*>,0
+0,iar <*> dear 02f67c3c,0
+0,iar 00106704 dear 0245<*>c,0
+0,iar 001066d0 dear 0245b<*>c,0
+0,iar 0010671c dear 0245<*>c,0
+0,iar 00106<*> dear 0245b63c,0
+0,iar 0010684c dear 02f6<*>c,0
+0,iar 0010683c dear <*>,0
+0,iar <*> dear 02f692ec,0
+0,iar 0010685c dear 02f69<*>c,0
+0,iar <*> dear 0245ccec,0
+0,iar 0010686c dear 02f69<*>c,0
+0,iar 001069a0 dear <*>,0
+0,iar 00106bc0 dear 0245<*>c,0
+0,iar 00106b8c dear 0245c<*>c,0
+0,iar <*> dear 0245ccfc,0
+0,iar 00106bd8 dear 0245c<*>c,0
+0,iar <*> dear 0245cd0c,0
+0,iar 0010621c dear 02f<*>c,0
+0,iar 00106380 dear 02<*>c,0
+0,iar 001061fc dear 02f<*>c,0
+0,iar 0010620c dear 02f<*>c,0
+0,iar 00106208 dear 024<*>c,0
+0,iar 00106588 dear 024<*>c,0
+0,iar 00105e74 dear 024<*>c,0
+0,iar 00106534 dear <*>,0
+0,iar 00106580 dear <*>,0
+0,iar 00106568 dear <*>,0
+0,iar <*> dear 0244c23c,0
+0,iar 0010<*> dear 0244c24c,0
+0,iar 00105ea4 dear 02f588<*>c,0
+0,iar <*> dear 0244c26c,0
+0,iar 00105e94 dear 02f588<*>c,0
+0,iar 00105e78 dear 02f<*>c,0
+0,iar 001061e8 dear 024<*>c,0
+0,iar 00105e98 dear 02f<*>c,0
+0,iar 001061b4 dear 024<*>c,0
+0,iar 00106200 dear 0<*>c,0
+0,iar 00106570 dear 0245<*>c,0
+0,iar 0010653c dear 024<*>c,0
+0,iar 00149f88 dear 00<*>8,0
+0,iar 00149ee0 dear 00<*>8,0
+0,iar 0014a150 dear 00<*>8,0
+0,iar 0014a1e4 dear 00<*>8,0
+0,iar 003a9258 dear 01<*>8,0
+0,iar 003a9254 dear 0<*>8,0
+0,iar 003a9260 dear 0<*>8,0
+0,iar 003a92a0 dear 0<*>8,0
+0,iar 003a929c dear 0<*>8,0
+0,iar 003a9280 dear 00<*>8,0
+0,iar 003a9274 dear 0<*>8,0
+0,iar 003a926c dear 00<*>8,0
+0,iar 003a9294 dear 00<*>8,0
+0,iar 003a9108 dear 00b3<*>8,0
+0,iar 003a90fc dear 00<*>8,0
+0,Ido packet timeout,0
+0,instruction address: 0x0062fe04,0
+0,instruction address: 0x0062fdf4,0
+0,ciod: LOGIN <*> failed: <*> <*>,0
+0,rts internal error,0
+0,<*> 17:00000001 18:00000000 19:00000000,0
+0,12:28244842 13:1eeeeeee 14:ffffffff 15:000<*>,0
+0,general purpose registers:,0
+0,icache prefetch depth....................0,0
+0,force load/store alignment...............0,0
+0,disable trace broadcast..................0,0
+0,disable store gathering..................0,0
+0,data address space................0,0
+0,debug wait enable.................0,0
+0,machine check enable..............0,0
+0,"problem state (0=sup,1=usr).......0",0
+0,byte ordering exception.....................0,0
+0,floating point operation....................0,0
+0,machine check: i-fetch......................0,0
+0,data address: 0x00000002,0
+0,instruction address: 0x00004ed8,0
+0,data storage interrupt,0
+0,icache prefetch threshold................0,0
+0,instruction address space.........0,0
+0,debug interrupt enable............0,0
+0,wait state enable.................0,0
+0,machine state register:,0
+0,<*> double-hummer alignment exceptions,0
+0,iar 00113890 dear 0fee9c3c,0
+0,iar 00113880 dear 0fee9c1c,0
+0,iar 00106494 dear 0246db1c,0
+0,iar 00106200 dear 024701cc,0
+0,iar 001061e8 dear 024701bc,0
+0,iar 001061b4 dear 024701dc,0
+0,iar 00106200 dear 0247019c,0
+0,iar 001061e8 dear 0247018c,0
+0,iar 001061b4 dear 024701ac,0
+0,iar 00106200 dear 0247016c,0
+0,iar 001061e8 dear 0247012c,0
+0,iar 001061e8 dear 0247015c,0
+0,iar 001061dc dear 024696dc,0
+0,iar 00106580 dear 0249558c,0
+0,iar 00106678 dear 0252526c,0
+0,iar 001066ac dear 0252524c,0
+0,iar 0010682c dear 0245ccfc,0
+0,iar 001069b8 dear 0245cd0c,0
+0,iar 00106568 dear 045e143c,0
+0,iar 00106534 dear 045e145c,0
+0,iar 00106580 dear 045e141c,0
+0,iar 00106568 dear 045e140c,0
+0,iar 00106580 dear 02494c2c,0
+0,iar 00106568 dear 02494c1c,0
+0,iar 00106534 dear 02494c3c,0
+0,iar 00106580 dear 02494bfc,0
+0,iar 00106568 dear 02494bec,0
+0,iar 00106534 dear 02494c0c,0
+0,iar 00106580 dear 02494bcc,0
+0,iar 00106568 dear 02494bbc,0
+0,iar 00106228 dear 0244c27c,0
+0,iar 00106210 dear 0244c26c,0
+0,iar 001061dc dear 0244c28c,0
+0,iar 00106228 dear 0244c24c,0
+0,iar 001061dc dear 0244c25c,0
+0,iar 00106210 dear 0244c23c,0
+0,iar 001061dc dear 0244c22c,0
+0,iar 00106228 dear 0244c1ec,0
+0,iar 00106228 dear 0244c21c,0
+0,iar 00106210 dear 0244c20c,0
+0,<*> floating point alignment exceptions,0
+0,iar 00106210 dear 0244c1dc,0
+0,iar 0014a150 dear 00983048,0
+0,1524480 double-hummer alignment exceptions,0
+0,3095040 double-hummer alignment exceptions,0
+0,773760 double-hummer alignment exceptions,0
+0,1547520 double-hummer alignment exceptions,0
+0,2201500 double-hummer alignment exceptions,0
+0,rts: bad message header: <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*>,0
+0,Node card VPD check: <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*>,0
+0,458720 double-hummer alignment exceptions,0
+0,1311300 double-hummer alignment exceptions,0
+0,1049200 double-hummer alignment exceptions,0
+0,1146800 double-hummer alignment exceptions,0
+0,368010 double-hummer alignment exceptions,0
+0,344040 double-hummer alignment exceptions,0
+0,machine state register: 0x0000f000,0
+0,program interrupt: illegal instruction......1,0
+0,exception syndrome register: 0x08000000,0
+0,12364800 double-hummer alignment exceptions,0
+0,1030400 double-hummer alignment exceptions,0
+0,6182400 double-hummer alignment exceptions,0
+0,3091200 double-hummer alignment exceptions,0
+0,2576000 double-hummer alignment exceptions,0
+0,1969920 double-hummer alignment exceptions,0
+0,199680 double-hummer alignment exceptions,0
+0,lr:00004ed0 cr:28244842 xer:20000002 ctr:00086000,0
+0,28:1feaa7b0 29:00000001 30:000008ce 31:1feaa790,0
+0,24:1feaa7a0 25:00284538 26:00230000 27:00320000,0
+0,20:00000000 21:1feaa7b0 22:00000000 23:00000000,0
+0,8:00000004 9:4e800020 10:3ed4bd98 11:6b26bf88,0
+0,0:000008ce 1:00086000 2:1eeeeeee 3:1feaa770,0
+0,disable apu instruction broadcast........0,0
+0,external input interrupt enable...0,0
+0,machine state register: 0x00002000,0
+0,program interrupt: fp compare...............0,0
+0,program interrupt: imprecise exception......0,0
+0,program interrupt: unimplemented operation..0,0
+0,program interrupt: trap instruction.........0,0
+0,program interrupt: privileged instruction...0,0
+0,program interrupt: illegal instruction......0,0
+0,exception syndrome register: 0x00800000,0
+0,core configuration register: 0x00002000,0
+0,floating point instr. enabled.....1,0
+0,critical input interrupt enable...0,0
+0,data TLB error interrupt,0
+0,"CE sym 27, at 0x<*>0, mask 0x<*>",0
+0,floating pt ex mode 0 <*>,0
+0,40 floating point alignment exceptions,0
+0,62500 floating point alignment exceptions,0
+0,1915806 floating point alignment exceptions,0
+0,2354412 floating point alignment exceptions,0
+0,487476 floating point alignment exceptions,0
+0,640404 floating point alignment exceptions,0
+0,640764 floating point alignment exceptions,0
+0,rts: kernel terminated for reason <*>,0
+0,Error: unable to mount filesystem,0
+0,1005 floating point alignment exceptions,0
+0,685 floating point alignment exceptions,0
+0,5 floating point alignment exceptions,0
+0,15 floating point alignment exceptions,0
+0,8 floating point alignment exceptions,0
+0,"CE sym <*> at 0x<*>0, mask 0x10",0
+0,"CE sym 0, at 0x<*>0, mask <*>",0
+0,program interrupt: fp cr update.............0,0
+0,"CE sym 2, at 0x<*>0, mask 0x<*>",0
+0,rts panic! - stopping execution,0
+0,guaranteed data cache block touch........1,0
+0,guaranteed instruction cache block touch.0,0
+0,instruction cache parity error corrected,0
+0,"CE sym 27, at 0x<*>0, mask 0x02",0
+0,"CE sym 16, at 0x<*>0, mask 0x80",0
+0,"CE sym 34, at <*> mask 0x40",0
+0,"CE sym 6, at <*> mask 0x20",0
+0,"CE sym 11, at 0x<*>0, mask 0x10",0
+0,"CE sym 20, at <*> mask 0x40",0
+0,"CE sym 5, at <*> mask 0x40",0
+0,<*> L3 <*> error(s) (dcr <*> detected and corrected,0
+0,ciod: generated <*> core files for program <*>,0
+0,"CE sym 4, at 0x<*>0, mask 0x04",0
+0,"CE sym 28, at 0x<*>0, mask 0x04",0
+0,rts: kernel terminated for reason 1004,0
+0,rts: kernel terminated for reason 1001,0
+0,suppressing further interrupts of same type,0
+0,"CE sym 5, at <*> mask 0x04",0
+0,"CE sym 15, at <*> mask 0x10",0
+0,"CE sym 26, at <*> mask 0x10",0
+0,"CE sym 29, at 0x<*>0, mask 0x01",0
+0,"CE sym 16, at <*> mask 0x04",0
+0,"CE sym 9, at 0x<*>0, mask 0x04",0
+0,"CE sym 11, at 0x<*>0, mask 0x08",0
+0,"CE sym 30, at 0x<*>0, mask 0x08",0
+0,"CE sym 13, at 0x<*>0, mask 0x20",0
+0,"CE sym 23, at <*> mask 0x08",0
+0,"CE sym 17, at 0x0<*>0, mask 0x40",0
+0,"CE sym 12, at <*> mask 0x01",0
+0,"CE sym 23, at 0x<*>0, mask 0x20",0
+0,"CE sym 23, at 0x<*>0, mask 0x10",0
+0,"CE sym 21, at 0x<*>0, mask 0x40",0
+0,"CE sym 4, at <*> mask 0x10",0
+0,"CE sym 8, at 0x<*>0, mask 0x04",0
+0,"CE sym 33, at 0x<*>0, mask 0x01",0
+0,"CE sym 12, at 0x<*>0, mask 0x02",0
+0,"CE sym 22, at 0x<*>0, mask 0x80",0
+0,"CE sym 0, at 0x1b858ec0, mask <*>",0
+0,"CE sym 10, at 0x18<*>0, mask 0x02",0
+0,"CE sym 25, at 0x<*>0, mask 0x40",0
+0,"CE sym 20, at 0x<*>0, mask 0x02",0
+0,"CE sym 0, at 0x<*>0, mask 0x80",0
+0,"CE sym 22, at <*> mask 0x20",0
+0,"CE sym 0, at 0x<*>0, mask 0x40",0
+0,"CE sym 35, at 0x<*>0, mask 0x10",0
+0,Node card is not fully functional,0
+0,"CE sym 33, at 0x<*>0, mask 0x08",0
+0,"CE sym 12, at <*> mask 0x20",0
+0,floating pt ex mode 1 enable......0,0
+0,floating pt ex mode 0 enable......0,0
+0,program interrupt: fp cr field .............0,0
+0,data store interrupt caused by icbi.........0,0
+0,data store interrupt caused by dcbf.........0,0
+0,"CE sym 10, at 0x08<*>0580, mask 0x08",0
+0,"CE sym 29, at <*> mask 0x02",0
+0,"CE sym 2, at 0x<*>0, mask 0x02",0
+0,"CE sym 6, at <*> mask 0x80",0
+0,"CE sym 2, at 0x<*>0, mask 0x08",0
+0,"CE sym 15, at <*> mask 0x01",0
+0,"CE sym 2, at 0x<*>0, mask 0x04",0
+0,"CE sym 19, at <*> mask 0x20",0
+0,"CE sym 23, at <*> mask 0x80",0
+0,"CE sym 30, at 0x<*>0, mask 0x20",0
+0,ciod: generated <*> core files for program /bgl/apps/followup/SPaSM_static/SPaSM_mpi.rel2,0
+0,"CE sym 11, at 0x13a33060, mask 0x10",0
+0,ciod: generated <*> core files for program /home/spelce1/HPCC_IBM/Urgent/COP/64K/opt_co_dc.rts,0
+0,"CE sym 29, at 0x1b719940, mask 0x02",0
+0,ciod: generated <*> core files for program /home/spelce1/HPCC_IBM/Urgent/VNM/32K/vnm.rts,0
+0,"CE sym 6, at 0x06ec7a20, mask 0x20",0
+0,Lustre mount FAILED : bglio<*> : point /p/gb1,0
+0,ciod: generated 128 core files for program <*>,0
+0,ciod: generated <*> core files for program /home/glosli/src/ddcMD/ddcMD1.1.17/bin/ddcMDbglV,0
+0,"CE sym 12, at 0x1682ed20, mask 0x01",0
+0,ciod: generated <*> core files for program /home/germann2/SPaSM_static/SPaSM_mpi,0
+0,ciod: generated 64 core files for program <*>,0
+0,New ido chip inserted into the database: FF:F2:9F:1<*> ip=<*> v=<*> t=<*>,0
+0,"CE sym 2, at 0x0fa3d060, mask 0x08",0
+0,"CE sym 26, at 0x07a95e80, mask 0x10",0
+0,"CE sym 15, at 0x1f9d7fe0, mask 0x10",0
+0,"CE sym 5, at 0x0e37bbe0, mask 0x40",0
+0,"CE sym 10, at 0x18f71180, mask 0x02",0
+0,"CE sym 0, at 0x1b859080, mask 0x40",0
+0,ciod: Error creating node map from file <*> <*> <*>,0
+0,"CE sym 0, at 0x1b858ec0, mask 0x40",0
+0,"CE sym 0, at 0x1b858280, mask 0x40",0
+0,total of <*> ddr error(s) detected and corrected,0
+0,"CE sym 5, at 0x11042a80, mask 0x04",0
+0,ciod: generated 64 core files for program /bgl/apps/followup/hellow/a.out.1111,0
+0,ciod: generated 64 core files for program /bgl/apps/followup/RAPTOR/raptor.rel2,0
+0,ciod: generated 128 core files for program /bgl/apps/followup/SPaSM_static/SPaSM_mpi.new_comp,0
+0,idoproxydb hit ASSERT condition: ASSERT <*> Source <*> Source <*> Function=int <*> <*>,0
+0,"ciod: Error loading <*> program image too big, <*> > <*>",0
+0,ciod: generated 64 core files for program /home/rfisher/sodscaling/flash2.noio,0
+0,ciod: generated 64 core files for program /home/rfisher/sodscaling/flash2,0
+0,ciod: generated 64 core files for program /home/spelce1/HPCC_IBM/Urgent/COP/64K/hpcc-1.0.0.101105_opt_cpm_essl,0
+0,ciod: generated 128 core files for program /home/spelce1/HPCC_IBM/Urgent/COP/64K/vnm.rts,0
+0,ciod: generated 64 core files for program /home/spelce1/HPCC_IBM/TomAndJeff/bin/tested_copro/tested_copro.rts,0
+0,critical input interrupt (unit=0x0b bit=0x<*>): warning for tree <*> wire,0
+0,ciod: generated 64 core files for program IMB-MPI1.4KB_perf,0
+0,ciod: generated 64 core files for program IMB-MPI1.2MB_perf,0
+0,"NFS Mount failed on bglio<*>, slept <*> seconds, retrying (1)",0
+0,Lustre mount FAILED : bglio<*> : block_id : location,0
+0,ciod: generated 128 core files for program /home/germann2/BGL-demo/SPaSM_mpi,0
+0,ciod: generated 64 core files for program /bgl/apps/swl-prep/ibm-swl/functional/sppm_chkpt/run/sppm,0
+0,ciod: generated 64 core files for program /home/da/mpi-testscripts/alltoall,0
+0,critical input interrupt (unit=0x0b bit=0x0<*>): warning for torus <*> wire,0
+0,New ido chip inserted into the database: FF:F2:9F:1<*> ip=<*> v=13 t=<*>,0
+0,"PrepareForService shutting down <*>), mCardSernum(203<*>), mLp(FF:F2:9F:1<*>), mIp(10.<*>), mType(<*>)) as part of Service Action <*>",0
+0,Can not get assembly information for node card,0
+0,total of 2 ddr error(s) detected and corrected,0
+0,total of 3 ddr error(s) detected and corrected,0
+0,ciod: LOGIN <*> failed: No such file or directory,0
+0,<*> L3 EDRAM error(s) (dcr 0x0157) detected and corrected,0
+0,total of 1 ddr error(s) detected and corrected,0
+0,"1 ddr <*> detected and corrected on rank 0, symbol <*> <*> <*>",0
+0,"ciod: Error reading message prefix on CioStream socket to 172.16.96.116:<*>, <*> <*> <*> <*>",0
+0,critical input interrupt (unit=0x0b bit=0x0a): warning for torus z+ <*>,0
+0,ciod: LOGIN chdir(RUNS/3Bvn_fmm/rs0000) failed: No such file or directory,0
+0,data cache search parity error detected. attempting to correct,0
+0,ciod: LOGIN chdir(/bgl/apps/SWL/performance/MINIBEN///2005.09.20-18.06.05) failed: No such file or directory,0
+0,ciod: LOGIN chdir(/bgl/apps/SWL/performance/MINIBEN///2005.09.20-18.06.08) failed: No such file or directory,0
+0,ciod: LOGIN chdir(/bgl/apps/SWL/performance/MINIBEN///2005.09.20-18.06.01) failed: No such file or directory,0
+0,ciod: LOGIN chdir(/home/germann2/BGL-demo) failed: No such file or directory,0
+0,ciod: LOGIN chdir(/home/germann2/SPaSM_static) failed: No such file or directory,0
+0,ciod: LOGIN chdir(/home/auselton/testing) failed: No such file or directory,0
+0,ciod: LOGIN chdir(/p/bg1/da) failed: No such file or directory,0
+0,ciod: LOGIN chdir(pwd) failed: No such file or directory,0
+0,New ido chip inserted into the database: FF:F2:9F:16:<*> ip=<*> v=13 t=4,0
+0,ciod: Error creating node map from file <*> Bad address,0
+0,"rts: kernel terminated for reason <*> bad message header: <*> <*> <*> <*> cpu=0, <*> <*>",0
+0,ciod: Error creating node map from file /<*>.map: Permission denied,0
+0,"PrepareForService shutting down LinkCard(mLctn(R<*>), mCardSernum(2039375034383<*>), mLp(FF:F2:9F:15:7<*>), mIp(10.<*>), mType(1)) as part of Service Action <*>",0
+0,ciod: LOGIN chdir(/p/gb2/draeger/benchmark/dat32k_060205) failed: No such file or directory,0
+0,ciod: cpu 0 at treeaddr <*> sent unrecognized message 0xffffffff,0
+0,critical input interrupt (unit=0x0b bit=0x0a): warning for torus z+ wire,0
+0,critical input interrupt (unit=0x0b bit=0x06): warning for torus y+ wire,0
+0,"ciod: Error loading /<*>: invalid or missing program image, Permission denied",0
+0,<*> tree receiver 2 in re-synch state event(s) (dcr 0x019a) detected,0
+0,Ido chip status changed: FF:F2:9F:16:<*> ip=10.<*> v=13 t=4 status=M <*> Aug <*> <*> PDT 2005,0
+0,"Found invalid node ecid in processor card slot J<*>, ecid 0000000000000000000000000000",0
+0,external input interrupt (unit=0x02 bit=0x0<*>): torus sender <*> retransmission error was corrected,0
+0,ciod: Error creating node map from file <*> Bad file descriptor,0
+0,1 torus receiver <*> input pipe error(s) (dcr 0x02<*>) detected and corrected,0
+0,<*> torus receiver y+ input pipe error(s) (dcr 0x02ee) detected and corrected,0
+0,"ciod: Error loading /bgl/apps/followup/RAPTOR/pre-study/raptor.newcomp.r1: invalid or missing program image, Permission denied",0
+0,"ciod: Error loading /home/spelce1/HPCC_IBM/Urgent/COP/64K/fft_only.rts: invalid or missing program image, Permission denied",0
+0,"ciod: Error loading /home/rfisher/sodscaling/flash2: program image too big, 381013696 > 266076160",0
+0,"ciod: Error loading /bgl/apps/followup/bcastV1R1.rts: invalid or missing program image, Permission denied",0
+0,"<*> ddr errors(s) detected and corrected on rank 0, symbol <*>, bit 6",0
+0,"ciod: Error loading /bgl/apps/followup/SPASM/spasm.254: invalid or missing program image, Permission denied",0
+0,"<*> ddr errors(s) detected and corrected on rank 0, symbol <*>, bit 1",0
+0,"ciod: Error loading /home/spelce1/HPCC_IBM/Urgent/VNM/64K/vnm.rts: invalid or missing program image, Permission denied",0
+0,"ciod: Error loading /bgl/apps/swl-prep/rky-swl/MPI-PERF/IMB/perf_tests/IMB-MPI1.14MB: invalid or missing program image, Permission denied",0
+0,"ciod: Error loading /bgl/apps/swl-prep/rky-swl/MPI-PERF/IMB/perf_tests/IMB-MPI1.22MB: invalid or missing program image, Permission denied",0
+0,<*> torus receiver x+ input pipe error(s) (dcr 0x02ec) detected and corrected,0
+0,ciod: Error creating node map from file /home/auselton/bgl/mapfiles/bgl.128mps.f64.map: Resource temporarily unavailable,0
+0,"<*> ddr errors(s) detected and corrected on rank 0, symbol <*> bit 2",0
+0,3 tree receiver 2 in re-synch state event(s) (dcr 0x019a) detected,0
+0,ciod: Error opening node map file <*> No such file or directory,0
+0,"rts: kernel terminated for reason 1001rts: bad message header: invalid cpu, type=<*>, <*> index=<*>, total=<*>",0
+0,"ciod: Error loading /<*>: invalid or missing program image, Exec format error",0
+0,ciod: Error creating node map from file /home/auselton/bgl/64mps.sequential.mapfile: Resource temporarily unavailable,0
+0,1 tree receiver 2 in re-synch state event(s) (dcr 0x019a) detected,0
+0,"<*> ddr errors(s) detected and corrected on rank 0, symbol <*>, bit 5",0
+0,L1 DCACHE summary averages: #ofDirtyLines: <*> out of 1024 #ofDirtyDblWord: <*> out of 4096,0
+0,Ido chip status changed: FF:F2:9F:16:<*> ip=10.<*> v=13 t=4 status=M Tue Sep 20 <*> PDT 2005,0
+0,"1 ddr errors(s) detected and corrected on rank 0, symbol <*>, bit 2",0
+0,"ciod: Error loading /bgl/apps/scaletest/performance/MINIBEN/mb_243_0810/allreduce.rts: invalid or missing program image, Exec format error",0
+0,"1 ddr errors(s) detected and corrected on rank 0, symbol <*>, bit 7",0
+0,Ido chip status changed: FF:F2:9F:16:<*> ip=10.<*> v=13 t=4 status=M Tue Aug 09 10:0<*> PDT 2005,0
+0,"1 ddr errors(s) detected and corrected on rank 0, symbol <*>, bit 6",0
+0,Ido chip status changed: FF:F2:9F:16:<*> ip=10.<*> v=13 t=4 status=M Thu Aug 04 <*> PDT 2005,0
+0,"rts: kernel terminated for reason 1001rts: bad message header: invalid cpu, <*> cpu=127, <*> <*>",0
+0,"<*> ddr errors(s) detected and corrected on rank 0, symbol 26, bit 3",0
+0,"rts: kernel terminated for reason 1001rts: bad message header: invalid cpu, type=<*>, cpu=16, index=<*>, total=26910<*>",0
+0,"ciod: Error opening node map file /p/gb2/welcome3/32k_128x256x1_8x4x4.map, No such file or directory",0
+0,"1 ddr errors(s) detected and corrected on rank 0, symbol <*>, bit 3",0
+0,"2 ddr errors(s) detected and corrected on rank 0, symbol <*>, bit 5",0
+0,"1 ddr errors(s) detected and corrected on rank 0, symbol <*>, bit 5",0
+0,"1 ddr errors(s) detected and corrected on rank 0, symbol <*>, bit 1",0
+0,1 torus receiver y+ input pipe error(s) (dcr 0x02ee) detected and corrected,0
+0,ciod: failed to read message prefix on control stream (CioStream socket to 172.16.96.116:<*>,0
+0,"1 ddr errors(s) detected and corrected on rank 0, symbol <*> bit 4",0
+0,Ido chip status changed: FF:F2:9F:16:<*> ip=10.<*> v=13 t=4 status=M Tue Sep 20 12:11:48 PDT 2005,0
+0,ciod: Missing or invalid fields on line 1 of node map file /home/auselton/bgl/mapfiles/bgl.128mps.f64.map,0
+0,"idoproxydb hit ASSERT condition: ASSERT expression=0 Source file=idotransportmgr.cpp Source line=1043 Function=int IdoTransportMgr::SendPacket(IdoUdpMgr*, BglCtlPavTrace*)",0
+0,ciod: Y coordinate <*> exceeds physical dimension 16 at line <*> of node map file /home/pakin1/sweep3d-2.2b/results/<*>-8x32x32x2.map,0
+0,ciod: Missing or invalid fields on line 1 of node map file /home/auselton/bgl/64mps.sequential.mapfile,0
+0,"1 ddr errors(s) detected and corrected on rank 0, symbol 26, bit 3",0
+0,"ciod: Error loading <*>: invalid or missing program image, No such file or directory",0
+0,"ciod: Error loading allreduce_int_V1R1.rts: invalid or missing program image, No such file or directory",0
+0,"ciod: Error loading allreduce_double_V1R1.rts: invalid or missing program image, No such file or directory",0
+0,"ciod: Error loading /home/spelce1/HPCC_IBM/Urgent/COP/64K/EPStreamTriad.64K.rts: invalid or missing program image, No such file or directory",0
+0,"ciod: Error loading /bgl/apps/followup/MINIBEN/MB_254_051007/torus-latency.rts: invalid or missing program image, No such file or directory",0
+0,"ciod: Error loading /bgl/apps/linpack2/xhpl_241_no_fold: invalid or missing program image, No such file or directory",0
+0,"ciod: Error loading /bgl/apps/SWL/performance/MINIBEN//torus-latency.rts: invalid or missing program image, No such file or directory",0
+0,"ciod: Error loading /home/yates//broadcast.rts: invalid or missing program image, No such file or directory",0
+0,"ciod: Error loading /home/yates//torus-latency.rts: invalid or missing program image, No such file or directory",0
+0,"ciod: Error loading /home/greeno/_dev2/_pasci2/_hyperclaw.mf.rich/run/_jag_work/raptor.dev.new3d.BGL.CXX_XL.MPI.ex: invalid or missing program image, No such file or directory",0
+0,"ciod: Error loading /bgl/apps/hwstab/RAPTOR/temp/raptor: invalid or missing program image, No such file or directory",0
+0,ciod: T coordinate 1 exceeds physical dimension 1 at line <*> of node map file <*>,0
+0,ciod: Error reading message prefix after LOGIN_MESSAGE on CioStream socket to 172.16.96.116:<*>: Link has been severed,0
+0,ciod: Error reading message prefix after LOAD_MESSAGE on CioStream socket to 172.16.96.116:<*>: Link has been severed,0
+0,ciod: Error reading message prefix after VERSION_MESSAGE on CioStream socket to 172.16.96.116:5<*>: Link has been severed,0
+0,ciod: Z coordinate 32 exceeds physical dimension 32 at line 33 of node map file <*>,0
+0,"rts: kernel terminated for reason 1001rts: bad message header: invalid cpu, type=10144, cpu=127, index=0, total=0",0
+0,"Node card VPD check: U01 node in processor card slot J<*> do not match. VPD ecid 0<*>, found 0<*>",0
+0,"Node card VPD check: U11 node in processor card slot J<*> do not match. VPD ecid 0<*>, found 0<*>",0
+0,"rts: kernel terminated for reason 1004rts: bad message header: expecting type 1, type=3, cpu=0, index=0, total=1",0
+0,"Node card VPD check: U11 node in processor card slot J10 do not match. VPD ecid 0<*>, found 0<*>",0
+0,"Node card VPD check: U11 node in processor card slot J17 do not match. VPD ecid 0<*>, found <*>",0
+0,"Node card VPD check: U01 node in processor card slot J<*> do not match. VPD ecid 0<*>, found 0000000000000000000000000000",0
+0,"Node card VPD check: U11 node in processor card slot J<*> do not match. VPD ecid 0<*>, found 0000000000000000000000000000",0
+0,"Node card VPD check: U11 node in processor card slot J12 do not match. VPD ecid 0<*>, found 0<*>",0
+0,"Error receiving packet on tree network, expecting type 57 instead of type 3 <*> <*> 00000002 00000000) PSR0=20021f01 PSR1=00000000 PRXF=00000002 PIXF=00000007",0
+0,"Error receiving packet on tree network, expecting type 57 instead of type 3 <*> <*> 00000002 00000000) PSR0=00001f01 PSR1=00000000 PRXF=00000002 PIXF=00000007",0
+0,"Error receiving packet on tree network, expecting type 57 instead of type 3 (softheader=009756d5 8bfa0003 00000002 00000000) PSR0=00001f01 PSR1=00000000 PRXF=00000002 PIXF=00000007",0
+0,Node card status: no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*>,0
+0,Node card status: no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is asserted. Temperature Mask is not active. No temperature error. Temperature Limit Error Latch is clear. PGOOD IS NOT ASSERTED. PGOOD ERROR LATCH IS ACTIVE. MPGOOD IS NOT OK. MPGOOD ERROR LATCH IS ACTIVE. The 2.5 volt rail is OK. The 1.5 volt rail is OK.,0
