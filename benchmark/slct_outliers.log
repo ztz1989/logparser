@@ -1,436 +1,595 @@
-72	CE sym 7, at 0x11596a00, mask 0x01
-73	CE sym 23, at 0x0cfdddc0, mask 0x04
-165	28:48000828 29:00000000 30:0000000e 31:000865b0
-328	lr:0000d9ac cr:48000828 xer:00000002 ctr:0000e248
-528	CE sym 34, at 0x11e76d80, mask 0x80
-598	CE sym 14, at 0x06047860, mask 0x20
-661	CE sym 15, at 0x111e0880, mask 0x04
-667	11 ddr errors(s) detected and corrected on rank 0, symbol 26, bit 4
-668	CE sym 7, at 0x05ace2c0, mask 0x20
-767	CE sym 12, at 0x0b796300, mask 0x08
-777	CE sym 26, at 0x06b7e2e0, mask 0x08
-1523	CE sym 4, at 0x00a17fe0, mask 0x80
-2862	4:000008ce 5:ffffffff 6:00000038 7:00086590
-2864	4:000008ce 5:ffffffff 6:00000038 7:00086590
-2866	4:000008ce 5:ffffffff 6:00000038 7:00086590
-2868	4:000008ce 5:ffffffff 6:00000038 7:00086590
-3143	CE sym 11, at 0x034ef9e0, mask 0x02
-3267	CE sym 8, at 0x181973c0, mask 0x08
-3387	correctable error detected in directory 0......0
-3391	CE sym 13, at 0x00a3ae00, mask 0x40
-3456	While initializing node card iDo machine with LP of FF:F2:9F:16:EB:54:00:0D:60:E9:14:AB caught java.io.IOException: Could not contact iDo with LP=FF:F2:9F:16:EB:54:00:0D:60:E9:14:AB and IP=/10.0.1.21 because java.lang.RuntimeException: Communication error: (DirectIDo for Uninitialized DirectIDo for FF:F2:9F:16:EB:54:00:0D:60:E9:14:AB@/10.0.1.21:0 is in state = COMMUNICATION_ERROR, sequenceNumberIsOk = false, ExpectedSequenceNumber = 0, Reply Sequence Number = -1, timedOut = true, retries = 200, timeout = 1000, Expected Op Command = 5, Actual Op Reply = -1, Expected Sync Command = 10, Actual Sync Reply = -1)
-3684	CE sym 18, at 0x014a4f20, mask 0x80
-3768	CE sym 15, at 0x0bb87100, mask 0x02
-3769	CE sym 25, at 0x0718de60, mask 0x01
-3770	CE sym 25, at 0x0718de60, mask 0x01
-4370	14 ddr errors(s) detected and corrected on rank 0, symbol 26, bit 7
-4466	CE sym 12, at 0x1b786740, mask 0x40
-4469	CE sym 12, at 0x1b789b60, mask 0x04
-4471	CE sym 12, at 0x1b704940, mask 0x40
-4490	CE sym 6, at 0x0504aae0, mask 0x08
-4526	1 torus sender z+ retransmission error(s) (dcr 0x02f8) detected and corrected
-4531	CE sym 11, at 0x034ef9e0, mask 0x02
-4754	CE sym 18, at 0x1b469680, mask 0x40
-4755	CE sym 12, at 0x1b7e9b60, mask 0x04
-5077	1 tree receiver 0 in re-synch state event(s) (dcr 0x01bc) detected
-5088	1 torus sender z+ retransmission error(s) (dcr 0x02f8) detected and corrected
-5089	CE sym 18, at 0x1bb3a840, mask 0x20
-5093	CE sym 12, at 0x1b7aef60, mask 0x40
-5310	Ido chip status changed: FF:F2:9F:16:E7:B9:00:0D:60:E9:18:46 ip=10.0.0.18 v=9 t=4 status=M Fri Jul 01 08:00:13 PDT 2005
-5312	Ido chip status changed: FF:F2:9F:15:7E:3A:00:0D:60:EA:81:C5 ip=10.0.0.202 v=9 t=1 status=M Fri Jul 01 08:06:53 PDT 2005
-5314	Ido chip status changed: FF:F2:9F:16:E9:E8:00:0D:60:E9:16:17 ip=10.1.0.16 v=13 t=4 status=M Fri Jul 01 08:16:49 PDT 2005
-5317	Ido chip status changed: FF:F2:9F:16:E5:DA:00:0D:60:E9:1A:25 ip=10.1.0.127 v=9 t=4 status=M Fri Jul 01 08:33:29 PDT 2005
-5318	Ido chip status changed: FF:F2:9F:16:E0:E9:00:0D:60:E9:1F:16 ip=10.1.0.233 v=13 t=4 status=M Fri Jul 01 08:33:29 PDT 2005
-5319	Ido chip status changed: FF:F2:9F:16:DF:43:00:0D:60:E9:20:BC ip=10.1.1.97 v=13 t=4 status=M Fri Jul 01 08:38:29 PDT 2005
-5320	Ido chip status changed: FF:F2:9F:16:C2:C5:00:0D:60:E9:3D:3A ip=10.2.3.63 v=13 t=4 status=M Fri Jul 01 08:43:49 PDT 2005
-5321	EndServiceAction is restarting the NodeCards in midplane R17-M1 as part of Service Action 261
-5326	EndServiceAction is restarting the LinkCards in midplane R00-M0 as part of Service Action 245
-5729	CE sym 19, at 0x121a6a60, mask 0x01
-5770	CE sym 35, at 0x09dd5f80, mask 0x40
-6217	30 ddr errors(s) detected and corrected on rank 0, symbol 21, bit 7
-6241	1 tree receiver 1 in re-synch state event(s) (dcr 0x0185) detected
-6278	CE sym 35, at 0x09dd5f80, mask 0x40
-6280	CE sym 28, at 0x102fda60, mask 0x20
-6523	Power deactivated: R05-M0-N2
-7750	CE sym 3, at 0x07d02da0, mask 0x80
-8287	CE sym 7, at 0x05ace2c0, mask 0x20
-8304	ax=366
-8424	CE sym 7, at 0x15a02bc0, mask 0x20
-8537	job 22087 timed out. Block freed.
-8635	CE sym 9, at 0x1dbfd760, mask 0x40
-9274	job 22458 timed out. Block freed.
-9288	CE sym 4, at 0x1f97b180, mask 0x01
-9962	CE sym 13, at 0x1f3fc7e0, mask 0x04
-9963	MidplaneSwitchController performing bit sparing on R27-M1-L3-U18-C bit 3
-9964	CE sym 8, at 0x18114680, mask 0x20
-10088	28:000894a4 29:00000000 30:000886a0 31:b0000040
-10096	47, max=366
-10097	72, max=366
-10098	1 torus processor sram reception error(s) (dcr 0x02fc) detected and corrected
-10099	CE sym 21, at 0x047cc0c0, mask 0x08
-10403	CE sym 21, at 0x047cc0c0, mask 0x08
-10406	CE sym 31, at 0x1ebba9c0, mask 0x02
-11247	CE sym 4, at 0x10a45ae0, mask 0x08
-11433	CE sym 26, at 0x13487240, mask 0x04
-11668	CE sym 26, at 0x13487240, mask 0x04
-11681	CE sym 8, at 0x05eed3a0, mask 0x01
-11683	CE sym 35, at 0x064671c0, mask 0x80
-11684	9 ddr errors(s) detected and corrected on rank 0, symbol 21, bit 7
-12199	MidplaneSwitchController performing bit sparing on R27-M1-L3-U18-C bit 3
-12215	Running as background command
-12216	Node card status: ALERT 0, ALERT 1, ALERT 2, ALERT 3 is (are) active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is not asserted. Temperature Mask is not active. No temperature error. Temperature Limit Error Latch is clear. PGOOD is asserted. PGOOD error latch is clear. MPGOOD is OK. MPGOOD error latch is clear. The 2.5 volt rail is OK. The 1.5 volt rail is OK.
-12256	Node card status: ALERT 0, ALERT 1, ALERT 2, ALERT 3 is (are) active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is not asserted. Temperature Mask is not active. No temperature error. Temperature Limit Error Latch is clear. PGOOD is asserted. PGOOD error latch is clear. MPGOOD is OK. MPGOOD error latch is clear. The 2.5 volt rail is OK. The 1.5 volt rail is OK.
-12306	Bad cable going into LinkCard (203937503438383700000000594C31314B35303134305945) Jtag (4) Port (C) - 2 bad wires
-12398	28:ffffc0c8 29:000001bf 30:000001bf 31:000894a8
-12401	Ido chip status changed: FF:F2:9F:15:7C:4F:00:0D:60:EA:83:B0 ip=10.2.0.159 v=13 t=1 status=M Thu Aug 04 08:33:47 PDT 2005
-12405	Ido chip status changed: FF:F2:9F:15:7D:A6:00:0D:60:EA:82:59 ip=10.6.0.41 v=13 t=1 status=M Thu Aug 04 08:34:02 PDT 2005
-12407	Ido chip status changed: FF:F2:9F:15:1F:A5:00:0D:60:EA:E0:5A ip=10.6.1.9 v=9 t=2 status=M Thu Aug 04 08:34:02 PDT 2005
-12410	Ido chip status changed: FF:F2:9F:15:7E:3F:00:0D:60:EA:81:C0 ip=10.1.0.65 v=13 t=1 status=M Thu Aug 04 08:35:25 PDT 2005
-12465	Bad cable going into LinkCard (203937503438393200000000594C31314B34323735303043) Jtag (3) Port (C) - 19 bad wires
-12466	Bad cable going into LinkCard (203937503438383700000000594C31314B34323839303044) Jtag (3) Port (C) - 19 bad wires
-12467	Bad cable going into LinkCard (203937503438383700000000594C31314B34323734303239) Jtag (5) Port (C) - 19 bad wires
-12478	1 tree receiver 1 in re-synch state event(s) (dcr 0x0185) detected
-12485	CE sym 14, at 0x17086be0, mask 0x02
-12492	LinkCard is not fully functional
-12496	CE sym 7, at 0x120ff4a0, mask 0x02
-12498	CE sym 26, at 0x025f2960, mask 0x02
-12507	CE sym 11, at 0x06366640, mask 0x04
-12508	CE sym 25, at 0x104c5d00, mask 0x02
-12517	i-cache parity error..............0
-12528	Ido chip status changed: FF:F2:9F:15:7B:B9:00:0D:60:EA:84:46 ip=10.7.2.131 v=13 t=1 status=M Tue Aug 09 10:05:22 PDT 2005
-12529	Ido chip status changed: FF:F2:9F:15:7D:56:00:0D:60:EA:82:A9 ip=10.5.1.213 v=13 t=1 status=M Tue Aug 09 10:06:40 PDT 2005
-12530	Ido chip status changed: FF:F2:9F:15:1F:E4:00:0D:60:EA:E0:1B ip=10.5.1.135 v=9 t=2 status=M Tue Aug 09 10:06:40 PDT 2005
-12534	Ido chip status changed: FF:F2:9F:15:7C:2E:00:0D:60:EA:83:D1 ip=10.6.2.72 v=13 t=1 status=M Tue Aug 09 10:08:23 PDT 2005
-12587	CE sym 26, at 0x0f0fe2e0, mask 0x08
-12593	CE sym 3, at 0x04c54e20, mask 0x40
-12597	CE sym 15, at 0x096de080, mask 0x08
-12603	CE sym 7, at 0x10d85460, mask 0x80
-12604	CE sym 17, at 0x18014d40, mask 0x04
-12605	1448 tree receiver 0 in re-synch state event(s) (dcr 0x01bc) detected
-12611	CE sym 4, at 0x16d0fe20, mask 0x02
-12617	CE sym 4, at 0x1295ea80, mask 0x08
-12618	21 torus sender y+ retransmission error(s) (dcr 0x02f6) detected and corrected
-12631	CE sym 19, at 0x0f707b40, mask 0x02
-12632	CE sym 13, at 0x06a6b9e0, mask 0x40
-12638	CE sym 35, at 0x0c3b8c40, mask 0x04
-12639	CE sym 35, at 0x0c3b8c40, mask 0x04
-12646	CE sym 21, at 0x047cc0c0, mask 0x08
-12648	CE sym 21, at 0x047cc0c0, mask 0x08
-12755	CE sym 25, at 0x10e1aac0, mask 0x20
-12807	CE sym 21, at 0x11058500, mask 0x80
-12850	MailboxMonitor::serviceMailboxes() lib_ido_error: -1019 socket closed
-12884	CE sym 3, at 0x00b43200, mask 0x20
-12895	CE sym 17, at 0x06de13a0, mask 0x08
-12903	CE sym 3, at 0x1387cd40, mask 0x40
-12911	CE sym 3, at 0x1193e360, mask 0x01
-12914	CE sym 23, at 0x0b846f40, mask 0x40
-12915	ddr: activating redundant bit steering: rank=0 symbol=7
-12918	CE sym 7, at 0x03ffa060, mask 0x04
-12921	CE sym 19, at 0x03b3e980, mask 0x02
-12922	CE sym 13, at 0x09e42d40, mask 0x02
-12924	CE sym 9, at 0x045ba220, mask 0x02
-12925	CE sym 20, at 0x0a1b4e80, mask 0x04
-12958	CE sym 15, at 0x03efaea0, mask 0x40
-12959	CE sym 15, at 0x03efaea0, mask 0x40
-13022	CE sym 3, at 0x07d02da0, mask 0x80
-13045	MailboxMonitor::serviceMailboxes() lib_ido_error: -1019 socket closed
-13050	CE sym 35, at 0x171288c0, mask 0x08
-13437	CE sym 9, at 0x045ba220, mask 0x02
-13439	5 ddr errors(s) detected and corrected on rank 0, symbol 13, bit 0
-13440	6 ddr errors(s) detected and corrected on rank 0, symbol 6, bit 0
-13443	CE sym 9, at 0x067ddc60, mask 0x01
-13446	CE sym 35, at 0x05aae460, mask 0x20
-13456	CE sym 25, at 0x04bfb9e0, mask 0x20
-13458	5 torus receiver z+ input pipe error(s) (dcr 0x02f0) detected and corrected
-13696	CE sym 31, at 0x01698d60, mask 0x08
-13826	CE sym 3, at 0x11b33d00, mask 0x02
-13830	CE sym 4, at 0x13fb8580, mask 0x02
-13835	CHECK_INITIAL_GLOBAL_INTERRUPT_VALUES
-13867	30 ddr errors(s) detected and corrected on rank 0, symbol 19, bit 3
-13869	CE sym 23, at 0x0cfdddc0, mask 0x04
-13870	30 ddr errors(s) detected and corrected on rank 0, symbol 30, bit 4
-13871	CE sym 20, at 0x039ad360, mask 0x01
-13873	CE sym 7, at 0x03037100, mask 0x01
-13895	CE sym 6, at 0x0504aae0, mask 0x08
-13897	CE sym 21, at 0x17c7a540, mask 0x01
-13898	CE sym 8, at 0x167856e0, mask 0x02
-13899	CE sym 4, at 0x095e86e0, mask 0x01
-13927	CE sym 29, at 0x092db580, mask 0x04
-13934	Ido chip status changed: FF:F2:9F:15:7C:A1:00:0D:60:EA:83:5E ip=10.6.0.119 v=13 t=1 status=M Fri Sep 02 14:43:49 PDT 2005
-13943	CE sym 3, at 0x1193e360, mask 0x01
-13968	CE sym 31, at 0x148d7460, mask 0x40
-13975	CE sym 7, at 0x0fca4d20, mask 0x01
-13993	CE sym 35, at 0x0d94da40, mask 0x02
-14011	CE sym 22, at 0x0c9ef860, mask 0x40
-14059	CE sym 33, at 0x171b7560, mask 0x20
-14061	CE sym 13, at 0x037175c0, mask 0x08
-14064	CE sym 26, at 0x161850e0, mask 0x01
-14081	CE sym 33, at 0x08cbb840, mask 0x80
-14082	CE sym 17, at 0x06de13a0, mask 0x08
-14088	CE sym 7, at 0x18ac7840, mask 0x80
-14109	CE sym 35, at 0x0475dd60, mask 0x40
-14134	CE sym 4, at 0x10a45ae0, mask 0x08
-14135	CE sym 35, at 0x009a7280, mask 0x01
-14136	CE sym 15, at 0x096de080, mask 0x08
-14138	CE sym 4, at 0x054d2be0, mask 0x80
-14147	CE sym 19, at 0x03b3e980, mask 0x02
-14158	CE sym 8, at 0x0d525760, mask 0x40
-14164	CE sym 11, at 0x11dafca0, mask 0x80
-14165	CE sym 31, at 0x13698120, mask 0x04
-14170	CE sym 11, at 0x11dafca0, mask 0x80
-14173	CE sym 19, at 0x0e867940, mask 0x40
-14194	job 42295 timed out. Block freed.
-14195	CE sym 33, at 0x1ab3c520, mask 0x02
-14196	CE sym 3, at 0x1387cd40, mask 0x40
-14197	CE sym 11, at 0x09c3d9a0, mask 0x20
-14199	CE sym 9, at 0x09c438a0, mask 0x20
-14201	CE sym 33, at 0x127496e0, mask 0x40
-14202	CE sym 31, at 0x13698120, mask 0x04
-14203	CE sym 9, at 0x123b6ca0, mask 0x20
-14205	CE sym 18, at 0x123beb20, mask 0x08
-14207	CE sym 4, at 0x13fb8580, mask 0x02
-14210	CE sym 5, at 0x13053ce0, mask 0x01
-14226	Power deactivated: R73-M0-NE
-14388	While initializing service card iDo with LP of FF:F2:9F:15:1F:49:00:0D:60:EA:E0:B6 caught java.io.IOException: Could not contact iDo with LP=FF:F2:9F:15:1F:49:00:0D:60:EA:E0:B6 and IP=/10.0.0.42 because java.lang.RuntimeException: Communication error: (DirectIDo for Uninitialized DirectIDo for FF:F2:9F:15:1F:49:00:0D:60:EA:E0:B6@/10.0.0.42:0 is in state = COMMUNICATION_ERROR, sequenceNumberIsOk = false, ExpectedSequenceNumber = 0, Reply Sequence Number = -1, timedOut = true, retries = 200, timeout = 1000, Expected Op Command = 5, Actual Op Reply = -1, Expected Sync Command = 10, Actual Sync Reply = -1)
-14526	Ido chip status changed: FF:F2:9F:15:7E:69:00:0D:60:EA:81:96 ip=10.1.0.115 v=13 t=1 status=M Tue Sep 20 12:11:49 PDT 2005
-14530	Ido chip status changed: FF:F2:9F:15:1F:41:00:0D:60:EA:E0:BE ip=10.2.1.69 v=9 t=2 status=M Tue Sep 20 12:11:48 PDT 2005
-14534	Ido chip status changed: FF:F2:9F:15:7C:2E:00:0D:60:EA:83:D1 ip=10.6.0.155 v=13 t=1 status=M Tue Sep 20 12:11:48 PDT 2005
-14543	While initializing service card iDo with LP of FF:F2:9F:15:1F:DF:00:0D:60:EA:E0:20 caught java.io.IOException: Could not contact iDo with LP=FF:F2:9F:15:1F:DF:00:0D:60:EA:E0:20 and IP=/10.3.0.187 because java.lang.RuntimeException: Communication error: (DirectIDo for Uninitialized DirectIDo for FF:F2:9F:15:1F:DF:00:0D:60:EA:E0:20@/10.3.0.187:0 is in state = COMMUNICATION_ERROR, sequenceNumberIsOk = false, ExpectedSequenceNumber = 0, Reply Sequence Number = -1, timedOut = true, retries = 200, timeout = 1000, Expected Op Command = 5, Actual Op Reply = -1, Expected Sync Command = 10, Actual Sync Reply = -1)
-14544	While initializing node card iDo machine with LP of FF:F2:9F:16:C9:1D:00:0D:60:E9:36:E2 caught java.io.IOException: Could not contact iDo with LP=FF:F2:9F:16:C9:1D:00:0D:60:E9:36:E2 and IP=/10.4.0.100 because java.lang.RuntimeException: Communication error: (DirectIDo for Uninitialized DirectIDo for FF:F2:9F:16:C9:1D:00:0D:60:E9:36:E2@/10.4.0.100:0 is in state = COMMUNICATION_ERROR, sequenceNumberIsOk = false, ExpectedSequenceNumber = 0, Reply Sequence Number = -1, timedOut = true, retries = 200, timeout = 1000, Expected Op Command = 5, Actual Op Reply = -1, Expected Sync Command = 10, Actual Sync Reply = -1)
-14563	CE sym 25, at 0x104c5d00, mask 0x02
-14668	CE sym 35, at 0x0d94da40, mask 0x02
-14674	CE sym 35, at 0x0d94da40, mask 0x02
-14677	CE sym 29, at 0x0b32cd60, mask 0x08
-14687	CE sym 20, at 0x039ad360, mask 0x01
-14689	CE sym 4, at 0x095e86e0, mask 0x01
-14690	CE sym 17, at 0x18014d40, mask 0x04
-14696	CE sym 33, at 0x04f289a0, mask 0x04
-14697	CE sym 28, at 0x1026db60, mask 0x40
-14698	CE sym 23, at 0x18f7a880, mask 0x40
-14699	CE sym 23, at 0x18f9a880, mask 0x40
-14702	CE sym 26, at 0x022c3fc0, mask 0x40
-14709	CE sym 13, at 0x09e42d40, mask 0x02
-14710	CE sym 22, at 0x0c9ef860, mask 0x40
-14719	CE sym 10, at 0x0249e060, mask 0x04
-14721	CE sym 8, at 0x0d525760, mask 0x40
-14723	CE sym 24, at 0x11af9bc0, mask 0x40
-14724	CE sym 14, at 0x1bbb2c60, mask 0x04
-14726	CE sym 13, at 0x039742a0, mask 0x04
-14727	CE sym 13, at 0x13977ac0, mask 0x04
-14728	CE sym 13, at 0x0397c480, mask 0x08
-14732	24:0feea5f7 25:00003950 26:002570b0 27:00000083
-14733	CE sym 18, at 0x014a4f20, mask 0x80
-14741	CE sym 28, at 0x102db940, mask 0x08
-14742	CE sym 9, at 0x11f82720, mask 0x02
-14743	CE sym 12, at 0x18e33e80, mask 0x04
-14755	CE sym 15, at 0x179c7f60, mask 0x40
-14756	ddr: activating redundant bit steering: rank=0 symbol=15
-14793	CE sym 28, at 0x1efc7020, mask 0x20
-14794	CE sym 25, at 0x155e28e0, mask 0x08
-14802	CE sym 25, at 0x0e14b960, mask 0x02
-14803	CE sym 15, at 0x0bb87100, mask 0x02
-14804	CE sym 5, at 0x05e23580, mask 0x20
-14823	CE sym 5, at 0x0cc77b60, mask 0x20
-14827	CE sym 10, at 0x0d3509c0, mask 0x20
-14840	CE sym 9, at 0x0011f380, mask 0x02
-14841	CE sym 35, at 0x010a3140, mask 0x08
-14846	CE sym 11, at 0x11dafca0, mask 0x80
-14849	CE sym 4, at 0x086cc0c0, mask 0x01
-14852	5 ddr errors(s) detected and corrected on rank 0, symbol 33, bit 0
-14855	CE sym 21, at 0x17c7a540, mask 0x01
-14871	CE sym 5, at 0x18ec9280, mask 0x08
-14876	CE sym 3, at 0x1ee84040, mask 0x01
-14877	CE sym 3, at 0x1ee84040, mask 0x01
-14905	CE sym 22, at 0x14aa5f80, mask 0x01
-14907	CE sym 28, at 0x162496a0, mask 0x40
-14924	CE sym 22, at 0x0fc4f6e0, mask 0x01
-14929	CE sym 5, at 0x14288e60, mask 0x02
-14952	CE sym 28, at 0x183dc6c0, mask 0x02
-14954	6 ddr errors(s) detected and corrected on rank 0, symbol 21, bit 4
-14955	CE sym 14, at 0x1b540fc0, mask 0x20
-14956	5 ddr errors(s) detected and corrected on rank 0, symbol 5, bit 3
-14957	CE sym 35, at 0x0c3b8c40, mask 0x04
-14959	CE sym 21, at 0x047cc0c0, mask 0x08
-14960	CE sym 13, at 0x0e7cf3a0, mask 0x80
-14968	Power deactivated: R44-M1-N0
-14969	CHECK_INITIAL_GLOBAL_INTERRUPT_VALUES
-14983	30 ddr errors(s) detected and corrected on rank 0, symbol 7, bit 7
-14990	CE sym 14, at 0x06047860, mask 0x20
-15000	CE sym 31, at 0x0e319560, mask 0x40
-15025	CE sym 7, at 0x18398100, mask 0x04
-15028	CE sym 12, at 0x18e33e80, mask 0x04
-15030	CE sym 8, at 0x1306fe20, mask 0x01
-15031	CE sym 19, at 0x0701bc00, mask 0x01
-15033	CE sym 10, at 0x0a6c3ca0, mask 0x80
-15042	CE sym 4, at 0x012def80, mask 0x40
-15049	6 ddr errors(s) detected and corrected on rank 0, symbol 25, bit 3
-15052	CE sym 10, at 0x16a36360, mask 0x04
-15056	CE sym 35, at 0x129a2060, mask 0x40
-15057	CE sym 14, at 0x06047860, mask 0x20
-15078	CE sym 34, at 0x039e6960, mask 0x08
-15097	CE sym 5, at 0x0589fd80, mask 0x01
-15098	CE sym 5, at 0x0a6ae4a0, mask 0x08
-15101	CE sym 26, at 0x12c86ca0, mask 0x08
-15102	CE sym 26, at 0x12c86ca0, mask 0x08
-15192	CE sym 11, at 0x0194c460, mask 0x01
-15193	CE sym 28, at 0x097360c0, mask 0x80
-15197	CE sym 28, at 0x144c5720, mask 0x01
-15202	CE sym 20, at 0x0f6f83e0, mask 0x04
-15231	CE sym 12, at 0x135b4f60, mask 0x08
-15243	CE sym 6, at 0x00e462c0, mask 0x02
-15256	CE sym 21, at 0x10b59900, mask 0x02
-15259	CE sym 21, at 0x1eaf39c0, mask 0x80
-15262	CE sym 25, at 0x1d162ce0, mask 0x80
-15263	CE sym 28, at 0x108e6e60, mask 0x80
-15264	CE sym 21, at 0x10b59900, mask 0x02
-15280	CE sym 14, at 0x145e5be0, mask 0x01
-15283	CE sym 8, at 0x05eed3a0, mask 0x01
-15289	ddr: activating redundant bit steering: rank=0 symbol=0
-15294	CE sym 24, at 0x158d0b80, mask 0x08
-15295	CE sym 33, at 0x127516e0, mask 0x40
-15298	CE sym 29, at 0x187a8be0, mask 0x08
-15302	CE sym 5, at 0x04628000, mask 0x02
-15327	CE sym 15, at 0x01f8eec0, mask 0x04
-15328	1 torus sender x+ retransmission error(s) (dcr 0x02f4) detected and corrected
-15330	CE sym 10, at 0x09f33f60, mask 0x40
-15332	CE sym 3, at 0x1ee84040, mask 0x01
-15333	CE sym 28, at 0x144c5720, mask 0x01
-15344	216 tree receiver 1 in re-synch state event(s) (dcr 0x0185) detected
-15365	CE sym 10, at 0x09f33f60, mask 0x40
-15366	CE sym 23, at 0x011c2ce0, mask 0x04
-15389	5 torus receiver z- input pipe error(s) (dcr 0x02f1) detected and corrected
-15392	3 ddr errors(s) detected and corrected on rank 0, symbol 30, bit 3
-15395	CE sym 12, at 0x1c9036c0, mask 0x40
-15403	3 torus receiver z+ input pipe error(s) (dcr 0x02f0) detected and corrected
-15404	CE sym 7, at 0x03ffa060, mask 0x04
-15405	CE sym 35, at 0x062c7bc0, mask 0x80
-15406	CE sym 35, at 0x06c271c0, mask 0x80
-15419	CE sym 23, at 0x18f9a880, mask 0x40
-15429	CE sym 25, at 0x0718de60, mask 0x01
-15430	CE sym 26, at 0x0b66d980, mask 0x04
-15435	14 ddr errors(s) detected and corrected on rank 0, symbol 22, bit 7
-15437	CE sym 9, at 0x065f72a0, mask 0x20
-15438	CE sym 24, at 0x0808c940, mask 0x40
-15439	CE sym 31, at 0x18f87340, mask 0x01
-15441	CE sym 25, at 0x0718de60, mask 0x01
-15455	CE sym 3, at 0x1ac28c60, mask 0x02
-15459	CE sym 19, at 0x1806b540, mask 0x01
-15460	CE sym 26, at 0x0a2fcec0, mask 0x08
-15463	CE sym 15, at 0x179c7f60, mask 0x40
-15464	CE sym 14, at 0x0863fd00, mask 0x40
-15465	CE sym 31, at 0x1439cce0, mask 0x40
-15466	CE sym 35, at 0x094df2a0, mask 0x40
-15474	CE sym 30, at 0x1bc2b700, mask 0x04
-15477	CE sym 30, at 0x1bdcb700, mask 0x04
-15479	CE sym 30, at 0x1be4b700, mask 0x04
-15487	CE sym 30, at 0x1ba4b700, mask 0x04
-15493	CE sym 33, at 0x0332d120, mask 0x40
-15494	CE sym 19, at 0x121a6a60, mask 0x01
-15495	CE sym 25, at 0x17274460, mask 0x20
-16115	CE sym 6, at 0x1971c160, mask 0x02
-16297	CE sym 35, at 0x190faee0, mask 0x04
-16298	CE sym 7, at 0x06d237c0, mask 0x20
-16873	CE sym 14, at 0x1c9b3960, mask 0x02
-16882	1 torus sender z- retransmission error(s) (dcr 0x02f9) detected and corrected
-16883	CE sym 15, at 0x1c2040c0, mask 0x20
-16884	CE sym 19, at 0x1ba8ec00, mask 0x80
-16887	CE sym 23, at 0x09e7f700, mask 0x01
-16888	CE sym 23, at 0x09e7f700, mask 0x01
-16911	CE sym 14, at 0x145e5be0, mask 0x01
-16914	CE sym 14, at 0x136cd5e0, mask 0x04
-16917	CE sym 31, at 0x13698120, mask 0x04
-16918	CE sym 14, at 0x145e5be0, mask 0x01
-16981	CE sym 28, at 0x161059a0, mask 0x40
-16986	CE sym 29, at 0x14123c20, mask 0x08
-17157	CE sym 21, at 0x10b59900, mask 0x02
-17158	CE sym 21, at 0x10b59900, mask 0x02
-17263	CE sym 6, at 0x00e462c0, mask 0x02
-17336	CE sym 18, at 0x11ff28a0, mask 0x04
-17341	CE sym 21, at 0x011d8c20, mask 0x04
-17342	CE sym 21, at 0x111d8c60, mask 0x01
-17347	CE sym 9, at 0x12870760, mask 0x40
-17348	CE sym 21, at 0x111d8c60, mask 0x01
-17351	CE sym 8, at 0x030219a0, mask 0x02
-17352	CE sym 19, at 0x09f84200, mask 0x80
-17353	CE sym 19, at 0x09ea4200, mask 0x80
-17363	CE sym 15, at 0x1bb2fe80, mask 0x02
-17371	CE sym 26, at 0x023f2960, mask 0x02
-17443	Link PGOOD error latched on link card
-17445	CE sym 11, at 0x06366640, mask 0x04
-17446	CE sym 29, at 0x14123c20, mask 0x08
-17447	CE sym 28, at 0x161059a0, mask 0x40
-17448	CE sym 4, at 0x1295ea80, mask 0x08
-17449	CE sym 3, at 0x07d02da0, mask 0x80
-17456	CE sym 24, at 0x11af9bc0, mask 0x40
-17458	CE sym 35, at 0x1931cdc0, mask 0x80
-17459	CE sym 35, at 0x1931cdc0, mask 0x80
-17460	CE sym 24, at 0x11af9bc0, mask 0x40
-17463	CE sym 11, at 0x0194c460, mask 0x01
-17464	Running as background command
-17466	CE sym 11, at 0x020b75c0, mask 0x02
-17468	CE sym 14, at 0x1bbb2c60, mask 0x04
-17470	CE sym 26, at 0x1a028fe0, mask 0x01
-17471	CE sym 33, at 0x1ff2fc60, mask 0x04
-17477	CE sym 3, at 0x07d02da0, mask 0x80
-17535	tlb error.........................0
-17540	MailboxMonitor::serviceMailboxes() lib_ido_error: -1019 socket closed
-17541	fraction inexact.........................0
-17543	inexact exception........................0
-17553	Power Good signal deactivated: R73-M1-N1. A service action may be required.
-17555	14263902 torus sender y- retransmission error(s) (dcr 0x02f7) detected and corrected over 162 seconds
-17556	16215876 torus sender z+ retransmission error(s) (dcr 0x02f8) detected and corrected over 178 seconds
-17557	24992126 torus sender z- retransmission error(s) (dcr 0x02f9) detected and corrected over 253 seconds
-17566	CE sym 31, at 0x0a80d500, mask 0x80
-17668	CE sym 13, at 0x06a6b9e0, mask 0x40
-17969	CE sym 12, at 0x1b791d60, mask 0x08
-18281	CE sym 10, at 0x0585ca00, mask 0x80
-18528	CE sym 19, at 0x0e867940, mask 0x40
-18809	CE sym 21, at 0x16f590c0, mask 0x80
-18913	CE sym 7, at 0x03ffa060, mask 0x04
-18914	MidplaneSwitchController performing bit sparing on R27-M1-L3-U18-C bit 3
-18989	Ido chip status changed: FF:F2:9F:15:7D:71:00:0D:60:EA:82:8E ip=10.7.1.5 v=13 t=1 status=M Thu Aug 04 08:34:11 PDT 2005
-18997	Ido chip status changed: FF:F2:9F:15:7E:4E:00:0D:60:EA:81:B1 ip=10.0.2.153 v=13 t=1 status=M Thu Aug 04 15:29:45 PDT 2005
-19009	CE sym 28, at 0x1824aba0, mask 0x80
-19010	CE sym 23, at 0x0e1ef660, mask 0x02
-19037	ddr: activating redundant bit steering: rank=0 symbol=23
-19038	CE sym 35, at 0x0d94da40, mask 0x02
-19039	CE sym 5, at 0x10436220, mask 0x08
-19043	CE sym 7, at 0x05ace2c0, mask 0x20
-19101	CE sym 30, at 0x12ade480, mask 0x02
-19137	CHECK_INITIAL_GLOBAL_INTERRUPT_VALUES
-19138	CHECK_INITIAL_GLOBAL_INTERRUPT_VALUES
-19172	EndServiceAction is restarting the LinkCards in midplane R33-M1 as part of Service Action 416
-19176	CE sym 6, at 0x004ebc60, mask 0x04
-19187	CE sym 7, at 0x13a3a5c0, mask 0x04
-19212	Ido chip status changed: FF:F2:9F:15:7D:F9:00:0D:60:EA:82:06 ip=10.2.1.223 v=13 t=1 status=M Tue Sep 20 12:11:48 PDT 2005
-19227	6 ddr errors(s) detected and corrected on rank 0, symbol 33, bit 4
-19228	CE sym 33, at 0x04f289a0, mask 0x04
-19229	CE sym 13, at 0x039742a0, mask 0x04
-19232	CE sym 35, at 0x010ab140, mask 0x08
-19239	CE sym 13, at 0x0df7a540, mask 0x01
-19245	CE sym 23, at 0x08d3ea20, mask 0x04
-19254	CE sym 10, at 0x12f3ace0, mask 0x80
-19258	CE sym 5, at 0x05e23580, mask 0x20
-19270	CE sym 5, at 0x1649a520, mask 0x01
-19272	CE sym 4, at 0x09812c80, mask 0x02
-19278	CE sym 5, at 0x151a96e0, mask 0x02
-19294	1 tree receiver 1 in re-synch state event(s) (dcr 0x0185) detected
-19299	CE sym 7, at 0x002e4ec0, mask 0x02
-19308	CE sym 8, at 0x1e93a360, mask 0x20
-19315	CE sym 13, at 0x00c39fe0, mask 0x04
-19323	CE sym 29, at 0x1a86f180, mask 0x08
-19490	CE sym 23, at 0x09e7f700, mask 0x01
-19534	CE sym 21, at 0x10b59900, mask 0x02
-19557	CE sym 9, at 0x12870760, mask 0x40
-19562	CE sym 15, at 0x1bb2fe80, mask 0x02
-19571	CE sym 24, at 0x11af9bc0, mask 0x40
-19578	CE sym 7, at 0x0105e920, mask 0x80
-19594	28:00000000 29:03384ef0 30:00040000 31:00040220
-19692	CE sym 33, at 0x00dbd200, mask 0x80
-19751	CE sym 13, at 0x05f46140, mask 0x80
-19769	CE sym 3, at 0x07d02da0, mask 0x80
-19772	CE sym 31, at 0x04c2bb60, mask 0x20
-19783	CE sym 22, at 0x041ebe00, mask 0x08
-19811	CE sym 30, at 0x163f80e0, mask 0x80
-19815	CE sym 26, at 0x02352960, mask 0x02
-19828	CE sym 9, at 0x065f72a0, mask 0x20
+125	15 ddr errors(s) detected and corrected on rank 0, symbol 26, bit 5
+203	CE sym 11, at 0x074080a0, mask 0x20
+822	28:48000828 29:0000000a 30:0000000e 31:000865b0
+960	8:8003000c 9:00000000 10:00090000 11:0000003c
+963	28:48000828 29:0000000a 30:0000000e 31:000865b0
+964	28:48000828 29:0000000b 30:0000000e 31:000865b0
+1544	1 ddr errors(s) detected and corrected on rank 0, symbol 7, bit 0
+1580	5 ddr errors(s) detected and corrected on rank 0, symbol 16, bit 0
+1825	12 ddr errors(s) detected and corrected on rank 0, symbol 26, bit 4
+2434	correctable error.....1
+2444	CE sym 34, at 0x0a11b980, mask 0x01
+2445	CE sym 34, at 0x0a11b980, mask 0x01
+2474	ciod: Message code 2 is not 3 or 4294967295
+2477	22 ddr errors(s) detected and corrected on rank 0, symbol 4, bit 0
+2594	30 ddr errors(s) detected and corrected on rank 0, symbol 2, bit 2
+3487	CE sym 30, at 0x18e84b40, mask 0x02
+4762	CE sym 14, at 0x00ac50e0, mask 0x80
+4770	ciod: for node 54, read continuation request but ioState is 0
+4798	20:0deed738 21:0d9ccf30 22:0f5ef850 23:0f572850
+9818	ciod: for node 57, read continuation request but ioState is 0
+9819	ciod: for node 71, read continuation request but ioState is 0
+9820	ciod: for node 63, read continuation request but ioState is 0
+10338	CE sym 14, at 0x00ac50e0, mask 0x80
+10636	5 ddr errors(s) detected and corrected on rank 0, symbol 1, bit 4
+10696	CE sym 12, at 0x0b792100, mask 0x80
+10759	CE sym 12, at 0x1b7a7500, mask 0x08
+10815	CE sym 22, at 0x07669260, mask 0x10
+11074	ciod: Unexpected eof at line 8193 of node map file /p/gb2/cabot/miranda/newmaps/8k_128x64x1_8x4x4.map
+11075	ciod: Unexpected eof at line 8193 of node map file /p/gb2/cabot/miranda/newmaps/8k_128x64x1_8x4x4.map
+11117	5 ddr errors(s) detected and corrected on rank 0, symbol 16, bit 3
+11268	CE sym 12, at 0x0b798b20, mask 0x80
+11292	CE sym 8, at 0x167856e0, mask 0x02
+11553	1 torus sender x+ retransmission error(s) (dcr 0x02f4) detected and corrected
+11557	1 ddr errors(s) detected and corrected on rank 0, symbol 35, bit 5
+11747	1 ddr errors(s) detected and corrected on rank 0, symbol 3, bit 7
+11785	CE sym 10, at 0x0cc6f0e0, mask 0x01
+11786	CE sym 22, at 0x0b361440, mask 0x10
+11787	CE sym 17, at 0x06904a00, mask 0x20
+11788	CE sym 25, at 0x0718de60, mask 0x01
+11831	CE sym 34, at 0x19b019a0, mask 0x02
+13089	CE sym 10, at 0x01d7a160, mask 0x10
+13090	CE sym 14, at 0x1164e7e0, mask 0x08
+13122	7 ddr errors(s) detected and corrected on rank 0, symbol 0, bit 2
+13962	CE sym 12, at 0x1b716f60, mask 0x80
+13972	CE sym 6, at 0x0504aae0, mask 0x08
+13974	CE sym 16, at 0x0456cd40, mask 0x04
+14171	3 ddr errors(s) detected and corrected on rank 0, symbol 26, bit 5
+14829	CE sym 18, at 0x1b469680, mask 0x40
+14830	CE sym 18, at 0x1b469680, mask 0x40
+15684	job 20741 timed out. Block freed.
+15798	1 ddr errors(s) detected and corrected on rank 0, symbol 0, bit 0
+15857	8 ddr errors(s) detected and corrected on rank 0, symbol 0, bit 2
+15878	8 ddr errors(s) detected and corrected on rank 0, symbol 26, bit 7
+16458	Ido chip status changed: FF:F2:9F:16:EB:63:00:0D:60:E9:14:9C ip=10.0.0.184 v=9 t=4 status=M Fri Jul 01 08:11:53 PDT 2005
+16459	Ido chip status changed: FF:F2:9F:15:7F:DF:00:0D:60:EA:80:20 ip=10.1.0.13 v=13 t=1 status=M Fri Jul 01 08:16:49 PDT 2005
+16463	Ido chip status changed: FF:F2:9F:16:E3:92:00:0D:60:E9:1C:6D ip=10.1.1.164 v=9 t=4 status=M Fri Jul 01 08:28:30 PDT 2005
+16464	Ido chip status changed: FF:F2:9F:16:E4:4D:00:0D:60:E9:1B:B2 ip=10.1.0.184 v=9 t=4 status=M Fri Jul 01 08:31:49 PDT 2005
+16467	Ido chip status changed: FF:F2:9F:16:DF:7A:00:0D:60:E9:20:85 ip=10.1.0.36 v=9 t=4 status=M Fri Jul 01 08:36:49 PDT 2005
+16488	Node card VPD check: U01 node in processor card slot J14 do not match. VPD ecid 075A04D2CF7BFFFF0C041B108ED5, found 074A04E28C7BFFFF0C091C008EEA
+17722	CE sym 21, at 0x08c33100, mask 0x40
+17724	CE sym 21, at 0x08c33100, mask 0x40
+19220	3 ddr errors(s) detected and corrected on rank 0, symbol 31, bit 1
+19222	CE sym 3, at 0x081247c0, mask 0x40
+19223	8:00107662 9:00000002 10:0fe00000 11:00090000
+19224	CE sym 20, at 0x019f73e0, mask 0x20
+19260	5 ddr errors(s) detected and corrected on rank 0, symbol 35, bit 3
+20079	CE sym 19, at 0x057c7e00, mask 0x20
+20096	1 ddr errors(s) detected and corrected on rank 0, symbol 29, bit 7
+20112	7 ddr errors(s) detected and corrected on rank 0, symbol 15, bit 3
+20113	1 ddr errors(s) detected and corrected on rank 0, symbol 3, bit 0
+23242	DCR 0x2E1 : 0x00000000
+25536	Power deactivated: R05-M0-N1
+26486	CE sym 1, at 0x17bfb740, mask 0x10
+26498	28:1fea8b60 29:00000003 30:00000000 31:09470eb0
+27121	Starting SystemController
+28616	9 ddr errors(s) detected and corrected on rank 0, symbol 28, bit 2
+29495	CE sym 14, at 0x1164e7e0, mask 0x08
+30329	CE sym 18, at 0x127c5340, mask 0x08
+30709	max=366
+30718	91, max=366
+30719	91, max=366
+30725	16:00000022 17:00001644 18:00088804 19:00089b08
+30727	24:00000000 25:000277ec 26:00000001 27:00004200
+30733	max=366
+30734	98
+30756	CE sym 31, at 0x01698d60, mask 0x08
+30757	CE sym 31, at 0x01698d60, mask 0x08
+30768	CE sym 16, at 0x11f07ee0, mask 0x01
+31671	CE sym 16, at 0x0456cd40, mask 0x04
+31686	CE sym 3, at 0x04c55200, mask 0x10
+31690	5 ddr errors(s) detected and corrected on rank 0, symbol 21, bit 1
+31697	5 ddr errors(s) detected and corrected on rank 0, symbol 34, bit 1
+34324	1 ddr errors(s) detected and corrected on rank 0, symbol 3, bit 0
+34799	7 ddr errors(s) detected and corrected on rank 0, symbol 9, bit 0
+34804	CE sym 4, at 0x05ef7ee0, mask 0x20
+34863	6 ddr errors(s) detected and corrected on rank 0, symbol 34, bit 1
+34864	CE sym 10, at 0x01d7a160, mask 0x10
+34865	CE sym 15, at 0x1c2040c0, mask 0x20
+34867	CE sym 17, at 0x1ceb26a0, mask 0x10
+34869	CE sym 6, at 0x0504aae0, mask 0x08
+34870	CE sym 34, at 0x19b019a0, mask 0x02
+35550	CE sym 14, at 0x1164e7e0, mask 0x08
+35609	CE sym 20, at 0x019f73e0, mask 0x20
+35611	CE sym 5, at 0x15af6440, mask 0x10
+35627	CE sym 30, at 0x163f80e0, mask 0x80
+35631	CE sym 24, at 0x0628e8e0, mask 0x02
+35636	CE sym 24, at 0x0628e8e0, mask 0x02
+35639	10 ddr errors(s) detected and corrected on rank 0, symbol 7, bit 2
+37191	Node card VPD check: U01 node in processor card slot J15 do not match. VPD ecid 04D080741B2FFFFF090419F0CABE, found 07510D50DC2FFFFF060B1B0092D4
+37196	Controlling BG/L rows [ 0 1 2 3 4 5 6 7 ]
+37265	Node card VPD check: U01 node in processor card slot J15 do not match. VPD ecid 04D480A74D2FFFFF0C0D1BE054E5, found 0000000000000000000000000000
+37266	Node card VPD check: U01 node in processor card slot J18 do not match. VPD ecid 070101519B2FFFFF080619E1CCBF, found 0000000000000000000000000000
+37293	Node card VPD check: U11 node in processor card slot J17 do not match. VPD ecid 074404E0967BFFFF090B1B6094DA, found 0000000000000000000000000000
+37327	Node card VPD check: U01 node in processor card slot J14 do not match. VPD ecid 075B04C0D37BFFFF0A081AA0C6CC, found 0000000000000000000000000000
+37427	Expected 10 active FanModules, but found 9 ( Found J300 J301 J302 J303 J304 J306 J307 J308 J309 ).
+37445	Node card VPD check: missing U01 node, VPD ecid 04CC81A28F2FFFFF08031B308ADA in processor card slot J18
+37447	Node card VPD check: missing U11 node, VPD ecid 07561051022FFFFF05031B20DADA in processor card slot J18
+37449	Node card VPD check: missing U01 node, VPD ecid 075C1055192FFFFF02061C2046EC in processor card slot J18
+37450	Node card VPD check: missing U01 node, VPD ecid 075F10519D2FFFFF050A1B805EE2 in processor card slot J19
+37736	uncorrectable error...0
+37741	Ido chip status changed: FF:F2:9F:15:1F:C2:00:0D:60:EA:E0:3D ip=10.4.0.136 v=9 t=2 status=M Thu Aug 04 08:33:48 PDT 2005
+37742	Ido chip status changed: FF:F2:9F:15:1E:41:00:0D:60:EA:E1:BE ip=10.4.0.10 v=9 t=2 status=M Thu Aug 04 08:33:48 PDT 2005
+37796	Node card VPD check: U11 node in processor card slot J17 do not match. VPD ecid 07470D98C12FFFFF04041B00E2D6, found 04DD8074DF2FFFFF0A0E1AE0D8D2
+37848	Node card VPD check: U01 node in processor card slot J18 do not match. VPD ecid 04C380A68E2FFFFF05091B8056DE, found 075A0D98D22FFFFF02071A90DACB
+37939	Bad cable going into LinkCard (203937503438383700000000594C31314B34323839303043) Jtag (5) Port (C) - 19 bad wires
+37940	Bad cable going into LinkCard (203937503438383700000000594C31314B34323734303239) Jtag (3) Port (C) - 19 bad wires
+37970	mmcs_db_server has been started: ./mmcs_db_server --useDatabase BGL --dbproperties serverdb.properties --iolog /bgl/BlueLight/logs/BGL --reconnect-blocks all
+37973	command manager unit summary.....................0
+37978	17 ddr errors(s) detected and corrected on rank 0, symbol 27, bit 7
+37979	30 ddr errors(s) detected and corrected on rank 0, symbol 21, bit 0
+37983	CE sym 29, at 0x1d0cfe60, mask 0x10
+37988	CE sym 29, at 0x1d0cfe60, mask 0x10
+37992	CE sym 26, at 0x1bb73660, mask 0x40
+37999	10 ddr errors(s) detected and corrected on rank 0, symbol 31, bit 4
+38026	11 ddr errors(s) detected and corrected on rank 0, symbol 3, bit 2
+38028	1 ddr errors(s) detected and corrected on rank 0, symbol 29, bit 0
+38035	CE sym 8, at 0x0d525760, mask 0x40
+38045	1 ddr errors(s) detected and corrected on rank 0, symbol 8, bit 7
+38088	3 ddr errors(s) detected and corrected on rank 0, symbol 27, bit 7
+38093	11 ddr errors(s) detected and corrected on rank 0, symbol 15, bit 3
+38094	1 ddr errors(s) detected and corrected on rank 0, symbol 10, bit 5
+38109	this link card is not fully functional
+38115	21 torus sender z+ retransmission error(s) (dcr 0x02f8) detected and corrected
+38119	Ido chip status changed: FF:F2:9F:15:1F:1F:00:0D:60:EA:E0:E0 ip=10.6.1.114 v=9 t=2 status=M Tue Aug 09 10:05:03 PDT 2005
+38137	Ido chip status changed: FF:F2:9F:15:1F:D7:00:0D:60:EA:E0:28 ip=10.2.2.89 v=9 t=2 status=M Tue Aug 09 10:07:51 PDT 2005
+38141	Ido chip status changed: FF:F2:9F:15:1F:38:00:0D:60:EA:E0:C7 ip=10.0.3.106 v=9 t=2 status=M Tue Aug 09 10:07:57 PDT 2005
+38162	Node card VPD check: U01 node in processor card slot J15 do not match. VPD ecid 04C481B3942FFFFF0706199102B6, found 07440E10DE2FFFFF0C071B304CD8
+38163	Node card VPD check: missing U11 node, VPD ecid 04DD81D51B2FFFFF06061BB04AE0 in processor card slot J18
+38174	Node card VPD check: U01 node in processor card slot J18 do not match. VPD ecid 04C48126572FFFFF09041A710EC8, found 075010515A2FFFFF07031C0046EC
+38208	Node card VPD check: U11 node in processor card slot J17 do not match. VPD ecid 04D97DB7937BFFFF05071B7054DA, found 04D081A3892FFFFF0D0B1C505AF3
+38236	Node card VPD check: missing U01 node, VPD ecid 07411026502FFFFF07021B6098DF in processor card slot J19
+38237	Node card VPD check: missing U11 node, VPD ecid 04C78466A02FFFFF08051BD048E3 in processor card slot J19
+38240	Node card VPD check: U01 node in processor card slot J15 do not match. VPD ecid 04CE80929E2FFFFF040A1B1090D8, found 04C480878D2FFFFF0D031BA094E4
+38241	Node card VPD check: missing U11 node, VPD ecid 04C08465452FFFFF03071AF08CD0 in processor card slot J19
+38261	1 ddr errors(s) detected and corrected on rank 0, symbol 15, bit 5
+38273	CE sym 5, at 0x1196ed60, mask 0x80
+38274	CE sym 8, at 0x0d525760, mask 0x40
+38281	CE sym 30, at 0x1a50cce0, mask 0x10
+38283	CE sym 8, at 0x0d525760, mask 0x40
+38299	20 torus sender y+ retransmission error(s) (dcr 0x02f6) detected and corrected
+38301	CE sym 33, at 0x18139ae0, mask 0x10
+38318	3 ddr errors(s) detected and corrected on rank 0, symbol 8, bit 7
+38327	CE sym 17, at 0x18014d40, mask 0x04
+38330	36 torus sender x+ retransmission error(s) (dcr 0x02f4) detected and corrected
+38340	CE sym 12, at 0x135b4f60, mask 0x08
+38345	16 torus sender z- retransmission error(s) (dcr 0x02f9) detected and corrected
+38353	1 ddr errors(s) detected and corrected on rank 0, symbol 28, bit 0
+38356	16 torus sender z- retransmission error(s) (dcr 0x02f9) detected and corrected
+38359	1 ddr errors(s) detected and corrected on rank 0, symbol 2, bit 5
+38364	3 ddr errors(s) detected and corrected on rank 0, symbol 15, bit 3
+38368	CE sym 6, at 0x0c26b780, mask 0x40
+38371	7 ddr errors(s) detected and corrected on rank 0, symbol 17, bit 1
+38379	10 ddr errors(s) detected and corrected on rank 0, symbol 34, bit 1
+38380	1 ddr errors(s) detected and corrected on rank 0, symbol 9, bit 5
+38384	CE sym 1, at 0x159a7420, mask 0x80
+38386	CE sym 26, at 0x04bbd900, mask 0x20
+38388	CE sym 30, at 0x08992600, mask 0x04
+38389	CE sym 26, at 0x19bd1c60, mask 0x80
+38394	CE sym 17, at 0x16904a20, mask 0x20
+38399	5 ddr errors(s) detected and corrected on rank 0, symbol 9, bit 3
+38401	27 ddr errors(s) detected and corrected on rank 0, symbol 19, bit 2
+38406	CE sym 8, at 0x0d525760, mask 0x40
+38408	CE sym 3, at 0x0a8bf080, mask 0x40
+38411	CE sym 22, at 0x1049e8c0, mask 0x04
+38413	CE sym 19, at 0x057c7e00, mask 0x20
+38414	CE sym 29, at 0x196c1140, mask 0x80
+38415	CE sym 3, at 0x0a8bf080, mask 0x40
+38426	CE sym 6, at 0x1060c0c0, mask 0x40
+38431	1 ddr errors(s) detected and corrected on rank 0, symbol 21, bit 7
+38440	CE sym 29, at 0x03a32fc0, mask 0x04
+38443	CE sym 31, at 0x0237ca00, mask 0x02
+38446	Node card VPD check: U11 node in processor card slot J17 do not match. VPD ecid 07600D519E2FFFFF01091B40DED9, found 07560D385C2FFFFF0F0A1C9058FB
+38447	imprecise machine check...........1
+38876	CE sym 35, at 0x1a345220, mask 0x20
+38945	rts: bad message header: index 0 greater than total 0 (softheader=00000002 00000001 00000000 00000000) PSR0=00000000 PSR1=00000000 PRXF=0000002a PIXF=00000007
+38949	job 30130 timed out. Block freed.
+39060	MailboxMonitor::serviceMailboxes() lib_ido_error: -1019 socket closed
+39061	MailboxMonitor::serviceMailboxes() lib_ido_error: -1019 socket closed
+39075	rts: bad message header: index 0 greater than total 0 (softheader=00000002 00000001 00000000 00000000) PSR0=00000000 PSR1=00000000 PRXF=0000002a PIXF=00000007
+39076	rts: bad message header: index 0 greater than total 0 (softheader=00000001 00000001 00000000 00000000) PSR0=00000000 PSR1=00000000 PRXF=0000002a PIXF=00000007
+39082	rts: bad message header: index 0 greater than total 0 (softheader=00000002 00000001 00000000 00000000) PSR0=00000000 PSR1=00000000 PRXF=0000002a PIXF=00000007
+39151	job 30937 timed out. Block freed.
+39221	9 ddr errors(s) detected and corrected on rank 0, symbol 5, bit 4
+39231	1 ddr errors(s) detected and corrected on rank 0, symbol 11, bit 5
+39239	CE sym 31, at 0x0a80d500, mask 0x80
+39246	3 ddr errors(s) detected and corrected on rank 0, symbol 26, bit 4
+39248	3 ddr errors(s) detected and corrected on rank 0, symbol 6, bit 7
+39250	CE sym 34, at 0x19b019a0, mask 0x02
+39266	CE sym 29, at 0x03a32fc0, mask 0x04
+39428	CE sym 29, at 0x0d09f7e0, mask 0x40
+39668	memory manager store buffer parity...............0
+39669	mmcs_db_server has been started: ./mmcs_db_server --useDatabase BGL --dbproperties serverdb.properties --iolog /bgl/BlueLight/logs/BGL --reconnect-blocks all --shutdown-timeout 30
+39671	1 ddr errors(s) detected and corrected on rank 0, symbol 12, bit 5
+39676	CE sym 17, at 0x06904a00, mask 0x20
+39691	1 ddr errors(s) detected and corrected on rank 0, symbol 3, bit 0
+39692	CE sym 15, at 0x03efaea0, mask 0x80
+39693	CE sym 10, at 0x09f33f60, mask 0x40
+39696	CE sym 19, at 0x057c7e00, mask 0x20
+40798	5 ddr errors(s) detected and corrected on rank 0, symbol 35, bit 1
+40810	CE sym 24, at 0x0628e8e0, mask 0x02
+40817	5 ddr errors(s) detected and corrected on rank 0, symbol 13, bit 0
+40821	21 ddr errors(s) detected and corrected on rank 0, symbol 0, bit 0
+40834	8 ddr errors(s) detected and corrected on rank 0, symbol 4, bit 4
+40844	CE sym 17, at 0x140292e0, mask 0x02
+40846	CE sym 11, at 0x15feaf60, mask 0x08
+40847	CE sym 11, at 0x05d130e0, mask 0x40
+40859	CE sym 33, at 0x0378ba20, mask 0x10
+41142	5 ddr errors(s) detected and corrected on rank 0, symbol 11, bit 3
+41978	machine check interrupt (bit=0x06): L3 major internal error
+42015	1 ddr errors(s) detected and corrected on rank 0, symbol 6, bit 0
+42057	1153989 torus sender z- retransmission error(s) (dcr 0x02f9) detected and corrected
+42123	15 ddr errors(s) detected and corrected on rank 0, symbol 35, bit 3
+42131	CE sym 29, at 0x092db580, mask 0x04
+42133	job 35127 timed out. Block freed.
+42181	ciodb has been restarted.
+42198	CE sym 5, at 0x1196ed60, mask 0x80
+42201	CE sym 34, at 0x0953f680, mask 0x10
+42214	MidplaneSwitchController::receiveTrain() iap failed: R63-M0-L2-U21-A, status=ffbffbff ec000000
+42215	MidplaneSwitchController::receiveTrain() iap failed: R63-M0-L2-U21-A, status=ffbffbff ec000000
+42291	1 ddr errors(s) detected and corrected on rank 0, symbol 10, bit 5
+42306	3 ddr errors(s) detected and corrected on rank 0, symbol 9, bit 3
+42348	Node card VPD check: U01 node in processor card slot J18 do not match. VPD ecid 0000000000000000000000000000, found 075C0DA0212FFFFF0A0A1B6084DC
+42358	Node card VPD check: U01 node in processor card slot J18 do not match. VPD ecid 0000000000000000000000000000, found 07560CF2082FFFFF0B0F1B008AD3
+42393	CE sym 10, at 0x0cc6f0e0, mask 0x01
+42444	6 ddr errors(s) detected and corrected on rank 0, symbol 12, bit 3
+42509	CE sym 30, at 0x0a2eb0c0, mask 0x02
+42564	CE sym 22, at 0x0c9ef860, mask 0x40
+42591	CE sym 26, at 0x181355e0, mask 0x40
+42638	Node card VPD check: U01 node in processor card slot J14 do not match. VPD ecid 075B04E8827BFFFF050D1C804AF3, found 075004D80E7BFFFF030A1AD0CECF
+42654	Node card VPD check: U01 node in processor card slot J15 do not match. VPD ecid 04CD8088D32FFFFF0D041B0098D7, found 04D18087012FFFFF090C1C8056F5
+42660	CE sym 7, at 0x002e4ec0, mask 0x02
+42661	CE sym 25, at 0x0718de60, mask 0x01
+42666	1 ddr errors(s) detected and corrected on rank 0, symbol 33, bit 7
+42671	CE sym 33, at 0x04f289a0, mask 0x04
+42676	CE sym 33, at 0x04f289a0, mask 0x04
+42678	CE sym 26, at 0x04bbd900, mask 0x20
+42724	ciod: In packet from node 379.0 (R62-M1-N3-C:J03-U11), message code 2 is not 3 or 4294967295 (softheader=003b017b 00030000 00000001 00000000)
+42725	ciod: In packet from node 295.0 (R62-M1-N2-C:J04-U01), message code 2 is not 3 or 4294967295 (softheader=00070127 00030000 00000001 00000000)
+42752	30 ddr errors(s) detected and corrected on rank 0, symbol 8, bit 0
+42755	CE sym 1, at 0x01d7eaa0, mask 0x02
+42756	CE sym 26, at 0x135ce300, mask 0x20
+42760	CE sym 19, at 0x0701bc00, mask 0x01
+42764	CE sym 6, at 0x18dae140, mask 0x04
+42765	CE sym 6, at 0x00105360, mask 0x04
+42838	3 ddr errors(s) detected and corrected on rank 0, symbol 19, bit 2
+42940	CE sym 1, at 0x052fa620, mask 0x08
+42947	CE sym 1, at 0x052fa660, mask 0x02
+43007	1 ddr errors(s) detected and corrected on rank 0, symbol 22, bit 7
+43010	15 ddr errors(s) detected and corrected on rank 0, symbol 33, bit 1
+43086	Node card VPD check: missing U01 node, VPD ecid 04C08465452FFFFF0C0A1B1084D1 in processor card slot J19
+43097	1 ddr errors(s) detected and corrected on rank 0, symbol 4, bit 5
+43103	CE sym 11, at 0x05d130e0, mask 0x40
+43118	CE sym 35, at 0x04877e60, mask 0x20
+43120	CE sym 19, at 0x13ed87a0, mask 0x01
+43127	CE sym 24, at 0x0628e8e0, mask 0x02
+43147	CE sym 24, at 0x0628e8e0, mask 0x02
+43149	CE sym 26, at 0x15d321e0, mask 0x80
+43217	1 ddr errors(s) detected and corrected on rank 0, symbol 23, bit 0
+43218	CE sym 10, at 0x09f33f60, mask 0x40
+43228	Node card VPD check: U11 node in processor card slot J17 do not match. VPD ecid 04C080E0082FFFFF050C1C1056EB, found 04E381A7D22FFFFF050819710AB5
+44135	Ido chip status changed: FF:F2:9F:15:1E:67:00:0D:60:EA:E1:98 ip=10.7.1.125 v=9 t=2 status=M Tue Sep 20 12:11:48 PDT 2005
+44143	Ido chip status changed: FF:F2:9F:15:1F:D2:00:0D:60:EA:E0:2D ip=10.5.0.217 v=9 t=2 status=M Tue Sep 20 12:11:48 PDT 2005
+44161	Node card VPD check: U01 node in processor card slot J14 do not match. VPD ecid 04C980A6DA2FFFFF06061B4086D8, found 074304E0C57BFFFF07031B40CCD8
+44163	Node card VPD check: missing U01 node, VPD ecid 04D38465552FFFFF05051A810CCA in processor card slot J18
+44172	Node card VPD check: missing U11 node, VPD ecid 04CD8465DB2FFFFF0E041C0096E8 in processor card slot J18
+44550	7 ddr errors(s) detected and corrected on rank 0, symbol 12, bit 7
+44557	1 ddr errors(s) detected and corrected on rank 0, symbol 35, bit 5
+44563	CE sym 16, at 0x09e3a740, mask 0x08
+44571	CE sym 17, at 0x18014d40, mask 0x04
+44572	CE sym 29, at 0x0165d3a0, mask 0x10
+44574	CE sym 29, at 0x16caf960, mask 0x20
+44575	CE sym 26, at 0x04bbd900, mask 0x20
+44586	CE sym 26, at 0x04bbd900, mask 0x20
+44592	18 ddr errors(s) detected and corrected on rank 0, symbol 29, bit 7
+44600	14 ddr errors(s) detected and corrected on rank 0, symbol 20, bit 1
+44601	1 ddr errors(s) detected and corrected on rank 0, symbol 6, bit 0
+44606	3 ddr errors(s) detected and corrected on rank 0, symbol 15, bit 2
+44612	CE sym 26, at 0x022c3fc0, mask 0x40
+44614	8 ddr errors(s) detected and corrected on rank 0, symbol 10, bit 7
+44616	7 ddr errors(s) detected and corrected on rank 0, symbol 7, bit 7
+44621	1 ddr errors(s) detected and corrected on rank 0, symbol 23, bit 5
+44622	CE sym 34, at 0x19b019a0, mask 0x02
+44631	CE sym 29, at 0x184ec300, mask 0x20
+44636	1 ddr errors(s) detected and corrected on rank 0, symbol 13, bit 5
+44640	CE sym 17, at 0x06905020, mask 0x20
+44644	1 ddr errors(s) detected and corrected on rank 0, symbol 16, bit 0
+44647	3 ddr errors(s) detected and corrected on rank 0, symbol 33, bit 4
+44655	1 ddr errors(s) detected and corrected on rank 0, symbol 9, bit 0
+44657	3 ddr errors(s) detected and corrected on rank 0, symbol 10, bit 0
+44659	CE sym 9, at 0x129cc4e0, mask 0x08
+44660	5 torus receiver y+ input pipe error(s) (dcr 0x02ee) detected and corrected
+44666	5 ddr errors(s) detected and corrected on rank 0, symbol 24, bit 1
+44672	CE sym 16, at 0x160c7c60, mask 0x08
+44683	CE sym 19, at 0x1806b540, mask 0x01
+44688	CE sym 20, at 0x01228120, mask 0x10
+44691	3 ddr errors(s) detected and corrected on rank 0, symbol 35, bit 1
+44733	CE sym 31, at 0x0a669fe0, mask 0x02
+44735	CE sym 19, at 0x057c7e00, mask 0x20
+44810	1 ddr errors(s) detected and corrected on rank 0, symbol 33, bit 5
+44812	CE sym 8, at 0x03bd1680, mask 0x80
+44881	17 ddr errors(s) detected and corrected on rank 0, symbol 26, bit 4
+44902	6 torus receiver y+ input pipe error(s) (dcr 0x02ee) detected and corrected
+44903	CE sym 4, at 0x054d2be0, mask 0x80
+44911	3 ddr errors(s) detected and corrected on rank 0, symbol 21, bit 0
+44917	CE sym 21, at 0x08c33100, mask 0x40
+44937	CE sym 30, at 0x0a2eb0c0, mask 0x02
+44972	CE sym 10, at 0x0d3509c0, mask 0x20
+44992	capture first EDRAM parity error address..0
+44998	CE sym 3, at 0x1b55eb60, mask 0x08
+45001	CE sym 16, at 0x0456cd40, mask 0x04
+45019	CE sym 3, at 0x10b43200, mask 0x40
+45031	30 ddr errors(s) detected and corrected on rank 0, symbol 31, bit 3
+45032	CE sym 1, at 0x0135f260, mask 0x08
+45045	3 ddr errors(s) detected and corrected on rank 0, symbol 11, bit 3
+45052	CE sym 6, at 0x1e9cbb00, mask 0x40
+45055	8 ddr errors(s) detected and corrected on rank 0, symbol 11, bit 0
+45065	28 ddr errors(s) detected and corrected on rank 0, symbol 33, bit 0
+45093	CE sym 16, at 0x073a9600, mask 0x02
+45116	15 ddr errors(s) detected and corrected on rank 0, symbol 23, bit 2
+45137	CE sym 10, at 0x120055e0, mask 0x40
+45140	3 ddr errors(s) detected and corrected on rank 0, symbol 29, bit 4
+45142	CE sym 18, at 0x1b469680, mask 0x40
+45145	CE sym 31, at 0x0a80d500, mask 0x80
+45207	CE sym 4, at 0x01d22840, mask 0x20
+45209	3 ddr errors(s) detected and corrected on rank 0, symbol 33, bit 1
+45221	CE sym 11, at 0x11dafca0, mask 0x80
+45230	14 ddr errors(s) detected and corrected on rank 0, symbol 13, bit 0
+45233	CE sym 1, at 0x16d7a980, mask 0x10
+45260	3 ddr errors(s) detected and corrected on rank 0, symbol 29, bit 3
+45261	7 ddr errors(s) detected and corrected on rank 0, symbol 31, bit 1
+45263	CE sym 16, at 0x160c7c60, mask 0x08
+45264	CE sym 3, at 0x1b55eb60, mask 0x08
+45268	CE sym 31, at 0x0237ca00, mask 0x02
+45280	6 ddr errors(s) detected and corrected on rank 0, symbol 23, bit 3
+45281	1 ddr errors(s) detected and corrected on rank 0, symbol 34, bit 0
+45293	1 ddr errors(s) detected and corrected on rank 0, symbol 9, bit 0
+45305	8 ddr errors(s) detected and corrected on rank 0, symbol 31, bit 1
+45313	1 ddr errors(s) detected and corrected on rank 0, symbol 9, bit 5
+45333	CE sym 3, at 0x19d70080, mask 0x08
+45335	11 ddr errors(s) detected and corrected on rank 0, symbol 25, bit 2
+45336	1 ddr errors(s) detected and corrected on rank 0, symbol 28, bit 7
+45342	CE sym 16, at 0x04bb7a60, mask 0x20
+45347	CE sym 29, at 0x0e03e6c0, mask 0x40
+45351	8 ddr errors(s) detected and corrected on rank 0, symbol 31, bit 1
+45367	CE sym 29, at 0x0ea9fd60, mask 0x40
+45372	CE sym 25, at 0x0718de60, mask 0x01
+45373	CE sym 5, at 0x11050a40, mask 0x10
+45397	10 ddr errors(s) detected and corrected on rank 0, symbol 4, bit 7
+45398	26 ddr errors(s) detected and corrected on rank 0, symbol 10, bit 5
+45399	CE sym 31, at 0x109a2660, mask 0x80
+45402	6 ddr errors(s) detected and corrected on rank 0, symbol 13, bit 5
+45403	1 ddr errors(s) detected and corrected on rank 0, symbol 28, bit 5
+45404	5 ddr errors(s) detected and corrected on rank 0, symbol 5, bit 3
+45410	18 ddr errors(s) detected and corrected on rank 0, symbol 4, bit 3
+45413	Power deactivated: R44-M1-NE
+45443	mmcs_db_server has been started: ./mmcs_db_server --useDatabase BGL --dbproperties serverdb.properties --iolog /bgl/BlueLight/logs/BGL --reconnect-blocks all --shutdown-timeout 120
+45468	3 ddr errors(s) detected and corrected on rank 0, symbol 26, bit 2
+45469	CE sym 5, at 0x1196ed60, mask 0x80
+45490	3 ddr errors(s) detected and corrected on rank 0, symbol 17, bit 5
+45513	88 ddr errors(s) detected and corrected on rank 0, symbol 5, bit 5
+45531	CE sym 6, at 0x0d4adda0, mask 0x04
+45532	CE sym 4, at 0x11f30640, mask 0x20
+45565	1 ddr errors(s) detected and corrected on rank 0, symbol 13, bit 0
+45566	1 ddr errors(s) detected and corrected on rank 0, symbol 26, bit 5
+45570	CE sym 24, at 0x0c29ef60, mask 0x20
+45572	CE sym 31, at 0x0a669fe0, mask 0x02
+45617	30 ddr errors(s) detected and corrected on rank 0, symbol 9, bit 3
+45631	CE sym 5, at 0x1196ed60, mask 0x80
+45633	CE sym 19, at 0x1806b540, mask 0x01
+45634	CE sym 30, at 0x1a50cce0, mask 0x10
+45635	CE sym 33, at 0x019ae900, mask 0x10
+45659	CE sym 5, at 0x11050a40, mask 0x10
+45695	CE sym 22, at 0x041ebe00, mask 0x08
+45703	3 ddr errors(s) detected and corrected on rank 0, symbol 5, bit 0
+45707	CE sym 22, at 0x041ebe00, mask 0x08
+45711	CE sym 35, at 0x1f30d940, mask 0x20
+45757	CE sym 16, at 0x13015a00, mask 0x02
+45816	CE sym 16, at 0x0e279fa0, mask 0x02
+45824	CE sym 4, at 0x11f30640, mask 0x20
+45826	CE sym 10, at 0x09f33f60, mask 0x40
+45832	CE sym 24, at 0x08a2c0c0, mask 0x01
+45846	CE sym 21, at 0x05e0d220, mask 0x20
+45855	3 ddr errors(s) detected and corrected on rank 0, symbol 13, bit 1
+46054	5 ddr errors(s) detected and corrected on rank 0, symbol 28, bit 2
+46068	CE sym 6, at 0x0c6e9c40, mask 0x40
+46070	21 ddr errors(s) detected and corrected on rank 0, symbol 6, bit 1
+46086	9 ddr errors(s) detected and corrected on rank 0, symbol 21, bit 5
+46091	CE sym 5, at 0x1196ed60, mask 0x80
+46096	1 ddr errors(s) detected and corrected on rank 0, symbol 28, bit 0
+46097	1 ddr errors(s) detected and corrected on rank 0, symbol 2, bit 5
+46117	imprecise machine check...........1
+46127	1 torus sender x+ retransmission error(s) (dcr 0x02f4) detected and corrected
+46128	CE sym 22, at 0x03bdea80, mask 0x08
+46138	1 ddr errors(s) detected and corrected on rank 0, symbol 29, bit 7
+46199	CE sym 11, at 0x0b4e7640, mask 0x40
+46207	CE sym 24, at 0x14696f80, mask 0x80
+46228	CE sym 7, at 0x002e4ec0, mask 0x02
+46229	CE sym 7, at 0x002e4ec0, mask 0x02
+46271	CE sym 33, at 0x110fbca0, mask 0x02
+46273	CE sym 20, at 0x0a1b4e80, mask 0x04
+46276	CE sym 20, at 0x0a1b4e80, mask 0x04
+46287	CE sym 22, at 0x041ebe00, mask 0x08
+46289	1 ddr errors(s) detected and corrected on rank 0, symbol 29, bit 7
+46290	8 ddr errors(s) detected and corrected on rank 0, symbol 10, bit 3
+46291	CE sym 22, at 0x13c0a9e0, mask 0x04
+46300	CE sym 11, at 0x014ee480, mask 0x08
+46303	1 ddr errors(s) detected and corrected on rank 0, symbol 15, bit 7
+46317	CE sym 20, at 0x0b0fff00, mask 0x20
+46318	CE sym 22, at 0x0b361440, mask 0x10
+46319	CE sym 18, at 0x1ec268a0, mask 0x20
+46401	CE sym 24, at 0x158d0b80, mask 0x08
+46429	CE sym 24, at 0x158d0b80, mask 0x08
+46432	CE sym 24, at 0x158d0b80, mask 0x08
+46490	1 ddr errors(s) detected and corrected on rank 0, symbol 7, bit 0
+46499	3 ddr errors(s) detected and corrected on rank 0, symbol 31, bit 1
+46528	30 ddr errors(s) detected and corrected on rank 0, symbol 16, bit 5
+46529	CE sym 6, at 0x0c54b040, mask 0x01
+46531	CE sym 35, at 0x05aae460, mask 0x20
+46536	30 ddr errors(s) detected and corrected on rank 0, symbol 22, bit 2
+46540	CE sym 4, at 0x0195f280, mask 0x80
+46549	1 ddr errors(s) detected and corrected on rank 0, symbol 2, bit 0
+46550	CE sym 18, at 0x123beb20, mask 0x08
+46599	1 ddr errors(s) detected and corrected on rank 0, symbol 30, bit 5
+46645	machine check interrupt
+46650	CE sym 17, at 0x04da87c0, mask 0x20
+46667	3 ddr errors(s) detected and corrected on rank 0, symbol 35, bit 1
+46687	CE sym 18, at 0x1b469680, mask 0x40
+46700	CE sym 18, at 0x1b469680, mask 0x40
+46758	CE sym 1, at 0x0135f260, mask 0x08
+46765	10 ddr errors(s) detected and corrected on rank 0, symbol 34, bit 1
+46768	CE sym 30, at 0x1a50cce0, mask 0x10
+46773	23 ddr errors(s) detected and corrected on rank 0, symbol 5, bit 2
+46778	5 ddr errors(s) detected and corrected on rank 0, symbol 24, bit 1
+46801	13 ddr errors(s) detected and corrected on rank 0, symbol 29, bit 1
+46803	75 ddr errors(s) detected and corrected on rank 0, symbol 26, bit 5
+46804	3 ddr errors(s) detected and corrected on rank 0, symbol 30, bit 0
+46805	5 ddr errors(s) detected and corrected on rank 0, symbol 3, bit 7
+46814	CE sym 29, at 0x0d09f7e0, mask 0x40
+46815	CE sym 6, at 0x0d4adda0, mask 0x04
+46879	CE sym 11, at 0x014ee480, mask 0x08
+46892	CE sym 31, at 0x0a669fe0, mask 0x02
+46895	1 ddr errors(s) detected and corrected on rank 0, symbol 21, bit 7
+46898	CE sym 30, at 0x163f80e0, mask 0x80
+46906	CE sym 18, at 0x0d097c60, mask 0x04
+46909	CE sym 29, at 0x092db580, mask 0x04
+46911	CE sym 18, at 0x0d4b7400, mask 0x08
+46942	1 torus sender z+ retransmission error(s) (dcr 0x02f8) detected and corrected
+46943	8 ddr errors(s) detected and corrected on rank 0, symbol 34, bit 1
+46946	CE sym 24, at 0x18dd2fe0, mask 0x20
+46949	CE sym 6, at 0x0504aae0, mask 0x08
+46952	CE sym 34, at 0x1c443f40, mask 0x08
+46955	CE sym 30, at 0x1bd6b700, mask 0x04
+46969	8 ddr errors(s) detected and corrected on rank 0, symbol 2, bit 0
+46970	1 ddr errors(s) detected and corrected on rank 0, symbol 13, bit 7
+46986	255 ddr errors(s) detected and corrected on rank 0, symbol 33, bit 3
+46988	CE sym 33, at 0x03ccbf20, mask 0x10
+46991	CE sym 33, at 0x13a4bb20, mask 0x10
+46995	CE sym 18, at 0x15afb0a0, mask 0x08
+49383	CE sym 6, at 0x0c54b040, mask 0x01
+51147	1 ddr errors(s) detected and corrected on rank 0, symbol 15, bit 7
+51148	CE sym 20, at 0x0a1b4e80, mask 0x04
+51153	255 ddr errors(s) detected and corrected on rank 0, symbol 18, bit 4
+51158	CE sym 18, at 0x027c4760, mask 0x04
+51185	CE sym 21, at 0x1a6cf700, mask 0x20
+51239	120 ddr errors(s) detected and corrected on rank 0, symbol 23, bit 7
+51256	ddr: activating redundant bit steering for next allocation: rank=0 symbol=21
+51259	7 ddr errors(s) detected and corrected on rank 0, symbol 26, bit 7
+51267	CE sym 19, at 0x16911e60, mask 0x04
+51271	CE sym 19, at 0x16911e60, mask 0x04
+51525	49 ddr errors(s) detected and corrected on rank 0, symbol 30, bit 2
+51531	CE sym 18, at 0x123beb20, mask 0x08
+51535	CE sym 30, at 0x163f80e0, mask 0x80
+51544	CE sym 11, at 0x11dafca0, mask 0x80
+52630	CE sym 3, at 0x1ab43c60, mask 0x10
+52643	CE sym 16, at 0x108cc460, mask 0x04
+52645	CE sym 16, at 0x108cc460, mask 0x04
+52667	CE sym 8, at 0x030219a0, mask 0x02
+52710	CE sym 18, at 0x1d257e00, mask 0x02
+52711	CE sym 18, at 0x1dad6000, mask 0x04
+52713	CE sym 18, at 0x1d676000, mask 0x04
+52874	CE sym 8, at 0x15113920, mask 0x40
+52882	13 ddr errors(s) detected and corrected on rank 0, symbol 23, bit 0
+52883	1 ddr errors(s) detected and corrected on rank 0, symbol 3, bit 0
+52910	Link PGOOD error latched on link card
+52914	CE sym 30, at 0x018abf60, mask 0x04
+52918	CE sym 35, at 0x05aae460, mask 0x20
+52934	CE sym 11, at 0x0194c460, mask 0x01
+52944	20:00000208 21:0022536c 22:0a0cb320 23:013e8ac0
+52945	1 ddr errors(s) detected and corrected on rank 0, symbol 15, bit 7
+52946	CE sym 11, at 0x0194c460, mask 0x01
+52947	6 ddr errors(s) detected and corrected on rank 0, symbol 34, bit 1
+52950	CE sym 20, at 0x0a1b4e80, mask 0x04
+52957	CE sym 11, at 0x0194c460, mask 0x01
+52962	CE sym 11, at 0x0194c460, mask 0x01
+52982	CE sym 11, at 0x0194c460, mask 0x01
+52985	1 ddr errors(s) detected and corrected on rank 0, symbol 16, bit 0
+53010	CE sym 10, at 0x09f33f60, mask 0x40
+53032	DCR 0x2E8 : 0x00000000
+53037	8 torus receiver z+ input pipe error(s) (dcr 0x02f0) detected and corrected over 389 seconds
+53149	BGLMaster has been started: ./BGLMaster --consoleip 127.0.0.1 --consoleport 32035 --configfile bglmaster.init --autorestart y
+53243	ciod: Unexpected eof at line 1025 of node map file map.dat
+53250	fpr11=0xffffffff ffffffff ffffffff ffffffff
+53252	tlb error.........................0
+53258	divide-by-zero exception.................0
+53261	1752947 torus sender y+ retransmission error(s) (dcr 0x02f6) detected and corrected over 55 seconds
+53268	18202359 torus sender z- retransmission error(s) (dcr 0x02f9) detected and corrected over 195 seconds
+53272	23292657 torus sender z+ retransmission error(s) (dcr 0x02f8) detected and corrected over 239 seconds
+53282	508200 torus sender y+ retransmission error(s) (dcr 0x02f6) detected and corrected over 44 seconds
+53284	1591116 torus sender y+ retransmission error(s) (dcr 0x02f6) detected and corrected over 53 seconds
+53294	16250953 torus sender z+ retransmission error(s) (dcr 0x02f8) detected and corrected over 179 seconds
+53305	27591305 torus sender z+ retransmission error(s) (dcr 0x02f8) detected and corrected over 276 seconds
+53307	28021521 torus sender z- retransmission error(s) (dcr 0x02f9) detected and corrected over 279 seconds
+53320	20:0962a620 21:ffffffff 22:08662220 23:3800000c
+53343	ciod: Error reading message prefix on CioStream socket to 172.16.96.116:58481, Connection reset by peer
+53344	ciod: Error reading message prefix on CioStream socket to 172.16.96.116:58906, Connection reset by peer
+53346	ciod: Error reading message prefix on CioStream socket to 172.16.96.116:58374, Connection reset by peer
+53349	ciod: Error reading message prefix on CioStream socket to 172.16.96.116:59004, Connection reset by peer
+53356	CE sym 22, at 0x0c9ef860, mask 0x40
+54561	CE sym 12, at 0x0b716760, mask 0x80
+54873	32 ddr errors(s) detected and corrected on rank 0, symbol 10, bit 4
+55035	Ido chip status changed: FF:F2:9F:16:E0:A8:00:0D:60:E9:1F:57 ip=10.1.1.121 v=9 t=4 status=M Fri Jul 01 08:23:29 PDT 2005
+55377	1 ddr errors(s) detected and corrected on rank 0, symbol 29, bit 5
+55378	1 ddr errors(s) detected and corrected on rank 0, symbol 20, bit 7
+55379	CE sym 20, at 0x0b144240, mask 0x20
+55462	Starting SystemController
+56007	Target=ido://FF:F2:9F:16:EC:41:00:0D:60:E9:13:BE/JTAG/0 Message=Invalid JtagId = ffffffff
+56438	CE sym 4, at 0x00a1ffe0, mask 0x80
+56515	1 ddr errors(s) detected and corrected on rank 0, symbol 33, bit 7
+56558	4:00088770 5:00088760 6:00088750 7:000886b0
+56667	CE sym 34, at 0x19b019a0, mask 0x02
+56923	30 ddr errors(s) detected and corrected on rank 0, symbol 25, bit 4
+57278	Node card VPD check: missing U11 node, VPD ecid 04C68465902FFFFF0B0D1BC054E1 in processor card slot J18
+57333	38 torus sender x+ retransmission error(s) (dcr 0x02f4) detected and corrected
+57334	1 ddr errors(s) detected and corrected on rank 0, symbol 33, bit 7
+57339	CE sym 26, at 0x15d321e0, mask 0x80
+57395	1 ddr errors(s) detected and corrected on rank 0, symbol 13, bit 5
+57398	rts: bad message header: index 0 greater than total 0 (softheader=00000002 00000001 00000000 00000000) PSR0=00000000 PSR1=00000000 PRXF=0000002a PIXF=00000007
+57407	MailboxMonitor::serviceMailboxes() lib_ido_error: -1019 socket closed
+57426	3 ddr errors(s) detected and corrected on rank 0, symbol 4, bit 5
+57469	MailboxMonitor::serviceMailboxes() lib_ido_error: -1019 socket closed
+57470	1 ddr errors(s) detected and corrected on rank 0, symbol 3, bit 0
+57604	CE sym 11, at 0x11dafca0, mask 0x80
+57605	CE sym 22, at 0x12ffa060, mask 0x04
+57610	1 ddr errors(s) detected and corrected on rank 0, symbol 25, bit 0
+57740	CE sym 26, at 0x19bd1c60, mask 0x80
+57767	3 ddr errors(s) detected and corrected on rank 0, symbol 33, bit 2
+57775	1 ddr errors(s) detected and corrected on rank 0, symbol 18, bit 5
+57793	10 ddr errors(s) detected and corrected on rank 0, symbol 25, bit 4
+57795	CE sym 25, at 0x0718de60, mask 0x01
+57830	1 ddr errors(s) detected and corrected on rank 0, symbol 0, bit 0
+57947	Node card VPD check: missing U01 node, VPD ecid 04D38465552FFFFF03091AA0D0CB in processor card slot J19
+57986	1 ddr errors(s) detected and corrected on rank 0, symbol 27, bit 0
+58000	3 ddr errors(s) detected and corrected on rank 0, symbol 35, bit 1
+58004	start prefetching........................0
+58005	3 ddr errors(s) detected and corrected on rank 0, symbol 5, bit 2
+58007	3 ddr errors(s) detected and corrected on rank 0, symbol 33, bit 0
+58041	4:00021108 5:00021274 6:000000b8 7:00040000
+58056	1 ddr errors(s) detected and corrected on rank 0, symbol 34, bit 0
+58079	CE sym 17, at 0x11876ac0, mask 0x80
+58084	CE sym 1, at 0x1bbac6e0, mask 0x20
+58104	11 ddr errors(s) detected and corrected on rank 0, symbol 26, bit 4
+58111	imprecise machine check...........1
+58150	CE sym 33, at 0x13d4f0a0, mask 0x04
+58174	CE sym 6, at 0x19f01fe0, mask 0x40
+58179	CE sym 7, at 0x08f7b800, mask 0x02
+58182	1 ddr errors(s) detected and corrected on rank 0, symbol 33, bit 5
+58203	CE sym 22, at 0x08199960, mask 0x08
+58227	CE sym 19, at 0x0701bc00, mask 0x01
+58773	CE sym 30, at 0x12ade480, mask 0x02
+58775	6 ddr errors(s) detected and corrected on rank 0, symbol 11, bit 5
+58796	1 ddr errors(s) detected and corrected on rank 0, symbol 11, bit 5
+58799	Link PGOOD error latched on link card
+59225	lr:00015d74 cr:48422244 xer:00000002 ctr:00000000
+59399	1 ddr errors(s) detected and corrected on rank 0, symbol 5, bit 5
+59549	Node card VPD check: U11 node in processor card slot J18 do not match. VPD ecid 075704D3CF7BFFFF0E0B1B0096D7, found 04D48092462FFFFF0A0B1B1054D5
