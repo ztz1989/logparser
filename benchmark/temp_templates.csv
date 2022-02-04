@@ -1,135 +1,142 @@
 EventId,EventTemplate,Occurrences
+0,<*> <*> <*> node <*> <*> <*> <*> <*> <*>,0
 0,<*> <*> signal <*> <*> <*> <*>,0
-0,<*> <*> 18:00000000 <*>,0
-0,<*> <*> link,0
-0,<*> <*> <*> register: 0x<*>000,0
-0,<*> parity <*>,0
-0,12:<*> 13:1eeeeeee <*> <*>,0
-0,CHECK_INITIAL_GLOBAL_INTERRUPT_VALUES,0
-0,<*> is <*> <*> <*>,0
-0,<*> error <*> <*> <*>,0
-0,instruction <*> <*>,0
-0,<*> <*> <*> 23:00000000,0
-0,2,0
-0,4,0
+0,<*> <*> <*> <*> <*> <*> <*> <*> to <*> <*> <*> <*>,0
 0,<*> <*> xer:20000002 <*>,0
-0,<*> <*> 2:1eeeeeee <*>,0
+0,<*> <*> <*> <*> <*> <*> <*> <*> card,0
+0,<*> <*> <*> <*> to <*> <*>,0
+0,instruction <*> <*>,0
+0,disable <*> <*>,0
+0,<*> <*> <*> <*> error <*>,0
+0,<*> of <*> <*> <*> <*> <*>,0
+0,<*> <*> is <*>,0
+0,<*> error <*> <*> <*> <*>,0
+0,<*> <*> <*> core <*>,0
+0,12:<*> 13:1eeeeeee <*> 15:<*>,0
+0,<*> 29:00000001 <*> <*>,0
+0,8,0
+0,<*> <*> <*> 23:00000000,0
+0,4,0
+0,2,0
+0,EndServiceAction <*> <*> <*> <*> <*> <*>,0
+0,16:00000000 17:000<*> 18:00<*>0 19:0000000<*>,0
+0,0:0000<*> 1:0008<*>0 2:1eeeeeee 3:<*>,0
 0,iar <*> dear 0<*>,0
-0,Microloader Assertion,0
-0,instruction address: <*>,0
 0,problem state <*>,0
-0,d-cache <*> parity <*>,0
+0,data <*> plb error..............<*>,0
+0,Microloader Assertion,0
 0,store operation.............................0,0
 0,program interrupt,0
 0,auxiliary processor.........................0,0
 0,store operation.............................1,0
-0,12:<*> 13:1eeeeeee 14:ffffffff <*>,0
+0,d-cache <*> parity error.......<*>,0
 0,data address: 0x<*>,0
-0,data <*> plb <*>,0
+0,instruction address: 0x00<*>,0
+0,12:<*> 13:1eeeeeee 14:ffffffff 15:<*>,0
 0,generating <*>,0
-0,iar <*> dear 045e147c,0
-0,iar 001069b8 dear <*>,0
-0,iar <*> dear 0246a94c,0
-0,iar <*> dear 0245cd0c,0
-0,iar 00106a2c dear <*>,0
-0,iar 00106ad4 dear <*>,0
-0,iar 00106a80 dear 024<*>c,0
-0,iar 00106a7c dear 024<*>c,0
+0,iar <*> dear 0246de6c,0
+0,iar 00106a98 dear 024<*>c,0
+0,iar 00106a2c dear 024<*>c,0
+0,iar 00106a80 dear <*>,0
+0,iar 00106a7c dear <*>,0
+0,iar 00106ad4 dear 024<*>c,0
 0,iar 00106b0c dear <*>,0
-0,iar 00106298 dear 02f<*>c,0
-0,iar 00106274 dear 024<*>c,0
 0,iar 00106284 dear 024<*>c,0
-0,iar 00106448 dear 024<*>c,0
+0,iar 00106274 dear 024<*>c,0
+0,iar 00106298 dear 02f<*>c,0
 0,iar 00106288 dear 02f<*>c,0
 0,iar 00106494 dear 024<*>c,0
-0,iar 00106470 dear <*>,0
+0,iar 00106448 dear 024<*>c,0
 0,iar 00106278 dear 02f<*>c,0
-0,iar 00106<*> dear 0246de6c,0
-0,iar 00106<*> dear 0246de9c,0
+0,iar 00106470 dear 024<*>c,0
+0,iar 00106<*> dear 0246ddfc,0
+0,iar 00106aa0 dear <*>,0
 0,iar 00106c0c dear 0246d<*>c,0
-0,iar 001067c4 dear 0246d<*>c,0
-0,iar 00106ba0 dear <*>,0
+0,iar 00106ba0 dear 0246d<*>c,0
 0,iar 00106b98 dear 0246d<*>c,0
 0,iar 00106b90 dear 0246d<*>c,0
+0,iar 00106<*> dear 0246dddc,0
 0,iar 00106ab8 dear 0246d<*>c,0
 0,iar 001067c8 dear 02f7a<*>c,0
-0,iar 00106aa0 dear <*>,0
+0,iar 00106<*> dear 0246dd9c,0
 0,iar 00106ba8 dear 0246d<*>c,0
 0,iar 001067b8 dear 02f7a<*>c,0
-0,iar 00105ffc dear <*>,0
+0,iar 00105fcc dear 024<*>c,0
 0,iar 00105fe4 dear <*>,0
-0,iar <*> dear 0244c97c,0
-0,iar 00105fcc dear <*>,0
-0,iar <*> dear 0244c95c,0
-0,iar 00105<*> dear 0244c96c,0
-0,iar 00105e74 dear 024<*>c,0
-0,iar 001061e4 dear <*>,0
-0,iar <*> dear 024698dc,0
+0,iar <*> dear 0244c96c,0
+0,iar 00105e98 dear 02f<*>c,0
 0,iar <*> dear 024696bc,0
 0,iar <*> dear 024696cc,0
-0,iar 001061f8 dear <*>,0
+0,iar 001061f8 dear 024<*>c,0
+0,iar 00106344 dear <*>,0
+0,iar 00106678 dear <*>,0
 0,iar 001007b8 dear <*>,0
 0,iar 001007a8 dear <*>,0
 0,iar 00100798 dear <*>,0
-0,iar 00100788 dear 065<*>c,0
-0,iar <*> dear 0252528c,0
-0,iar 00106358 dear <*>,0
-0,iar 00106348 dear 0<*>c,0
-0,iar 001066ac dear <*>,0
-0,iar 00106338 dear <*>,0
+0,iar 00100788 dear <*>,0
+0,iar 00106348 dear <*>,0
+0,iar 00106<*> dear 0252528c,0
+0,iar 00106338 dear 030318<*>c,0
 0,iar <*> dear 0246f76c,0
+0,iar 001069b8 dear <*>,0
+0,iar 00106cf8 dear 0246f9<*>c,0
+0,iar 00106<*> dear 0246f99c,0
+0,iar 00106d44 dear 0246f9<*>c,0
+0,iar 00106d2c dear 0246f9<*>c,0
 0,iar 00106<*> dear 0246f77c,0
-0,iar 00106d2c dear 0246f<*>c,0
-0,iar 00106<*> dear 0246f78c,0
-0,iar 00106378 dear <*>,0
-0,iar 00106<*> dear 0246a96c,0
+0,iar 001063a8 dear <*>,0
 0,iar <*> dear 0246a95c,0
-0,iar 00106208 dear 024<*>c,0
-0,iar <*> dear 0245b64c,0
-0,iar 001063b0 dear <*>,0
-0,iar 0010638c dear 0245<*>c,0
-0,iar 001066d0 dear 0245b<*>c,0
+0,iar 00106378 dear <*>,0
+0,iar <*> dear 0246a94c,0
+0,iar 00106<*> dear 0246a96c,0
+0,iar 00106358 dear <*>,0
+0,iar 00106<*> dear 0245b64c,0
+0,iar 00106<*> dear 0245b73c,0
+0,iar 001066d0 dear 0245<*>c,0
 0,iar 001063a0 dear <*>,0
-0,iar <*> dear 0245b71c,0
-0,iar 0010671c dear 0245b<*>c,0
-0,iar 00106390 dear 02f67<*>c,0
-0,iar <*> dear 0245b63c,0
-0,iar 00106704 dear <*>,0
-0,iar 0010686c dear <*>,0
-0,iar 00106858 dear 0245<*>c,0
+0,iar 00106<*> dear 0245b83c,0
+0,iar 0010671c dear <*>,0
+0,iar 00106390 dear <*>,0
+0,iar 00106704 dear 0245<*>c,0
 0,iar 00106848 dear 0245<*>c,0
-0,iar 0010684c dear 02f6<*>c,0
-0,iar 0010685c dear 02f6<*>c,0
+0,iar 0010686c dear <*>,0
 0,iar 00106<*> dear 0245cd1c,0
-0,iar 00106bc0 dear <*>,0
-0,iar 00106b8c dear 0245c<*>c,0
+0,iar 0010685c dear <*>,0
+0,iar 00106858 dear 0245<*>c,0
+0,iar 0010684c dear <*>,0
+0,iar 00106b8c dear 0245<*>c,0
 0,iar 00106bd8 dear 0245<*>c,0
-0,iar 0010621c dear 02f<*>c,0
+0,iar 0010681c dear <*>,0
+0,iar 00106bc0 dear 0245<*>c,0
 0,iar 0010620c dear <*>,0
 0,iar 001061fc dear 02f<*>c,0
-0,iar 00105e84 dear 024<*>c,0
-0,iar 001061b4 dear 024<*>c,0
-0,iar <*> dear 045e148c,0
-0,iar 00106204 dear <*>,0
-0,iar 00106534 dear <*>,0
+0,iar 00106208 dear 0<*>c,0
+0,iar 00106214 dear <*>,0
+0,iar 00106204 dear 0<*>c,0
+0,iar 001061f0 dear <*>,0
 0,iar 00106580 dear <*>,0
+0,iar 00106534 dear <*>,0
 0,iar 00106568 dear <*>,0
-0,iar 00105ea4 dear 02f588<*>c,0
 0,iar 00105e94 dear <*>,0
-0,iar 00105e78 dear 02f<*>c,0
+0,iar 00105ea4 dear 02f588<*>c,0
 0,iar 00105e88 dear 02f<*>c,0
-0,iar 001061e8 dear 024<*>c,0
-0,iar 00105e98 dear 02f<*>c,0
+0,iar 00105e78 dear 02f<*>c,0
 0,iar 00106200 dear <*>,0
-0,iar 00106588 dear 024<*>c,0
+0,iar 001061e8 dear 024<*>c,0
+0,iar 00105e84 dear 024<*>c,0
+0,iar 00105e74 dear 024<*>c,0
+0,iar 001061b4 dear 024<*>c,0
+0,iar 0010621c dear 02f<*>c,0
 0,iar 0010653c dear 024<*>c,0
+0,iar 00106588 dear 024<*>c,0
 0,iar 00106570 dear 024<*>c,0
-0,d-cache flush parity <*>,0
+0,16:00000000 <*> 18:00000000 19:00000000,0
+0,critical input interrupt <*>,0
 0,iar 00149fc0 dear 00<*>8,0
-0,iar 00149ee0 dear 00<*>8,0
 0,iar 00149f88 dear 00<*>8,0
-0,iar 0014a150 dear 00<*>8,0
+0,iar 00149ee0 dear 00<*>8,0
 0,iar 0014a1e4 dear 00<*>8,0
+0,iar 0014a150 dear 00<*>8,0
 0,iar 003a9258 dear 01<*>8,0
 0,iar 003a9254 dear 0<*>8,0
 0,iar 003a9260 dear 0<*>8,0
@@ -137,25 +144,26 @@ EventId,EventTemplate,Occurrences
 0,iar 003a929c dear 0<*>8,0
 0,iar 003a9288 dear 00<*>8,0
 0,iar 003a9280 dear 00<*>8,0
-0,iar 003a9274 dear 00<*>8,0
 0,iar 003a926c dear 0<*>8,0
-0,iar 003a9294 dear 00<*>8,0
-0,iar 003a9108 dear 00b3<*>8,0
-0,iar 003a9104 dear 00b3<*>8,0
+0,iar 003a9274 dear 0<*>8,0
+0,iar 003a9294 dear 0<*>8,0
+0,iar 003a9108 dear 00<*>8,0
+0,iar 003a9104 dear 00<*>8,0
 0,iar 003a90f0 dear 00<*>8,0
 0,iar 003a90e8 dear 00<*>8,0
-0,iar 003a90dc dear 00<*>8,0
+0,iar 003a90dc dear 00b3<*>8,0
 0,iar 003a90d4 dear 00b3<*>8,0
 0,iar 003a90fc dear 00<*>8,0
 0,external input interrupt <*>,0
-0,machine state register: <*>,0
+0,data read plb error...............<*>,0
 0,Ido packet timeout,0
 0,instruction address: 0x0062fe04,0
 0,instruction address: 0x0062fdf4,0
-0,<*> 17:00000001 18:00000000 19:00000000,0
+0,special purpose registers:,0
 0,12:28244842 13:1eeeeeee 14:ffffffff 15:00<*>,0
+0,general purpose registers:,0
 0,icache prefetch threshold................0,0
-0,icache prefetch depth....................0,0
+0,force load/store alignment...............0,0
 0,machine check enable..............0,0
 0,byte ordering exception.....................0,0
 0,floating point operation....................0,0
@@ -163,22 +171,20 @@ EventId,EventTemplate,Occurrences
 0,data address: 0x00000002,0
 0,instruction address: 0x00004ed8,0
 0,data storage interrupt,0
-0,i-cache parity error..............0,0
-0,ciod: LOGIN chdir(<*>) failed: <*> <*>,0
-0,special purpose registers:,0
-0,general purpose registers:,0
-0,force load/store alignment...............0,0
-0,disable trace broadcast..................0,0
-0,instruction address space.........0,0
-0,debug wait enable.................0,0
-0,"problem state (0=sup,1=usr).......0",0
-0,wait state enable.................0,0
-0,disable store gathering..................0,0
-0,data address space................0,0
 0,rts internal error,0
+0,data address space................0,0
 0,debug interrupt enable............0,0
+0,debug wait enable.................0,0
+0,icache prefetch depth....................0,0
+0,disable trace broadcast..................0,0
+0,wait state enable.................0,0
+0,machine state register: <*>,0
+0,instruction address space.........0,0
 0,machine check enable..............1,0
+0,"problem state (0=sup,1=usr).......0",0
+0,disable store gathering..................0,0
 0,<*> double-hummer alignment exceptions,0
+0,<*> is not fully functional,0
 0,iar 00113898 dear 0fee9c4c,0
 0,iar 00113890 dear 0fee9c3c,0
 0,iar 00113888 dear 0fee9c2c,0
@@ -187,147 +193,178 @@ EventId,EventTemplate,Occurrences
 0,iar 00113890 dear 0fee9d2c,0
 0,iar 00113888 dear 0fee9d1c,0
 0,iar 00113880 dear 0fee9d0c,0
-0,iar 00106470 dear 0246dadc,0
-0,iar 00106494 dear 0246db7c,0
-0,iar 00106470 dear 0246daac,0
-0,iar 00106448 dear 0246db5c,0
-0,iar 00106494 dear 0246db1c,0
-0,iar 00106494 dear 0246dabc,0
-0,iar 00106494 dear 0246daec,0
-0,iar 00106494 dear 0246db4c,0
-0,iar 00106470 dear 0246db6c,0
 0,iar 00106470 dear 0246db0c,0
+0,iar 00106494 dear 0246dbac,0
+0,iar 00106470 dear 0246db9c,0
+0,iar 00106448 dear 0246db8c,0
+0,iar 00106448 dear 0246db5c,0
+0,iar 00106494 dear 0246db4c,0
+0,iar 00106494 dear 0246db7c,0
+0,iar 00106494 dear 0246db1c,0
+0,iar 00106494 dear 0246daec,0
+0,iar 00106470 dear 0246dadc,0
+0,iar 00106470 dear 0246db6c,0
 0,iar 00106470 dear 0246db3c,0
-0,iar 00106c0c dear 0246ddbc,0
-0,iar 00106b90 dear 0246dd6c,0
-0,iar 00106ba8 dear 0246dddc,0
-0,iar 00105e84 dear 0247018c,0
+0,iar 00106ba0 dear 0246de6c,0
+0,iar 00106ba0 dear 0246dddc,0
+0,iar 00105e98 dear 02f7c7ac,0
+0,iar 00105e78 dear 02f7c78c,0
+0,iar 00105e78 dear 02f7c79c,0
 0,iar 00106200 dear 024701cc,0
-0,iar 00105e98 dear 02f7c7dc,0
-0,iar 00105e88 dear 02f7c7cc,0
 0,iar 001061e8 dear 024701bc,0
-0,iar 001061e8 dear 0247018c,0
+0,iar 00105e88 dear 02f7c7cc,0
 0,iar 001061b4 dear 024701dc,0
+0,iar 00105e84 dear 024701dc,0
 0,iar 00106200 dear 0247019c,0
-0,iar 001061e8 dear 0247015c,0
-0,iar 001061b4 dear 0247017c,0
+0,iar 00105e74 dear 024701cc,0
+0,iar 001061e8 dear 0247018c,0
+0,iar 00105e74 dear 0247019c,0
 0,iar 001061b4 dear 024701ac,0
-0,iar 00105e88 dear 02f7c7ac,0
+0,iar 001061b4 dear 0247017c,0
 0,iar 00105e88 dear 02f7c77c,0
-0,iar 00106200 dear 0247016c,0
+0,iar 00105e84 dear 0247018c,0
 0,iar 00106200 dear 0247013c,0
+0,iar 00105e84 dear 024701bc,0
+0,iar 00106200 dear 0247016c,0
 0,iar 001061e8 dear 0247012c,0
+0,iar 001061e8 dear 0247015c,0
 0,iar 00106200 dear 0244cb9c,0
-0,iar 00106200 dear 0244cbcc,0
-0,iar 00106580 dear 024698dc,0
-0,iar 00106568 dear 024955ac,0
+0,iar 001061e8 dear 0244cb8c,0
+0,iar 001061e8 dear 0244cb5c,0
+0,iar 001061b4 dear 0244cbac,0
+0,iar 00105fcc dear 0244c94c,0
+0,iar 00105fe4 dear 0244c96c,0
+0,iar 00106214 dear 02f75cdc,0
+0,iar 001061e4 dear 02f75ccc,0
+0,iar 00106348 dear 024696bc,0
+0,iar 00106534 dear 024698ec,0
+0,iar 00106580 dear 024955bc,0
+0,iar 00106534 dear 024955cc,0
 0,iar 00106580 dear 0249558c,0
 0,iar 00106568 dear 0249557c,0
 0,iar 00106580 dear 0249555c,0
 0,iar 00106568 dear 0249554c,0
-0,iar 0010653c dear 0245a66c,0
 0,iar 00106588 dear 0245a62c,0
+0,iar 00106570 dear 0245a61c,0
 0,iar 0010653c dear 0245a63c,0
-0,iar 001066c4 dear 025252cc,0
-0,iar 001066ac dear 025252bc,0
+0,iar 00106588 dear 0245a5fc,0
 0,iar 001066c4 dear 0252529c,0
 0,iar 001066ac dear 0252528c,0
+0,iar 00106678 dear 0252527c,0
+0,iar 00106678 dear 025252ac,0
 0,iar 001066c4 dear 0252526c,0
-0,iar 00106678 dear 025252ec,0
+0,iar 001066ac dear 0252525c,0
+0,iar 001066c4 dear 025252ac,0
 0,iar 00106678 dear 025252bc,0
+0,iar 001066c4 dear 0252527c,0
+0,iar 001066ac dear 0252526c,0
+0,iar 001007a8 dear 065b4cac,0
 0,iar 00100798 dear 065b4c9c,0
-0,iar 00100788 dear 065b4c8c,0
 0,iar 001007b8 dear 065b4c7c,0
+0,iar 001007a8 dear 065b4c6c,0
 0,iar 00100798 dear 065b4c5c,0
-0,iar 001066c4 dear 0252525c,0
 0,iar 001066c4 dear 0252528c,0
+0,iar 00106678 dear 0252526c,0
+0,iar 00106678 dear 0252529c,0
+0,iar 001066c4 dear 0252525c,0
 0,iar 001066ac dear 0252524c,0
 0,iar 00106678 dear 0252523c,0
-0,iar 00106678 dear 0252526c,0
-0,iar 001066c4 dear 0252522c,0
 0,iar 001066c4 dear 025251fc,0
+0,iar 001066c4 dear 0252522c,0
 0,iar 001066ac dear 0252521c,0
-0,iar 00106570 dear 0245a3cc,0
-0,iar 00106588 dear 0245a3ac,0
+0,iar 001066ac dear 025251ec,0
+0,iar 00106588 dear 0245a3dc,0
+0,iar 0010653c dear 0245a3ec,0
 0,iar 00106b3c dear 0246f77c,0
+0,iar 00106b24 dear 0246f78c,0
 0,iar 00106b0c dear 0246f76c,0
 0,iar 001069d8 dear 02f7bd8c,0
-0,iar 00106998 dear 0246f77c,0
 0,iar 001069a8 dear 02f7bd7c,0
 0,iar 001069a0 dear 0246f78c,0
+0,iar 00106998 dear 0246f77c,0
 0,iar 00106988 dear 02f7bd6c,0
 0,iar 001064f4 dear 0246a96c,0
 0,iar 001064dc dear 0246a94c,0
 0,iar 001063a8 dear 02f76f6c,0
 0,iar 00106370 dear 0246a96c,0
-0,iar 00106358 dear 02f76f4c,0
-0,iar 00106588 dear 0245a1ac,0
-0,iar 001063b0 dear 02f67c4c,0
-0,iar 0010671c dear 0245b75c,0
 0,iar 00106514 dear 0245b63c,0
+0,iar 001063b0 dear 02f67c4c,0
+0,iar 00106704 dear 0245b74c,0
 0,iar 00106380 dear 02f67c3c,0
+0,iar 001064fc dear 0245b64c,0
+0,iar 001066d0 dear 0245b76c,0
 0,iar 00106378 dear 0245b64c,0
 0,iar 001064e4 dear 0245b62c,0
 0,iar 0010671c dear 0245b72c,0
 0,iar 00106370 dear 0245b63c,0
+0,iar 0010671c dear 0245b84c,0
 0,iar 00106704 dear 0245b71c,0
 0,iar 00106360 dear 02f67c2c,0
 0,iar 0010635c dear 0245b62c,0
-0,iar 00106168 dear 0245b64c,0
-0,iar 0010684c dear 02f693dc,0
-0,iar 00106848 dear 0245cf0c,0
-0,iar 00106bc0 dear 0245cefc,0
-0,iar 00106848 dear 0245cdec,0
+0,iar 0010671c dear 0245b81c,0
+0,iar 00106704 dear 0245b6ec,0
+0,iar 0010613c dear 0245b63c,0
+0,iar 00106390 dear 02f67cfc,0
+0,iar 0010686c dear 02f6940c,0
+0,iar 00106bd8 dear 0245cdcc,0
+0,iar 00106bc0 dear 0245cedc,0
+0,iar 00106bc0 dear 0245cdac,0
 0,iar 001069a0 dear 0245ccec,0
 0,iar 001069b8 dear 0245cd0c,0
-0,iar 0010681c dear 02f692ec,0
-0,iar 00106834 dear 0245cd0c,0
-0,iar 00106818 dear 0245ccec,0
-0,iar 00106b8c dear 0245cf1c,0
+0,iar 00106bd8 dear 0245cdbc,0
+0,iar 0010686c dear 02f6930c,0
+0,iar 0010683c dear 02f692fc,0
+0,iar 00106bc0 dear 0245cddc,0
+0,iar 00106bd8 dear 0245cdec,0
 0,iar 001069d0 dear 0245ccfc,0
-0,iar 00106bd8 dear 0245cd8c,0
-0,iar 00106bc0 dear 0245ce0c,0
-0,iar 0010662c dear 0245cd0c,0
+0,iar 0010682c dear 0245ccfc,0
+0,iar 00106818 dear 0245ccec,0
+0,iar 00106834 dear 0245cd0c,0
+0,iar 00106bc0 dear 0245cd7c,0
+0,iar 0010681c dear 02f692ec,0
 0,iar 00106600 dear 0245ccfc,0
-0,iar 001069b8 dear 0245ccfc,0
-0,iar 001069a0 dear 0245ccdc,0
+0,iar 0010683c dear 02f692ec,0
+0,iar 00106834 dear 0245ccfc,0
 0,iar 00106818 dear 0245ccdc,0
-0,iar 0010686c dear 02f692fc,0
-0,iar 00106bd8 dear 0245ce0c,0
-0,iar 001069d0 dear 0245ccec,0
-0,iar 0010681c dear 02f692dc,0
-0,iar 00106bc0 dear 0245cd6c,0
-0,iar 00106588 dear 0245a17c,0
+0,iar 00106bc0 dear 0245cdfc,0
+0,iar 00106600 dear 0245ccec,0
+0,iar 00106bc0 dear 0245cdcc,0
+0,iar 001069b8 dear 0245ccfc,0
+0,iar 0010684c dear 02f693dc,0
 0,iar 0010621c dear 02f6669c,0
 0,iar 00106380 dear 0245a08c,0
+0,iar 00106588 dear 0245a17c,0
+0,iar 00106570 dear 0245a19c,0
 0,iar 00106368 dear 0245a09c,0
 0,iar 001061ec dear 02f6668c,0
-0,iar 00106570 dear 0245a19c,0
-0,iar 00106208 dear 0245a2ac,0
-0,iar 00106350 dear 0245a07c,0
 0,iar 001061e4 dear 0245a09c,0
-0,iar 001061dc dear 0245a08c,0
+0,iar 00106350 dear 0245a07c,0
 0,iar 00106588 dear 0245a14c,0
-0,iar 00106588 dear 0245a29c,0
+0,iar 001061cc dear 02f6667c,0
 0,iar 00106570 dear 0245a16c,0
 0,iar 00106570 dear 0245a28c,0
-0,iar 001061cc dear 02f6667c,0
+0,iar 0010653c dear 0245a18c,0
+0,iar 0010653c dear 0245a2ac,0
 0,iar 001061c8 dear 0245a07c,0
+0,iar 00106588 dear 0245a11c,0
 0,iar 00105fd4 dear 0245a09c,0
 0,iar 00105fa8 dear 0245a08c,0
 0,iar 00106570 dear 0245a25c,0
-0,iar 001061fc dear 02f6674c,0
 0,iar 00106578 dear 045e23ac,0
+0,iar 00106580 dear 045e1aac,0
 0,iar 00106580 dear 045e148c,0
-0,iar 00106534 dear 045e149c,0
+0,iar 00106568 dear 045e147c,0
+0,iar 00106580 dear 045e145c,0
 0,iar 00106568 dear 045e144c,0
-0,iar 00106568 dear 045e143c,0
 0,iar 00106534 dear 045e146c,0
+0,iar 00106568 dear 045e143c,0
 0,iar 00106580 dear 045e142c,0
+0,iar 001061f0 dear 045e147c,0
 0,iar 00106568 dear 045e141c,0
 0,iar 00106534 dear 045e145c,0
 0,iar 00106580 dear 045e141c,0
 0,iar 00106568 dear 045e140c,0
+0,iar 00106580 dear 0246ae6c,0
 0,iar 00106580 dear 02494c2c,0
 0,iar 00106568 dear 02494c1c,0
 0,iar 00106534 dear 02494c3c,0
@@ -338,38 +375,40 @@ EventId,EventTemplate,Occurrences
 0,iar 00106568 dear 02494bbc,0
 0,iar 00106228 dear 0244c27c,0
 0,iar 00106210 dear 0244c26c,0
-0,iar 00105e94 dear 02f5883c,0
 0,iar 001061dc dear 0244c28c,0
+0,iar 00105ea0 dear 0244c28c,0
 0,iar 00106228 dear 0244c24c,0
+0,iar 00105e94 dear 02f5886c,0
+0,iar 00105e90 dear 0244c27c,0
 0,iar 00106210 dear 0244c23c,0
+0,iar 00105ea4 dear 02f5885c,0
 0,iar 001061dc dear 0244c25c,0
 0,iar 001061dc dear 0244c22c,0
-0,iar 00106228 dear 0244c21c,0
 0,iar 00106228 dear 0244c1ec,0
 0,iar 00105ea0 dear 0244c23c,0
-0,iar 00106210 dear 0244c20c,0
-0,iar 00105e94 dear 02f5884c,0
+0,iar 00106228 dear 0244c21c,0
+0,iar 00105ea0 dear 0244c26c,0
 0,iar 00106210 dear 0244c1dc,0
+0,iar 00105e94 dear 02f5881c,0
+0,iar 00105e94 dear 02f5884c,0
+0,iar 00106210 dear 0244c20c,0
+0,iar 00106200 dear 0244c23c,0
+0,iar 00106200 dear 0244c20c,0
 0,iar 00106200 dear 0244c1dc,0
-0,iar 001061b4 dear 0244c21c,0
 0,iar 001061e8 dear 0244c1cc,0
-0,iar 0014a150 dear 009836d8,0
-0,iar 0014a150 dear 00986b58,0
-0,iar 0014a150 dear 0098cdc8,0
-0,iar 0014a150 dear 0098d458,0
+0,iar 00106200 dear 0244c2bc,0
+0,<*> floating point alignment exceptions,0
+0,iar 0014a150 dear 00993d58,0
 0,iar 0014a150 dear 00983048,0
-0,iar 0014a150 dear 009829b8,0
-0,iar 0014a150 dear 009871e8,0
-0,iar 0014a150 dear 009864c8,0
+0,iar 0014a150 dear 00989fd8,0
+0,iar 0014a150 dear 0098acf8,0
+0,iar 0014a150 dear 0098a668,0
+0,iar 0014a150 dear 009836d8,0
 0,1524480 double-hummer alignment exceptions,0
 0,3095040 double-hummer alignment exceptions,0
 0,773760 double-hummer alignment exceptions,0
 0,1547520 double-hummer alignment exceptions,0
 0,2201500 double-hummer alignment exceptions,0
-0,machine check status register: 0x<*>00000,0
-0,<*> floating point alignment exceptions,0
-0,data read plb error...............0,0
-0,419680 double-hummer alignment exceptions,0
 0,458720 double-hummer alignment exceptions,0
 0,1311300 double-hummer alignment exceptions,0
 0,1049200 double-hummer alignment exceptions,0
@@ -389,18 +428,20 @@ EventId,EventTemplate,Occurrences
 0,2576000 double-hummer alignment exceptions,0
 0,1969920 double-hummer alignment exceptions,0
 0,253440 double-hummer alignment exceptions,0
+0,211200 double-hummer alignment exceptions,0
 0,192960 double-hummer alignment exceptions,0
 0,199680 double-hummer alignment exceptions,0
 0,lr:00004ed0 cr:28244842 xer:20000002 ctr:00086000,0
 0,28:1feaa7b0 29:00000001 30:000008ce 31:1feaa790,0
 0,24:1feaa7a0 25:00284538 26:00230000 27:00320000,0
 0,20:00000000 21:1feaa7b0 22:00000000 23:00000000,0
+0,16:00000400 17:00000001 18:00000000 19:00000000,0
 0,16:00000800 17:00000001 18:00000000 19:00000000,0
-0,16:00000000 17:00000001 18:00000000 19:00000000,0
 0,16:00000c00 17:00000001 18:00000000 19:00000000,0
 0,8:00000004 9:4e800020 10:3ed4bd98 11:6b26bf88,0
 0,4:000008ce 5:ffffffff 6:00000038 7:00086590,0
 0,0:000008ce 1:00086000 2:1eeeeeee 3:1feaa770,0
+0,floating point instr. enabled.....1,0
 0,machine state register: 0x00002000,0
 0,program interrupt: fp compare...............0,0
 0,program interrupt: imprecise exception......0,0
@@ -409,404 +450,452 @@ EventId,EventTemplate,Occurrences
 0,program interrupt: privileged instruction...0,0
 0,program interrupt: illegal instruction......0,0
 0,exception syndrome register: 0x00800000,0
-0,floating point instr. enabled.....1,0
+0,disable apu instruction broadcast........0,0
 0,critical input interrupt enable...0,0
 0,core configuration register: 0x00002000,0
-0,disable apu instruction broadcast........0,0
 0,external input interrupt enable...0,0
 0,data TLB error interrupt,0
-0,101 double-hummer alignment exceptions,0
+0,181 double-hummer alignment exceptions,0
+0,182 double-hummer alignment exceptions,0
+0,161 double-hummer alignment exceptions,0
 0,162 double-hummer alignment exceptions,0
-0,142 double-hummer alignment exceptions,0
+0,101 double-hummer alignment exceptions,0
+0,141 double-hummer alignment exceptions,0
 0,121 double-hummer alignment exceptions,0
-0,floating pt ex mode 1 <*>,0
+0,"CE sym 4, at 0x<*>0, mask 0x<*>",0
+0,"CE sym 27, at 0x<*>0, mask 0x<*>",0
 0,40 floating point alignment exceptions,0
-0,"CE sym 23, at 0x<*>0, mask 0x<*>",0
+0,"CE sym 18, at 0x<*>0, mask 0x<*>",0
+0,440688 floating point alignment exceptions,0
+0,1814262 floating point alignment exceptions,0
+0,2827767 floating point alignment exceptions,0
 0,342549 floating point alignment exceptions,0
 0,37584 floating point alignment exceptions,0
+0,45846 floating point alignment exceptions,0
 0,62500 floating point alignment exceptions,0
-0,1667166 floating point alignment exceptions,0
-0,1915806 floating point alignment exceptions,0
 0,2354412 floating point alignment exceptions,0
-0,388242 floating point alignment exceptions,0
+0,1915806 floating point alignment exceptions,0
+0,1667166 floating point alignment exceptions,0
 0,487476 floating point alignment exceptions,0
+0,367836 floating point alignment exceptions,0
 0,367686 floating point alignment exceptions,0
-0,640404 floating point alignment exceptions,0
 0,502524 floating point alignment exceptions,0
 0,502164 floating point alignment exceptions,0
 0,640764 floating point alignment exceptions,0
-0,"CE sym 27, at <*> mask <*>",0
-0,floating pt ex mode 0 <*>,0
+0,640404 floating point alignment exceptions,0
+0,"CE sym 23, at 0x<*>0, mask 0x<*>",0
 0,rts: kernel terminated for reason <*>,0
 0,Error: unable to mount filesystem,0
-0,<*>Card power module U<*> is not accessible,0
-0,"CE sym 28, at <*> mask <*>",0
+0,<*> power module <*> is not accessible,0
+0,floating pt ex mode 1 <*>,0
+0,"CE sym 28, at 0x<*>0, mask 0x<*>",0
 0,1005 floating point alignment exceptions,0
 0,685 floating point alignment exceptions,0
 0,5 floating point alignment exceptions,0
 0,15 floating point alignment exceptions,0
 0,8 floating point alignment exceptions,0
+0,LinkCard is not fully functional,0
+0,floating pt ex mode 0 <*>,0
 0,program interrupt: fp cr update.............0,0
 0,rts panic! - stopping execution,0
-0,guaranteed instruction cache block touch.0,0
+0,"CE sym 9, at 0x<*>0, mask 0x<*>",0
+0,ciod: LOGIN <*> failed: Permission denied,0
 0,guaranteed data cache block touch........1,0
+0,guaranteed instruction cache block touch.0,0
 0,"CE sym 2, at 0x<*>0, mask 0x<*>",0
 0,"CE sym 0, at 0x<*>0, mask 0x<*>",0
 0,instruction cache parity error corrected,0
-0,"CE sym 21, at <*> mask 0x02",0
-0,"ciod: Received signal 15, code=0, errno=0, address=0x000001b<*>",0
-0,"CE sym 27, at <*> mask 0x10",0
-0,Temperature Over Limit on link card,0
-0,"CE sym 16, at <*> mask 0x10",0
-0,"CE sym 33, at <*> mask 0x80",0
-0,"CE sym 29, at <*> mask 0x02",0
-0,"CE sym 9, at <*> mask 0x01",0
-0,"CE sym 27, at <*> mask 0x01",0
-0,"CE sym 8, at <*> mask 0x04",0
-0,"CE sym 15, at <*> mask 0x02",0
-0,"CE sym 6, at <*> mask 0x10",0
-0,"CE sym 21, at <*> mask 0x08",0
-0,"CE sym 4, at <*> mask 0x10",0
-0,"CE sym 16, at <*> mask 0x80",0
-0,"CE sym 4, at <*> mask 0x01",0
-0,"CE sym 3, at 0x<*>0, mask 0x20",0
-0,"CE sym 5, at <*> mask 0x40",0
-0,"CE sym 2, at <*> mask 0x10",0
-0,"CE sym 3, at <*> mask 0x02",0
-0,"CE sym 25, at <*> mask 0x04",0
-0,"CE sym 13, at <*> mask 0x01",0
-0,"CE sym 9, at <*> mask 0x04",0
-0,"CE sym 28, at 0x<*>0, mask 0x80",0
-0,"CE sym 20, at 0x<*>0, mask 0x01",0
-0,"CE sym 5, at 0x<*>0, mask 0x08",0
-0,"CE sym 25, at <*> mask 0x10",0
-0,"CE sym 9, at <*> mask 0x02",0
-0,MidplaneSwitchController performing bit sparing on <*> bit <*>,0
-0,"CE sym 30, at <*> mask 0x01",0
-0,"CE sym 18, at 0x<*>0, mask 0x01",0
-0,"CE sym 4, at 0x<*>0, mask 0x40",0
-0,"CE sym 22, at <*> mask 0x20",0
-0,"CE sym 6, at 0x<*>0, mask 0x02",0
-0,"CE sym 28, at <*> mask 0x40",0
-0,"CE sym 13, at <*> mask 0x08",0
-0,"CE sym 28, at <*> mask 0x04",0
-0,"CE sym 9, at 0x1<*>0, mask 0x10",0
-0,"CE sym 4, at 0x<*>0, mask 0x02",0
-0,ciod: generated <*> core files for program <*>,0
-0,"CE sym 3, at 0x<*>0, mask 0x01",0
-0,"CE sym 15, at 0x<*>0, mask 0x08",0
-0,"CE sym 6, at 0x0<*>0, mask 0x80",0
-0,"CE sym 23, at 0x<*>0, mask 0x40",0
-0,"CE sym 15, at <*> mask 0x10",0
-0,"CE sym 10, at 0x<*>0, mask 0x04",0
-0,rts: bad message header: <*> <*> <*> <*> <*> <*> 3<*> (softheader=00<*> <*> <*> <*>) PSR0=0000<*> PSR1=00000000 PRXF=000<*> PIXF=00000007,0
-0,rts: kernel terminated for reason 1003,0
-0,rts: kernel terminated for reason 1004,0
-0,rts tree/torus link training failed: wanted: <*> <*> <*> X<*> <*> Y<*> <*> Z<*> <*> <*> <*> <*> <*> <*> <*>,0
-0,"CE sym 18, at <*> mask 0x10",0
-0,rts: kernel terminated for reason 1001,0
-0,"CE sym 7, at <*> mask 0x01",0
-0,"CE sym 23, at 0x0<*>0, mask 0x02",0
-0,"CE sym 27, at 0x<*>0, mask 0x20",0
-0,"CE sym 9, at 0x<*>60, mask 0x80",0
-0,"CE sym 27, at 0x1<*>0, mask 0x80",0
-0,"CE sym 13, at 0x<*>0, mask 0x02",0
-0,"CE sym 15, at 0x<*>0, mask 0x01",0
-0,"CE sym 35, at 0x<*>0, mask 0x04",0
-0,"CE sym 25, at <*> mask 0x20",0
-0,"CE sym 8, at 0x<*>0, mask 0x01",0
-0,"CE sym 26, at 0x<*>0, mask 0x02",0
-0,"CE sym 23, at <*> mask 0x20",0
-0,"CE sym 26, at <*> mask 0x10",0
-0,"CE sym 14, at <*> mask 0x01",0
-0,"CE sym 34, at 0x<*>80, mask 0x80",0
-0,"CE sym 10, at <*> mask 0x02",0
-0,"CE sym 13, at <*> mask 0x80",0
-0,"CE sym 24, at <*> mask 0x40",0
-0,"CE sym 5, at 0x<*>0, mask 0x01",0
-0,suppressing further interrupts of same type,0
-0,"CE sym 15, at 0x<*>0, mask 0x04",0
-0,"CE sym 30, at 0x<*>0, mask 0x20",0
-0,"CE sym 11, at 0x0<*>0, mask 0x02",0
-0,"CE sym 25, at 0x<*>0, mask 0x02",0
-0,"CE sym 12, at 0x<*>0, mask 0x10",0
-0,"CE sym 31, at 0x1<*>0, mask 0x40",0
-0,"CE sym 31, at <*> mask 0x01",0
-0,"CE sym 14, at <*> mask 0x20",0
-0,"CE sym 34, at 0x<*>0, mask 0x04",0
 0,"CE sym 0, at <*> mask 0x08",0
-0,"CE sym 31, at 0x<*>0, mask 0x20",0
-0,"CE sym 14, at 0x1<*>0, mask 0x04",0
-0,"CE sym 13, at <*> mask 0x20",0
-0,"CE sym 18, at <*> mask 0x80",0
-0,"CE sym 2, at <*> mask 0x20",0
+0,"ciod: Received signal 15, code=0, errno=0, address=0x000001b<*>",0
+0,"CE sym 9, at 0x<*>0, mask 0x04",0
+0,Temperature Over Limit on link card,0
+0,"CE sym 14, at <*> mask 0x04",0
+0,"CE sym 33, at <*> mask 0x10",0
+0,"CE sym 31, at <*> mask 0x40",0
+0,"CE sym 22, at <*> mask 0x20",0
+0,ciod: generated <*> core files for program <*>,0
+0,"CE sym 8, at <*> mask 0x04",0
+0,"CE sym 20, at <*> mask 0x04",0
 0,"CE sym 35, at <*> mask 0x02",0
-0,"CE sym 3, at <*> mask 0x80",0
-0,"CE sym 9, at <*> mask 0x40",0
-0,"CE sym 21, at <*> mask 0x80",0
-0,"CE sym 23, at 0x<*>0, mask 0x80",0
-0,"CE sym 28, at 0x1<*>0, mask 0x01",0
+0,"CE sym 21, at 0x<*>0, mask 0x02",0
+0,"CE sym 10, at <*> mask 0x02",0
+0,"CE sym 27, at <*> mask 0x10",0
+0,"CE sym 23, at <*> mask 0x01",0
+0,"CE sym 23, at 0x<*>0, mask 0x20",0
+0,"CE sym 18, at 0x<*>0, mask 0x04",0
+0,"CE sym 4, at <*> mask 0x01",0
 0,"CE sym 33, at <*> mask 0x40",0
-0,"CE sym 17, at 0x<*>0, mask 0x40",0
-0,"CE sym 19, at 0x<*>00, mask 0x80",0
-0,"CE sym 35, at <*> mask 0x40",0
-0,"CE sym 21, at 0x<*>0, mask 0x01",0
-0,"CE sym 10, at 0x<*>0, mask 0x80",0
-0,"CE sym 14, at 0x1<*>0, mask 0x02",0
-0,"CE sym 15, at 0x<*>0, mask 0x40",0
-0,"CE sym 9, at <*> mask 0x20",0
-0,"CE sym 26, at <*> mask 0x01",0
-0,"CE sym 8, at 0x<*>0, mask 0x08",0
-0,"CE sym 0, at 0x<*>0, mask 0xc0",0
+0,"CE sym 9, at <*> mask 0x01",0
+0,"CE sym 29, at <*> mask 0x04",0
+0,"CE sym 31, at <*> mask 0x04",0
+0,"CE sym 13, at <*> mask 0x20",0
+0,"CE sym 33, at <*> mask 0x80",0
+0,"CE sym 29, at 0x<*>0, mask 0x10",0
+0,"CE sym 6, at 0x<*>0, mask 0x40",0
+0,"CE sym 6, at 0x<*>0, mask 0x04",0
+0,"CE sym 5, at <*> mask 0x40",0
+0,"CE sym 6, at <*> mask 0x02",0
+0,"CE sym 20, at <*> mask 0x01",0
+0,"CE sym 23, at <*> mask 0x80",0
+0,"CE sym 22, at <*> mask 0x08",0
+0,"CE sym 3, at <*> mask 0x02",0
+0,"CE sym 15, at <*> mask 0x01",0
+0,"CE sym 24, at 0x<*>0, mask 0x40",0
+0,"CE sym 30, at <*> mask 0x01",0
+0,"CE sym 7, at <*> mask 0x04",0
+0,"CE sym 28, at 0x<*>0, mask 0x10",0
+0,"CE sym 9, at <*> mask 0x02",0
+0,"CE sym 29, at <*> mask 0x01",0
+0,"CE sym 3, at 0x<*>0, mask 0x01",0
+0,"CE sym 30, at 0x<*>0, mask 0x02",0
+0,"CE sym 28, at 0x<*>0, mask 0x04",0
+0,"CE sym 25, at <*> mask 0x04",0
+0,"CE sym 5, at 0x<*>0, mask 0x08",0
+0,"CE sym 4, at 0x<*>0, mask 0x40",0
+0,rts: kernel terminated for reason 1002,0
+0,"CE sym 6, at 0x<*>0, mask 0x80",0
+0,"CE sym 15, at 0x09<*>80, mask 0x08",0
+0,rts: kernel terminated for reason 1004,0
+0,rts: kernel terminated for reason 1001,0
+0,"CE sym 15, at <*> mask 0x04",0
 0,"CE sym 6, at 0x<*>0, mask 0x20",0
-0,"CE sym 7, at 0x<*>0, mask 0x04",0
-0,"CE sym 28, at 0x<*>0, mask 0x20",0
-0,"CE sym 0, at 0x1b858ec0, mask <*>",0
-0,"CE sym 5, at 0x<*>0, mask 0x02",0
-0,"CE sym 0, at <*> mask 0x80",0
-0,"CE sym 0, at 0x<*>0, mask 0x40",0
-0,"CE sym 29, at 0x<*>0, mask 0x01",0
-0,"CE sym 2, at 0x<*>0, mask 0x40",0
-0,"CE sym 0, at <*> mask 0x20",0
-0,"CE sym 0, at 0x1b859080, mask 0x<*>0",0
-0,"CE sym 12, at 0x<*>0, mask 0x04",0
-0,"CE sym 23, at 0x<*>0, mask 0x10",0
-0,"CE sym 19, at 0x0<*>0, mask 0x02",0
-0,"CE sym 20, at <*> mask 0x02",0
-0,"CE sym 0, at 0x1b859480, mask 0x<*>0",0
-0,"CE sym 12, at 0x<*>0, mask 0x02",0
-0,"CE sym 0, at 0x0b8580c0, mask 0x<*>0",0
-0,"CE sym 27, at <*> mask 0x02",0
-0,"CE sym 33, at 0x<*>0, mask 0x20",0
-0,"CE sym 25, at 0x<*>0, mask 0x40",0
-0,"CE sym 12, at 0x<*>0, mask 0x40",0
-0,"CE sym 34, at 0x<*>0, mask 0x40",0
-0,"CE sym 4, at <*> mask 0x04",0
-0,"CE sym 35, at 0x<*>0, mask 0x10",0
-0,"CE sym 26, at 0x<*>0, mask 0x04",0
+0,"CE sym 14, at 0x<*>0, mask 0x02",0
+0,"CE sym 30, at 0x<*>0, mask 0x04",0
+0,"CE sym 5, at <*> mask 0x01",0
+0,"CE sym 30, at 0x1<*>0, mask 0x10",0
+0,"CE sym 16, at <*> mask 0x04",0
+0,"CE sym 11, at <*> mask 0x02",0
+0,"CE sym 31, at <*> mask 0x01",0
+0,"CE sym 4, at 0x1<*>0, mask 0x08",0
+0,"CE sym 4, at 0x0<*>0, mask 0x10",0
+0,"CE sym 11, at 0x0<*>0, mask 0x04",0
+0,"CE sym 19, at <*> mask 0x02",0
+0,"CE sym 21, at <*> mask 0x01",0
+0,"CE sym 35, at <*> mask 0x08",0
+0,rts tree/torus link training failed: wanted: <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*>,0
+0,"CE sym 26, at 0x<*>0, mask 0x02",0
+0,"CE sym 7, at <*> mask 0x01",0
+0,"CE sym 10, at 0x<*>0, mask 0x80",0
+0,"CE sym 4, at <*> mask 0x02",0
+0,"CE sym 13, at <*> mask 0x80",0
+0,"CE sym 25, at <*> mask 0x20",0
+0,"CE sym 15, at <*> mask 0x40",0
+0,"CE sym 13, at <*> mask 0x40",0
+0,"PrepareForService is being done on this <*> (mLctn(R<*>), <*> <*> <*> <*>",0
+0,"CE sym 18, at 0x<*>0, mask 0x08",0
+0,"CE sym 18, at <*> mask 0x80",0
+0,"CE sym 30, at 0x<*>0, mask 0x08",0
 0,"CE sym 35, at <*> mask 0x01",0
-0,"CE sym 12, at <*> mask 0x20",0
-0,"CE sym 22, at <*> mask 0x80",0
-0,"CE sym 13, at 0x<*>0, mask 0x40",0
-0,"CE sym 5, at 0x<*>0, mask 0x20",0
+0,<*> torus <*>r <*> re<*>ion error(s) (dcr 0x02f<*>) detected and corrected,0
+0,"CE sym 8, at 0x<*>0, mask 0x01",0
+0,"CE sym 23, at 0x<*>0, mask 0x10",0
+0,"CE sym 14, at <*> mask 0x01",0
+0,"CE sym 5, at <*> mask 0x20",0
+0,"CE sym 21, at 0x<*>0, mask 0x40",0
+0,"CE sym 30, at 0x<*>0, mask 0x20",0
+0,"CE sym 2, at 0x<*>0, mask 0x20",0
+0,"CE sym 24, at 0x<*>0, mask 0x10",0
+0,"CE sym 11, at <*> mask 0x08",0
+0,"CE sym 26, at <*> mask 0x04",0
+0,"CE sym 3, at <*> mask 0x80",0
+0,"CE sym 25, at <*> mask 0x10",0
+0,"CE sym 33, at 0x<*>0, mask 0x08",0
+0,"CE sym 15, at <*> mask 0x10",0
+0,"CE sym 21, at <*> mask 0x80",0
+0,"CE sym 9, at 0x1<*>0, mask 0x40",0
+0,"CE sym 27, at 0x<*>0, mask 0x01",0
+0,"CE sym 25, at 0x<*>0, mask 0x40",0
+0,"CE sym 23, at 0x<*>0, mask 0x40",0
+0,"CE sym 3, at 0x<*>0, mask 0x20",0
+0,"CE sym 28, at <*> mask 0x40",0
+0,"CE sym 16, at 0x<*>0, mask 0x80",0
+0,"CE sym 13, at <*> mask 0x01",0
+0,"CE sym 9, at 0x<*>0, mask 0x20",0
+0,"CE sym 2, at 0x<*>0, mask 0x80",0
+0,"CE sym 19, at 0x1<*>0, mask 0x01",0
+0,"CE sym 11, at 0x<*>0, mask 0x10",0
+0,suppressing further interrupts of same type,0
+0,"CE sym 8, at 0x<*>0, mask 0x10",0
+0,"CE sym 29, at 0x<*>0, mask 0x08",0
+0,"CE sym 35, at 0x<*>0, mask 0x10",0
+0,"CE sym 18, at 0x<*>0, mask 0x10",0
+0,"CE sym 2, at <*> mask 0x10",0
+0,"CE sym 31, at <*> mask 0x02",0
+0,"CE sym 34, at <*> mask 0x40",0
+0,"CE sym 18, at <*> mask 0x40",0
+0,"CE sym 12, at 0x<*>0, mask 0x40",0
+0,"CE sym 20, at 0x<*>0, mask 0x10",0
+0,"CE sym 13, at 0x<*>0, mask 0x02",0
+0,"CE sym 0, at 0x<*>0, mask 0x80",0
+0,"CE sym 17, at 0x<*>0, mask 0x40",0
+0,"CE sym 0, at 0x1b859480, mask 0x<*>0",0
+0,"CE sym 0, at <*> mask 0x20",0
+0,"CE sym 0, at <*> mask 0x40",0
+0,"CE sym 15, at 0x<*>0, mask 0x02",0
+0,"CE sym 21, at 0x1<*>0, mask 0x10",0
+0,"CE sym 20, at <*> mask 0x02",0
+0,"CE sym 19, at <*> mask 0x40",0
+0,"CE sym 0, at 0x<*>0, mask 0xc0",0
+0,"CE sym 14, at 0x0<*>0, mask 0x20",0
+0,"CE sym 12, at 0x<*>0, mask 0x04",0
+0,"CE sym 28, at 0x1<*>0, mask 0x20",0
 0,"CE sym 13, at 0x<*>0, mask 0x04",0
+0,"CE sym 4, at 0x<*>0, mask 0x04",0
+0,"CE sym 12, at 0x<*>0, mask 0x10",0
+0,"CE sym 22, at 0x<*>0, mask 0x80",0
+0,"CE sym 22, at 0x<*>0, mask 0x02",0
+0,"CE sym 18, at 0x<*>0, mask 0x02",0
+0,"CE sym 27, at 0x<*>0, mask 0x02",0
+0,"CE sym 6, at 0x<*>0, mask 0x10",0
+0,"CE sym 12, at 0x<*>0, mask 0x02",0
+0,"CE sym 2, at 0x1b85ea80, mask 0x0<*>",0
+0,"CE sym 8, at 0x<*>0, mask 0x08",0
 0,"CE sym 5, at <*> mask 0x04",0
-0,"CE sym 21, at <*> mask 0x10",0
-0,floating pt ex mode 1 enable......0,0
-0,floating pt ex mode 0 enable......0,0
 0,program interrupt: fp cr field .............0,0
 0,data store interrupt caused by icbi.........0,0
 0,data store interrupt caused by dcbf.........0,0
-0,Node card is not fully functional,0
-0,PrepareForService is being done on this <*> <*> <*> <*>,0
-0,"CE sym 8, at 0x<*>0, mask 0x10",0
+0,"CE sym 10, at 0x<*>80, mask 0x08",0
+0,"CE sym 29, at <*> mask 0x02",0
 0,"CE sym 35, at 0x<*>0, mask 0x80",0
-0,"CE sym 33, at 0x<*>0, mask 0x08",0
-0,"CE sym 29, at 0x<*>0, mask 0x08",0
-0,"CE sym 22, at 0x<*>0, mask 0x01",0
-0,"CE sym 35, at 0x<*>0, mask 0x08",0
-0,"CE sym 11, at 0x<*>0, mask 0x10",0
+0,"CE sym 23, at <*> mask 0x08",0
+0,"CE sym 26, at <*> mask 0x01",0
+0,"CE sym 17, at <*> mask 0x10",0
+0,Node card is not fully functional,0
 0,"CE sym 12, at 0x<*>0, mask 0x01",0
+0,"CE sym 12, at 0x<*>0, mask 0x20",0
+0,"CE sym 35, at <*> mask 0x40",0
 0,"CE sym 26, at 0x<*>0, mask 0x08",0
-0,"CE sym 2, at 0x<*>0, mask 0x08",0
-0,"CE sym 7, at <*> mask 0x80",0
-0,"CE sym 28, at <*> mask 0x02",0
-0,ciod: pollControlDescriptors: Detected the debugger died.,0
-0,"CE sym 30, at 0x<*>0, mask 0x08",0
-0,"CE sym 7, at <*> mask 0x20",0
-0,"CE sym 19, at 0x<*>0, mask 0x10",0
-0,"CE sym 23, at 0x<*>0, mask 0x04",0
 0,ddr: activating redundant bit steering: rank=0 symbol=<*>,0
+0,ciod: pollControlDescriptors: Detected the debugger died.,0
+0,"CE sym 28, at 0x1<*>0, mask 0x02",0
+0,"CE sym 34, at 0x<*>0, mask 0x80",0
+0,"CE sym 22, at 0x<*>0, mask 0x01",0
 0,"CE sym 33, at 0x<*>0, mask 0x01",0
+0,"CE sym 7, at 0x<*>0, mask 0x20",0
+0,"CE sym 10, at <*> mask 0x04",0
+0,floating pt ex mode 1 enable......0,0
+0,floating pt ex mode 0 enable......0,0
+0,"CE sym 23, at 0x0<*>0, mask 0x02",0
 0,"CE sym 20, at <*> mask 0x40",0
+0,"CE sym 23, at 0x<*>0, mask 0x04",0
+0,"CE sym 2, at 0x<*>0, mask 0x01",0
 0,"CE sym 2, at 0x<*>0, mask 0x02",0
-0,"CE sym 10, at 0x<*>0, mask 0x08",0
+0,"CE sym 2, at 0x0b85<*>0, mask 0x0c",0
+0,"CE sym 2, at 0x<*>0, mask 0x04",0
+0,"CE sym 2, at 0x<*>0, mask 0x08",0
 0,"ciod: Received signal 15, code=0, errno=0, address=0x000001b0",0
 0,ciod: generated <*> core files for program /bgl/apps/followup/SPaSM_static/SPaSM_mpi.rel2,0
-0,"CE sym 35, at 0x1931cdc0, mask 0x80",0
-0,"CE sym 2, at 0x04d37340, mask 0x08",0
-0,"CE sym 4, at 0x1a5e2fe0, mask 0x04",0
-0,"CE sym 13, at 0x18be56e0, mask 0x20",0
-0,"CE sym 20, at 0x151a8180, mask 0x02",0
-0,"CE sym 2, at 0x171f9ac0, mask 0x02",0
-0,"CE sym 0, at 0x194d95c0, mask 0x08",0
-0,"CE sym 22, at 0x1c308d20, mask 0x80",0
-0,"CE sym 21, at 0x10b59900, mask 0x02",0
-0,ciod: generated <*> core files for program /home/spelce1/HPCC_IBM/Urgent/COP/64K/opt_co_dc.rts,0
-0,"CE sym 29, at 0x1b719940, mask 0x02",0
-0,"CE sym 7, at 0x0149b9c0, mask 0x10",0
-0,"CE sym 24, at 0x11af9bc0, mask 0x40",0
-0,ciod: generated <*> core files for program /home/spelce1/HPCC_IBM/Urgent/COP/FFTW_OPT/cop.rts,0
 0,"CE sym 15, at 0x0ea34280, mask 0x01",0
-0,"CE sym 31, at 0x13698120, mask 0x04",0
-0,"CE sym 8, at 0x1222c460, mask 0x04",0
-0,"CE sym 6, at 0x06ec7a20, mask 0x20",0
-0,ciod: generated <*> core files for program /home/spelce1/HPCC_IBM/Urgent/VNM/32K/vnm.rts,0
-0,"CE sym 5, at 0x13253280, mask 0x04",0
-0,"CE sym 33, at 0x106f1ee0, mask 0x08",0
-0,"CE sym 28, at 0x13359840, mask 0x10",0
-0,"CE sym 26, at 0x03231ca0, mask 0x10",0
-0,"CE sym 22, at 0x14aa5f80, mask 0x01",0
-0,ciod: generated <*> core files for program /home/glosli/src/ddcMD/ddcMD1.1.17/bin/ddcMDbglV,0
-0,"CE sym 4, at 0x0371a2a0, mask 0x10",0
-0,"CE sym 11, at 0x13a33060, mask 0x10",0
-0,ciod: generated <*> core files for program IMB-MPI1.4KB_perf,0
-0,Lustre mount FAILED : bglio<*> : point /p/gb1,0
-0,"CE sym 14, at 0x0863fd00, mask 0x40",0
-0,"CE sym 19, at 0x03b3e980, mask 0x02",0
-0,"CE sym 13, at 0x0df7a540, mask 0x01",0
 0,ciod: generated 64 core files for program <*>,0
-0,ciod: generated 128 core files for program <*>,0
-0,"CE sym 9, at 0x12870760, mask 0x40",0
-0,"CE sym 28, at 0x144c5720, mask 0x01",0
-0,"CE sym 31, at 0x1439cce0, mask 0x40",0
-0,ciod: generated <*> core files for program /home/germann2/SPaSM_static/SPaSM_mpi,0
-0,"CE sym 15, at 0x096de080, mask 0x08",0
-0,"CE sym 5, at 0x0483fae0, mask 0x40",0
-0,"CE sym 2, at 0x00130980, mask 0x40",0
-0,"CE sym 4, at 0x02ecac40, mask 0x04",0
+0,"CE sym 2, at 0x04d37340, mask 0x08",0
+0,"CE sym 14, at 0x1bbb2c60, mask 0x04",0
+0,"CE sym 11, at 0x13a33060, mask 0x10",0
+0,"CE sym 0, at 0x194d95c0, mask 0x08",0
+0,"CE sym 29, at 0x1b719940, mask 0x02",0
+0,ciod: generated <*> core files for program /home/spelce1/HPCC_IBM/Urgent/COP/64K/opt_co_dc.rts,0
+0,"CE sym 33, at 0x106f1ee0, mask 0x08",0
+0,"CE sym 29, at 0x1b6eedc0, mask 0x02",0
+0,ciod: generated <*> core files for program /home/spelce1/HPCC_IBM/Urgent/COP/FFTW_OPT/cop.rts,0
+0,ciod: generated <*> core files for program /home/spelce1/HPCC_IBM/Urgent/VNM/32K/vnm.rts,0
+0,"CE sym 6, at 0x06ec7a20, mask 0x20",0
+0,"CE sym 4, at 0x10a45ae0, mask 0x08",0
+0,"CE sym 5, at 0x13253280, mask 0x04",0
+0,"CE sym 6, at 0x0148b640, mask 0x10",0
+0,"CE sym 25, at 0x0e14b960, mask 0x02",0
+0,"CE sym 35, at 0x090075e0, mask 0x80",0
+0,"CE sym 4, at 0x1a5e2fe0, mask 0x04",0
+0,"CE sym 2, at 0x171f9ac0, mask 0x02",0
+0,"CE sym 27, at 0x166a9f20, mask 0x02",0
 0,"CE sym 28, at 0x0cf5dda0, mask 0x04",0
-0,"CE sym 27, at 0x014dd100, mask 0x20",0
-0,"CE sym 30, at 0x042358a0, mask 0x20",0
-0,ciod: generated 1 core files for program <*>,0
+0,"CE sym 20, at 0x151a8180, mask 0x02",0
+0,ciod: generated <*> core files for program /home/glosli/src/ddcMD/ddcMD1.1.17/bin/ddcMDbglV,0
+0,"CE sym 35, at 0x15b83f00, mask 0x10",0
+0,"CE sym 12, at 0x0cbca9e0, mask 0x01",0
+0,"CE sym 2, at 0x06018e00, mask 0x08",0
+0,"CE sym 28, at 0x03189100, mask 0x10",0
+0,ciod: generated <*> core files for program IMB-MPI1.4KB_perf,0
+0,"CE sym 29, at 0x092db580, mask 0x04",0
+0,"CE sym 3, at 0x1193e360, mask 0x01",0
+0,Lustre mount FAILED : bglio<*> : point /p/gb1,0
+0,"CE sym 4, at 0x095e86e0, mask 0x01",0
+0,"CE sym 21, at 0x10b59900, mask 0x02",0
+0,"NFS Mount failed on bglio<*>, slept <*> seconds, retrying <*>",0
+0,ciod: generated 128 core files for program <*>,0
+0,"CE sym 26, at 0x146ad540, mask 0x10",0
+0,"CE sym 9, at 0x12870760, mask 0x40",0
+0,"CE sym 0, at 0x05fbb6e0, mask 0x80",0
+0,"CE sym 23, at 0x11bfe860, mask 0x01",0
+0,"CE sym 23, at 0x0210f640, mask 0x80",0
+0,ciod: generated 32 core files for program <*>,0
+0,"CE sym 6, at 0x00e462c0, mask 0x02",0
+0,"CE sym 19, at 0x03b3e980, mask 0x02",0
+0,"CE sym 22, at 0x049af800, mask 0x02",0
+0,"CE sym 2, at 0x00130980, mask 0x40",0
+0,"CE sym 14, at 0x1c007240, mask 0x04",0
+0,"CE sym 28, at 0x161059a0, mask 0x40",0
+0,"CE sym 4, at 0x02ecac40, mask 0x04",0
+0,"CE sym 35, at 0x0d94da40, mask 0x02",0
 0,ciod: generated <*> core files for program /bgl/apps/scaletest/performance/IMB_2.3_243_64K/IMB-MPI1.gp2_perf,0
 0,"CE sym 8, at 0x0a2ae600, mask 0x10",0
-0,"CE sym 25, at 0x06c27c60, mask 0x40",0
-0,"CE sym 20, at 0x0a508740, mask 0x02",0
-0,"CE sym 16, at 0x18fa5d40, mask 0x80",0
-0,"CE sym 35, at 0x190faee0, mask 0x04",0
-0,"CE sym 25, at 0x174c8d20, mask 0x04",0
+0,"CE sym 31, at 0x170b1540, mask 0x20",0
 0,"CE sym 17, at 0x09cecfc0, mask 0x40",0
-0,rts tree/torus link training failed: wanted: A <*> <*> X<*> <*> Y<*> <*> Z<*> <*> <*> <*> <*> <*> <*> <*>,0
-0,"CE sym 5, at 0x146282e0, mask 0x04",0
-0,"CE sym 9, at 0x18d431c0, mask 0x10",0
-0,"CE sym 18, at 0x0e0272e0, mask 0x10",0
-0,"CE sym 9, at 0x067ddc60, mask 0x01",0
-0,"CE sym 28, at 0x03189100, mask 0x10",0
-0,"CE sym 12, at 0x04e03f00, mask 0x01",0
-0,"CE sym 14, at 0x08d4e740, mask 0x01",0
-0,New ido chip inserted into the database: FF:F<*> ip=<*> v=<*> t=<*>,0
-0,"CE sym 8, at 0x05eed3a0, mask 0x01",0
-0,"CE sym 26, at 0x13487240, mask 0x04",0
-0,"CE sym 4, at 0x095e86e0, mask 0x01",0
 0,"CE sym 21, at 0x111be060, mask 0x10",0
-0,"CE sym 15, at 0x111e0880, mask 0x04",0
-0,"CE sym 10, at 0x12f3ace0, mask 0x80",0
-0,"CE sym 2, at 0x046461e0, mask 0x10",0
-0,"CE sym 24, at 0x0bf434a0, mask 0x10",0
-0,"CE sym 27, at 0x11b3f3c0, mask 0x10",0
-0,"CE sym 15, at 0x1f9d7fe0, mask 0x10",0
-0,"CE sym 2, at 0x0fa3d060, mask 0x08",0
-0,"CE sym 5, at 0x0e37bbe0, mask 0x40",0
-0,"CE sym 19, at 0x0e867940, mask 0x40",0
-0,"CE sym 33, at 0x00dbd200, mask 0x80",0
-0,"CE sym 22, at 0x009c14e0, mask 0x20",0
-0,"CE sym 15, at 0x1bb2fe80, mask 0x02",0
-0,"CE sym 29, at 0x14123c20, mask 0x08",0
-0,"CE sym 6, at 0x01a60980, mask 0x80",0
-0,"CE sym 25, at 0x12127ee0, mask 0x10",0
+0,"CE sym 26, at 0x03231ca0, mask 0x10",0
+0,"CE sym 23, at 0x06909580, mask 0x20",0
+0,"CE sym 18, at 0x0e0272e0, mask 0x10",0
+0,"CE sym 21, at 0x17946860, mask 0x10",0
+0,"CE sym 30, at 0x042358a0, mask 0x20",0
+0,"CE sym 34, at 0x018106a0, mask 0x40",0
+0,"CE sym 31, at 0x1439cce0, mask 0x40",0
+0,"CE sym 13, at 0x04903380, mask 0x20",0
+0,"CE sym 31, at 0x0237ca00, mask 0x02",0
+0,"CE sym 7, at 0x0149b9c0, mask 0x10",0
 0,LinkCard power module U58 is not accessible,0
-0,"CE sym 22, at 0x049af800, mask 0x02",0
-0,"CE sym 16, at 0x1f8ffe60, mask 0x10",0
-0,"CE sym 35, at 0x094df2a0, mask 0x40",0
+0,"CE sym 20, at 0x039ad360, mask 0x01",0
+0,"CE sym 23, at 0x0b846f40, mask 0x40",0
+0,"CE sym 27, at 0x11b3f3c0, mask 0x10",0
+0,"CE sym 12, at 0x1c9036c0, mask 0x40",0
+0,New ido chip inserted into the database: FF:F2:9F:1<*> ip=<*> <*> t=<*>,0
+0,"CE sym 23, at 0x141cd3a0, mask 0x20",0
+0,"CE sym 12, at 0x04e03f00, mask 0x01",0
+0,"CE sym 16, at 0x18fa5d40, mask 0x80",0
+0,"CE sym 9, at 0x11b9cc60, mask 0x04",0
+0,"CE sym 9, at 0x139fc420, mask 0x04",0
+0,"CE sym 9, at 0x047a0740, mask 0x04",0
+0,"CE sym 29, at 0x04fdc8e0, mask 0x01",0
+0,"CE sym 16, at 0x0456cd40, mask 0x04",0
+0,"CE sym 28, at 0x1efc7020, mask 0x20",0
+0,"CE sym 8, at 0x1222c460, mask 0x04",0
+0,"CE sym 25, at 0x03a821e0, mask 0x02",0
+0,"CE sym 2, at 0x0fa3d060, mask 0x08",0
+0,"CE sym 20, at 0x0f6f83e0, mask 0x04",0
+0,"CE sym 14, at 0x1c9b3960, mask 0x02",0
+0,MidplaneSwitchController performing bit sparing on <*> bit 3,0
+0,"CE sym 15, at 0x1bb2fe80, mask 0x02",0
+0,"CE sym 5, at 0x0e37bbe0, mask 0x40",0
+0,"CE sym 12, at 0x03af9860, mask 0x10",0
+0,"CE sym 10, at 0x01d7a160, mask 0x10",0
+0,"CE sym 6, at 0x01a60980, mask 0x80",0
+0,"CE sym 5, at 0x146282e0, mask 0x04",0
+0,"CE sym 8, at 0x05eed3a0, mask 0x01",0
+0,"CE sym 11, at 0x117ed620, mask 0x10",0
 0,"CE sym 22, at 0x127ba460, mask 0x02",0
-0,"CE sym 31, at 0x03cf9420, mask 0x04",0
-0,"CE sym 15, at 0x03efaea0, mask 0x40",0
+0,"CE sym 30, at 0x1175ff60, mask 0x08",0
+0,"CE sym 2, at 0x18eb0d60, mask 0x02",0
+0,"CE sym 29, at 0x1aad0bc0, mask 0x01",0
+0,"CE sym 22, at 0x1c308d20, mask 0x80",0
+0,"CE sym 26, at 0x13487240, mask 0x04",0
+0,"CE sym 33, at 0x171b7560, mask 0x20",0
+0,"CE sym 0, at 0x1b859480, mask 0x80",0
+0,"CE sym 29, at 0x1a86f180, mask 0x08",0
+0,"CE sym 12, at 0x1b78bb40, mask 0x01",0
+0,"CE sym 0, at 0x1b858ca0, mask 0x40",0
+0,"CE sym 16, at 0x1f8ffe60, mask 0x10",0
+0,"CE sym 0, at 0x1b859080, mask 0x40",0
+0,"CE sym 0, at 0x1b858c80, mask 0x80",0
+0,"CE sym 21, at 0x047cc0c0, mask 0x08",0
 0,"CE sym 10, at 0x18f71180, mask 0x02",0
-0,"CE sym 0, at 0x1b8594e0, mask 0xc0",0
-0,"CE sym 2, at 0x1954a140, mask 0x20",0
 0,"CE sym 13, at 0x00f254e0, mask 0x20",0
 0,"CE sym 3, at 0x11b33d00, mask 0x02",0
-0,"CE sym 0, at 0x1b858ec0, mask 0x40",0
-0,"CE sym 0, at 0x1b858a80, mask 0x40",0
-0,"CE sym 0, at 0x1b858c80, mask 0x80",0
-0,"CE sym 9, at 0x045ba220, mask 0x02",0
+0,"CE sym 7, at 0x11596a00, mask 0x01",0
+0,"CE sym 0, at 0x1b8590c0, mask 0x80",0
+0,"CE sym 22, at 0x009c14e0, mask 0x20",0
 0,"CE sym 12, at 0x1682ed20, mask 0x01",0
-0,"CE sym 35, at 0x05aae260, mask 0x10",0
-0,ciod: Error creating node map from file /<*>: <*> <*>,0
-0,"CE sym 26, at 0x07a95e80, mask 0x10",0
-0,total of <*> ddr error(s) detected and corrected,0
-0,"CE sym 0, at 0x1b8594e0, mask 0x40",0
-0,"CE sym 0, at 0x1b858280, mask 0x40",0
-0,"CE sym 0, at 0x1b858ca0, mask 0x40",0
-0,"CE sym 12, at 0x1b793720, mask 0x20",0
-0,"CE sym 0, at 0x1b8584e0, mask 0x80",0
-0,"CE sym 28, at 0x1efc7020, mask 0x20",0
-0,"CE sym 14, at 0x1c9b3960, mask 0x02",0
-0,"CE sym 2, at 0x1b85ea80, mask 0x0a",0
-0,"CE sym 35, at 0x1317cee0, mask 0x10",0
-0,"CE sym 13, at 0x06a639e0, mask 0x40",0
-0,"CE sym 5, at 0x11042a80, mask 0x04",0
-0,"CE sym 2, at 0x1b85ea80, mask 0x02",0
-0,"CE sym 14, at 0x06047860, mask 0x20",0
-0,"CE sym 21, at 0x047cc0c0, mask 0x08",0
+0,"CE sym 10, at 0x18065780, mask 0x02",0
 0,"CE sym 6, at 0x0795ad60, mask 0x80",0
-0,"CE sym 4, at 0x10a45ae0, mask 0x08",0
-0,"CE sym 12, at 0x0b712f00, mask 0x20",0
-0,"CE sym 3, at 0x07d02da0, mask 0x80",0
+0,"CE sym 21, at 0x17c7a540, mask 0x01",0
+0,"CE sym 0, at 0x1b8594e0, mask 0x40",0
+0,"CE sym 0, at 0x1b858ec0, mask 0x40",0
+0,"CE sym 0, at 0x1b8586c0, mask 0xc0",0
+0,ciod: Error creating node map from file <*> <*> <*>,0
+0,"CE sym 26, at 0x07a95e80, mask 0x10",0
+0,"CE sym 23, at 0x081daea0, mask 0x80",0
+0,"CE sym 0, at 0x1b8584e0, mask 0x80",0
+0,"CE sym 0, at 0x1b858280, mask 0x40",0
+0,"CE sym 12, at 0x1b793720, mask 0x20",0
+0,"CE sym 33, at 0x127496e0, mask 0x40",0
+0,total of <*> ddr error(s) detected and corrected,0
+0,"CE sym 35, at 0x1317cee0, mask 0x10",0
+0,"CE sym 11, at 0x034ef9e0, mask 0x02",0
 0,"CE sym 7, at 0x03ffa060, mask 0x04",0
-0,"CE sym 35, at 0x06a7bd60, mask 0x40",0
-0,"CE sym 9, at 0x11b9cc60, mask 0x04",0
+0,"CE sym 31, at 0x04c2bb60, mask 0x20",0
+0,"CE sym 13, at 0x037175c0, mask 0x08",0
+0,"CE sym 15, at 0x03efaea0, mask 0x40",0
 0,"CE sym 14, at 0x145e5be0, mask 0x01",0
-0,"CE sym 25, at 0x155e28e0, mask 0x08",0
-0,rts: bad message header: cpu <*> invalid (softheader=<*> <*> <*> <*> <*> PSR1=00000000 <*> PIXF=00000007,0
+0,"CE sym 35, at 0x094df2a0, mask 0x40",0
+0,"CE sym 35, at 0x06a7bd60, mask 0x40",0
+0,"CE sym 7, at 0x05ace2c0, mask 0x20",0
+0,"CE sym 33, at 0x00dbd200, mask 0x80",0
+0,"CE sym 14, at 0x06047860, mask 0x20",0
+0,"CE sym 25, at 0x06c27c60, mask 0x40",0
+0,"CE sym 4, at 0x0371a2a0, mask 0x10",0
+0,"CE sym 25, at 0x12127ee0, mask 0x10",0
+0,"CE sym 5, at 0x11042a80, mask 0x04",0
+0,"CE sym 15, at 0x111e0880, mask 0x04",0
+0,"CE sym 3, at 0x07d02da0, mask 0x80",0
+0,"CE sym 33, at 0x019ae900, mask 0x10",0
+0,"CE sym 9, at 0x045ba220, mask 0x02",0
 0,ciod: generated 64 core files for program /bgl/apps/followup/hellow/a.out.1111,0
 0,ciod: generated 64 core files for program /bgl/apps/followup/RAPTOR/raptor.rel2,0
+0,ciod: generated 128 core files for program /bgl/apps/followup/SPaSM_static/SPaSM_mpi.rel2,0
+0,ciod: generated 128 core files for program /g/g90/glosli/src/ddcMD/ddcMD1.1.18a/bin/ddcMDbglV,0
 0,ciod: generated 128 core files for program /bgl/apps/followup/SPaSM_static/SPaSM_mpi.new_comp,0
 0,ciod: generated 128 core files for program /g/g24/germann2/BGL-demo/SPaSM_mpi,0
-0,ciod: generated 128 core files for program /g/g90/glosli/src/ddcMD/ddcMD1.1.18a/bin/ddcMDbglV,0
+0,idoproxydb hit ASSERT condition: ASSERT <*> Source <*> Source <*> Function=int <*> <*>,0
 0,ciod: generated 128 core files for program /home/spelce1/HPCC_IBM/Urgent/COP/64K/new_vnm.rts,0
 0,ciod: generated 64 core files for program /home/rfisher/sodscaling/flash2.noio,0
 0,ciod: generated 64 core files for program /home/rfisher/sodscaling/flash2,0
 0,ciod: generated 64 core files for program /home/rfisher/sodscaling/_32partition/flash2,0
-0,critical input interrupt (unit=0x0b <*> warning for tree <*> wire,0
 0,ciod: generated 64 core files for program /home/spelce1/HPCC_IBM/Urgent/COP/64K/hpcc-1.0.0.101105_opt_cpm_essl,0
-0,ciod: generated 62 core files for program /home/spelce1/HPCC_IBM/Urgent/COP/64K/opt_co_dc.rts,0
 0,ciod: generated 64 core files for program /home/spelce1/HPCC_IBM/Urgent/COP/64K/opt_co_dc.rts,0
 0,ciod: generated 128 core files for program /home/spelce1/HPCC_IBM/Urgent/COP/64K/vnm.rts,0
+0,ciod: generated 64 core files for program /home/spelce1/HPCC_IBM/Urgent/COP/FFTW_OPT/cop.rts,0
 0,ciod: generated 64 core files for program /home/spelce1/HPCC_IBM/TomAndJeff/bin/untested_copro/untested_copro.rts,0
 0,ciod: generated 64 core files for program /home/spelce1/HPCC_IBM/TomAndJeff/bin/tested_copro/tested_copro.rts,0
 0,ciod: generated 128 core files for program /bgl/apps/SWL/stability/DDCMD//ddcMDbglV,0
 0,ciod: generated 128 core files for program /home/glosli/src/ddcMD/ddcMD1.1.17/bin/ddcMDbglV,0
 0,ciod: generated 64 core files for program IMB-MPI1.4KB_perf,0
 0,ciod: generated 128 core files for program IMB-MPI1.4KB_perf,0
+0,ciod: generated 64 core files for program IMB-MPI1.2KB_perf,0
 0,ciod: generated 64 core files for program IMB-MPI1.2MB_perf,0
-0,"NFS Mount failed on bglio<*>, slept <*> seconds, retrying (2)",0
+0,ciod: generated 128 core files for program IMB-MPI1.256B_perf,0
+0,critical input interrupt (unit=0x0b bit=0x<*>): warning for tree <*> wire,0
 0,"NFS Mount failed on bglio<*>, slept <*> seconds, retrying (1)",0
 0,<*> L3 directory error(s) (dcr 0x0152) detected and corrected,0
+0,ciod: generated 64 core files for program /home/glosli/src/ddcMD/ddcMD1.1.17/bin/ddcMDbglV,0
 0,Lustre mount FAILED : bglio<*> : block_id : location,0
 0,ciod: generated 128 core files for program /home/germann2/BGL-demo/SPaSM_mpi,0
 0,ciod: generated 64 core files for program /home/germann2/SPaSM_static/SPaSM_mpi,0
 0,ciod: generated 64 core files for program /bgl/apps/swl-prep/ibm-swl/functional/umt2k_chkpt/ckpt_umt2k_src/umt2k,0
 0,ciod: generated 64 core files for program /bgl/apps/swl-prep/ibm-swl/functional/sppm_chkpt/run/sppm,0
 0,ciod: generated 64 core files for program /home/da/mpi-testscripts/alltoall,0
+0,rts: bad message header: cpu <*> invalid (softheader=<*> <*> <*> <*>) PSR0=00000<*>00 PSR1=00000000 PRXF=000<*>a PIXF=00000007,0
 0,ciod: generated 64 core files for program /bgl/apps/scaletest/performance/IMB_2.3_243_64K/IMB-MPI1.gp2_perf,0
 0,ciod: generated 64 core files for program /bgl/apps/scaletest/performance/IMB_2.3_243_64K/IMB-MPI1.gp2,0
-0,total of 11 ddr error(s) detected and corrected,0
-0,total of 6 ddr error(s) detected and corrected,0
 0,total of 4 ddr error(s) detected and corrected,0
 0,total of 5 ddr error(s) detected and corrected,0
-0,MidplaneSwitchController performing bit sparing on R27-M1-L3-U18-C bit 3,0
-0,total of 3 ddr error(s) detected and corrected,0
-0,total of 2 ddr error(s) detected and corrected,0
+0,total of 11 ddr error(s) detected and corrected,0
 0,Can not get assembly information for node card,0
-0,MidplaneSwitchController performing bit sparing on R33-M1-L0-U22-C bit 3,0
+0,total of 6 ddr error(s) detected and corrected,0
+0,total of 2 ddr error(s) detected and corrected,0
 0,total of 1 ddr error(s) detected and corrected,0
-0,ciod: LOGIN chdir(<*>) failed: No such file or directory,0
 0,<*> L3 EDRAM error(s) (dcr 0x0157) detected and corrected,0
-0,critical input interrupt (unit=0x0b bit=0x03): warning for torus x- <*>,0
-0,Ido chip status changed: FF:F2:9F:16:<*> ip=10.<*> v=13 t=4 status=M Tue <*> <*> <*> <*> 2005,0
+0,ciod: LOGIN chdir(<*>) failed: No such file or directory,0
+0,total of 3 ddr error(s) detected and corrected,0
+0,MidplaneSwitchController performing bit sparing on R27-M1-L3-U18-C bit 3,0
+0,critical input interrupt (unit=0x0b bit=0x06): warning for torus y+ <*>,0
+0,"ciod: Error loading <*> program image too big, <*> > 266076160",0
+0,"ciod: Error reading message prefix on CioStream socket to 172.16.96.116:<*>, <*> <*> <*> <*>",0
 0,Ido chip status changed: FF:F2:9F:15:7<*> ip=10.<*> v=13 t=1 status=M Tue <*> <*> <*> <*> 2005,0
-0,critical input interrupt (unit=0x0b bit=0x07): warning for torus y- <*>,0
+0,critical input interrupt (unit=0x0b bit=0x03): warning for torus x- <*>,0
 0,critical input interrupt (unit=0x0b bit=0x17): warning for tree C1 <*>,0
 0,ciod: LOGIN chdir(RUNS/3Bvn_fmm/rs0000) failed: No such file or directory,0
-0,"ciod: Error loading /home/rfisher/sodscaling/flash2<*>: program image too big, 3<*> > 266076160",0
 0,data cache search parity error detected. attempting to correct,0
+0,ciod: LOGIN chdir(/home/spelce1/HPCC_IBM/Urgent/FFTW/32) failed: No such file or directory,0
 0,ciod: LOGIN chdir(/home/spelce1/sppm_lnkck/DIR1/run) failed: No such file or directory,0
-0,ciod: LOGIN chdir(/bgl/apps/SWL/performance/MINIBEN///2005.09.20-18.06.15) failed: No such file or directory,0
+0,ciod: LOGIN chdir(/bgl/apps/SWL/performance/MINIBEN///2005.09.20-18.06.12) failed: No such file or directory,0
 0,ciod: LOGIN chdir(/bgl/apps/SWL/performance/MINIBEN///2005.09.20-18.06.05) failed: No such file or directory,0
 0,ciod: LOGIN chdir(/bgl/apps/SWL/performance/MINIBEN///2005.09.20-18.06.08) failed: No such file or directory,0
-0,ciod: LOGIN chdir(/bgl/apps/SWL/performance/MINIBEN///2005.09.20-18.06.12) failed: No such file or directory,0
 0,ciod: LOGIN chdir(/bgl/apps/SWL/performance/MINIBEN///2005.09.20-18.06.01) failed: No such file or directory,0
 0,ciod: LOGIN chdir(/home/yates/SWL_tests/BGL64k_SWL_tests_develop/MPI-VAL/MPITs_v050902/rundir) failed: No such file or directory,0
 0,ciod: LOGIN chdir(/home/spelce1/UMT2K/umt2k/ckpt_umt2k_src/TEST/NEW_TEST) failed: No such file or directory,0
@@ -814,52 +903,53 @@ EventId,EventTemplate,Occurrences
 0,ciod: LOGIN chdir(/p/gb2/greeno/_raptor.test/) failed: No such file or directory,0
 0,ciod: LOGIN chdir(/LAPACK_440d/TESTING) failed: No such file or directory,0
 0,ciod: LOGIN chdir(/bglscratch/bwallen/SWL/SYS-CALLS/testcases/kernel/syscalls/write) failed: No such file or directory,0
+0,ciod: LOGIN chdir(/bglscratch/bwallen/SWL/SYS-CALLS/testcases/kernel/syscalls/times) failed: No such file or directory,0
+0,ciod: LOGIN chdir(/bglscratch/bwallen/SWL/SYS-CALLS/testcases/kernel/syscalls/rmdir) failed: No such file or directory,0
 0,ciod: LOGIN chdir(/bglscratch/bwallen/SWL/SYS-CALLS/testcases/kernel/syscalls/open) failed: No such file or directory,0
-0,ciod: LOGIN chdir(/bglscratch/bwallen/SWL/SYS-CALLS/testcases/kernel/syscalls/ftruncate) failed: No such file or directory,0
-0,1 L3 EDRAM error(s) (dcr 0x0157) detected and corrected,0
+0,ciod: LOGIN chdir(/bglscratch/bwallen/SWL/SYS-CALLS/testcases/kernel/syscalls/link) failed: No such file or directory,0
+0,"NFS Mount failed on bglio<*>, slept 23 seconds, retrying (1)",0
 0,ciod: LOGIN chdir(/home/germann2/BGL-demo) failed: No such file or directory,0
 0,ciod: LOGIN chdir(/home/germann2/SPaSM_static) failed: No such file or directory,0
 0,ciod: LOGIN chdir(/home/auselton/testing) failed: No such file or directory,0
 0,ciod: LOGIN chdir(/p/bg1/da) failed: No such file or directory,0
+0,rts: bad message header: cpu 127 invalid (softheader=7ffffc<*>0 100<*> <*> <*>) PSR0=00000<*>00 PSR1=00000000 PRXF=000<*>a PIXF=00000007,0
 0,ciod: LOGIN chdir(pwd) failed: No such file or directory,0
-0,"PrepareForService shutting down LinkCard(mLctn(R<*>), mCardSernum(2039375034383<*>), mLp(FF:F2:9F:15:7<*>), mIp(10.<*>), mType(1)) as part of Service Action <*>",0
+0,New ido chip inserted into the database: FF:F2:9F:16:<*> ip=<*> v=13 t=4,0
 0,New ido chip inserted into the database: FF:F2:9F:15:7<*> ip=10.<*> v=13 t=1,0
-0,New ido chip inserted into the database: FF:F<*> ip=<*> v=13 t=4,0
-0,"rts: kernel terminated for reason <*> bad message header: <*> <*> <*> <*> cpu=0, <*> <*>",0
 0,ciod: Error creating node map from file <*> Bad address,0
+0,"rts: kernel terminated for reason <*> bad message header: <*> <*> <*> <*> cpu=0, <*> <*>",0
 0,ciod: Error creating node map from file /home/<*>.map: Permission denied,0
-0,3 L3 EDRAM error(s) (dcr 0x0157) detected and corrected,0
-0,"PrepareForService shutting down NodeCard(mLctn(R<*>), mCardSernum(203231503833343000000000594c31304b3<*>), mLp(FF:F2:9F:16:<*>), mIp(10.<*>), mType(4)) as part of Service Action <*>",0
-0,1 L3 directory error(s) (dcr 0x0152) detected and corrected,0
+0,"PrepareForService shutting down LinkCard(mLctn(R<*>), mCardSernum(2039375034383<*>), mLp(FF:F2:9F:15:7<*>), mIp(10.<*>), mType(1)) as part of Service Action <*>",0
+0,"PrepareForService shutting down NodeCard(mLctn(R<*>), mCardSernum(203231503833343000000000594c313<*>), mLp(FF:F2:9F:16:<*>), mIp(10.<*>), mType(4)) as part of Service Action <*>",0
+0,1 L3 EDRAM error(s) (dcr 0x0157) detected and corrected,0
+0,ciod: Unexpected eof at line <*> of node map file <*>,0
+0,2 L3 EDRAM error(s) (dcr 0x0157) detected and corrected,0
 0,ciod: LOGIN chdir(/p/gb2/draeger/benchmark/dat32k_060205) failed: No such file or directory,0
 0,ciod: Message code 0 is not 51 or 4294967295,0
 0,ciod: cpu 0 at treeaddr <*> sent unrecognized message 0xffffffff,0
-0,critical input interrupt (unit=0x0b bit=0x07): warning for torus y- wire,0
-0,critical input interrupt (unit=0x0b bit=0x17): warning for tree C1 wire,0
-0,Ido chip status changed: FF:F2:9F:15:7<*> ip=10.<*> v=13 t=1 status=M <*> Sep <*> <*> PDT 2005,0
-0,Ido chip status changed: FF:F2:9F:16:<*> ip=10.<*> v=13 t=4 status=M <*> Sep <*> <*> PDT 2005,0
+0,<*> torus sender y- retransmission error(s) (dcr 0x02f7) detected and corrected,0
+0,"PrepareForService shutting down LinkCard(mLctn(R<*>), mCardSernum(2039375034383<*>), mLp(FF:F2:9F:15:7<*>), mIp(10.<*>), mType(1)) as part of Service Action 561",0
 0,critical input interrupt (unit=0x0b bit=0x02): warning for torus x+ wire,0
 0,critical input interrupt (unit=0x0b bit=0x0a): warning for torus z+ wire,0
-0,"ciod: Error loading <*> invalid or missing program image, Permission denied",0
-0,<*> tree receiver 0 in re-synch state event(s) (dcr 0x01bc) detected,0
-0,rts: bad message header: cpu <*> invalid (softheader=<*> <*> <*> <*> PSR0=00000000 PSR1=00000000 PRXF=0000002a PIXF=00000007,0
+0,critical input interrupt (unit=0x0b bit=0x17): warning for tree C1 wire,0
+0,"ciod: Error loading <*>: invalid or missing program image, Permission denied",0
 0,<*> tree receiver 1 in re-synch state event(s) (dcr 0x0185) detected,0
-0,critical input interrupt (unit=0x0b bit=0x06): warning for torus y+ wire,0
+0,critical input interrupt (unit=0x0b bit=0x07): warning for torus y- wire,0
+0,rts: bad message header: cpu <*> invalid (softheader=<*> <*> <*> <*>) PSR0=00000000 PSR1=00000000 PRXF=0000002a PIXF=00000007,0
 0,critical input interrupt (unit=0x0b bit=0x0f): warning for tree A1 wire,0
+0,<*> torus sender y+ retransmission error(s) (dcr 0x02f6) detected and corrected,0
 0,<*> torus sender x- retransmission error(s) (dcr 0x02f5) detected and corrected,0
+0,critical input interrupt (unit=0x0b bit=0x06): warning for torus y+ wire,0
 0,<*> tree receiver 2 in re-synch state event(s) (dcr 0x019a) detected,0
-0,Ido chip status changed: FF:F2:9F:15:7<*> ip=10.<*> v=13 t=1 status=M <*> Aug <*> <*> PDT 2005,0
-0,Ido chip status changed: FF:F2:9F:16:<*> ip=10.<*> v=13 t=4 status=M <*> Aug <*> <*> PDT 2005,0
+0,<*> tree receiver 0 in re-synch state event(s) (dcr 0x01bc) detected,0
+0,critical input interrupt (unit=0x0b bit=0x0b): warning for torus z- wire,0
 0,critical input interrupt (unit=0x0b bit=0x03): warning for torus x- wire,0
-0,<*> torus sender y- retransmission error(s) (dcr 0x02f7) detected and corrected,0
+0,Ido chip status changed: FF:F2:9F:16:<*> ip=10.<*> v=13 t=4 status=M <*> Aug 0<*> <*> PDT 2005,0
 0,"Found invalid node ecid in processor card slot J<*>, ecid 0000000000000000000000000000",0
 0,ciod: Error creating node map from file <*> Bad file descriptor,0
-0,ciod: Error creating node map from file /p/gb2/pakin1/contention-32768cpes-torus/xyzt-1x1x32768x1.map: Bad address,0
-0,ciod: Error creating node map from file /home/pakin1/sweep3d-2.2b/results/random3-8x32x32x2.map: Permission denied,0
+0,ciod: Error creating node map from file /home/pakin1/comms-conc/xyzt-1x1x32768x1.map: Bad address,0
 0,ciod: Error creating node map from file <*> Block device required,0
-0,critical input interrupt (unit=0x0b bit=0x0b): warning for torus z- wire,0
 0,external input interrupt (unit=0x02 bit=0x0<*>): torus sender <*> retransmission error was corrected,0
-0,ciod: <*> coordinate <*> exceeds physical dimension <*> at line <*> of node map file <*>,0
 0,"ciod: Error loading /bgl/apps/followup/SPaSM_static/SPaSM.V1R2M0: invalid or missing program image, Permission denied",0
 0,"ciod: Error loading /bgl/apps/followup/SPaSM_static/SPaSM_mpi.rel2: invalid or missing program image, Permission denied",0
 0,"ciod: Error loading /bgl/apps/followup/RAPTOR/pre-study/raptor.newcomp.r1: invalid or missing program image, Permission denied",0
@@ -872,7 +962,6 @@ EventId,EventTemplate,Occurrences
 0,"ciod: Error loading /home/rfisher/sodscaling/flash2: program image too big, 381013696 > 266076160",0
 0,"ciod: Error loading /bgl/apps/followup/bcastV1R1.rts: invalid or missing program image, Permission denied",0
 0,"ciod: Error loading /p/gb1/bwallen/oldcode_newkernel.rts: invalid or missing program image, Permission denied",0
-0,"ciod: Error loading /home/spelce1/HPCC_IBM/Urgent/COP/64K/EPStreamTriad.32R.rts: invalid or missing program image, Permission denied",0
 0,"ciod: Error loading /bgl/apps/followup/RAPTOR/raptor.254.noprint: invalid or missing program image, Permission denied",0
 0,"ciod: Error loading /bgl/apps/followup/SPASM/spasm.254: invalid or missing program image, Permission denied",0
 0,"ciod: Error loading /home/spelce1/HPCC_IBM/Urgent/COP/64K/vnm.rts: invalid or missing program image, Permission denied",0
@@ -880,84 +969,105 @@ EventId,EventTemplate,Occurrences
 0,"ciod: Error loading /home/spelce1/HPCC_IBM/Urgent/VNM/64K/vnm.rts: invalid or missing program image, Permission denied",0
 0,"ciod: Error loading /bgl/apps/SWL/stability/DDCMD//ddcMDbglV: invalid or missing program image, Permission denied",0
 0,"ciod: Error loading /home/spelce1/HPCC_IBM/Urgent/Gunnels/VNM64/vnm.rts: invalid or missing program image, Permission denied",0
-0,"ciod: Error loading /home/spelce1/HPCC_IBM/Urgent/Gunnels/COP16/vnm.rts: invalid or missing program image, Permission denied",0
-0,2 tree receiver 2 in re-synch state event(s) (dcr 0x019a) detected,0
-0,"ciod: Error loading /home/spelce1/HPCC_IBM/TomAndJeff/bin/tested_copro/tested_copro.rts: invalid or missing program image, Permission denied",0
-0,<*> torus receiver x- input pipe error(s) (dcr 0x02ed) detected and corrected,0
 0,"ciod: Error loading /bgl/apps/swl-prep/rky-swl/MPI-PERF/IMB/perf_tests/IMB-MPI1.14MB: invalid or missing program image, Permission denied",0
 0,"ciod: Error loading /bgl/apps/swl-prep/rky-swl/MPI-PERF/IMB/perf_tests/IMB-MPI1.22MB: invalid or missing program image, Permission denied",0
-0,"<*> ddr errors(s) detected and corrected on rank 0, symbol <*>, bit 6",0
 0,"ciod: Error loading /bgl/apps/scaletest/performance/linpack-64x512/xhpl: invalid or missing program image, Permission denied",0
+0,rts: bad message header: cpu 127 invalid <*> 100<*> <*> <*>) PSR0=00000000 PSR1=00000000 PRXF=0000002a PIXF=00000007,0
+0,<*> torus receiver x- input pipe error(s) (dcr 0x02ed) detected and corrected,0
 0,ciod: Error creating node map from file /home/auselton/bgl/mapfiles/bgl.128mps.f64.map: Resource temporarily unavailable,0
-0,<*> torus receiver x+ input pipe error(s) (dcr 0x02ec) detected and corrected,0
+0,EndServiceAction is restarting the <*> in midplane R<*>-M1 as part of Service Action <*>,0
+0,<*> torus receiver z+ input pipe error(s) (dcr 0x02f0) detected and corrected,0
+0,2 tree receiver 2 in re-synch state event(s) (dcr 0x019a) detected,0
+0,<*> torus receiver y+ input pipe error(s) (dcr 0x02ee) detected and corrected,0
+0,ciod: Error reading message prefix after LOAD_MESSAGE on CioStream socket to 172.16.96.116:<*>: <*> <*> <*> <*>,0
 0,<*> torus receiver z- input pipe error(s) (dcr 0x02f1) detected and corrected,0
-0,"Found invalid node ecid in processor card slot J02, ecid 0000000000000000000000000000",0
+0,<*> torus receiver x+ input pipe error(s) (dcr 0x02ec) detected and corrected,0
+0,Ido chip status changed: FF:F2:9F:16:<*> ip=10.<*> v=13 t=4 status=M Tue Aug 0<*> 1<*> PDT 2005,0
+0,"Found invalid node ecid in processor card slot J11, ecid 0000000000000000000000000000",0
+0,"Found invalid node ecid in processor card slot J09, ecid 0000000000000000000000000000",0
 0,"Found invalid node ecid in processor card slot J08, ecid 0000000000000000000000000000",0
-0,"Found invalid node ecid in processor card slot J17, ecid 0000000000000000000000000000",0
+0,"Found invalid node ecid in processor card slot J05, ecid 0000000000000000000000000000",0
+0,"Found invalid node ecid in processor card slot J15, ecid 0000000000000000000000000000",0
+0,"Found invalid node ecid in processor card slot J04, ecid 0000000000000000000000000000",0
 0,ciod: Error creating node map from file /home/williams/miranda/src/vx_32k_256x256x1_8x4x4.map: Bad file descriptor,0
 0,ciod: Error opening node map file <*> No such file or directory,0
-0,"rts: kernel terminated for reason 1001rts: bad message header: invalid cpu, type=<*>, cpu=<*>, <*> <*>",0
 0,ciod: Error creating node map from file /p/gb2/pakin1/sweep3d-5x5x400-10mk-3mmi-1024pes-xyzt/xyzt.map: Block device required,0
-0,1 tree receiver 1 in re-synch state event(s) (dcr 0x0185) detected,0
 0,ciod: Error creating node map from file /home/auselton/bgl/64mps.sequential.mapfile: Resource temporarily unavailable,0
-0,EndServiceAction is restarting the <*>Cards in midplane <*> as part of Service Action <*>,0
 0,ciod: Error creating node map from file /p/gb2/welcome3/32k_128x256x1_8x4x4.map: Bad file descriptor,0
-0,1 tree receiver 2 in re-synch state event(s) (dcr 0x019a) detected,0
+0,ciod: Error creating node map from file /p/gb2/draeger/benchmark/dat16k_062205/map16k_bipartyz: Cannot allocate memory,0
+0,ciod: <*> coordinate <*> exceeds physical dimension <*> at line <*> of node map file <*>,0
 0,1 tree receiver 0 in re-synch state event(s) (dcr 0x01bc) detected,0
-0,ciod: Z coordinate <*> exceeds physical dimension <*> at line <*> of node map file <*>,0
-0,L1 DCACHE summary averages: #ofDirtyLines: <*> out of 1024 #ofDirtyDblWord: <*> out of 4096,0
-0,"ciod: Error loading /bgl/apps/followup/RAPTOR/new.raptor.trace: invalid or missing program image, Exec format error",0
-0,"1 ddr errors(s) detected and corrected on rank 0, symbol <*> bit 4",0
-0,Ido chip status changed: FF:F2:9F:15:7<*> ip=10.<*> v=13 t=1 status=M Tue Sep 20 <*> PDT 2005,0
-0,Ido chip status changed: FF:F2:9F:16:<*> ip=10.<*> v=13 t=4 status=M Tue Sep 20 <*> PDT 2005,0
-0,"1 ddr errors(s) detected and corrected on rank 0, symbol <*>, bit 3",0
-0,rts: bad message header: expecting type 5<*> instead of type 3<*> (softheader=00<*> <*> 0000000<*> 00000000) PSR0=0000<*> PSR1=00000000 PRXF=000<*>0002 PIXF=00000007,0
-0,"ciod: Error loading /bgl/apps/scaletest/performance/MINIBEN/mb_243_0810/allreduce.rts: invalid or missing program image, Exec format error",0
-0,"<*> ddr errors(s) detected and corrected on rank 0, symbol 26, bit 3",0
+0,1 tree receiver 2 in re-synch state event(s) (dcr 0x019a) detected,0
+0,1 tree receiver 1 in re-synch state event(s) (dcr 0x0185) detected,0
 0,"1 ddr errors(s) detected and corrected on rank 0, symbol <*>, bit 2",0
-0,"1 ddr errors(s) detected and corrected on rank 0, symbol <*>, bit 1",0
+0,L1 DCACHE summary averages: #ofDirtyLines: <*> out of 1024 #ofDirtyDblWord: <*> out of 4096,0
+0,"2 ddr errors(s) detected and corrected on rank 0, symbol <*>, bit 3",0
+0,"<*> ddr errors(s) detected and corrected on rank 0, symbol 18, bit 0",0
+0,"1 ddr errors(s) detected and corrected on rank 0, symbol <*>, bit 7",0
+0,"ciod: Error loading /bgl/apps/followup/RAPTOR/new.raptor.trace: invalid or missing program image, Exec format error",0
+0,"1 ddr errors(s) detected and corrected on rank 0, symbol <*>, bit 6",0
+0,"1 ddr errors(s) detected and corrected on rank 0, symbol <*> bit 4",0
+0,"2 ddr errors(s) detected and corrected on rank 0, symbol <*>, bit 6",0
+0,"<*> ddr errors(s) detected and corrected on rank 0, symbol 5, bit 5",0
+0,"1 ddr errors(s) detected and corrected on rank 0, symbol <*>, bit 3",0
+0,Ido chip status changed: FF:F2:9F:16:<*> ip=10.<*> v=13 t=4 status=M Tue Sep 20 <*> PDT 2005,0
+0,Ido chip status changed: FF:F2:9F:16:<*> ip=10.<*> v=13 t=4 status=M Sat Sep 17 0<*> PDT 2005,0
+0,"<*> ddr errors(s) detected and corrected on rank 0, symbol 8, bit 7",0
+0,rts: bad message header: expecting type <*> instead of type <*> (softheader=0<*> <*> <*> 00000000) PSR0=0000<*> PSR1=00000000 PRXF=000<*>0002 PIXF=00000007,0
+0,rts: bad message header: cpu 127 invalid (softheader=7ffffc30 10023<*>0 <*> <*>) PSR0=00000000 PSR1=00000000 PRXF=0000002a PIXF=00000007,0
+0,"ciod: Error loading /bgl/apps/scaletest/performance/MINIBEN/mb_243_0810/allreduce.rts: invalid or missing program image, Exec format error",0
+0,Ido chip status changed: FF:F2:9F:15:7<*> ip=10.<*> v=13 t=1 status=M Tue Aug 09 10:0<*> PDT 2005,0
 0,Ido chip status changed: FF:F2:9F:16:<*> ip=10.<*> v=13 t=4 status=M Tue Aug 09 10:0<*> PDT 2005,0
+0,Ido chip status changed: FF:F2:9F:16:E<*> ip=10.1.<*> v=13 t=4 status=M Sun Aug 07 1<*> PDT 2005,0
 0,Ido chip status changed: FF:F2:9F:15:7<*> ip=10.<*> v=13 t=1 status=M Thu Aug 04 <*> PDT 2005,0
 0,Ido chip status changed: FF:F2:9F:16:<*> ip=10.<*> v=13 t=4 status=M Thu Aug 04 <*> PDT 2005,0
+0,"Node card VPD check: missing U<*>1 node, VPD ecid 0<*> in processor card slot <*>",0
+0,"1 ddr errors(s) detected and corrected on rank 0, symbol <*>, bit 1",0
+0,"<*> ddr errors(s) detected and corrected on rank 0, symbol 21, bit 3",0
+0,"rts: kernel terminated for reason 1001rts: bad message header: invalid cpu, type=<*>, cpu=<*>, <*> total=0",0
 0,"ciod: Error opening node map file /home/williams/miranda/src/vx_32k_256x256x1_8x4x4.map, No such file or directory",0
+0,"rts: kernel terminated for reason 1001rts: bad message header: invalid cpu, type=<*>, cpu=<*>, index=0, <*>",0
 0,"ciod: Error loading /home/glosli/src/ddcMD/ddcMD1.1.14/bin/ddcMDbglV: invalid or missing program image, Exec format error",0
-0,"rts: kernel terminated for reason 1001rts: bad message header: invalid cpu, type=<*>, cpu=16, index=<*>, total=26910<*>",0
-0,"<*> ddr errors(s) detected and corrected on rank 0, symbol 25, bit 1",0
+0,"rts: kernel terminated for reason 1001rts: bad message header: invalid cpu, <*> cpu=16, <*> <*>",0
 0,ciod: Error creating node map from file /p/gb2/pakin1/sweep3d-5x5x400-10mk-3mmi-1024pes-sweep/sweep.map: Device or resource busy,0
-0,1 torus receiver y- input pipe error(s) (dcr 0x02ef) detected and corrected,0
-0,2 torus receiver z+ input pipe error(s) (dcr 0x02f0) detected and corrected,0
-0,2 torus receiver z- input pipe error(s) (dcr 0x02f1) detected and corrected,0
-0,EndServiceAction is restarting the NodeCards in midplane R<*> as part of Service Action <*>,0
-0,Ido chip status changed: FF:F2:9F:16:E<*> ip=10.<*> v=13 t=4 status=M Fri Jul 01 0<*> PDT 2005,0
-0,"ciod: Error opening node map file /p/gb2/welcome3/32k_128x256x1_8x4x4.map, No such file or directory",0
-0,1 torus receiver x- input pipe error(s) (dcr 0x02ed) detected and corrected,0
-0,1 torus receiver x+ input pipe error(s) (dcr 0x02ec) detected and corrected,0
-0,1 torus receiver y+ input pipe error(s) (dcr 0x02ee) detected and corrected,0
 0,1 torus receiver z+ input pipe error(s) (dcr 0x02f0) detected and corrected,0
+0,Ido chip status changed: FF:F2:9F:16:<*> ip=10.<*> v=13 t=4 status=M Fri Jul 01 0<*> PDT 2005,0
+0,Ido chip status changed: FF:F2:9F:16:<*> ip=10.<*> v=9 t=4 status=M Fri Jul 01 0<*> PDT 2005,0
+0,2 torus receiver z- input pipe error(s) (dcr 0x02f1) detected and corrected,0
+0,"ciod: Error opening node map file /p/gb2/welcome3/32k_128x256x1_8x4x4.map, No such file or directory",0
+0,1 torus receiver x+ input pipe error(s) (dcr 0x02ec) detected and corrected,0
+0,1 torus receiver x- input pipe error(s) (dcr 0x02ed) detected and corrected,0
+0,1 torus receiver y- input pipe error(s) (dcr 0x02ef) detected and corrected,0
+0,"<*> ddr errors(s) detected and corrected on rank 0, symbol 2, bit 4",0
+0,1 torus receiver y+ input pipe error(s) (dcr 0x02ee) detected and corrected,0
+0,2 torus receiver x+ input pipe error(s) (dcr 0x02ec) detected and corrected,0
 0,1 torus receiver z- input pipe error(s) (dcr 0x02f1) detected and corrected,0
 0,ciod: failed to read message prefix on control stream (CioStream socket to 172.16.96.116:<*>,0
 0,"ciod: Error reading message prefix on CioStream socket to 172.16.96.116:<*>, Link has been severed",0
-0,Ido chip status changed: FF:F2:9F:16:<*> ip=10.<*> v=13 t=4 status=M Tue Sep 20 12:11:49 PDT 2005,0
-0,Ido chip status changed: FF:F2:9F:15:7<*> ip=10.<*> v=13 t=1 status=M Tue Sep 20 12:11:48 PDT 2005,0
+0,L1 DCACHE summary averages: #ofDirtyLines: 48<*> out of 1024 #ofDirtyDblWord: 1003 out of 4096,0
 0,Ido chip status changed: FF:F2:9F:16:<*> ip=10.<*> v=13 t=4 status=M Tue Sep 20 12:11:48 PDT 2005,0
+0,Ido chip status changed: FF:F2:9F:16:<*> ip=10.<*> v=13 t=4 status=M Tue Sep 20 12:11:49 PDT 2005,0
 0,ciod: Missing or invalid fields on line 1 of node map file /home/auselton/bgl/mapfiles/bgl.128mps.f64.map,0
-0,Ido chip status changed: FF:F2:9F:16:<*> ip=10.5.<*> v=13 t=4 status=M Thu Aug 04 08:33:57 PDT 2005,0
+0,"1 ddr errors(s) detected and corrected on rank 0, symbol 34, bit 1",0
+0,Ido chip status changed: FF:F2:9F:16:E<*> ip=10.0.<*> v=13 t=4 status=M Tue Aug 09 10:07:57 PDT 2005,0
 0,"idoproxydb hit ASSERT condition: ASSERT expression=0 Source file=idotransportmgr.cpp Source line=1043 Function=int IdoTransportMgr::SendPacket(IdoUdpMgr*, BglCtlPavTrace*)",0
-0,"1 ddr errors(s) detected and corrected on rank 0, symbol 26, bit 3",0
+0,"Node card VPD check: missing U11 node, VPD ecid 0<*> in processor card slot <*>",0
+0,"rts: kernel terminated for reason 1001rts: bad message header: invalid cpu, type=2, <*> <*> total=0",0
+0,ciod: Y coordinate <*> exceeds physical dimension 16 at line <*> of node map file <*>,0
 0,"rts: kernel terminated for reason 1001rts: bad message header: invalid cpu, type=<*>, cpu=127, index=268892392, total=26869484<*>",0
 0,ciod: Missing or invalid fields on line 1 of node map file /home/auselton/bgl/64mps.sequential.mapfile,0
-0,"1 ddr errors(s) detected and corrected on rank 0, symbol 14, bit 7",0
-0,"1 ddr errors(s) detected and corrected on rank 0, symbol 18, bit 0",0
+0,"1 ddr errors(s) detected and corrected on rank 0, symbol 26, bit 3",0
 0,"1 ddr errors(s) detected and corrected on rank 0, symbol 12, bit 7",0
-0,"ciod: Error loading <*> invalid or missing program image, No such file or directory",0
+0,"ciod: Error loading <*>: invalid or missing program image, No such file or directory",0
 0,L1 DCACHE summary averages: #ofDirtyLines: 0 out of 1024 #ofDirtyDblWord: 0 out of 4096,0
-0,"ciod: Error loading /home/glosli/src/ddcMD/ddcMD1.1.18a/bin/ddcMDbglV: invalid or missing program image, No such file or directory",0
+0,"ciod: Error loading /home.old/glosli/src/ddcMD/ddcMD1.1.17/bin/ddcMDbglV: invalid or missing program image, No such file or directory",0
 0,"ciod: Error loading /home.old/glosli/src/ddcMD/ddcMD1.1.18a/bin/ddcMDGbglV: invalid or missing program image, No such file or directory",0
 0,"ciod: Error loading /home.old/glosli/src/ddcMD/ddcMD1.1.17/bin/ddcMDGbglV: invalid or missing program image, No such file or directory",0
 0,"ciod: Error loading /home/spelce1/HPCC_IBM/Urgent/COP/64K/hpcc-1.0.0.102905_vnm_essl_cpm: invalid or missing program image, No such file or directory",0
 0,"ciod: Error loading allreduce_int_V1R1.rts: invalid or missing program image, No such file or directory",0
 0,"ciod: Error loading allreduce_double_V1R1.rts: invalid or missing program image, No such file or directory",0
 0,"ciod: Error loading /p/gb1/bwallen/brian_12point3.rts: invalid or missing program image, No such file or directory",0
+0,"ciod: Error loading /home/glosli/src/ddcMD/ddcMD1.1.18a/bin/ddcMDbglV: invalid or missing program image, No such file or directory",0
 0,"ciod: Error loading /home/cabot/miranova/bgl/bin_lukei?/miranda_newhack: invalid or missing program image, No such file or directory",0
 0,"ciod: Error loading /bgl/apps/followup/RAPTOR/current_brian.rts: invalid or missing program image, No such file or directory",0
 0,"ciod: Error loading /home/spelce1/HPCC_IBM/Urgent/COP/64K/EPStreamTriad.64K.rts: invalid or missing program image, No such file or directory",0
@@ -977,14 +1087,15 @@ EventId,EventTemplate,Occurrences
 0,"ciod: Error loading /bgl/apps/scaletest/stability/MDCASK/WORK/65576/inferno: invalid or missing program image, No such file or directory",0
 0,ciod: Error reading message prefix after <*> on CioStream socket to 172.16.96.116:<*>: Link has been severed,0
 0,"ciod: Error loading /bgl/apps/hwstab/RAPTOR/temp/raptor: invalid or missing program image, No such file or directory",0
-0,"rts: kernel terminated for reason 1004rts: bad message header: expecting type <*> <*> cpu=0, index=0, total=1",0
-0,ciod: Y coordinate <*> exceeds physical dimension 16 at line 1 of node map file /home/pakin1/sweep3d-2.2b/results/<*>-8x32x32x2.map,0
-0,ciod: Y coordinate 16 exceeds physical dimension 16 at line <*> of node map file <*>,0
+0,"ciod: Error loading /home/pakin1/contention: invalid or missing program image, No such file or directory",0
+0,ciod: Y coordinate <*> exceeds physical dimension 16 at line 1 of node map file <*>,0
+0,"rts: kernel terminated for reason 1001rts: bad message header: invalid cpu, <*> cpu=127, index=268892392, total=26869484",0
 0,"ciod: Error loading /home/greeno/raptor.new.dev.3d.BGL.CXX_XL.MPI.ex: invalid or missing program image, No such file or directory",0
-0,"rts: kernel terminated for reason 1001rts: bad message header: invalid cpu, type=2, cpu=<*>, index=0, total=0",0
 0,"ciod: Error loading /p/gb2/spelce1/raptor.dev.new3d.BGL.CXX_XL.MPI.ex: invalid or missing program image, No such file or directory",0
 0,"ciod: Error loading /p/gb2/welcome3/32k/miranda: invalid or missing program image, No such file or directory",0
 0,"ciod: Error loading /home/glosli/src/ddcMD/ddcMD/1.1.13/ddcMDbglV: invalid or missing program image, No such file or directory",0
+0,"ciod: Error loading /home/draeger/testQboxhang-nozerobytebug-nosleepyescomm: invalid or missing program image, No such file or directory",0
+0,"ciod: Error loading /home/yates/MPI_testing/Presta/presta-1.3.2b/./glob: invalid or missing program image, No such file or directory",0
 0,ciod: Error reading message prefix after LOGIN_MESSAGE on CioStream socket to 172.16.96.116:<*>: Link has been severed,0
 0,ciod: Error reading message prefix after VERSION_MESSAGE on CioStream socket to 172.16.96.116:5<*>: Link has been severed,0
 0,ciod: Error reading message prefix after LOAD_MESSAGE on CioStream socket to 172.16.96.116:<*>: Link has been severed,0
@@ -993,55 +1104,56 @@ EventId,EventTemplate,Occurrences
 0,rts: bad message header: expecting type 57 instead of type 3 <*> <*> 00000002 00000000) <*> PSR1=00000000 PRXF=00000002 PIXF=00000007,0
 0,ciod: Z coordinate 32 exceeds physical dimension 32 at line 33 of node map file /home/pakin1/comms-conc/xyzt-1x1x32768x1.map,0
 0,ciod: Z coordinate 32 exceeds physical dimension 32 at line 33 of node map file /p/gb2/pakin1/contention-32768cpes-torus/xyzt-1x1x32768x1.map,0
+0,ciod: Y coordinate 31 exceeds physical dimension 16 at line 1 of node map file /home/pakin1/sweep3d-2.2b/results/sweep-8x32x32x2.map,0
 0,ciod: T coordinate 1 exceeds physical dimension 1 at line 2 of node map file /p/gb2/pakin1/sweep3d-5x5x400-10mk-3mmi-1024pes-xyzt/xyzt.map,0
 0,ciod: duplicate canonical-rank 31 to logical-rank 0 mapping at line 3 of node map file /p/gb2/pakin1/sweep3d-5x5x400-10mk-3mmi-1024pes-sweep/sweep.map,0
 0,"rts: kernel terminated for reason 1004rts: bad message header: expecting type 1, type=3, cpu=0, index=0, total=1",0
-0,"Node card VPD check: U01 node in processor card slot J11 do not match. VPD ecid 0<*>, found <*>",0
-0,"Node card VPD check: U01 node in processor card slot J05 do not match. VPD ecid 0<*>, found <*>",0
-0,"Node card VPD check: U11 node in processor card slot J07 do not match. VPD ecid 0<*>, found <*>",0
+0,"Node card VPD check: U01 node in processor card slot J15 do not match. VPD ecid 0<*>, found <*>",0
+0,"Node card VPD check: U01 node in processor card slot J07 do not match. VPD ecid 0<*>, found <*>",0
+0,"Node card VPD check: U11 node in processor card slot J14 do not match. VPD ecid 0<*>, found <*>",0
+0,Node card VPD check: U01 node in processor card slot J11 do not match. VPD ecid <*> found <*>,0
 0,"Node card VPD check: U01 node in processor card slot J04 do not match. VPD ecid 0<*>, found <*>",0
-0,"Node card VPD check: U01 node in processor card slot J12 do not match. VPD ecid 0<*>, found <*>",0
-0,"Node card VPD check: U01 node in processor card slot J06 do not match. VPD ecid 0<*>, found <*>",0
-0,"Node card VPD check: U11 node in processor card slot J11 do not match. VPD ecid 0<*>, found <*>",0
-0,"Node card VPD check: U11 node in processor card slot J16 do not match. VPD ecid 0<*>, found <*>",0
-0,"Node card VPD check: U01 node in processor card slot J17 do not match. VPD ecid 0<*>, found 0<*>",0
-0,"Node card VPD check: U11 node in processor card slot J09 do not match. VPD ecid 0<*>, found 0<*>",0
-0,"Node card VPD check: U11 node in processor card slot J13 do not match. VPD ecid 0<*>, found 0<*>",0
-0,"Node card VPD check: U01 node in processor card slot J07 do not match. VPD ecid 0<*>, found 0<*>",0
-0,"Node card VPD check: U01 node in processor card slot J03 do not match. VPD ecid 0<*>, found 0<*>",0
-0,"Node card VPD check: U11 node in processor card slot J04 do not match. VPD ecid 0<*>, found 0<*>",0
-0,"Node card VPD check: U11 node in processor card slot J03 do not match. VPD ecid 0<*>, found 0<*>",0
-0,"Node card VPD check: U01 node in processor card slot J10 do not match. VPD ecid 0<*>, found 0<*>",0
-0,"Node card VPD check: U11 node in processor card slot J05 do not match. VPD ecid 0<*>, found 0<*>",0
-0,"Node card VPD check: U11 node in processor card slot J08 do not match. VPD ecid 0<*>, found 0<*>",0
-0,"Node card VPD check: U01 node in processor card slot J02 do not match. VPD ecid 0<*>, found 0<*>",0
-0,"Node card VPD check: U01 node in processor card slot J13 do not match. VPD ecid 0<*>, found 0<*>",0
-0,"Node card VPD check: U11 node in processor card slot J14 do not match. VPD ecid 0<*>, found 0<*>",0
-0,"Node card VPD check: U11 node in processor card slot J10 do not match. VPD ecid 0<*>, found 0<*>",0
+0,"Node card VPD check: U01 node in processor card slot J05 do not match. VPD ecid 0<*>, found <*>",0
+0,"Node card VPD check: U11 node in processor card slot J17 do not match. VPD ecid 0<*>, found <*>",0
+0,"Node card VPD check: U01 node in processor card slot J03 do not match. VPD ecid 0<*>, found <*>",0
+0,Node card VPD check: U11 node in processor card slot J08 do not match. VPD ecid <*> found <*>,0
 0,"Node card VPD check: U11 node in processor card slot J12 do not match. VPD ecid 0<*>, found 0<*>",0
-0,"Node card VPD check: U01 node in processor card slot J08 do not match. VPD ecid 0<*>, found 0<*>",0
+0,"Node card VPD check: U11 node in processor card slot J11 do not match. VPD ecid 0<*>, found 0<*>",0
+0,"Node card VPD check: U11 node in processor card slot J09 do not match. VPD ecid 0<*>, found 0<*>",0
+0,"Node card VPD check: U11 node in processor card slot J18 do not match. VPD ecid 0<*>, found 0<*>",0
 0,"Node card VPD check: U01 node in processor card slot J16 do not match. VPD ecid 0<*>, found 0<*>",0
-0,"Node card VPD check: U01 node in processor card slot J09 do not match. VPD ecid 0<*>, found 0<*>",0
-0,Node card VPD check: U11 node in processor card slot J06 do not match. VPD ecid <*> found <*>,0
-0,"Node card VPD check: U11 node in processor card slot J02 do not match. VPD ecid 0<*>, found 0<*>",0
+0,"Node card VPD check: U01 node in processor card slot J06 do not match. VPD ecid 0<*>, found 0<*>",0
+0,"Node card VPD check: U11 node in processor card slot J07 do not match. VPD ecid 0<*>, found 0<*>",0
 0,"Node card VPD check: U11 node in processor card slot J15 do not match. VPD ecid 0<*>, found 0<*>",0
+0,"Node card VPD check: U01 node in processor card slot J13 do not match. VPD ecid 0<*>, found 0<*>",0
+0,"Node card VPD check: U11 node in processor card slot J03 do not match. VPD ecid 0<*>, found 0<*>",0
+0,"Node card VPD check: U11 node in processor card slot J16 do not match. VPD ecid 0<*>, found 0<*>",0
+0,"Node card VPD check: U01 node in processor card slot J17 do not match. VPD ecid 0<*>, found 0<*>",0
+0,"Node card VPD check: U11 node in processor card slot J13 do not match. VPD ecid 0<*>, found 0<*>",0
+0,"Node card VPD check: U01 node in processor card slot J09 do not match. VPD ecid 0<*>, found 0<*>",0
+0,"Node card VPD check: U11 node in processor card slot J02 do not match. VPD ecid 0<*>, found 0<*>",0
+0,"Node card VPD check: U11 node in processor card slot J04 do not match. VPD ecid 0<*>, found 0<*>",0
+0,"Node card VPD check: U11 node in processor card slot J06 do not match. VPD ecid 0<*>, found 0<*>",0
+0,"Node card VPD check: U01 node in processor card slot J12 do not match. VPD ecid 0<*>, found 0<*>",0
+0,"Node card VPD check: U01 node in processor card slot J10 do not match. VPD ecid 0<*>, found 0<*>",0
+0,"Node card VPD check: U11 node in processor card slot J10 do not match. VPD ecid 0<*>, found 0<*>",0
+0,"Node card VPD check: U01 node in processor card slot J02 do not match. VPD ecid 0<*>, found 0<*>",0
 0,Missing reverse cable: Cable R<*> 4 <*> (J1<*>) --> R0<*> 4 <*> (J1<*>) is present BUT the reverse cable R0<*> 1 <*> (J0<*>) --> R<*> 1 <*> (J0<*>) is missing,0
 0,Missing reverse cable: Cable R<*> <*> F (J<*>) --> R0<*> <*> C (J<*>) is present BUT the reverse cable R0<*> <*> F (J<*>) --> R<*> <*> C (J<*>) is missing,0
-0,"Node card VPD check: U11 node in processor card slot J14 do not match. VPD ecid 0<*>, found 0000000000000000000000000000",0
-0,Node card VPD check: U01 node in processor card slot J10 do not match. VPD ecid <*> found 0000000000000000000000000000,0
-0,"Node card VPD check: U01 node in processor card slot J06 do not match. VPD ecid 0<*>, found 0000000000000000000000000000",0
-0,"Node card VPD check: U01 node in processor card slot J03 do not match. VPD ecid 0<*>, found 0000000000000000000000000000",0
+0,"Node card VPD check: U11 node in processor card slot J02 do not match. VPD ecid 0<*>, found 0000000000000000000000000000",0
+0,"Node card VPD check: U01 node in processor card slot J04 do not match. VPD ecid 0<*>, found 0000000000000000000000000000",0
+0,"Node card VPD check: U01 node in processor card slot J17 do not match. VPD ecid 0<*>, found 0000000000000000000000000000",0
+0,"Node card VPD check: U01 node in processor card slot J16 do not match. VPD ecid 0<*>, found 0000000000000000000000000000",0
 0,"Error receiving packet on tree network, expecting type 57 instead of type 3 <*> <*> 00000002 00000000) PSR0=20021f01 PSR1=00000000 PRXF=00000002 PIXF=00000007",0
 0,"Error receiving packet on tree network, expecting type 57 instead of type 3 <*> <*> 00000002 00000000) PSR0=00001f01 PSR1=00000000 PRXF=00000002 PIXF=00000007",0
 0,"Error receiving packet on tree network, expecting type 57 instead of type 3 (softheader=0030114e 602d0003 00000002 00000000) PSR0=00001f01 PSR1=00000000 PRXF=00000002 PIXF=00000007",0
 0,"Error receiving packet on tree network, expecting type 57 instead of type 3 (softheader=009756d5 8bfa0003 00000002 00000000) PSR0=00001f01 PSR1=00000000 PRXF=00000002 PIXF=00000007",0
 0,"Error receiving packet on tree network, expecting type 57 instead of type 3 (softheader=00ce22e8 e6200003 00000002 00000000) PSR0=00001f01 PSR1=00000000 PRXF=00000002 PIXF=00000007",0
 0,"Error receiving packet on tree network, expecting type 57 instead of type 3 (softheader=00f607bb 39b40003 00000002 00000000) PSR0=00001f01 PSR1=00000000 PRXF=00000002 PIXF=00000007",0
-0,"Error receiving packet on tree network, expecting type 57 instead of type 3 (softheader=00589370 90990003 00000002 00000000) PSR0=00001f01 PSR1=00000000 PRXF=00000002 PIXF=00000007",0
+0,"Error receiving packet on tree network, expecting type 57 instead of type 3 (softheader=00024f60 7fff0003 00000002 00000000) PSR0=00001f01 PSR1=00000000 PRXF=00000002 PIXF=00000007",0
+0,"Error receiving packet on tree network, expecting type 57 instead of type 3 (softheader=00000001 7a3d0003 00000002 00000000) PSR0=00001f01 PSR1=00000000 PRXF=00000002 PIXF=00000007",0
 0,"Error receiving packet on tree network, expecting type 57 instead of type 3 (softheader=0064588e 8aff0003 00000002 00000000) PSR0=00001f01 PSR1=00000000 PRXF=00000002 PIXF=00000007",0
-0,"ddr: Unable to steer rank=0, symbol=<*> - rank is already steering symbol <*>. Due to multiple symbols being over the correctable error threshold, consider replacing the card",0
 0,Node card status: no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is asserted. Temperature Mask is not active. No temperature error. Temperature Limit Error Latch is clear. PGOOD IS NOT ASSERTED. PGOOD ERROR LATCH IS ACTIVE. MPGOOD <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*>,0
 0,Node card status: no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is asserted. Temperature Mask is not active. No temperature error. Temperature Limit Error Latch is clear. PGOOD IS NOT ASSERTED. PGOOD ERROR LATCH IS ACTIVE. MPGOOD IS NOT OK. MPGOOD ERROR LATCH IS ACTIVE. <*> 2.5 <*> <*> <*> <*> <*> <*> <*> <*> <*> <*>,0
-0,Node card status: no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is not asserted. Temperature Mask is not active. No temperature error. Temperature Limit Error Latch is clear. PGOOD IS NOT ASSERTED. PGOOD ERROR LATCH IS ACTIVE. MPGOOD IS NOT OK. MPGOOD ERROR LATCH IS ACTIVE. T<*> 2.5 <*> <*> <*> <*> <*> <*> <*> <*> <*> <*>,0
 0,Node card status: no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is asserted. Temperature Mask is not active. No temperature error. Temperature Limit Error Latch is clear. PGOOD IS NOT ASSERTED. PGOOD ERROR LATCH IS ACTIVE. MPGOOD IS NOT OK. MPGOOD ERROR LATCH IS ACTIVE. The 2.5 volt rail is OK. The 1.5 volt rail is OK.,0
 0,"While initializing node card iDo machine with LP of FF:F2:9F:16:<*> caught java.io.IOException: Could not contact iDo with LP=FF:F2:9F:16:<*> and IP=/10.<*> because java.lang.RuntimeException: Communication error: (DirectIDo for Uninitialized DirectIDo for FF:F2:9F:16:<*>:0 is in state = COMMUNICATION_ERROR, sequenceNumberIsOk = false, ExpectedSequenceNumber = 0, Reply Sequence Number = -1, timedOut = true, retries = 200, timeout = 1000, Expected Op Command = 5, Actual Op Reply = -1, Expected Sync Command = 10, Actual Sync Reply = -1)",0
