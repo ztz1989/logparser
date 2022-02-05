@@ -1,162 +1,377 @@
 EventId,EventTemplate,Occurrences
-0,Assigned <*> <*>,0
-0,<*> container <*> <*> <*>,0
-0,<*> <*> <*> : <*> <*> <*> <*> <*>,0
-0,<*> <*> 4,0
-0,<*> <*> <*> <*> <*> to <*>,0
-0,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> to <*>,0
-0,<*> <*> output,0
-0,<*> <*> 2,0
-0,<*> <*> with <*> <*>,0
-0,<*> <*> <*> <*> <*> on <*>,0
-0,<*> limit <*> <*>,0
-0,<*> <*> <*> vCores:-27>,0
-0,<*> <*> <*> started,0
-0,Read <*> <*> <*> <*>,0
-0,<*> <*> container <*>,0
-0,<*> <*> <*> to,0
-0,Merging <*> <*> <*>,0
-0,<*> <*> <*> <*> for <*> <*>,0
-0,<*> <*> <*> <*> not <*> <*> <*>,0
-0,<*> <*> system <*>,0
-0,<*> <*> at <*>,0
-0,<*> <*> <*> <*> is <*>,0
-0,<*> <*> <*> from <*>,0
-0,<*> <*> 1,0
-0,<*> <*> <*> 1,0
-0,<*> <*> <*> for <*>,0
-0,<*> of <*> <*> <*>,0
-0,<*> <*> 0,0
-0,<*> to <*>,0
-0,<*> <*> 3,0
-0,<*> <*> is <*>,0
-0,<*> <*> for <*>,0
-0,<*> <*> from <*>,0
-0,KILLING attempt_1445<*>,0
-0,ATTEMPT_START task_1445<*>,0
-0,Launching attempt_1445<*>,0
-0,<*> <*> to <*>,0
-0,<*> <*> <*> <*> to <*>,0
-0,Using <*> <*>,0
-0,<*> is <*>,0
-0,<*> metrics system <*>,0
-0,mapreduce.task.io.sort.mb: 100,0
-0,Finished spill <*>,0
-0,(EQUATOR) <*> kvi <*>),0
-0,Processing split: hdfs://msra-sa-41:9000/<*>,0
-0,"Recalculating schedule, headroom=<memory:<*>, vCores:-<*>>",0
-0,"Recalculating schedule, headroom=<memory:0, <*>",0
-0,Diagnostics report from attempt_1445<*>:,0
-0,Kind: <*> Service: <*> Ident: <*>,0
-0,MapTask metrics system <*>,0
-0,Resolved <*>.fareast.corp.microsoft.com to /default-rack,0
-0,<*> metrics system started,0
-0,Finished spill 0,0
-0,mapreduce.cluster.local.dir for child: /tmp/hadoop-msrabi/nm-local-dir/usercache/msrabi/appcache/application_1445<*>,0
-0,Using ResourceCalculatorProcessTree : <*>,0
-0,Merging <*> sorted segments,0
-0,Finished spill 4,0
-0,Finished spill 3,0
-0,Finished spill 1,0
-0,Finished spill 2,0
-0,Spilling map output,0
-0,Executing with tokens:,0
-0,Received completed container container_1445<*>,0
-0,Num completed Tasks: <*>,0
-0,"Recalculating schedule, <*> vCores:-27>",0
-0,Opening proxy : <*>,0
-0,Assigned container container_1445<*> to attempt_1445<*>,0
-0,<*> <*> PendingReds:0 ScheduledMaps:0 ScheduledReds:0 <*> AssignedReds:1 CompletedMaps:<*> <*> <*> <*> <*> <*>,0
-0,"Recalculating schedule, headroom=<memory:0, vCores:-27>",0
-0,"<*> is deprecated. Instead, use <*>",0
-0,"Kind: mapreduce.job, Service: <*> Ident: <*>",0
-0,MapTask metrics system started,0
-0,(EQUATOR) 0 kvi 26214396(104857584),0
-0,(RESET) equator <*> kv <*>) kvi <*>),0
-0,soft limit at 83886080,0
-0,loaded properties from hadoop-metrics2.properties,0
-0,attempt_1445<*> TaskAttempt Transitioned from <*> to <*>,0
-0,Task succeeded with attempt attempt_1445<*>,0
-0,"getResources() for <*> ask=<*> release= 0 newContainers=<*> finishedContainers=<*> resourcelimit=<memory:<*>, vCores:-<*>> <*>",0
-0,Reduce slow start threshold <*> <*> <*>,0
-0,Resolved MSRA-SA-41.fareast.corp.microsoft.com to /default-rack,0
-0,"Recalculating schedule, headroom=<memory:0, vCores:-35>",0
-0,Auth successful for <*> (auth:SIMPLE),0
-0,Resolved MSRA-SA-39.fareast.corp.microsoft.com to /default-rack,0
-0,Processing the event EventType: <*>,0
-0,Registering class org.apache.hadoop.mapreduce.<*>Type for class org.apache.hadoop.mapreduce.<*>er,0
-0,attempt_1445<*> TaskAttempt Transitioned from ASSIGNED to <*>,0
-0,"getResources() for <*> <*> release= 0 newContainers=0 <*> resourcelimit=<memory:<*>, vCores:-<*>> <*>",0
-0,"getResources() for <*> <*> release= 0 <*> finishedContainers=0 resourcelimit=<memory:<*>, vCores:-<*>> <*>",0
-0,task_1445<*> Task Transitioned from <*> to SCHEDULED,0
-0,attempt_1445<*> TaskAttempt Transitioned from NEW to <*>,0
-0,Address change detected. Old: <*> New: <*>,0
-0,<*> <*> PendingReds:0 ScheduledMaps:0 ScheduledReds:0 <*> AssignedReds:1 CompletedMaps:<*> <*> <*> ContRel:0 <*> <*>,0
-0,attempt_1445<*> TaskAttempt Transitioned from <*> to SUCCESS_CONTAINER_CLEANUP,0
-0,attempt_1445<*> TaskAttempt Transitioned from RUNNING to <*>,0
-0,Read <*> bytes from map-output for attempt_1445<*>,0
-0,Starting flush of map output,0
-0,JVM with ID: jvm_1445<*> given task: attempt_1445<*>,0
-0,Progress of TaskAttempt attempt_1445<*> is : <*>,0
-0,TaskAttempt: [attempt_1445<*>] using containerId: [container_1445<*> on NM: [<*>],0
-0,After Scheduling: PendingReds:0 <*> ScheduledReds:0 AssignedMaps:<*> AssignedReds:1 CompletedMaps:<*> CompletedReds:0 <*> <*> <*> <*>,0
-0,"getResources() for <*> <*> release= 0 newContainers=0 finishedContainers=0 resourcelimit=<memory:<*>, vCores:-<*>> <*>",0
-0,Progress of TaskAttempt attempt_1445062781478_0017_r_000000_0 is : <*>,0
-0,bufstart = <*>; bufend = <*>; bufvoid = <*>,0
-0,"getResources() for <*> ask=4 release= 0 <*> finishedContainers=0 resourcelimit=<memory:<*>, vCores:-<*>> <*>",0
-0,Progress of TaskAttempt <*> is : 0.23333333,0
-0,bufstart = 0; bufvoid = 104857600,0
-0,kvstart = <*>); kvend = <*>); length = <*>/6553600,0
-0,Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer,0
-0,kvstart = 26214396; length = 6553600,0
-0,"session.id is deprecated. Instead, use dfs.metrics.session-id",0
-0,<*> <*> PendingReds:0 ScheduledMaps:0 ScheduledReds:0 <*> AssignedReds:1 CompletedMaps:<*> CompletedReds:0 <*> ContRel:0 <*> <*>,0
-0,Progress of TaskAttempt attempt_1445<*> is : 0.3,0
-0,MapCompletionEvents request from <*> startIndex <*> maxEvents 10000,0
-0,Progress of TaskAttempt attempt_1445<*> is : 0.667,0
-0,attempt_1445<*> TaskAttempt Transitioned from SUCCESS_CONTAINER_CLEANUP to SUCCEEDED,0
-0,Progress of TaskAttempt attempt_1445<*> is : 1.0,0
-0,task_1445<*> Task Transitioned from SCHEDULED to RUNNING,0
-0,attempt_1445<*> TaskAttempt Transitioned from ASSIGNED to RUNNING,0
-0,attempt_1445<*> TaskAttempt Transitioned from UNASSIGNED to ASSIGNED,0
-0,attempt_1445<*> TaskAttempt Transitioned from NEW to UNASSIGNED,0
-0,task_1445<*> Task Transitioned from NEW to SCHEDULED,0
-0,Scheduled snapshot period at 10 second(s).,0
-0,MapCompletionEvents request from attempt_1445182159119_0016_r_000000_0. startIndex <*> maxEvents 10000,0
-0,Address change detected. Old: msra-sa-41/<*>:9000 New: msra-sa-41:9000,0
-0,MapCompletionEvents request from attempt_1445<*>. startIndex 12 maxEvents 10000,0
-0,MapCompletionEvents request from <*> startIndex 11 maxEvents 10000,0
-0,Progress of TaskAttempt attempt_1445062781478_0017_r_000000_0 is : 0.23333333,0
-0,MapCompletionEvents request from attempt_1445062781478_0017_r_000000_0. startIndex <*> maxEvents 10000,0
-0,MapCompletionEvents request from <*> startIndex 10 maxEvents 10000,0
-0,MapCompletionEvents request from <*> startIndex 7 maxEvents 10000,0
-0,MapCompletionEvents request from attempt_1445<*>0. startIndex 5 maxEvents 10000,0
-0,After Scheduling: PendingReds:0 ScheduledMaps:0 ScheduledReds:0 AssignedMaps:<*> AssignedReds:1 CompletedMaps:<*> CompletedReds:0 <*> <*> <*> <*>,0
-0,MapCompletionEvents request from <*> startIndex 1 maxEvents 10000,0
-0,ProcfsBasedProcessTree currently is supported only on Linux.,0
-0,kvstart = 26214396(104857584); kvend = 1<*>); length = <*>/6553600,0
-0,bufstart = <*>; bufend = <*>; bufvoid = 104857600,0
-0,MapCompletionEvents request from attempt_1445<*>. startIndex 9 maxEvents 10000,0
-0,MapCompletionEvents request from <*> startIndex 8 maxEvents 10000,0
-0,MapCompletionEvents request from attempt_1445182159119_0016_r_000000_0. startIndex 9 maxEvents 10000,0
-0,MapCompletionEvents request from attempt_1445094324383_0005_r_000000_1. startIndex 12 maxEvents 10000,0
-0,MapCompletionEvents request from attempt_1445094324383_0004_r_000000_1. startIndex 12 maxEvents 10000,0
-0,MapCompletionEvents request from attempt_1445062781478_0017_r_000000_0. startIndex 7 maxEvents 10000,0
-0,Retrying connect to server: <*> Already tried <*> time(s); maxRetries=45,0
-0,JVM with ID : jvm_1445<*> asked for a task,0
-0,attempt_1445<*>: Shuffling to disk since <*> is greater than maxSingleShuffleLimit (3<*>2),0
-0,bufstart = 0; bufend = <*>; bufvoid = 104857600,0
-0,Processing the event EventType: CONTAINER_REMOTE_CLEANUP for container container_1445<*> taskAttempt attempt_1445<*>,0
-0,Diagnostics report from attempt_1445<*>: Container killed by the ApplicationMaster.,0
-0,Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,0
-0,Shuffle port returned by ContainerManager for attempt_1445<*> : 13562,0
-0,Processing the event EventType: CONTAINER_REMOTE_LAUNCH for container container_1445<*> taskAttempt attempt_1445<*>,0
-0,Task:attempt_1445<*> is done. And is in the process of committing,0
-0,Sleeping for 0ms before retrying again. Got null now.,0
-0,fetcher#<*> about to shuffle output of map attempt_1445<*> decomp: <*> len: <*> to DISK,0
-0,Failed to renew lease for <*> for <*> seconds. Will retry shortly ...,0
-0,Failed to renew lease for [DFSClient_NONMAPREDUCE_-1547462655_1] for <*> seconds. Will retry shortly ...,0
-0,Failed to renew lease for [DFSClient_NONMAPREDUCE_-274751412_1] for <*> seconds. Will retry shortly ...,0
-0,Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for <*> seconds. Will retry shortly ...,0
-0,"Down to the last merge-pass, with <*> segments left of total size: <*> bytes",0
-0,"Retrying connect to server: <*> Already tried <*> time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)",0
+0,critical,0
+0,warning,0
+0,normal,0
+0,<*> has <*>,0
+0,starting,0
+0,not-responding,0
+0,responding,0
+0,closing,0
+0,active,0
+0,down,0
+0,blocked,0
+0,running,0
+0,ambient<*>,0
+0,<*> <*> ( <*> <*> <*>,0
+0,Targeting <*> <*> <*>,0
+0,configured out,0
+0,not responding,0
+0,Link ok,0
+0,Link error,0
+0,update received,0
+0,power/control problem,0
+0,power/control ok,0
+0,Failed subcommands <*>,0
+0,Targeting <*> and nodes:node-<*>,0
+0,haltcluster (command <*>),0
+0,risBoot (command <*>,0
+0,bootGenvmunix (command 1<*>),0
+0,clusterAddMember (command <*>,0
+0,halt (command <*>),0
+0,boot (command <*>),0
+0,wait (command <*>),0
+0,boot (command <*> Error: <*> <*> <*> <*>,0
+0,Link in reset,0
+0,Command Failed on: node-<*>,0
+0,psu failure\ ambient<*>,0
+0,Targeting domains:node-D2 and nodes:node-<*>,0
+0,Targeting domains:node-D6 and nodes:node-<*>,0
+0,Targeting domains:node-D5 and <*>,0
+0,Targeting domains:node-D3 and nodes:node-<*>,0
+0,Targeting domains:node-D0 and nodes:node-<*>,0
+0,Targeting domains:node-D4 and nodes:node-<*>,0
+0,Targeting domains:node-D1 and nodes:node-<*>,0
+0,Targeting domains:node-D7 and nodes:node-<*>,0
+0,boot (command 4182),0
+0,boot (command 3965),0
+0,wait (command 3307),0
+0,boot (command 3211),0
+0,halt (command 2979),0
+0,halt (command 2986),0
+0,halt (command 2988),0
+0,halt (command 2991),0
+0,halt (command 2992),0
+0,halt (command 2994),0
+0,boot (command 2821),0
+0,wait (command 2509),0
+0,wait (command 2367),0
+0,boot (command 2201),0
+0,boot (command 2092),0
+0,boot (command 2093),0
+0,boot (command 2095),0
+0,boot (command 1996),0
+0,wait (command 1975),0
+0,boot (command 1967),0
+0,boot (command 1969),0
+0,boot (command 1949),0
+0,wait (command 1949),0
+0,bootGenvmunix (command 1900),0
+0,bootGenvmunix (command 1899),0
+0,link errors remain current,0
+0,Linkerror event interval expired,0
+0,Command has been aborted,0
+0,Targeting domains:node-D0 and nodes:node-[8-31],0
+0,Targeting domains:node-D7 and nodes:node-[224-255],0
+0,Targeting domains:node-D1 and nodes:node-[32-63],0
+0,Targeting domains:node-D0 and nodes:node-[0-31],0
+0,Targeting domains:node-D5 and nodes:node-[160-191],0
+0,Command has completed successfully,0
+0,inconsistent nodesets node-31 <*> <ok> node-<*> 0x<*> <ok>,0
+0,inconsistent nodesets node-<*> 0x1fffffffe <ok> node-<*> 0x<*> <ok>,0
+0,inconsistent nodesets node-<*> 0x000001fe <ok> node-<*> <*> <ok>,0
+0,inconsistent nodesets node-<*> <*> <ok> node-<*> <*> <ok> node-<*> <*> <ok>,0
+0,ServerFileSystem: ServerFileSystem domain <*> is full,0
+0,Link error on broadcast tree <*>,0
+0,Temperature (42C) exceeds warning threshold,0
+0,Temperature (43C) exceeds warning threshold,0
+0,Temperature (41C) exceeds warning threshold,0
+0,inconsistent nodesets node-<*> <*> <ok> node-<*> <*> <ok> node-<*> <*> <ok> node-<*> <*> <ok>,0
+0,ServerFileSystem: ServerFileSystem domain root8_local is full,0
+0,ServerFileSystem: ServerFileSystem domain root24_local is full,0
+0,ServerFileSystem: ServerFileSystem domain root28_local is full,0
+0,ServerFileSystem: ServerFileSystem domain root29_local is full,0
+0,ServerFileSystem: ServerFileSystem domain root17_local is full,0
+0,ServerFileSystem: ServerFileSystem domain root6_local is full,0
+0,ServerFileSystem: ServerFileSystem domain root22_local is full,0
+0,ServerFileSystem: ServerFileSystem domain root31_local is full,0
+0,ServerFileSystem: ServerFileSystem domain root18_local is full,0
+0,ServerFileSystem: ServerFileSystem domain root27_local is full,0
+0,ServerFileSystem: ServerFileSystem domain root9_local is full,0
+0,ServerFileSystem: ServerFileSystem domain root20_local is full,0
+0,ServerFileSystem: ServerFileSystem domain root3_local is full,0
+0,ServerFileSystem: ServerFileSystem domain root14_local is full,0
+0,ServerFileSystem: ServerFileSystem domain root10_local is full,0
+0,ServerFileSystem: ServerFileSystem domain root2_local is full,0
+0,ServerFileSystem: ServerFileSystem domain root32_local is full,0
+0,ServerFileSystem: ServerFileSystem domain root25_local is full,0
+0,ServerFileSystem: ServerFileSystem domain root26_local is full,0
+0,ServerFileSystem: ServerFileSystem domain root19_local is full,0
+0,ServerFileSystem: ServerFileSystem domain root12_local is full,0
+0,ServerFileSystem: ServerFileSystem domain root15_local is full,0
+0,ServerFileSystem: ServerFileSystem domain root7_local is full,0
+0,ServerFileSystem: ServerFileSystem domain root1_local is full,0
+0,Link error on broadcast tree Interconnect-1T00:00:0:0,0
+0,Link error on broadcast tree Interconnect-1T00:00:2:0,0
+0,Link error on broadcast tree Interconnect-0T00:00:2:1,0
+0,Targeting domains:node-D0 and <*> child of command <*>,0
+0,Targeting domains:node-D3 and nodes:node-[<*>] child of command <*>,0
+0,Targeting domains:node-D1 and nodes:node-<*> child of command <*>,0
+0,Targeting domains:node-D5 and nodes:node-[16<*>] child of command <*>,0
+0,Targeting domains:node-D4 and nodes:node-<*> child of command <*>,0
+0,Targeting domains:node-D6 and nodes:node-<*> child of command <*>,0
+0,Targeting domains:node-D7 and nodes:node-[2<*>] child of command <*>,0
+0,Targeting domains:node-D2 and nodes:node-<*> child of command <*>,0
+0,boot (command <*> Error: HALT asserted\ cannot continue,0
+0,inconsistent nodesets node-<*> <*> <ok> node-<*> <*> <ok> node-<*> <*> <ok> node-<*> <*> <ok> node-<*> <*> <ok>,0
+0,Targeting domains:node-D3 and nodes:node-[104-127] child of command <*>,0
+0,Targeting domains:node-D0 and nodes:node-[8-31] child of command <*>,0
+0,Targeting domains:node-D0 and nodes:node-[0-31] child of command <*>,0
+0,Targeting domains:node-D1 and nodes:node-[32-39] child of command <*>,0
+0,Targeting domains:node-D7 and nodes:node-[224-255] child of command <*>,0
+0,Targeting domains:node-D0 and nodes:node-[0-7] child of command <*>,0
+0,Targeting domains:node-D1 and nodes:node-[40-63] child of command <*>,0
+0,Targeting domains:node-D5 and nodes:node-[160-191] child of command <*>,0
+0,Targeting domains:node-D6 and nodes:node-[200-223] child of command <*>,0
+0,ServerFileSystem: An ServerFileSystem domain panic has occurred on storage<*>,0
+0,ClusterFileSystem: There is no server for ServerFileSystem domain <*>,0
+0,halt (command <*>) Error: scrun failed\ couldn\047t send shutdown command,0
+0,ClusterFileSystem: ServerFileSystem domain <*> is no longer served by node node-<*>,0
+0,Fan speeds ( 3534 3534 3375 <*> 3497 3479 ),0
+0,Fan speeds ( 3552 3552 3391 <*> 3515 3497 ),0
+0,Fan speeds ( 3552 3534 3391 <*> 3515 3479 ),0
+0,Fan speeds ( 3552 3534 3375 <*> 3515 3479 ),0
+0,ClusterFileSystem: There is no server for ServerFileSystem domain storage622,0
+0,ClusterFileSystem: There is no server for ServerFileSystem domain cluster_root,0
+0,ClusterFileSystem: There is no server for ServerFileSystem domain storage711,0
+0,ClusterFileSystem: There is no server for ServerFileSystem domain storage821,0
+0,ClusterFileSystem: There is no server for ServerFileSystem domain storage332,0
+0,ClusterFileSystem: There is no server for ServerFileSystem domain storage211,0
+0,ClusterFileSystem: There is no server for ServerFileSystem domain storage212,0
+0,ClusterFileSystem: There is no server for ServerFileSystem domain storage1131,0
+0,ClusterFileSystem: There is no server for ServerFileSystem domain storage1122,0
+0,ClusterFileSystem: There is no server for ServerFileSystem domain storage1021,0
+0,ClusterFileSystem: There is no server for ServerFileSystem domain storage1422,0
+0,ClusterFileSystem: There is no server for ServerFileSystem domain storage1221,0
+0,ClusterFileSystem: There is no server for ServerFileSystem domain storage1222,0
+0,Component State Change: Component <*> is in the available state (HWID<*>),0
+0,halt (command 2<*>) Error: Couldn\047t Connect to console (state = REFUSED),0
+0,inconsistent nodesets node-<*> <*> <ok> node-<*> <*> <ok> node-<*> <*> <ok> node-<*> <*> <ok> node-<*> <*> <ok> node-<*> 0x<*> <ok> node-<*> 0x<*> <ok> node-<*> 0x<*> <ok>,0
+0,ClusterFileSystem: ServerFileSystem domain <*> is no longer served by node node-225,0
+0,ClusterFileSystem: ServerFileSystem domain <*> is no longer served by node node-64,0
+0,ClusterFileSystem: ServerFileSystem domain <*> is no longer served by node node-245,0
+0,ClusterFileSystem: ServerFileSystem domain root19_tmp is no longer served by node node-<*>,0
+0,ClusterFileSystem: ServerFileSystem domain <*> is no longer served by node node-20,0
+0,ClusterFileSystem: ServerFileSystem domain root3_tmp is no longer served by node node-<*>,0
+0,ClusterFileSystem: ServerFileSystem domain root25_domain is no longer served by node <*>,0
+0,ClusterFileSystem: ServerFileSystem domain root32_domain is no longer served by node node-<*>,0
+0,ClusterFileSystem: ServerFileSystem domain <*> is no longer served by node node-24,0
+0,ClusterFileSystem: ServerFileSystem domain <*> is no longer served by node node-18,0
+0,ClusterFileSystem: ServerFileSystem domain <*> is no longer served by node node-12,0
+0,ClusterFileSystem: ServerFileSystem domain <*> is no longer served by node node-1,0
+0,ClusterFileSystem: ServerFileSystem domain <*> is no longer served by node node-0,0
+0,ClusterFileSystem: ServerFileSystem domain <*> is no longer served by node node-16,0
+0,ClusterFileSystem: ServerFileSystem domain <*> is no longer served by node node-226,0
+0,ClusterFileSystem: ServerFileSystem domain root16_local is no longer served by node node-<*>,0
+0,ClusterFileSystem: ServerFileSystem domain <*> is no longer served by node node-27,0
+0,ClusterFileSystem: ServerFileSystem domain root22_local is no longer served by node node-<*>,0
+0,ClusterFileSystem: ServerFileSystem domain <*> is no longer served by node node-17,0
+0,ClusterFileSystem: ServerFileSystem domain root9_local is no longer served by node node-<*>,0
+0,ClusterFileSystem: ServerFileSystem domain root3_local is no longer served by node node-<*>,0
+0,ClusterFileSystem: ServerFileSystem domain <*> is no longer served by node node-4,0
+0,ClusterFileSystem: ServerFileSystem domain root6_local is no longer served by node node-<*>,0
+0,ClusterFileSystem: ServerFileSystem domain root11_domain is no longer served by node node-<*>,0
+0,ClusterFileSystem: ServerFileSystem domain root16_tmp is no longer served by node <*>,0
+0,ClusterFileSystem: ServerFileSystem domain root24_tmp is no longer served by node node-<*>,0
+0,ClusterFileSystem: ServerFileSystem domain root28_local is no longer served by node node-<*>,0
+0,ClusterFileSystem: ServerFileSystem domain root12_domain is no longer served by node node-<*>,0
+0,ClusterFileSystem: ServerFileSystem domain <*> is no longer served by node node-230,0
+0,ClusterFileSystem: ServerFileSystem domain root31_local is no longer served by node node-<*>,0
+0,ClusterFileSystem: ServerFileSystem domain root25_tmp is no longer served by node <*>,0
+0,ClusterFileSystem: ServerFileSystem domain root29_domain is no longer served by node node-<*>,0
+0,ClusterFileSystem: ServerFileSystem domain root17_tmp is no longer served by node <*>,0
+0,ClusterFileSystem: ServerFileSystem domain root21_local is no longer served by node node-<*>,0
+0,ClusterFileSystem: ServerFileSystem domain root22_tmp is no longer served by node <*>,0
+0,ClusterFileSystem: ServerFileSystem domain root19_local is no longer served by node node-<*>,0
+0,ClusterFileSystem: ServerFileSystem domain root15_domain is no longer served by node node-<*>,0
+0,ClusterFileSystem: ServerFileSystem domain root2_local is no longer served by node node-<*>,0
+0,ClusterFileSystem: ServerFileSystem domain root22_domain is no longer served by node node-<*>,0
+0,ClusterFileSystem: ServerFileSystem domain root31_domain is no longer served by node node-<*>,0
+0,ClusterFileSystem: ServerFileSystem domain root21_domain is no longer served by node node-<*>,0
+0,ClusterFileSystem: ServerFileSystem domain root2_domain is no longer served by node node-<*>,0
+0,ClusterFileSystem: ServerFileSystem domain root30_domain is no longer served by node node-<*>,0
+0,ClusterFileSystem: ServerFileSystem domain root19_domain is no longer served by node node-<*>,0
+0,ClusterFileSystem: ServerFileSystem domain root16_domain is no longer served by node node-<*>,0
+0,ClusterFileSystem: ServerFileSystem domain root13_domain is no longer served by node node-<*>,0
+0,ClusterFileSystem: ServerFileSystem domain root4_domain is no longer served by node node-<*>,0
+0,ClusterFileSystem: ServerFileSystem domain root28_domain is no longer served by node node-<*>,0
+0,ClusterFileSystem: ServerFileSystem domain root5_domain is no longer served by node node-<*>,0
+0,ClusterFileSystem: ServerFileSystem domain root6_domain is no longer served by node <*>,0
+0,ClusterFileSystem: ServerFileSystem domain <*> is no longer served by node node-128,0
+0,ClusterFileSystem: ServerFileSystem domain root7_domain is no longer served by node node-<*>,0
+0,ClusterFileSystem: ServerFileSystem domain root3_domain is no longer served by node node-<*>,0
+0,ClusterFileSystem: ServerFileSystem domain <*> is no longer served by node node-192,0
+0,ClusterFileSystem: ServerFileSystem domain <*> is no longer served by node node-97,0
+0,ClusterFileSystem: ServerFileSystem domain <*> is no longer served by node node-32,0
+0,ClusterFileSystem: ServerFileSystem domain <*> is no longer served by node node-224,0
+0,ClusterFileSystem: ServerFileSystem domain root14_local is no longer served by node node-<*>,0
+0,ClusterFileSystem: ServerFileSystem domain root18_domain is no longer served by node <*>,0
+0,Fan speeds ( 3534 3534 3375 **** 3497 3479 ),0
+0,Fan speeds ( 3552 3552 3391 **** 3515 3497 ),0
+0,Fan speeds ( 3552 3534 3391 **** 3515 3479 ),0
+0,Fan speeds ( 3552 3534 3375 4017 3515 3479 ),0
+0,Fan speeds ( 3552 3534 3375 4245 3515 3479 ),0
+0,Fan speeds ( 3552 3534 3375 4090 3515 3479 ),0
+0,Fan speeds ( 3552 3534 3375 4354 3515 3479 ),0
+0,Fan speeds ( 3552 3534 3375 4066 3515 3479 ),0
+0,Fan speeds ( 3552 3534 3375 4218 3515 3479 ),0
+0,Fan speeds ( 3552 3534 3375 4166 3515 3479 ),0
+0,Fan speeds ( 3552 3534 3375 4141 3515 3479 ),0
+0,Fan speeds ( 3552 3534 3375 4470 3515 3479 ),0
+0,Fan speeds ( 3552 3534 3375 4530 3515 3479 ),0
+0,Fan speeds ( 3552 3534 3375 4041 3515 3479 ),0
+0,Fan speeds ( 3552 3534 3375 4411 3515 3479 ),0
+0,Fan speeds ( 3552 3534 3375 4115 3515 3479 ),0
+0,Fan speeds ( 3552 3534 3375 4383 3515 3479 ),0
+0,Fan speeds ( 3552 3534 3375 **** 3515 3479 ),0
+0,Component State Change: Component <*> is in the unavailable state (HWID<*>),0
+0,Component State Change: Component \042alt0\042 is in the available state (HWID<*>),0
+0,ClusterFileSystem: ServerFileSystem domain root1_local_backup is no longer served by node node-224,0
+0,ClusterFileSystem: ServerFileSystem domain cluster_var_backup is no longer served by node node-0,0
+0,ClusterFileSystem: ServerFileSystem domain cluster_usr_backup is no longer served by node node-64,0
+0,ClusterFileSystem: ServerFileSystem domain cluster_root_backup is no longer served by node node-96,0
+0,ClusterFileSystem: ServerFileSystem domain cluster_root_backup is no longer served by node node-0,0
+0,ClusterFileSystem: ServerFileSystem domain root2_domain is no longer served by node node-129,0
+0,ClusterFileSystem: ServerFileSystem domain root3_tmp is no longer served by node node-2,0
+0,ClusterFileSystem: ServerFileSystem domain root2_tmp is no longer served by node node-193,0
+0,ClusterFileSystem: ServerFileSystem domain cluster_usr_backup is no longer served by node node-160,0
+0,ClusterFileSystem: ServerFileSystem domain cluster_usr_backup is no longer served by node node-224,0
+0,ClusterFileSystem: ServerFileSystem domain cluster_root_backup is no longer served by node node-160,0
+0,Component State Change: Component \042alt0\042 is in the unavailable state (HWID<*>),0
+0,boot (command <*>) Error: Unknown We failed to determine the state of this node,0
+0,inconsistent nodesets node-<*> 0x000001fe <ok> node-<*> 0x000001fe <ok> node-<*> 0x000001fe <ok> node-<*> <*> <ok> node-<*> <*> <ok> node-<*> 0x<*>fe <ok> node-<*> 0x<*>fe <ok> node-<*> 0x<*>fe <ok>,0
+0,NIFF: node node-<*> detected a failed network connection on network 5.5.224.0 via interface alt0,0
+0,NIFF: node node-<*> detected a failed network connection on network 5.5.226.0 via interface alt0,0
+0,NIFF: node node-<*> has detected an available network connection on network 5.5.224.0 via interface alt0,0
+0,NIFF: node node-<*> has detected an available network connection on network 10.96.0.0 via interface scip0,0
+0,NIFF: node node-<*> has detected an available network connection on network 0.0.0.0 via interface alt0,0
+0,NIFF: node node-<*> has detected an available network connection on network 5.5.226.0 via interface alt0,0
+0,NIFF: node node-<*> has detected an available network connection on network 10.128.0.0 via interface ee0,0
+0,NIFF: node node-17 has detected an available network connection on network 5.5.224.0 via interface alt0,0
+0,NIFF: node node-13 has detected an available network connection on network 5.5.224.0 via interface alt0,0
+0,NIFF: node node-212 has detected an available network connection on network 5.5.224.0 via interface alt0,0
+0,NIFF: node node-206 has detected an available network connection on network 5.5.224.0 via interface alt0,0
+0,NIFF: node node-28 has detected an available network connection on network 5.5.224.0 via interface alt0,0
+0,NIFF: node node-221 has detected an available network connection on network 5.5.224.0 via interface alt0,0
+0,NIFF: node node-85 has detected an available network connection on network 10.128.0.0 via interface ee0,0
+0,NIFF: node node-15 has detected an available network connection on network 5.5.224.0 via interface alt0,0
+0,NIFF: node node-110 has detected an available network connection on network 5.5.224.0 via interface alt0,0
+0,NIFF: node node-29 has detected an available network connection on network 5.5.224.0 via interface alt0,0
+0,NIFF: node node-80 has detected an available network connection on network 5.5.224.0 via interface alt0,0
+0,NIFF: node node-81 has detected an available network connection on network 5.5.224.0 via interface alt0,0
+0,NIFF: node node-250 has detected an available network connection on network 5.5.224.0 via interface alt0,0
+0,NIFF: node node-104 has detected an available network connection on network 5.5.224.0 via interface alt0,0
+0,NIFF: node node-208 has detected an available network connection on network 10.128.0.0 via interface ee0,0
+0,NIFF: node node-215 has detected an available network connection on network 5.5.224.0 via interface alt0,0
+0,NIFF: node node-176 has detected an available network connection on network 5.5.224.0 via interface alt0,0
+0,NIFF: node node-183 has detected an available network connection on network 5.5.224.0 via interface alt0,0
+0,NIFF: node node-90 has detected an available network connection on network 5.5.224.0 via interface alt0,0
+0,NIFF: node node-26 has detected an available network connection on network 5.5.224.0 via interface alt0,0
+0,NIFF: node node-15 has detected an available network connection on network 10.128.0.0 via interface ee0,0
+0,NIFF: node node-24 has detected an available network connection on network 10.128.0.0 via interface ee0,0
+0,NIFF: node node-202 has detected an available network connection on network 10.128.0.0 via interface ee0,0
+0,NIFF: node node-143 has detected an available network connection on network 10.128.0.0 via interface ee0,0
+0,NIFF: node node-9 has detected an available network connection on network 5.5.224.0 via interface alt0,0
+0,NIFF: node node-16 has detected an available network connection on network 5.5.224.0 via interface alt0,0
+0,NIFF: node node-123 has detected an available network connection on network 5.5.224.0 via interface alt0,0
+0,NIFF: node node-216 has detected an available network connection on network 5.5.224.0 via interface alt0,0
+0,NIFF: node node-104 has detected an available network connection on network 10.128.0.0 via interface ee0,0
+0,NIFF: node node-21 has detected an available network connection on network 10.128.0.0 via interface ee0,0
+0,NIFF: node node-44 has detected an available network connection on network 10.128.0.0 via interface ee0,0
+0,NIFF: node node-28 has detected an available network connection on network 10.128.0.0 via interface ee0,0
+0,NIFF: node node-138 has detected an available network connection on network 10.128.0.0 via interface ee0,0
+0,NIFF: node node-51 has detected an available network connection on network 10.128.0.0 via interface ee0,0
+0,NIFF: node node-206 has detected an available network connection on network 10.128.0.0 via interface ee0,0
+0,NIFF: node node-213 has detected an available network connection on network 10.128.0.0 via interface ee0,0
+0,NIFF: node node-216 has detected an available network connection on network 10.128.0.0 via interface ee0,0
+0,NIFF: node node-180 has detected an available network connection on network 10.128.0.0 via interface ee0,0
+0,NIFF: node node-211 has detected an available network connection on network 10.128.0.0 via interface ee0,0
+0,NIFF: node node-155 has detected an available network connection on network 10.128.0.0 via interface ee0,0
+0,NIFF: node node-149 has detected an available network connection on network 10.128.0.0 via interface ee0,0
+0,NIFF: node node-12 has detected an available network connection on network 10.128.0.0 via interface ee0,0
+0,NIFF: node node-60 has detected an available network connection on network 10.128.0.0 via interface ee0,0
+0,NIFF: node node-217 has detected an available network connection on network 10.128.0.0 via interface ee0,0
+0,NIFF: node node-112 has detected an available network connection on network 10.128.0.0 via interface ee0,0
+0,NIFF: node node-45 has detected an available network connection on network 10.128.0.0 via interface ee0,0
+0,NIFF: node node-29 has detected an available network connection on network 10.128.0.0 via interface ee0,0
+0,NIFF: node node-72 has detected an available network connection on network 10.128.0.0 via interface ee0,0
+0,NIFF: node node-252 has detected an available network connection on network 10.128.0.0 via interface ee0,0
+0,NIFF: node node-242 has detected an available network connection on network 10.128.0.0 via interface ee0,0
+0,NIFF: node node-115 has detected an available network connection on network 10.128.0.0 via interface ee0,0
+0,NIFF: node node-156 has detected an available network connection on network 10.128.0.0 via interface ee0,0
+0,NIFF: node node-189 has detected an available network connection on network 10.128.0.0 via interface ee0,0
+0,NIFF: node node-220 has detected an available network connection on network 10.128.0.0 via interface ee0,0
+0,NIFF: node node-127 has detected an available network connection on network 10.128.0.0 via interface ee0,0
+0,NIFF: node node-93 has detected an available network connection on network 10.128.0.0 via interface ee0,0
+0,NIFF: node node-151 has detected an available network connection on network 10.128.0.0 via interface ee0,0
+0,NIFF: node node-54 has detected an available network connection on network 10.128.0.0 via interface ee0,0
+0,NIFF: node node-81 has detected an available network connection on network 10.128.0.0 via interface ee0,0
+0,NIFF: node node-59 has detected an available network connection on network 10.128.0.0 via interface ee0,0
+0,NIFF: node node-247 has detected an available network connection on network 10.128.0.0 via interface ee0,0
+0,NIFF: node node-18 has detected an available network connection on network 10.128.0.0 via interface ee0,0
+0,NIFF: node node-17 has detected an available network connection on network 10.128.0.0 via interface ee0,0
+0,NIFF: node node-234 has detected an available network connection on network 10.128.0.0 via interface ee0,0
+0,NIFF: node node-251 has detected an available network connection on network 10.128.0.0 via interface ee0,0
+0,NIFF: node node-232 has detected an available network connection on network 10.128.0.0 via interface ee0,0
+0,NIFF: node node-43 has detected an available network connection on network 10.128.0.0 via interface ee0,0
+0,NIFF: node node-56 has detected an available network connection on network 10.128.0.0 via interface ee0,0
+0,NIFF: node node-184 has detected an available network connection on network 10.128.0.0 via interface ee0,0
+0,NIFF: node node-114 has detected an available network connection on network 10.128.0.0 via interface ee0,0
+0,NIFF: node node-146 has detected an available network connection on network 10.128.0.0 via interface ee0,0
+0,NIFF: node node-141 has detected an available network connection on network 10.128.0.0 via interface ee0,0
+0,NIFF: node node-170 has detected an available network connection on network 10.128.0.0 via interface ee0,0
+0,NIFF: node node-254 has detected an available network connection on network 10.128.0.0 via interface ee0,0
+0,NIFF: node node-31 has detected an available network connection on network 10.128.0.0 via interface ee0,0
+0,NIFF: node node-20 has detected an available network connection on network 10.128.0.0 via interface ee0,0
+0,NIFF: node node-239 has detected an available network connection on network 10.128.0.0 via interface ee0,0
+0,NIFF: node node-11 has detected an available network connection on network 10.128.0.0 via interface ee0,0
+0,NIFF: node node-30 has detected an available network connection on network 10.128.0.0 via interface ee0,0
+0,NIFF: node node-22 has detected an available network connection on network 10.128.0.0 via interface ee0,0
+0,NIFF: node node-19 has detected an available network connection on network 10.128.0.0 via interface ee0,0
+0,NIFF: node node-25 has detected an available network connection on network 10.128.0.0 via interface ee0,0
+0,NIFF: node node-221 has detected an available network connection on network 10.128.0.0 via interface ee0,0
+0,NIFF: node node-214 has detected an available network connection on network 10.128.0.0 via interface ee0,0
+0,NIFF: node node-235 has detected an available network connection on network 10.128.0.0 via interface ee0,0
+0,NIFF: node node-236 has detected an available network connection on network 10.128.0.0 via interface ee0,0
+0,NIFF: node node-219 has detected an available network connection on network 10.128.0.0 via interface ee0,0
+0,NIFF: node node-50 has detected an available network connection on network 10.128.0.0 via interface ee0,0
+0,NIFF: node node-10 has detected an available network connection on network 10.128.0.0 via interface ee0,0
+0,NIFF: node node-109 has detected an available network connection on network 10.128.0.0 via interface ee0,0
+0,NIFF: node node-42 has detected an available network connection on network 10.128.0.0 via interface ee0,0
+0,NIFF: node node-188 has detected an available network connection on network 10.128.0.0 via interface ee0,0
+0,NIFF: node node-178 has detected an available network connection on network 10.128.0.0 via interface ee0,0
+0,NIFF: node node-179 has detected an available network connection on network 10.128.0.0 via interface ee0,0
+0,NIFF: node node-175 has detected an available network connection on network 10.128.0.0 via interface ee0,0
+0,NIFF: node node-253 has detected an available network connection on network 10.128.0.0 via interface ee0,0
+0,NIFF: node node-240 has detected an available network connection on network 10.128.0.0 via interface ee0,0
+0,NIFF: node node-241 has detected an available network connection on network 10.128.0.0 via interface ee0,0
+0,NIFF: node node-176 has detected an available network connection on network 10.128.0.0 via interface ee0,0
+0,NIFF: node node-172 has detected an available network connection on network 10.128.0.0 via interface ee0,0
+0,NIFF: node node-9 has detected an available network connection on network 10.128.0.0 via interface ee0,0
+0,NIFF: node node-222 has detected an available network connection on network 10.128.0.0 via interface ee0,0
+0,NIFF: node node-207 has detected an available network connection on network 10.128.0.0 via interface ee0,0
+0,NIFF: node node-63 has detected an available network connection on network 10.128.0.0 via interface ee0,0
+0,NIFF: node node-55 has detected an available network connection on network 10.128.0.0 via interface ee0,0
+0,NIFF: node node-90 has detected an available network connection on network 10.128.0.0 via interface ee0,0
+0,NIFF: node node-47 has detected an available network connection on network 10.128.0.0 via interface ee0,0
+0,NIFF: node node-136 has detected an available network connection on network 10.128.0.0 via interface ee0,0
+0,NIFF: node node-53 has detected an available network connection on network 10.128.0.0 via interface ee0,0
+0,NIFF: node node-245 has detected an available network connection on network 10.128.0.0 via interface ee0,0
+0,NIFF: node node-255 has detected an available network connection on network 10.128.0.0 via interface ee0,0
+0,NIFF: node node-237 has detected an available network connection on network 10.128.0.0 via interface ee0,0
+0,NIFF: node node-238 has detected an available network connection on network 10.128.0.0 via interface ee0,0
+0,inconsistent nodesets node-<*> 0x000001fe <ok> node-<*> 0x000001fe <ok> node-<*> 0x000001fe <ok> node-<*> 0x000001fe <ok> node-<*> 0x000001fe <ok> node-<*> 0x<*>fe <ok> node-<*> 0x<*>fe <ok> node-<*> 0x<*>fe <ok>,0
+0,inconsistent nodesets node-<*> 0x000001fe <ok> node-<*> 0x000001fe <ok> node-<*> 0x000001fe <ok> node-<*> 0x000001fe <ok> node-<*> 0x000001fe <ok> node-<*> 0x000001fe <ok> node-<*> 0x000<*>1fe <ok> node-<*> 0x000<*>1fe <ok>,0
+0,inconsistent nodesets <*> 0x000001fe <ok> node-<*> <*> <ok> node-<*> 0x000001fe <ok> <*> 0x000001fe <ok> <*> 0x000001fe <ok> node-<*> 0x000001fe <ok> node-<*> 0x000001fe <ok> node-<*> 0x000001fe <ok>,0
+0,inconsistent nodesets node-<*> 0x000001fe <ok> node-<*> 0x000001fe <ok> <*> 0x0<*>fe <ok> <*> 0x000001fe <ok> node-<*> 0x000001fe <ok> node-<*> 0x000001fe <ok> node-<*> 0x000001fe <ok> node-<*> 0x000001fe <ok>,0
+0,inconsistent nodesets node-<*> 0x000001fe <ok> node-<*> 0x000001fe <ok> node-<*> 0x000001fe <ok> node-<*> 0x000001fe <ok> node-<*> 0x000001fe <ok> node-<*> 0x000<*>fe <ok> node-<*> 0x000001fe <ok> node-<*> 0x000001fe <ok>,0
+0,inconsistent nodesets node-<*> 0x<*> <ok> node-<*> <*> <ok> node-<*> <*> <ok> node-<*> <*> <ok> node-<*> <*> <ok> node-<*> <*> <ok> node-<*> <*> <ok> node-<*> <*> <ok> node-<*> <*> <ok> node-<*> <*> <ok> node-<*> <*> <ok> node-<*> <*> <ok> node-<*> <*> <ok> node-<*> <*> <ok> node-<*> <*> <ok> node-<*> <*> <ok>,0
