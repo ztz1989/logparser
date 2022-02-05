@@ -14,7 +14,7 @@ import re
 from tqdm import trange
 import random
 
-from keras.preprocessing.sequence import pad_sequences
+from tensorflow.keras.preprocessing.sequence import pad_sequences
 from collections import defaultdict
 from sklearn.preprocessing import minmax_scale
 from torch.utils.data import Dataset, DataLoader
@@ -431,7 +431,7 @@ class LogParser:
 
 
     def parse(self, logName, batch_size=5, mask_percentage=1.0, pad_len=150, N=1, d_model=256,
-              dropout=0.1,  lr=0.001, betas=(0.9, 0.999), weight_decay=0.005, nr_epochs=5, num_samples=0, step_size=10):
+              dropout=0.1,  lr=0.001, betas=(0.9, 0.999), weight_decay=0.005, nr_epochs=1, num_samples=0, step_size=10):
         self.logName = logName
         self.mask_percentage=mask_percentage
         self.pad_len = pad_len
@@ -463,7 +463,7 @@ class LogParser:
         criterion = nn.CrossEntropyLoss()
         model = self.make_model(self.tokenizer.n_words, self.tokenizer.n_words, N=self.N, d_model=self.d_model, d_ff=self.d_model,
                                 dropout=self.dropout, max_len=self.pad_len)
-        model.cuda()
+        #model.cuda()
         model_opt = torch.optim.Adam(model.parameters(), lr=self.lr, betas=self.betas, weight_decay=self.weight_decay)
        
         for epoch in range(self.nr_epochs):
@@ -607,10 +607,10 @@ class LogParser:
             b_input, b_labels, _ = self.do_mask(batch)
             batch = Batch(b_input, b_labels, 0)
           
-            out = model.forward(batch.src.cuda(), batch.trg.cuda(),
-                                batch.src_mask.cuda(), batch.trg_mask.cuda())
+            out = model.forward(batch.src, batch.trg,
+                                batch.src_mask, batch.trg_mask)
 
-            loss = loss_compute(out, batch.trg_y.cuda(), batch.ntokens)
+            loss = loss_compute(out, batch.trg_y, batch.ntokens)
             total_loss += loss
             total_tokens += batch.ntokens
             tokens += batch.ntokens
@@ -630,8 +630,8 @@ class LogParser:
                 b_input, b_labels, ind = self.do_mask(batch)
 
                 batch = Batch(b_input, b_labels, 0)
-                out = model.forward(batch.src.cuda(), batch.trg.cuda(),
-                                    batch.src_mask.cuda(), batch.trg_mask.cuda())
+                out = model.forward(batch.src, batch.trg,
+                                    batch.src_mask, batch.trg_mask)
                 out_p = model.generator(out)  # batch_size, hidden_dim
 
 
