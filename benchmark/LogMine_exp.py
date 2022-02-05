@@ -19,14 +19,14 @@ benchmark_settings = {
         'levels': 2
         },
 
-    'Hadoop': {
-        'log_file': 'Hadoop/Hadoop_2k.log',
-        'log_format': '<Date> <Time> <Level> \[<Process>\] <Component>: <Content>', 
-        'regex': [r'(\d+\.){3}\d+'],
-        'max_dist': 0.005,
-        'k': 1,
-        'levels': 2
-        },
+    #'Hadoop': {
+        #'log_file': 'Hadoop/Hadoop_2k.log',
+        #'log_format': '<Date> <Time> <Level> \[<Process>\] <Component>: <Content>', 
+        #'regex': [r'(\d+\.){3}\d+'],
+        #'max_dist': 0.005,
+        #'k': 1,
+        #'levels': 2
+        #},
 
     'Spark': {
         'log_file': 'Spark/Spark_2k.log',
