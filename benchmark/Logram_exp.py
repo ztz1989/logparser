@@ -1,4 +1,4 @@
-import sys
+import sys, os
 sys.path.append('../')
 
 from logparser.Logram.DictionarySetUp import dictionaryBuilder
@@ -10,6 +10,7 @@ import time
 import psutil
 
 from logparser.Logram.OnlineParser import OnlineParser
+from datetime import datetime
 
 HDFS_format = '<Date> <Time> <Pid> <Level> <Component>: <Content>'  # HDFS log format
 Android_format = '<Date> <Time>  <Pid>  <Tid> <Level> <Component>: <Content>' #Android log format
@@ -181,7 +182,14 @@ for dataset, setting in benchmark_settings.iteritems():
 	log_file='/root/logparser/logs/'+dataset+'/'+dataset+'_'+str(i)+'k.log'
 	#indir = os.path.join(input_dir, dataset)
 
-	OnlineParser(setting['log_format'], log_file, setting['regex'], 15, 10, 'Logram_result.txt')
+	start_time = datetime.now()
+	OnlineParser(setting['log_format'], log_file, setting['regex'], 15, 10, 'Logram_result/')
+	end_time = datetime.now()
 
-	print(p.cpu_times())
-	print(p.memory_full_info())
+        print('Parsing done. [Time taken: {!s}]'.format(end_time - start_time))
+
+        with open("PT_Logram.txt", "a") as f:
+               f.write(os.path.basename(log_file).split('.')[0]+' '+str(end_time - start_time)+'\n')
+
+	#print(p.cpu_times())
+	#print(p.memory_full_info())
