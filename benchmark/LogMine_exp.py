@@ -46,14 +46,14 @@ benchmark_settings = {
         'levels': 2
         },
 
-    'BGL': {
-        'log_file': 'BGL/BGL_2k.log',
-        'log_format': '<Label> <Timestamp> <Date> <Node> <Time> <NodeRepeat> <Type> <Component> <Level> <Content>',
-        'regex': [r'core\.\d+'],
-        'max_dist': 0.01,
-        'k': 2,
-        'levels': 2
-        },
+    #'BGL': {
+        #'log_file': 'BGL/BGL_2k.log',
+        #'log_format': '<Label> <Timestamp> <Date> <Node> <Time> <NodeRepeat> <Type> <Component> <Level> <Content>',
+        #'regex': [r'core\.\d+'],
+        #'max_dist': 0.01,
+        #'k': 2,
+        #'levels': 2
+        #},
 
     'HPC': {
         'log_file': 'HPC/HPC_2k.log',

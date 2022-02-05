@@ -31,12 +31,12 @@ benchmark_settings = {
         'groupNum': 20
         },
 
-    'Zookeeper': {
-        'log_file': 'Zookeeper/Zookeeper_2k.log',
-        'log_format': '<Date> <Time> - <Level>  \[<Node>:<Component>@<Id>\] - <Content>',
-        'regex': [r'(/|)(\d+\.){3}\d+(:\d+)?'],
-        'groupNum': 46
-        },
+    #'Zookeeper': {
+        #'log_file': 'Zookeeper/Zookeeper_2k.log',
+        #'log_format': '<Date> <Time> - <Level>  \[<Node>:<Component>@<Id>\] - <Content>',
+        #'regex': [r'(/|)(\d+\.){3}\d+(:\d+)?'],
+        #'groupNum': 46
+        #},
 
     #'BGL': {
         #'log_file': 'BGL/BGL_2k.log',
@@ -119,7 +119,7 @@ benchmark_settings = {
         'log_file': 'Mac/Mac_2k.log',
         'log_format': '<Month>  <Date> <Time> <User> <Component>\[<PID>\]( \(<Address>\))?: <Content>',
         'regex': [r'([\w-]+\.){2,}[\w-]+'],
-        'groupNum': 250  
+        'groupNum': 250
         },
 }
 
