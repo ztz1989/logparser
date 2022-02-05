@@ -13,6 +13,7 @@ import sys
 import pandas as pd
 import hashlib
 import numpy as np
+import codecs
 
 SAVEDISTANCE = True
 
@@ -198,14 +199,14 @@ class LogParser:
 
         self.df_log['EventTemplate'] = Templates
         self.df_log['EventId'] = self.df_log['EventTemplate'].map(lambda x: hashlib.md5(x.encode('utf-8')).hexdigest()[0:8])
-        self.df_log.to_csv(os.path.join(self.para.savePath, self.logname + '_structured.csv'), index=False)
+        self.df_log.to_csv(os.path.join(self.para.savePath, self.logname + '_structured.csv'), index=False, encoding='utf-8')
 
         occ_dict = dict(self.df_log['EventTemplate'].value_counts())
         df_event = pd.DataFrame()
         df_event['EventTemplate'] = self.df_log['EventTemplate'].unique()
         df_event['EventId'] = df_event['EventTemplate'].map(lambda x: hashlib.md5(x.encode('utf-8')).hexdigest()[0:8])
         df_event['Occurrences'] = df_event['EventTemplate'].map(occ_dict)
-        df_event.to_csv(os.path.join(self.para.savePath, self.logname + '_templates.csv'), index=False, columns=['EventId', 'EventTemplate', 'Occurrences'])
+        df_event.to_csv(os.path.join(self.para.savePath, self.logname + '_templates.csv'), index=False, columns=['EventId', 'EventTemplate', 'Occurrences'], encoding='utf-8')
 
         if not SAVEDISTANCE:
             os.remove(self.para.savePath+self.logname+'editDistance.csv')
@@ -215,7 +216,7 @@ class LogParser:
         ''' Function to transform log file to dataframe '''
         log_messages = []
         linecount = 0
-        with open(log_file, 'r') as fin:
+        with codecs.open(log_file, 'r', encoding='utf-8', errors='ignore') as fin:
             for line in fin.readlines():
                 try:
                     match = regex.search(line.strip())
@@ -258,8 +259,11 @@ class LogParser:
         self.splitting()
         self.extracting()
         self.writeResultToFile()
-        print('Parsing done. [Time taken: {!s}]'.format(datetime.now() - starttime))
+	endtime = datetime.now()
+        print('Parsing done. [Time taken: {!s}]'.format(endtime - starttime))
 
+	with open("PT_LKE.txt", 'a') as f:
+	    f.write(logname.split('.')[0]+' '+str(endtime-starttime)+'\n')
 
 #merge the list of lists(many layer) into one list of list
 def mergeLists(initGroup,flatLogLineGroups):

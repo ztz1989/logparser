@@ -24,12 +24,12 @@ benchmark_settings = {
         #'groupNum': 30
         #},
 
-    'Spark': {
-        'log_file': 'Spark/Spark_2k.log',
-        'log_format': '<Date> <Time> <Level> <Component>: <Content>',
-        'regex': [r'(\d+\.){3}\d+', r'\b[KGTM]?B\b', r'([\w-]+\.){2,}[\w-]+'],
-        'groupNum': 20
-        },
+    #'Spark': {
+        #'log_file': 'Spark/Spark_2k.log',
+        #'log_format': '<Date> <Time> <Level> <Component>: <Content>',
+        #'regex': [r'(\d+\.){3}\d+', r'\b[KGTM]?B\b', r'([\w-]+\.){2,}[\w-]+'],
+        #'groupNum': 20
+        #},
 
     #'Zookeeper': {
         #'log_file': 'Zookeeper/Zookeeper_2k.log',
@@ -87,12 +87,12 @@ benchmark_settings = {
         #'groupNum': 200
         #},
 
-    'Apache': {
-        'log_file': 'Apache/Apache_2k.log',
-        'log_format': '\[<Time>\] \[<Level>\] <Content>',
-        'regex': [r'(\d+\.){3}\d+'],
-        'groupNum': 8
-        },
+    #'Apache': {
+        #'log_file': 'Apache/Apache_2k.log',
+        #'log_format': '\[<Time>\] \[<Level>\] <Content>',
+        #'regex': [r'(\d+\.){3}\d+'],
+        #'groupNum': 8
+        #},
 
     #'Proxifier': {
         #'log_file': 'Proxifier/Proxifier_2k.log',
@@ -115,12 +115,12 @@ benchmark_settings = {
         #'groupNum': 50
         #},
 
-    'Mac': {
-        'log_file': 'Mac/Mac_2k.log',
-        'log_format': '<Month>  <Date> <Time> <User> <Component>\[<PID>\]( \(<Address>\))?: <Content>',
-        'regex': [r'([\w-]+\.){2,}[\w-]+'],
-        'groupNum': 250
-        },
+    #'Mac': {
+        #'log_file': 'Mac/Mac_2k.log',
+        #'log_format': '<Month>  <Date> <Time> <User> <Component>\[<PID>\]( \(<Address>\))?: <Content>',
+        #'regex': [r'([\w-]+\.){2,}[\w-]+'],
+        #'groupNum': 250
+        #},
 }
 
 bechmark_result = []
