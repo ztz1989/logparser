@@ -81,12 +81,12 @@ benchmark_settings = {
         'split_threshold': 260,
         },
 
-    'HealthApp': {
-        'log_file': 'HealthApp/HealthApp_2k.log',
-        'log_format': '<Time>\|<Component>\|<Pid>\|<Content>',
-        'regex': [],
-        'split_threshold': 50,
-        },
+    #'HealthApp': {
+        #'log_file': 'HealthApp/HealthApp_2k.log',
+        #'log_format': '<Time>\|<Component>\|<Pid>\|<Content>',
+        #'regex': [],
+        #'split_threshold': 50,
+        #},
 
     'Apache': {
         'log_file': 'Apache/Apache_2k.log',
@@ -129,7 +129,7 @@ bechmark_result = []
 for dataset, setting in benchmark_settings.iteritems():
     print('\n=== Evaluation on %s ==='%dataset)
 
-    sizes = [2,4,6,8,10,12,14,16,18,20,30,40,50,60,70,80,90,100]
+    sizes = [2,4,6,8,10,] #12,14,16,18,20,30,40,50,60,70,80,90,100]
 
     for i in sizes:
 	log_file=dataset+'_'+str(i)+'k.log'
