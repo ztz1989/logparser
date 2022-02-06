@@ -7,3 +7,4 @@ HealthApp_12k 1:09:03.504907
 HealthApp_14k 1:57:00.729690
 HealthApp_16k 2:45:57.199602
 HealthApp_18k 2:56:10.608896
+HealthApp_20k 3:52:22.085971

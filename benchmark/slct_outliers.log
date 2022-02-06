@@ -1,25 +1,5 @@
-1	1 failed to configure resourcemgmt subsystem err = 10
-2	1 failed to configure resourcemgmt subsystem err = 10
-3	1 failed to configure resourcemgmt subsystem err = 10
-4	1 failed to configure resourcemgmt subsystem err = 10
-5	1 failed to configure resourcemgmt subsystem err = 10
-4842	NIFF: node node-240 detected a failed network connection on network 10.96.0.0 via interface scip0
-4843	NIFF: node node-241 detected a failed network connection on network 10.96.0.0 via interface scip0
-4903	NIFF: node node-71 detected a failed network connection on network 0.0.0.0 via interface alt0
-4905	NIFF: node node-71 detected a failed network connection on network 0.0.0.0 via interface alt0
-4906	NIFF: node node-14 detected a failed network connection on network 0.0.0.0 via interface alt0
-4913	NIFF: node node-69 detected a failed network connection on network 5.5.0.0 via interface alt0
-4949	NIFF: node node-167 detected a failed network connection on network 10.128.0.0 via interface ee0
-7591	no recent update
-7596	no recent update
-8265	ServerFileSystem domain give_domain is full
-9971	inconsistent nodesets node-98 0x0000000e <ok> node-96 0x00000002 <ok>
-10692	inconsistent nodesets node-2 0x0000000e <ok> node-0 0x00000002 <ok>
-13066	inconsistent nodesets node-231 0x0000077a <ok> node-224 0x0000f77a <ok>
-15181	inconsistent nodesets node-192 0x0000007e <ok> node-196 0x0000003e <ok>
-15353	inconsistent nodesets node-2 0x0000000e <ok> node-0 0x00000002 <ok>
-16153	unknown
-16570	unknown
-16573	unknown
-16601	unknown
-46019	member_delete (command 3914) Error: node-219 is NOT a member of cluster node-D6
+12905	ServerFileSystem domain root_domain is full
+13123	ServerFileSystem domain lsf_domain is full
+13161	ServerFileSystem domain lsf_domain is full
+13167	ServerFileSystem domain lsf_domain is full
+13388	ServerFileSystem domain give_domain is full
