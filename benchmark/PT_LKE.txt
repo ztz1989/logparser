@@ -8,3 +8,8 @@ HealthApp_14k 1:57:00.729690
 HealthApp_16k 2:45:57.199602
 HealthApp_18k 2:56:10.608896
 HealthApp_20k 3:52:22.085971
+HealthApp_30k 8:23:43.150871
+Proxifier_2k 0:02:23.861034
+Proxifier_4k 0:21:49.516804
+Proxifier_6k 0:54:41.724799
+Proxifier_8k 1:32:06.950246
