@@ -17,17 +17,17 @@ benchmark_settings = {
         #'regex': [r'blk_-?\d+', r'(\d+\.){3}\d+(:\d+)?']
         #},
 
-    'Hadoop': {
-        'log_file': 'Hadoop/Hadoop_2k.log',
-        'log_format': '<Date> <Time> <Level> \[<Process>\] <Component>: <Content>', 
-        'regex': [r'(\d+\.){3}\d+']
-        },
+    #'Hadoop': {
+        #'log_file': 'Hadoop/Hadoop_2k.log',
+        #'log_format': '<Date> <Time> <Level> \[<Process>\] <Component>: <Content>', 
+        #'regex': [r'(\d+\.){3}\d+']
+        #},
 
-    'Spark': {
-        'log_file': 'Spark/Spark_2k.log',
-        'log_format': '<Date> <Time> <Level> <Component>: <Content>', 
-        'regex': [r'(\d+\.){3}\d+', r'\b[KGTM]?B\b', r'([\w-]+\.){2,}[\w-]+']
-        },
+    #'Spark': {
+        #'log_file': 'Spark/Spark_2k.log',
+        #'log_format': '<Date> <Time> <Level> <Component>: <Content>', 
+        #'regex': [r'(\d+\.){3}\d+', r'\b[KGTM]?B\b', r'([\w-]+\.){2,}[\w-]+']
+        #},
 
     'Zookeeper': {
         'log_file': 'Zookeeper/Zookeeper_2k.log',
@@ -109,6 +109,7 @@ benchmark_settings = {
 }
 
 bechmark_result = []
+
 for dataset, setting in benchmark_settings.items():
     print('\n=== Evaluation on %s ==='%dataset)
 
