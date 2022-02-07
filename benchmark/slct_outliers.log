@@ -1,0 +1,87 @@
+275	CFPasteboardCopyDataReturn __CFPasteboardCopyData(CFPasteboardRef, CFIndex, CFIndex, CFStringRef, Boolean, Boolean) : Lock timeout
+276	CFPasteboardCopyDataReturn __CFPasteboardCopyData(CFPasteboardRef, CFIndex, CFIndex, CFStringRef, Boolean, Boolean) : Lock timeout
+347	encryptStart 14020
+355	vm_compressor_fastwake_warmup (564226 - 575469) - starting
+383	Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): <*>
+740	wake time set -0.632052 s
+822	AppleCameraGetProperties: SetPropertyNotificationPort status=0xffffffff
+862	<IMMacNotificationCenterManager: 0x7fdcc9d16380>: Updating enabled: NO   (Topics: (
+863	<IMMacNotificationCenterManager: 0x7ff1b2d17980>: Updating enabled: NO   (Topics: (
+893	<IMMacNotificationCenterManager: 0x7fdcc9d16380>: notification observer: <*>   notification: __CFNotification 0x7fdccb1125f0 {name = _NSDoNotDisturbEnabledNotification}
+894	<IMMacNotificationCenterManager: 0x7fdcc9d16380>:   DND Enabled: YES
+895	<IMMacNotificationCenterManager: 0x7ff1b2e00ba0>: Updating enabled: YES   (Topics: (
+995	[CardDAVPlugin-ERROR] -getPrincipalInfo:[_controller supportsRequestCompressionAtURL:https://13957525385%40163.com@<*>/874161398/principal/] Error Domain=NSURLErrorDomain Code=-1009 "The Internet connection appears to be offline." UserInfo={NSUnderlyingError=0x7f9d52a03ed0 {Error Domain=kCFErrorDomainCFNetwork Code=-1009 "The Internet connection appears to be offline." UserInfo={NSErrorFailingURLStringKey=https://13957525385%40163.com@<*>/874161398/principal/, NSErrorFailingURLKey=https://13957525385%40163.com@<*>/874161398/principal/, _kCFStreamErrorCodeKey=8, _kCFStreamErrorDomainKey=12, NSLocalizedDescription=The Internet connection appears to be offline.}}, NSErrorFailingURLStringKey=https://13957525385%40163.com@<*>/874161398/principal/, NSErrorFailingURLKey=https://13957525385%40163.com@<*>/874161398/principal/, _kCFStreamErrorDomainKey=12, _kCFStreamErrorCodeKey=8, NSLocalizedDescription=The Internet connection appears to be offline.}
+1025	[CardDAVPlugin-ERROR] -getPrincipalInfo:[_controller supportsRequestCompressionAtURL:https://13957525385%40163.com@<*>/874161398/principal/] Error Domain=NSURLErrorDomain Code=-1001 "The request timed out." UserInfo={NSUnderlyingError=0x7f9af3646900 {Error Domain=kCFErrorDomainCFNetwork Code=-1001 "The request timed out." UserInfo={NSErrorFailingURLStringKey=https://13957525385%40163.com@<*>/874161398/principal/, NSErrorFailingURLKey=https://13957525385%40163.com@<*>/874161398/principal/, _kCFStreamErrorCodeKey=-2102, _kCFStreamErrorDomainKey=4, NSLocalizedDescription=The request timed out.}}, NSErrorFailingURLStringKey=https://13957525385%40163.com@<*>/874161398/principal/, NSErrorFailingURLKey=https://13957525385%40163.com@<*>/874161398/principal/, _kCFStreamErrorDomainKey=4, _kCFStreamErrorCodeKey=-2102, NSLocalizedDescription=The request timed out.}
+1034	hibernate_rebuild started
+1036	[IOBluetoothHostController::setConfigState] calling registerService
+1043	VDCAssistant:  Found a camera (0x1430000005ac8290) , but was not able to start it up (0x0 -- (os/kern) successful)
+1079	IOBluetoothUSBDFU::probe
+1086	**** [BroadcomBluetoothHostController][SetupController] -- Delay HCI Reset by 300ms  ****
+1104	hibernate_teardown: mark_as_unneeded_pages 4096, 55801, 34612
+1136	<IMMacNotificationCenterManager: 0x7ff1b2e00ba0>:    NC Disabled: NO
+1196	time set +0.410769 s
+1270	wake time set +0.359636 s
+1292	Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): <*>
+1402	(DiskStore.Normal:2382) c001 1.000302
+1403	tcp_connection_destination_perform_socket_connect 10 connectx to 2607:f8b0:4005:80a::200a.443@0 failed: [65] No route to host
+1475	2017-07-04 09:42:57.889 GoogleSoftwareUpdateAgent[34603/0x700000323000] [lvl=2] -[KSAgentApp updateProductWithProductID:usingEngine:] Checking for updates for "<*>" using engine <KSUpdateEngine:0x100610920
+1476	2017-07-04 09:42:57.978 GoogleSoftwareUpdateAgent[34603/0x700000323000] [lvl=2] -[KSOutOfProcessFetcher(PrivateMethods) launchedHelperTaskForToolPath:error:] KSOutOfProcessFetcher launched '/Users/xpc/Library/Google/GoogleSoftwareUpdate/GoogleSoftwareUpdate.bundle/Contents/MacOS/ksfetch' with process id: 34604
+1684	DB Error: 1 "no such table: tb_c2cMsg_2909288299"
+1716	19:16:19.997 ERROR:    177: timed out after 15.000s (0 0); mMajorChangePending=0
+1968	AirPort: RSN handshake complete on en0
+1970	[00:20:39.190] <<< CFByteFlume >>> fbf_TCPConnEventHandler: [0x7f9e9b634e00] tcp_connection succeeded in reconnection attempt.  Network problem appears to be resolved.
+1974	Failed to connect (colorGridView) outlet from (NSApplication) to (NSColorPickerGridView): missing setter or instance variable
+2084	<IMMacNotificationCenterManager: 0x7fdcc9d16380>: notification observer: <*>   notification: __CFNotification 0x7fdccb10fdb0 {name = _NSDoNotDisturbDisabledNotification}
+2106	<IMMacNotificationCenterManager: 0x7ff1b2e00ba0>:    NC Disabled: NO
+2206	hibernate_teardown_pmap_structs done: last_valid_compact_indx 293268
+2214	[IOBluetoothFamily][staticBluetoothTransportShowsUp] -- Received Bluetooth Controller register service notification -- 0x7800
+2229	hibernate_teardown_pmap_structs done: last_valid_compact_indx 297139
+2235	disable_update_timeout: UI updates were forcibly disabled by application "微信" for over 1.00 seconds. Server has re-enabled them.
+2275	Service exited with abnormal code: 1
+2297	Got an XPC error: Connection invalid
+2306	[CardDAVPlugin-ERROR] -getPrincipalInfo:[_controller principalPropertiesAtURL:https://xpc_ben%40163.com@<*>/principals/users/558548ec28fbd965ade28995b355b70d/] Error Domain=NSURLErrorDomain Code=-1009 "The Internet connection appears to be offline." UserInfo={NSUnderlyingError=0x7fa3bb2e46c0 {Error Domain=kCFErrorDomainCFNetwork Code=-1009 "The Internet connection appears to be offline." UserInfo={NSErrorFailingURLStringKey=https://xpc_ben%40163.com@<*>/principals/users/558548ec28fbd965ade28995b355b70d/, NSErrorFailingURLKey=https://xpc_ben%40163.com@<*>/principals/users/558548ec28fbd965ade28995b355b70d/, _kCFStreamErrorCodeKey=57, _kCFStreamErrorDomainKey=1, NSLocalizedDescription=The Internet connection appears to be offline.}}, NSErrorFailingURLStringKey=https://xpc_ben%40163.com@<*>/principals/users/558548ec28fbd965ade28995b355b70d/, NSErrorFailingURLKey=https://xpc_ben%40163.com@<*>/principals/users/558548ec28fbd965ade28995b355b70d/, _kCFStreamErrorDomainKey=1, _kCFStreamErrorCodeKey=57, NSLocalizedDescription=The Internet connection appears to be offline.}
+2358	efi pagecount 72
+2360	IOBluetoothUSBDFU::probe
+2367	encryptStart 14020
+2390	hibernate_page_list_setall(preflight 1) start
+2394	**** [BroadcomBluetoothHostControllerUSBTransport][start] -- Completed (matched on Device) -- 0xe800 ****
+2405	hibernate_teardown: mark_as_unneeded_pages 4096, 55359, 34531
+2415	Host controller terminated
+2420	2017-07-06 00:30:38.995 ksfetch[36444/0x7fff79824000] [lvl=2] -[FetchDelegate fetcher:failedWithError:] Fetcher generated error: Error Domain=NSURLErrorDomain Code=-1009 "The Internet connection appears to be offline." UserInfo={NSUnderlyingError=0x1007319a0 {Error Domain=kCFErrorDomainCFNetwork Code=-1009 "The Internet connection appears to be offline." UserInfo={NSErrorFailingURLStringKey=https://<*>/service/update2?cup2hreq=1a0ffcef35b0476b0ed0eb432c8d31ea408014829966fd6560490d452a136395&cup2key=7:1604381715, NSErrorFailingURLKey=https://<*>/service/update2?cup2hreq=1a0ffcef35b0476b0ed0eb432c8d31ea408014829966fd6560490d452a136395&cup2key=7:1604381715, _kCFStreamErrorCodeKey=8, _kCFStreamErrorDomainKey=12, NSLocalizedDescription=The Internet connection appears to be offline.}}, NSErrorFailingURLStringKey=https://<*>/service/update2?cup2hreq=1a0ffcef35b0476b0ed0eb432c8d31ea408014829966fd6560490d452a136395&cup2key=7:1604381715, NSErrorFailingURLKey=https://<*>/service/update2?cup2hreq=1a0ffcef35b0476b0ed0eb432c8d31ea408014829966fd6560490d452a136395&cup2key=7:1604381715, _kCFStreamErrorDomainKey=12, _kCFStreamErrorCodeKey=8, NSLocalizedDescription=The Internet connection appears to be offline.}
+2422	2017-07-06 00:30:40.167 GoogleSoftwareUpdateAgent[36436/0x7fff79824000] [lvl=2] -[KSAgentApp checkForUpdates] Finished update check.
+2476	hibernate_flush_memory: buffer_cache_gc freed up 1294 wired pages
+2477	hibernate_alloc_pages act 74586, inact 5197, anon 674, throt 0, spec 39324, wire 572805, wireinit 39927
+2486	childFrame with no value: <_SOAPParserFrame: 0x7fbb39564b10> EWSMailboxTypeTypeDefinition:__NSCFString (Inlined Arrays: (null))
+2543	blued: unable to relinquishBluetoothPagingLockAndReply Error Domain=<*> Code=8 "(null)"
+2610	tcp_connection_destination_perform_socket_connect 24081 connectx to <*>:80@0 failed: [65] No route to host
+2663	<IMMacNotificationCenterManager: 0x7ff1b2d17980>:    NC Disabled: NO
+2772	-[WebSocketNetWork webSocketDidOpen:]
+2778	2017-07-06 20:46:05.595 GoogleSoftwareUpdateAgent[37316/0x7000002a0000] [lvl=2] -[KSMultiUpdateAction performAction] KSSilentUpdateAction had no updates to apply.
+2779	2017-07-06 20:46:06.802 GoogleSoftwareUpdateAgent[37316/0x7fff79824000] [lvl=2] -[KSAgentApp checkForUpdates] Finished update check.
+2789	WARNING: Type1 font data isn't in the correct format required by the Adobe Type 1 Font Format specification.
+2819	No items found in keychain
+2846	2017-07-07 01:47:40.090 GoogleSoftwareUpdateAgent[37644/0x7000002a0000] [lvl=2] -[KSOutOfProcessFetcher beginFetchWithDelegate:] KSOutOfProcessFetcher start fetch from URL: "https://<*>/service/update2?cup2hreq=c30943ccd5e0a03e93b6be3e2b7e2127989f08f1bde99263ffee091de8b8bc39&cup2key=7:1039900771"
+2847	2017-07-07 01:47:40.870 GoogleSoftwareUpdateAgent[37644/0x7000002a0000] [lvl=2] -[KSOutOfProcessFetcher(PrivateMethods) helperDidTerminate:] KSOutOfProcessFetcher fetch ended for URL: "https://<*>/service/update2?cup2hreq=c30943ccd5e0a03e93b6be3e2b7e2127989f08f1bde99263ffee091de8b8bc39&cup2key=7:1039900771"
+2849	2017-07-07 01:47:40.899 GoogleSoftwareUpdateAgent[37644/0x7000002a0000] [lvl=2] -[KSMultiUpdateAction performAction] KSPromptAction had no updates to apply.
+2850	2017-07-07 01:47:44.331 GoogleSoftwareUpdateAgent[37644/0x7000002a0000] [lvl=2] -[KSOutOfProcessFetcher(PrivateMethods) helperDidTerminate:] KSOutOfProcessFetcher fetch ended for URL: "https://<*>/service/update2?cup2hreq=96a77dd2c36b0c1f7363f7e0109259f6d9c4d7208696f2d432456adf72145f92&cup2key=7:4002560718"
+3001	DB Error: 1 "no such table: tb_c2cMsg_2909288299"
+3002	Finder(35455) System Policy: deny file-write-create /Volumes/Recovery HD/.Trashes/501
+3005	2017-07-07 10:54:41.165 GoogleSoftwareUpdateAgent[37924/0x7fff79824000] [lvl=2] -[KSAgentApp setupLoggerOutput] Agent settings: <KSAgentSettings:0x10032f010 bundleID=<*> lastCheck=2017-07-07 08:47:46 +0000 checkInterval=18000.000000 uiDisplayInterval=604800.000000 sleepInterval=1800.000000 jitterInterval=900 maxRunInterval=0.000000 isConsoleUser=1 ticketStorePath=/Users/xpc/Library/Google/GoogleSoftwareUpdate/TicketStore/Keystone.ticketstore runMode=3 daemonUpdateEngineBrokerServiceName=<*> daemonAdministrationServiceName=<*> logEverything=0 logBufferSize=2048 alwaysPromptForUpdates=0 productIDToUpdate=(null) lastUIDisplayed=(null) alwaysShowStatusItem=0 updateCheckTag=(null) printResults=NO userInitiated=NO>
+3006	2017-07-07 10:54:41.167 GoogleSoftwareUpdateAgent[37924/0x7000002a0000] [lvl=2] -[KSAgentApp(KeystoneThread) runKeystonesInThreadWithArg:] Starting engine thread
+3011	[11:30:33.236] <<< FigDiskCacheRepository >>> fdcr_GetFileStats: stat failed for /private/var/folders/nt/fvzdv1fn7n1d5bpgqb_wcfxh0000gn/T/<*>/WebKit/MediaCache/CachedMedia-n2ORiK, err = 2
+3020	CoreAnimation: timed out fence 52aab
+3114	<IMMacNotificationCenterManager: 0x7ff1b2d17980>: Updating enabled: NO   (Topics: (
+3166	2017-07-07 17:01:58.313 GoogleSoftwareUpdateAgent[38375/0x7000002a0000] [lvl=2] -[KSAgentApp performSelfUpdateWithEngine:] This process may be killed if self-update is necessary. In such cases, sub-processes may still be running to complete the self-update.
+3167	2017-07-07 17:01:58.542 ksfetch[38376/0x7fff79824000] [lvl=2] main() Fetcher is exiting.
+3169	2017-07-07 17:01:59.511 GoogleSoftwareUpdateAgent[38375/0x7000002a0000] [lvl=2] -[KSAgentApp updateProductWithProductID:usingEngine:] Done checking for updates for '"All Products"' using engine <KSUpdateEngine:0x10201f000
+3256	LaunchServices: Could not store lsd-identifiers file at /private/var/db/lsd/<*>
+3259	UNINSTALLED:<*> <*>(7.55) 48C7E2D3-30AF-4CF2-B6DC-1B68D419EC11 /Applications/Skype.app/Contents/PlugIns/<*>
+3265	<<<< MediaValidator >>>> mv_LookupCodecSupport: Unrecognized codec mp3
+3275	disable_update_timeout: UI updates were forcibly disabled by application "控制台" for over 1.00 seconds. Server has re-enabled them.
+3285	Failed to connect (view) outlet from (NSApplication) to (NSColorPickerGridView): missing setter or instance variable
+3354	[IOBluetoothFamily][staticBluetoothTransportShowsUp] -- Received Bluetooth Controller register service notification -- 0x3800
+3384	**** [BroadcomBluetoothHostControllerUSBTransport][start] -- Completed (matched on Device) -- 0x8800 ****
+3412	IOPolledFilePollersOpen(0) 7 ms
+3465	Arranged view frame: {{0, 0}, {260, 877}}
+3471	ERROR | -[LWBuiltInScreenLockAuthLion closeAuthAndReset:] | Attempted to remove an observer when not observing
+3481	(DiskStore.Normal:2382) 20cb04f 1.000111

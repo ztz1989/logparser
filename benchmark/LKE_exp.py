@@ -39,12 +39,12 @@ benchmark_settings = {
         'split_threshold': 20
         },
 
-    'BGL': {
-        'log_file': 'BGL/BGL_2k.log',
-        'log_format': '<Label> <Timestamp> <Date> <Node> <Time> <NodeRepeat> <Type> <Component> <Level> <Content>',
-        'regex': [r'core\.\d+'],
-        'split_threshold': 30
-        },
+    #'BGL': {
+        #'log_file': 'BGL/BGL_2k.log',
+        #'log_format': '<Label> <Timestamp> <Date> <Node> <Time> <NodeRepeat> <Type> <Component> <Level> <Content>',
+        #'regex': [r'core\.\d+'],
+        #'split_threshold': 30
+        #},
 
     'HPC': {
         'log_file': 'HPC/HPC_2k.log',
