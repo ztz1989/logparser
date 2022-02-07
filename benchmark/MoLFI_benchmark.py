@@ -60,7 +60,7 @@ benchmark_settings = {
         },
 
     'Linux': {
-        'log_file': 'Linux/Linux_2k.log',
+        'log_file': 'Linux/Linux_4k.log',
         'log_format': '<Month> <Date> <Time> <Level> <Component>(\[<PID>\])?: <Content>',
         'regex': [r'(\d+\.){3}\d+', r'\d{2}:\d{2}:\d{2}']
         },
