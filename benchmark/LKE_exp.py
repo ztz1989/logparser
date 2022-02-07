@@ -95,12 +95,12 @@ benchmark_settings = {
         'split_threshold': 5
         },
 
-    'Proxifier': {
-        'log_file': 'Proxifier/Proxifier_2k.log',
-        'log_format': '\[<Time>\] <Program> - <Content>',
-        'regex': [r'<\d+\ssec', r'([\w-]+\.)+[\w-]+(:\d+)?', r'\d{2}:\d{2}(:\d{2})*', r'[KGTM]B'],
-        'split_threshold': 3
-        },
+    #'Proxifier': {
+        #'log_file': 'Proxifier/Proxifier_2k.log',
+        #'log_format': '\[<Time>\] <Program> - <Content>',
+        #'regex': [r'<\d+\ssec', r'([\w-]+\.)+[\w-]+(:\d+)?', r'\d{2}:\d{2}(:\d{2})*', r'[KGTM]B'],
+        #'split_threshold': 3
+        #},
 
     'OpenSSH': {
         'log_file': 'OpenSSH/OpenSSH_2k.log',

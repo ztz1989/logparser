@@ -13,3 +13,4 @@ Proxifier_2k 0:02:23.861034
 Proxifier_4k 0:21:49.516804
 Proxifier_6k 0:54:41.724799
 Proxifier_8k 1:32:06.950246
+Proxifier_10k 2:12:52.906004
