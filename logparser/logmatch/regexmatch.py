@@ -19,11 +19,11 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE 
 # SOFTWARE.
 # =============================================================================
-""" 
-This file implements the regular expression based algorithm for log 
+"""
+This file implements the regular expression based algorithm for log
 template matching. The algorithm is described in the following paper:
 
-[1] Jieming Zhu, Jingyang Liu, Pinjia He, Zibin Zheng, Michael R. Lyu. 
+[1] Jieming Zhu, Jingyang Liu, Pinjia He, Zibin Zheng, Michael R. Lyu.
     "Real-Time Log Event Matching at Scale", XXX, 2018.
 """
 
@@ -91,7 +91,7 @@ class PatternMatch(object):
         return match_list, paras
 
     def read_template_from_csv(self, template_filepath):
-        template_dataframe = pd.read_csv(template_filepath)
+        template_dataframe = pd.read_csv(template_filepath, encoding='utf-8')
         for idx, row in template_dataframe.iterrows():
             event_Id = row['EventId']
             event_template = row['EventTemplate']
@@ -146,25 +146,25 @@ def regex_match(msg, template_match_dict, optimized):
         if start_token in template_match_dict:
             match_dict = template_match_dict[start_token]
             if len(match_dict) > 1:
-                match_dict = OrderedDict(sorted(match_dict.items(), 
+                match_dict = OrderedDict(sorted(match_dict.items(),
                      key=lambda x: (len(x[1][1]), -x[1][1].count('<*>')), reverse=True))
             for regex, event in match_dict.iteritems():
                 parameter_list = re.findall(regex, msg.strip())
                 if parameter_list:
                     matched_event = event
-                    break    
-    
+                    break
+
     if not matched_event:
         if optimized:
             match_dict = template_match_dict['<*>']
         if len(match_dict) > 1:
-            match_dict = OrderedDict(sorted(match_dict.items(), 
+            match_dict = OrderedDict(sorted(match_dict.items(),
                  key=lambda x: (len(x[1][1]), -x[1][1].count('<*>')), reverse=True))
         for regex, event in match_dict.iteritems():
             parameter_list = re.findall(regex, msg.strip())
             if parameter_list:
                 matched_event = event
-                break    
+                break
 
     if not matched_event:
         matched_event = ('NONE', 'NONE')

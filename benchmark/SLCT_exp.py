@@ -31,12 +31,12 @@ benchmark_settings = {
         'support': 30
         },
 
-    'Zookeeper': {
-        'log_file': 'Zookeeper/Zookeeper_2k.log',
-        'log_format': '<Date> <Time> - <Level>  \[<Node>:<Component>@<Id>\] - <Content>',
-        'regex': [r'(/|)(\d+\.){3}\d+(:\d+)?'],
-        'support': 10
-        },
+    #'Zookeeper': {
+        #'log_file': 'Zookeeper/Zookeeper_2k.log',
+        #'log_format': '<Date> <Time> - <Level>  \[<Node>:<Component>@<Id>\] - <Content>',
+        #'regex': [r'(/|)(\d+\.){3}\d+(:\d+)?'],
+        #'support': 10
+        #},
 
     #'BGL': {
         #'log_file': 'BGL/BGL_2k.log',

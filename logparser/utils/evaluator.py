@@ -12,7 +12,7 @@ import scipy.misc
 
 def evaluate(groundtruth, parsedresult):
     """ Evaluation function to benchmark log parsing accuracy
-    
+
     Arguments
     ---------
         groundtruth : str
@@ -24,7 +24,7 @@ def evaluate(groundtruth, parsedresult):
     -------
         f_measure : float
         accuracy : float
-    """ 
+    """
     df_groundtruth = pd.read_csv(groundtruth)
     df_parsedlog = pd.read_csv(parsedresult)
     # Remove invalid groundtruth event Ids
@@ -37,7 +37,6 @@ def evaluate(groundtruth, parsedresult):
 
 def get_accuracy(series_groundtruth, series_parsedlog, debug=False):
     """ Compute accuracy metrics between log parsing results and ground truth
-    
     Arguments
     ---------
         series_groundtruth : pandas.Series
