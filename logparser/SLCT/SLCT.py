@@ -131,7 +131,7 @@ def log_to_dataframe(log_file, regex, headers, logformat):
     return logdf
 
 def generate_logformat_regex(logformat):
-    ''' 
+    '''
     Function to generate regular expression to split log messages
     '''
     headers = []
@@ -168,8 +168,6 @@ def tempProcess(tempPara):
             templates.append([0, line.strip(), 0])
 
     pd.DataFrame(templates, columns=["EventId","EventTemplate","Occurrences"]).to_csv("temp_templates.csv", index=False, encoding='utf-8')
-
-
 
 def matchTempLog(templates, logs):
     len_temp = {}

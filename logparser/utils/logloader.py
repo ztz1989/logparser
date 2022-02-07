@@ -28,6 +28,7 @@ import re
 import multiprocessing as mp
 from itertools import groupby, count, chain
 import numpy as np
+import codecs
 
 class LogLoader(object):
 
@@ -39,15 +40,15 @@ class LogLoader(object):
         self.n_workers = n_workers
 
     def load_to_dataframe(self, log_filepath):
-        """ Function to transform log file to dataframe 
+        """ Function to transform log file to dataframe
         """
         print('Loading log messages to dataframe...')
         lines = []
-        with open(log_filepath, 'r') as fid:
+        with codecs.open(log_filepath, 'r', encoding='utf-8', errors='ignore') as fid:
             lines = fid.readlines()
-        
+
         log_messages = []
-        if self.n_workers == 1: 
+        if self.n_workers == 1:
             log_messages = formalize_message(enumerate(lines), self.regex, self.headers)
         else:
             chunk_size = np.ceil(len(lines) / float(self.n_workers))
