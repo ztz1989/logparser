@@ -10,20 +10,19 @@ input_dir = '../logs/' # The input directory of log file
 output_dir = 'LKE_result/' # The output directory of parsing results
 
 benchmark_settings = {
-    'HDFS': {
-        'log_file': 'HDFS/HDFS_2k.log',
-        'log_format': '<Date> <Time> <Pid> <Level> <Component>: <Content>',
-        'regex': [r'blk_-?\d+', r'(\d+\.){3}\d+(:\d+)?'],
-        'split_threshold': 3
-        },
+    #'HDFS': {
+        #'log_file': 'HDFS/HDFS_2k.log',
+        #'log_format': '<Date> <Time> <Pid> <Level> <Component>: <Content>',
+        #'regex': [r'blk_-?\d+', r'(\d+\.){3}\d+(:\d+)?'],
+        #'split_threshold': 3
+        #},
 
-    'Hadoop': {
-        'log_file':  'Hadoop/Hadoop_2k.log',
-        'log_format': '<Date> <Time> <Level> \[<Process>\] <Component>: <Content>',
-        'regex': [r'(\d+\.){3}\d+'],
-        'split_threshold': 2 
-        # 3
-        },
+    #'Hadoop': {
+        #'log_file':  'Hadoop/Hadoop_2k.log',
+        #'log_format': '<Date> <Time> <Level> \[<Process>\] <Component>: <Content>',
+        #'regex': [r'(\d+\.){3}\d+'],
+        #'split_threshold': 2
+        #},
 
     'Spark': {
         'log_file': 'Spark/Spark_2k.log',
@@ -46,12 +45,12 @@ benchmark_settings = {
         #'split_threshold': 30
         #},
 
-    'HPC': {
-        'log_file': 'HPC/HPC_2k.log',
-        'log_format': '<LogId> <Node> <Component> <State> <Time> <Flag> <Content>',
-        'regex': [r'=\d+'],
-        'split_threshold': 10
-        },
+    #'HPC': {
+        #'log_file': 'HPC/HPC_2k.log',
+        #'log_format': '<LogId> <Node> <Component> <State> <Time> <Flag> <Content>',
+        #'regex': [r'=\d+'],
+        #'split_threshold': 10
+        #},
 
     #'Thunderbird': {
         #'log_file': 'Thunderbird/Thunderbird_2k.log',
@@ -102,19 +101,19 @@ benchmark_settings = {
         #'split_threshold': 3
         #},
 
-    'OpenSSH': {
-        'log_file': 'OpenSSH/OpenSSH_2k.log',
-        'log_format': '<Date> <Day> <Time> <Component> sshd\[<Pid>\]: <Content>',
-        'regex': [r'(\d+\.){3}\d+', r'([\w-]+\.){2,}[\w-]+'],
-        'split_threshold': 100
-        },
+    #'OpenSSH': {
+        #'log_file': 'OpenSSH/OpenSSH_2k.log',
+        #'log_format': '<Date> <Day> <Time> <Component> sshd\[<Pid>\]: <Content>',
+        #'regex': [r'(\d+\.){3}\d+', r'([\w-]+\.){2,}[\w-]+'],
+        #'split_threshold': 100
+        #},
 
-    'OpenStack': {
-        'log_file': 'OpenStack/OpenStack_2k.log',
-        'log_format': '<Logrecord> <Date> <Time> <Pid> <Level> <Component> \[<ADDR>\] <Content>',
-        'regex': [r'((\d+\.){3}\d+,?)+', r'/.+?\s', r'\d+'],
-        'split_threshold': 8
-        },
+    #'OpenStack': {
+        #'log_file': 'OpenStack/OpenStack_2k.log',
+        #'log_format': '<Logrecord> <Date> <Time> <Pid> <Level> <Component> \[<ADDR>\] <Content>',
+        #'regex': [r'((\d+\.){3}\d+,?)+', r'/.+?\s', r'\d+'],
+        #'split_threshold': 8
+        #},
 
     'Mac': {
         'log_file': 'Mac/Mac_2k.log',
