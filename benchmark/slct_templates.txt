@@ -1,100 +1,111 @@
-Started <*> <*> <*> 
-<*> 5 <*> <*> <*> <*> <*> 
-<*> <*> <*> <*> <*> <*> memory <*> <*> <*> <*> <*> <*> <*> 
-<*> <*> <*> <*> <*> <*> <*> blocks 
-<*> <*> <*> <*> <*> it 
+<*> <*> <*> <*> <*> <*> <*> <*> in <*> <*> 
+<*> <*> <*> <*> <*> <*> 0, <*> <*> 
+<*> 4 <*> <*> <*> <*> <*> 
+<*> <*> <*> <*> <*> <*> 4, <*> <*> 
 <*> <*> <*> <*> <*> <*> 2, <*> <*> 
-<*> <*> <*> <*> <*> <*> 6, <*> <*> 
+<*> <*> <*> <*> <*> <*> <*> <*> <*> bytes 
+<*> 2 <*> <*> <*> <*> <*> 
+<*> task <*> <*> <*> <*> <*> <*> 
+<*> <*> remote <*> 
+<*> <*> <*> <*> <*> 1 
+<*> <*> <*> <*> <*> <*> memory <*> <*> <*> <*> <*> <*> <*> 
 Found <*> <*> <*> 
+<*> <*> <*> <*> <*> <*> 22, <*> <*> 
+<*> <*> <*> <*> <*> <*> 6, <*> <*> 
+<*> <*> <*> <*> <*> <*> 32, <*> <*> 
+<*> <*> <*> <*> <*> <*> 28, <*> <*> 
+Starting <*> 
 <*> <*> <*> <*> on <*> <*> 
 <*> block <*> <*> 
-<*> <*> <*> <*> <*> <*> <*> <*> in <*> <*> 
-<*> <*> <*> <*> <*> <*> 29, <*> <*> 
-Starting <*> 
-<*> <*> <*> <*> <*> <*> 7, <*> <*> 
-<*> <*> remote <*> 
-<*> <*> <*> <*> <*> <*> 21, <*> <*> 
 <*> <*> on <*> 
-attempt_201<*>: Committed 
-<*> task <*> <*> <*> <*> <*> 
+<*> RDD <*> 
 <*> broadcast <*> <*> <*> <*> <*> 
+<*> <*> <*> <*> <*> <*> 3, <*> <*> 
+attempt_201<*>: Committed 
 <*> <*> <*> <*> <*> = <*> 
-Got <*> <*> <*> 
-<*> <*> <*> <*> <*> <*> <*> <*> <*> bytes 
 Removed <*> <*> <*> <*> <*> <*> <*> <*> <*> 
+Got <*> <*> <*> 
+<*> to <*> <*> 
+<*> started 
 Removing RDD <*> 
 Input split: <*> 
 Found block rdd_<*> locally 
+Changing <*> acls to: yarn,<*> 
 Got assigned task <*> 
+Found block rdd_2_29 locally 
+Found block rdd_2_38 locally 
 <*> task <*> in stage <*> (TID <*> 
+Changing <*> acls to: yarn,curi 
 Started reading broadcast variable <*> 
-<*> task <*> in stage 2.0 (TID <*> 
-<*> task 30.0 in stage <*>.0 (TID <*> 
+<*> task 36.0 in stage <*> (TID <*> 
+<*> task 17.0 in stage <*> (TID <*> 
+<*> task <*> in stage 1.0 (TID <*> 
 Started <*> remote fetches in <*> ms 
-Saved output of task 'attempt_201<*>' to hdfs://<*>:9000/pjhe/test/<*> 
-Reading broadcast variable <*> took <*> ms 
 Partition rdd_<*> not found, computing it 
+Saved output of task 'attempt_201<*>' to hdfs://<*>:9000/pjhe/test/<*> 
 Running task <*> in stage <*> (TID <*>) 
+Reading broadcast variable <*> took <*> ms 
 Reading broadcast variable <*> took 2 ms 
-Reading broadcast variable <*> took 3 ms 
-Running task 39.0 in stage <*>.0 (TID <*>) 
-Running task 37.0 in stage <*>.0 (TID <*>) 
-Running task 6.0 in stage <*>.0 (TID <*>) 
-Running task 30.0 in stage <*>.0 (TID <*>) 
-Running task 27.0 in stage <*>.0 (TID <*>) 
 Running task 14.0 in stage <*>.0 (TID <*>) 
-Running task 35.0 in stage <*>.0 (TID <*>) 
-Running task 32.0 in stage <*>.0 (TID <*>) 
-Running task 23.0 in stage <*>.0 (TID <*>) 
-Started 3 remote fetches in <*> ms 
-Running task 21.0 in stage <*>.0 (TID <*>) 
-Running task 7.0 in stage <*> (TID <*>) 
-Running task 26.0 in stage <*> (TID <*>) 
-Running task 34.0 in stage <*> (TID <*> 
-Started 4 remote fetches in <*> ms 
-Running task 28.0 in stage <*>.0 (TID <*>) 
-Running task 33.0 in stage <*>.0 (TID <*>) 
-Running task 3.0 in stage <*>.0 (TID <*>) 
-Running task 12.0 in stage <*>.0 (TID <*>) 
-Running task 22.0 in stage <*>.0 (TID <*>) 
-Running task 4.0 in stage <*> (TID <*>) 
 Reading broadcast variable <*> took 4 ms 
-Running task 25.0 in stage <*>.0 (TID <*>) 
-Running task 31.0 in stage <*>.0 (TID <*>) 
-Running task 17.0 in stage <*>.0 (TID <*>) 
-Started <*> remote fetches in 2 ms 
-Running task 18.0 in stage <*>.0 (TID <*>) 
-Running task 13.0 in stage <*>.0 (TID <*>) 
+Reading broadcast variable <*> took 3 ms 
 Running task 38.0 in stage <*>.0 (TID <*>) 
-Reading broadcast variable <*> took 6 ms 
-Running task 16.0 in stage <*>.0 (TID <*>) 
-Started <*> remote fetches in 1 ms 
-Running task 19.0 in stage <*>.0 (TID <*>) 
-Started <*> remote fetches in 0 ms 
-Running task 36.0 in stage <*>.0 (TID <*>) 
+Running task 35.0 in stage <*>.0 (TID <*>) 
+Running task 1.0 in stage <*>.0 (TID <*>) 
+Running task 25.0 in stage <*>.0 (TID <*>) 
+Running task 34.0 in stage <*>.0 (TID <*>) 
+Running task 17.0 in stage <*>.0 (TID <*>) 
+Running task 30.0 in stage <*>.0 (TID <*>) 
 Running task 20.0 in stage <*>.0 (TID <*>) 
-Reading broadcast variable <*> took 7 ms 
-Running task 29.0 in stage <*> (TID <*>) 
-Running task 24.0 in stage <*>.0 (TID <*>) 
-Running task 15.0 in stage <*>.0 (TID <*>) 
-Running task 2.0 in stage <*>.0 (TID <*>) 
-Running task 1.0 in stage <*> (TID <*>) 
+Running task 29.0 in stage <*>.0 (TID <*>) 
+Running task 15.0 in stage <*>.0 (TID <*> 
 Running task 5.0 in stage <*>.0 (TID <*>) 
-Running task 0.0 in stage <*>.0 (TID <*>) 
-Running task 10.0 in stage <*>.0 (TID <*>) 
-Reading broadcast variable <*> took 5 ms 
+Running task 21.0 in stage <*>.0 (TID <*>) 
+Running task 23.0 in stage <*> (TID <*>) 
+Running task 13.0 in stage <*>.0 (TID <*>) 
+Started 3 remote fetches in <*> ms 
+Running task 31.0 in stage <*>.0 (TID <*>) 
+Running task 32.0 in stage <*>.0 (TID <*>) 
+Running task 6.0 in stage <*>.0 (TID <*>) 
+Started 5 remote fetches in <*> ms 
+Started 4 remote fetches in <*> ms 
+Running task 27.0 in stage <*> (TID <*>) 
+Running task 18.0 in stage <*>.0 (TID <*>) 
+Running task 39.0 in stage <*>.0 (TID <*>) 
 Running task 11.0 in stage <*>.0 (TID <*>) 
-Running task 8.0 in stage <*>.0 (TID <*>) 
+Running task 19.0 in stage <*>.0 (TID <*>) 
+Started <*> remote fetches in 1 ms 
+Started <*> remote fetches in 0 ms 
+Running task 22.0 in stage <*>.0 (TID <*>) 
+Running task 16.0 in stage <*>.0 (TID <*>) 
+Running task 28.0 in stage <*>.0 (TID <*>) 
 Getting <*> non-empty blocks out of <*> blocks 
-Running task 9.0 in stage <*>.0 (TID <*>) 
+Running task 0.0 in stage <*> (TID <*>) 
+Running task 24.0 in stage <*>.0 (TID <*>) 
+Running task 10.0 in stage <*> (TID <*>) 
+Running task 36.0 in stage <*>.0 (TID <*>) 
+Running task 33.0 in stage <*>.0 (TID <*>) 
+Running task 37.0 in stage <*>.0 (TID <*>) 
+Running task 26.0 in stage <*>.0 (TID <*>) 
+Running task 9.0 in stage <*> (TID <*>) 
+Running task 8.0 in stage <*> (TID <*>) 
+Running task 2.0 in stage <*>.0 (TID <*>) 
+Running task 4.0 in stage <*> (TID <*>) 
+Running task 7.0 in stage <*>.0 (TID <*>) 
+Reading broadcast variable <*> took 7 ms 
+Running task 12.0 in stage <*> (TID <*>) 
+Reading broadcast variable <*> took 6 ms 
+Running task 3.0 in stage <*>.0 (TID <*>) 
 Reading broadcast variable <*> took 8 ms 
+Reading broadcast variable <*> took 5 ms 
 Getting <*> non-empty blocks out of 1920 blocks 
 Getting <*> non-empty blocks out of 960 blocks 
-Started 4 remote fetches in 0 ms 
-Getting 9<*> non-empty blocks out of 1890 blocks 
-Started 6 remote fetches in 1 ms 
 Getting <*> non-empty blocks out of 480 blocks 
+Started 5 remote fetches in 1 ms 
+Started 4 remote fetches in 0 ms 
 Started 4 remote fetches in 1 ms 
+Getting 9<*> non-empty blocks out of 1890 blocks 
+Started 6 remote fetches in 2 ms 
 Starting task <*> in stage <*> (TID <*>, mesos-<*>, partition <*>_LOCAL, <*> bytes) 
 File Output Committer Algorithm version is 1 
 Getting 93 non-empty blocks out of 1920 blocks 
@@ -104,363 +115,433 @@ Getting 247 non-empty blocks out of 450 blocks
 Finished task <*> in stage <*> (TID <*>) in <*> ms on mesos-<*> (<*>) 
 Removed broadcast_<*> on <*> in memory (size: <*> <*>, free: <*> <*>) 
 Added <*> in memory on <*> (size: <*> <*>, free: <*> <*>) 
+Added broadcast_<*> in memory on mesos-<*> (size: <*> <*>, free: 10.8 <*>) 
+Added broadcast_<*> in memory on mesos-<*> (size: <*> <*>, free: 11.1 <*>) 
+Added <*> in memory on mesos-<*> (size: <*> <*>, free: 11.4 <*>) 
+Added <*> in memory on mesos-<*> (size: <*> <*>, free: 11.5 <*>) 
+Added <*> in memory on mesos-<*> (size: <*> <*>, free: 13.0 <*>) 
+Added <*> in memory on mesos-<*> (size: <*> <*>, free: 13.9 <*>) 
+Added broadcast_<*> in memory on mesos-<*> (size: <*> <*>, free: 12.3 <*>) 
+Added <*> in memory on mesos-<*> (size: <*> <*>, free: 14.0 <*>) 
+Added <*> in memory on mesos-<*> (size: <*> <*>, free: 12.9 <*>) 
 Added broadcast_<*> in memory on mesos-<*> (size: <*> <*>, free: 12.8 <*>) 
-Added broadcast_<*> in memory on mesos-<*> (size: <*> <*>, free: 10.2 <*>) 
-Added broadcast_<*> in memory on mesos-<*> (size: <*> <*>, free: 2.6 <*>) 
 Removed broadcast_<*> on <*> in memory (size: 4.0 <*>, free: <*> <*>) 
 Added broadcast_<*> in memory on <*> (size: 4.0 <*>, free: <*> <*>) 
+Added broadcast_<*> in memory on <*> (size: <*> <*>, free: 2.6 <*>) 
+Removed broadcast_<*> on mesos-<*> in memory (size: <*> <*>, free: 2.6 <*>) 
 Times: total = <*>, boot = <*>, init = <*>, finish = <*> 
-Times: total = 45, boot = <*> init = <*>, finish = <*> 
-Times: total = 42, boot = <*>, init = <*>, finish = <*> 
-Times: total = 47, boot = <*>, init = <*>, finish = <*> 
-Times: total = 39, boot = <*>, init = <*>, finish = <*> 
-Added broadcast_<*> in memory on mesos-<*> (size: 4.0 <*>, free: 10.4 <*>) 
-Added broadcast_<*> in memory on mesos-<*> (size: 4.0 <*>, free: 10.5 <*>) 
-Added broadcast_<*> in memory on mesos-<*> (size: 4.0 <*>, free: 10.2 <*>) 
-Added broadcast_<*> in memory on mesos-<*> (size: 4.0 <*>, free: 11.2 <*>) 
-Added broadcast_<*> in memory on mesos-<*> (size: 4.0 <*>, free: 12.4 <*>) 
-Times: total = <*>, boot = 19, init = <*>, finish = <*> 
-Times: total = <*>, boot = 17, init = <*> finish = <*> 
-Added broadcast_<*> in memory on mesos-<*> (size: 4.0 <*>, free: 12.5 <*>) 
-Added broadcast_<*> in memory on mesos-<*> (size: 4.0 <*>, free: 12.2 <*>) 
-Added broadcast_<*> in memory on mesos-<*> (size: 4.0 <*>, free: 12.9 <*>) 
-Added broadcast_<*> in memory on <*> (size: 4.0 <*>, free: 13.1 <*>) 
-Added broadcast_<*> in memory on mesos-<*> (size: 4.0 <*>, free: 12.8 <*>) 
-Added broadcast_<*> in memory on mesos-<*> (size: 4.0 <*>, free: 13.6 <*>) 
-Added broadcast_<*> in memory on mesos-<*> (size: 4.0 <*>, free: 13.4 <*>) 
-Added broadcast_<*> in memory on mesos-<*> (size: 4.0 <*>, free: 13.5 <*>) 
-Added broadcast_<*> in memory on mesos-<*> (size: 4.0 <*>, free: 13.7 <*>) 
-Added broadcast_<*> in memory on mesos-<*> (size: 4.0 <*>, free: 14.1 <*>) 
-Added broadcast_<*> in memory on mesos-<*> (size: 4.0 <*>, free: 14.0 <*>) 
-Added broadcast_<*> in memory on mesos-<*> (size: 4.0 <*>, free: 13.9 <*>) 
-Times: total = 37, boot = <*>, init = <*>, finish = <*> 
-Times: total = <*>, boot = 6, init = <*>, finish = <*> 
-Times: total = 49, boot = <*>, init = <*>, finish = <*> 
-Times: total = <*>, boot = 25, init = <*>, finish = <*> 
-Times: total = <*>, boot = -18, init = <*>, finish = <*> 
-Times: total = <*>, boot = -<*>, init = 54, finish = <*> 
-Times: total = <*>, boot = <*> init = 72, finish = <*> 
-Times: total = 43, boot = <*>, init = <*>, finish = <*> 
-Times: total = <*>, boot = -4, init = <*>, finish = <*> 
-Times: total = <*>, boot = <*>, init = 48, finish = <*> 
-Times: total = <*>, boot = 18, init = <*>, finish = <*> 
-Times: total = <*>, boot = 22, init = <*>, finish = <*> 
-Times: total = <*>, boot = -2, init = <*> finish = <*> 
-Times: total = <*>, boot = -<*>, init = 79, finish = <*> 
-Times: total = <*>, boot = -<*>, init = 65, finish = <*> 
-Times: total = 53, boot = <*>, init = <*>, finish = <*> 
-Times: total = <*>, boot = -<*>, init = 73, finish = <*> 
-Times: total = <*>, boot = <*> init = 68, finish = <*> 
-Times: total = <*>, boot = <*> init = 55, finish = <*> 
-Times: total = <*>, boot = -<*>, init = 84, finish = <*> 
-Times: total = <*>, boot = <*>, init = 43, finish = <*> 
-Times: total = <*>, boot = -<*>, init = 83, finish = <*> 
-Times: total = <*>, boot = <*> init = 76, finish = <*> 
-Times: total = <*>, boot = -<*>, init = 60, finish = <*> 
-Times: total = 52, boot = <*>, init = <*>, finish = <*> 
-Times: total = <*>, boot = <*> init = 71, finish = <*> 
-Times: total = <*>, boot = <*>, init = 70, finish = <*> 
-Times: total = <*>, boot = <*> init = 59, finish = <*> 
-Times: total = <*>, boot = <*>, init = 1, finish = <*> 
-Times: total = 44, boot = <*>, init = <*>, finish = <*> 
-Times: total = <*>, boot = -<*>, init = 78, finish = <*> 
-Times: total = <*>, boot = <*> init = 61, finish = <*> 
-Times: total = 40, boot = <*>, init = <*>, finish = <*> 
-Times: total = <*>, boot = <*> init = 51, finish = <*> 
-Times: total = <*>, boot = -<*>, init = 57, finish = <*> 
-Times: total = <*>, boot = <*> init = 44, finish = <*> 
-Times: total = <*>, boot = -40, init = <*>, finish = <*> 
-Times: total = <*>, boot = -<*>, init = 50, finish = <*> 
-Times: total = <*>, boot = <*>, init = 62, finish = <*> 
-Times: total = 46, boot = <*>, init = <*> finish = <*> 
-Times: total = <*>, boot = -<*>, init = 81, finish = <*> 
-Times: total = 38, boot = <*>, init = <*>, finish = <*> 
-Times: total = <*>, boot = <*>, init = 49, finish = <*> 
-Times: total = <*>, boot = <*> init = 46, finish = <*> 
-Times: total = <*>, boot = -<*>, init = 63, finish = <*> 
-Times: total = <*>, boot = -<*>, init = 74, finish = <*> 
-Times: total = <*>, boot = <*> init = 52, finish = <*> 
-Times: total = <*>, boot = <*> init = 64, finish = <*> 
-Times: total = <*>, boot = <*> init = 80, finish = <*> 
+Times: total = <*>, boot = 9, init = <*> finish = <*> 
+Times: total = 46, boot = <*>, init = <*>, finish = <*> 
+Times: total = <*>, boot = 15, init = <*> finish = <*> 
+Times: total = <*>, boot = 7, init = <*>, finish = <*> 
+Times: total = <*>, boot = <*> init = <*>, finish = 2 
 Times: total = <*>, boot = <*>, init = <*>, finish = 0 
+Times: total = 42, boot = <*>, init = <*>, finish = <*> 
 Times: total = <*>, boot = 5, init = <*>, finish = <*> 
-Times: total = <*>, boot = -1, init = <*>, finish = <*> 
+Times: total = <*>, boot = -<*>, init = 54, finish = <*> 
+Times: total = <*>, boot = <*>, init = 7, finish = <*> 
+Added broadcast_<*> in memory on mesos-<*> (size: 4.0 <*>, free: 11.4 <*>) 
+Added broadcast_<*> in memory on mesos-<*> (size: 4.0 <*>, free: 11.5 <*>) 
+Added broadcast_<*> in memory on mesos-<*> (size: 4.0 <*>, free: 10.6 <*>) 
+Added broadcast_<*> in memory on mesos-<*> (size: 4.0 <*>, free: 11.1 <*>) 
+Added broadcast_<*> in memory on mesos-<*> (size: 4.0 <*>, free: 10.8 <*>) 
+Added broadcast_<*> in memory on mesos-<*> (size: 4.0 <*>, free: 10.5 <*>) 
+Added broadcast_<*> in memory on <*> (size: 4.0 <*>, free: 10.7 <*>) 
+Added broadcast_<*> in memory on mesos-<*> (size: 4.0 <*>, free: 11.9 <*>) 
+Added broadcast_<*> in memory on mesos-<*> (size: 4.0 <*>, free: 11.2 <*>) 
+Added broadcast_<*> in memory on mesos-<*> (size: 4.0 <*>, free: 10.4 <*>) 
+Added broadcast_<*> in memory on mesos-<*> (size: 4.0 <*>, free: 11.3 <*>) 
+Added broadcast_<*> in memory on mesos-<*> (size: 4.0 <*>, free: 10.1 <*>) 
+Added broadcast_<*> in memory on mesos-<*> (size: 4.0 <*>, free: 12.3 <*>) 
+Added broadcast_<*> in memory on mesos-<*> (size: 4.0 <*>, free: 12.0 <*>) 
+Added broadcast_<*> in memory on <*> (size: 4.0 <*>, free: 11.8 <*>) 
+Added broadcast_<*> in memory on mesos-<*> (size: 4.0 <*>, free: 12.4 <*>) 
+Added broadcast_<*> in memory on mesos-<*> (size: 4.0 <*>, free: 13.9 <*>) 
+Times: total = <*>, boot = 13, init = <*>, finish = <*> 
+Added broadcast_<*> in memory on mesos-<*> (size: 4.0 <*>, free: 12.9 <*>) 
+Added broadcast_<*> in memory on mesos-<*> (size: 4.0 <*>, free: 13.1 <*>) 
+Added broadcast_<*> in memory on mesos-<*> (size: 4.0 <*>, free: 13.2 <*>) 
+Added broadcast_<*> in memory on mesos-<*> (size: 4.0 <*>, free: 12.6 <*>) 
+Added broadcast_<*> in memory on mesos-<*> (size: 4.0 <*>, free: 12.8 <*>) 
+Added broadcast_<*> in memory on mesos-<*> (size: 4.0 <*>, free: 13.7 <*>) 
+Added broadcast_<*> in memory on mesos-<*> (size: 4.0 <*>, free: 12.7 <*>) 
+Added broadcast_<*> in memory on mesos-<*> (size: 4.0 <*>, free: 13.5 <*>) 
+Added broadcast_<*> in memory on mesos-<*> (size: 4.0 <*>, free: 13.3 <*>) 
+Added broadcast_<*> in memory on mesos-<*> (size: 4.0 <*>, free: 13.4 <*>) 
+Added broadcast_<*> in memory on mesos-<*> (size: 4.0 <*>, free: 13.0 <*>) 
+Added broadcast_<*> in memory on mesos-<*> (size: 4.0 <*>, free: 13.8 <*>) 
+Added broadcast_<*> in memory on mesos-<*> (size: 4.0 <*>, free: 14.0 <*>) 
+Times: total = <*>, boot = -<*>, init = 77, finish = <*> 
+Times: total = <*>, boot = -4, init = <*>, finish = <*> 
+Times: total = <*>, boot = <*> init = 83, finish = <*> 
+Times: total = <*>, boot = -<*>, init = 45, finish = <*> 
+Times: total = <*>, boot = -<*>, init = 72, finish = <*> 
+Times: total = <*>, boot = -5, init = <*>, finish = <*> 
+Times: total = <*>, boot = <*> init = 70, finish = <*> 
+Times: total = <*>, boot = -<*>, init = 76, finish = <*> 
+Times: total = <*>, boot = <*> init = 79, finish = <*> 
+Times: total = <*>, boot = -<*>, init = 59, finish = <*> 
+Times: total = <*>, boot = -2, init = <*> finish = <*> 
+Times: total = <*>, boot = -<*>, init = 58, finish = <*> 
+Times: total = <*>, boot = -<*>, init = 80, finish = <*> 
+Times: total = <*>, boot = 23, init = <*>, finish = <*> 
+Times: total = <*>, boot = -43, init = <*>, finish = <*> 
+Times: total = <*>, boot = <*>, init = 1, finish = <*> 
+Times: total = 49, boot = <*>, init = <*>, finish = <*> 
+Times: total = 48, boot = <*>, init = <*>, finish = <*> 
+Times: total = <*>, boot = <*> init = 46, finish = <*> 
+Times: total = <*>, boot = <*> init = 65, finish = <*> 
+Times: total = <*>, boot = -<*>, init = 74, finish = <*> 
+Times: total = 37, boot = <*>, init = <*>, finish = <*> 
+Times: total = 47, boot = <*>, init = <*>, finish = <*> 
+Times: total = <*>, boot = <*>, init = 53, finish = <*> 
+Times: total = <*>, boot = -3, init = <*> finish = <*> 
+Times: total = <*>, boot = 28, init = <*>, finish = <*> 
+Times: total = 43, boot = <*>, init = <*>, finish = <*> 
+Times: total = 52, boot = <*>, init = <*>, finish = <*> 
+Times: total = 54, boot = <*>, init = <*>, finish = <*> 
+Times: total = <*>, boot = -<*>, init = 49, finish = <*> 
+Times: total = <*>, boot = 19, init = <*>, finish = <*> 
+Times: total = <*>, boot = <*> init = 62, finish = <*> 
+Times: total = <*>, boot = 14, init = <*>, finish = <*> 
+Times: total = <*>, boot = 3, init = <*>, finish = <*> 
+Times: total = <*>, boot = -<*>, init = 55, finish = <*> 
+Times: total = 38, boot = <*>, init = <*>, finish = <*> 
+Times: total = <*>, boot = 10, init = <*>, finish = <*> 
+Times: total = <*>, boot = <*> init = 57, finish = <*> 
+Times: total = <*>, boot = -<*>, init = 67, finish = <*> 
+Times: total = <*>, boot = -<*>, init = 60, finish = <*> 
+Times: total = <*>, boot = <*> init = 84, finish = <*> 
 Times: total = <*>, boot = 4, init = <*>, finish = <*> 
-Times: total = <*>, boot = <*>, init = <*>, finish = 1 
-Times: total = <*>, boot = 1, init = <*>, finish = <*> 
+Times: total = <*>, boot = <*> init = 73, finish = <*> 
+Times: total = <*>, boot = <*> init = 81, finish = <*> 
+Times: total = <*>, boot = <*> init = 88, finish = <*> 
+Times: total = <*>, boot = <*> init = 47, finish = <*> 
+Times: total = <*>, boot = -<*>, init = 66, finish = <*> 
+Times: total = <*>, boot = -1, init = <*>, finish = <*> 
+Times: total = <*>, boot = -<*>, init = 52, finish = <*> 
+Times: total = <*>, boot = <*>, init = 0, finish = <*> 
+Times: total = 50, boot = <*>, init = <*>, finish = <*> 
+Times: total = <*>, boot = -<*>, init = 68, finish = <*> 
+Times: total = <*>, boot = <*> init = 48, finish = <*> 
+Times: total = <*>, boot = <*> init = 78, finish = <*> 
+Times: total = <*>, boot = -<*>, init = 69, finish = <*> 
+Times: total = <*>, boot = -<*>, init = 51, finish = <*> 
+Times: total = <*>, boot = -<*>, init = 50, finish = <*> 
+Times: total = <*>, boot = -<*>, init = 71, finish = <*> 
+Times: total = <*>, boot = <*> init = 75, finish = <*> 
+Times: total = 39, boot = <*>, init = <*>, finish = <*> 
+Removed broadcast_<*> on mesos-<*> in memory (size: 4.0 <*>, free: 2.6 <*>) 
+Added broadcast_<*> in memory on <*> (size: 4.0 <*>, free: 2.6 <*>) 
+Times: total = <*>, boot = -<*>, init = 64, finish = <*> 
 Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver 
-Times: total = <*> boot = <*> init = 21, finish = 0 
-Times: total = <*>, boot = 14, init = <*>, finish = 0 
-Times: total = <*>, boot = <*>, init = 9, finish = 0 
-Times: total = <*> boot = -29, init = <*> finish = 0 
-Times: total = <*>, boot = -32, init = <*>, finish = 0 
-Times: total = <*>, boot = -25, init = <*>, finish = 0 
-Times: total = <*> boot = -36, init = <*> finish = 0 
-Times: total = <*>, boot = -21, init = <*>, finish = 0 
+Times: total = <*>, boot = -18, init = <*>, finish = 0 
+Times: total = <*>, boot = <*>, init = 29, finish = 0 
+Times: total = <*>, boot = <*>, init = 38, finish = 0 
+Times: total = <*>, boot = <*>, init = 7, finish = 0 
+Times: total = <*>, boot = -36, init = <*>, finish = 0 
+Times: total = <*>, boot = -24, init = <*>, finish = 0 
+Times: total = <*>, boot = -33, init = <*>, finish = 0 
 Times: total = <*>, boot = <*>, init = 16, finish = 0 
-Times: total = <*>, boot = <*>, init = 0, finish = 0 
-Times: total = <*>, boot = -26, init = <*>, finish = 0 
-Times: total = <*>, boot = -34, init = <*>, finish = 0 
-Times: total = <*> boot = <*> init = 18, finish = 0 
-Times: total = 47, boot = <*>, init = <*>, finish = 0 
-Times: total = <*> boot = -16, init = <*> finish = 0 
-Times: total = 48, boot = <*>, init = <*>, finish = 0 
-Times: total = <*>, boot = -30, init = <*>, finish = 0 
-Times: total = <*> boot = -23, init = <*> finish = 0 
 Times: total = <*>, boot = -31, init = <*>, finish = 0 
-Times: total = <*>, boot = -27, init = <*>, finish = 0 
-Times: total = <*> boot = 19, init = <*> finish = 0 
-Finished task 13.0 in stage <*>.0 (TID <*>). <*> bytes result sent to driver 
-Finished task 35.0 in stage <*>.0 (TID <*>). <*> bytes result sent to driver 
-Finished task 19.0 in stage <*>.0 (TID <*>). 2<*> bytes result sent to driver 
-Finished task 37.0 in stage <*>.0 (TID <*>). <*> bytes result sent to driver 
-Finished task 31.0 in stage <*>.0 (TID <*>). <*> bytes result sent to driver 
-Finished task 11.0 in stage <*>.0 (TID <*>). <*> bytes result sent to driver 
-Finished task 25.0 in stage <*>.0 (TID <*>). 2<*> bytes result sent to driver 
-Finished task 21.0 in stage <*>.0 (TID <*>). <*> bytes result sent to driver 
-Finished task 20.0 in stage <*>.0 (TID <*>). <*> bytes result sent to driver 
-Finished task <*>.0 in stage <*>.0 (TID <*>). 2364 bytes result sent to driver 
-Finished task 38.0 in stage <*>.0 (TID <*>). <*> bytes result sent to driver 
-Finished task 26.0 in stage <*>.0 (TID <*>). <*> bytes result sent to driver 
-Times: total = <*>, boot = <*>, init = 28, finish = 0 
-Times: total = 38, boot = <*>, init = <*>, finish = 1 
-Times: total = 43, boot = <*>, init = <*>, finish = 0 
-Times: total = <*>, boot = <*>, init = 41, finish = 0 
-Times: total = 42, boot = <*>, init = <*>, finish = 1 
-Times: total = <*>, boot = <*>, init = 1, finish = 0 
-Finished task 32.0 in stage <*>.0 (TID <*>). 2<*> bytes result sent to driver 
-Times: total = 42, boot = <*>, init = <*>, finish = 0 
-Times: total = 45, boot = <*> init = <*>, finish = 0 
-Finished task 18.0 in stage <*>.0 (TID <*>). 2<*> bytes result sent to driver 
-Times: total = 43, boot = <*>, init = <*>, finish = 1 
-Times: total = 40, boot = <*>, init = <*>, finish = 1 
-Times: total = 39, boot = <*>, init = <*>, finish = 1 
-Finished task 27.0 in stage <*>.0 (TID <*>). 2<*> bytes result sent to driver 
-Times: total = 41, boot = <*>, init = <*>, finish = 1 
-Times: total = 44, boot = <*>, init = <*>, finish = 0 
-Finished task 6.0 in stage <*>.0 (TID <*>). <*> bytes result sent to driver 
-Times: total = 40, boot = <*>, init = <*>, finish = 0 
-Times: total = 37, boot = <*>, init = <*>, finish = 0 
-Times: total = 39, boot = <*> init = <*> finish = 0 
-Finished task 7.0 in stage <*> (TID <*>). <*> bytes result sent to driver 
-Finished task 34.0 in stage <*>.0 (TID <*>). <*> bytes result sent to driver 
-Finished task 33.0 in stage <*>.0 (TID <*>). <*> bytes result sent to driver 
-Finished task 30.0 in stage <*>.0 (TID <*>). <*> bytes result sent to driver 
-Finished task 17.0 in stage <*>.0 (TID <*>). <*> bytes result sent to driver 
-Finished task 39.0 in stage <*>.0 (TID <*>). <*> bytes result sent to driver 
-Finished task 4.0 in stage <*>.0 (TID <*>). <*> bytes result sent to driver 
-Finished task 23.0 in stage <*>.0 (TID <*>). <*> bytes result sent to driver 
-Finished task 15.0 in stage <*>.0 (TID <*>). <*> bytes result sent to driver 
-Finished task 29.0 in stage <*>.0 (TID <*>). <*> bytes result sent to driver 
-Finished task 22.0 in stage <*>.0 (TID <*>). <*> bytes result sent to driver 
-Finished task <*>.0 in stage <*>.0 (TID <*>). 3378 bytes result sent to driver 
-Finished task 0.0 in stage <*>.0 (TID <*>). <*> bytes result sent to driver 
-Finished task 16.0 in stage <*>.0 (TID <*>). <*> bytes result sent to driver 
-Finished task 28.0 in stage <*>.0 (TID <*>). <*> bytes result sent to driver 
-Finished task <*>.0 in stage <*> (TID <*>). 1344 bytes result sent to driver 
-Finished task <*>.0 in stage <*>.0 (TID <*>). 2410 bytes result sent to driver 
-Finished task <*>.0 in stage <*>.0 (TID <*>). 1251 bytes result sent to driver 
-Finished task 8.0 in stage <*>.0 (TID <*>). <*> bytes result sent to driver 
-Finished task 12.0 in stage <*>.0 (TID <*>). <*> bytes result sent to driver 
-Finished task 36.0 in stage <*>.0 (TID <*>). <*> bytes result sent to driver 
 Finished task 24.0 in stage <*>.0 (TID <*>). <*> bytes result sent to driver 
-Finished task 14.0 in stage <*>.0 (TID <*>). <*> bytes result sent to driver 
+Times: total = <*>, boot = -14, init = <*>, finish = 0 
+Times: total = <*>, boot = -25, init = <*>, finish = 0 
+Times: total = <*>, boot = <*>, init = 21, finish = 0 
+Times: total = <*>, boot = -39, init = <*>, finish = 0 
+Times: total = 48, boot = <*>, init = <*>, finish = 0 
+Times: total = <*>, boot = <*>, init = 18, finish = 0 
+Times: total = <*>, boot = -23, init = <*>, finish = 0 
+Times: total = <*>, boot = -37, init = <*>, finish = 0 
+Times: total = <*>, boot = <*>, init = 22, finish = 0 
+Times: total = <*> boot = -17, init = <*> finish = 0 
+Times: total = <*>, boot = <*>, init = 1, finish = 0 
+Times: total = <*>, boot = 22, init = <*>, finish = 0 
+Times: total = <*>, boot = <*>, init = 0, finish = 0 
+Finished task 21.0 in stage <*>.0 (TID <*>). 2<*> bytes result sent to driver 
+Finished task 29.0 in stage <*>.0 (TID <*>). <*> bytes result sent to driver 
+Finished task 22.0 in stage <*>.0 (TID <*>). 2<*> bytes result sent to driver 
+Times: total = 45, boot = <*>, init = <*>, finish = 0 
+Finished task 37.0 in stage <*>.0 (TID <*>). <*> bytes result sent to driver 
+Finished task <*>.0 in stage <*>.0 (TID <*>). 2364 bytes result sent to driver 
+Finished task 25.0 in stage <*>.0 (TID <*>). <*> bytes result sent to driver 
+Times: total = 38, boot = <*>, init = <*>, finish = 1 
+Finished task 26.0 in stage <*>.0 (TID <*>). <*> bytes result sent to driver 
+Finished task 12.0 in stage <*> (TID <*>). <*> bytes result sent to driver 
+Finished task 11.0 in stage <*>.0 (TID <*>). <*> bytes result sent to driver 
+Finished task 23.0 in stage <*>.0 (TID <*>). <*> bytes result sent to driver 
+Times: total = 43, boot = <*>, init = <*>, finish = 0 
+Times: total = 46, boot = <*>, init = <*>, finish = 0 
+Times: total = 43, boot = <*> init = <*>, finish = 1 
+Finished task 7.0 in stage <*>.0 (TID <*>). 2<*> bytes result sent to driver 
+Finished task 38.0 in stage <*>.0 (TID <*>). <*> bytes result sent to driver 
+Times: total = 49, boot = <*>, init = <*>, finish = 0 
+Finished task 30.0 in stage <*>.0 (TID <*>). <*> bytes result sent to driver 
+Times: total = 41, boot = <*>, init = <*>, finish = 1 
+Times: total = 42, boot = <*>, init = <*>, finish = 1 
 Finished task 9.0 in stage <*>.0 (TID <*>). <*> bytes result sent to driver 
+Times: total = 37, boot = <*> init = <*>, finish = 0 
+Times: total = 42, boot = <*>, init = <*>, finish = 0 
+Times: total = 39, boot = <*>, init = <*>, finish = 0 
+Times: total = 44, boot = <*>, init = <*>, finish = 0 
+Times: total = 40, boot = <*>, init = <*>, finish = 0 
+Finished task 39.0 in stage <*>.0 (TID <*>). <*> bytes result sent to driver 
+Finished task 13.0 in stage <*> (TID <*>). <*> bytes result sent to driver 
+Finished task 19.0 in stage <*> (TID <*>). <*> bytes result sent to driver 
+Finished task 33.0 in stage <*>.0 (TID <*>). <*> bytes result sent to driver 
+Finished task 15.0 in stage <*>.0 (TID <*>). <*> bytes result sent to driver 
+Finished task 32.0 in stage <*>.0 (TID <*>). 2<*> bytes result sent to driver 
+Finished task 36.0 in stage <*>.0 (TID <*>). 2<*> bytes result sent to driver 
+Finished task 35.0 in stage <*> (TID <*>). <*> bytes result sent to driver 
+Finished task 8.0 in stage <*>.0 (TID <*>). <*> bytes result sent to driver 
+Finished task 14.0 in stage <*>.0 (TID <*>). <*> bytes result sent to driver 
+Finished task 17.0 in stage <*>.0 (TID <*>). <*> bytes result sent to driver 
+Finished task 16.0 in stage <*>.0 (TID <*>). <*> bytes result sent to driver 
+Finished task 31.0 in stage <*>.0 (TID <*>). <*> bytes result sent to driver 
+Finished task <*>.0 in stage <*>.0 (TID <*>). 1928 bytes result sent to driver 
+Finished task 34.0 in stage <*>.0 (TID <*>). <*> bytes result sent to driver 
+Finished task <*>.0 in stage <*>.0 (TID <*>). 3378 bytes result sent to driver 
+Finished task <*>.0 in stage <*> (TID <*>). 2410 bytes result sent to driver 
+Finished task <*>.0 in stage <*> (TID <*>). 1251 bytes result sent to driver 
+Finished task <*>.0 in stage <*>.0 (TID <*>). 1344 bytes result sent to driver 
+Finished task 27.0 in stage <*>.0 (TID <*>). <*> bytes result sent to driver 
+Finished task 5.0 in stage <*>.0 (TID <*>). <*> bytes result sent to driver 
+Finished task 18.0 in stage <*>.0 (TID <*>). <*> bytes result sent to driver 
+Finished task 28.0 in stage <*>.0 (TID <*>). <*> bytes result sent to driver 
+Finished task 20.0 in stage <*>.0 (TID <*>). <*> bytes result sent to driver 
+Finished task 6.0 in stage <*>.0 (TID <*>). <*> bytes result sent to driver 
+Times: total = 41, boot = <*>, init = <*>, finish = 0 
+Times: total = 39, boot = <*>, init = <*>, finish = 1 
+Finished task 3.0 in stage <*>.0 (TID <*>). 2<*> bytes result sent to driver 
+Finished task 4.0 in stage <*> (TID <*>). <*> bytes result sent to driver 
 Finished task 10.0 in stage <*>.0 (TID <*>). <*> bytes result sent to driver 
 Times: total = 38, boot = <*>, init = <*>, finish = 0 
-Finished task 5.0 in stage <*>.0 (TID <*>). <*> bytes result sent to driver 
-Times: total = 41, boot = <*>, init = <*>, finish = 0 
-Finished task 3.0 in stage <*>.0 (TID <*>). <*> bytes result sent to driver 
-Finished task 1.0 in stage <*>.0 (TID <*>). <*> bytes result sent to driver 
 Finished task 2.0 in stage <*>.0 (TID <*>). <*> bytes result sent to driver 
+Times: total = 40, boot = <*>, init = <*>, finish = 1 
+Finished task 1.0 in stage <*>.0 (TID <*>). <*> bytes result sent to driver 
+Finished task 0.0 in stage <*>.0 (TID <*>). <*> bytes result sent to driver 
 Block <*> stored as bytes in memory (estimated size <*> <*>, free <*> <*>) 
 Block broadcast_<*> stored as values in memory (estimated size <*> <*>, free <*> <*>) 
-Block <*> stored as bytes in memory (estimated size <*> <*>, free 2.6 <*>) 
-Block <*> stored as bytes in memory (estimated size <*> <*>, free 3.1 <*>) 
-Block <*> stored as bytes in memory (estimated size <*> <*>, free 2.0 <*>) 
-Block <*> stored as bytes in memory (estimated size <*> <*>, free 2.8 <*>) 
-Block <*> stored as bytes in memory (estimated size <*> <*>, free 6.7 <*>) 
+Block <*> stored as bytes in memory (estimated size <*> <*>, free 7.8 <*>) 
 Block <*> stored as bytes in memory (estimated size <*> <*>, free 3.6 <*>) 
-Block <*> stored as bytes in memory (estimated size <*> <*>, free 3.2 <*>) 
-Block <*> stored as bytes in memory (estimated size <*> <*>, free 3.8 <*>) 
-Block <*> stored as bytes in memory (estimated size <*> <*>, free 2.9 <*>) 
-Block <*> stored as bytes in memory (estimated size <*> <*>, free 3.3 <*>) 
-Block <*> stored as bytes in memory (estimated size <*> <*>, free 3.9 <*>) 
+Block <*> stored as bytes in memory (estimated size <*> <*>, free 2.6 <*>) 
+Block <*> stored as bytes in memory (estimated size <*> <*>, free 3.7 <*>) 
+Block <*> stored as bytes in memory (estimated size <*> <*>, free 6.9 <*>) 
+Block <*> stored as bytes in memory (estimated size <*> <*>, free 7.9 <*>) 
+Block <*> stored as bytes in memory (estimated size <*> <*>, free 2.2 <*>) 
+Block <*> stored as bytes in memory (estimated size <*> <*>, free 3.1 <*>) 
+Block <*> stored as bytes in memory (estimated size <*> <*>, free 2.4 <*>) 
+Block <*> stored as bytes in memory (estimated size <*> <*>, free 2.3 <*>) 
+Block <*> stored as bytes in memory (estimated size <*> <*>, free 4.5 <*>) 
 Block <*> stored as bytes in memory (estimated size <*> <*>, free 2.1 <*>) 
-Block <*> stored as bytes in memory (estimated size <*> <*>, free 4.0 <*>) 
-Block <*> stored as bytes in memory (estimated size <*> <*>, free 3.5 <*>) 
-Block <*> stored as bytes in memory (estimated size <*> <*>, free 2.5 <*>) 
-Block broadcast_<*> stored as values in memory (estimated size 78.1 <*>, free <*> <*>) 
-Finished task 0.0 in stage <*>.0 (TID <*>). 2667 bytes result sent to driver 
+Block <*> stored as bytes in memory (estimated size <*> <*>, free 3.8 <*>) 
+Block <*> stored as bytes in memory (estimated size <*> <*>, free 3.4 <*>) 
 Finished task 10.0 in stage <*>.0 (TID <*>). 2667 bytes result sent to driver 
-Block broadcast_<*>_piece0 stored as bytes in memory (estimated size 29.2 <*>, free <*> <*>) 
-Finished task 32.0 in stage <*>.0 (TID <*>). 2076 bytes result sent to driver 
-Finished task 6.0 in stage <*>.0 (TID <*>). 2667 bytes result sent to driver 
-Finished task 10.0 in stage <*>.0 (TID <*>). 2076 bytes result sent to driver 
-Finished task 4.0 in stage <*>.0 (TID <*>). 2364 bytes result sent to driver 
-Finished task 8.0 in stage <*>.0 (TID <*> 2667 bytes result sent to driver 
-Block broadcast_<*> stored as values in memory (estimated size 78.0 <*>, free <*> <*>) 
-Finished task 23.0 in stage <*>.0 (TID <*>). 2076 bytes result sent to driver 
-Finished task 20.0 in stage <*>.0 (TID <*>). 2364 bytes result sent to driver 
-Finished task 11.0 in stage <*>.0 (TID <*>). 2076 bytes result sent to driver 
-Finished task 13.0 in stage <*>.0 (TID <*>). 2667 bytes result sent to driver 
-Finished task 3.0 in stage <*>.0 (TID <*>). 2364 bytes result sent to driver 
-Finished task 3.0 in stage <*>.0 (TID <*>). 2076 bytes result sent to driver 
-Finished task 17.0 in stage <*>.0 (TID <*>). 2667 bytes result sent to driver 
-Finished task 15.0 in stage <*>.0 (TID <*>). 2667 bytes result sent to driver 
-Block broadcast_<*>_piece0 stored as bytes in memory (estimated size 6.3 <*>, free <*> <*>) 
-Finished task 21.0 in stage <*>.0 (TID <*>). 2076 bytes result sent to driver 
-Block broadcast_<*> stored as values in memory (estimated size 10.2 <*>, free <*> <*>) 
-Finished task 9.0 in stage <*>.0 (TID <*>). 2364 bytes result sent to driver 
-Finished task 30.0 in stage <*>.0 (TID <*>). 2667 bytes result sent to driver 
-Finished task 8.0 in stage <*>.0 (TID <*>). 2076 bytes result sent to driver 
-Block broadcast_<*>_piece0 stored as bytes in memory (estimated size 5.8 <*>, free <*> <*>) 
-Finished task 36.0 in stage <*>.0 (TID <*>). 2076 bytes result sent to driver 
-Finished task 1.0 in stage <*>.0 (TID <*>). 2076 bytes result sent to driver 
-Finished task 13.0 in stage <*>.0 (TID <*>). 2076 bytes result sent to driver 
-Finished task 27.0 in stage <*> (TID <*>). 2076 bytes result sent to driver 
-Block broadcast_<*>_piece0 stored as bytes in memory (estimated size 6.2 <*>, free <*> <*>) 
-Block broadcast_<*>_piece0 stored as bytes in memory (estimated size 29.1 <*>, free <*> <*>) 
-Finished task 5.0 in stage <*>.0 (TID <*>). 2667 bytes result sent to driver 
-Finished task 26.0 in stage <*>.0 (TID <*>). 2667 bytes result sent to driver 
-Finished task 16.0 in stage <*>.0 (TID <*>). 2667 bytes result sent to driver 
-Finished task 30.0 in stage <*>.0 (TID <*>). 2076 bytes result sent to driver 
-Finished task 22.0 in stage <*>.0 (TID <*>). 2667 bytes result sent to driver 
-Finished task 20.0 in stage <*>.0 (TID <*>). 2076 bytes result sent to driver 
-Finished task 35.0 in stage <*>.0 (TID <*>). 2076 bytes result sent to driver 
-Finished task 14.0 in stage <*>.0 (TID <*>). 2076 bytes result sent to driver 
-Finished task 14.0 in stage <*>.0 (TID <*>). 2667 bytes result sent to driver 
-Finished task 32.0 in stage <*>.0 (TID <*>). 2364 bytes result sent to driver 
-Finished task 18.0 in stage <*>.0 (TID <*>). 2076 bytes result sent to driver 
-Finished task 1.0 in stage <*>.0 (TID <*>). 2364 bytes result sent to driver 
-Finished task 17.0 in stage <*>.0 (TID <*>). 2364 bytes result sent to driver 
-Finished task 33.0 in stage <*>.0 (TID <*>). 2667 bytes result sent to driver 
-Finished task 37.0 in stage <*>.0 (TID <*>). 2076 bytes result sent to driver 
-Finished task 11.0 in stage <*>.0 (TID <*>). 2364 bytes result sent to driver 
-Finished task 36.0 in stage <*>.0 (TID <*>). 2364 bytes result sent to driver 
+Block <*> stored as bytes in memory (estimated size <*> <*>, free 3.0 <*>) 
+Block <*> stored as bytes in memory (estimated size <*> <*>, free 4.3 <*>) 
+Block <*> stored as bytes in memory (estimated size <*> <*>, free 3.9 <*>) 
+Block <*> stored as bytes in memory (estimated size 6.2 <*>, free <*> <*>) 
+Finished task 10.0 in stage <*>.0 (TID <*>). 2364 bytes result sent to driver 
 Finished task 28.0 in stage <*>.0 (TID <*>). 2364 bytes result sent to driver 
-Block broadcast_<*> stored as values in memory (estimated size 10.1 <*>, free <*> <*>) 
-Finished task 39.0 in stage <*>.0 (TID <*>). 2364 bytes result sent to driver 
-Finished task 31.0 in stage <*>.0 (TID <*>). 2076 bytes result sent to driver 
-Finished task 39.0 in stage <*>.0 (TID <*>). 2076 bytes result sent to driver 
-Finished task 33.0 in stage <*>.0 (TID <*>). 2364 bytes result sent to driver 
-Finished task 19.0 in stage <*>.0 (TID <*>). 2667 bytes result sent to driver 
-Finished task 12.0 in stage <*>.0 (TID <*>). 2667 bytes result sent to driver 
-Block broadcast_<*> stored as values in memory (estimated size 10.4 <*>, free <*> <*>) 
-Finished task 18.0 in stage <*>.0 (TID <*>). 2667 bytes result sent to driver 
-Finished task 4.0 in stage <*>.0 (TID <*>). 2667 bytes result sent to driver 
-Finished task 16.0 in stage <*>.0 (TID <*>). 2364 bytes result sent to driver 
-Block broadcast_<*> stored as values in memory (estimated size 10.8 <*>, free <*> <*>) 
-Finished task 23.0 in stage <*>.0 (TID <*>). 2364 bytes result sent to driver 
-Finished task 36.0 in stage <*>.0 (TID <*>). 2667 bytes result sent to driver 
-Finished task 17.0 in stage <*>.0 (TID <*>). 2076 bytes result sent to driver 
+Block <*> stored as bytes in memory (estimated size <*> <*>, free 4.4 <*>) 
+Finished task 20.0 in stage <*>.0 (TID <*>). 2076 bytes result sent to driver 
+Finished task 22.0 in stage <*>.0 (TID <*>). 2667 bytes result sent to driver 
+Finished task 34.0 in stage <*>.0 (TID <*>). 2076 bytes result sent to driver 
 Finished task 7.0 in stage <*>.0 (TID <*>). 2364 bytes result sent to driver 
-Finished task 7.0 in stage <*>.0 (TID <*>). 2076 bytes result sent to driver 
-Block broadcast_<*> stored as values in memory (estimated size 10.3 <*>, free <*> <*>) 
-Finished task 2.0 in stage <*>.0 (TID <*>). 2364 bytes result sent to driver 
-Finished task 29.0 in stage <*>.0 (TID <*>). 2667 bytes result sent to driver 
-Finished task 11.0 in stage <*>.0 (TID <*>). 2667 bytes result sent to driver 
-Finished task 19.0 in stage <*>.0 (TID <*>). 2364 bytes result sent to driver 
-Finished task 1.0 in stage <*>.0 (TID <*>). 2667 bytes result sent to driver 
+Finished task 20.0 in stage <*>.0 (TID <*>). 2364 bytes result sent to driver 
 Finished task 25.0 in stage <*>.0 (TID <*>). 2364 bytes result sent to driver 
 Finished task 32.0 in stage <*>.0 (TID <*>). 2667 bytes result sent to driver 
-Finished task 29.0 in stage <*>.0 (TID <*>). 2364 bytes result sent to driver 
-Finished task 6.0 in stage <*>.0 (TID <*>). 2364 bytes result sent to driver 
-Finished task 27.0 in stage <*>.0 (TID <*>). 2667 bytes result sent to driver 
-Finished task 34.0 in stage <*>.0 (TID <*>). 2667 bytes result sent to driver 
-Finished task 39.0 in stage <*>.0 (TID <*>). 2667 bytes result sent to driver 
-Finished task 37.0 in stage <*>.0 (TID <*>). 2364 bytes result sent to driver 
-Finished task 37.0 in stage <*>.0 (TID <*>). 2667 bytes result sent to driver 
-Finished task 9.0 in stage <*>.0 (TID <*>). 2667 bytes result sent to driver 
-Finished task 0.0 in stage <*>.0 (TID <*>). 2076 bytes result sent to driver 
-Finished task 9.0 in stage <*>.0 (TID <*>). 2076 bytes result sent to driver 
-Finished task 21.0 in stage <*>.0 (TID <*>). 2364 bytes result sent to driver 
-Finished task 12.0 in stage <*>.0 (TID <*>). 2364 bytes result sent to driver 
-Finished task 3.0 in stage <*>.0 (TID <*>). 2667 bytes result sent to driver 
-Block broadcast_<*>_piece0 stored as bytes in memory (estimated size 29.0 <*>, free <*> <*>) 
-Block broadcast_<*> stored as values in memory (estimated size 10.7 <*>, free <*> <*>) 
-Finished task 30.0 in stage <*>.0 (TID <*>). 2364 bytes result sent to driver 
-Finished task 22.0 in stage <*>.0 (TID <*>). 2076 bytes result sent to driver 
-Finished task 6.0 in stage <*>.0 (TID <*>). 2076 bytes result sent to driver 
-Finished task 13.0 in stage <*>.0 (TID <*>). 2364 bytes result sent to driver 
-Finished task 29.0 in stage <*>.0 (TID <*>). 2076 bytes result sent to driver 
-Block broadcast_<*>_piece0 stored as bytes in memory (estimated size 5.9 <*>, free <*> <*>) 
-Finished task 35.0 in stage <*>.0 (TID <*>). 2667 bytes result sent to driver 
-Finished task 24.0 in stage <*>.0 (TID <*>). 2076 bytes result sent to driver 
-Finished task 16.0 in stage <*>.0 (TID <*>). 2076 bytes result sent to driver 
-Block broadcast_<*> stored as values in memory (estimated size 10.5 <*>, free <*> <*>) 
-Block broadcast_<*>_piece0 stored as bytes in memory (estimated size 5.7 <*>, free <*> <*>) 
-Block broadcast_<*> stored as values in memory (estimated size 9.9 <*>, free <*> <*>) 
-Finished task 10.0 in stage <*>.0 (TID <*>). 2364 bytes result sent to driver 
-Finished task 26.0 in stage <*>.0 (TID <*>). 2364 bytes result sent to driver 
-Block broadcast_<*> stored as values in memory (estimated size 10.0 <*>, free <*> <*>) 
-Finished task 26.0 in stage <*>.0 (TID <*>). 2076 bytes result sent to driver 
-Finished task 8.0 in stage <*>.0 (TID <*>). 2364 bytes result sent to driver 
-Block broadcast_<*> stored as values in memory (estimated size 77.8 <*>, free <*> <*>) 
-Finished task 5.0 in stage <*>.0 (TID <*>). 2364 bytes result sent to driver 
-Finished task 0.0 in stage <*>.0 (TID <*>). 2364 bytes result sent to driver 
-Finished task 34.0 in stage <*>.0 (TID <*>). 2076 bytes result sent to driver 
-Finished task 23.0 in stage <*>.0 (TID <*>). 2667 bytes result sent to driver 
-Finished task 20.0 in stage <*>.0 (TID <*>). 2667 bytes result sent to driver 
-Finished task 33.0 in stage <*>.0 (TID <*>). 2076 bytes result sent to driver 
-Finished task 25.0 in stage <*>.0 (TID <*>). 2667 bytes result sent to driver 
-Block rdd_<*> stored as bytes in memory (estimated size 16.0 <*>, free <*> <*>) 
-Block <*> stored as bytes in memory (estimated size <*> <*>, free 3.0 <*>) 
-Block <*> stored as bytes in memory (estimated size <*> <*>, free 3.4 <*>) 
-Block <*> stored as bytes in memory (estimated size <*> <*>, free 3.7 <*>) 
-Block <*> stored as bytes in memory (estimated size <*> <*>, free 2.4 <*>) 
-Block <*> stored as bytes in memory (estimated size <*> <*>, free 2.7 <*>) 
-Block broadcast_<*>_piece0 stored as bytes in memory (estimated size 6.0 <*>, free <*> <*>) 
-Block broadcast_<*>_piece0 stored as bytes in memory (estimated size 6.1 <*>, free <*> <*>) 
+Finished task 28.0 in stage <*>.0 (TID <*>). 2076 bytes result sent to driver 
 Finished task 24.0 in stage <*>.0 (TID <*>). 2667 bytes result sent to driver 
-Block broadcast_<*> stored as bytes in memory (estimated size 4.0 <*>, free <*> <*>) 
-Block <*> stored as bytes in memory (estimated size <*> <*>, free 2.3 <*>) 
-Block broadcast_<*>_piece0 stored as bytes in memory (estimated size 5.6 <*>, free <*> <*>) 
-Block broadcast_<*> stored as values in memory (estimated size 9.8 <*>, free <*> <*>) 
+Finished task 14.0 in stage <*>.0 (TID <*>). 2667 bytes result sent to driver 
+Finished task 4.0 in stage <*>.0 (TID <*>). 2364 bytes result sent to driver 
+Finished task 10.0 in stage <*>.0 (TID <*>). 2076 bytes result sent to driver 
+Block broadcast_<*> stored as values in memory (estimated size 10.8 <*>, free <*> <*>) 
+Finished task 35.0 in stage <*>.0 (TID <*>). 2667 bytes result sent to driver 
+Finished task 14.0 in stage <*>.0 (TID <*>). 2076 bytes result sent to driver 
+Finished task 0.0 in stage <*>.0 (TID <*>). 2076 bytes result sent to driver 
+Finished task 28.0 in stage <*>.0 (TID <*>). 2667 bytes result sent to driver 
+Finished task 23.0 in stage <*>.0 (TID <*>). 2364 bytes result sent to driver 
+Finished task 16.0 in stage <*>.0 (TID <*>). 2364 bytes result sent to driver 
+Finished task 38.0 in stage <*>.0 (TID <*>). 2076 bytes result sent to driver 
+Finished task 36.0 in stage <*>.0 (TID <*>). 2667 bytes result sent to driver 
+Finished task 39.0 in stage <*>.0 (TID <*>). 2076 bytes result sent to driver 
+Finished task 27.0 in stage <*>.0 (TID <*>). 2667 bytes result sent to driver 
 Block broadcast_<*> stored as values in memory (estimated size 9.5 <*>, free <*> <*>) 
+Block broadcast_<*>_piece0 stored as bytes in memory (estimated size 5.8 <*>, free <*> <*>) 
+Finished task 31.0 in stage <*>.0 (TID <*>). 2364 bytes result sent to driver 
+Finished task 17.0 in stage <*>.0 (TID <*>). 2364 bytes result sent to driver 
+Finished task 24.0 in stage <*>.0 (TID <*>). 2076 bytes result sent to driver 
+Finished task 5.0 in stage <*> (TID <*>). 2667 bytes result sent to driver 
+Finished task 9.0 in stage <*>.0 (TID <*>). 2364 bytes result sent to driver 
+Block broadcast_<*> stored as values in memory (estimated size 10.6 <*>, free <*> <*>) 
+Block broadcast_<*> stored as values in memory (estimated size 78.1 <*>, free <*> <*>) 
+Finished task 4.0 in stage <*>.0 (TID <*>). 2076 bytes result sent to driver 
+Block broadcast_<*> stored as values in memory (estimated size 10.4 <*>, free <*> <*>) 
+Finished task 37.0 in stage <*>.0 (TID <*>). 2364 bytes result sent to driver 
+Finished task 21.0 in stage <*>.0 (TID <*>). 2076 bytes result sent to driver 
+Finished task 11.0 in stage <*>.0 (TID <*>). 2364 bytes result sent to driver 
+Finished task 36.0 in stage <*>.0 (TID <*>). 2364 bytes result sent to driver 
+Finished task 23.0 in stage <*>.0 (TID <*>). 2076 bytes result sent to driver 
+Finished task 31.0 in stage <*>.0 (TID <*>). 2667 bytes result sent to driver 
+Finished task 15.0 in stage <*>.0 (TID <*>). 2364 bytes result sent to driver 
+Finished task 22.0 in stage <*>.0 (TID <*>). 2364 bytes result sent to driver 
+Finished task 29.0 in stage <*>.0 (TID <*>). 2667 bytes result sent to driver 
+Finished task 8.0 in stage <*>.0 (TID <*>). 2667 bytes result sent to driver 
+Finished task 12.0 in stage <*>.0 (TID <*>). 2364 bytes result sent to driver 
+Finished task 34.0 in stage <*>.0 (TID <*>). 2667 bytes result sent to driver 
+Finished task 32.0 in stage <*>.0 (TID <*>). 2364 bytes result sent to driver 
+Finished task 2.0 in stage <*>.0 (TID <*>). 2076 bytes result sent to driver 
+Finished task 9.0 in stage <*>.0 (TID <*>). 2076 bytes result sent to driver 
+Finished task 2.0 in stage <*>.0 (TID <*>). 2667 bytes result sent to driver 
+Finished task 18.0 in stage <*>.0 (TID <*>). 2076 bytes result sent to driver 
+Finished task 8.0 in stage <*>.0 (TID <*>). 2364 bytes result sent to driver 
+Finished task 26.0 in stage <*>.0 (TID <*>). 2364 bytes result sent to driver 
+Finished task 26.0 in stage <*>.0 (TID <*>). 2667 bytes result sent to driver 
+Finished task 8.0 in stage <*>.0 (TID <*>). 2076 bytes result sent to driver 
+Block broadcast_<*>_piece0 stored as bytes in memory (estimated size 29.2 <*>, free <*> <*>) 
+Finished task 25.0 in stage <*>.0 (TID <*>). 2076 bytes result sent to driver 
+Finished task 16.0 in stage <*> (TID <*>). 2076 bytes result sent to driver 
+Finished task 6.0 in stage <*>.0 (TID <*>). 2364 bytes result sent to driver 
+Finished task 24.0 in stage <*>.0 (TID <*>). 2364 bytes result sent to driver 
+Block broadcast_<*> stored as values in memory (estimated size 10.1 <*>, free <*> <*>) 
+Finished task 6.0 in stage <*>.0 (TID <*>). 2667 bytes result sent to driver 
+Finished task 15.0 in stage <*>.0 (TID <*>). 2076 bytes result sent to driver 
+Finished task 11.0 in stage <*>.0 (TID <*>). 2076 bytes result sent to driver 
+Finished task 3.0 in stage <*>.0 (TID <*>). 2076 bytes result sent to driver 
+Block broadcast_<*> stored as values in memory (estimated size 10.7 <*>, free <*> <*>) 
+Block broadcast_<*> stored as values in memory (estimated size 9.9 <*>, free <*> <*>) 
+Finished task 30.0 in stage <*> (TID <*>). 2076 bytes result sent to driver 
+Finished task 25.0 in stage <*>.0 (TID <*>). 2667 bytes result sent to driver 
+Finished task 16.0 in stage <*>.0 (TID <*>). 2667 bytes result sent to driver 
+Block broadcast_<*> stored as values in memory (estimated size 9.6 <*>, free <*> <*>) 
+Block broadcast_<*> stored as values in memory (estimated size 78.0 <*>, free <*> <*>) 
+Finished task 13.0 in stage <*>.0 (TID <*>). 2364 bytes result sent to driver 
+Finished task 33.0 in stage <*>.0 (TID <*>). 2364 bytes result sent to driver 
+Finished task 19.0 in stage <*>.0 (TID <*>). 2364 bytes result sent to driver 
+Finished task 19.0 in stage <*>.0 (TID <*>). 2667 bytes result sent to driver 
+Finished task 33.0 in stage <*>.0 (TID <*>). 2076 bytes result sent to driver 
+Finished task 29.0 in stage <*>.0 (TID <*>). 2364 bytes result sent to driver 
+Finished task 39.0 in stage <*>.0 (TID <*>). 2364 bytes result sent to driver 
+Finished task 35.0 in stage <*>.0 (TID <*>). 2364 bytes result sent to driver 
+Finished task 37.0 in stage <*>.0 (TID <*>). 2667 bytes result sent to driver 
+Block broadcast_<*> stored as values in memory (estimated size 77.8 <*>, free <*> <*>) 
+Block broadcast_<*> stored as values in memory (estimated size 10.2 <*>, free <*> <*>) 
+Block broadcast_<*> stored as values in memory (estimated size 10.0 <*>, free <*> <*>) 
+Finished task 18.0 in stage <*>.0 (TID <*>). 2667 bytes result sent to driver 
+Finished task 0.0 in stage <*>.0 (TID <*>). 2667 bytes result sent to driver 
+Finished task 36.0 in stage <*>.0 (TID <*>). 2076 bytes result sent to driver 
+Finished task 3.0 in stage <*>.0 (TID <*>). 2364 bytes result sent to driver 
+Finished task 21.0 in stage <*>.0 (TID <*>). 2364 bytes result sent to driver 
+Finished task 12.0 in stage <*>.0 (TID <*>). 2667 bytes result sent to driver 
+Block <*> stored as bytes in memory (estimated size 6.0 <*>, free <*> <*>) 
+Finished task 39.0 in stage <*>.0 (TID <*>). 2667 bytes result sent to driver 
+Finished task 13.0 in stage <*>.0 (TID <*>). 2076 bytes result sent to driver 
+Finished task 15.0 in stage <*>.0 (TID <*>). 2667 bytes result sent to driver 
+Finished task 6.0 in stage <*>.0 (TID <*>). 2076 bytes result sent to driver 
+Finished task 37.0 in stage <*>.0 (TID <*>). 2076 bytes result sent to driver 
+Finished task 13.0 in stage <*>.0 (TID <*>). 2667 bytes result sent to driver 
+Finished task 27.0 in stage <*>.0 (TID <*>). 2364 bytes result sent to driver 
+Finished task 3.0 in stage <*>.0 (TID <*>). 2667 bytes result sent to driver 
+Finished task 19.0 in stage <*>.0 (TID <*>). 2076 bytes result sent to driver 
+Finished task 11.0 in stage <*>.0 (TID <*>). 2667 bytes result sent to driver 
+Block broadcast_<*>_piece0 stored as bytes in memory (estimated size 29.0 <*>, free <*> <*>) 
+Finished task 17.0 in stage <*>.0 (TID <*>). 2076 bytes result sent to driver 
+Block broadcast_<*>_piece0 stored as bytes in memory (estimated size 5.9 <*>, free <*> <*>) 
+Finished task 17.0 in stage <*>.0 (TID <*>). 2667 bytes result sent to driver 
+Block broadcast_<*>_piece0 stored as bytes in memory (estimated size 5.7 <*>, free <*> <*>) 
+Block broadcast_<*> stored as values in memory (estimated size 10.3 <*>, free <*> <*>) 
+Finished task 5.0 in stage <*>.0 (TID <*>). 2364 bytes result sent to driver 
+Finished task 30.0 in stage <*>.0 (TID <*>). 2364 bytes result sent to driver 
+Finished task 14.0 in stage <*>.0 (TID <*>). 2364 bytes result sent to driver 
+Finished task 2.0 in stage <*>.0 (TID <*>). 2364 bytes result sent to driver 
+Finished task 1.0 in stage <*>.0 (TID <*>). 2364 bytes result sent to driver 
+Finished task 18.0 in stage <*>.0 (TID <*>). 2364 bytes result sent to driver 
+Finished task 0.0 in stage <*>.0 (TID <*>). 2364 bytes result sent to driver 
+Finished task 22.0 in stage <*>.0 (TID <*>). 2076 bytes result sent to driver 
+Finished task 23.0 in stage <*>.0 (TID <*>). 2667 bytes result sent to driver 
+Finished task 26.0 in stage <*>.0 (TID <*>). 2076 bytes result sent to driver 
+Finished task 38.0 in stage <*>.0 (TID <*>). 2667 bytes result sent to driver 
+Finished task 31.0 in stage <*>.0 (TID <*>). 2076 bytes result sent to driver 
+Block broadcast_<*> stored as values in memory (estimated size 10.5 <*>, free <*> <*>) 
+Finished task 32.0 in stage <*>.0 (TID <*>). 2076 bytes result sent to driver 
+Block rdd_<*> stored as bytes in memory (estimated size 16.0 <*>, free <*> <*>) 
+Finished task 35.0 in stage <*>.0 (TID <*>). 2076 bytes result sent to driver 
+Finished task 4.0 in stage <*>.0 (TID <*>). 2667 bytes result sent to driver 
+Finished task 30.0 in stage <*>.0 (TID <*>). 2667 bytes result sent to driver 
+Finished task 20.0 in stage <*>.0 (TID <*>). 2667 bytes result sent to driver 
+Finished task 7.0 in stage <*>.0 (TID <*>). 2667 bytes result sent to driver 
+Finished task 7.0 in stage <*>.0 (TID <*>). 2076 bytes result sent to driver 
+Finished task 21.0 in stage <*>.0 (TID <*>). 2667 bytes result sent to driver 
+Finished task 5.0 in stage <*>.0 (TID <*>). 2076 bytes result sent to driver 
+Finished task 1.0 in stage <*> (TID <*>). 2076 bytes result sent to driver 
+Finished task 33.0 in stage <*>.0 (TID <*>). 2667 bytes result sent to driver 
+Finished task 12.0 in stage <*>.0 (TID <*>). 2076 bytes result sent to driver 
+Finished task 1.0 in stage <*>.0 (TID <*>). 2667 bytes result sent to driver 
+Block <*> stored as bytes in memory (estimated size <*> <*>, free 3.5 <*>) 
+Block <*> stored as bytes in memory (estimated size <*> <*>, free 2.9 <*>) 
+Block <*> stored as bytes in memory (estimated size <*> <*>, free 3.2 <*>) 
+Block <*> stored as bytes in memory (estimated size <*> <*>, free 4.0 <*>) 
+Block <*> stored as bytes in memory (estimated size <*> <*>, free 3.3 <*>) 
+Block <*> stored as bytes in memory (estimated size <*> <*>, free 2.7 <*>) 
+Block <*> stored as bytes in memory (estimated size <*> <*>, free 2.0 <*>) 
+Block <*> stored as bytes in memory (estimated size <*> <*>, free 4.1 <*>) 
+Block broadcast_<*>_piece0 stored as bytes in memory (estimated size 6.1 <*>, free <*> <*>) 
+Block <*> stored as bytes in memory (estimated size <*> <*>, free 2.5 <*>) 
+Block broadcast_<*> stored as bytes in memory (estimated size 4.0 <*>, free <*> <*>) 
+Block broadcast_<*>_piece0 stored as bytes in memory (estimated size 29.1 <*>, free <*> <*>) 
+Block <*> stored as bytes in memory (estimated size <*> <*>, free 2.8 <*>) 
+Block broadcast_<*>_piece0 stored as bytes in memory (estimated size 5.6 <*>, free <*> <*>) 
+Times: total = 40, boot = -24, init = 64, finish = 0 
 Times: total = 38, boot = 18, init = 19, finish = 1 
-Times: total = 39, boot = 19, init = 19, finish = 1 
-Times: total = 40, boot = 16, init = 24, finish = 0 
-Times: total = 40, boot = 21, init = 19, finish = 0 
-Times: total = 37, boot = 16, init = 21, finish = 0 
-Times: total = 40, boot = 20, init = 20, finish = 0 
-Times: total = 37, boot = 18, init = 19, finish = 0 
-Times: total = 40, boot = 19, init = 21, finish = 0 
-Times: total = 40, boot = 18, init = 22, finish = 0 
+Block rdd_<*> stored as bytes in memory (estimated size 16.0 <*>, free 3.5 <*>) 
+Times: total = 38, boot = -26, init = 64, finish = 0 
+Block rdd_<*> stored as bytes in memory (estimated size 16.0 <*>, free 2.2 <*>) 
 Times: total = 39, boot = 15, init = 24, finish = 0 
+Times: total = 39, boot = 19, init = 19, finish = 1 
+Times: total = 37, boot = 18, init = 19, finish = 0 
+Times: total = 40, boot = 20, init = 20, finish = 0 
 Times: total = 38, boot = 18, init = 20, finish = 0 
-Times: total = 37, boot = 17, init = 20, finish = 0 
-Times: total = 40, boot = 17, init = 23, finish = 0 
-Times: total = 38, boot = 17, init = 21, finish = 0 
-Times: total = 38, boot = 14, init = 24, finish = 0 
-Times: total = 37, boot = 15, init = 22, finish = 0 
-Times: total = 38, boot = 19, init = 19, finish = 0 
-Times: total = 39, boot = 17, init = 22, finish = 0 
-Times: total = 40, boot = 13, init = 27, finish = 0 
-Times: total = 40, boot = -25, init = 65, finish = 0 
-Times: total = 38, boot = 13, init = 25, finish = 0 
 Times: total = 39, boot = 19, init = 20, finish = 0 
+Times: total = 37, boot = 15, init = 22, finish = 0 
+Times: total = 38, boot = 14, init = 24, finish = 0 
+Times: total = 39, boot = 18, init = 21, finish = 0 
+Times: total = 39, boot = 17, init = 22, finish = 0 
+Times: total = 39, boot = 16, init = 23, finish = 0 
+Times: total = 38, boot = 20, init = 18, finish = 0 
+Times: total = 39, boot = 20, init = 19, finish = 0 
+Times: total = 39, boot = 21, init = 18, finish = 0 
+Times: total = 40, boot = 16, init = 24, finish = 0 
+Times: total = 37, boot = 17, init = 20, finish = 0 
+Times: total = 39, boot = -25, init = 64, finish = 0 
+Times: total = 40, boot = 21, init = 19, finish = 0 
+Times: total = 38, boot = 19, init = 19, finish = 0 
+Times: total = 40, boot = 13, init = 27, finish = 0 
+Times: total = 40, boot = 18, init = 22, finish = 0 
+Times: total = 40, boot = 19, init = 21, finish = 0 
+Times: total = 40, boot = 17, init = 23, finish = 0 
+Times: total = 40, boot = -27, init = 67, finish = 0 
+Times: total = 40, boot = 22, init = 18, finish = 0 
+Times: total = 38, boot = 16, init = 22, finish = 0 
 Times: total = 39, boot = 14, init = 25, finish = 0 
+Times: total = 38, boot = 13, init = 25, finish = 0 
+Times: total = 38, boot = 17, init = 21, finish = 0 
+Times: total = 40, boot = 15, init = 25, finish = 0 
+Times: total = 37, boot = 14, init = 23, finish = 0 
+Times: total = 37, boot = 16, init = 21, finish = 0 
 Times: total = 39, boot = 13, init = 26, finish = 0 
 Times: total = 38, boot = 15, init = 23, finish = 0 
-Times: total = 39, boot = 18, init = 21, finish = 0 
 Times: total = 40, boot = 14, init = 26, finish = 0 
-Times: total = 38, boot = 16, init = 22, finish = 0 
-Times: total = 39, boot = 20, init = 19, finish = 0 
-Times: total = 40, boot = 15, init = 25, finish = 0 
+Times: total = 41, boot = 15, init = 26, finish = 0 
 Block broadcast_<*> stored as bytes in memory (estimated size 4.0 <*>, free 2.2 <*>) 
-Block broadcast_<*> stored as bytes in memory (estimated size 4.0 <*>, free 3.2 <*>) 
-Block broadcast_<*> stored as bytes in memory (estimated size 4.0 <*>, free 2.8 <*>) 
-Block broadcast_<*> stored as bytes in memory (estimated size 4.0 <*>, free 2.6 <*>) 
-Block broadcast_<*> stored as bytes in memory (estimated size 4.0 <*>, free 2.1 <*>) 
-Block broadcast_<*> stored as bytes in memory (estimated size 4.0 <*>, free 3.5 <*>) 
-Block broadcast_<*> stored as bytes in memory (estimated size 4.0 <*>, free 2.5 <*>) 
-Block broadcast_<*> stored as bytes in memory (estimated size 4.0 <*>, free 3.8 <*>) 
-Block broadcast_<*> stored as bytes in memory (estimated size 4.0 <*>, free 3.4 <*>) 
-Block broadcast_<*> stored as bytes in memory (estimated size 4.0 <*>, free 3.1 <*>) 
-Block broadcast_<*> stored as bytes in memory (estimated size 4.0 <*>, free 2.9 <*>) 
-Block broadcast_<*> stored as bytes in memory (estimated size 4.0 <*>, free 2.4 <*>) 
-Block <*> stored as bytes in memory (estimated size 4.0 <*>, free 3.7 <*>) 
 Block broadcast_<*> stored as bytes in memory (estimated size 4.0 <*>, free 3.6 <*>) 
-Block broadcast_<*> stored as bytes in memory (estimated size 4.0 <*>, free 4.0 <*>) 
-Block broadcast_<*> stored as bytes in memory (estimated size 4.0 <*>, free 3.9 <*>) 
+Block broadcast_<*> stored as bytes in memory (estimated size 4.0 <*>, free 2.6 <*>) 
+Block broadcast_<*> stored as bytes in memory (estimated size 4.0 <*>, free 3.2 <*>) 
+Block broadcast_<*> stored as bytes in memory (estimated size 4.0 <*>, free 2.4 <*>) 
+Block broadcast_<*> stored as bytes in memory (estimated size 4.0 <*>, free 2.9 <*>) 
+Block broadcast_<*> stored as bytes in memory (estimated size 4.0 <*>, free 3.3 <*>) 
+Block broadcast_<*> stored as bytes in memory (estimated size 4.0 <*>, free 2.3 <*>) 
+Block broadcast_<*> stored as bytes in memory (estimated size 4.0 <*>, free 3.7 <*>) 
+Block broadcast_<*> stored as bytes in memory (estimated size 4.0 <*>, free 3.4 <*>) 
+Block broadcast_<*> stored as bytes in memory (estimated size 4.0 <*>, free 3.0 <*>) 
+Block broadcast_<*> stored as bytes in memory (estimated size 4.0 <*>, free 2.5 <*>) 
