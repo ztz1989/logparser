@@ -1,0 +1,349 @@
+219	43: Could not write data to client PID[53](configd) because of error - aborting connection
+689	[bootp_transmit.c:213] bootp_transmit(): bpf_write(en0) failed: Network is down (50)
+690	DHCP en0: INIT-REBOOT transmit failed
+784	2017-07-01 10:31:07.472198 AM [AirPlayUIAgent] BecomingInactive: NSWorkspaceWillSleepNotification
+787	2017/07/01 10:31:07.706 | I | VoipWrapper  | DAVEngineImpl.cpp:1400:Close             | close video chat. llFriendUIN = ******2341.
+788	2017/07/01 10:31:07.709 | I | VoipWrapper  | DAVEngineImpl.cpp:1400:Close             | close video chat. llFriendUIN = 379338242.
+789	2017/07/01 10:31:07.710 | I | VoipWrapper  | DAVEngineImpl.cpp:1400:Close             | close video chat. llFriendUIN = 1742124257.
+843	2017/07/01 11:38:04.144 | I | VoipWrapper  | DAVEngineImpl.cpp:1400:Close             | close video chat. llFriendUIN = 379338242.
+844	2017/07/01 11:38:04.146 | I | VoipWrapper  | DAVEngineImpl.cpp:1400:Close             | close video chat. llFriendUIN = 1742124257.
+1153	wifi scan failed with error: Error Domain=<*> Code=22 "(null)"
+1430	<WORKFLOW>: sdk send an request to server[http://<*>/analytics/rqdsync] with 520 and data[412] for <*>, <*>[25889]
+1431	<INFO> RQD:  UserInfoUploadHandler success finish request with 1 records
+1514	CFPasteboardBeginGenerationReturn CFPasteboardBeginGeneration(CFPasteboardRef) : Lock timeout
+1584	2017-07-01 19:43:30.789, 30311, 3512df40, [LogMessageLogging]: [aid-types_14000] - Request to send LogMessages of count (6) failed with Error: Error Domain=NSURLErrorDomain Code=-1009 "The Internet connection appears to be offline." UserInfo={NSUnderlyingError=0x7fe1351498d0 {Error Domain=kCFErrorDomainCFNetwork Code=-1009 "The Internet connection appears to be offline." UserInfo={NSErrorFailingURLStringKey=https://<*>/a/v2/use, NSErrorFailingURLKey=https://<*>/a/v2/use, _kCFStreamErrorCodeKey=8, _kCFStreamErrorDomainKey=12, NSLocalizedDescription=The Internet connection appears to be offline.}}, NSErrorFailingURLStringKey=https://<*>/a/v2/use, NSErrorFailingURLKey=https://<*>/a/v2/use, _kCFStreamErrorDomainKey=12, _kCFStreamErrorCodeKey=8, NSLocalizedDescription=The Internet connection appears to be offline.}
+1592	<WORKFLOW>: sdk send an request to server[http://<*>/analytics/rqdsync] with 510 and data[208] for <*>, <*>[<*>(8565)]
+1602	2017-07-01 19:46:26.098 GoogleSoftwareUpdateAgent[31702/0x7fff79824000] [lvl=2] -[KSAgentApp setupLoggerOutput] Agent settings: <KSAgentSettings:0x10023e580 bundleID=<*> lastCheck=2017-07-01 15:38:01 +0000 checkInterval=18000.000000 uiDisplayInterval=604800.000000 sleepInterval=1800.000000 jitterInterval=900 maxRunInterval=0.000000 isConsoleUser=1 ticketStorePath=/Users/xpc/Library/Google/GoogleSoftwareUpdate/TicketStore/Keystone.ticketstore runMode=3 daemonUpdateEngineBrokerServiceName=<*> daemonAdministrationServiceName=<*> logEverything=0 logBufferSize=2048 alwaysPromptForUpdates=0 productIDToUpdate=(null) lastUIDisplayed=(null) alwaysShowStatusItem=0 updateCheckTag=(null) printResults=NO userInitiated=NO>
+1603	2017-07-01 19:46:26.135 GoogleSoftwareUpdateAgent[31702/0x7000002a0000] [lvl=2] -[KSUpdateEngine updateProductID:] KSUpdateEngine updating product ID: "<*>"
+1604	2017-07-01 19:46:26.138 GoogleSoftwareUpdateAgent[31702/0x7000002a0000] [lvl=2] -[KSCheckAction performAction] KSCheckAction checking 1 ticket(s).
+1605	2017-07-01 19:46:26.199 GoogleSoftwareUpdateAgent[31702/0x7000002a0000] [lvl=2] -[KSOutOfProcessFetcher beginFetchWithDelegate:] KSOutOfProcessFetcher fetching from URL: "https://<*>/service/update2?cup2hreq=7ed1399595b56e324615361837224a93db626bdd31f06e242c428da89571db92&cup2key=7:3617493766"
+1606	2017-07-01 19:46:26.423 GoogleSoftwareUpdateAgent[31702/0x7000002a0000] [lvl=2] -[KSOutOfProcessFetcher(PrivateMethods) helperErrorAvailable:] KSOutOfProcessFetcher helper tool raw STDERR:
+1607	2017-07-01 19:46:26.425 GoogleSoftwareUpdateAgent[31702/0x7000002a0000] [lvl=2] -[KSOmahaServer updateInfosForUpdateResponse:updateRequest:infoStore:upToDateTickets:updatedTickets:events:errors:] Response passed CUP validation.
+1608	2017-07-01 19:46:26.463 GoogleSoftwareUpdateAgent[31702/0x7000002a0000] [lvl=2] -[KSAgentApp(KeystoneDelegate) updateEngineFinishedWithErrors:] Keystone finished: errors=0
+1609	2017-07-01 19:46:26.465 GoogleSoftwareUpdateAgent[31702/0x7000002a0000] [lvl=2] -[KSUpdateEngine updateAllExceptProduct:] KSUpdateEngine updating all installed products, except:'<*>'.
+1610	2017-07-01 19:46:26.466 GoogleSoftwareUpdateAgent[31702/0x7000002a0000] [lvl=2] -[KSCheckAction performAction] KSCheckAction checking 1 ticket(s).
+1611	2017-07-01 19:46:26.498 GoogleSoftwareUpdateAgent[31702/0x7000002a0000] [lvl=2] +[KSCodeSigningVerification verifyBundle:applicationId:error:] KSCodeSigningVerification verifying code signing for '/Applications/Google Chrome.app' with the requirement 'anchor apple generic and certificate 1[<*>] exists and certificate leaf[<*>] exists and certificate leaf[subject.OU]="EQHXZ8M8AV" and (identifier="<*>")'
+1612	2017-07-01 19:46:27.306 ksfetch[31704/0x7fff79824000] [lvl=2] KSHelperReceiveAllData() KSHelperTool read 1989 bytes from stdin.
+1613	2017-07-01 19:46:27.458 ksfetch[31704/0x7fff79824000] [lvl=2] -[FetchDelegate fetcher:finishedWithData:] Fetcher downloaded successfully data of length: 0
+1614	2017-07-01 19:46:27.467 GoogleSoftwareUpdateAgent[31702/0x7000002a0000] [lvl=2] -[KSUpdateCheckAction(PrivateMethods) finishAction] KSUpdateCheckAction found updates: {( )}
+1615	2017-07-01 19:46:27.469 GoogleSoftwareUpdateAgent[31702/0x7000002a0000] [lvl=2] -[KSAgentApp updateProductWithProductID:usingEngine:] Done checking for updates for '"All Products"' using engine <KSUpdateEngine:0x100259c60
+1656	Performing context menu action
+1831	2017-07-01 10:26:58.484440 PM [AirPlayUIAgent] BecomingInactive: NSWorkspaceWillSleepNotification
+1944	Failed to start a scan - central is not powered on: 0
+2005	-[WebSocketNetWork webSocket:didReceiveMessage:]
+2023	2017-07-02 10:40:07.791 ksfetch[32013/0x7fff79824000] [lvl=2] main() Fetcher received a request: <NSMutableURLRequest: 0x10060bba0> { URL: https://<*>/service/update2?cup2hreq=f40ee1f8090d5bf5afa43b9e110e9e7855ea991a5c7d7153c989d5330427c12a&cup2key=7:4049611671 }
+2024	2017-07-02 10:40:07.792 ksfetch[32013/0x7fff79824000] [lvl=2] main() Setting up download file handles...
+2025	2017-07-02 10:40:08.352 ksfetch[32013/0x7fff79824000] [lvl=2] main() ksfetch done fetching.
+2026	2017-07-02 10:40:08.374 GoogleSoftwareUpdateAgent[32012/0x7000002a0000] [lvl=2] -[KSUpdateCheckAction(PrivateMethods) finishAction] KSUpdateCheckAction found updates: {( )}
+2027	2017-07-02 10:40:08.375 GoogleSoftwareUpdateAgent[32012/0x7000002a0000] [lvl=2] -[KSMultiUpdateAction performAction] KSSilentUpdateAction had no updates to apply.
+2028	2017-07-02 10:40:08.375 GoogleSoftwareUpdateAgent[32012/0x7000002a0000] [lvl=2] -[KSMultiUpdateAction performAction] KSPromptAction had no updates to apply.
+2029	2017-07-02 10:40:08.376 GoogleSoftwareUpdateAgent[32012/0x7000002a0000] [lvl=2] -[KSAgentApp updateProductWithProductID:usingEngine:] Done checking for updates for '"<*>"' using engine <KSUpdateEngine:0x100313e70
+2030	2017-07-02 10:40:09.160 ksfetch[32015/0x7fff79824000] [lvl=2] main() Fetcher received a request: <NSMutableURLRequest: 0x100312840> { URL: https://<*>/service/update2?cup2hreq=3d0f18c51102153ea6bb9b33d6f50f51086ab3dba6c01d298cd37650b2451306&cup2key=7:1910399544 }
+2031	2017-07-02 10:40:09.160 ksfetch[32015/0x7fff79824000] [lvl=2] main() Fetcher received a download path: /tmp/KSOutOfProcessFetcher.W87aUmWDak/download
+2032	2017-07-02 10:40:09.161 ksfetch[32015/0x7fff79824000] [lvl=2] main() Setting up download file handles...
+2033	2017-07-02 10:40:09.537 ksfetch[32015/0x7fff79824000] [lvl=2] -[FetchDelegate fetcher:finishedWithData:] Fetcher downloaded successfully data of length: 0
+2034	2017-07-02 10:40:09.538 ksfetch[32015/0x7fff79824000] [lvl=2] main() ksfetch done fetching.
+2049	2017-07-02 11:38:49.213084 AM [AirPlayUIAgent] BecomingInactive: NSWorkspaceWillSleepNotification
+2050	2017/07/02 11:38:49.418 | I | VoipWrapper  | DAVEngineImpl.cpp:1400:Close             | close video chat. llFriendUIN = 379338242.
+2373	Running daily periodic task.
+2383	2017-07-02 02:35:58.894052 PM [AirPlayUIAgent] BecomingInactive: NSWorkspaceWillSleepNotification
+2442	2017-07-02 15:46:40.437 GoogleSoftwareUpdateAgent[32432/0x7000002a0000] [lvl=2] -[KSAgentApp(KeystoneThread) runKeystonesInThreadWithArg:] No functional system update engine detected. Only user tickets will be processed.
+2443	2017-07-02 15:46:40.441 GoogleSoftwareUpdateAgent[32432/0x7000002a0000] [lvl=2] -[KSAgentApp performSelfUpdateWithEngine:] Checking for self update with Engine: <KSUpdateEngine:0x100539530
+2444	2017-07-02 15:46:40.442 GoogleSoftwareUpdateAgent[32432/0x7000002a0000] [lvl=2] -[KSUpdateEngine updateProductID:] KSUpdateEngine updating product ID: "<*>"
+2445	2017-07-02 15:46:40.516 GoogleSoftwareUpdateAgent[32432/0x7000002a0000] [lvl=2] -[KSOutOfProcessFetcher beginFetchWithDelegate:] KSOutOfProcessFetcher fetching from URL: "https://<*>/service/update2?cup2hreq=29f0533938db88b28a5beddb8458ae94143d3661c2862efbb24705b30d4bdd19&cup2key=7:128339796"
+2446	2017-07-02 15:46:40.536 ksfetch[32433/0x7fff79824000] [lvl=2] main() Fetcher received a request: <NSMutableURLRequest: 0x10010f710> { URL: https://<*>/service/update2?cup2hreq=29f0533938db88b28a5beddb8458ae94143d3661c2862efbb24705b30d4bdd19&cup2key=7:128339796 }
+2447	2017-07-02 15:46:40.537 ksfetch[32433/0x7fff79824000] [lvl=2] main() Setting up download file handles...
+2448	2017-07-02 15:46:40.682 ksfetch[32433/0x7fff79824000] [lvl=2] main() ksfetch done fetching.
+2449	2017-07-02 15:46:40.686 GoogleSoftwareUpdateAgent[32432/0x7000002a0000] [lvl=2] -[KSUpdateCheckAction(KSServerUpdateRequestDelegate) serverRequest:fetchedWithResponse:] KSUpdateCheckAction received KSServerUpdateResponse: <KSOmahaServerUpdateResponse:0x1005400c0
+2450	2017-07-02 15:46:40.691 GoogleSoftwareUpdateAgent[32432/0x7000002a0000] [lvl=2] -[KSUpdateCheckAction(PrivateMethods) finishAction] KSUpdateCheckAction found updates: {( )}
+2451	2017-07-02 15:46:40.692 GoogleSoftwareUpdateAgent[32432/0x7000002a0000] [lvl=2] -[KSAgentApp(KeystoneDelegate) updateEngineFinishedWithErrors:] Keystone finished: errors=0
+2452	2017-07-02 15:46:40.696 GoogleSoftwareUpdateAgent[32432/0x7000002a0000] [lvl=2] -[KSAgentApp performSelfUpdateWithEngine:] Finished self update check.
+2453	2017-07-02 15:46:40.697 GoogleSoftwareUpdateAgent[32432/0x7000002a0000] [lvl=2] -[KSUpdateEngine updateAllExceptProduct:] KSUpdateEngine updating all installed products, except:'<*>'.
+2454	2017-07-02 15:46:41.423 GoogleSoftwareUpdateAgent[32432/0x7000002a0000] [lvl=2] -[KSUpdateCheckAction performAction] KSUpdateCheckAction running KSServerUpdateRequest: <KSOmahaServerUpdateRequest:0x100766640
+2455	2017-07-02 15:46:41.603 ksfetch[32435/0x7fff79824000] [lvl=2] main() Fetcher is exiting.
+2456	2017-07-02 15:46:41.709 GoogleSoftwareUpdateAgent[32432/0x7000002a0000] [lvl=2] -[KSAgentUploader fetcher:finishedWithData:] Successfully uploaded stats to <NSMutableURLRequest: 0x10057e1e0> { URL: https://<*>/service/update2 }
+2493	GVA warning: addNewReferenceEntry_MMCO mmcoFunc1 not found requested 3, curr = 6
+2494	[17:01:17.092] CMSampleBufferCallForEachSample signalled err=1 (err) ([aborting loop early due to error from callback]) at /Library/Caches/<*>/Sources/CoreMedia_frameworks/<*>/Sources/Core/FigSampleBuffer/FigSampleBuffer.c line 3678
+2545	2017-07-02 17:47:28.655 GoogleSoftwareUpdateAgent[32575/0x7fff79824000] [lvl=2] -[KSAgentApp setupLoggerOutput] Agent settings: <KSAgentSettings:0x1003269a0 bundleID=<*> lastCheck=2017-07-02 22:46:42 +0000 checkInterval=18000.000000 uiDisplayInterval=604800.000000 sleepInterval=1800.000000 jitterInterval=900 maxRunInterval=0.000000 isConsoleUser=1 ticketStorePath=/Users/xpc/Library/Google/GoogleSoftwareUpdate/TicketStore/Keystone.ticketstore runMode=3 daemonUpdateEngineBrokerServiceName=<*> daemonAdministrationServiceName=<*> logEverything=0 logBufferSize=2048 alwaysPromptForUpdates=0 productIDToUpdate=(null) lastUIDisplayed=(null) alwaysShowStatusItem=0 updateCheckTag=(null) printResults=NO userInitiated=NO>
+2923	31: DNSServiceCreateConnection: 0 registered records, 1 kDNSServiceFlagsShareConnection operation PID[53](configd)
+2963	Garcon destroyed (0 alive).
+2968	2017-07-02 20:50:47.628 ksfetch[32776/0x7fff79824000] [lvl=2] main() Fetcher is exiting.
+2969	2017-07-02 20:50:47.631 GoogleSoftwareUpdateAgent[32775/0x7000002a0000] [lvl=2] -[KSOutOfProcessFetcher(PrivateMethods) helperDidTerminate:] KSOutOfProcessFetcher fetch ended for URL: "https://<*>/service/update2?cup2hreq=e006a9af7d7ab2027a96bb0c792713f6ef71e5edcf01938be5344b8228a05457&cup2key=7:2108206032"
+2970	2017-07-02 20:50:47.639 GoogleSoftwareUpdateAgent[32775/0x7000002a0000] [lvl=2] -[KSMultiUpdateAction performAction] KSPromptAction had no updates to apply.
+2971	2017-07-02 20:50:47.639 GoogleSoftwareUpdateAgent[32775/0x7000002a0000] [lvl=2] -[KSAgentApp(KeystoneDelegate) updateEngineFinishedWithErrors:] Keystone finished: errors=0
+2972	2017-07-02 20:50:48.611 ksfetch[32777/0x7fff79824000] [lvl=2] -[FetchDelegate fetcher:finishedWithData:] Fetcher downloaded successfully data of length: 0
+2973	2017-07-02 20:50:48.615 GoogleSoftwareUpdateAgent[32775/0x7000002a0000] [lvl=2] -[KSOutOfProcessFetcher(PrivateMethods) helperErrorAvailable:] KSOutOfProcessFetcher helper tool raw STDERR:
+2974	2017-07-02 20:50:48.616 GoogleSoftwareUpdateAgent[32775/0x7000002a0000] [lvl=2] -[KSUpdateCheckAction(KSServerUpdateRequestDelegate) serverRequest:fetchedWithResponse:] KSUpdateCheckAction received KSServerUpdateResponse: <KSOmahaServerUpdateResponse:0x102a02820
+2990	[21:14:16.866] sgffr_generateSingleSampleBuffer signalled err=-12871 (err) (FigScheduledReadRequestRead failed) at /Library/Caches/<*>/Sources/CoreMedia/<*>/Prototypes/FormatHandlers/SampleGeneratorForFormatReader.c line 1562
+3111	CoreText: *** Unmapped "\u1000\u1064\u102C" <CTFont: 0x7fef88f59990>{name = HelveticaNeue-Bold, size = 16.000000, matrix = 0x0, descriptor = <CTFontDescriptor: 0x7fef8dbb8c50>{attributes = <CFBasicHash 0x7fef88fbf4a0 [0x7fff7abc1440]>{type = mutable dict, count = 1,
+3112	CoreText: *** Unmapped "\u1000\u1064\u102C" <CTFont: 0x7fef8d845170>{name = HelveticaNeue-Bold, size = 16.000000, matrix = 0x0, descriptor = <CTFontDescriptor: 0x7fef8e56c810>{attributes = <CFBasicHash 0x7fef8e528af0 [0x7fff7abc1440]>{type = mutable dict, count = 1,
+3143	2017-07-02 10:57:38.434043 PM [AirPlayUIAgent] BecomingInactive: NSWorkspaceWillSleepNotification
+3146	2017/07/02 22:57:38.825 | I | VoipWrapper  | DAVEngineImpl.cpp:1400:Close             | close video chat. llFriendUIN = 1742124257.
+3728	<*>://DB05755C-483D-44B7-B93B-ED06E57FF420/ExchangePrincipal/p13: scheduler returned false; however, this job is 1 seconds overdue. Running anyway.
+4006	Failed to start scanning
+4091	Skipping STATUS for INBOX because CHECK failed with error: Error Domain=NSPOSIXErrorDomain Code=60 "Operation timed out" UserInfo={NSHelpAnchor=string:isp set up network send problem connection, NSLocalizedDescription=通过 143 端口连接到服务器“<*>”已超时。}
+4112	2017-07-03 10:40:41.730 GoogleSoftwareUpdateAgent[33263/0x700000323000] [lvl=2] -[KSAgentApp performSelfUpdateWithEngine:] This process may be killed if self-update is necessary. In such cases, sub-processes may still be running to complete the self-update.
+4113	2017-07-03 10:40:42.016 GoogleSoftwareUpdateAgent[33263/0x700000323000] [lvl=2] -[KSUpdateCheckAction(PrivateMethods) finishAction] KSUpdateCheckAction found updates: {( )}
+4114	2017-07-03 10:40:42.935 ksfetch[33266/0x7fff79824000] [lvl=2] main() ksfetch done fetching.
+4115	2017-07-03 10:40:42.938 GoogleSoftwareUpdateAgent[33263/0x700000323000] [lvl=2] -[KSOutOfProcessFetcher(PrivateMethods) helperErrorAvailable:] KSOutOfProcessFetcher helper tool raw STDERR:
+4116	2017-07-03 10:40:42.939 GoogleSoftwareUpdateAgent[33263/0x700000323000] [lvl=2] -[KSUpdateCheckAction(KSServerUpdateRequestDelegate) serverRequest:fetchedWithResponse:] KSUpdateCheckAction received KSServerUpdateResponse: <KSOmahaServerUpdateResponse:0x10022e8e0
+4117	2017-07-03 10:40:42.945 GoogleSoftwareUpdateAgent[33263/0x700000323000] [lvl=2] -[KSMultiUpdateAction performAction] KSSilentUpdateAction had no updates to apply.
+4118	2017-07-03 10:40:44.181 GoogleSoftwareUpdateAgent[33263/0x7fff79824000] [lvl=2] -[KSAgentApp checkForUpdates] Finished update check.
+4321	2017-07-03 12:24:33.055700 PM [AirPlayUIAgent] BecomingInactive: NSWorkspaceWillSleepNotification
+4361	failed to copy buffer for AID: 0x5f9f63, PID: 10018
+4685	<IMMacNotificationCenterManager: 0x7ff1b2e00ba0>:   DND Enabled: NO
+5792	2017-07-03 19:04:54.563, 30311, 35423da0, [CountryConfiguration]: Could not determine current country code: Error Domain=NSURLErrorDomain Code=-1009 "The Internet connection appears to be offline." UserInfo={NSUnderlyingError=0x7fe13345c700 {Error Domain=kCFErrorDomainCFNetwork Code=-1009 "The Internet connection appears to be offline." UserInfo={NSErrorFailingURLStringKey=https://<*>/pep/gcc, NSErrorFailingURLKey=https://<*>/pep/gcc, _kCFStreamErrorCodeKey=8, _kCFStreamErrorDomainKey=12, NSLocalizedDescription=The Internet connection appears to be offline.}}, NSErrorFailingURLStringKey=https://<*>/pep/gcc, NSErrorFailingURLKey=https://<*>/pep/gcc, _kCFStreamErrorDomainKey=12, _kCFStreamErrorCodeKey=8, NSLocalizedDescription=The Internet connection appears to be offline.}
+5976	2017-07-03 20:25:13.301 GoogleSoftwareUpdateAgent[33847/0x7fff79824000] [lvl=2] -[KSAgentApp checkForUpdates] Starting update check.
+5977	2017-07-03 20:25:13.367 GoogleSoftwareUpdateAgent[33847/0x7000002a0000] [lvl=2] -[KSAgentApp performSelfUpdateWithEngine:] Checking for self update with Engine: <KSUpdateEngine:0x1007249c0
+5978	2017-07-03 20:25:13.594 GoogleSoftwareUpdateAgent[33847/0x7000002a0000] [lvl=2] -[KSUpdateEngine(PrivateMethods) updateFinish] KSUpdateEngine update processing complete.
+5979	2017-07-03 20:25:13.594 GoogleSoftwareUpdateAgent[33847/0x7000002a0000] [lvl=2] -[KSAgentApp updateProductWithProductID:usingEngine:] Done checking for updates for '"<*>"' using engine <KSUpdateEngine:0x1007249c0
+5980	2017-07-03 20:25:13.594 GoogleSoftwareUpdateAgent[33847/0x7000002a0000] [lvl=2] -[KSAgentApp performSelfUpdateWithEngine:] Finished self update check.
+5981	2017-07-03 20:25:14.361 GoogleSoftwareUpdateAgent[33847/0x7000002a0000] [lvl=2] -[KSUpdateCheckAction performAction] KSUpdateCheckAction running KSServerUpdateRequest: <KSOmahaServerUpdateRequest:0x100633210
+5982	2017-07-03 20:25:14.361 GoogleSoftwareUpdateAgent[33847/0x7000002a0000] [lvl=2] -[KSOutOfProcessFetcher beginFetchWithDelegate:] KSOutOfProcessFetcher start fetch from URL: "https://<*>/service/update2?cup2hreq=f8e2f50241fbf4f7f9979d36e4bfad497b027cfb0aa041c53a43b128aa4e8f96&cup2key=7:3234527638"
+5983	2017-07-03 20:25:14.622 GoogleSoftwareUpdateAgent[33847/0x7000002a0000] [lvl=2] -[KSAgentApp uploadStats:] Successfully uploaded stats <KSStatsCollection:0x1005305f0 path="/Users/xpc/Library/Google/GoogleSoftwareUpdate/Stats/Keystone.stats", count=5, stats={
+5984	2017-07-03 20:25:15.817 GoogleSoftwareUpdateAgent[33847/0x7fff79824000] [lvl=2] -[KSAgentApp checkForUpdates] Finished update check.
+6060	s
+6170	2017-07-03 22:26:01.507 GoogleSoftwareUpdateAgent[34018/0x7fff79824000] [lvl=2] -[KSAgentApp setupLoggerOutput] Agent settings: <KSAgentSettings:0x10061d6d0 bundleID=<*> lastCheck=2017-07-04 03:25:15 +0000 checkInterval=18000.000000 uiDisplayInterval=604800.000000 sleepInterval=1800.000000 jitterInterval=900 maxRunInterval=0.000000 isConsoleUser=1 ticketStorePath=/Users/xpc/Library/Google/GoogleSoftwareUpdate/TicketStore/Keystone.ticketstore runMode=3 daemonUpdateEngineBrokerServiceName=<*> daemonAdministrationServiceName=<*> logEverything=0 logBufferSize=2048 alwaysPromptForUpdates=0 productIDToUpdate=(null) lastUIDisplayed=(null) alwaysShowStatusItem=0 updateCheckTag=(null) printResults=NO userInitiated=NO>
+6267	Service exited with abnormal code: 1
+6933	In -[NSApplication(NSQuietSafeQuit) _updateCanQuitQuietlyAndSafely], _LSSetApplicationInformationItem(NSCanQuitQuietlyAndSafely) returned error -50
+7254	tcp_connection_destination_perform_socket_connect 42258 connectx to <*>:143@0 failed: [49] Can't assign requested address
+7562	2017-07-04 09:42:57.881 GoogleSoftwareUpdateAgent[34603/0x700000323000] [lvl=2] -[KSAgentApp(KeystoneThread) runKeystonesInThreadWithArg:] Starting engine thread
+7563	2017-07-04 09:42:57.888 GoogleSoftwareUpdateAgent[34603/0x700000323000] [lvl=2] -[KSAgentApp(KeystoneThread) runKeystonesInThreadWithArg:] Checking with local engine: <KSUpdateEngine:0x100610920
+7564	2017-07-04 09:42:57.888 GoogleSoftwareUpdateAgent[34603/0x700000323000] [lvl=2] -[KSAgentApp performSelfUpdateWithEngine:] Checking for self update with Engine: <KSUpdateEngine:0x100610920
+7565	2017-07-04 09:42:57.915 GoogleSoftwareUpdateAgent[34603/0x700000323000] [lvl=2] -[KSUpdateCheckAction performAction] KSUpdateCheckAction starting update check for ticket(s): {(
+7566	2017-07-04 09:42:58.127 GoogleSoftwareUpdateAgent[34603/0x700000323000] [lvl=2] -[KSOmahaServer updateInfosForUpdateResponse:updateRequest:infoStore:upToDateTickets:updatedTickets:events:errors:] Response passed CUP validation.
+7569	2017-07-04 09:43:01.175 GoogleSoftwareUpdateAgent[34603/0x700000323000] [lvl=2] -[KSUpdateCheckAction(KSServerUpdateRequestDelegate) serverRequest:fetchedWithResponse:] KSUpdateCheckAction received KSServerUpdateResponse: <KSOmahaServerUpdateResponse:0x100509370
+7570	2017-07-04 09:43:01.180 GoogleSoftwareUpdateAgent[34603/0x700000323000] [lvl=2] -[KSPrefetchAction performAction] KSPrefetchAction no updates to prefetch.
+7572	2017-07-04 09:43:02.967 GoogleSoftwareUpdateAgent[34603/0x700000323000] [lvl=2] -[KSAgentUploader fetcher:finishedWithData:] Successfully uploaded stats to <NSMutableURLRequest: 0x103946af0> { URL: https://<*>/service/update2 }
+7938	payload Data 07 00
+8300	2017-07-04 15:03:52.933 GoogleSoftwareUpdateAgent[35018/0x7000002a0000] [lvl=2] -[KSAgentApp(KeystoneThread) runKeystonesInThreadWithArg:] No functional system update engine detected. Only user tickets will be processed.
+8301	2017-07-04 15:03:52.935 GoogleSoftwareUpdateAgent[35018/0x7000002a0000] [lvl=2] -[KSAgentApp performSelfUpdateWithEngine:] Checking for self update with Engine: <KSUpdateEngine:0x100218960
+8302	2017-07-04 15:03:52.935 GoogleSoftwareUpdateAgent[35018/0x7000002a0000] [lvl=2] -[KSAgentApp performSelfUpdateWithEngine:] This process may be killed if self-update is necessary. In such cases, sub-processes may still be running to complete the self-update.
+8303	2017-07-04 15:03:53.269 GoogleSoftwareUpdateAgent[35018/0x7000002a0000] [lvl=2] -[KSOutOfProcessFetcher(PrivateMethods) helperErrorAvailable:] KSOutOfProcessFetcher helper tool raw STDERR:
+8304	2017-07-04 15:03:53.271 GoogleSoftwareUpdateAgent[35018/0x7000002a0000] [lvl=2] -[KSUpdateCheckAction(KSServerUpdateRequestDelegate) serverRequest:fetchedWithResponse:] KSUpdateCheckAction received KSServerUpdateResponse: <KSOmahaServerUpdateResponse:0x100673350
+8305	2017-07-04 15:03:53.278 GoogleSoftwareUpdateAgent[35018/0x7000002a0000] [lvl=2] -[KSUpdateCheckAction(PrivateMethods) finishAction] KSUpdateCheckAction found updates: {( )}
+8306	2017-07-04 15:03:53.281 GoogleSoftwareUpdateAgent[35018/0x7000002a0000] [lvl=2] -[KSAgentApp(KeystoneThread) runKeystonesInThreadWithArg:] About to run checks for any other apps.
+8307	2017-07-04 15:03:54.094 ksfetch[35021/0x7fff79824000] [lvl=2] main() ksfetch fetching URL (<NSMutableURLRequest: 0x10011c080> { URL: https://<*>/service/update2?cup2hreq=f9ae3f879a224a6816d5d3fd658812b893864e34016ca4799ef99e34f673074b&cup2key=7:1765027745 }) to folder:/tmp/KSOutOfProcessFetcher.2g8z6tfM4u/download
+8308	2017-07-04 15:03:54.231 GoogleSoftwareUpdateAgent[35018/0x7000002a0000] [lvl=2] -[KSOmahaServer updateInfosForUpdateResponse:updateRequest:infoStore:upToDateTickets:updatedTickets:events:errors:] Response passed CUP validation.
+8309	2017-07-04 15:03:54.235 GoogleSoftwareUpdateAgent[35018/0x7000002a0000] [lvl=2] -[KSMultiUpdateAction performAction] KSPromptAction had no updates to apply.
+8310	2017-07-04 15:03:54.235 GoogleSoftwareUpdateAgent[35018/0x7000002a0000] [lvl=2] -[KSAgentApp(KeystoneDelegate) updateEngineFinishedWithErrors:] Keystone finished: errors=0
+8350	2017-07-04 16:04:18.266 GoogleSoftwareUpdateAgent[35089/0x7fff79824000] [lvl=2] -[KSAgentApp setupLoggerOutput] Agent settings: <KSAgentSettings:0x10061ed30 bundleID=<*> lastCheck=2017-07-04 22:03:55 +0000 checkInterval=18000.000000 uiDisplayInterval=604800.000000 sleepInterval=1800.000000 jitterInterval=900 maxRunInterval=0.000000 isConsoleUser=1 ticketStorePath=/Users/xpc/Library/Google/GoogleSoftwareUpdate/TicketStore/Keystone.ticketstore runMode=3 daemonUpdateEngineBrokerServiceName=<*> daemonAdministrationServiceName=<*> logEverything=0 logBufferSize=2048 alwaysPromptForUpdates=0 productIDToUpdate=(null) lastUIDisplayed=(null) alwaysShowStatusItem=0 updateCheckTag=(null) printResults=NO userInitiated=NO>
+8812	XPC Activity invoked with state=2
+8937	(Volume.Normal:2464) volume:0x7fe11e0bf000 ********** Bootstrapped Creating a default store:0 SpotLoc:(null) SpotVerLoc:(null) occlude:0 /Volumes/Recovery HD
+9142	notify name "CKStatusReport" has been registered 20 times - this may be a leak
+9866	.sdef warning for argument '' of command 'can continue previous list' in suite 'Microsoft Word Suite': '4023' is not a valid type name.
+9869	.sdef warning for argument 'textEncoding' of command 'save as' in suite 'Microsoft Word Suite': 'unsigned integer' is not a valid type name.
+9870	.sdef warning for argument '' of command 'update' in suite 'Microsoft Word Suite': '4016' is not a valid type name.
+9882	2017-07-04 23:27:41.805 GoogleSoftwareUpdateAgent[35425/0x7fff79824000] [lvl=2] -[KSAgentApp checkForUpdates] Starting update check.
+9883	2017-07-04 23:27:41.811 GoogleSoftwareUpdateAgent[35425/0x7000002a0000] [lvl=2] -[KSUpdateEngine updateProductID:] KSUpdateEngine updating product ID: "<*>"
+9884	2017-07-04 23:27:41.860 GoogleSoftwareUpdateAgent[35425/0x7000002a0000] [lvl=2] -[KSOutOfProcessFetcher(PrivateMethods) launchedHelperTaskForToolPath:error:] KSOutOfProcessFetcher launched '/Users/xpc/Library/Google/GoogleSoftwareUpdate/GoogleSoftwareUpdate.bundle/Contents/MacOS/ksfetch' with process id: 35426
+9885	2017-07-04 23:27:41.883 ksfetch[35426/0x7fff79824000] [lvl=2] main() Setting up download file handles...
+9886	2017-07-04 23:27:42.069 GoogleSoftwareUpdateAgent[35425/0x7000002a0000] [lvl=2] -[KSMultiUpdateAction performAction] KSSilentUpdateAction had no updates to apply.
+9887	2017-07-04 23:27:42.069 GoogleSoftwareUpdateAgent[35425/0x7000002a0000] [lvl=2] -[KSMultiUpdateAction performAction] KSPromptAction had no updates to apply.
+9888	2017-07-04 23:27:42.070 GoogleSoftwareUpdateAgent[35425/0x7000002a0000] [lvl=2] -[KSAgentApp(KeystoneThread) runKeystonesInThreadWithArg:] About to run checks for any other apps.
+9889	2017-07-04 23:27:42.787 GoogleSoftwareUpdateAgent[35425/0x7000002a0000] [lvl=2] -[KSOutOfProcessFetcher beginFetchWithDelegate:] KSOutOfProcessFetcher fetching from URL: "https://<*>/service/update2?cup2hreq=8dbd04bef89070d406c764d74fdcb43e1fd91bb8a4b74da352611be9502034e6&cup2key=7:1320653463"
+9890	2017-07-04 23:27:43.003 ksfetch[35427/0x7fff79824000] [lvl=2] -[FetchDelegate fetcher:finishedWithData:] Fetcher downloaded successfully data of length: 0
+9891	2017-07-04 23:27:43.013 GoogleSoftwareUpdateAgent[35425/0x7000002a0000] [lvl=2] -[KSUpdateEngine(PrivateMethods) updateFinish] KSUpdateEngine update processing complete.
+9892	2017-07-04 23:27:44.133 GoogleSoftwareUpdateAgent[35425/0x7000002a0000] [lvl=2] -[KSAgentApp(KeystoneThread) runKeystonesInThreadWithArg:] Finished with engine thread
+9921	[23:50:57.517] <<< FFR_Common >>> FigFormatReaderCreateForStreamReturningMatchingContainerLabelType: *** Could not find format reader for URL "file:///Users/xpc/Desktop/%5BKamigami%5D%20Sword%20Art%20Online%20%5BBDrip%201920x1080%20x264%20FLAC%20MKV%20Sub(Chs,Jap)%5D/%5BKamigami%5D%20Sword%20Art%20Online%20-%2005%20%5BBDrip%201920x1080%20x264%20FLAC%5D.mkv" path "/Users/xpc/Desktop/[Kamigami] Sword Art Online [BDrip 1920x1080 x264 FLAC MKV Sub(Chs,Jap)]/[Kamigami] Sword Art Online - 05 [BDrip 1920x1080 x264 FLAC].mkv" extension "mkv" FileType '' MIMETYPE "(null)" SuggFileName "(null)" SuggNameExtension "(null)"
+9966	In -[NSApplication(NSQuietSafeQuit) _updateCanQuitQuietlyAndSafely], _LSSetApplicationInformationItem(NSCanQuitQuietlyAndSafely) returned error -50
+9970	IO80211AWDLMulticastPeer::transmitSuccess():  Alert.  Expecting to receive tx status for sequence 9659, got 19443
+10009	[00:17:48.298] <<<< CRABS >>>> crabsDoJump: [0x7f9e9b5cfe30] thread 0x700000841000 crabsMoveFirehose failed for block 122
+10010	[00:17:48.300] (Fig) signalled err=-12935
+10011	[00:17:48.300] sgffr_generateSingleSampleBuffer signalled err=-12935 (err) (FigScheduledReadRequestRead failed) at /Library/Caches/<*>/Sources/CoreMedia/<*>/Prototypes/FormatHandlers/SampleGeneratorForFormatReader.c line 1562
+10012	[00:17:48.300] videoMentorThreadCreateSampleBuffer signalled err=-12935 (err) (FigSampleGeneratorCreateSampleBufferAtCursor failed) at /Library/Caches/<*>/Sources/CoreMedia/<*>/Prototypes/FormatHandlers/VideoMentor.c line 1332
+10041	[00:19:42.872] (Fig) signalled err=-12871
+10042	[00:19:42.872] audioMentorThreadForwardOrReversePlayback signalled err=-12871 (err) (FigSampleGeneratorCreateSampleBufferAtCursor failed) at /Library/Caches/<*>/Sources/CoreMedia/<*>/Prototypes/FormatHandlers/AudioMentor.c line 1248
+10043	SIO_CRABS siocrabsFinishUnlocked: abandoned stream; cancelling remaining requests
+10047	[00:20:39.190] <<< CFByteFlume >>> fbf_TCPConnEventHandler: [0x7f9e9b634e00] tcp_connection succeeded in reconnection attempt.  Network problem appears to be resolved.
+10052	Using ticket store: <KSPersistentTicketStore:0x102806df0 store=<KSKeyedPersistentStore:0x102a007d0
+10053	Using ticket store: <KSPersistentTicketStore:0x1006118a0 store=<KSKeyedPersistentStore:0x100611e50
+10057	[00:21:08.263] (Fig) signalled err=-1001
+10073	[00:28:39.799] (Fig) signalled err=-1001
+10076	[00:28:42.192] (Fig) signalled err=-12871
+10079	[00:29:02.193] <<<< CRABS >>>> crabsWaitForLoad: [0x7fbc7ac683a0] Wait time out - -1001 (msRequestTimeout -1)
+10089	[00:29:25.858] (Fig) signalled err=-12935
+10146	[00:55:07.539] <<< CFByteFlume >>> fbf_TCPConnEventHandler: [0x7fbc7afcdfd0] tcp_connection succeeded in reconnection attempt.  Network problem appears to be resolved.
+10454	2017-07-05 10:52:15.633 GoogleSoftwareUpdateAgent[35861/0x7fff79824000] [lvl=2] -[KSAgentApp setupLoggerOutput] Agent settings: <KSAgentSettings:0x10022ffb0 bundleID=<*> lastCheck=2017-07-05 06:27:44 +0000 checkInterval=18000.000000 uiDisplayInterval=604800.000000 sleepInterval=1800.000000 jitterInterval=900 maxRunInterval=0.000000 isConsoleUser=1 ticketStorePath=/Users/xpc/Library/Google/GoogleSoftwareUpdate/TicketStore/Keystone.ticketstore runMode=3 daemonUpdateEngineBrokerServiceName=<*> daemonAdministrationServiceName=<*> logEverything=0 logBufferSize=2048 alwaysPromptForUpdates=0 productIDToUpdate=(null) lastUIDisplayed=(null) alwaysShowStatusItem=0 updateCheckTag=(null) printResults=NO userInitiated=NO>
+10455	2017-07-05 10:52:15.636 GoogleSoftwareUpdateAgent[35861/0x700000323000] [lvl=2] -[KSAgentApp(KeystoneThread) runKeystonesInThreadWithArg:] Starting engine thread
+10456	2017-07-05 10:52:15.773 ksfetch[35862/0x7fff79824000] [lvl=2] KSHelperReceiveAllData() KSHelperTool read 1938 bytes from stdin.
+10457	2017-07-05 10:52:15.985 GoogleSoftwareUpdateAgent[35861/0x700000323000] [lvl=2] -[KSOmahaServer updateInfosForUpdateResponse:updateRequest:infoStore:upToDateTickets:updatedTickets:events:errors:] Response passed CUP validation.
+10458	2017-07-05 10:52:15.995 GoogleSoftwareUpdateAgent[35861/0x700000323000] [lvl=2] -[KSMultiUpdateAction performAction] KSSilentUpdateAction had no updates to apply.
+10459	2017-07-05 10:52:16.759 GoogleSoftwareUpdateAgent[35861/0x700000323000] [lvl=2] -[KSOutOfProcessFetcher beginFetchWithDelegate:] KSOutOfProcessFetcher fetching from URL: "https://<*>/service/update2?cup2hreq=a7873a51b1cb55518e420d20dff47d463781ed3f7aa83c3153129eefb148070b&cup2key=7:2501762722"
+10460	2017-07-05 10:52:16.777 ksfetch[35863/0x7fff79824000] [lvl=2] KSHelperReceiveAllData() KSHelperTool read 2011 bytes from stdin.
+10461	2017-07-05 10:52:16.779 ksfetch[35863/0x7fff79824000] [lvl=2] main() Fetcher received a download path: /tmp/KSOutOfProcessFetcher.yHsCVhCZDF/download
+10462	2017-07-05 10:52:16.965 ksfetch[35863/0x7fff79824000] [lvl=2] main() ksfetch done fetching.
+10463	2017-07-05 10:52:16.967 ksfetch[35863/0x7fff79824000] [lvl=2] main() Fetcher is exiting.
+10464	2017-07-05 10:52:16.971 GoogleSoftwareUpdateAgent[35861/0x700000323000] [lvl=2] -[KSOmahaServer updateInfosForUpdateResponse:updateRequest:infoStore:upToDateTickets:updatedTickets:events:errors:] Response passed CUP validation.
+10465	2017-07-05 10:52:16.977 GoogleSoftwareUpdateAgent[35861/0x700000323000] [lvl=2] -[KSAgentApp(KeystoneDelegate) updateEngineFinishedWithErrors:] Keystone finished: errors=0
+10466	2017-07-05 10:52:16.977 GoogleSoftwareUpdateAgent[35861/0x700000323000] [lvl=2] -[KSUpdateEngine(PrivateMethods) updateFinish] KSUpdateEngine update processing complete.
+10467	2017-07-05 10:52:16.978 GoogleSoftwareUpdateAgent[35861/0x700000323000] [lvl=2] -[KSAgentApp updateProductWithProductID:usingEngine:] Done checking for updates for '"All Products"' using engine <KSUpdateEngine:0x100244440
+10475	2017-07-05 10:57:00.285100 AM [AirPlayUIAgent] BecomingInactive: NSWorkspaceWillSleepNotification
+10505	2017-07-05 10:58:43.897247 AM [AirPlayUIAgent] BecomingInactive: NSWorkspaceWillSleepNotification
+10628	<INFO> RQD: Persist userinfo data with count 0
+10642	Reverting sleep with relative wake
+10675	2017-07-05 12:12:34.025854 PM [AirPlayUIAgent] BecomingInactive: NSWorkspaceWillSleepNotification
+11340	2017-07-05 16:18:03.430 GoogleSoftwareUpdateAgent[36128/0x7000002a0000] [lvl=2] -[KSUpdateCheckAction performAction] KSUpdateCheckAction starting update check for ticket(s): {(
+11341	2017-07-05 16:18:03.492 GoogleSoftwareUpdateAgent[36128/0x7000002a0000] [lvl=2] -[KSUpdateCheckAction performAction] KSUpdateCheckAction running KSServerUpdateRequest: <KSOmahaServerUpdateRequest:0x100335480
+11342	2017-07-05 16:18:03.522 ksfetch[36129/0x7fff79824000] [lvl=2] main() Setting up download file handles...
+11343	2017-07-05 16:18:05.607 GoogleSoftwareUpdateAgent[36128/0x7000002a0000] [lvl=2] -[KSOutOfProcessFetcher(PrivateMethods) helperErrorAvailable:] KSOutOfProcessFetcher helper tool raw STDERR:
+11344	2017-07-05 16:18:05.621 GoogleSoftwareUpdateAgent[36128/0x7000002a0000] [lvl=2] -[KSUpdateEngine updateAllExceptProduct:] KSUpdateEngine updating all installed products, except:'<*>'.
+11345	2017-07-05 16:18:05.624 GoogleSoftwareUpdateAgent[36128/0x7000002a0000] [lvl=2] -[KSUpdateCheckAction performAction] KSUpdateCheckAction starting update check for ticket(s): {(
+11346	2017-07-05 16:18:06.448 GoogleSoftwareUpdateAgent[36128/0x7000002a0000] [lvl=2] -[KSUpdateCheckAction performAction] KSUpdateCheckAction running KSServerUpdateRequest: <KSOmahaServerUpdateRequest:0x100472b20
+11347	2017-07-05 16:18:06.470 ksfetch[36130/0x7fff79824000] [lvl=2] main() Fetcher received a request: <NSMutableURLRequest: 0x100110250> { URL: https://<*>/service/update2?cup2hreq=ac844e04cbb398fcef4cf81b4ffc44a3ebc863e89d19c0b5d39d02d78d26675b&cup2key=7:677488741 }
+11348	2017-07-05 16:18:06.470 ksfetch[36130/0x7fff79824000] [lvl=2] main() Fetcher received a download path: /tmp/KSOutOfProcessFetcher.ObN5GxffF6/download
+11349	2017-07-05 16:18:06.471 ksfetch[36130/0x7fff79824000] [lvl=2] main() ksfetch fetching URL (<NSMutableURLRequest: 0x100110250> { URL: https://<*>/service/update2?cup2hreq=ac844e04cbb398fcef4cf81b4ffc44a3ebc863e89d19c0b5d39d02d78d26675b&cup2key=7:677488741 }) to folder:/tmp/KSOutOfProcessFetcher.ObN5GxffF6/download
+11350	2017-07-05 16:18:06.471 ksfetch[36130/0x7fff79824000] [lvl=2] main() Setting up download file handles...
+11351	2017-07-05 16:18:06.637 ksfetch[36130/0x7fff79824000] [lvl=2] main() Fetcher is exiting.
+11352	2017-07-05 16:18:06.640 GoogleSoftwareUpdateAgent[36128/0x7000002a0000] [lvl=2] -[KSUpdateCheckAction(KSServerUpdateRequestDelegate) serverRequest:fetchedWithResponse:] KSUpdateCheckAction received KSServerUpdateResponse: <KSOmahaServerUpdateResponse:0x10027d780
+11353	2017-07-05 16:18:07.782 GoogleSoftwareUpdateAgent[36128/0x7000002a0000] [lvl=2] -[KSAgentApp(KeystoneThread) runKeystonesInThreadWithArg:] Finished with engine thread
+11425	2017-07-05 04:58:24.235426 PM [AirPlayUIAgent] BecomingInactive: NSWorkspaceWillSleepNotification
+11557	AirPort: Link Down on en0. Reason 4 (Disassociated due to inactivity).
+11603	[<*>] [CalOperationQueue (x-coredata://DB05755C-483D-44B7-B93B-ED06E57FF420/ExchangePrincipal/p13): <CalExchangeSyncFolderItemsOperation: 0x7fa11fe781f0> failed with error Error Domain=NSURLErrorDomain Code=-1009 "似乎已断开与互联网的连接。" UserInfo={NSUnderlyingError=0x7fa11f9cf9c0 {Error Domain=kCFErrorDomainCFNetwork Code=-1009 "(null)" UserInfo={_kCFStreamErrorCodeKey=57, _kCFStreamErrorDomainKey=1}}, NSErrorFailingURLStringKey=https://1155092212%<*>@<*>/EWS/Exchange.asmx, NSErrorFailingURLKey=https://1155092212%<*>@<*>/EWS/Exchange.asmx, _kCFStreamErrorDomainKey=1, _kCFStreamErrorCodeKey=57, NSLocalizedDescription=似乎已断开与互联网的连接。}.]
+11622	setsockopt - IP_ADD_MEMBERSHIP error -1 errno 49 (Can't assign requested address) group <*> on <*>
+11888	29: Could not write data to client PID[53](configd) because of error - aborting connection
+11889	29: DNSServiceCreateConnection: 0 registered records, 1 kDNSServiceFlagsShareConnection operation PID[53](configd)
+12085	2017-07-05 23:51:01.068 GoogleSoftwareUpdateAgent[36436/0x7000002a0000] [lvl=2] -[KSAgentApp performSelfUpdateWithEngine:] Checking for self update with Engine: <KSUpdateEngine:0x100716220
+12086	2017-07-05 23:51:01.085 GoogleSoftwareUpdateAgent[36436/0x7000002a0000] [lvl=2] -[KSUpdateCheckAction performAction] KSUpdateCheckAction starting update check for ticket(s): {(
+12087	2017-07-05 23:51:01.152 GoogleSoftwareUpdateAgent[36436/0x7000002a0000] [lvl=2] -[KSOutOfProcessFetcher(PrivateMethods) launchedHelperTaskForToolPath:error:] KSOutOfProcessFetcher launched '/Users/xpc/Library/Google/GoogleSoftwareUpdate/GoogleSoftwareUpdate.bundle/Contents/MacOS/ksfetch' with process id: 36437
+12114	2017-07-06 00:30:36.754 GoogleSoftwareUpdateAgent[36436/0x7000002a0000] [lvl=3] -[KSOutOfProcessFetcher(PrivateMethods) helperDidTerminate:] The Internet connection appears to be offline. [NSURLErrorDomain:-1009] (The Internet connection appears to be offline. [kCFErrorDomainCFNetwork:-1009])
+12115	2017-07-06 00:30:37.071 GoogleSoftwareUpdateAgent[36436/0x7000002a0000] [lvl=2] -[KSUpdateEngine updateAllExceptProduct:] KSUpdateEngine updating all installed products, except:'<*>'.
+12116	2017-07-06 00:30:37.318 GoogleSoftwareUpdateAgent[36436/0x7000002a0000] [lvl=2] +[KSCodeSigningVerification verifyBundle:applicationId:error:] KSCodeSigningVerification verifying code signing for '/Applications/Google Chrome.app' with the requirement 'anchor apple generic and certificate 1[<*>] exists and certificate leaf[<*>] exists and certificate leaf[subject.OU]="EQHXZ8M8AV" and (identifier="<*>")'
+12117	2017-07-06 00:30:38.911 GoogleSoftwareUpdateAgent[36436/0x7000002a0000] [lvl=2] -[KSOutOfProcessFetcher beginFetchWithDelegate:] KSOutOfProcessFetcher fetching from URL: "https://<*>/service/update2?cup2hreq=1a0ffcef35b0476b0ed0eb432c8d31ea408014829966fd6560490d452a136395&cup2key=7:1604381715"
+12119	2017-07-06 00:30:38.930 ksfetch[36444/0x7fff79824000] [lvl=2] main() Fetcher received a request: <NSMutableURLRequest: 0x100502800> { URL: https://<*>/service/update2?cup2hreq=1a0ffcef35b0476b0ed0eb432c8d31ea408014829966fd6560490d452a136395&cup2key=7:1604381715 }
+12121	2017-07-06 00:30:38.998 GoogleSoftwareUpdateAgent[36436/0x7000002a0000] [lvl=2] -[KSOutOfProcessFetcher(PrivateMethods) helperDidTerminate:] KSOutOfProcessFetcher fetch ended for URL: "https://<*>/service/update2?cup2hreq=1a0ffcef35b0476b0ed0eb432c8d31ea408014829966fd6560490d452a136395&cup2key=7:1604381715"
+12122	2017-07-06 00:30:39.020 ksfetch[36445/0x7fff79824000] [lvl=2] main() Fetcher received a download path: /tmp/KSOutOfProcessFetcher.2p3hoCZtdZ/download
+12124	2017-07-06 00:30:39.049 GoogleSoftwareUpdateAgent[36436/0x7000002a0000] [lvl=2] -[KSOutOfProcessFetcher(PrivateMethods) helperErrorAvailable:] KSOutOfProcessFetcher helper tool raw STDERR:
+12125	2017-07-06 00:30:39.051 GoogleSoftwareUpdateAgent[36436/0x7000002a0000] [lvl=2] -[KSPrefetchAction performAction] KSPrefetchAction no updates to prefetch.
+12126	2017-07-06 00:30:39.119 GoogleSoftwareUpdateAgent[36436/0x7000002a0000] [lvl=3] -[KSAgentUploader fetcher:failedWithError:] Failed to upload stats to <NSMutableURLRequest: 0x10039d4a0> { URL: https://<*>/service/update2 } with error Error Domain=NSURLErrorDomain Code=-1009 "似乎已断开与互联网的连接。" UserInfo={NSUnderlyingError=0x10075e360 {Error Domain=kCFErrorDomainCFNetwork Code=-1009 "似乎已断开与互联网的连接。" UserInfo={NSErrorFailingURLStringKey=https://<*>/service/update2, NSErrorFailingURLKey=https://<*>/service/update2, _kCFStreamErrorCodeKey=8, _kCFStreamErrorDomainKey=12, NSLocalizedDescription=似乎已断开与互联网的连接。}}, NSErrorFailingURLStringKey=https://<*>/service/update2, NSErrorFailingURLKey=https://<*>/service/update2, _kCFStreamErrorDomainKey=12, _kCFStreamErrorCodeKey=8, NSLocalizedDescription=似乎已断开与互联网的连接。}
+12468	[Warning] Broadcasting no devices for account IDSDAccount: 0x7ff1b531f750 [Service: IDSDService: 0x7ff1b2d089b0 [Identifier: <*> Display Name: ScreenSharing Topic: <*>   Service: <*>   Protocol: <*>] Login: 13957525385@163.com UniqueID: 6D5C40F4-5E1D-4A93-8084-0A20D165E121 Account Type: Apple ID Registration: (null)  Registered: YES  Linked Accounts: (null)] even though we have some
+12498	XPC Activity invoked with state=2
+12507	-[PushServiceStoreDispatch getEnabledMediaTypesWithReply:]
+12530	2017-07-06 09:24:13.325 GoogleSoftwareUpdateAgent[36726/0x7000002a0000] [lvl=2] -[KSUpdateCheckAction performAction] KSUpdateCheckAction starting update check for ticket(s): {(
+12531	2017-07-06 09:24:14.395 GoogleSoftwareUpdateAgent[36726/0x7000002a0000] [lvl=2] -[KSOutOfProcessFetcher beginFetchWithDelegate:] KSOutOfProcessFetcher fetching from URL: "https://<*>/service/update2?cup2hreq=f5e83ec64ff3fc5533a3c206134a6517e274f9e1cb53df857e15049b6e4c9f8e&cup2key=7:1721929288"
+12533	2017-07-06 09:24:14.417 ksfetch[36728/0x7fff79824000] [lvl=2] main() ksfetch fetching URL (<NSMutableURLRequest: 0x100602220> { URL: https://<*>/service/update2?cup2hreq=f5e83ec64ff3fc5533a3c206134a6517e274f9e1cb53df857e15049b6e4c9f8e&cup2key=7:1721929288 }) to folder:/tmp/KSOutOfProcessFetcher.aPWod5QMh1/download
+12534	2017-07-06 09:24:14.726 GoogleSoftwareUpdateAgent[36726/0x7000002a0000] [lvl=2] -[KSUpdateCheckAction(KSServerUpdateRequestDelegate) serverRequest:fetchedWithResponse:] KSUpdateCheckAction received KSServerUpdateResponse: <KSOmahaServerUpdateResponse:0x100246500
+12535	2017-07-06 09:24:14.727 GoogleSoftwareUpdateAgent[36726/0x7000002a0000] [lvl=2] -[KSOmahaServer updateInfosForUpdateResponse:updateRequest:infoStore:upToDateTickets:updatedTickets:events:errors:] Response passed CUP validation.
+12536	2017-07-06 09:24:16.320 GoogleSoftwareUpdateAgent[36726/0x7fff79824000] [lvl=2] -[KSAgentApp checkForUpdates] Finished update check.
+12548	blued: unable to relinquishBluetoothPagingLockAndReply Error Domain=<*> Code=8 "(null)"
+12746	[<*>] [CalOperationQueue (x-coredata://DB05755C-483D-44B7-B93B-ED06E57FF420/ExchangePrincipal/p13): <CalExchangeSyncFolderItemsOperation: 0x7fa11febbce0> failed with error Error Domain=NSURLErrorDomain Code=-1009 "似乎已断开与互联网的连接。" UserInfo={NSUnderlyingError=0x7fa11d532510 {Error Domain=kCFErrorDomainCFNetwork Code=-1009 "(null)" UserInfo={_kCFStreamErrorCodeKey=8, _kCFStreamErrorDomainKey=12}}, NSErrorFailingURLStringKey=https://1155092212%<*>@<*>/EWS/Exchange.asmx, NSErrorFailingURLKey=https://1155092212%<*>@<*>/EWS/Exchange.asmx, _kCFStreamErrorDomainKey=12, _kCFStreamErrorCodeKey=8, NSLocalizedDescription=似乎已断开与互联网的连接。}.]
+12873	[<*>] [CalOperationQueue (x-coredata://DB05755C-483D-44B7-B93B-ED06E57FF420/ExchangePrincipal/p13): <CalExchangeSyncFolderItemsOperation: 0x7fa11febb830> failed with error Error Domain=NSURLErrorDomain Code=-1009 "似乎已断开与互联网的连接。" UserInfo={NSUnderlyingError=0x7fa11fb0d4c0 {Error Domain=kCFErrorDomainCFNetwork Code=-1009 "(null)" UserInfo={NSErrorPeerAddressKey=<CFData 0x7fa11fe63a60 [0x7fff7abc1440]>{length = 28, capacity = 28, bytes = 0x1c1e01bb000000002603103600030018 ... 0000000200000000}, _kCFStreamErrorCodeKey=57, _kCFStreamErrorDomainKey=1}}, NSErrorFailingURLStringKey=https://1155092212%<*>@<*>/EWS/Exchange.asmx, NSErrorFailingURLKey=https://1155092212%<*>@<*>/EWS/Exchange.asmx, _kCFStreamErrorDomainKey=1, _kCFStreamErrorCodeKey=57, NSLocalizedDescription=似乎已断开与互联网的连接。}.]
+13308	2017/07/06 14:16:59.231 | I | VoipWrapper  | DAVEngineImpl.cpp:1400:Close             | close video chat. llFriendUIN = 1742124257.
+13352	2017-07-06 14:57:14.902 GoogleSoftwareUpdateAgent[37059/0x7fff79824000] [lvl=2] -[KSAgentApp setupLoggerOutput] Agent settings: <KSAgentSettings:0x100222e00 bundleID=<*> lastCheck=2017-07-06 16:24:16 +0000 checkInterval=18000.000000 uiDisplayInterval=604800.000000 sleepInterval=1800.000000 jitterInterval=900 maxRunInterval=0.000000 isConsoleUser=1 ticketStorePath=/Users/xpc/Library/Google/GoogleSoftwareUpdate/TicketStore/Keystone.ticketstore runMode=3 daemonUpdateEngineBrokerServiceName=<*> daemonAdministrationServiceName=<*> logEverything=0 logBufferSize=2048 alwaysPromptForUpdates=0 productIDToUpdate=(null) lastUIDisplayed=(null) alwaysShowStatusItem=0 updateCheckTag=(null) printResults=NO userInitiated=NO>
+13353	2017-07-06 14:57:14.913 GoogleSoftwareUpdateAgent[37059/0x7000002a0000] [lvl=2] -[KSAgentApp(KeystoneThread) runKeystonesInThreadWithArg:] Checking with local engine: <KSUpdateEngine:0x100245c40
+13354	2017-07-06 14:57:14.984 GoogleSoftwareUpdateAgent[37059/0x7000002a0000] [lvl=2] -[KSOutOfProcessFetcher beginFetchWithDelegate:] KSOutOfProcessFetcher fetching from URL: "https://<*>/service/update2?cup2hreq=d125ff9251018ac6084fcc0c7fe95864ed339595da8e70f64260a7c059590a16&cup2key=7:244605105"
+13356	2017-07-06 14:57:15.511 GoogleSoftwareUpdateAgent[37059/0x7000002a0000] [lvl=2] -[KSOmahaServer updateInfosForUpdateResponse:updateRequest:infoStore:upToDateTickets:updatedTickets:events:errors:] Response passed CUP validation.
+13357	2017-07-06 14:57:15.522 GoogleSoftwareUpdateAgent[37059/0x7000002a0000] [lvl=2] -[KSAgentApp(KeystoneDelegate) updateEngineFinishedWithErrors:] Keystone finished: errors=0
+13358	2017-07-06 14:57:15.522 GoogleSoftwareUpdateAgent[37059/0x7000002a0000] [lvl=2] -[KSUpdateEngine(PrivateMethods) updateFinish] KSUpdateEngine update processing complete.
+13359	2017-07-06 14:57:15.523 GoogleSoftwareUpdateAgent[37059/0x7000002a0000] [lvl=2] -[KSUpdateEngine updateAllExceptProduct:] KSUpdateEngine updating all installed products, except:'<*>'.
+13360	2017-07-06 14:57:15.559 GoogleSoftwareUpdateAgent[37059/0x7000002a0000] [lvl=2] +[KSCodeSigningVerification verifyBundle:applicationId:error:] KSCodeSigningVerification verifying code signing for '/Applications/Google Chrome.app' with the requirement 'anchor apple generic and certificate 1[<*>] exists and certificate leaf[<*>] exists and certificate leaf[subject.OU]="EQHXZ8M8AV" and (identifier="<*>")'
+13361	2017-07-06 14:57:16.240 GoogleSoftwareUpdateAgent[37059/0x7000002a0000] [lvl=2] -[KSUpdateCheckAction performAction] KSUpdateCheckAction running KSServerUpdateRequest: <KSOmahaServerUpdateRequest:0x1007466f0
+13362	2017-07-06 14:57:16.241 GoogleSoftwareUpdateAgent[37059/0x7000002a0000] [lvl=2] -[KSOutOfProcessFetcher(PrivateMethods) launchedHelperTaskForToolPath:error:] KSOutOfProcessFetcher launched '/Users/xpc/Library/Google/GoogleSoftwareUpdate/GoogleSoftwareUpdate.bundle/Contents/MacOS/ksfetch' with process id: 37061
+13363	2017-07-06 14:57:16.657 ksfetch[37061/0x7fff79824000] [lvl=2] main() ksfetch done fetching.
+13365	2017-07-06 14:57:16.662 GoogleSoftwareUpdateAgent[37059/0x7000002a0000] [lvl=2] -[KSOmahaServer updateInfosForUpdateResponse:updateRequest:infoStore:upToDateTickets:updatedTickets:events:errors:] Response passed CUP validation.
+13366	2017-07-06 14:57:16.665 GoogleSoftwareUpdateAgent[37059/0x7000002a0000] [lvl=2] -[KSUpdateCheckAction(PrivateMethods) finishAction] KSUpdateCheckAction found updates: {( )}
+13367	2017-07-06 14:57:16.667 GoogleSoftwareUpdateAgent[37059/0x7000002a0000] [lvl=2] -[KSUpdateEngine(PrivateMethods) updateFinish] KSUpdateEngine update processing complete.
+13368	2017-07-06 14:57:18.443 GoogleSoftwareUpdateAgent[37059/0x7fff79824000] [lvl=2] -[KSAgentApp checkForUpdates] Finished update check.
+13394	<IMMacNotificationCenterManager: 0x7fdcc9d16380>:   DND Enabled: NO
+13609	<IMMacNotificationCenterManager: 0x7ff1b2e00ba0>:   DND Enabled: NO
+13618	magsafeStateChanged state changed old 2 new 1
+13648	Surface test allowed updates after 10 attempts (40 ms)
+13833	2017/07/06 19:32:03.538 | I | VoipWrapper  | DAVEngineImpl.cpp:1400:Close             | close video chat. llFriendUIN = 670993529.
+13863	blued: unable to relinquishBluetoothPagingLockAndReply Error Domain=<*> Code=8 "(null)"
+13891	2017/07/06 19:58:58.099 | I | VoipWrapper  | DAVEngineImpl.cpp:1400:Close             | close video chat. llFriendUIN = 535204893.
+13918	-[WebSocketNetWork webSocket:didReceiveMessage:]
+13919	Internal name did not resolve to internal address!
+13974	2017-07-06 20:46:03.802 GoogleSoftwareUpdateAgent[37316/0x7000002a0000] [lvl=2] -[KSCheckAction performAction] KSCheckAction checking 1 ticket(s).
+13976	2017-07-06 20:46:04.565 GoogleSoftwareUpdateAgent[37316/0x7000002a0000] [lvl=2] -[KSPrefetchAction performAction] KSPrefetchAction no updates to prefetch.
+13977	2017-07-06 20:46:04.566 GoogleSoftwareUpdateAgent[37316/0x7000002a0000] [lvl=2] -[KSMultiUpdateAction performAction] KSSilentUpdateAction had no updates to apply.
+13978	2017-07-06 20:46:04.566 GoogleSoftwareUpdateAgent[37316/0x7000002a0000] [lvl=2] -[KSMultiUpdateAction performAction] KSPromptAction had no updates to apply.
+13979	2017-07-06 20:46:04.566 GoogleSoftwareUpdateAgent[37316/0x7000002a0000] [lvl=2] -[KSAgentApp(KeystoneDelegate) updateEngineFinishedWithErrors:] Keystone finished: errors=0
+13980	2017-07-06 20:46:05.313 GoogleSoftwareUpdateAgent[37316/0x7000002a0000] [lvl=2] -[KSUpdateCheckAction performAction] KSUpdateCheckAction running KSServerUpdateRequest: <KSOmahaServerUpdateRequest:0x100584540
+13981	2017-07-06 20:46:05.314 GoogleSoftwareUpdateAgent[37316/0x7000002a0000] [lvl=2] -[KSOutOfProcessFetcher beginFetchWithDelegate:] KSOutOfProcessFetcher start fetch from URL: "https://<*>/service/update2?cup2hreq=e5d9ff2ff4c0adefd1d93155473f50a820cbb21bce0fc4ae6f72f42b98d1a3ad&cup2key=7:1216711447"
+13982	2017-07-06 20:46:05.314 GoogleSoftwareUpdateAgent[37316/0x7000002a0000] [lvl=2] -[KSOutOfProcessFetcher(PrivateMethods) launchedHelperTaskForToolPath:error:] KSOutOfProcessFetcher launched '/Users/xpc/Library/Google/GoogleSoftwareUpdate/GoogleSoftwareUpdate.bundle/Contents/MacOS/ksfetch' with process id: 37318
+13983	2017-07-06 20:46:05.336 ksfetch[37318/0x7fff79824000] [lvl=2] main() Fetcher received a download path: /tmp/KSOutOfProcessFetcher.9YIzA4YAH4/download
+13984	2017-07-06 20:46:05.336 ksfetch[37318/0x7fff79824000] [lvl=2] main() ksfetch fetching URL (<NSMutableURLRequest: 0x10380d9c0> { URL: https://<*>/service/update2?cup2hreq=e5d9ff2ff4c0adefd1d93155473f50a820cbb21bce0fc4ae6f72f42b98d1a3ad&cup2key=7:1216711447 }) to folder:/tmp/KSOutOfProcessFetcher.9YIzA4YAH4/download
+14023	2017-07-06 21:46:29.641 GoogleSoftwareUpdateAgent[37430/0x7fff79824000] [lvl=2] -[KSAgentApp setupLoggerOutput] Agent settings: <KSAgentSettings:0x10062f1c0 bundleID=<*> lastCheck=2017-07-07 03:46:06 +0000 checkInterval=18000.000000 uiDisplayInterval=604800.000000 sleepInterval=1800.000000 jitterInterval=900 maxRunInterval=0.000000 isConsoleUser=1 ticketStorePath=/Users/xpc/Library/Google/GoogleSoftwareUpdate/TicketStore/Keystone.ticketstore runMode=3 daemonUpdateEngineBrokerServiceName=<*> daemonAdministrationServiceName=<*> logEverything=0 logBufferSize=2048 alwaysPromptForUpdates=0 productIDToUpdate=(null) lastUIDisplayed=(null) alwaysShowStatusItem=0 updateCheckTag=(null) printResults=NO userInitiated=NO>
+14031	[<*>] [Account xpc_ben@163.com@https://<*>/caldav/principals/users/xpc_ben%40163.com/ timed out when executing operation: <CalDAVAccountRefreshQueueableOperation: 0x7fa11f9f2290; Sequence: 0>]
+14315	2017-07-07 01:47:39.816 GoogleSoftwareUpdateAgent[37644/0x7fff79824000] [lvl=2] -[KSAgentApp setupLoggerOutput] Agent settings: <KSAgentSettings:0x100524780 bundleID=<*> lastCheck=2017-07-07 03:46:06 +0000 checkInterval=18000.000000 uiDisplayInterval=604800.000000 sleepInterval=1800.000000 jitterInterval=900 maxRunInterval=0.000000 isConsoleUser=1 ticketStorePath=/Users/xpc/Library/Google/GoogleSoftwareUpdate/TicketStore/Keystone.ticketstore runMode=3 daemonUpdateEngineBrokerServiceName=<*> daemonAdministrationServiceName=<*> logEverything=0 logBufferSize=2048 alwaysPromptForUpdates=0 productIDToUpdate=(null) lastUIDisplayed=(null) alwaysShowStatusItem=0 updateCheckTag=(null) printResults=NO userInitiated=NO>
+14316	2017-07-07 01:47:39.871 GoogleSoftwareUpdateAgent[37644/0x7000002a0000] [lvl=2] -[KSAgentApp(KeystoneThread) runKeystonesInThreadWithArg:] Checking with local engine: <KSUpdateEngine:0x10053c8d0
+14317	2017-07-07 01:47:40.089 GoogleSoftwareUpdateAgent[37644/0x7000002a0000] [lvl=2] -[KSUpdateCheckAction performAction] KSUpdateCheckAction running KSServerUpdateRequest: <KSOmahaServerUpdateRequest:0x1002503a0
+14318	2017-07-07 01:47:40.184 ksfetch[37645/0x7fff79824000] [lvl=2] main() Fetcher received a download path: /tmp/KSOutOfProcessFetcher.lZ9HRbBG6m/download
+14319	2017-07-07 01:47:40.861 ksfetch[37645/0x7fff79824000] [lvl=2] -[FetchDelegate fetcher:finishedWithData:] Fetcher downloaded successfully data of length: 0
+14320	2017-07-07 01:47:40.895 GoogleSoftwareUpdateAgent[37644/0x7000002a0000] [lvl=2] -[KSUpdateCheckAction(PrivateMethods) finishAction] KSUpdateCheckAction found updates: {( )}
+14321	2017-07-07 01:47:40.904 GoogleSoftwareUpdateAgent[37644/0x7000002a0000] [lvl=2] -[KSAgentApp updateProductWithProductID:usingEngine:] Checking for updates for "All Products" using engine <KSUpdateEngine:0x10053c8d0
+14322	2017-07-07 01:47:43.565 GoogleSoftwareUpdateAgent[37644/0x7000002a0000] [lvl=2] -[KSOutOfProcessFetcher beginFetchWithDelegate:] KSOutOfProcessFetcher fetching from URL: "https://<*>/service/update2?cup2hreq=96a77dd2c36b0c1f7363f7e0109259f6d9c4d7208696f2d432456adf72145f92&cup2key=7:4002560718"
+14323	2017-07-07 01:47:44.331 GoogleSoftwareUpdateAgent[37644/0x7000002a0000] [lvl=2] -[KSOutOfProcessFetcher(PrivateMethods) helperDidTerminate:] KSOutOfProcessFetcher fetch ended for URL: "https://<*>/service/update2?cup2hreq=96a77dd2c36b0c1f7363f7e0109259f6d9c4d7208696f2d432456adf72145f92&cup2key=7:4002560718"
+14324	2017-07-07 01:47:44.333 GoogleSoftwareUpdateAgent[37644/0x7000002a0000] [lvl=2] -[KSUpdateCheckAction(KSServerUpdateRequestDelegate) serverRequest:fetchedWithResponse:] KSUpdateCheckAction received KSServerUpdateResponse: <KSOmahaServerUpdateResponse:0x10058fc00
+14325	2017-07-07 01:47:44.875 GoogleSoftwareUpdateAgent[37644/0x7000002a0000] [lvl=2] -[KSAgentUploader fetcher:finishedWithData:] Successfully uploaded stats to <NSMutableURLRequest: 0x10025a5a0> { URL: https://<*>/service/update2 }
+14326	2017-07-07 01:47:44.885 GoogleSoftwareUpdateAgent[37644/0x7000002a0000] [lvl=2] -[KSAgentApp uploadStats:] Successfully uploaded stats <KSStatsCollection:0x100611f80 path="/Users/xpc/Library/Google/GoogleSoftwareUpdate/Stats/Keystone.stats", count=5, stats={
+15171	(Volume.Normal:2464) volume:0x7fe11f839000 ********** Bootstrapped Creating a default store:0 SpotLoc:(null) SpotVerLoc:(null) occlude:0 /Volumes/Recovery HD
+15176	Finder(35455) System Policy: deny file-write-create /Volumes/Recovery HD/.Trashes/501
+15187	2017-07-07 10:54:41.165 GoogleSoftwareUpdateAgent[37924/0x7fff79824000] [lvl=2] -[KSAgentApp setupLoggerOutput] Agent settings: <KSAgentSettings:0x10032f010 bundleID=<*> lastCheck=2017-07-07 08:47:46 +0000 checkInterval=18000.000000 uiDisplayInterval=604800.000000 sleepInterval=1800.000000 jitterInterval=900 maxRunInterval=0.000000 isConsoleUser=1 ticketStorePath=/Users/xpc/Library/Google/GoogleSoftwareUpdate/TicketStore/Keystone.ticketstore runMode=3 daemonUpdateEngineBrokerServiceName=<*> daemonAdministrationServiceName=<*> logEverything=0 logBufferSize=2048 alwaysPromptForUpdates=0 productIDToUpdate=(null) lastUIDisplayed=(null) alwaysShowStatusItem=0 updateCheckTag=(null) printResults=NO userInitiated=NO>
+15188	2017-07-07 10:54:41.167 GoogleSoftwareUpdateAgent[37924/0x7000002a0000] [lvl=2] -[KSAgentApp(KeystoneThread) runKeystonesInThreadWithArg:] Starting engine thread
+15189	2017-07-07 10:54:41.202 GoogleSoftwareUpdateAgent[37924/0x7000002a0000] [lvl=2] -[KSAgentApp(KeystoneThread) runKeystonesInThreadWithArg:] Checking with local engine: <KSUpdateEngine:0x1007161b0
+15190	2017-07-07 10:54:41.203 GoogleSoftwareUpdateAgent[37924/0x7000002a0000] [lvl=2] -[KSAgentApp updateProductWithProductID:usingEngine:] Checking for updates for "<*>" using engine <KSUpdateEngine:0x1007161b0
+15191	2017-07-07 10:54:41.206 GoogleSoftwareUpdateAgent[37924/0x7000002a0000] [lvl=2] -[KSCheckAction performAction] KSCheckAction checking 1 ticket(s).
+15192	2017-07-07 10:54:41.214 GoogleSoftwareUpdateAgent[37924/0x7000002a0000] [lvl=2] -[KSUpdateCheckAction performAction] KSUpdateCheckAction starting update check for ticket(s): {(
+15193	2017-07-07 10:54:41.268 GoogleSoftwareUpdateAgent[37924/0x7000002a0000] [lvl=2] -[KSUpdateCheckAction performAction] KSUpdateCheckAction running KSServerUpdateRequest: <KSOmahaServerUpdateRequest:0x100730df0
+15194	2017-07-07 10:54:41.275 GoogleSoftwareUpdateAgent[37924/0x7000002a0000] [lvl=2] -[KSOutOfProcessFetcher beginFetchWithDelegate:] KSOutOfProcessFetcher fetching from URL: "https://<*>/service/update2?cup2hreq=67243afc812d039a6281a429d2a72ccb4d3eed3983a0c458c3f40354fb4d124d&cup2key=7:2574512307"
+15195	2017-07-07 10:54:41.860 GoogleSoftwareUpdateAgent[37924/0x7000002a0000] [lvl=2] -[KSOutOfProcessFetcher(PrivateMethods) helperErrorAvailable:] KSOutOfProcessFetcher helper tool raw STDERR:
+15196	2017-07-07 10:54:41.861 GoogleSoftwareUpdateAgent[37924/0x7000002a0000] [lvl=2] -[KSOutOfProcessFetcher(PrivateMethods) helperDidTerminate:] KSOutOfProcessFetcher fetch ended for URL: "https://<*>/service/update2?cup2hreq=67243afc812d039a6281a429d2a72ccb4d3eed3983a0c458c3f40354fb4d124d&cup2key=7:2574512307"
+15197	2017-07-07 10:54:41.862 GoogleSoftwareUpdateAgent[37924/0x7000002a0000] [lvl=2] -[KSUpdateCheckAction(KSServerUpdateRequestDelegate) serverRequest:fetchedWithResponse:] KSUpdateCheckAction received KSServerUpdateResponse: <KSOmahaServerUpdateResponse:0x100367af0
+15198	2017-07-07 10:54:41.870 GoogleSoftwareUpdateAgent[37924/0x7000002a0000] [lvl=2] -[KSPrefetchAction performAction] KSPrefetchAction no updates to prefetch.
+15199	2017-07-07 10:54:41.871 GoogleSoftwareUpdateAgent[37924/0x7000002a0000] [lvl=2] -[KSAgentApp performSelfUpdateWithEngine:] Finished self update check.
+15200	2017-07-07 10:54:42.625 GoogleSoftwareUpdateAgent[37924/0x7000002a0000] [lvl=2] -[KSOutOfProcessFetcher beginFetchWithDelegate:] KSOutOfProcessFetcher fetching from URL: "https://<*>/service/update2?cup2hreq=ae6149abf25a03fa003cb9b9e17b887e1472250bb4146abcd82239263fddce74&cup2key=7:2418914887"
+15201	2017-07-07 10:54:42.644 ksfetch[37926/0x7fff79824000] [lvl=2] KSHelperReceiveAllData() KSHelperTool read 1999 bytes from stdin.
+15202	2017-07-07 10:54:42.646 ksfetch[37926/0x7fff79824000] [lvl=2] main() ksfetch fetching URL (<NSMutableURLRequest: 0x1006116b0> { URL: https://<*>/service/update2?cup2hreq=ae6149abf25a03fa003cb9b9e17b887e1472250bb4146abcd82239263fddce74&cup2key=7:2418914887 }) to folder:/tmp/KSOutOfProcessFetcher.pNNILkDeaj/download
+15203	2017-07-07 10:54:43.061 GoogleSoftwareUpdateAgent[37924/0x7000002a0000] [lvl=2] -[KSMultiUpdateAction performAction] KSSilentUpdateAction had no updates to apply.
+15253	CoreAnimation: timed out fence 5acf3
+15339	AppleCameraGetProperties: SetPropertyNotificationPort status=0xffffffff
+15978	<*>://DB05755C-483D-44B7-B93B-ED06E57FF420/ExchangePrincipal/p13: scheduler returned false; however, this job is 1 seconds overdue. Running anyway.
+15985	<IMMacNotificationCenterManager: 0x7fdcc9d16380>:   DND Enabled: NO
+15993	2017-07-07 16:45:58.479, 30311, 33508310, [CountryConfiguration]: Could not determine current country code: Error Domain=NSURLErrorDomain Code=-1009 "The Internet connection appears to be offline." UserInfo={NSUnderlyingError=0x7fe13541ca30 {Error Domain=kCFErrorDomainCFNetwork Code=-1009 "The Internet connection appears to be offline." UserInfo={NSErrorFailingURLStringKey=https://<*>/pep/gcc, NSErrorFailingURLKey=https://<*>/pep/gcc, _kCFStreamErrorCodeKey=57, _kCFStreamErrorDomainKey=1, NSLocalizedDescription=The Internet connection appears to be offline.}}, NSErrorFailingURLStringKey=https://<*>/pep/gcc, NSErrorFailingURLKey=https://<*>/pep/gcc, _kCFStreamErrorDomainKey=1, _kCFStreamErrorCodeKey=57, NSLocalizedDescription=The Internet connection appears to be offline.}
+16000	Received an unexpected error: Error Domain=NSURLErrorDomain Code=-999 "已取消" UserInfo={NSErrorFailingURLKey=https://<*>/EWS/Exchange.asmx, NSLocalizedDescription=已取消, NSErrorFailingURLStringKey=https://<*>/EWS/Exchange.asmx}
+16024	2017-07-07 17:01:58.280 GoogleSoftwareUpdateAgent[38375/0x7000002a0000] [lvl=2] -[KSAgentApp(KeystoneThread) runKeystonesInThreadWithArg:] Starting engine thread
+16025	2017-07-07 17:01:58.310 GoogleSoftwareUpdateAgent[38375/0x7000002a0000] [lvl=2] -[KSAgentApp(KeystoneThread) runKeystonesInThreadWithArg:] No functional system update engine detected. Only user tickets will be processed.
+16026	2017-07-07 17:01:58.314 GoogleSoftwareUpdateAgent[38375/0x7000002a0000] [lvl=2] -[KSUpdateEngine updateProductID:] KSUpdateEngine updating product ID: "<*>"
+16027	2017-07-07 17:01:58.395 ksfetch[38376/0x7fff79824000] [lvl=2] KSHelperReceiveAllData() KSHelperTool read 1926 bytes from stdin.
+16028	2017-07-07 17:01:58.547 GoogleSoftwareUpdateAgent[38375/0x7000002a0000] [lvl=2] -[KSOmahaServer updateInfosForUpdateResponse:updateRequest:infoStore:upToDateTickets:updatedTickets:events:errors:] Response passed CUP validation.
+16029	2017-07-07 17:01:58.553 GoogleSoftwareUpdateAgent[38375/0x7000002a0000] [lvl=2] -[KSPrefetchAction performAction] KSPrefetchAction no updates to prefetch.
+16030	2017-07-07 17:01:58.554 GoogleSoftwareUpdateAgent[38375/0x7000002a0000] [lvl=2] -[KSUpdateEngine(PrivateMethods) updateFinish] KSUpdateEngine update processing complete.
+16031	2017-07-07 17:01:58.555 GoogleSoftwareUpdateAgent[38375/0x7000002a0000] [lvl=2] -[KSAgentApp(KeystoneThread) runKeystonesInThreadWithArg:] About to run checks for any other apps.
+16032	2017-07-07 17:01:58.559 GoogleSoftwareUpdateAgent[38375/0x7000002a0000] [lvl=2] -[KSUpdateCheckAction performAction] KSUpdateCheckAction starting update check for ticket(s): {(
+16033	2017-07-07 17:01:59.346 GoogleSoftwareUpdateAgent[38375/0x7000002a0000] [lvl=2] -[KSUpdateCheckAction performAction] KSUpdateCheckAction running KSServerUpdateRequest: <KSOmahaServerUpdateRequest:0x102034910
+16034	2017-07-07 17:01:59.503 GoogleSoftwareUpdateAgent[38375/0x7000002a0000] [lvl=2] -[KSOutOfProcessFetcher(PrivateMethods) helperErrorAvailable:] KSOutOfProcessFetcher helper tool raw STDERR:
+16035	2017-07-07 17:01:59.624 GoogleSoftwareUpdateAgent[38375/0x7000002a0000] [lvl=2] -[KSAgentApp uploadStats:] Successfully uploaded stats <KSStatsCollection:0x100425000 path="/Users/xpc/Library/Google/GoogleSoftwareUpdate/Stats/Keystone.stats", count=5, stats={
+16061	dynamic_cast error 2: One or more of the following type_info's  has hidden visibility.  They should all have public visibility.   N11OfficeSpace11IDataSourceE, N3Art30NativeExecuteActionControlUserE, 22CMsoGalleryUserDefault.
+16063	Failed to obtain sandbox extension for path=/Users/xpc/Library/Caches/<*>. Errno:1
+16076	2017-07-07 05:49:19.032549 PM [AirPlayUIAgent] BecomingInactive: NSWorkspaceWillSleepNotification
+16411	NSAllowAppKitWeakReferences=YES
+16452	ApplePersistenceIgnoreState: Existing state will not be touched. New state will be written to /var/folders/nt/fvzdv1fn7n1d5bpgqb_wcfxh0000gn/T/<*>/<*>
+16458	INSTALLED:<*> <*>(7.55) <__NSConcreteUUID 0x7f841db5d760> 9623B5E1-5E0C-4FFD-A931-D7293E3BDA35 /Applications/Skype.app/Contents/PlugIns/<*>
+16460	INSTALLED:<*> <*>(7.55) <__NSConcreteUUID 0x7f841be3fec0> 38FC4BF8-A599-4BF0-8A82-B9D7C2B4441E /Applications/Skype.app/Contents/PlugIns/<*>
+16466	Mac Agent inited !!!
+16467	Metadata.framework [Error]: void _MDItemMarkAsUsedForPath(CFStringRef): was called with a NULL path
+16473	-[MMCoreTextView(Drawing) batchDrawData:]@1058: Conversion error: some text may not be rendered
+16501	[21:01:22.550] <<< FFR_Common >>> FigFormatReaderCreateForStreamReturningMatchingContainerLabelType: *** Could not find format reader for URL "file:///Users/xpc/Downloads/FIG_cropper.swf" path "/Users/xpc/Downloads/FIG_cropper.swf" extension "swf" FileType '' MIMETYPE "(null)" SuggFileName "(null)" SuggNameExtension "(null)"
+16531	SSandbandbox: ox: <*>(le.WebKit(9854) 9854) deny(deny(1) 1fil) filee--rreaead-data /private/etd-c/hdata /osts
+17033	SysAdmChk: Throttling activity execution. memFlags:0x0 thermalLevel:0x1
+17241	Received an unexpected error: Error Domain=NSURLErrorDomain Code=-999 "已取消" UserInfo={NSErrorFailingURLKey=https://<*>/EWS/Exchange.asmx, NSLocalizedDescription=已取消, NSErrorFailingURLStringKey=https://<*>/EWS/Exchange.asmx}
+17247	StartHardwareStream: creating frame receiver:   640 x  480 (420v)   [29.97,30.00]fps
+17252	notify name "CKStatusReport" has been registered 100 times - this may be a leak
+17277	StopHardwareStream
+17279	[05:55:37.207] <<<< AVCaptureHALDevice >>>> -[AVCaptureHALDevice _removePropertyListeners]: Removing data source observer for device <AVCaptureHALDevice: 0x7f9d6fadd990 [VPAUAggregateAudioDevice-0x7f9cfc76d440][VPAUAggregateAudioDevice-0x7f9cfc76d440]> failed (560947818)
+17301	AppleCamIn::power_off_hardware
+17321	[06:04:59.681] <<<< AVCaptureHALDevice >>>> -[AVCaptureHALDevice _removePropertyListeners]: Removing format observer for device <AVCaptureHALDevice: 0x7f9d508c5600 [VPAUAggregateAudioDevice-0x7f9d41d6f640][VPAUAggregateAudioDevice-0x7f9d41d6f640]> failed (560947818)
+17345	2017-07-08 06:26:32.118 GoogleSoftwareUpdateAgent[39159/0x7000002a0000] [lvl=2] -[KSAgentApp(KeystoneThread) runKeystonesInThreadWithArg:] Starting engine thread
+17346	2017-07-08 06:26:32.188 GoogleSoftwareUpdateAgent[39159/0x7000002a0000] [lvl=2] -[KSOutOfProcessFetcher beginFetchWithDelegate:] KSOutOfProcessFetcher start fetch from URL: "https://<*>/service/update2?cup2hreq=35f587d68955d023788398d45c1cbce775bcaf17cf8aea0e9abf741ee42a30d4&cup2key=7:1870760780"
+17347	2017-07-08 06:26:32.194 GoogleSoftwareUpdateAgent[39159/0x7000002a0000] [lvl=2] -[KSOutOfProcessFetcher(PrivateMethods) launchedHelperTaskForToolPath:error:] KSOutOfProcessFetcher launched '/Users/xpc/Library/Google/GoogleSoftwareUpdate/GoogleSoftwareUpdate.bundle/Contents/MacOS/ksfetch' with process id: 39160
+17348	2017-07-08 06:26:32.364 GoogleSoftwareUpdateAgent[39159/0x7000002a0000] [lvl=2] -[KSMultiUpdateAction performAction] KSPromptAction had no updates to apply.
+17349	2017-07-08 06:26:32.364 GoogleSoftwareUpdateAgent[39159/0x7000002a0000] [lvl=2] -[KSAgentApp(KeystoneDelegate) updateEngineFinishedWithErrors:] Keystone finished: errors=0
+17350	2017-07-08 06:26:32.367 GoogleSoftwareUpdateAgent[39159/0x7000002a0000] [lvl=2] -[KSCheckAction performAction] KSCheckAction checking 1 ticket(s).
+17351	2017-07-08 06:26:33.289 ksfetch[39161/0x7fff79824000] [lvl=2] -[FetchDelegate fetcher:finishedWithData:] Fetcher downloaded successfully data of length: 0
+17352	2017-07-08 06:26:33.296 GoogleSoftwareUpdateAgent[39159/0x7000002a0000] [lvl=2] -[KSOmahaServer updateInfosForUpdateResponse:updateRequest:infoStore:upToDateTickets:updatedTickets:events:errors:] Response passed CUP validation.
+17353	2017-07-08 06:26:33.396 GoogleSoftwareUpdateAgent[39159/0x7000002a0000] [lvl=2] -[KSAgentApp uploadStats:] Successfully uploaded stats <KSStatsCollection:0x100202870 path="/Users/xpc/Library/Google/GoogleSoftwareUpdate/Stats/Keystone.stats", count=5, stats={
+17354	06:35:10.515 : BTLE discovered device with hash <01341a00 00000000 0000>
+17396	ARPT: 789567.055108: framerdy 0x0 bmccmd 1 framecnt 1024
+17416	2017-07-08 07:27:17.888331 AM [AirPlayUIAgent] BecomingInactive: NSWorkspaceWillSleepNotification
+17422	<IMMacNotificationCenterManager: 0x7ff1b2d17980>: Updating enabled: NO   (Topics: (
