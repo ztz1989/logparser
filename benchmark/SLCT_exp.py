@@ -87,12 +87,12 @@ benchmark_settings = {
         #'support': 100
         #},
 
-    'Apache': {
-        'log_file': 'Apache/Apache_2k.log',
-        'log_format': '\[<Time>\] \[<Level>\] <Content>',
-        'regex': [r'(\d+\.){3}\d+'],
-        'support': 5
-        },
+    #'Apache': {
+        #'log_file': 'Apache/Apache_2k.log',
+        #'log_format': '\[<Time>\] \[<Level>\] <Content>',
+        #'regex': [r'(\d+\.){3}\d+'],
+        #'support': 5
+        #},
 
     #'Proxifier': {
         #'log_file': 'Proxifier/Proxifier_2k.log',
@@ -101,12 +101,12 @@ benchmark_settings = {
         #'support': 8
         #},
 
-    #'OpenSSH': {
-        #'log_file': 'OpenSSH/OpenSSH_2k.log',
-        #'log_format': '<Date> <Day> <Time> <Component> sshd\[<Pid>\]: <Content>',
-        #'regex': [r'(\d+\.){3}\d+', r'([\w-]+\.){2,}[\w-]+'],
-        #'support': 45
-        #},
+    'OpenSSH': {
+        'log_file': 'OpenSSH/OpenSSH_2k.log',
+        'log_format': '<Date> <Day> <Time> <Component> sshd\[<Pid>\]: <Content>',
+        'regex': [r'(\d+\.){3}\d+', r'([\w-]+\.){2,}[\w-]+'],
+        'support': 45
+        },
 
     #'OpenStack': {
         #'log_file': 'OpenStack/OpenStack_2k.log',
@@ -115,12 +115,12 @@ benchmark_settings = {
         #'support': 18
         #},
 
-    'Mac': {
-        'log_file': 'Mac/Mac_2k.log',
-        'log_format': '<Month>  <Date> <Time> <User> <Component>\[<PID>\]( \(<Address>\))?: <Content>',
-        'regex': [r'([\w-]+\.){2,}[\w-]+'],
-        'support': 3
-        }
+    #'Mac': {
+        #'log_file': 'Mac/Mac_2k.log',
+        #'log_format': '<Month>  <Date> <Time> <User> <Component>\[<PID>\]( \(<Address>\))?: <Content>',
+        #'regex': [r'([\w-]+\.){2,}[\w-]+'],
+        #'support': 3
+        #}
 }
 
 

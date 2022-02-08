@@ -1,706 +1,466 @@
-<*> <*> <*> <*> <*> <*> to <*> 
-<*> <*> <*> in <*> 
-<*> failed <*> 
-<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> not <*> 
-<*> <*> is <*> <*> 
-<*> <*> <*> <*> on <*> 
-<*> <*> <*> <*> <*> <*> at <*> 
-[00:<*>] HTTPRequest figH<*>: <*> <*> <*> <*> <*> 
-Sandbox: <*> <*> <*> <*> 
-<*> <*> caught <*> <*> <*> <*> <*> <*> <*> <*> <*> 
-<*> <*> <*> is <*> 
-handle_will_sleep_auth_and_shield_windows: <*> 
-<*> <*> 北美太平洋夏令时间 �<*> 
-<*> <*> - <*> 
-en0 <*> 
-Error <*> <*> <*> 
-<*> <*> <*> failed <*> <*> 
-[CardDAVPlugin-ERROR] <*> <*> 
-<*> <*> <*> 0 
-<*>) deny <*> <*> 
-<*> <*> <*> for <*> 
-IOHibernatePollerOpen(0) 
-kern_open_file_for_direct_io(0) 
-jemmytest 
--------------handle0x210-------------Enter 
-IOBluetoothUSBDFU::probe 
-CCProfileMonitor::setStreamEventHandler 
-(DiskStore.Normal:2382) <*> 1.0<*> 
-AppleCamIn::handleWakeEvent_gated 
-FA||Url||taskID[2019353<*>] dealloc 
-CCFile::captureLog 
-AppleCamIn::wakeEventHandlerThread 
-[ChromeExistion Version:<*>] 
-[<*>] <*> to <*> <*> <*> <*> <*> <*> <*> <*> <*> 
-<*> : <*> <*> hashes 
-Sandbox: <*>) deny(1) <*> <*> 
-Session 101<*> destroyed 
-(DiskStore.Normal:2382) 20cb04f 1.0<*> 
-BuildActDeviceEntry exit 
-BuildActDeviceEntry enter 
-AppleActuatorDevice::start Entered 
-Configuration Notice: 
-ignored is_io_service_close(0x100000420,IOHIDParamUserClient) 
-Session 10<*> created 
-CCProfileMonitor::freeResources done 
-button report: 0<*> 
-IOPolledFilePollersOpen(0) <*> ms 
-hibernate_rebuild started 
-[BluetoothHIDDeviceController] EventServiceDisconnectedCallback 
-[BluetoothHIDDeviceController] EventServiceConnectedCallback 
-hibernate_teardown started 
-handle_will_sleep_auth_and_shield_windows: Deferring. 
-AppleActuatorDeviceUserClient::start Entered 
-encryptStart 14020 
-AppleActuatorDevice::stop Entered 
-AppleActuatorDeviceUserClient::stop Entered 
-AppleActuatorHIDEventDriver: stop 
-hibernate_machine_init reading 
-Wake reason: <*> 
-ARPT: <*>: wlc_dump_aggfifo: 
-############################## _getSysMsgList 
-network changed: <*> <*> <*> SMB 
-CCProfileMonitor::profileCallback Entered token:1 
-Unrecognized XSSimpleTypeDefinition: OneOff 
-AutoSubmitPreference is 0 
-the url = http<*> 
-Wake reason: XHC1 
-IOHibernatePollerOpen, ml_get_interrupts_enabled 0 
-IOPolledFilePollersOpen(0) 5 ms 
-hibernate_rebuild_pmap_structs done: last_valid_compact_indx <*> 
-hibernate_setup(0) took <*> ms 
-IOPolledFilePollersOpen(0) 7 ms 
-hibernate_page_list_setall found pageCount <*> 
-DB Path: /Users/xpc/Library/Containers/<*>/Data/Documents/contents/916639562/QQ.db 
-hibernate_page_list_setall(preflight 1) start 
-kern_open_file_for_direct_io took <*> ms 
-[IOBluetoothHostController::setConfigState] calling registerService 
-CFNetwork SSLHandshake failed (-98<*>) 
-enabling <*> for plug-in <*> <*> /<*> 
-Killing auth hosts 
-button report: 0x8002bdf 
-handle_will_sleep_auth_and_shield_windows: err 0x0 
-Wake reason: EC.<*> (User) 
-hibernate_page_list_setall time: <*> ms 
-hibernate_teardown_pmap_structs done: last_valid_compact_indx <*> 
-vm_compressor_flush - starting 
-efi pagecount 72 
-CGXDisplayDidWakeNotification [<*>]: posting kCGSDisplayDidWake 
-KeychainGetICDPStatus: keychain: -25300 
-Daemon connection invalidated! 
-KeychainGetICDPStatus: status: off 
-button report: 0x80039B7 
-Host controller terminated 
-hibernate_teardown: mark_as_unneeded_pages 4096, 5<*>, 34<*> 
-hibernate_page_list_setall(preflight 0) start 
-device_generate_desktop_screenshot: authw 0x7fa82<*>00(2000), shield 0x7fa82<*>00(2001) 
-plugin <*> invalidated 
-button report: 0x8002be0 
-button report: 0X80076EF 
-RTC: Maintenance 2017/7/<*> <*>, sleep 2017/7/<*> <*> 
-Received Capture Event 
-ASL Sender Statistics 
-<*>(3<*>) deny network-outbound /private/var/run/mDNSResponder 
-CCIOReporterFormatter::addRegistryChildToChannelDictionary streams 7 
-Wake reason: ? 
-ARPT: <*>: AirPort_Brcm43xx::platformWoWEnable: WWEN[disable] 
-en0::IO80211Interface::postMessage bssid changed 
-IO80211AWDLPeerManager::setAwdlAutoMode Resuming AWDL 
-CCFile::captureLogRun() Exiting CCFile::captureLogRun 
-ARPT: <*>: AirPort_Brcm43xx::syncPowerState: WWEN[enabled] 
-ARPT: <*>: AirPort_Brcm43xx::platformWoWEnable: WWEN[enable] 
-extension <*> -> <*> 
-enabling <*> for plug-in <*>(1.0) <*> /<*> 
-<*>(38217) deny network-outbound /private/var/run/mDNSResponder 
-<*>(37718) deny network-outbound /private/var/run/mDNSResponder 
-<*>(37632) deny network-outbound /private/var/run/mDNSResponder 
-<*>(37058) deny network-outbound /private/var/run/mDNSResponder 
-<*>(36937) deny network-outbound /private/var/run/mDNSResponder 
--[ABAddressBook save] failed. (<ABAddressBook: 0x7f<*>0>) 
-url host = <*> 
-<*>(36491) deny network-outbound /private/var/run/mDNSResponder 
-after trim url = http<*> 
-assertion failed: 15G1510: <*> + <*> <*> <*> 
-tcp_connection_tls_session_error_callback_imp <*> __tcp_connection_tls_session_callback_write_block_invoke.434 error 32 
-PM response took <*> ms <*> <*> 
-kern_open_file_for_direct_io took 8 ms 
-CFNetwork SSLHandshake failed (-9802) 
-en0: 802.1X User Mode 
-[HID] [MT] AppleActuatorHIDEventDriver::start entered 
-kern_open_file_for_direct_io took 7 ms 
-Previous shutdown cause: 3 
-[HID] [MT] AppleMultitouchDevice::start entered 
-[HID] [MT] AppleMultitouchDevice::stop entered 
-CFNetwork SSLHandshake failed (-9807) 
-<*>(33489) deny network-outbound /private/var/run/mDNSResponder 
-en0: manual intervention required! 
-network changed: <*> DNS- Proxy- 
-en0: BSSID changed to <*> 
-<*>(33208) deny network-outbound /private/var/run/mDNSResponder 
-<*>(33193) deny network-outbound /private/var/run/mDNSResponder 
-<*>(33184) deny network-outbound /private/var/run/mDNSResponder 
-<*>(33151) deny network-outbound /private/var/run/mDNSResponder 
-sigio_handler: sigio_handler_active != 1 
-<*>(32976) deny network-outbound /private/var/run/mDNSResponder 
-wake time set <*> s 
-<*>(32952) deny network-outbound /private/var/run/mDNSResponder 
-sigio_handler: sigio_handler_active != 0 
-en0: channel changed to <*> 
-en0 EAP-PEAP: successfully authenticated 
-[CardDAVPlugin-ERROR] -getPrincipalInfo:[_controller principalPropertiesAtURL:https://xpcben%40gmail.com@<*>/carddav/v1/principals/xpcben%40gmail.com/] Error Domain=<*>ErrorDomain Code=<*> "<*> 
-<*>(32655) deny network-outbound /private/var/run/mDNSResponder 
-<*>(32606) deny network-outbound /private/var/run/mDNSResponder 
-Error in CoreDragRemoveReceiveHandler: -1856 
-CFNetwork SSLHandshake failed (-9806) 
-<*> : BTLE scanning started 
-<*>(32069) deny network-outbound /private/var/run/mDNSResponder 
-hibernate_teardown completed - discarded 9<*> 
-[HID] [MT] AppleMultitouchDevice::willTerminate entered 
-<*> : Purged contact hashes 
-<*>(646) deny mach-lookup <*> 
-<*> : BTLE scanning stopped 
-Removed expired problem report: file:///<*> 
-AIDA Notification plugin running 
-<*>(31654) deny network-outbound /private/var/run/mDNSResponder 
-hciControllerOnline; HID devices? 0 
-Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR 
-hibernate image path: /var/vm/sleepimage 
-<*>(31637) deny network-outbound /private/var/run/mDNSResponder 
-<*> : Finished generating hashes 
-<*>(31376) deny network-outbound /private/var/run/mDNSResponder 
-Wake reason: RTC (Alarm) 
-kern_open_file_for_direct_io took 6 ms 
-tcp_connection_tls_session_error_callback_imp <*> __tcp_connection_tls_session_callback_write_block_invoke.434 error 22 
-Error in CoreDragRemoveTrackingHandler: -1856 
-ARPT: <*>: AirPort_Brcm43xx::powerChange: System Sleep 
-Unrecognized attribute value: t:AbchPersonItemType 
-QQ(10018) deny mach-lookup <*> 
-Sandbox: <*>(3<*>) deny(1) network-outbound /private/var/run/mDNSResponder 
-Captive: CNPluginHandler en0: Authenticated 
-setting hostname to "authorMacBook-Pro.local" 
-Previous sleep cause: 5 
-Captive: CNPluginHandler en0: Evaluating 
-[070<*>:WARNING:dns_config_service_posix.cc(306)] Failed to read DnsConfig. 
-network changed: DNS* Proxy 
-setting hostname to "<*>" 
-IO80211AWDLPeerManager::setAwdlSuspendedMode() Suspending AWDL, enterQuietMode(true) 
-Captive: CNPluginHandler en0: Inactive 
-RTC: PowerByCalendarDate setting ignored 
-Sandbox: <*>(39244) deny(1) network-outbound /private/var/run/mDNSResponder 
-Sandbox: <*>(38928) deny(1) network-outbound /private/var/run/mDNSResponder 
-Sandbox: <*>(38921) deny(1) network-outbound /private/var/run/mDNSResponder 
-Sandbox: <*>(38479) deny(1) network-outbound /private/var/run/mDNSResponder 
-en0: BSSID changed to 00:a2:ee:2a:89:4d 
-network changed: v4(en0:<*>) <*> <*> Proxy SMB 
-Sandbox: <*>(37261) deny(1) network-outbound /private/var/run/mDNSResponder 
-RTC: Maintenance 2017/7/7 <*>, sleep 2017/7/7 <*> 
-device_generate_desktop_screenshot: authw 0x7fa82440e400(2000), shield 0x7fa8239cbc00(2001) 
-Sandbox: <*>(37111) deny(1) network-outbound /private/var/run/mDNSResponder 
-en0: BSSID changed to 88:75:56:a0:89:dd 
-ChromeExistion main isUndetectWebsite = 0 
-ChromeExistion main isBrowserDetect = 1 
-Sandbox: <*>(36700) deny(1) network-outbound /private/var/run/mDNSResponder 
-RTC: Maintenance 2017/7/6 <*>, sleep 2017/7/6 <*> 
-network changed: v4(en0-:<*>) <*> DNS- Proxy- 
-en0: BSSID changed to 88:75:56:a0:95:ed 
-<IMMacNotificationCenterManager: 0x7fdcc9d16380>: DND Enabled: YES 
-en0: BSSID changed to f8:4f:57:3b:ea:b2 
-ChromeExistion main strSendMsg = {"websitekey":false,"commandkey":true,"browserkey":true} 
-ChromeExistion main isUndetectWithCommand = 1 
-ChromeExistion main linkUrl = (null) 
-PM response took 108 ms (<*>, <*>) 
-PM response took 1<*> ms (<*>, <*>) 
-Sandbox: <*>(35374) deny(1) network-outbound /private/var/run/mDNSResponder 
-Sandbox: <*>(35335) deny(1) network-outbound /private/var/run/mDNSResponder 
-Sandbox: <*>(35316) deny(1) network-outbound /private/var/run/mDNSResponder 
-Sandbox: <*>(35197) deny(1) network-outbound /private/var/run/mDNSResponder 
-Sandbox: <*>(35157) deny(1) network-outbound /private/var/run/mDNSResponder 
-RTC: Maintenance 2017/7/5 <*>, sleep 2017/7/5 <*> 
-AppleCamIn::systemWakeCall - messageType = 0xE0000290 
-Sandbox: <*>(35110) deny(1) network-outbound /private/var/run/mDNSResponder 
-Sandbox: <*>(34738) deny(1) network-outbound /private/var/run/mDNSResponder 
-Sandbox: <*>(34716) deny(1) network-outbound /private/var/run/mDNSResponder 
-Sandbox: <*>(34517) deny(1) network-outbound /private/var/run/mDNSResponder 
-Sandbox: <*>(34476) deny(1) network-outbound /private/var/run/mDNSResponder 
-Sandbox: <*>(34457) deny(1) network-outbound /private/var/run/mDNSResponder 
-Sandbox: <*>(34440) deny(1) network-outbound /private/var/run/mDNSResponder 
-Sandbox: <*>(34429) deny(1) network-outbound /private/var/run/mDNSResponder 
-Sandbox: <*>(34398) deny(1) network-outbound /private/var/run/mDNSResponder 
-Sandbox: <*>(34348) deny(1) network-outbound /private/var/run/mDNSResponder 
-Sandbox: <*>(34340) deny(1) network-outbound /private/var/run/mDNSResponder 
-Sandbox: <*>(34309) deny(1) network-outbound /private/var/run/mDNSResponder 
-Sandbox: <*>(34217) deny(1) network-outbound /private/var/run/mDNSResponder 
-Sandbox: <*>(34197) deny(1) network-outbound /private/var/run/mDNSResponder 
-RTC: Maintenance 2017/7/4 <*>, sleep 2017/7/4 <*> 
-<<<< MediaValidator >>>> mv_<*>: Unrecognized codec <*> 
-Sandbox: <*>(9854) deny(1) file-read-data /private/etc/hosts 
-<IMMacNotificationCenterManager: 0x7ff1b2d17980>: DND Enabled: NO 
-doSaveChannels@286: Will write to: /Library/Logs/CrashReporter/CoreCapture/IOReporters/[2017-07-0<*>] - <*>.xml 
-en0: channel changed to 157,+1 
-AppleActuatorHIDEventDriver: message service is terminated 
-en0: channel changed to 149,80 
-en0: channel changed to 36,+1 
-en0: BSSID changed to 0c:68:03:4d:d7:ac 
-en0: channel changed to 149,+1 
-<IMMacNotificationCenterManager: 0x7fdcc9d16380>: NC Disabled: NO 
-<IMMacNotificationCenterManager: 0x7ff1b2e00ba0>: DND Enabled: YES 
-Sandbox: <*>(33407) deny(1) network-outbound /private/var/run/mDNSResponder 
-en0: BSSID changed to 5c:50:15:36:bc:02 
-no sleep images for WillPowerOffWithImages 
-AppleThunderboltNHIType2::waitForOk2Go2Sx - retries = 8 
-Sandbox: <*>(33158) deny(1) network-outbound /private/var/run/mDNSResponder 
-AppleThunderboltNHIType2::waitForOk2Go2Sx - retries = 2 
-IOPMrootDomain: idle cancel, state 1 
-en0: BSSID changed to 5c:50:15:4c:18:1d 
-CCLogTap::profileRemoved, Owner: <*>, Name: DriverLogs 
-Sandbox: <*>(32902) deny(1) network-outbound /private/var/run/mDNSResponder 
-Sandbox: QQ(10018) deny(1) mach-lookup <*> 
-AppleThunderboltNHIType2::waitForOk2Go2Sx - retries = 1 
-RTC: Maintenance 2017/7/3 <*>, sleep 2017/7/3 <*> 
-AppleCamIn::systemWakeCall - messageType = 0xE0000320 
-<*> : Scanning mode Contacts Only 
-en0: channel changed to 11 
-CCXPCService::setStreamEventHandler Registered for notification callback. 
-Sandbox: <*>(32163) deny(1) network-outbound /private/var/run/mDNSResponder 
-WARNING: hibernate_page_list_setall skipped <*> xpmapped pages 
-PMStats: Hibernate read took 1<*> ms 
-hibernate_rebuild completed - took <*> msecs 
-vm_compressor_flush completed - took <*> msecs 
-AppleCamIn::systemWakeCall - messageType = 0xE0000280 
-AppleCamIn::systemWakeCall - messageType = 0xE0000300 
-device_generate_desktop_screenshot: authw 0x7fa823c89600(2000), shield 0x7fa8258cac00(2001) 
-Sandbox: <*>(646) deny(1) mach-lookup <*> 
-Unable to simultaneously satisfy constraints: 
-Error returned from iconservicesagent: (null) 
-AppleThunderboltNHIType2::waitForOk2Go2Sx - retries = 5 
-<IMMacNotificationCenterManager: 0x7ff1b2e00ba0>: NC Disabled: NO 
-<IMMacNotificationCenterManager: 0x7ff1b2d17980>: DND Enabled: YES 
-<IMMacNotificationCenterManager: 0x7ff1b2d17980>: NC Disabled: NO 
-en0: channel changed to 132,+1 
-AppleThunderboltNHIType2::waitForOk2Go2Sx - retries = 3 
-AppleThunderboltNHIType2::waitForOk2Go2Sx - retries = 6 
-AppleThunderboltNHIType2::waitForOk2Go2Sx - retries = 4 
-<*> : BTLE scanner Powered Off 
-Sandbox: SpotlightNetHelp(352) deny(1) ipc-posix-shm-read-data CFPBS:186A7: 
-CCDataTap::profileRemoved, Owner: <*>, Name: StateSnapshots 
-AppleThunderboltNHIType2::waitForOk2Go2Sx - retries = 7 
-en0: BSSID changed to 5c:50:15:4c:18:73 
-Sandbox: <*>(31239) deny(1) network-outbound /private/var/run/mDNSResponder 
-CCLogTap::profileRemoved, Owner: <*>, Name: IO80211AWDLPeerManager 
-AppleThunderboltNHIType2::waitForOk2Go2Sx - retries = 9 
-AirPort: Link Up on awdl0 
-en0: BSSID changed to 5c:50:15:4c:18:13 
-en0: channel changed to 6 
-TBT W (2): 0x0040 [x] 
-en0: BSSID changed to 5c:50:15:36:bc:03 
-network changed: v6(en0-:2607:f140:6000:8:c6b3:1ff:fecd:467f) DNS- Proxy- 
-en0: BSSID changed to 5c:50:15:4c:18:1c 
-ARPT: <*>: wl0: MDNS: IPV6 Addr: <*> 
-CCLogTap::profileRemoved, Owner: <*>, Name: OneStats 
-CCDataTap::profileRemoved, Owner: <*>, Name: AssociationEventHistory 
-AirPort: Link Up on en0 
-CCFile::copyFile fileName is [2017-07-0<*>, source path:/var/log/CoreCapture/<*>/<*>, dest path:/Library/Logs/CrashReporter/CoreCapture/<*>/[2017-07-0<*> 
-<*> : BTLE scanner Powered On 
-en0: channel changed to 1 
-AppleCamIn::systemWakeCall - messageType = 0xE0000340 
-bitmap_size 0x7f0fc, previewSize <*> writing <*> pages @ <*> 
-<*> UI updates were <*> <*> by application "<*>" <*> <*> <*> <*> <*> <*> re-enabled <*> 
-ARPT: 76<*>: wl0: MDNS: IPV6 Addr: 2607:f140:6000:8:3065:65eb:758e:972a 
-[<*>] [WARNING: CalDAVAccountRefreshQueueableOperation :: <*> refresh failed] 
-ARPT: 74<*>: wl0: MDNS: IPV6 Addr: 2607:f140:6000:8:f882:21d2:d1af:f093 
-ARPT: 739<*>: wl0: MDNS: IPV6 Addr: 2607:f140:6000:8:cc53:3e31:ccd8:11d4 
-network changed: v4(en0+:<*>) <*> DNS! Proxy SMB 
-2017-07-06 <*> ksfetch[3<*>/0x7fff79824000] [lvl=2] main() Fetcher is exiting. 
-AppleThunderboltGenericHAL::earlyWake - complete - took <*> milliseconds 
-Central manager is not powered on 
-ARPT: 7<*>: wl0: MDNS: IPV6 Addr: 2607:f140:6000:8:51cf:994c:36cb:1c56 
-network changed: v4(en0-:<*>) v6(en0-:2607:f140:6000:8:c6b3:1ff:fecd:467f) DNS- Proxy- 
-network changed: v4(en0-:<*>) <*> DNS! Proxy SMB 
-ARPT: 69<*>: wl0: MDNS: IPV6 Addr: 2607:f140:400:a01b:1c57:7ef3:8f8e:5a10 
-doSaveChannels@286: Will write to: /Library/Logs/CrashReporter/CoreCapture/IOReporters/[2017-07-0<*>] - AssocFail:sts:2_rsn:0.xml 
-ARPT: <*>: wl0: Beacon Loss Event, last <*> 
-doSaveChannels@286: Will write to: /Library/Logs/CrashReporter/CoreCapture/IOReporters/[2017-07-0<*>] - RoamFail:sts:1_rsn:4.xml 
-Unable to start NetBIOS name service: 
-full wake promotion (reason 1) <*> ms 
-full wake request (reason 2) <*> ms 
-ARPT: <*>: wl0: MDNS: IPV6 Addr: 2607:f140:400:a01b:c6b3:1ff:fecd:467f 
-ARPT: 67<*>: wl0: MDNS: IPV6 Addr: 2607:f140:400:a01b:f034:7d78:dd64:fe98 
-doSaveChannels@286: Will write to: /Library/Logs/CrashReporter/CoreCapture/IOReporters/[2017-07-0<*>] - AuthFail:sts:2_rsn:0.xml 
-(ImportBailout.Error:1331) Asked to exit for Diskarb 
-DB Error: 1 "no such table: tb_c2cMsg_2<*>" 
-<*> : Discoverable mode changed to Off 
-Page bounds {{0, 0}, {400, 400}} 
-INIT -- Host controller is published 
-<*> <*> CFIndex, CFIndex, CFStringRef, <*> <*> : Lock timeout 
-hibernate_flush_memory: buffer_cache_gc freed up <*> wired pages 
-Telling CSI to exit low power. 
-Telling CSI to go low power. 
-Peripheral manager is not powered on 
-network changed: v4(en0!:<*>) DNS+ Proxy+ SMB 
-PM response took <*> ms (54, powerd) 
-ARPT: <*>: wl0: setup_keepalive: Remote IP: <*> 
-ARPT: <*>: wl0: MDNS: IPV6 Addr: fe80:0:0:0:c6b3:1ff:fecd:467f 
-Saw change in network reachability (isReachable=2) 
-doSaveChannels@286: Will write to: /Library/Logs/CrashReporter/CoreCapture/IOReporters/[2017-07-0<*>] - AuthFail:sts:5_rsn:0.xml 
-CCIOReporterFormatter::refreshSubscriptionsFromStreamRegistry clearing out any previous subscriptions 
-ARPT: <*>: wl0: MDNS: IPV6 Addr: 2607:f140:6000:8:c6b3:1ff:fecd:467f 
-ARPT: <*>: wl0: setup_keepalive: Local IP: <*> 
-Saw change in network reachability (isReachable=0) 
-Got an XPC error: Connection invalid 
-network changed: v6(en0!:2607:f140:6000:8:c6b3:1ff:fecd:467f) DNS+ Proxy+ SMB 
-ARPT: <*>: wl0: MDNS: IPV4 Addr: <*> 
-doSaveChannels@286: Will write to: /Library/Logs/CrashReporter/CoreCapture/IOReporters/[2017-07-0<*>] - AssocFail:sts:5_rsn:0.xml 
-in6_unlink_ifa: IPv6 address 0x77c91145<*>b has no prefix 
-__73-[NetworkAnalyticsEngine observeValueForKeyPath:ofObject:change:context:]_block_invoke unexpected switch value 2 
-<<<< MediaValidator >>>> mv_LookupCodecSupport: Unrecognized codec 1 
-host connection <NSXPCConnection: 0x7f<*>0> connection from pid <*> invalidated 
-tcp_connection_destination_perform_socket_connect <*> connectx to <*>:443@0 failed: <*> Network is <*> 
-in6_unlink_ifa: IPv6 address 0x77c911454f1524fb has no prefix 
-in6_unlink_ifa: IPv6 address 0x77c911454f1523ab has no prefix 
-in6_unlink_ifa: IPv6 address 0x77c911453a6dafbb has no prefix 
-ARPT: <*>: wl0: setup_keepalive: Seq: <*>, Ack: <*>, Win size: <*> 
-[00:2<*>] <*> signalled err=-1001 (err) (FigSampleGeneratorCreateSampleBufferAtCursor failed) at /Library/Caches/<*>/Sources/CoreMedia/<*>/Prototypes/FormatHandlers/<*>oMentor.c line 1<*> 
-in6_unlink_ifa: IPv6 address 0x77c9114551ab1fbb has no prefix 
-<IMMacNotificationCenterManager: 0x7ff1b2d17980>: Updating enabled: YES (Topics: ( 
-in6_unlink_ifa: IPv6 address 0x77c911453a6db10b has no prefix 
-Checking iCDP status for DSID 874161398 (checkWithServer=0) 
-tcp_connection_destination_perform_socket_connect <*> connectx to <*>:80@0 failed: <*> Network is <*> 
-[<*>] [Coalescing failed operation [<CalDAVAccountRefreshQueueableOperation: 0x7fa11<*>0; Sequence: 0>]] 
-PM response took 28003 ms (54, powerd) 
-CCFile::captureLog Received Capture notice id: 149<*>, reason = <*> 
-mDNS_DeregisterInterface: Frequent transitions for interface en0 (FE80:0000:0000:0000:C6B3:01FF:FECD:467F) 
-<IMMacNotificationCenterManager: 0x7ff1b2e00ba0>: Updating enabled: NO (Topics: ( 
-<IMMacNotificationCenterManager: 0x7ff1b2e00ba0>: Updating enabled: YES (Topics: ( 
-<IMMacNotificationCenterManager: 0x7fdcc9d16380>: Updating enabled: NO (Topics: ( 
-<IMMacNotificationCenterManager: 0x7fdcc9d16380>: Updating enabled: YES (Topics: ( 
-in6_unlink_ifa: IPv6 address 0x77c9114551ab24fb has no prefix 
-PM response took 1988 ms (54, powerd) 
-enabling pid=30298 for plug-in <*>(1.0) 1E63F5A5-D9F4-4A1C-8B08-6F71290D52D5 /System/Library/Frameworks/NotificationCenter.framework/PlugIns/<*> 
-in6_unlink_ifa: IPv6 address 0x77c9114551ab210b has no prefix 
-magsafeStateChanged state changed old 1 new 2 
-[HID] [ATC] AppleDeviceManagementHIDEventService::processWakeReason Wake reason: Button (0x03) 
-enabling pid=30298 for plug-in <*>(1.0) 59326D85-2EF3-4F92-97C5-879AD11059DC /System/Library/Frameworks/NotificationCenter.framework/PlugIns/<*> 
-[<*>] <<<< Boss >>>> figPlaybackBossPrerollCompleted: unexpected preroll-complete notification 
-enabling pid=30298 for plug-in <*>(1.0) 131FE7ED-87F7-471D-8797-C11107688DF7 /System/Library/CoreServices/Weather.app/Contents/PlugIns/<*> 
-<*> : Discoverable mode changed to Contacts Only 
-in6_unlink_ifa: IPv6 address 0x77c9114551ab2e2b has no prefix 
-in6_unlink_ifa: IPv6 address 0x77c9114551ab2cdb has no prefix 
-in6_unlink_ifa: IPv6 address 0x77c9114551ab2a3b has no prefix 
-hibernate_newruntime_map time: 0 ms, IOPolledFilePollersOpen(), ml_get_interrupts_enabled 0 
-in6_unlink_ifa: IPv6 address 0x77c9114551ab225b has no prefix 
-[BluetoothHIDDeviceController]ERROR: Could not find the disconnected object 
-ARPT: <*>: framerdy 0x0 bmccmd 7 framecnt 1024 
-in6_unlink_ifa: IPv6 address 0x77c9114551ab2b8b has no prefix 
-in6_unlink_ifa: IPv6 address 0x77c9114551ab279b has no prefix 
-PM response took 1999 ms (54, powerd) 
-network changed: v4(en0-:<*>) v6(en0:2607:f140:6000:8:c6b3:1ff:fecd:467f) DNS! Proxy SMB 
-in6_unlink_ifa: IPv6 address 0x77c911453a6dbcdb has no prefix 
-in6_unlink_ifa: IPv6 address 0x77c911453a6db3ab has no prefix 
-in6_unlink_ifa: IPv6 address 0x77c911453a6dbe2b has no prefix 
-mDNS_DeregisterInterface: Frequent transitions for interface en0 (<*>) 
-network changed: v4(en0+:<*>) v6(en0:2607:f140:6000:8:c6b3:1ff:fecd:467f) DNS! Proxy SMB 
-mDNS_DeregisterInterface: Frequent transitions for interface en0 (2607:F140:6000:0008:C6B3:01FF:FECD:467F) 
-dnssd_clientstub ConnectToServer: connect()-> No of tries: 3 
-dnssd_clientstub ConnectToServer: connect()-> No of tries: 1 
-mDNS_RegisterInterface: Frequent transitions for interface awdl0 (FE80:0000:0000:0000:D8A5:90FF:FEF5:7FFF) 
-AppleThunderboltGenericHAL::earlyWake - complete - took 1 milliseconds 
-dnssd_clientstub ConnectToServer: connect()-> No of tries: 2 
-[HID] [ATC] AppleDeviceManagementHIDEventService::processWakeReason Wake reason: Host (0x01) 
-mDNS_RegisterInterface: Frequent transitions for interface en0 (<*>) 
-mDNS_RegisterInterface: Frequent transitions for interface en0 (FE80:0000:0000:0000:C6B3:01FF:FECD:467F) 
-mDNS_DeregisterInterface: Frequent transitions for interface awdl0 (FE80:0000:0000:0000:D8A5:90FF:FEF5:7FFF) 
-en0: 802.11d country code set to 'X3'. 
-ARPT: <*>: wl0: leaveModulePoweredForOffloads: Wi-Fi will stay on. 
-en0: 802.11d country code set to 'US'. 
-AppleThunderboltGenericHAL::earlyWake - complete - took 0 milliseconds 
-tcp_connection_handle_connect_conditions_bad <*> failed: 3 - No network route 
-network changed: v4(en0:<*>) v6(en0+:2607:f140:6000:8:c6b3:1ff:fecd:467f) DNS! Proxy SMB 
-ARPT: <*>: framerdy 0x0 bmccmd 3 framecnt 1024 
-Setting BTCoex Config: enable_2G:1, profile_2g:0, enable_5G:1, profile_5G:0 
-2017-07-06 <*> ksfetch[3<*>/0x7fff79824000] [lvl=2] KSHelperReceiveAllData() KSHelperTool read <*> bytes from stdin. 
-device_generate_lock_screen_screenshot: authw 0x7fa82<*>00(2000)[0, 0, 0, 0] shield 0x7fa82<*>00(2001), dev [1440,900] 
--[NETClientConnection evaluateCrazyIvan46] CI46 - Perform CrazyIvan46! QQ.10018 tc2<*> <*>:14000 
-Surface testing disallowed updates for 10 sequential attempts... 
-AppleThunderboltNHIType2::prePCIWake - power up complete - took <*> us 
-CGSConnectionByID: 0 is not a valid connection ID. 
-CCFile::captureLog Received Capture notice id: 1499<*>, reason = DeauthInd:sts:0_rsn:7 
-hibernate_page_list_setall preflight pageCount 5<*> est comp 3<*> setfile <*> min 1073741824 
-bitmap_size 0x7f0fc, previewSize 0x4028, writing 4<*> pages @ 0x97144 
-en0: DAD complete for 2607:f140:6000:8:c6b3:1ff:fecd:467f - duplicate found. 
-[<*>] [Adding [<CalDAVAccountRefreshQueueableOperation: 0x7fa11<*>0; Sequence: 0>] to failed operations.] 
-CCFile::captureLog Received Capture notice id: <*> reason = RoamFail:sts:1_rsn:4 
--[NETClientConnection evaluateCrazyIvan46] CI46 - Perform CrazyIvan46! NeteaseMusic.17988 tc<*> <*>:80 
-[<*>] <<<< FigPlayerSurrogate >>>> surrogatePlayer_respondToLoadingOfItemAssetTypeInternal: Avoiding unexpected additional FigPlayerAddToPlayQueue! 
--[NETClientConnection evaluateCrazyIvan46] CI46 - Perform CrazyIvan46! QQ.10018 tc2<*> <*>:8080 
-ARPT: 6<*>: ARPT: Wake Reason: Wake on TCP Timeout 
-ARPT: 6<*>: wl0: setup_keepalive: Local port: <*>, Remote port: 5223 
-ARPT: <*>: wl0: setup_keepalive: interval <*> retry_interval 30, retry_count 10 
--[NETClientConnection evaluateCrazyIvan46] CI46 - Perform CrazyIvan46! QQ.10018 tc2<*> <*>:443 
-CCFile::captureLog Received Capture notice id: 1499<*>, reason = AssocFail:sts:2_rsn:0 
-CCFile::captureLog Received Capture notice id: 1499<*>, reason = AuthFail:sts:2_rsn:0 
-no application identifier provided, can't use provisioning profiles [pid=3<*>] 
-tcp_connection_destination_perform_socket_connect <*> connectx to <*>@0 failed: [50] Network is down 
-***** Received request to scan at 30ms/60ms ***** 
-assertion failed: 15G1510: <*> + 38574 [10D2E324-788C-30CC-A749-55AE67AEC7BC]: 0x7fc235807b90 
-device_generate_lock_screen_screenshot: authw <*> 0, 1440, 900] shield <*> dev [1440,900] 
-Stream 0x7f<*>0 is sending an event before being opened 
-[HID] [MT] MTActuatorManagement::getActuatorRef Calling MTActuatorOpen() outside of MTTrackpadHIDManager. 
-could discard act <*> inact <*> purgeable <*> spec <*> cleaned 0 
-did discard act <*> inact <*> purgeable <*> spec <*> cleaned 0 
-tcp_connection_destination_handle_tls_close_notify <*> closing socket due to TLS CLOSE_NOTIFY alert 
-host connection <NSXPCConnection: 0x7f<*>0> connection from pid 30298 invalidated 
-CCFile::captureLog Received Capture notice id: 149<*>, reason = RoamFail:sts:1_rsn:1 
-CCFile::captureLog Received Capture notice id: 149<*>, reason = AuthFail:sts:5_rsn:0 
--[NETClientConnection evaluateCrazyIvan46] CI46 - Perform CrazyIvan46! QQ.10018 tc<*> <*>:80 
-ARPT: <*>: wl0: setup_keepalive: Seq: <*>, Ack: <*>, Win size: 4096 
-AppleThunderboltNHIType2::waitForOk2Go2Sx - intel_rp = 1 dlla_reporting_supported = 0 
-Location icon should now be in state 'Inactive' 
-USBMSC Identifier (non-unique): 000000000820 0x5ac 0x8406 0x820, 3 
-CCFile::captureLogRun Skipping current file Dir file [2017-07-0<*>, Current File [2017-07-0<*> 
-Thermal pressure state: 1 Memory pressure state: 0 
-ARPT: <*>: ARPT: Wake Reason: Wake on Scan offload 
-AirPort: Link Down on awdl0. Reason 1 (Unspecified). 
-Location icon should now be in state 'Active' 
-Thermal pressure state: 0 Memory pressure state: 0 
-Unexpected payload found for message 9, dataLen 0 
-ARPT: <*>: wl0: setup_keepalive: Local port: <*>, Remote port: 443 
-CCFile::captureLog Received Capture notice id: 149<*>, reason = AssocFail:sts:5_rsn:0 
-[QL] No sandbox token for <*> <*>equest <*>, it will probably fail 
-tcp_connection_destination_perform_socket_connect 10784 connectx to <*>443@0 failed: [50] Network is down 
-childFrame with no value: <_SOAPParserFrame: 0x7fbb3<*>0> EWSMailboxTypeTypeDefinition:__NSCFString (Inlined Arrays: (null)) 
-hibernate_page_list_setall preflight pageCount 5<*> est comp 35 setfile <*> min 1073741824 
-[IOBluetoothFamily][staticBluetoothTransportShowsUp] -- Received Bluetooth Controller register service notification -- 0x<*>00 
-<*> ERROR: 177: timed out after 15.000s (0 0); mMajorChangePending=0 
-AppleThunderboltNHIType2::prePCIWake - power up complete - took 5 us 
-__42-[NETClientConnection evaluateCrazyIvan46]_block_invoke CI46 - Hit by torpedo! QQ.10018 tc2<*> <*>:443 
-NETWORK: requery, 0, 0, 0, 0, <*>, items, fQueryRetries, <*> fLastRetryTimestamp, 52<*> 
-__42-[NETClientConnection evaluateCrazyIvan46]_block_invoke CI46 - Hit by torpedo! QQ.10018 tc2<*> <*>:8080 
-tcp_connection_destination_perform_socket_connect <*> connectx to <*> failed: [65] No route to host 
-[<*>] <<<< CRABS >>>> crabsFlumeHostUnavailable: <*> Byte flume reports host unavailable. 
-[<*>] itemasync_CopyProperty signalled err=-12785 (kFigBaseObjectError_Invalidated) (invalidated) at /Library/Caches/<*>/Sources/CoreMedia/<*>/Prototypes/Player/FigPlayer_Async.c line 2092 
-<*> : Starting AirDrop server for user 501 on wake 
-ARPT: 6<*>: wl0: setup_keepalive: interval 258, retry_interval 30, retry_count 10 
-NETWORK: no response from server, reachability, 2, queryRetries, 2 
-NETWORK: no response from server, reachability, 2, queryRetries, 1 
-[1<*>] itemasync_SetProperty signalled err=-12785 (kFigBaseObjectError_Invalidated) (invalidated) at /Library/Caches/<*>/Sources/CoreMedia/<*>/Prototypes/Player/FigPlayer_Async.c line 2306 
-Couldn't find a requirement string for masquerading client <*> 
-ARPT: <*>: IOPMPowerSource Information: onWake, SleepType: Standby, 'ExternalConnected': No, 'TimeRemaining': <*>, 
-**** [BroadcomBluetoothHostController][SetupController] -- Delay HCI Reset by 300ms **** 
-tcp_connection_destination_perform_socket_connect <*> connectx to <*>:585@0 failed: [50] Network is down 
--[ISGenerateImageOp generateImageWithCompletion:] Failed to composit image for descriptor <ISBindingImageDescriptor: 0x7f995<*>0>. 
-**** [BroadcomBluetoothHostControllerUSBTransport][start] -- Completed (matched on Device) -- 0x<*>00 **** 
-ARPT: <*>: IOPMPowerSource Information: onSleep, SleepType: Standby, 'ExternalConnected': No, 'TimeRemaining': <*>, 
-__42-[NETClientConnection evaluateCrazyIvan46]_block_invoke CI46 - Hit by torpedo! NeteaseMusic.17988 tc<*> <*>:80 
-__42-[NETClientConnection evaluateCrazyIvan46]_block_invoke CI46 - Hit by torpedo! QQ.10018 tc<*> <*>:14000 
-tcp_connection_destination_perform_socket_connect <*> connectx to <*>:993@0 failed: [50] Network is down 
-AppleThunderboltNHIType2::prePCIWake - power up complete - took 2 us 
-CFPasteboardRef CFPasteboardCreate(CFAllocatorRef, CFStringRef) : failed to create global data 
-AppleThunderboltNHIType2::prePCIWake - power up complete - took 4 us 
-AppleThunderboltNHIType2::prePCIWake - power up complete - took 6 us 
-AppleThunderboltNHIType2::prePCIWake - power up complete - took 3 us 
-NETWORK: no response from server, reachability, 2, queryRetries, 0 
-nw_nat64_post_new_ifstate successfully changed NAT64 ifstate from 0x4 to 0x8000000000000000 
--[SOAPParser:0x7f<*>0 parser:didStartElement:namespaceURI:qualifiedName:attributes:] Type not found in EWSItemType for ExchangePersonIdGuid (t:ExchangePersonIdGuid) 
-tcp_connection_destination_perform_socket_connect <*> connectx to <*>:80@0 failed: [50] Network is down 
-tcp_connection_destination_perform_socket_connect 35678 connectx to <*>585@0 failed: [50] Network is down 
-tcp_connection_destination_perform_socket_connect <*> connectx to <*>:143@0 failed: [50] Network is down 
-ARPT: <*>: wl0: setup_keepalive: interval 900, retry_interval 30, retry_count 10 
-Captive: en0: Not probing 'CalVisitor' (cache indicates not captive) 
-__42-[NETClientConnection evaluateCrazyIvan46]_block_invoke CI46 - Hit by torpedo! QQ.10018 tc<*> <*>:80 
-ARPT: <*>: wl0: MDNS: 0 SRV Recs, 0 TXT Recs 
-nw_nat64_post_new_ifstate successfully changed NAT64 ifstate from 0x8000000000000000 to 0x4 
-AppleThunderboltNHIType2::prePCIWake - power up complete - took 1 us 
-ARPT: <*>: wl0: wl_update_tcpkeep_seq: Original Seq: <*>, Ack: <*>, Win size: 4096 
-ARPT: <*>: IOPMPowerSource Information: onWake, SleepType: Normal Sleep, 'ExternalConnected': Yes, 'TimeRemaining': <*> 
-hibernate_teardown: wired_pages 5<*>, free_pages 35<*>, active_pages <*> inactive_pages <*> speculative_pages 0, cleaned_pages 0, compressor_pages <*> 
-<*> FigFormatReaderCreateForStreamReturningMatchingContainerLabelType signalled err=-12847 (kFigFormatReaderError_FileNotRecognized) (Unrecognized content) at /Library/Caches/<*>/Sources/CoreMedia/<*>/Prototypes/FormatHandlers/FigFormatReader_Common.c line 2158 
-[2<*>] mv_LowLevelCheckIfVideoPlayableUsingDecoder signalled err=-12956 (kFigMediaValidatorError_VideoCodecNotSupported) (video codec 1) at line 1921 
--[ISGenerateImageOp generateImageWithCompletion:] Failed to composit image for descriptor <ISBindingImageDescriptor: 0x7f995070be80>. 
--[ISGenerateImageOp generateImageWithCompletion:] Failed to composit image for descriptor <ISBindingImageDescriptor: 0x7f9950411370>. 
--[ISGenerateImageOp generateImageWithCompletion:] Failed to composit image for descriptor <ISBindingImageDescriptor: 0x7f995121d720>. 
-<IMMacNotificationCenterManager: 0x7ff1b2d17980>: notification observer: <*> notification: __CFNotification 0x7ff1b<*>0 {name = _NSDoNotDisturbEnabledNotification} 
-<IMMacNotificationCenterManager: 0x7fdcc9d16380>: notification observer: <*> notification: __CFNotification 0x7fdccb<*>0 {name = _NSDoNotDisturbDisabledNotification} 
-device_generate_lock_screen_screenshot: authw 0x7fa824145a00(2000)[0, 0, 1440, 900] shield 0x7fa825dafc00(2001), dev [1440,900] 
--[ISGenerateImageOp generateImageWithCompletion:] Failed to composit image for descriptor <ISBindingImageDescriptor: 0x7f995060a270>. 
-<<<< MediaValidator >>>> mv_ValidateRFC4281CodecId: Unrecognized codec <*>.(null). Failed codec specific check. 
-[<*>] FigFileForkOpenMainByCFURL signalled err=35 (errno) (open failed) at /Library/Caches/<*>/Sources/CoreMedia_frameworks/<*>/Sources/Platform/Darwin/DarwinFile.c line 456 
-20:0<*> ERROR: >aq> 3177: AQBuffer * 0x7fd8<*>0 has enqueue count of 1 
-tcp_connection_destination_perform_socket_connect 2<*> connectx to <*>:80@0 failed: [49] Can't assign requested address 
-tcp_connection_destination_perform_socket_connect 2<*> connectx to <*>:14000@0 failed: [65] No route to host 
-tcp_connection_destination_perform_socket_connect 2<*> connectx to <*>:443@0 failed: [65] No route to host 
-tcp_connection_destination_perform_socket_connect 2<*> connectx to <*>:80@0 failed: [65] No route to host 
-<IMMacNotificationCenterManager: 0x7ff1b2e00ba0>: notification observer: <*> notification: __CFNotification 0x7ff1b2<*>0 {name = _NSDoNotDisturbEnabledNotification} 
-[<*>] FigAgglomeratorSetObjectForKey signalled err=-16020 (kFigStringConformerError_ParamErr) (NULL key) at /Library/Caches/<*>/Sources/CoreMedia/<*>/Prototypes/LegibleOutput/FigAgglomerator.c line 92 
-Service "<*>" tried to hijack endpoint "<*>" from owner: <*> 
-ERROR | -[LWBuiltInScreenLockAuthLion <*>:] | Attempted to <*> an observer when <*> observing 
-NETWORK: requery, 0, 0, 0, 0, <*>, items, fQueryRetries, 1, fLastRetryTimestamp, 52<*> 
-device_generate_lock_screen_screenshot: authw 0x7fa823c89600(2000)[0, 0, 1440, 900] shield 0x7fa8258cac00(2001), dev [1440,900] 
--[ISGenerateImageOp generateImageWithCompletion:] Failed to composit image for descriptor <ISBindingImageDescriptor: 0x7f99506064b0>. 
--[ISGenerateImageOp generateImageWithCompletion:] Failed to composit image for descriptor <ISBindingImageDescriptor: 0x7f9951300480>. 
--[ISGenerateImageOp generateImageWithCompletion:] Failed to composit image for descriptor <ISBindingImageDescriptor: 0x7f9951214ca0>. 
--[ISGenerateImageOp generateImageWithCompletion:] Failed to composit image for descriptor <ISBindingImageDescriptor: 0x7f9951214fe0>. 
--[ISGenerateImageOp generateImageWithCompletion:] Failed to composit image for descriptor <ISBindingImageDescriptor: 0x7f9950712080>. 
--[ISGenerateImageOp generateImageWithCompletion:] Failed to composit image for descriptor <ISBindingImageDescriptor: 0x7f9950609570>. 
--[ISGenerateImageOp generateImageWithCompletion:] Failed to composit image for descriptor <ISBindingImageDescriptor: 0x7f995060a600>. 
-<IMMacNotificationCenterManager: 0x7ff1b2d17980>: notification observer: <*> notification: __CFNotification 0x7ff1b5<*>0 {name = _NSDoNotDisturbDisabledNotification} 
-<IMMacNotificationCenterManager: 0x7ff1b2e00ba0>: notification observer: <*> notification: __CFNotification 0x7ff1b<*>0 {name = _NSDoNotDisturbDisabledNotification} 
-IOBluetoothUSBDFU::probe avoid Bluetooth automatic firmware update because USB Bluetooth active 
-**** [IOBluetoothHostControllerUSBTransport][start] -- completed -- result = TRUE -- 0x<*>00 **** 
-CFPasteboardCopyDataReturn __CFPasteboardCopyData(CFPasteboardRef, CFIndex, CFIndex, CFStringRef, Boolean, Boolean) : Lock timeout 
-hibernate_alloc_pages act <*>, inact <*>, anon <*>, throt 0, spec <*>, wire 5<*>, wireinit 39927 
-ARPT: <*>: IOPMPowerSource Information: onSleep, SleepType: Normal Sleep, 'ExternalConnected': No, 'TimeRemaining': <*>, 
-ARPT: <*>: IOPMPowerSource Information: onWake, SleepType: Normal Sleep, 'ExternalConnected': No, 'TimeRemaining': <*>, 
-<IMMacNotificationCenterManager: 0x7fdcc9d16380>: notification observer: <*> notification: __CFNotification 0x7fdcc<*>a0 {name = _NSDoNotDisturbEnabledNotification} 
-polled file major 1, minor 0, blocksize 4096, pollers 5 
-ASSERTION FAILED: dvcAddrRef != ((void *)0) -[DriverServices getDeviceAddress:] line: 2789 
-NETWORK: requery, 0, 0, 0, 0, <*>, items, fQueryRetries, 0, fLastRetryTimestamp, 52<*> 
-IO80211AWDLPeerManager::setAwdlOperatingMode Setting the AWDL operation mode from SUSPENDED to AUTO 
-Bluetooth -- LE is supported - Disable LE meta event 
-[<*>] <<<< CRABS >>>> crabsFlumeHostUnavailable: [0x7f961cf08cf0] Byte flume reports host unavailable. 
-network_reachability_changed : network is not reachable, netbiosd is shutting down 
-IO80211AWDLPeerManager::setAwdlOperatingMode Setting the AWDL operation mode from AUTO to SUSPENDED 
-<<<< MediaValidator >>>> mv_ValidateRFC4281CodecId: Unrecognized codec 1.(null). Failed codec specific check. 
-ARPT: <*>: wl0: Roamed or switched channel, reason #4, bssid <*>, last RSSI -<*> 
-NETWORK: requery, 0, 0, 0, 0, 320, items, fQueryRetries, 0, fLastRetryTimestamp, 5208<*> 
-Opened file /var/vm/sleepimage, size 1073741824, extents 3, maxio 2000000 ssd 1 
-ARPT: <*>: wl0: Roamed or switched channel, reason #8, bssid <*>, last RSSI -<*> 
-NETWORK: requery, 0, 0, 0, 0, 284, items, fQueryRetries, 0, fLastRetryTimestamp, 520<*> 
-hibernate_machine_init: state 2, image pages <*>, sum was <*>, imageSize 0x2<*>000, image1Size 0x<*>000, conflictCount <*>, nextFree <*> 
-ARPT: <*>: wl0: wl_update_tcpkeep_seq: Updated seq/ack/win from UserClient Seq <*>, Ack <*>, Win size <*> 
-NETWORK: requery, 0, 0, 0, 0, 252, items, fQueryRetries, 0, fLastRetryTimestamp, 5207<*> 
-NETWORK: requery, 0, 0, 0, 0, 273, items, fQueryRetries, 0, fLastRetryTimestamp, 52<*> 
-ARPT: <*>: wl0: Roamed or switched channel, reason #1, bssid <*>, last RSSI -<*> 
-NETWORK: requery, 0, 0, 0, 0, 272, items, fQueryRetries, 0, fLastRetryTimestamp, 52<*> 
-[Accounts] Current connection, <NSXPCConnection: 0x7fda7<*>0> connection from pid <*>, doesn't have account access. 
-[14:44:29.031] <<< FigDiskCacheRepository >>> fdcr_GetFileStats: stat failed for /private/var/folders/nt/fvzdv1fn7n1d5bpgqb_wcfxh0000gn/T/<*>/WebKit/MediaCache/CachedMedia-<*>, err = 2 
-NETWORK: requery, 0, 0, 0, 0, 271, items, fQueryRetries, 0, fLastRetryTimestamp, 52<*> 
-NETWORK: requery, 0, 0, 0, 0, 250, items, fQueryRetries, 0, fLastRetryTimestamp, 520<*> 
-NETWORK: requery, 0, 0, 0, 0, 267, items, fQueryRetries, 0, fLastRetryTimestamp, 520<*> 
--[SFLListManager(ServiceReplyProtocol) notifyChanges:toListWithIdentifier:] Notified of item changes to list with identifier <*> 
-NETWORK: requery, 0, 0, 0, 0, 279, items, fQueryRetries, 0, fLastRetryTimestamp, 52<*> 
-NETWORK: requery, 0, 0, 0, 0, 289, items, fQueryRetries, 0, fLastRetryTimestamp, 52<*> 
-Opened file /var/log/SleepWakeStacks.bin, size 172032, extents 1, maxio 2000000 ssd 1 
-NETWORK: requery, 0, 0, 0, 0, 281, items, fQueryRetries, 0, fLastRetryTimestamp, 520<*> 
-dnssd_clientstub ConnectToServer: connect() failed path:/var/run/mDNSResponder Socket:4 Err:-1 Errno:1 Operation not permitted 
-[<*>] <<<< CRABS >>>> crabsFlumeHostAvailable: [0x7f961cf08cf0] Byte flume reports host available again. 
-ARPT: <*>: IOPMPowerSource Information: onWake, SleepType: Normal Sleep, 'ExternalConnected': Yes, 'TimeRemaining': 0, 
-AirPort: Link Down on en0. Reason 8 (Disassociated because station leaving). 
-ARPT: <*>: IOPMPowerSource Information: onSleep, SleepType: Normal Sleep, 'ExternalConnected': Yes, 'TimeRemaining': 0, 
--[UABestAppSuggestionManager notifyBestAppChanged:type:options:bundleIdentifier:activityType:dynamicIdentifier:when:confidence:deviceName:deviceIdentifier:deviceType:] (null) UASuggestedActionType=0 (null)/(null) opts=(null) when=2017-07-08 <*> +0000 confidence=1 from=(null)/(null) (UABestAppSuggestionManager.m #319) 
-ARPT: 7<*>: wl0: Roamed or switched channel, reason #1, bssid 5c:50:15:36:bc:03, last RSSI -7<*> 
--[UABestAppSuggestionManager notifyBestAppChanged:type:options:bundleIdentifier:activityType:dynamicIdentifier:when:confidence:deviceName:deviceIdentifier:deviceType:] (null) UASuggestedActionType=0 (null)/(null) opts=(null) when=2017-07-07 <*> +0000 confidence=1 from=(null)/(null) (UABestAppSuggestionManager.m #319) 
--[UABestAppSuggestionManager notifyBestAppChanged:type:options:bundleIdentifier:activityType:dynamicIdentifier:when:confidence:deviceName:deviceIdentifier:deviceType:] (null) UASuggestedActionType=0 (null)/(null) opts=(null) when=2017-07-06 <*> +0000 confidence=1 from=(null)/(null) (UABestAppSuggestionManager.m #319) 
-Cocoa scripting error for '0x<*>': four character codes must be four characters long. 
--[UABestAppSuggestionManager notifyBestAppChanged:type:options:bundleIdentifier:activityType:dynamicIdentifier:when:confidence:deviceName:deviceIdentifier:deviceType:] (null) UASuggestedActionType=0 (null)/(null) opts=(null) when=2017-07-05 <*> +0000 confidence=1 from=(null)/(null) (UABestAppSuggestionManager.m #319) 
-Service only ran for 0 seconds. Pushing respawn out by 10 seconds. 
--[UABestAppSuggestionManager notifyBestAppChanged:type:options:bundleIdentifier:activityType:dynamicIdentifier:when:confidence:deviceName:deviceIdentifier:deviceType:] (null) UASuggestedActionType=0 (null)/(null) opts=(null) when=2017-07-04 <*> +0000 confidence=1 from=(null)/(null) (UABestAppSuggestionManager.m #319) 
-ARPT: <*>: wl0: Roamed or switched channel, reason #1, bssid 5c:50:15:36:bc:0<*>, last RSSI -76 
-ARPT: <*>: wl0: wl_update_tcpkeep_seq: Updated seq/ack/win from UserClient Seq <*>, Ack <*>, Win size 290 
-Captive: [CNInfoNetworkActive:1748] en0: SSID <*> making interface primary (cache indicates network not captive) 
--[UABestAppSuggestionManager notifyBestAppChanged:type:options:bundleIdentifier:activityType:dynamicIdentifier:when:confidence:deviceName:deviceIdentifier:deviceType:] (null) UASuggestedActionType=0 (null)/(null) opts=(null) when=2017-07-03 <*> +0000 confidence=1 from=(null)/(null) (UABestAppSuggestionManager.m #319) 
-[17:00:<*>] fragManifold_PushBytes signalled err=-16046 (kFigManifoldError_UnexpectedInitData) (Second 'ftyp' atom encountered) at /Library/Caches/<*>/Sources/CoreMedia/<*>/Prototypes/FormatHandlers/Movie/FigMovieFragmentManifold.c line 1680 
-hibernate_teardown: wired_pages 5<*>, free_pages 35<*>, active_pages 40000, inactive_pages 0, speculative_pages 0, cleaned_pages 0, compressor_pages <*> 
-**** [IOBluetoothFamily][ProcessBluetoothTransportShowsUpActionWL] -- calling IOBluetoothFamily's registerService() -- 0x5fd0 -- 0x9a00 -- 0x<*>00 **** 
--[UABestAppSuggestionManager notifyBestAppChanged:type:options:bundleIdentifier:activityType:dynamicIdentifier:when:confidence:deviceName:deviceIdentifier:deviceType:] (null) UASuggestedActionType=0 (null)/(null) opts=(null) when=2017-07-02 <*> +0000 confidence=1 from=(null)/(null) (UABestAppSuggestionManager.m #319) 
-Failed to stop a scan - central is not powered on: 4 
-[<*>] [Refusing to parse response to PROPPATCH because of content-type: [text/html; charset=UTF-8].] 
-ARPT: <*>: AirPort_Brcm43xx::powerChange: System Wake - Full Wake/ Dark Wake / Maintenance wake 
--[NetworkAnalyticsEngine _writeJournalRecord:fromCellFingerprint:key:atLOI:ofKind:lqm:isFaulty:] Hashing of the primary key failed. Dropping the journal record. 
-ARPT: 6<*>: wl0: Roamed or switched channel, reason #8, bssid 5c:50:15:36:bc:03, last RSSI <*> 
--[UABestAppSuggestionManager notifyBestAppChanged:type:options:bundleIdentifier:activityType:dynamicIdentifier:when:confidence:deviceName:deviceIdentifier:deviceType:] (null) UASuggestedActionType=0 (null)/(null) opts=(null) when=2017-07-01 <*> +0000 confidence=1 from=(null)/(null) (UABestAppSuggestionManager.m #319) 
-ARPT: <*>: wl0: wl_update_tcpkeep_seq: Updated seq/ack/win from UserClient Seq <*>, Ack <*>, Win size 278 
-ARPT: <*>: wl0: Roamed or switched channel, reason #8, bssid 5c:50:15:4c:18:13, last RSSI -6<*> 
-2017/07/0<*> <*> | I | VoipWrapper | DAVEngineImpl.cpp:1400:Close | close video chat. llFriendUIN = 931897618. 
-FrameReceiverMessageCallback: KernelFrameDropNotification (Frames are dropping). The firmware is not returning buffers quickly enough. 
-2017/07/07 <*> | I | VoipWrapper | DAVEngineImpl.cpp:1400:Close | close video chat. llFriendUIN = <*>. 
-2017/07/05 1<*> | I | VoipWrapper | DAVEngineImpl.cpp:1400:Close | close video chat. llFriendUIN = <*>. 
-Failed to connect <*> outlet from (NSApplication) to (NSColorPickerGridView): missing setter or instance variable 
-[Accounts] Current connection, <NSXPCConnection: 0x7fda727081a0> connection from pid 12456, doesn't have account access. 
-2017/07/03 <*> | I | VoipWrapper | DAVEngineImpl.cpp:1400:Close | close video chat. llFriendUIN = <*> 
-[Accounts] Current connection, <NSXPCConnection: 0x7fda74a076b0> connection from pid 401, doesn't have account access. 
-[Accounts] Current connection, <NSXPCConnection: 0x7fda7251adf0> connection from pid 304, doesn't have account access. 
-[Accounts] Failed to update account with identifier 74159F5F-8823-439C-86D9-F3A67B109E2B, error: Error Domain=ABAddressBookErrorDomain Code=1002 "(null)" 
-ERROR | -[LWBuiltInScreenLockAuthLion closeAuthAndReset:] | Attempted to remove an observer when not observing 
-pages <*>, wire <*>, act <*>, inact <*>, cleaned 0 spec <*>, zf <*>, throt 0, compr <*>, xpmapped 40000 
-[Accounts] Failed to update account with identifier 76FE6715-3D27-4F21-AA35-C88C1EA820E8, error: Error Domain=ABAddressBookErrorDomain Code=1002 "(null)" 
-[Accounts] Current connection, <NSXPCConnection: 0x7fda74805bf0> connection from pid 487, doesn't have account access. 
-[Accounts] Current connection, <NSXPCConnection: 0x7fda74911a50> connection from pid 356, doesn't have account access. 
-Captive: [CNInfoNetworkActive:1748] en0: SSID 'CalVisitor' making interface primary (cache indicates network not captive) 
-ARPT: <*>: AQM agg results 0x8001 len hi/lo: 0x0 0x<*> BAbitmap(0-3) 0 0 0 0 
-ARPT: <*>: AQM agg params 0xfc0 maxlen hi/lo 0x0 0xffff minlen 0x0 adjlen 0x0 
-pages 1<*>, wire 5<*>, act <*>, inact 2, cleaned 0 spec <*>, zf <*>, throt 0, compr <*>, xpmapped 40000 
-pages <*>, wire <*>, act <*> inact 0, cleaned 0 spec <*> zf <*> throt 0, compr <*>, xpmapped 40000 
-CoreAnimation: warning, deleted thread with uncommitted CATransaction; set CA_DEBUG_TRANSACTIONS=1 in environment to log backtraces. 
-.sdef warning for argument '' of command '<*> <*> <*> <*> <*> <*> Suite': '40<*>' is not a valid type name. 
-2017/07/04 <*> | I | VoipWrapper | DAVEngineImpl.cpp:1400:Close | close video chat. llFriendUIN = 535204893. 
-ARPT: <*>: ARPT: Wake Reason: Wake on Scan offload; Disconnect reason: Disassociated due to inactivity 
-[HID] [ATC] [Error] AppleDeviceManagementHIDEventService::start Could not make a string from out connection notification key 
-ARPT: <*>: AQM agg results 0x8001 len hi/lo: 0x0 0x30 BAbitmap(0-3) 0 0 0 0 
-2017/07/03 <*> | I | VoipWrapper | DAVEngineImpl.cpp:1400:Close | close video chat. llFriendUIN = 535204893. 
-Failed to connect (view) outlet from (NSApplication) to (NSColorPickerGridView): missing setter or instance variable 
-2017/07/02 1<*> | I | VoipWrapper | DAVEngineImpl.cpp:1400:Close | close video chat. llFriendUIN = ******2341. 
-**** [IOBluetoothFamily][ProcessBluetoothTransportShowsUpActionWL] -- Connected to the transport successfully -- 0x5fd0 -- 0x9a00 -- 0x<*>00 **** 
-hostControllerOnline - Number of Paired devices = 1, List of Paired devices = ( 
-[HID] [ATC] [Error] AppleDeviceManagementHIDEventService::start Could not make a string from out poweredoff notification key 
-send_datagram_available_ping: pid 445 failed to act on a ping it dequeued before timing out. 
-ARPT: <*>: AQM agg results 0x8001 len hi/lo: 0x0 0x26 BAbitmap(0-3) 0 0 0 0 
-<*> <<<< FigFile >>>> FigFileForkOpenMainByCFURL: opening url "file:///private/var/folders/nt/fvzdv1fn7n1d5bpgqb_wcfxh0000gn/T/<*>/WebKit/MediaCache/CachedMedia-<*>", path "/private/var/folders/nt/fvzdv1fn7n1d5bpgqb_wcfxh0000gn/T/<*>/WebKit/MediaCache/CachedMedia-<*>" options 0x00000480 failed errno 35 Resource temporarily unavailable 
-Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): <*> 
-IOThunderboltSwitch<0>(0x0)::listenerCallback - Thunderbolt HPD packet for route = 0x0 port = 12 unplug = 0 
-IOThunderboltSwitch<0>(0x0)::listenerCallback - Thunderbolt HPD packet for route = 0x0 port = 11 unplug = 0 
-[<*>] [Account refresh failed with error: Error Domain=NSURLErrorDomain Code=-100<*> "<*>。" UserInfo={AccountName=163, CalDAVErrFromRefresh=YES, NSUnderlyingError=0x7fa11<*>0 {Error Domain=kCFErrorDomainCFNetwork Code=-100<*> "<*>。" UserInfo={NSErrorFailingURLStringKey=https://xpc_ben%40163.com@<*>/caldav/principals/users/xpc_ben%40163.com/, NSErrorFailingURLKey=https://xpc_ben%40163.com@<*>/caldav/principals/users/xpc_ben%40163.com/, <*> <*> NSLocalizedDescription=<*>。}}, NSErrorFailingURLKey=https://xpc_ben%40163.com@<*>/caldav/principals/users/xpc_ben%40163.com/, NSLocalizedDescription=<*>。, <*> NSErrorFailingURLStringKey=https://xpc_ben%40163.com@<*>/caldav/principals/users/xpc_ben%40163.com/, <*> 
-pages <*>, wire <*>, act <*> inact 0, cleaned 0 spec 0, zf 0, throt 0, compr <*>, xpmapped 40000 
-.sdef warning for argument '' of command '<*> <*>' in suite <*> Suite': '40<*>' is not a valid type name. 
-[<*>] <<<< CRABS >>>> crabsFlumeConnectionToHostLost: [0x7f<*>0] Byte flume reports connection to host lost. No error specified, using kCFURLErrorCannotConnectToHost. 
--[NETClientConnection effectiveBundleID] using process name <*> as bundle ID (this is expected for daemons without bundle ID 
-<*> scheduler_evaluate_activity told me to run this job; however, but the start time isn't for <*> seconds. Ignoring. 
-SOSAccountThisDeviceCanSyncWithCircle sync with device failure: Error Domain=<*> Code=1035 "Account identity not set" UserInfo={NSDescription=Account identity not set} 
-ARPT: 7<*>: ARPT: Wake Reason: Wake on Scan offload; Disconnect reason: Class 3 frame received from nonassociated STA 
-<<<< FigByteStream >>>> FigByteStreamStatsLogOneRead: ByteStream read of <*> bytes @ <*> took 0.<*> sec. to complete, 1<*> reads >= 0.5 sec. 
--[NETClientConnection effectiveBundleID] using process name AddressBookSour as bundle ID (this is expected for daemons without bundle ID 
-<<<< FigByteStream >>>> FigByteStreamStatsLogOneRead: ByteStream read of <*> bytes @ <*> took <*> secs. to complete, <*> reads >= 1 sec. 
-<*>://DB05755C-483D-44B7-B93B-ED06E57FF420/ExchangePrincipal/p13: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for <*>0 seconds. Ignoring. 
--[NETClientConnection effectiveBundleID] using process name CalendarAgent as bundle ID (this is expected for daemons without bundle ID 
-pages <*>, wire <*>, act 40000, inact 0, cleaned 0 spec 0, zf 0, throt 0, compr <*>, xpmapped 40000 
--[NETClientConnection effectiveBundleID] using process name locationd as bundle ID (this is expected for daemons without bundle ID 
--[NETClientConnection effectiveBundleID] using process name apsd as bundle ID (this is expected for daemons without bundle ID 
-<*>: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for <*> seconds. Ignoring. 
-hibernate_machine_init pagesDone <*> sum2 <*>, time: 1<*> ms, disk(0x20000) 8<*> Mb/s, comp bytes: <*> time: <*> ms 1<*> Mb/s, crypt bytes: 1<*> time: 38 ms <*> Mb/s 
-hibernate_machine_init pagesDone 4<*> sum2 <*>, time: 19<*> ms, disk(0x20000) 8<*> Mb/s, comp bytes: <*> time: <*> ms 1<*> Mb/s, crypt bytes: 1<*> time: 37 ms <*> Mb/s 
-[<*>] [Sync report for calendar home iCloud, failed with error Error Domain=NSURLErrorDomain Code=-100<*> "<*>。" UserInfo={NSUnderlyingError=0x7fa11<*>0 {Error Domain=kCFErrorDomainCFNetwork Code=-100<*> "<*>。" UserInfo={NSErrorFailingURLStringKey=https://13957525385%40163.com@<*>/874161398/calendars/, NSErrorFailingURLKey=https://13957525385%40163.com@<*>/874161398/calendars/, _kCFStreamErrorCodeKey=<*>, _kCFStreamErrorDomainKey=1<*>, NSLocalizedDescription=<*>。}}, NSErrorFailingURLStringKey=https://13957525385%40163.com@<*>/874161398/calendars/, NSErrorFailingURLKey=https://13957525385%40163.com@<*>/874161398/calendars/, _kCFStreamErrorDomainKey=1<*>, _kCFStreamErrorCodeKey=<*>, NSLocalizedDescription=<*>。}] 
-<*>: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 6 seconds. Ignoring. 
-VDCAssistant: Found a camera (0x1430000005ac8290) , but was not able to start it up (0x0 -- (os/kern) successful) 
-[<*>] <<<< IQ-CA >>>> piqca_setUsePreQueue: (0x7f<*>00) rejecting report of layer being serviced - IQ has not yet begun to update 
-booter start at 12<*> ms smc 0 ms, [18, 0, 0] total 3<*> ms, dsply 0, 0 ms, tramp <*> ms 
-WARNING: Type1 font data isn't in the correct format required by the Adobe Type 1 Font Format specification. 
-<*>: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 1016 seconds. Ignoring. 
-<*>: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 1121 seconds. Ignoring. 
-hibernate_machine_init pagesDone <*> sum2 <*>, time: 1<*> ms, disk(0x20000) 8<*> Mb/s, comp bytes: 3<*> time: 26 ms 1<*> Mb/s, crypt bytes: 1<*> time: 38 ms <*> Mb/s 
-[<*>] [Account refresh failed with error: Error Domain=CoreDAVHTTPStatusErrorDomain Code=50<*> "(null)" UserInfo={AccountName=163, CalDAVErrFromRefresh=YES, CoreDAVHTTPHeaders=<CFBasicHash 0x7fa11<*>0 [0x7fff7abc1440]>{type = immutable dict, count = 5, 
-hibernate_machine_init pagesDone 4<*> sum2 <*>, time: 19<*> ms, disk(0x20000) 8<*> Mb/s, comp bytes: 47<*> time: 32 ms 137<*> Mb/s, crypt bytes: 158<*> time: 37 ms <*> Mb/s 
-SecOSStatusWith error:[-50] Error Domain=NSOSStatusErrorDomain Code=-50 "query missing class name" (paramErr: error in user parameter list) UserInfo={NSDescription=query missing class name} 
-objc[35448]: Class TSU<*> is implemented in both /Library/QuickLook/iWork.qlgenerator/Contents/MacOS/iWork and /System/Library/PrivateFrameworks/OfficeImport.framework/Versions/A/OfficeImport. One of the two will be used. Which one is undefined. 
-objc[35391]: Class TSU<*> is implemented in both /Library/QuickLook/iWork.qlgenerator/Contents/MacOS/iWork and /System/Library/PrivateFrameworks/OfficeImport.framework/Versions/A/OfficeImport. One of the two will be used. Which one is undefined. 
-[<*>] [Account refresh failed with error: Error Domain=CoreDAVHTTPStatusErrorDomain Code=502 "(null)" UserInfo={AccountName=163, CalDAVErrFromRefresh=YES, CoreDAVHTTPHeaders=<CFBasicHash 0x7fa11fe<*>0 [0x7fff7abc1440]>{type = immutable dict, count = 5, 
-[<*>] [Account refresh failed with error: Error Domain=NSURLErrorDomain Code=-100<*> "<*>。" UserInfo={AccountName=163, CalDAVErrFromRefresh=YES, NSUnderlyingError=0x7fa11<*>0 {Error Domain=kCFErrorDomainCFNetwork Code=-100<*> "<*>。" UserInfo={NSErrorFailingURLStringKey=https://xpc_ben%40163.com@<*>/caldav/principals/users/xpc_ben%40163.com/, NSErrorFailingURLKey=https://xpc_ben%40163.com@<*>/caldav/principals/users/xpc_ben%40163.com/, _kCFStreamErrorCodeKey=8, _kCFStreamErrorDomainKey=12, NSLocalizedDescription=<*>。}}, NSErrorFailingURLKey=https://xpc_ben%40163.com@<*>/caldav/principals/users/xpc_ben%40163.com/, NSLocalizedDescription=<*>。, _kCFStreamErrorDomainKey=12, NSErrorFailingURLStringKey=https://xpc_ben%40163.com@<*>/caldav/principals/users/xpc_ben%40163.com/, _kCFStreamErrorCodeKey=8}] 
-securityd_xpc_dictionary_handler cloudd[326] copy_matching Error Domain=NSOSStatusErrorDomain Code=-50 "query missing class name" (paramErr: error in user parameter list) UserInfo={NSDescription=query missing class name} 
-[<*>] [Account refresh failed with error: Error Domain=NSURLErrorDomain Code=-1009 "似乎已断开与互联网的连接。" UserInfo={AccountName=<*>, CalDAVErrFromRefresh=YES, NSUnderlyingError=0x7fa11<*>0 {Error Domain=kCFErrorDomainCFNetwork Code=-1009 "似乎已断开与互联网的连接。" UserInfo={NSErrorFailingURLStringKey=https://<*>/, NSErrorFailingURLKey=https://<*>/, _kCFStreamErrorCodeKey=8, _kCFStreamErrorDomainKey=12, NSLocalizedDescription=似乎已断开与互联网的连接。}}, NSErrorFailingURLKey=https://<*>/, NSLocalizedDescription=似乎已断开与互联网的连接。, _kCFStreamErrorDomainKey=12, NSErrorFailingURLStringKey=https://<*>/, _kCFStreamErrorCodeKey=8}] 
-[<*>] [CalOperationQueue (x-coredata://DB05755C-483D-44B7-B93B-ED06E57FF420/ExchangePrincipal/p13): <CalExchangeSyncAccountOperation: 0x7fa11<*>0> failed with error Error Domain=NSURLErrorDomain Code=-1009 "似乎已断开与互联网的连接。" UserInfo={NSUnderlyingError=0x7fa11<*>0 {Error Domain=kCFErrorDomainCFNetwork Code=-1009 "(null)" UserInfo={_kCFStreamErrorCodeKey=8, _kCFStreamErrorDomainKey=12}}, NSErrorFailingURLStringKey=https://1155092212%<*>@<*>/EWS/Exchange.asmx, NSErrorFailingURLKey=https://1155092212%<*>@<*>/EWS/Exchange.asmx, _kCFStreamErrorDomainKey=12, _kCFStreamErrorCodeKey=8, NSLocalizedDescription=似乎已断开与互联网的连接。}.] 
-[<*>] [Account refresh failed with error: Error Domain=NSURLErrorDomain Code=-1009 "似乎已断开与互联网的连接。" UserInfo={AccountName=谷歌, CalDAVErrFromRefresh=YES, NSUnderlyingError=0x7fa11<*>0 {Error Domain=kCFErrorDomainCFNetwork Code=-1009 "似乎已断开与互联网的连接。" UserInfo={NSErrorFailingURLStringKey=https://xpcben%40gmail.com@<*>/caldav/v2/xpcben%40gmail.com/user/, NSErrorFailingURLKey=https://xpcben%40gmail.com@<*>/caldav/v2/xpcben%40gmail.com/user/, _kCFStreamErrorCodeKey=8, _kCFStreamErrorDomainKey=12, NSLocalizedDescription=似乎已断开与互联网的连接。}}, NSErrorFailingURLKey=https://xpcben%40gmail.com@<*>/caldav/v2/xpcben%40gmail.com/user/, NSLocalizedDescription=似乎已断开与互联网的连接。, _kCFStreamErrorDomainKey=12, NSErrorFailingURLStringKey=https://xpcben%40gmail.com@<*>/caldav/v2/xpcben%40gmail.com/user/, _kCFStreamErrorCodeKey=8}] 
-[<*>] [Account refresh failed with error: Error Domain=NSURLErrorDomain Code=-1009 "似乎已断开与互联网的连接。" UserInfo={AccountName=163, CalDAVErrFromRefresh=YES, NSUnderlyingError=0x7fa11<*>0 {Error Domain=kCFErrorDomainCFNetwork Code=-1009 "似乎已断开与互联网的连接。" UserInfo={NSErrorFailingURLStringKey=https://xpc_ben%40163.com@<*>/caldav/principals/users/xpc_ben%40163.com/, NSErrorFailingURLKey=https://xpc_ben%40163.com@<*>/caldav/principals/users/xpc_ben%40163.com/, _kCFStreamErrorCodeKey=8, _kCFStreamErrorDomainKey=12, NSLocalizedDescription=似乎已断开与互联网的连接。}}, NSErrorFailingURLKey=https://xpc_ben%40163.com@<*>/caldav/principals/users/xpc_ben%40163.com/, NSLocalizedDescription=似乎已断开与互联网的连接。, _kCFStreamErrorDomainKey=12, NSErrorFailingURLStringKey=https://xpc_ben%40163.com@<*>/caldav/principals/users/xpc_ben%40163.com/, _kCFStreamErrorCodeKey=8}] 
-Google Chrome He[3<*>] triggered unnest of range 0x7fff93c00000->0x7fff93e00000 of DYLD shared region in VM map 0x77c91145<*>. While not abnormal for debuggers, this increases system memory footprint until the target exits. 
-DB Query: select * from tb_c2cMsg_2658655094 where flag = 1 and type != 109 and bubbleid > 0 order by time desc, msgRelatedFlag asc, msgId desc limit 1 
-[CardDAVPlugin-ERROR] -getPrincipalInfo:[_controller <*>/] Error Domain=NSURLErrorDomain Code=-1001 "The request timed out." UserInfo={NSUnderlyingError=0x7f<*>0 {Error Domain=kCFErrorDomainCFNetwork Code=-1001 "The request timed out." UserInfo={NSErrorFailingURLStringKey=https://<*>/, NSErrorFailingURLKey=https://<*>/, _kCFStreamErrorCodeKey=-2102, _kCFStreamErrorDomainKey=4, NSLocalizedDescription=The request timed out.}}, NSErrorFailingURLStringKey=https://<*>/, NSErrorFailingURLKey=https://<*>/, _kCFStreamErrorDomainKey=4, _kCFStreamErrorCodeKey=-2102, NSLocalizedDescription=The request timed out.} 
-Path not allowed in target domain: type = pid, path = /System/Library/StagedFrameworks/Safari/SafariShared.framework/Versions/A/XPCServices/<*>/Contents/MacOS/<*> error = 147: The specified service did not ship in the requestor's bundle, origin = /System/Library/StagedFrameworks/Safari/WebKit.framework/Versions/A/XPCServices/<*> 
-Google Chrome He[3<*>] triggered unnest of range 0x7fff93c00000->0x7fff93e00000 of DYLD shared region in VM map 0x77c9114550457073. While not abnormal for debuggers, this increases system memory footprint until the target exits. 
-PBRequester failed with Error Error Domain=NSURLErrorDomain Code=-1001 "The request timed out." UserInfo={NSUnderlyingError=0x7f<*>0 {Error Domain=kCFErrorDomainCFNetwork Code=-1001 "The request timed out." <*> <*> _kCFStreamErrorCodeKey=-2102, _kCFStreamErrorDomainKey=4, NSLocalizedDescription=The request timed out.}}, <*> <*> _kCFStreamErrorDomainKey=4, _kCFStreamErrorCodeKey=-2102, NSLocalizedDescription=The request timed out.} 
-XPC Error while checking if iCDP is enabled for DSID 874161398: Error Domain=NSCocoaErrorDomain Code=4099 "The connection to service named <*> was invalidated." UserInfo={NSDebugDescription=The connection to service named <*> was invalidated.} 
-[CardDAVPlugin-ERROR] -getPrincipalInfo:[_controller <*>AtURL:https://13957525385%40163.com@<*>/874161398/principal/] Error Domain=NSURLErrorDomain Code=-1001 "The request timed out." UserInfo={NSUnderlyingError=0x7f<*>0 {Error Domain=kCFErrorDomainCFNetwork Code=-1001 "The request timed out." UserInfo={NSErrorFailingURLStringKey=https://13957525385%40163.com@<*>/874161398/principal/, NSErrorFailingURLKey=https://13957525385%40163.com@<*>/874161398/principal/, _kCFStreamErrorCodeKey=-2102, _kCFStreamErrorDomainKey=4, NSLocalizedDescription=The request timed out.}}, NSErrorFailingURLStringKey=https://13957525385%40163.com@<*>/874161398/principal/, NSErrorFailingURLKey=https://13957525385%40163.com@<*>/874161398/principal/, _kCFStreamErrorDomainKey=4, _kCFStreamErrorCodeKey=-2102, NSLocalizedDescription=The request timed out.} 
-PBRequester failed with Error Error Domain=NSURLErrorDomain Code=-1001 "The request timed out." UserInfo={NSUnderlyingError=0x7fe13<*>0 {Error Domain=kCFErrorDomainCFNetwork Code=-1001 "The request timed out." UserInfo={NSErrorFailingURLStringKey=https://<*>/dispatcher.arpc, NSErrorFailingURLKey=https://<*>/dispatcher.arpc, _kCFStreamErrorCodeKey=-2102, _kCFStreamErrorDomainKey=4, NSLocalizedDescription=The request timed out.}}, NSErrorFailingURLStringKey=https://<*>/dispatcher.arpc, NSErrorFailingURLKey=https://<*>/dispatcher.arpc, _kCFStreamErrorDomainKey=4, _kCFStreamErrorCodeKey=-2102, NSLocalizedDescription=The request timed out.} 
-[CardDAVPlugin-ERROR] -getPrincipalInfo:[_controller <*>/] Error Domain=NSURLErrorDomain Code=-1009 "The Internet connection appears to be offline." UserInfo={NSUnderlyingError=0x7f<*>0 {Error Domain=kCFErrorDomainCFNetwork Code=-1009 "The Internet connection appears to be offline." UserInfo={NSErrorFailingURLStringKey=https://<*>/, NSErrorFailingURLKey=https://<*>/, _kCFStreamErrorCodeKey=8, _kCFStreamErrorDomainKey=12, NSLocalizedDescription=The Internet connection appears to be offline.}}, NSErrorFailingURLStringKey=https://<*>/, NSErrorFailingURLKey=https://<*>/, _kCFStreamErrorDomainKey=12, _kCFStreamErrorCodeKey=8, NSLocalizedDescription=The Internet connection appears to be offline.} 
-en0: Supported channels 1 2 3 4 5 6 7 8 9 10 11 12 13 36 40 44 48 52 56 60 64 100 104 108 112 116 120 124 128 132 136 140 144 149 153 157 161 
-en0: Supported channels 1 2 3 4 5 6 7 8 9 10 11 12 13 36 40 44 48 52 56 60 64 100 104 108 112 116 120 124 128 132 136 140 144 149 153 157 161 165 
-PBRequester failed with Error Error Domain=NSURLErrorDomain Code=-1009 "The Internet connection appears to be offline." UserInfo={NSUnderlyingError=0x7f<*>0 {Error Domain=kCFErrorDomainCFNetwork Code=-1009 "The Internet connection appears to be offline." UserInfo={NSErrorFailingURLStringKey=https://<*>/<*>, NSErrorFailingURLKey=https://<*>/<*>, _kCFStreamErrorCodeKey=8, _kCFStreamErrorDomainKey=12, NSLocalizedDescription=The Internet connection appears to be offline.}}, NSErrorFailingURLStringKey=https://<*>/<*>, NSErrorFailingURLKey=https://<*>/<*>, _kCFStreamErrorDomainKey=12, _kCFStreamErrorCodeKey=8, NSLocalizedDescription=The Internet connection appears to be offline.} 
-[CardDAVPlugin-ERROR] -getPrincipalInfo:[_controller <*> Error Domain=NSURLErrorDomain Code=-1009 "The Internet connection appears to be offline." UserInfo={NSUnderlyingError=0x7f<*>0 {Error Domain=kCFErrorDomainCFNetwork Code=-1009 "The Internet connection appears to be offline." UserInfo={NSErrorFailingURLStringKey=https://13957525385%40163.com@<*>/874161398/principal/, NSErrorFailingURLKey=https://13957525385%40163.com@<*>/874161398/principal/, _kCFStreamErrorCodeKey=8, _kCFStreamErrorDomainKey=12, NSLocalizedDescription=The Internet connection appears to be offline.}}, NSErrorFailingURLStringKey=https://13957525385%40163.com@<*>/874161398/principal/, NSErrorFailingURLKey=https://13957525385%40163.com@<*>/874161398/principal/, _kCFStreamErrorDomainKey=12, _kCFStreamErrorCodeKey=8, NSLocalizedDescription=The Internet connection appears to be offline.} 
-PBRequester failed with Error Error Domain=NSURLErrorDomain Code=-1009 "The Internet connection appears to be offline." UserInfo={NSUnderlyingError=0x7fb7<*>0 {Error Domain=kCFErrorDomainCFNetwork Code=-1009 "The Internet connection appears to be offline." UserInfo={NSErrorFailingURLStringKey=https://<*>/clls/wloc, NSErrorFailingURLKey=https://<*>/clls/wloc, _kCFStreamErrorCodeKey=8, _kCFStreamErrorDomainKey=12, NSLocalizedDescription=The Internet connection appears to be offline.}}, NSErrorFailingURLStringKey=https://<*>/clls/wloc, NSErrorFailingURLKey=https://<*>/clls/wloc, _kCFStreamErrorDomainKey=12, _kCFStreamErrorCodeKey=8, NSLocalizedDescription=The Internet connection appears to be offline.} 
-PBRequester failed with Error Error Domain=NSURLErrorDomain Code=-1009 "The Internet connection appears to be offline." UserInfo={NSUnderlyingError=0x7fe13<*>0 {Error Domain=kCFErrorDomainCFNetwork Code=-1009 "The Internet connection appears to be offline." UserInfo={NSErrorFailingURLStringKey=https://<*>/dispatcher.arpc, NSErrorFailingURLKey=https://<*>/dispatcher.arpc, _kCFStreamErrorCodeKey=8, _kCFStreamErrorDomainKey=12, NSLocalizedDescription=The Internet connection appears to be offline.}}, NSErrorFailingURLStringKey=https://<*>/dispatcher.arpc, NSErrorFailingURLKey=https://<*>/dispatcher.arpc, _kCFStreamErrorDomainKey=12, _kCFStreamErrorCodeKey=8, NSLocalizedDescription=The Internet connection appears to be offline.} 
+Started <*> <*> <*> 
+<*> 5 <*> <*> <*> <*> <*> 
+<*> <*> <*> <*> <*> <*> memory <*> <*> <*> <*> <*> <*> <*> 
+<*> <*> <*> <*> <*> <*> <*> blocks 
+<*> <*> <*> <*> <*> it 
+<*> <*> <*> <*> <*> <*> 2, <*> <*> 
+<*> <*> <*> <*> <*> <*> 6, <*> <*> 
+Found <*> <*> <*> 
+<*> <*> <*> <*> on <*> <*> 
+<*> block <*> <*> 
+<*> <*> <*> <*> <*> <*> <*> <*> in <*> <*> 
+<*> <*> <*> <*> <*> <*> 29, <*> <*> 
+Starting <*> 
+<*> <*> <*> <*> <*> <*> 7, <*> <*> 
+<*> <*> remote <*> 
+<*> <*> <*> <*> <*> <*> 21, <*> <*> 
+<*> <*> on <*> 
+attempt_201<*>: Committed 
+<*> task <*> <*> <*> <*> <*> 
+<*> broadcast <*> <*> <*> <*> <*> 
+<*> <*> <*> <*> <*> = <*> 
+Got <*> <*> <*> 
+<*> <*> <*> <*> <*> <*> <*> <*> <*> bytes 
+Removed <*> <*> <*> <*> <*> <*> <*> <*> <*> 
+Removing RDD <*> 
+Input split: <*> 
+Found block rdd_<*> locally 
+Got assigned task <*> 
+<*> task <*> in stage <*> (TID <*> 
+Started reading broadcast variable <*> 
+<*> task <*> in stage 2.0 (TID <*> 
+<*> task 30.0 in stage <*>.0 (TID <*> 
+Started <*> remote fetches in <*> ms 
+Saved output of task 'attempt_201<*>' to hdfs://<*>:9000/pjhe/test/<*> 
+Reading broadcast variable <*> took <*> ms 
+Partition rdd_<*> not found, computing it 
+Running task <*> in stage <*> (TID <*>) 
+Reading broadcast variable <*> took 2 ms 
+Reading broadcast variable <*> took 3 ms 
+Running task 39.0 in stage <*>.0 (TID <*>) 
+Running task 37.0 in stage <*>.0 (TID <*>) 
+Running task 6.0 in stage <*>.0 (TID <*>) 
+Running task 30.0 in stage <*>.0 (TID <*>) 
+Running task 27.0 in stage <*>.0 (TID <*>) 
+Running task 14.0 in stage <*>.0 (TID <*>) 
+Running task 35.0 in stage <*>.0 (TID <*>) 
+Running task 32.0 in stage <*>.0 (TID <*>) 
+Running task 23.0 in stage <*>.0 (TID <*>) 
+Started 3 remote fetches in <*> ms 
+Running task 21.0 in stage <*>.0 (TID <*>) 
+Running task 7.0 in stage <*> (TID <*>) 
+Running task 26.0 in stage <*> (TID <*>) 
+Running task 34.0 in stage <*> (TID <*> 
+Started 4 remote fetches in <*> ms 
+Running task 28.0 in stage <*>.0 (TID <*>) 
+Running task 33.0 in stage <*>.0 (TID <*>) 
+Running task 3.0 in stage <*>.0 (TID <*>) 
+Running task 12.0 in stage <*>.0 (TID <*>) 
+Running task 22.0 in stage <*>.0 (TID <*>) 
+Running task 4.0 in stage <*> (TID <*>) 
+Reading broadcast variable <*> took 4 ms 
+Running task 25.0 in stage <*>.0 (TID <*>) 
+Running task 31.0 in stage <*>.0 (TID <*>) 
+Running task 17.0 in stage <*>.0 (TID <*>) 
+Started <*> remote fetches in 2 ms 
+Running task 18.0 in stage <*>.0 (TID <*>) 
+Running task 13.0 in stage <*>.0 (TID <*>) 
+Running task 38.0 in stage <*>.0 (TID <*>) 
+Reading broadcast variable <*> took 6 ms 
+Running task 16.0 in stage <*>.0 (TID <*>) 
+Started <*> remote fetches in 1 ms 
+Running task 19.0 in stage <*>.0 (TID <*>) 
+Started <*> remote fetches in 0 ms 
+Running task 36.0 in stage <*>.0 (TID <*>) 
+Running task 20.0 in stage <*>.0 (TID <*>) 
+Reading broadcast variable <*> took 7 ms 
+Running task 29.0 in stage <*> (TID <*>) 
+Running task 24.0 in stage <*>.0 (TID <*>) 
+Running task 15.0 in stage <*>.0 (TID <*>) 
+Running task 2.0 in stage <*>.0 (TID <*>) 
+Running task 1.0 in stage <*> (TID <*>) 
+Running task 5.0 in stage <*>.0 (TID <*>) 
+Running task 0.0 in stage <*>.0 (TID <*>) 
+Running task 10.0 in stage <*>.0 (TID <*>) 
+Reading broadcast variable <*> took 5 ms 
+Running task 11.0 in stage <*>.0 (TID <*>) 
+Running task 8.0 in stage <*>.0 (TID <*>) 
+Getting <*> non-empty blocks out of <*> blocks 
+Running task 9.0 in stage <*>.0 (TID <*>) 
+Reading broadcast variable <*> took 8 ms 
+Getting <*> non-empty blocks out of 1920 blocks 
+Getting <*> non-empty blocks out of 960 blocks 
+Started 4 remote fetches in 0 ms 
+Getting 9<*> non-empty blocks out of 1890 blocks 
+Started 6 remote fetches in 1 ms 
+Getting <*> non-empty blocks out of 480 blocks 
+Started 4 remote fetches in 1 ms 
+Starting task <*> in stage <*> (TID <*>, mesos-<*>, partition <*>_LOCAL, <*> bytes) 
+File Output Committer Algorithm version is 1 
+Getting 93 non-empty blocks out of 1920 blocks 
+Getting 61 non-empty blocks out of 960 blocks 
+Getting 495 non-empty blocks out of 930 blocks 
+Getting 247 non-empty blocks out of 450 blocks 
+Finished task <*> in stage <*> (TID <*>) in <*> ms on mesos-<*> (<*>) 
+Removed broadcast_<*> on <*> in memory (size: <*> <*>, free: <*> <*>) 
+Added <*> in memory on <*> (size: <*> <*>, free: <*> <*>) 
+Added broadcast_<*> in memory on mesos-<*> (size: <*> <*>, free: 12.8 <*>) 
+Added broadcast_<*> in memory on mesos-<*> (size: <*> <*>, free: 10.2 <*>) 
+Added broadcast_<*> in memory on mesos-<*> (size: <*> <*>, free: 2.6 <*>) 
+Removed broadcast_<*> on <*> in memory (size: 4.0 <*>, free: <*> <*>) 
+Added broadcast_<*> in memory on <*> (size: 4.0 <*>, free: <*> <*>) 
+Times: total = <*>, boot = <*>, init = <*>, finish = <*> 
+Times: total = 45, boot = <*> init = <*>, finish = <*> 
+Times: total = 42, boot = <*>, init = <*>, finish = <*> 
+Times: total = 47, boot = <*>, init = <*>, finish = <*> 
+Times: total = 39, boot = <*>, init = <*>, finish = <*> 
+Added broadcast_<*> in memory on mesos-<*> (size: 4.0 <*>, free: 10.4 <*>) 
+Added broadcast_<*> in memory on mesos-<*> (size: 4.0 <*>, free: 10.5 <*>) 
+Added broadcast_<*> in memory on mesos-<*> (size: 4.0 <*>, free: 10.2 <*>) 
+Added broadcast_<*> in memory on mesos-<*> (size: 4.0 <*>, free: 11.2 <*>) 
+Added broadcast_<*> in memory on mesos-<*> (size: 4.0 <*>, free: 12.4 <*>) 
+Times: total = <*>, boot = 19, init = <*>, finish = <*> 
+Times: total = <*>, boot = 17, init = <*> finish = <*> 
+Added broadcast_<*> in memory on mesos-<*> (size: 4.0 <*>, free: 12.5 <*>) 
+Added broadcast_<*> in memory on mesos-<*> (size: 4.0 <*>, free: 12.2 <*>) 
+Added broadcast_<*> in memory on mesos-<*> (size: 4.0 <*>, free: 12.9 <*>) 
+Added broadcast_<*> in memory on <*> (size: 4.0 <*>, free: 13.1 <*>) 
+Added broadcast_<*> in memory on mesos-<*> (size: 4.0 <*>, free: 12.8 <*>) 
+Added broadcast_<*> in memory on mesos-<*> (size: 4.0 <*>, free: 13.6 <*>) 
+Added broadcast_<*> in memory on mesos-<*> (size: 4.0 <*>, free: 13.4 <*>) 
+Added broadcast_<*> in memory on mesos-<*> (size: 4.0 <*>, free: 13.5 <*>) 
+Added broadcast_<*> in memory on mesos-<*> (size: 4.0 <*>, free: 13.7 <*>) 
+Added broadcast_<*> in memory on mesos-<*> (size: 4.0 <*>, free: 14.1 <*>) 
+Added broadcast_<*> in memory on mesos-<*> (size: 4.0 <*>, free: 14.0 <*>) 
+Added broadcast_<*> in memory on mesos-<*> (size: 4.0 <*>, free: 13.9 <*>) 
+Times: total = 37, boot = <*>, init = <*>, finish = <*> 
+Times: total = <*>, boot = 6, init = <*>, finish = <*> 
+Times: total = 49, boot = <*>, init = <*>, finish = <*> 
+Times: total = <*>, boot = 25, init = <*>, finish = <*> 
+Times: total = <*>, boot = -18, init = <*>, finish = <*> 
+Times: total = <*>, boot = -<*>, init = 54, finish = <*> 
+Times: total = <*>, boot = <*> init = 72, finish = <*> 
+Times: total = 43, boot = <*>, init = <*>, finish = <*> 
+Times: total = <*>, boot = -4, init = <*>, finish = <*> 
+Times: total = <*>, boot = <*>, init = 48, finish = <*> 
+Times: total = <*>, boot = 18, init = <*>, finish = <*> 
+Times: total = <*>, boot = 22, init = <*>, finish = <*> 
+Times: total = <*>, boot = -2, init = <*> finish = <*> 
+Times: total = <*>, boot = -<*>, init = 79, finish = <*> 
+Times: total = <*>, boot = -<*>, init = 65, finish = <*> 
+Times: total = 53, boot = <*>, init = <*>, finish = <*> 
+Times: total = <*>, boot = -<*>, init = 73, finish = <*> 
+Times: total = <*>, boot = <*> init = 68, finish = <*> 
+Times: total = <*>, boot = <*> init = 55, finish = <*> 
+Times: total = <*>, boot = -<*>, init = 84, finish = <*> 
+Times: total = <*>, boot = <*>, init = 43, finish = <*> 
+Times: total = <*>, boot = -<*>, init = 83, finish = <*> 
+Times: total = <*>, boot = <*> init = 76, finish = <*> 
+Times: total = <*>, boot = -<*>, init = 60, finish = <*> 
+Times: total = 52, boot = <*>, init = <*>, finish = <*> 
+Times: total = <*>, boot = <*> init = 71, finish = <*> 
+Times: total = <*>, boot = <*>, init = 70, finish = <*> 
+Times: total = <*>, boot = <*> init = 59, finish = <*> 
+Times: total = <*>, boot = <*>, init = 1, finish = <*> 
+Times: total = 44, boot = <*>, init = <*>, finish = <*> 
+Times: total = <*>, boot = -<*>, init = 78, finish = <*> 
+Times: total = <*>, boot = <*> init = 61, finish = <*> 
+Times: total = 40, boot = <*>, init = <*>, finish = <*> 
+Times: total = <*>, boot = <*> init = 51, finish = <*> 
+Times: total = <*>, boot = -<*>, init = 57, finish = <*> 
+Times: total = <*>, boot = <*> init = 44, finish = <*> 
+Times: total = <*>, boot = -40, init = <*>, finish = <*> 
+Times: total = <*>, boot = -<*>, init = 50, finish = <*> 
+Times: total = <*>, boot = <*>, init = 62, finish = <*> 
+Times: total = 46, boot = <*>, init = <*> finish = <*> 
+Times: total = <*>, boot = -<*>, init = 81, finish = <*> 
+Times: total = 38, boot = <*>, init = <*>, finish = <*> 
+Times: total = <*>, boot = <*>, init = 49, finish = <*> 
+Times: total = <*>, boot = <*> init = 46, finish = <*> 
+Times: total = <*>, boot = -<*>, init = 63, finish = <*> 
+Times: total = <*>, boot = -<*>, init = 74, finish = <*> 
+Times: total = <*>, boot = <*> init = 52, finish = <*> 
+Times: total = <*>, boot = <*> init = 64, finish = <*> 
+Times: total = <*>, boot = <*> init = 80, finish = <*> 
+Times: total = <*>, boot = <*>, init = <*>, finish = 0 
+Times: total = <*>, boot = 5, init = <*>, finish = <*> 
+Times: total = <*>, boot = -1, init = <*>, finish = <*> 
+Times: total = <*>, boot = 4, init = <*>, finish = <*> 
+Times: total = <*>, boot = <*>, init = <*>, finish = 1 
+Times: total = <*>, boot = 1, init = <*>, finish = <*> 
+Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver 
+Times: total = <*> boot = <*> init = 21, finish = 0 
+Times: total = <*>, boot = 14, init = <*>, finish = 0 
+Times: total = <*>, boot = <*>, init = 9, finish = 0 
+Times: total = <*> boot = -29, init = <*> finish = 0 
+Times: total = <*>, boot = -32, init = <*>, finish = 0 
+Times: total = <*>, boot = -25, init = <*>, finish = 0 
+Times: total = <*> boot = -36, init = <*> finish = 0 
+Times: total = <*>, boot = -21, init = <*>, finish = 0 
+Times: total = <*>, boot = <*>, init = 16, finish = 0 
+Times: total = <*>, boot = <*>, init = 0, finish = 0 
+Times: total = <*>, boot = -26, init = <*>, finish = 0 
+Times: total = <*>, boot = -34, init = <*>, finish = 0 
+Times: total = <*> boot = <*> init = 18, finish = 0 
+Times: total = 47, boot = <*>, init = <*>, finish = 0 
+Times: total = <*> boot = -16, init = <*> finish = 0 
+Times: total = 48, boot = <*>, init = <*>, finish = 0 
+Times: total = <*>, boot = -30, init = <*>, finish = 0 
+Times: total = <*> boot = -23, init = <*> finish = 0 
+Times: total = <*>, boot = -31, init = <*>, finish = 0 
+Times: total = <*>, boot = -27, init = <*>, finish = 0 
+Times: total = <*> boot = 19, init = <*> finish = 0 
+Finished task 13.0 in stage <*>.0 (TID <*>). <*> bytes result sent to driver 
+Finished task 35.0 in stage <*>.0 (TID <*>). <*> bytes result sent to driver 
+Finished task 19.0 in stage <*>.0 (TID <*>). 2<*> bytes result sent to driver 
+Finished task 37.0 in stage <*>.0 (TID <*>). <*> bytes result sent to driver 
+Finished task 31.0 in stage <*>.0 (TID <*>). <*> bytes result sent to driver 
+Finished task 11.0 in stage <*>.0 (TID <*>). <*> bytes result sent to driver 
+Finished task 25.0 in stage <*>.0 (TID <*>). 2<*> bytes result sent to driver 
+Finished task 21.0 in stage <*>.0 (TID <*>). <*> bytes result sent to driver 
+Finished task 20.0 in stage <*>.0 (TID <*>). <*> bytes result sent to driver 
+Finished task <*>.0 in stage <*>.0 (TID <*>). 2364 bytes result sent to driver 
+Finished task 38.0 in stage <*>.0 (TID <*>). <*> bytes result sent to driver 
+Finished task 26.0 in stage <*>.0 (TID <*>). <*> bytes result sent to driver 
+Times: total = <*>, boot = <*>, init = 28, finish = 0 
+Times: total = 38, boot = <*>, init = <*>, finish = 1 
+Times: total = 43, boot = <*>, init = <*>, finish = 0 
+Times: total = <*>, boot = <*>, init = 41, finish = 0 
+Times: total = 42, boot = <*>, init = <*>, finish = 1 
+Times: total = <*>, boot = <*>, init = 1, finish = 0 
+Finished task 32.0 in stage <*>.0 (TID <*>). 2<*> bytes result sent to driver 
+Times: total = 42, boot = <*>, init = <*>, finish = 0 
+Times: total = 45, boot = <*> init = <*>, finish = 0 
+Finished task 18.0 in stage <*>.0 (TID <*>). 2<*> bytes result sent to driver 
+Times: total = 43, boot = <*>, init = <*>, finish = 1 
+Times: total = 40, boot = <*>, init = <*>, finish = 1 
+Times: total = 39, boot = <*>, init = <*>, finish = 1 
+Finished task 27.0 in stage <*>.0 (TID <*>). 2<*> bytes result sent to driver 
+Times: total = 41, boot = <*>, init = <*>, finish = 1 
+Times: total = 44, boot = <*>, init = <*>, finish = 0 
+Finished task 6.0 in stage <*>.0 (TID <*>). <*> bytes result sent to driver 
+Times: total = 40, boot = <*>, init = <*>, finish = 0 
+Times: total = 37, boot = <*>, init = <*>, finish = 0 
+Times: total = 39, boot = <*> init = <*> finish = 0 
+Finished task 7.0 in stage <*> (TID <*>). <*> bytes result sent to driver 
+Finished task 34.0 in stage <*>.0 (TID <*>). <*> bytes result sent to driver 
+Finished task 33.0 in stage <*>.0 (TID <*>). <*> bytes result sent to driver 
+Finished task 30.0 in stage <*>.0 (TID <*>). <*> bytes result sent to driver 
+Finished task 17.0 in stage <*>.0 (TID <*>). <*> bytes result sent to driver 
+Finished task 39.0 in stage <*>.0 (TID <*>). <*> bytes result sent to driver 
+Finished task 4.0 in stage <*>.0 (TID <*>). <*> bytes result sent to driver 
+Finished task 23.0 in stage <*>.0 (TID <*>). <*> bytes result sent to driver 
+Finished task 15.0 in stage <*>.0 (TID <*>). <*> bytes result sent to driver 
+Finished task 29.0 in stage <*>.0 (TID <*>). <*> bytes result sent to driver 
+Finished task 22.0 in stage <*>.0 (TID <*>). <*> bytes result sent to driver 
+Finished task <*>.0 in stage <*>.0 (TID <*>). 3378 bytes result sent to driver 
+Finished task 0.0 in stage <*>.0 (TID <*>). <*> bytes result sent to driver 
+Finished task 16.0 in stage <*>.0 (TID <*>). <*> bytes result sent to driver 
+Finished task 28.0 in stage <*>.0 (TID <*>). <*> bytes result sent to driver 
+Finished task <*>.0 in stage <*> (TID <*>). 1344 bytes result sent to driver 
+Finished task <*>.0 in stage <*>.0 (TID <*>). 2410 bytes result sent to driver 
+Finished task <*>.0 in stage <*>.0 (TID <*>). 1251 bytes result sent to driver 
+Finished task 8.0 in stage <*>.0 (TID <*>). <*> bytes result sent to driver 
+Finished task 12.0 in stage <*>.0 (TID <*>). <*> bytes result sent to driver 
+Finished task 36.0 in stage <*>.0 (TID <*>). <*> bytes result sent to driver 
+Finished task 24.0 in stage <*>.0 (TID <*>). <*> bytes result sent to driver 
+Finished task 14.0 in stage <*>.0 (TID <*>). <*> bytes result sent to driver 
+Finished task 9.0 in stage <*>.0 (TID <*>). <*> bytes result sent to driver 
+Finished task 10.0 in stage <*>.0 (TID <*>). <*> bytes result sent to driver 
+Times: total = 38, boot = <*>, init = <*>, finish = 0 
+Finished task 5.0 in stage <*>.0 (TID <*>). <*> bytes result sent to driver 
+Times: total = 41, boot = <*>, init = <*>, finish = 0 
+Finished task 3.0 in stage <*>.0 (TID <*>). <*> bytes result sent to driver 
+Finished task 1.0 in stage <*>.0 (TID <*>). <*> bytes result sent to driver 
+Finished task 2.0 in stage <*>.0 (TID <*>). <*> bytes result sent to driver 
+Block <*> stored as bytes in memory (estimated size <*> <*>, free <*> <*>) 
+Block broadcast_<*> stored as values in memory (estimated size <*> <*>, free <*> <*>) 
+Block <*> stored as bytes in memory (estimated size <*> <*>, free 2.6 <*>) 
+Block <*> stored as bytes in memory (estimated size <*> <*>, free 3.1 <*>) 
+Block <*> stored as bytes in memory (estimated size <*> <*>, free 2.0 <*>) 
+Block <*> stored as bytes in memory (estimated size <*> <*>, free 2.8 <*>) 
+Block <*> stored as bytes in memory (estimated size <*> <*>, free 6.7 <*>) 
+Block <*> stored as bytes in memory (estimated size <*> <*>, free 3.6 <*>) 
+Block <*> stored as bytes in memory (estimated size <*> <*>, free 3.2 <*>) 
+Block <*> stored as bytes in memory (estimated size <*> <*>, free 3.8 <*>) 
+Block <*> stored as bytes in memory (estimated size <*> <*>, free 2.9 <*>) 
+Block <*> stored as bytes in memory (estimated size <*> <*>, free 3.3 <*>) 
+Block <*> stored as bytes in memory (estimated size <*> <*>, free 3.9 <*>) 
+Block <*> stored as bytes in memory (estimated size <*> <*>, free 2.1 <*>) 
+Block <*> stored as bytes in memory (estimated size <*> <*>, free 4.0 <*>) 
+Block <*> stored as bytes in memory (estimated size <*> <*>, free 3.5 <*>) 
+Block <*> stored as bytes in memory (estimated size <*> <*>, free 2.5 <*>) 
+Block broadcast_<*> stored as values in memory (estimated size 78.1 <*>, free <*> <*>) 
+Finished task 0.0 in stage <*>.0 (TID <*>). 2667 bytes result sent to driver 
+Finished task 10.0 in stage <*>.0 (TID <*>). 2667 bytes result sent to driver 
+Block broadcast_<*>_piece0 stored as bytes in memory (estimated size 29.2 <*>, free <*> <*>) 
+Finished task 32.0 in stage <*>.0 (TID <*>). 2076 bytes result sent to driver 
+Finished task 6.0 in stage <*>.0 (TID <*>). 2667 bytes result sent to driver 
+Finished task 10.0 in stage <*>.0 (TID <*>). 2076 bytes result sent to driver 
+Finished task 4.0 in stage <*>.0 (TID <*>). 2364 bytes result sent to driver 
+Finished task 8.0 in stage <*>.0 (TID <*> 2667 bytes result sent to driver 
+Block broadcast_<*> stored as values in memory (estimated size 78.0 <*>, free <*> <*>) 
+Finished task 23.0 in stage <*>.0 (TID <*>). 2076 bytes result sent to driver 
+Finished task 20.0 in stage <*>.0 (TID <*>). 2364 bytes result sent to driver 
+Finished task 11.0 in stage <*>.0 (TID <*>). 2076 bytes result sent to driver 
+Finished task 13.0 in stage <*>.0 (TID <*>). 2667 bytes result sent to driver 
+Finished task 3.0 in stage <*>.0 (TID <*>). 2364 bytes result sent to driver 
+Finished task 3.0 in stage <*>.0 (TID <*>). 2076 bytes result sent to driver 
+Finished task 17.0 in stage <*>.0 (TID <*>). 2667 bytes result sent to driver 
+Finished task 15.0 in stage <*>.0 (TID <*>). 2667 bytes result sent to driver 
+Block broadcast_<*>_piece0 stored as bytes in memory (estimated size 6.3 <*>, free <*> <*>) 
+Finished task 21.0 in stage <*>.0 (TID <*>). 2076 bytes result sent to driver 
+Block broadcast_<*> stored as values in memory (estimated size 10.2 <*>, free <*> <*>) 
+Finished task 9.0 in stage <*>.0 (TID <*>). 2364 bytes result sent to driver 
+Finished task 30.0 in stage <*>.0 (TID <*>). 2667 bytes result sent to driver 
+Finished task 8.0 in stage <*>.0 (TID <*>). 2076 bytes result sent to driver 
+Block broadcast_<*>_piece0 stored as bytes in memory (estimated size 5.8 <*>, free <*> <*>) 
+Finished task 36.0 in stage <*>.0 (TID <*>). 2076 bytes result sent to driver 
+Finished task 1.0 in stage <*>.0 (TID <*>). 2076 bytes result sent to driver 
+Finished task 13.0 in stage <*>.0 (TID <*>). 2076 bytes result sent to driver 
+Finished task 27.0 in stage <*> (TID <*>). 2076 bytes result sent to driver 
+Block broadcast_<*>_piece0 stored as bytes in memory (estimated size 6.2 <*>, free <*> <*>) 
+Block broadcast_<*>_piece0 stored as bytes in memory (estimated size 29.1 <*>, free <*> <*>) 
+Finished task 5.0 in stage <*>.0 (TID <*>). 2667 bytes result sent to driver 
+Finished task 26.0 in stage <*>.0 (TID <*>). 2667 bytes result sent to driver 
+Finished task 16.0 in stage <*>.0 (TID <*>). 2667 bytes result sent to driver 
+Finished task 30.0 in stage <*>.0 (TID <*>). 2076 bytes result sent to driver 
+Finished task 22.0 in stage <*>.0 (TID <*>). 2667 bytes result sent to driver 
+Finished task 20.0 in stage <*>.0 (TID <*>). 2076 bytes result sent to driver 
+Finished task 35.0 in stage <*>.0 (TID <*>). 2076 bytes result sent to driver 
+Finished task 14.0 in stage <*>.0 (TID <*>). 2076 bytes result sent to driver 
+Finished task 14.0 in stage <*>.0 (TID <*>). 2667 bytes result sent to driver 
+Finished task 32.0 in stage <*>.0 (TID <*>). 2364 bytes result sent to driver 
+Finished task 18.0 in stage <*>.0 (TID <*>). 2076 bytes result sent to driver 
+Finished task 1.0 in stage <*>.0 (TID <*>). 2364 bytes result sent to driver 
+Finished task 17.0 in stage <*>.0 (TID <*>). 2364 bytes result sent to driver 
+Finished task 33.0 in stage <*>.0 (TID <*>). 2667 bytes result sent to driver 
+Finished task 37.0 in stage <*>.0 (TID <*>). 2076 bytes result sent to driver 
+Finished task 11.0 in stage <*>.0 (TID <*>). 2364 bytes result sent to driver 
+Finished task 36.0 in stage <*>.0 (TID <*>). 2364 bytes result sent to driver 
+Finished task 28.0 in stage <*>.0 (TID <*>). 2364 bytes result sent to driver 
+Block broadcast_<*> stored as values in memory (estimated size 10.1 <*>, free <*> <*>) 
+Finished task 39.0 in stage <*>.0 (TID <*>). 2364 bytes result sent to driver 
+Finished task 31.0 in stage <*>.0 (TID <*>). 2076 bytes result sent to driver 
+Finished task 39.0 in stage <*>.0 (TID <*>). 2076 bytes result sent to driver 
+Finished task 33.0 in stage <*>.0 (TID <*>). 2364 bytes result sent to driver 
+Finished task 19.0 in stage <*>.0 (TID <*>). 2667 bytes result sent to driver 
+Finished task 12.0 in stage <*>.0 (TID <*>). 2667 bytes result sent to driver 
+Block broadcast_<*> stored as values in memory (estimated size 10.4 <*>, free <*> <*>) 
+Finished task 18.0 in stage <*>.0 (TID <*>). 2667 bytes result sent to driver 
+Finished task 4.0 in stage <*>.0 (TID <*>). 2667 bytes result sent to driver 
+Finished task 16.0 in stage <*>.0 (TID <*>). 2364 bytes result sent to driver 
+Block broadcast_<*> stored as values in memory (estimated size 10.8 <*>, free <*> <*>) 
+Finished task 23.0 in stage <*>.0 (TID <*>). 2364 bytes result sent to driver 
+Finished task 36.0 in stage <*>.0 (TID <*>). 2667 bytes result sent to driver 
+Finished task 17.0 in stage <*>.0 (TID <*>). 2076 bytes result sent to driver 
+Finished task 7.0 in stage <*>.0 (TID <*>). 2364 bytes result sent to driver 
+Finished task 7.0 in stage <*>.0 (TID <*>). 2076 bytes result sent to driver 
+Block broadcast_<*> stored as values in memory (estimated size 10.3 <*>, free <*> <*>) 
+Finished task 2.0 in stage <*>.0 (TID <*>). 2364 bytes result sent to driver 
+Finished task 29.0 in stage <*>.0 (TID <*>). 2667 bytes result sent to driver 
+Finished task 11.0 in stage <*>.0 (TID <*>). 2667 bytes result sent to driver 
+Finished task 19.0 in stage <*>.0 (TID <*>). 2364 bytes result sent to driver 
+Finished task 1.0 in stage <*>.0 (TID <*>). 2667 bytes result sent to driver 
+Finished task 25.0 in stage <*>.0 (TID <*>). 2364 bytes result sent to driver 
+Finished task 32.0 in stage <*>.0 (TID <*>). 2667 bytes result sent to driver 
+Finished task 29.0 in stage <*>.0 (TID <*>). 2364 bytes result sent to driver 
+Finished task 6.0 in stage <*>.0 (TID <*>). 2364 bytes result sent to driver 
+Finished task 27.0 in stage <*>.0 (TID <*>). 2667 bytes result sent to driver 
+Finished task 34.0 in stage <*>.0 (TID <*>). 2667 bytes result sent to driver 
+Finished task 39.0 in stage <*>.0 (TID <*>). 2667 bytes result sent to driver 
+Finished task 37.0 in stage <*>.0 (TID <*>). 2364 bytes result sent to driver 
+Finished task 37.0 in stage <*>.0 (TID <*>). 2667 bytes result sent to driver 
+Finished task 9.0 in stage <*>.0 (TID <*>). 2667 bytes result sent to driver 
+Finished task 0.0 in stage <*>.0 (TID <*>). 2076 bytes result sent to driver 
+Finished task 9.0 in stage <*>.0 (TID <*>). 2076 bytes result sent to driver 
+Finished task 21.0 in stage <*>.0 (TID <*>). 2364 bytes result sent to driver 
+Finished task 12.0 in stage <*>.0 (TID <*>). 2364 bytes result sent to driver 
+Finished task 3.0 in stage <*>.0 (TID <*>). 2667 bytes result sent to driver 
+Block broadcast_<*>_piece0 stored as bytes in memory (estimated size 29.0 <*>, free <*> <*>) 
+Block broadcast_<*> stored as values in memory (estimated size 10.7 <*>, free <*> <*>) 
+Finished task 30.0 in stage <*>.0 (TID <*>). 2364 bytes result sent to driver 
+Finished task 22.0 in stage <*>.0 (TID <*>). 2076 bytes result sent to driver 
+Finished task 6.0 in stage <*>.0 (TID <*>). 2076 bytes result sent to driver 
+Finished task 13.0 in stage <*>.0 (TID <*>). 2364 bytes result sent to driver 
+Finished task 29.0 in stage <*>.0 (TID <*>). 2076 bytes result sent to driver 
+Block broadcast_<*>_piece0 stored as bytes in memory (estimated size 5.9 <*>, free <*> <*>) 
+Finished task 35.0 in stage <*>.0 (TID <*>). 2667 bytes result sent to driver 
+Finished task 24.0 in stage <*>.0 (TID <*>). 2076 bytes result sent to driver 
+Finished task 16.0 in stage <*>.0 (TID <*>). 2076 bytes result sent to driver 
+Block broadcast_<*> stored as values in memory (estimated size 10.5 <*>, free <*> <*>) 
+Block broadcast_<*>_piece0 stored as bytes in memory (estimated size 5.7 <*>, free <*> <*>) 
+Block broadcast_<*> stored as values in memory (estimated size 9.9 <*>, free <*> <*>) 
+Finished task 10.0 in stage <*>.0 (TID <*>). 2364 bytes result sent to driver 
+Finished task 26.0 in stage <*>.0 (TID <*>). 2364 bytes result sent to driver 
+Block broadcast_<*> stored as values in memory (estimated size 10.0 <*>, free <*> <*>) 
+Finished task 26.0 in stage <*>.0 (TID <*>). 2076 bytes result sent to driver 
+Finished task 8.0 in stage <*>.0 (TID <*>). 2364 bytes result sent to driver 
+Block broadcast_<*> stored as values in memory (estimated size 77.8 <*>, free <*> <*>) 
+Finished task 5.0 in stage <*>.0 (TID <*>). 2364 bytes result sent to driver 
+Finished task 0.0 in stage <*>.0 (TID <*>). 2364 bytes result sent to driver 
+Finished task 34.0 in stage <*>.0 (TID <*>). 2076 bytes result sent to driver 
+Finished task 23.0 in stage <*>.0 (TID <*>). 2667 bytes result sent to driver 
+Finished task 20.0 in stage <*>.0 (TID <*>). 2667 bytes result sent to driver 
+Finished task 33.0 in stage <*>.0 (TID <*>). 2076 bytes result sent to driver 
+Finished task 25.0 in stage <*>.0 (TID <*>). 2667 bytes result sent to driver 
+Block rdd_<*> stored as bytes in memory (estimated size 16.0 <*>, free <*> <*>) 
+Block <*> stored as bytes in memory (estimated size <*> <*>, free 3.0 <*>) 
+Block <*> stored as bytes in memory (estimated size <*> <*>, free 3.4 <*>) 
+Block <*> stored as bytes in memory (estimated size <*> <*>, free 3.7 <*>) 
+Block <*> stored as bytes in memory (estimated size <*> <*>, free 2.4 <*>) 
+Block <*> stored as bytes in memory (estimated size <*> <*>, free 2.7 <*>) 
+Block broadcast_<*>_piece0 stored as bytes in memory (estimated size 6.0 <*>, free <*> <*>) 
+Block broadcast_<*>_piece0 stored as bytes in memory (estimated size 6.1 <*>, free <*> <*>) 
+Finished task 24.0 in stage <*>.0 (TID <*>). 2667 bytes result sent to driver 
+Block broadcast_<*> stored as bytes in memory (estimated size 4.0 <*>, free <*> <*>) 
+Block <*> stored as bytes in memory (estimated size <*> <*>, free 2.3 <*>) 
+Block broadcast_<*>_piece0 stored as bytes in memory (estimated size 5.6 <*>, free <*> <*>) 
+Block broadcast_<*> stored as values in memory (estimated size 9.8 <*>, free <*> <*>) 
+Block broadcast_<*> stored as values in memory (estimated size 9.5 <*>, free <*> <*>) 
+Times: total = 38, boot = 18, init = 19, finish = 1 
+Times: total = 39, boot = 19, init = 19, finish = 1 
+Times: total = 40, boot = 16, init = 24, finish = 0 
+Times: total = 40, boot = 21, init = 19, finish = 0 
+Times: total = 37, boot = 16, init = 21, finish = 0 
+Times: total = 40, boot = 20, init = 20, finish = 0 
+Times: total = 37, boot = 18, init = 19, finish = 0 
+Times: total = 40, boot = 19, init = 21, finish = 0 
+Times: total = 40, boot = 18, init = 22, finish = 0 
+Times: total = 39, boot = 15, init = 24, finish = 0 
+Times: total = 38, boot = 18, init = 20, finish = 0 
+Times: total = 37, boot = 17, init = 20, finish = 0 
+Times: total = 40, boot = 17, init = 23, finish = 0 
+Times: total = 38, boot = 17, init = 21, finish = 0 
+Times: total = 38, boot = 14, init = 24, finish = 0 
+Times: total = 37, boot = 15, init = 22, finish = 0 
+Times: total = 38, boot = 19, init = 19, finish = 0 
+Times: total = 39, boot = 17, init = 22, finish = 0 
+Times: total = 40, boot = 13, init = 27, finish = 0 
+Times: total = 40, boot = -25, init = 65, finish = 0 
+Times: total = 38, boot = 13, init = 25, finish = 0 
+Times: total = 39, boot = 19, init = 20, finish = 0 
+Times: total = 39, boot = 14, init = 25, finish = 0 
+Times: total = 39, boot = 13, init = 26, finish = 0 
+Times: total = 38, boot = 15, init = 23, finish = 0 
+Times: total = 39, boot = 18, init = 21, finish = 0 
+Times: total = 40, boot = 14, init = 26, finish = 0 
+Times: total = 38, boot = 16, init = 22, finish = 0 
+Times: total = 39, boot = 20, init = 19, finish = 0 
+Times: total = 40, boot = 15, init = 25, finish = 0 
+Block broadcast_<*> stored as bytes in memory (estimated size 4.0 <*>, free 2.2 <*>) 
+Block broadcast_<*> stored as bytes in memory (estimated size 4.0 <*>, free 3.2 <*>) 
+Block broadcast_<*> stored as bytes in memory (estimated size 4.0 <*>, free 2.8 <*>) 
+Block broadcast_<*> stored as bytes in memory (estimated size 4.0 <*>, free 2.6 <*>) 
+Block broadcast_<*> stored as bytes in memory (estimated size 4.0 <*>, free 2.1 <*>) 
+Block broadcast_<*> stored as bytes in memory (estimated size 4.0 <*>, free 3.5 <*>) 
+Block broadcast_<*> stored as bytes in memory (estimated size 4.0 <*>, free 2.5 <*>) 
+Block broadcast_<*> stored as bytes in memory (estimated size 4.0 <*>, free 3.8 <*>) 
+Block broadcast_<*> stored as bytes in memory (estimated size 4.0 <*>, free 3.4 <*>) 
+Block broadcast_<*> stored as bytes in memory (estimated size 4.0 <*>, free 3.1 <*>) 
+Block broadcast_<*> stored as bytes in memory (estimated size 4.0 <*>, free 2.9 <*>) 
+Block broadcast_<*> stored as bytes in memory (estimated size 4.0 <*>, free 2.4 <*>) 
+Block <*> stored as bytes in memory (estimated size 4.0 <*>, free 3.7 <*>) 
+Block broadcast_<*> stored as bytes in memory (estimated size 4.0 <*>, free 3.6 <*>) 
+Block broadcast_<*> stored as bytes in memory (estimated size 4.0 <*>, free 4.0 <*>) 
+Block broadcast_<*> stored as bytes in memory (estimated size 4.0 <*>, free 3.9 <*>) 
