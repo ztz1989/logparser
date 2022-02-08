@@ -1,337 +1,305 @@
-9	Registered signal handlers for [TERM, HUP, INT]
-16	Created local directory at /opt/hdfs/nodemanager/usercache/yxsu/appcache/application_1440487435730_0039/blockmgr-a8c3de78-b2cb-440b-8362-af466d2a87db
-23	Remoting shut down.
-24	SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(yarn, curi); users with modify permissions: Set(yarn, curi)
-25	MemoryStore started with capacity 27.8 <*>
-26	Container request (host: Any, capability: <memory:43929, vCores:5>)
-27	<*> : 0
-37	Asked to send map output locations for shuffle 11 to mesos-slave-31:55220
-39	Asked to send map output locations for shuffle 13 to mesos-slave-04:46024
-40	Job 39 finished: saveAsTextFile at NativeMethodAccessorImpl.java:-2, took 1.058710 s
-48	Submitting 13 missing tasks from ResultStage 95 (PythonRDD[211] at reduce at IPLoM.py:527)
-49	Cleaned accumulator 100
-53	ShuffleMapStage 130 (aggregateByKey at IPLoM.py:636) finished in 0.094 s
-59	Final stage: ResultStage 174 (max at IPLoM.py:557)
-61	Job 124 finished: saveAsTextFile at null:-1, took 0.263604 s
-63	Submitting 13 missing tasks from ResultStage 230 (MapPartitionsRDD[439] at saveAsTextFile at null:-1)
-66	looking for newly runnable stages
-67	waiting: Set(ResultStage 268)
-122	Updating epoch to 5 and clearing cache
-126	Updating epoch to 51 and clearing cache
-139	<*> is deprecated. Instead, use <*>
-150	Updating epoch to 25 and clearing cache
-151	Updating epoch to 14 and clearing cache
-158	Waiting for spark context initialization ...
-159	Opening proxy : mesos-slave-24:42109
-160	<*> : 0
-164	Submitting 13 missing tasks from ResultStage 35 (PythonRDD[71] at reduce at IPLoM.py:527)
-165	Asked to send map output locations for shuffle 8 to mesos-master-1:48508
-171	Cleaned accumulator 64
-176	Asked to send map output locations for shuffle 23 to mesos-slave-25:34899
-194	Asked to send map output locations for shuffle 47 to mesos-slave-27:36025
-197	Cleaned accumulator 75
-210	Slf4jLogger started
-237	Updating epoch to 5 and clearing cache
-261	An unknown (mesos-slave-15:39810) driver disconnected.
-269	SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(yarn, curi); users with modify permissions: Set(yarn, curi)
-361	Parents of final stage: List()
-441	Trying to register BlockManager
-474	Exception in task 5.0 in stage 55.0 (TID 2348)
-482	SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(yarn, curi); users with modify permissions: Set(yarn, curi)
-524	Deleting directory /opt/hdfs/nodemanager/usercache/curi/appcache/application_1460011102909_0176/spark-53628961-0f14-47cf-b5bf-238980b94b86
-526	SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(yarn, curi); users with modify permissions: Set(yarn, curi)
-527	Container request (host: Any, capability: <memory:28160, vCores:5>)
-528	Prepared Local resources Map(__spark__.jar -> resource { scheme: "hdfs" host: "<*>" port: 9000 file: "/user/curi/.sparkStaging/application_1472621869829_0087/<*>" } size: 109525492 timestamp: 1473379449778 type: FILE visibility: PRIVATE, pyspark.zip -> resource { scheme: "hdfs" host: "<*>" port: 9000 file: "/user/curi/.sparkStaging/application_1472621869829_0087/pyspark.zip" } size: 355358 timestamp: 1473379449864 type: FILE visibility: PRIVATE, <*> -> resource { scheme: "hdfs" host: "<*>" port: 9000 file: "/user/curi/.sparkStaging/application_1472621869829_0087/<*>" } size: 44846 timestamp: 1473379449884 type: FILE visibility: PRIVATE)
-529	Remoting started; listening on addresses :[akka.tcp://sparkExecutorActorSystem@mesos-slave-32:46511]
-530	MemoryStore cleared
-698	Don't have map outputs for shuffle 47, fetching them
-713	Changing modify acls to: yarn,curi
-1426	Don't have map outputs for shuffle 68, fetching them
-1502	Don't have map outputs for shuffle 110, fetching them
-2054	mesos-slave-26/<*>:36199
-2055	mesos-slave-26/<*>:36199
-2931	Don't have map outputs for shuffle 86, fetching them
-3040	Don't have map outputs for shuffle 69, fetching them
-3106	Don't have map outputs for shuffle 82, fetching them
-3657	Received new token for : mesos-slave-28:39598
-3658	Trying to register BlockManager
-3659	Slf4jLogger started
-3660	Received new token for : mesos-master-1:35426
-3661	Prepared Local resources Map(__spark__.jar -> resource { scheme: "hdfs" host: "<*>" port: 9000 file: "/user/curi/.sparkStaging/application_1485248649253_0006/<*>" } size: 109525492 timestamp: 1486643918050 type: FILE visibility: PRIVATE, pyspark.zip -> resource { scheme: "hdfs" host: "<*>" port: 9000 file: "/user/curi/.sparkStaging/application_1485248649253_0006/pyspark.zip" } size: 355358 timestamp: 1486643918149 type: FILE visibility: PRIVATE, <*> -> resource { scheme: "hdfs" host: "<*>" port: 9000 file: "/user/curi/.sparkStaging/application_1485248649253_0006/<*>" } size: 44846 timestamp: 1486643918168 type: FILE visibility: PRIVATE)
-3663	Deleting directory /opt/hdfs/nodemanager/usercache/curi/appcache/application_1485248649253_0008/spark-4505a62e-f17b-42b0-b08f-ed1626a3c6be/pyspark-adbd793f-81fe-42b3-809c-7ad6529fb1d1
-3665	SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(yarn, curi); users with modify permissions: Set(yarn, curi)
-3667	MemoryStore cleared
-3668	stopped <*>{/jobs/job,null}
-3669	SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(yarn, curi); users with modify permissions: Set(yarn, curi)
-3670	Registering the ApplicationMaster
-3671	stopped <*>{/stages/stage/kill,null}
-3672	Final app status: FAILED, exitCode: 1, (reason: User application exited with status 1)
-3674	SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(yarn, curi); users with modify permissions: Set(yarn, curi)
-3675	MemoryStore cleared
-3676	Remoting started; listening on addresses :[akka.tcp://sparkDriverActorSystem@<*>:35958]
-3677	Received new token for : mesos-slave-10:60295
-3680	Deleting directory /opt/hdfs/nodemanager/usercache/curi/appcache/application_1485248649253_0022/spark-6ba87537-863b-4baa-920e-6b0771a32d94
-3681	Invoking stop() from shutdown hook
-3682	Changing view acls to: yarn,curi
-3683	Preparing Local resources
-3684	Remoting started; listening on addresses :[akka.tcp://sparkExecutorActorSystem@mesos-slave-13:44559]
-3685	Trying to register BlockManager
-3686	Container request (host: Any, capability: <memory:22528, vCores:8>)
-3687	Launching ExecutorRunnable. driverUrl: spark://CoarseGrainedScheduler@<*>:56012,  executorHostname: mesos-master-3
-3688	Final stage: ResultStage 0 (collect at pnmf4.py:252)
-3689	Opening proxy : mesos-slave-06:34105
-3708	SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(yarn, curi); users with modify permissions: Set(yarn, curi)
-3710	Executor killed task 9.3 in stage 1.0 (TID 62)
-3839	BlockManager stopped
-3851	Changing view acls to: yarn,curi
-3930	<*> : 0
-3943	Executor lost: 15 (epoch 10)
-3945	Remoting started; listening on addresses :[akka.tcp://sparkExecutorActorSystem@mesos-slave-26:38632]
-3962	RECEIVED SIGNAL 15: SIGTERM
-4002	OutputCommitCoordinator stopped!
-4092	Changing view acls to: yarn,curi
-4160	Created local directory at /opt/hdfs/nodemanager/usercache/curi/appcache/application_1485248649253_0036/blockmgr-1b0fb2a9-3d69-42a4-846c-307a9c6ae8b0
-4167	Trying to register BlockManager
-4213	Connecting to ResourceManager at mesos-master-1/<*>:8030
-4281	mesos-master-1/<*>:60970
-4334	Executor killed task 32.2 in stage 1.0 (TID 94)
-4401	Driver <*>:51015 disassociated! Shutting down.
-4448	Lost executor 17 on mesos-slave-23: Container killed by YARN for exceeding memory limits. 51.9 <*> of 46.2 <*> virtual memory used. Consider boosting <*>.
-4449	Container request (host: Any, capability: <memory:22528, vCores:8>)
-4475	Remoting started; listening on addresses :[akka.tcp://sparkExecutorActorSystem@mesos-slave-22:59789]
-4675	Container request (host: Any, capability: <memory:22528, vCores:8>)
-4711	Disabling executor 10.
-4827	SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(yarn, curi); users with modify permissions: Set(yarn, curi)
-4831	Remoting started; listening on addresses :[akka.tcp://sparkDriverActorSystem@<*>:49150]
-4850	Completed container container_1485248649253_0043_02_000004 on host: mesos-slave-22 (state: COMPLETE, exit status: -103)
-4866	Asked to remove non-existent executor 13
-4977	mesos-slave-18/<*>:43227
-5002	Trying to register BlockManager
-5003	Retrying fetch (1/3) for 1 outstanding blocks after 5000 ms
-5014	Retrying fetch (3/3) for 1 outstanding blocks after 5000 ms
-5080	MemoryStore started with capacity 14.2 <*>
-5082	Trying to register BlockManager
-5227	MemoryStore started with capacity 36.4 <*>
-5261	Prepared Local resources Map(__spark__.jar -> resource { scheme: "hdfs" host: "<*>" port: 9000 file: "/user/curi/.sparkStaging/application_1485248649253_0047/<*>" } size: 109525492 timestamp: 1490684938527 type: FILE visibility: PRIVATE, pyspark.zip -> resource { scheme: "hdfs" host: "<*>" port: 9000 file: "/user/curi/.sparkStaging/application_1485248649253_0047/pyspark.zip" } size: 355358 timestamp: 1490684938615 type: FILE visibility: PRIVATE, <*> -> resource { scheme: "hdfs" host: "<*>" port: 9000 file: "/user/curi/.sparkStaging/application_1485248649253_0047/<*>" } size: 44846 timestamp: 1490684938635 type: FILE visibility: PRIVATE)
-5282	RECEIVED SIGNAL 15: SIGTERM
-5295	Changing view acls to: yarn,curi
-5306	Received new token for : mesos-slave-21:57813
-5344	Container request (host: Any, capability: <memory:22528, vCores:8>)
-5347	Received new token for : mesos-slave-15:33449
-5348	Launching ExecutorRunnable. driverUrl: spark://CoarseGrainedScheduler@<*>:60510,  executorHostname: mesos-master-3
-5391	Shutdown hook called
-5392	Successfully registered with driver
-5393	Registered BlockManager
-5409	Lost executor 1 on mesos-master-1: Container killed by YARN for exceeding memory limits. 23.2 <*> of 22 <*> physical memory used. Consider boosting <*>.
-5410	SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(yarn, curi); users with modify permissions: Set(yarn, curi)
-5413	u'/opt/hdfs/nodemanager/usercache/curi/appcache/application_1485248649253_0048/spark-d55aa89d-f0a9-4d8e-aa99-e18193a27e9b/broadcast3783188923461383085'
-5414	Executor killed task 3.2 in stage 2.0 (TID 93)
-5418	Connecting to driver: spark://CoarseGrainedScheduler@<*>:47767
-5451	Trying to register BlockManager
-5494	Received 1 containers from YARN, launching executors on 1 of them.
-5576	Failed to connect to driver at <*>:49939, retrying ...
-5577	Received new token for : mesos-slave-25:40086
-5602	Registered BlockManager
-5604	Retrying fetch (2/3) for 1 outstanding blocks after 5000 ms
-5617	Shutdown hook called
-5618	Successfully registered with driver
-5646	An unknown (mesos-slave-06:46130) driver disconnected.
-5651	ApplicationMaster registered as NettyRpcEndpointRef(spark://YarnAM@<*>:43877)
-5943	mesos-slave-08/<*>:39867
-5960	mesos-slave-21/<*>:48020
-5968	mesos-slave-14/<*>:39634
-5978	Retrying fetch (3/3) for 2 outstanding blocks after 5000 ms
-5995	ShuffleMapStage 9 is now unavailable on executor 12 (62/80, false)
-5996	mesos-slave-13/<*>:53313
-6007	Retrying fetch (1/3) for 2 outstanding blocks after 5000 ms
-6009	Updating epoch to 51 and clearing cache
-6018	failed: Set()
-6019	Asked to send map output locations for shuffle 2 to mesos-slave-25:38746
-6022	looking for newly runnable stages
-6035	Retrying fetch (2/3) for 2 outstanding blocks after 5000 ms
-6037	mesos-slave-20/<*>:33821
-6056	Asked to send map output locations for shuffle 6 to mesos-slave-21:45292
-6119	ShuffleMapStage 11 is now unavailable on executor 12 (244/260, false)
-6120	looking for newly runnable stages
-6284	Waiting for spark context initialization
-6362	Stage 1 contains a task of very large size (19227 <*>). The maximum recommended task size is 100 <*>.
-6533	Slf4jLogger started
-6559	Changing view acls to: yarn,curi
-6566	Will request 4 executor containers, each with 1 cores and 22528 <*> memory including 2048 <*> overhead
-6612	<*>: Exception while starting container container_1485248649253_0072_02_000011 on host mesos-slave-16
-6619	OutputCommitCoordinator stopped!
-6650	Missing parents: List()
-6737	Lost executor 6 on mesos-slave-08: Executor heartbeat timed out after 120190 ms
-6762	Completed container container_1485248649253_0074_02_000008 on host: mesos-slave-27 (state: COMPLETE, exit status: 1)
-6763	Opening proxy : mesos-slave-20:49854
-6783	Changing view acls to: yarn,curi
-6805	Will request 1 executor containers, each with 1 cores and 22528 <*> memory including 2048 <*> overhead
-6809	Setting up ContainerLaunchContext
-6822	Registered executor NettyRpcEndpointRef(null) (mesos-slave-19:51350) with ID 4
-6838	stopped <*>{/jobs/json,null}
-6839	Message RemoteProcessDisconnected(mesos-slave-11:52330) dropped.
-6899	Setting up ContainerLaunchContext
-6901	Driver <*>:38337 disassociated! Shutting down.
-6902	Changing modify acls to: yarn,curi
-6903	Changing view acls to: yarn,curi
-6904	Changing modify acls to: yarn,curi
-6905	Slf4jLogger started
-6906	Received new token for : mesos-slave-18:56143
-6907	Setting up ContainerLaunchContext
-6908	Changing modify acls to: yarn,curi
-7102	BlockManager stopped
-7134	MemoryStore cleared
-7222	MemoryStore cleared
-7275	Changing view acls to: yarn,curi
-7276	Preparing Local resources
-7333	Changing modify acls to: yarn,curi
-7334	Changing modify acls to: yarn,curi
-7335	Slf4jLogger started
-7336	Registered signal handlers for [TERM, HUP, INT]
-7379	BlockManager stopped
-7432	Opening proxy : mesos-slave-27:49350
-7433	Shutdown hook called
-7526	Shutdown hook called
-7596	Registered signal handlers for [TERM, HUP, INT]
-7597	Preparing Local resources
-7598	<*> : 0
-7683	Successfully registered with driver
-7861	Driver commanded a shutdown
-7890	Shutdown hook called
-7914	Shutdown hook called
-7947	Container request (host: Any, capability: <memory:28160, vCores:5>)
-7948	Preparing Local resources
-7949	Preparing Local resources
-7987	Changing view acls to: yarn,curi
-8036	Trying to register BlockManager
-8134	Launching ExecutorRunnable. driverUrl: spark://CoarseGrainedScheduler@<*>:56823,  executorHostname: mesos-slave-10
-8135	<*> : 0
-8167	MemoryStore started with capacity 17.7 <*>
-8239	MemoryStore started with capacity 17.7 <*>
-8329	<*> : 0
-8408	MemoryStore started with capacity 17.7 <*>
-8409	MemoryStore cleared
-8534	MemoryStore cleared
-8772	<*> : 0
-8773	MemoryStore cleared
-8774	Registered BlockManager
-9047	Registered signal handlers for [TERM, HUP, INT]
-9048	Changing modify acls to: yarn,curi
-9114	Trying to register BlockManager
-9329	Registered BlockManager
-9330	Registered signal handlers for [TERM, HUP, INT]
-9331	Driver commanded a shutdown
-9332	Created local directory at /opt/hdfs/nodemanager/usercache/curi/appcache/application_1485248649253_0100/blockmgr-4ba4423c-a043-46a7-a221-180972386be1
-9474	Changing modify acls to: yarn,curi
-9475	SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(yarn, curi); users with modify permissions: Set(yarn, curi)
-9476	Prepared Local resources Map(__spark__.jar -> resource { scheme: "hdfs" host: "<*>" port: 9000 file: "/user/curi/.sparkStaging/application_1485248649253_0101/<*>" } size: 109525492 timestamp: 1496823392848 type: FILE visibility: PRIVATE, pyspark.zip -> resource { scheme: "hdfs" host: "<*>" port: 9000 file: "/user/curi/.sparkStaging/application_1485248649253_0101/pyspark.zip" } size: 355358 timestamp: 1496823392907 type: FILE visibility: PRIVATE, <*> -> resource { scheme: "hdfs" host: "<*>" port: 9000 file: "/user/curi/.sparkStaging/application_1485248649253_0101/<*>" } size: 44846 timestamp: 1496823392931 type: FILE visibility: PRIVATE)
-9581	BlockManager stopped
-9656	Driver <*>:42597 disassociated! Shutting down.
-9856	Registered signal handlers for [TERM, HUP, INT]
-10102	MemoryStore cleared
-10103	Changing view acls to: yarn,curi
-10104	Driver <*>:33846 disassociated! Shutting down.
-10105	MemoryStore started with capacity 17.7 <*>
-10342	Driver <*>:33846 disassociated! Shutting down.
-11409	Successfully registered with driver
-11410	Slf4jLogger started
-11411	Prepared Local resources Map(__spark__.jar -> resource { scheme: "hdfs" host: "<*>" port: 9000 file: "/user/curi/.sparkStaging/application_1485248649253_0111/<*>" } size: 109525492 timestamp: 1496889236748 type: FILE visibility: PRIVATE, pyspark.zip -> resource { scheme: "hdfs" host: "<*>" port: 9000 file: "/user/curi/.sparkStaging/application_1485248649253_0111/pyspark.zip" } size: 355358 timestamp: 1496889236849 type: FILE visibility: PRIVATE, <*> -> resource { scheme: "hdfs" host: "<*>" port: 9000 file: "/user/curi/.sparkStaging/application_1485248649253_0111/<*>" } size: 44846 timestamp: 1496889236878 type: FILE visibility: PRIVATE)
-12207	Registered BlockManager
-12208	Created local directory at /opt/hdfs/nodemanager/usercache/curi/appcache/application_1485248649253_0113/blockmgr-cccc867b-9497-4481-877e-8a38b1c6a297
-13051	Created local directory at /opt/hdfs/nodemanager/usercache/curi/appcache/application_1485248649253_0117/blockmgr-70dbc7ee-7c9f-4c28-95ba-f2f828294885
-13150	Successfully registered with driver
-13224	Created local directory at /opt/hdfs/nodemanager/usercache/curi/appcache/application_1485248649253_0118/blockmgr-58a3c69c-0c62-40ea-ad8e-807109266b0e
-13225	Changing view acls to: yarn,curi
-13343	Setting up ContainerLaunchContext
-15321	Container request (host: Any, capability: <memory:28160, vCores:5>)
-15376	Prepared Local resources Map(__spark__.jar -> resource { scheme: "hdfs" host: "<*>" port: 9000 file: "/user/curi/.sparkStaging/application_1485248649253_0123/<*>" } size: 109525492 timestamp: 1496903353761 type: FILE visibility: PRIVATE, pyspark.zip -> resource { scheme: "hdfs" host: "<*>" port: 9000 file: "/user/curi/.sparkStaging/application_1485248649253_0123/pyspark.zip" } size: 355358 timestamp: 1496903353826 type: FILE visibility: PRIVATE, <*> -> resource { scheme: "hdfs" host: "<*>" port: 9000 file: "/user/curi/.sparkStaging/application_1485248649253_0123/<*>" } size: 44846 timestamp: 1496903353846 type: FILE visibility: PRIVATE)
-15405	Slf4jLogger started
-15406	MemoryStore cleared
-15428	Setting up ContainerLaunchContext
-16216	An unknown (mesos-master-1:58825) driver disconnected.
-16487	Connecting to driver: spark://CoarseGrainedScheduler@<*>:51096
-16572	<*>
-16573	SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(yarn, curi); users with modify permissions: Set(yarn, curi)
-16972	Registered BlockManager
-16973	Changing modify acls to: yarn,curi
-16974	BlockManager stopped
-18920	Prepared Local resources Map(__spark__.jar -> resource { scheme: "hdfs" host: "<*>" port: 9000 file: "/user/curi/.sparkStaging/application_1485248649253_0131/<*>" } size: 109525492 timestamp: 1496913711383 type: FILE visibility: PRIVATE, pyspark.zip -> resource { scheme: "hdfs" host: "<*>" port: 9000 file: "/user/curi/.sparkStaging/application_1485248649253_0131/pyspark.zip" } size: 355358 timestamp: 1496913711441 type: FILE visibility: PRIVATE, <*> -> resource { scheme: "hdfs" host: "<*>" port: 9000 file: "/user/curi/.sparkStaging/application_1485248649253_0131/<*>" } size: 44846 timestamp: 1496913711459 type: FILE visibility: PRIVATE)
-20388	Container request (host: Any, capability: <memory:28160, vCores:5>)
-20389	SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(yarn, curi); users with modify permissions: Set(yarn, curi)
-23332	Registered signal handlers for [TERM, HUP, INT]
-29186	Launching ExecutorRunnable. driverUrl: spark://CoarseGrainedScheduler@<*>:48636,  executorHostname: mesos-slave-21
-29439	Container request (host: Any, capability: <memory:28160, vCores:5>)
-32172	SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(yarn, curi); users with modify permissions: Set(yarn, curi)
-32173	Connecting to driver: spark://CoarseGrainedScheduler@<*>:57251
-32600	Changing view acls to: yarn,curi
-37771	Connecting to driver: spark://CoarseGrainedScheduler@<*>:59027
-40401	Remoting started; listening on addresses :[akka.tcp://sparkExecutorActorSystem@mesos-slave-08:36607]
-45493	SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(yarn, curi); users with modify permissions: Set(yarn, curi)
-45520	Prepared Local resources Map(__spark__.jar -> resource { scheme: "hdfs" host: "<*>" port: 9000 file: "/user/curi/.sparkStaging/application_1485248649253_0144/<*>" } size: 109525492 timestamp: 1497001131801 type: FILE visibility: PRIVATE, pyspark.zip -> resource { scheme: "hdfs" host: "<*>" port: 9000 file: "/user/curi/.sparkStaging/application_1485248649253_0144/pyspark.zip" } size: 355358 timestamp: 1497001131882 type: FILE visibility: PRIVATE, <*> -> resource { scheme: "hdfs" host: "<*>" port: 9000 file: "/user/curi/.sparkStaging/application_1485248649253_0144/<*>" } size: 44846 timestamp: 1497001131900 type: FILE visibility: PRIVATE)
-45529	<*> is deprecated. Instead, use <*>
-46671	Changing view acls to: yarn,curi
-47826	Changing modify acls to: yarn,curi
-48431	<*> is deprecated. Instead, use <*>
-49003	MemoryStore started with capacity 17.7 <*>
-49036	<*> is deprecated. Instead, use <*>
-49302	Prepared Local resources Map(__spark__.jar -> resource { scheme: "hdfs" host: "<*>" port: 9000 file: "/user/curi/.sparkStaging/application_1485248649253_0146/<*>" } size: 109525492 timestamp: 1497006958091 type: FILE visibility: PRIVATE, pyspark.zip -> resource { scheme: "hdfs" host: "<*>" port: 9000 file: "/user/curi/.sparkStaging/application_1485248649253_0146/pyspark.zip" } size: 355358 timestamp: 1497006958153 type: FILE visibility: PRIVATE, <*> -> resource { scheme: "hdfs" host: "<*>" port: 9000 file: "/user/curi/.sparkStaging/application_1485248649253_0146/<*>" } size: 44846 timestamp: 1497006958171 type: FILE visibility: PRIVATE)
-49303	Setting up ContainerLaunchContext
-50476	MemoryStore started with capacity 17.7 <*>
-51651	Changing view acls to: yarn,curi
-55162	<*> : 0
-55222	BlockManager stopped
-55223	Received new token for : mesos-slave-25:40086
-55224	Launching ExecutorRunnable. driverUrl: spark://CoarseGrainedScheduler@<*>:40278,  executorHostname: mesos-slave-17
-55299	Opening proxy : mesos-slave-20:49854
-55300	Received new token for : mesos-slave-10:60295
-55301	Opening proxy : mesos-master-1:35426
-55377	Registered BlockManager
-55378	BlockManager stopped
-55444	Opening proxy : mesos-slave-10:60295
-55459	MemoryStore cleared
-55515	<*> : 0
-55582	Driver <*>:39563 disassociated! Shutting down.
-55600	Preparing Local resources
-55623	SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(yarn, curi); users with modify permissions: Set(yarn, curi)
-55749	Changing view acls to: yarn,curi
-55750	Successfully registered with driver
-55827	BlockManager stopped
-55828	An unknown (mesos-master-1:34836) driver disconnected.
-55829	Received new token for : mesos-slave-16:43341
-56000	Opening proxy : mesos-slave-07:39967
-56035	Driver <*>:35430 disassociated! Shutting down.
-56036	SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(yarn, curi); users with modify permissions: Set(yarn, curi)
-56081	Received new token for : mesos-slave-14:39461
-56082	Driver commanded a shutdown
-56239	Registered BlockManager
-56591	An unknown (mesos-master-1:45896) driver disconnected.
-56624	Connecting to driver: spark://CoarseGrainedScheduler@<*>:35128
-56685	Driver <*>:35128 disassociated! Shutting down.
-56686	Created local directory at /opt/hdfs/nodemanager/usercache/curi/appcache/application_1485248649253_0168/blockmgr-9b57ec3e-4b1f-4422-b35d-f3905a4206a6
-56687	Connecting to driver: spark://CoarseGrainedScheduler@<*>:35128
-56779	MemoryStore cleared
-56780	Driver commanded a shutdown
-56860	<*> : 0
-56861	Changing modify acls to: yarn,curi
-56959	Launching ExecutorRunnable. driverUrl: spark://CoarseGrainedScheduler@<*>:45410,  executorHostname: mesos-slave-11
-56960	Changing view acls to: yarn,curi
-56962	Remoting started; listening on addresses :[akka.tcp://sparkExecutorActorSystem@mesos-slave-14:41470]
-56963	Registered signal handlers for [TERM, HUP, INT]
-56964	Shutdown hook called
-56966	Container request (host: Any, capability: <memory:28160, vCores:5>)
-56968	MemoryStore started with capacity 17.7 <*>
-56970	Received new token for : mesos-slave-17:46510
-56973	Trying to register BlockManager
-56974	Exception in task 13.0 in stage 0.0 (TID 7)
-56975	SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(yarn, curi); users with modify permissions: Set(yarn, curi)
-56976	<*> : 0
-56977	Prepared Local resources Map(__spark__.jar -> resource { scheme: "hdfs" host: "<*>" port: 9000 file: "/user/curi/.sparkStaging/application_1485248649253_0183/<*>" } size: 109525492 timestamp: 1501160869307 type: FILE visibility: PRIVATE, pyspark.zip -> resource { scheme: "hdfs" host: "<*>" port: 9000 file: "/user/curi/.sparkStaging/application_1485248649253_0183/pyspark.zip" } size: 355358 timestamp: 1501160869365 type: FILE visibility: PRIVATE, <*> -> resource { scheme: "hdfs" host: "<*>" port: 9000 file: "/user/curi/.sparkStaging/application_1485248649253_0183/<*>" } size: 44846 timestamp: 1501160869386 type: FILE visibility: PRIVATE)
-56979	Trying to register BlockManager
-56980	Changing modify acls to: yarn,curi
-57020	Excluding datanode DatanodeInfoWithStorage[<*>:50010,DS-8de4ae37-fac2-404a-a8e3-dcecd440f907,DISK]
-57047	Opening proxy : mesos-slave-17:46510
-57048	<*> is deprecated. Instead, use <*>
-57050	SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(yarn, curi); users with modify permissions: Set(yarn, curi)
-57115	Preparing Local resources
-57164	Submitting 13 missing tasks from ResultStage 118 (PythonRDD[268] at max at IPLoM.py:556)
-57207	Shutdown hook called
+30	<*> : 0
+39	ResultStage 53 (count at IPLoM.py:520) finished in 15.828 s
+50	Parents of final stage: List()
+75	Don't have map outputs for shuffle 41, fetching them
+87	SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(yarn, curi); users with modify permissions: Set(yarn, curi)
+111	Updating epoch to 8 and clearing cache
+135	Updating epoch to 56 and clearing cache
+167	Submitting 13 missing tasks from ResultStage 71 (PythonRDD[152] at count at IPLoM.py:161)
+170	running: Set()
+180	Parents of final stage: List(ShuffleMapStage 175)
+185	Submitting 13 missing tasks from ResultStage 225 (PythonRDD[431] at collect at IPLoM.py:673)
+197	Missing parents: List(ShuffleMapStage 267)
+204	Successfully registered with driver
+225	Updating epoch to 31 and clearing cache
+245	<*> is deprecated. Instead, use <*>
+246	Updating epoch to 33 and clearing cache
+248	Registered signal handlers for [TERM, HUP, INT]
+263	Updating epoch to 42 and clearing cache
+291	Don't have map outputs for shuffle 37, fetching them
+307	Stage 5 contains a task of very large size (1807 <*>). The maximum recommended task size is 100 <*>.
+314	Final stage: ResultStage 12 (collect at pnmf.py:279)
+353	Submitting ResultStage 38 (PythonRDD[78] at collect at pnmf.py:279), which has no missing parents
+426	Shutting down all executors
+459	SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(yarn, curi); users with modify permissions: Set(yarn, curi)
+464	Executor killed task 23.0 in stage 108.0 (TID 4707)
+512	Exception in task 29.0 in stage 46.0 (TID 1986)
+564	Registered BlockManager
+566	Container request (host: Any, capability: <memory:28160, vCores:5>)
+568	Received new token for : mesos-slave-29:38147
+569	Launching ExecutorRunnable. driverUrl: spark://CoarseGrainedScheduler@<*>:47277,  executorHostname: mesos-slave-27
+570	Received 33 containers from YARN, launching executors on 33 of them.
+856	Updating epoch to 50 and clearing cache
+1096	Don't have map outputs for shuffle 57, fetching them
+1186	Updating epoch to 25 and clearing cache
+1614	Don't have map outputs for shuffle 57, fetching them
+1643	Don't have map outputs for shuffle 94, fetching them
+1797	Don't have map outputs for shuffle 75, fetching them
+2069	Successfully registered with driver
+2070	Don't have map outputs for shuffle 102, fetching them
+2295	Registered signal handlers for [TERM, HUP, INT]
+2774	Don't have map outputs for shuffle 33, fetching them
+2812	Updating epoch to 87 and clearing cache
+2845	Error sending message [message = UpdateBlockInfo(BlockManagerId(4, mesos-slave-13, 40185),broadcast_114_piece0,StorageLevel(false, false, false, false, 1),0,0,0)] in 1 attempts
+2982	Don't have map outputs for shuffle 64, fetching them
+3035	Don't have map outputs for shuffle 72, fetching them
+3061	Updating epoch to 122 and clearing cache
+3257	Don't have map outputs for shuffle 51, fetching them
+3605	Don't have map outputs for shuffle 87, fetching them
+3676	Don't have map outputs for shuffle 104, fetching them
+3759	Don't have map outputs for shuffle 67, fetching them
+4152	MemoryStore cleared
+4153	Driver <*>:42829 disassociated! Shutting down.
+4154	Successfully registered with driver
+4155	Preparing Local resources
+4156	Driver <*>:57636 disassociated! Shutting down.
+4158	Waiting for application to be successfully unregistered.
+4160	Received new token for : mesos-slave-14:39461
+4161	Remoting started; listening on addresses :[akka.tcp://sparkExecutorActorSystem@mesos-master-1:47759]
+4162	Deleting directory /opt/hdfs/nodemanager/usercache/curi/appcache/application_1485248649253_0011/spark-dd431194-dfb9-4574-ad74-f7b0e25609cc
+4163	stopped <*>{/stages/pool/json,null}
+4164	MemoryStore cleared
+4165	Created local directory at /opt/hdfs/nodemanager/usercache/curi/appcache/application_1485248649253_0012/blockmgr-8e75b0a2-c891-4472-b115-ce5ed8649dbf
+4166	An unknown (mesos-slave-20:59533) driver disconnected.
+4167	Shutdown hook called
+4172	Deleting staging directory .sparkStaging/application_1485248649253_0017
+4173	MemoryStore cleared
+4174	Prepared Local resources Map(__spark__.jar -> resource { scheme: "hdfs" host: "<*>" port: 9000 file: "/user/curi/.sparkStaging/application_1485248649253_0019/<*>" } size: 109525492 timestamp: 1489498697575 type: FILE visibility: PRIVATE, pyspark.zip -> resource { scheme: "hdfs" host: "<*>" port: 9000 file: "/user/curi/.sparkStaging/application_1485248649253_0019/pyspark.zip" } size: 355358 timestamp: 1489498697658 type: FILE visibility: PRIVATE, <*> -> resource { scheme: "hdfs" host: "<*>" port: 9000 file: "/user/curi/.sparkStaging/application_1485248649253_0019/<*>" } size: 44846 timestamp: 1489498697677 type: FILE visibility: PRIVATE)
+4175	Registered BlockManager
+4178	Remoting started; listening on addresses :[akka.tcp://sparkExecutorActorSystem@mesos-slave-28:54809]
+4180	Setting up ContainerLaunchContext
+4181	stopped <*>{/storage,null}
+4183	stopped <*>{/stages/stage/kill,null}
+4186	Container request (host: Any, capability: <memory:22528, vCores:8>)
+4191	MapOutputTrackerMasterEndpoint stopped!
+4192	Driver <*>:44872 disassociated! Shutting down.
+4200	Remoting started; listening on addresses :[akka.tcp://sparkDriverActorSystem@<*>:52221]
+4202	Executor is trying to kill task 21.0 in stage 1.0 (TID 23)
+4206	Exception in task 39.1 in stage 1.0 (TID 47)
+4237	ResultStage 14 (collect at pnmf4.py:296) finished in 2.401 s
+4341	ApplicationMaster registered as NettyRpcEndpointRef(spark://YarnAM@<*>:49476)
+4368	Prepared Local resources Map(__spark__.jar -> resource { scheme: "hdfs" host: "<*>" port: 9000 file: "/user/curi/.sparkStaging/application_1485248649253_0034/<*>" } size: 109525492 timestamp: 1490059688527 type: FILE visibility: PRIVATE, pyspark.zip -> resource { scheme: "hdfs" host: "<*>" port: 9000 file: "/user/curi/.sparkStaging/application_1485248649253_0034/pyspark.zip" } size: 355358 timestamp: 1490059688614 type: FILE visibility: PRIVATE, <*> -> resource { scheme: "hdfs" host: "<*>" port: 9000 file: "/user/curi/.sparkStaging/application_1485248649253_0034/<*>" } size: 44846 timestamp: 1490059688632 type: FILE visibility: PRIVATE)
+4389	u'/opt/hdfs/nodemanager/usercache/curi/appcache/application_1485248649253_0034/spark-a2799b27-aa1b-4b2d-88d9-9b2f69c13b4c/broadcast6403068970431859010'
+4443	Launching ExecutorRunnable. driverUrl: spark://CoarseGrainedScheduler@<*>:49290,  executorHostname: mesos-master-1
+4497	Will request 1 executor containers, each with 8 cores and 22528 <*> memory including 2048 <*> overhead
+4526	MapOutputTrackerMasterEndpoint stopped!
+4531	Retrying fetch (1/3) for 1 outstanding blocks after 5000 ms
+4553	Created local directory at /opt/hdfs/nodemanager/usercache/curi/appcache/application_1485248649253_0035/blockmgr-93579629-4f95-4284-b89d-eac9dc8bde34
+4555	Deleting directory /opt/hdfs/nodemanager/usercache/curi/appcache/application_1485248649253_0035/spark-4f72a836-6da7-4642-8306-252858f40db1
+4567	Retrying fetch (2/3) for 1 outstanding blocks after 5000 ms
+4573	Final stage: ResultStage 0 (collect at pnmf4.py:271)
+4627	mesos-slave-10/<*>:45733
+4653	Failed while starting block fetches
+4724	u'/opt/hdfs/nodemanager/usercache/curi/appcache/application_1485248649253_0036/spark-be5c1ba2-a9ec-442c-b627-b301e6b148ce/broadcast2115854844045487168'
+4777	Will request 1 executor containers, each with 8 cores and 22528 <*> memory including 2048 <*> overhead
+4832	SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(yarn, curi); users with modify permissions: Set(yarn, curi)
+4834	Retrying fetch (1/3) for 1 outstanding blocks after 5000 ms
+4944	<*> : 0
+4975	Exception in connection from mesos-master-1/<*>:59708
+5030	Cancelling stage 2
+5031	Remoting started; listening on addresses :[akka.tcp://sparkExecutorActorSystem@mesos-slave-08:53838]
+5218	<*> is deprecated. Instead, use <*>
+5224	mesos-master-2/<*>:53289
+5226	Exception in connection from mesos-slave-25/<*>:51600
+5332	Driver commanded a shutdown
+5357	Preparing Local resources
+5410	Retrying fetch (3/3) for 1 outstanding blocks after 5000 ms
+5627	mesos-slave-06/<*>:41816
+5654	Setting up ContainerLaunchContext
+5720	<*> : 0
+5742	Preparing Local resources
+5800	Final stage: ResultStage 0 (collect at pnmf4.py:292)
+5823	Opening proxy : mesos-slave-05:33209
+5915	mesos-slave-21/<*>:51927
+5932	SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(yarn, curi); users with modify permissions: Set(yarn, curi)
+5936	mesos-slave-26/<*>:36464
+5946	Remoting shut down.
+6055	Executor is trying to kill task 37.3 in stage 2.0 (TID 185)
+6088	MemoryStore cleared
+6092	Opening proxy : mesos-master-2:41860
+6106	<*> : 0
+6164	Failed while starting block fetches
+6187	RECEIVED SIGNAL 15: SIGTERM
+6232	Launching ExecutorRunnable. driverUrl: spark://CoarseGrainedScheduler@<*>:48782,  executorHostname: mesos-slave-05
+6233	Launching ExecutorRunnable. driverUrl: spark://CoarseGrainedScheduler@<*>:48782,  executorHostname: mesos-slave-10
+6281	mesos-slave-14/<*>:52893
+6298	Parents of final stage: List()
+6307	OutputCommitCoordinator stopped!
+6502	SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(yarn, curi); users with modify permissions: Set(yarn, curi)
+6510	Executor is trying to kill task 0.2 in stage 3.0 (TID 158)
+6535	Opening proxy : mesos-slave-23:39541
+6557	BlockManager stopped
+6597	Registered signal handlers for [TERM, HUP, INT]
+6606	Executor is trying to kill task 13.2 in stage 3.0 (TID 88)
+6607	Launching ExecutorRunnable. driverUrl: spark://CoarseGrainedScheduler@<*>:48953,  executorHostname: mesos-slave-28
+6639	waiting: Set(ShuffleMapStage 7, ResultStage 8)
+6651	mesos-slave-08/<*>:39867
+6656	mesos-slave-08/<*>:39867
+6660	mesos-slave-08/<*>:39867
+6666	Missing an output location for shuffle 3
+6667	Updating epoch to 75 and clearing cache
+6674	Setting up ContainerLaunchContext
+6677	Stage 6 contains a task of very large size (64341 <*>). The maximum recommended task size is 100 <*>.
+6678	running: Set()
+6682	Updating epoch to 6 and clearing cache
+6683	mesos-slave-22/<*>:39839
+6690	mesos-slave-07/<*>:58702
+6701	Submitting ShuffleMapStage 10 (PairwiseRDD[24] at reduceByKey at pnmf_dblp.py:423), which has no missing parents
+6731	Launching ExecutorRunnable. driverUrl: spark://CoarseGrainedScheduler@<*>:44993,  executorHostname: mesos-slave-11
+6746	mesos-master-2/<*>:39913
+6747	mesos-master-2/<*>:39913
+6806	Registered signal handlers for [TERM, HUP, INT]
+6833	Driver commanded a shutdown
+6834	Successfully registered with driver
+6838	Setting up ContainerLaunchContext
+6880	mesos-master-1/<*>:33916
+6896	Driver <*>:40026 disassociated! Shutting down.
+6923	SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(yarn, curi); users with modify permissions: Set(yarn, curi)
+6971	MapOutputTrackerMasterEndpoint stopped!
+6981	Opening proxy : mesos-slave-05:33209
+7046	Registered BlockManager
+7065	ResultStage 1 (count at pnmf4.py:358) finished in 2.390 s
+7101	Remote daemon shut down; proceeding with flushing remote transports.
+7151	Launching ExecutorRunnable. driverUrl: spark://CoarseGrainedScheduler@<*>:47975,  executorHostname: mesos-slave-19
+7229	Opening proxy : mesos-slave-21:57813
+7236	SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(yarn, curi); users with modify permissions: Set(yarn, curi)
+7260	Registered executor NettyRpcEndpointRef(null) (mesos-slave-13:46288) with ID 6
+7409	Completed container container_1485248649253_0072_02_000005 on host: mesos-master-2 (state: COMPLETE, exit status: 143)
+7430	Submitting ResultStage 3 (PythonRDD[9] at collect at pnmf4.py:376), which has no missing parents
+7431	Completed container container_1485248649253_0072_02_000013 on host: mesos-slave-10 (state: COMPLETE, exit status: -104)
+7465	BlockManager stopped
+7496	OutputCommitCoordinator stopped!
+7518	ApplicationAttemptId: appattempt_1485248649253_0073_000002
+7536	Will request 1 executor containers, each with 1 cores and 22528 <*> memory including 2048 <*> overhead
+7572	Prepared Local resources Map(__spark__.jar -> resource { scheme: "hdfs" host: "<*>" port: 9000 file: "/user/curi/.sparkStaging/application_1485248649253_0074/<*>" } size: 109525492 timestamp: 1493699824238 type: FILE visibility: PRIVATE, pyspark.zip -> resource { scheme: "hdfs" host: "<*>" port: 9000 file: "/user/curi/.sparkStaging/application_1485248649253_0074/pyspark.zip" } size: 355358 timestamp: 1493699824318 type: FILE visibility: PRIVATE, <*> -> resource { scheme: "hdfs" host: "<*>" port: 9000 file: "/user/curi/.sparkStaging/application_1485248649253_0074/<*>" } size: 44846 timestamp: 1493699824338 type: FILE visibility: PRIVATE)
+7579	stopped <*>{/jobs,null}
+7588	SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(yarn, curi); users with modify permissions: Set(yarn, curi)
+7608	Opening proxy : mesos-master-2:41860
+7680	Setting up ContainerLaunchContext
+7688	Prepared Local resources Map(__spark__.jar -> resource { scheme: "hdfs" host: "<*>" port: 9000 file: "/user/curi/.sparkStaging/application_1485248649253_0075/<*>" } size: 109525492 timestamp: 1494203784633 type: FILE visibility: PRIVATE, pyspark.zip -> resource { scheme: "hdfs" host: "<*>" port: 9000 file: "/user/curi/.sparkStaging/application_1485248649253_0075/pyspark.zip" } size: 355358 timestamp: 1494203784715 type: FILE visibility: PRIVATE, <*> -> resource { scheme: "hdfs" host: "<*>" port: 9000 file: "/user/curi/.sparkStaging/application_1485248649253_0075/<*>" } size: 44846 timestamp: 1494203784733 type: FILE visibility: PRIVATE)
+7710	Container marked as failed: container_1485248649253_0076_01_000002 on host: mesos-slave-18. Exit status: 52. Diagnostics: Exception from container-launch.
+7762	Created local directory at /opt/hdfs/nodemanager/usercache/curi/appcache/application_1485248649253_0077/blockmgr-1a546177-581e-4051-afdd-ecc3713a5e7c
+7763	Prepared Local resources Map(__spark__.jar -> resource { scheme: "hdfs" host: "<*>" port: 9000 file: "/user/curi/.sparkStaging/application_1485248649253_0081/<*>" } size: 109525492 timestamp: 1496754543184 type: FILE visibility: PRIVATE, pyspark.zip -> resource { scheme: "hdfs" host: "<*>" port: 9000 file: "/user/curi/.sparkStaging/application_1485248649253_0081/pyspark.zip" } size: 355358 timestamp: 1496754543271 type: FILE visibility: PRIVATE, <*> -> resource { scheme: "hdfs" host: "<*>" port: 9000 file: "/user/curi/.sparkStaging/application_1485248649253_0081/<*>" } size: 44846 timestamp: 1496754543292 type: FILE visibility: PRIVATE)
+7765	Registered BlockManager
+7767	<*> is deprecated. Instead, use <*>
+7769	Created local directory at /opt/hdfs/nodemanager/usercache/curi/appcache/application_1485248649253_0085/blockmgr-c8cf238b-522e-4616-b359-ee39a62f8c06
+7770	BlockManager stopped
+7773	Prepared Local resources Map(__spark__.jar -> resource { scheme: "hdfs" host: "<*>" port: 9000 file: "/user/curi/.sparkStaging/application_1485248649253_0089/<*>" } size: 109525492 timestamp: 1496755703904 type: FILE visibility: PRIVATE, pyspark.zip -> resource { scheme: "hdfs" host: "<*>" port: 9000 file: "/user/curi/.sparkStaging/application_1485248649253_0089/pyspark.zip" } size: 355358 timestamp: 1496755703964 type: FILE visibility: PRIVATE, <*> -> resource { scheme: "hdfs" host: "<*>" port: 9000 file: "/user/curi/.sparkStaging/application_1485248649253_0089/<*>" } size: 44846 timestamp: 1496755703985 type: FILE visibility: PRIVATE)
+7774	Received new token for : mesos-master-3:42043
+8009	Driver <*>:41380 disassociated! Shutting down.
+8011	Setting up ContainerLaunchContext
+8013	Setting up ContainerLaunchContext
+8042	Remoting shut down.
+8075	Driver <*>:48194 disassociated! Shutting down.
+8101	An unknown (mesos-master-1:48194) driver disconnected.
+8183	Setting up ContainerLaunchContext
+8297	SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(yarn, curi); users with modify permissions: Set(yarn, curi)
+8366	Launching ExecutorRunnable. driverUrl: spark://CoarseGrainedScheduler@<*>:47010,  executorHostname: mesos-slave-17
+8367	Setting up ContainerLaunchContext
+8369	Remoting started; listening on addresses :[akka.tcp://sparkExecutorActorSystem@mesos-slave-11:57578]
+8370	Shutdown hook called
+8534	Successfully registered with driver
+8608	An unknown (mesos-master-1:42303) driver disconnected.
+8609	An unknown (mesos-master-1:42303) driver disconnected.
+8644	Deleting directory /opt/hdfs/nodemanager/usercache/curi/appcache/application_1485248649253_0093/spark-41edc806-6742-4ac8-bcf4-b18f35b26f28
+8672	MemoryStore cleared
+8813	Remoting started; listening on addresses :[akka.tcp://sparkExecutorActorSystem@mesos-slave-27:48901]
+8814	Driver <*>:47629 disassociated! Shutting down.
+8895	An unknown (mesos-master-1:47629) driver disconnected.
+8970	Opening proxy : mesos-master-1:35426
+8971	<*> : 0
+9011	Successfully registered with driver
+9129	Registered BlockManager
+9162	Remoting started; listening on addresses :[akka.tcp://sparkExecutorActorSystem@mesos-slave-10:47265]
+9202	Driver <*>:59228 disassociated! Shutting down.
+9310	SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(yarn, curi); users with modify permissions: Set(yarn, curi)
+9443	<*> : 0
+9500	SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(yarn, curi); users with modify permissions: Set(yarn, curi)
+9540	SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(yarn, curi); users with modify permissions: Set(yarn, curi)
+9541	Registered BlockManager
+9661	Created local directory at /opt/hdfs/nodemanager/usercache/curi/appcache/application_1485248649253_0097/blockmgr-44df0954-2059-4500-b8db-2cb4ce28acc3
+9712	Container request (host: Any, capability: <memory:28160, vCores:5>)
+9713	Launching ExecutorRunnable. driverUrl: spark://CoarseGrainedScheduler@<*>:35017,  executorHostname: mesos-master-3
+9714	MemoryStore cleared
+9905	Shutdown hook called
+9950	Preparing Local resources
+9952	Remoting started; listening on addresses :[akka.tcp://sparkExecutorActorSystem@mesos-master-2:47525]
+10099	Registered signal handlers for [TERM, HUP, INT]
+11109	SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(yarn, curi); users with modify permissions: Set(yarn, curi)
+11143	SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(yarn, curi); users with modify permissions: Set(yarn, curi)
+11257	Shutdown hook called
+11258	BlockManager stopped
+11413	Created local directory at /opt/hdfs/nodemanager/usercache/curi/appcache/application_1485248649253_0107/blockmgr-889abce5-138c-4788-9a2d-0960644b8e9a
+11535	Launching ExecutorRunnable. driverUrl: spark://CoarseGrainedScheduler@<*>:33846,  executorHostname: mesos-slave-20
+13935	SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(yarn, curi); users with modify permissions: Set(yarn, curi)
+14119	MemoryStore cleared
+15016	BlockManager stopped
+15116	Setting up ContainerLaunchContext
+15773	An unknown (mesos-master-1:54038) driver disconnected.
+17574	SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(yarn, curi); users with modify permissions: Set(yarn, curi)
+17598	Container request (host: Any, capability: <memory:28160, vCores:5>)
+17599	Preparing Local resources
+17600	Registered BlockManager
+18675	Launching ExecutorRunnable. driverUrl: spark://CoarseGrainedScheduler@<*>:51096,  executorHostname: mesos-slave-16
+19415	Created local directory at /opt/hdfs/nodemanager/usercache/curi/appcache/application_1485248649253_0128/blockmgr-acc375ad-d846-4825-919a-a29ad1489a15
+19593	Preparing Local resources
+22658	MemoryStore cleared
+23404	Add WebUI Filter. AddWebUIFilter(<*>,Map(PROXY_HOSTS -> mesos-master-1, PROXY_URI_BASES -> http://mesos-master-1:8088/proxy/application_1485248649253_0132),/proxy/application_1485248649253_0132)
+28522	Registered BlockManager
+30208	SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(yarn, curi); users with modify permissions: Set(yarn, curi)
+36095	Received 10 containers from YARN, launching executors on 8 of them.
+36097	An unknown (mesos-master-1:57251) driver disconnected.
+46804	Preparing Local resources
+48984	Received new token for : mesos-master-3:42043
+48985	Setting up ContainerLaunchContext
+50996	Registered BlockManager
+52438	Opening proxy : mesos-slave-07:39967
+52463	Driver commanded a shutdown
+52470	Opening proxy : mesos-slave-22:42600
+52471	Setting up ContainerLaunchContext
+53785	Driver <*>:42874 disassociated! Shutting down.
+55136	Remoting started; listening on addresses :[akka.tcp://sparkExecutorActorSystem@mesos-slave-06:36645]
+56481	BlockManager stopped
+56810	BlockManager stopped
+58684	Driver <*>:48069 disassociated! Shutting down.
+59655	Created local directory at /opt/hdfs/nodemanager/usercache/curi/appcache/application_1485248649253_0148/blockmgr-262043e1-73f2-486c-8b8c-85b8a9986fee
+60222	Setting up ContainerLaunchContext
+60759	Registered BlockManager
+63898	<*> : 0
+63976	Opening proxy : mesos-slave-11:41985
+64057	MemoryStore cleared
+64087	BlockManager stopped
+64224	Container request (host: Any, capability: <memory:6758, vCores:5>)
+64302	Received new token for : mesos-master-1:35426
+64396	Preparing Local resources
+64482	Driver <*>:56071 disassociated! Shutting down.
+64563	Driver <*>:34836 disassociated! Shutting down.
+64564	Received new token for : mesos-master-1:35426
+64644	Will request 16 executor containers, each with 5 cores and 6758 <*> memory including 614 <*> overhead
+64645	Prepared Local resources Map(__spark__.jar -> resource { scheme: "hdfs" host: "<*>" port: 9000 file: "/user/curi/.sparkStaging/application_1485248649253_0160/<*>" } size: 109525492 timestamp: 1497078924616 type: FILE visibility: PRIVATE, pyspark.zip -> resource { scheme: "hdfs" host: "<*>" port: 9000 file: "/user/curi/.sparkStaging/application_1485248649253_0160/pyspark.zip" } size: 355358 timestamp: 1497078924676 type: FILE visibility: PRIVATE, <*> -> resource { scheme: "hdfs" host: "<*>" port: 9000 file: "/user/curi/.sparkStaging/application_1485248649253_0160/<*>" } size: 44846 timestamp: 1497078924692 type: FILE visibility: PRIVATE)
+64869	Remoting started; listening on addresses :[akka.tcp://sparkExecutorActorSystem@mesos-master-1:53445]
+65043	<*> is deprecated. Instead, use <*>
+65135	Registered signal handlers for [TERM, HUP, INT]
+65200	<*> is deprecated. Instead, use <*>
+65226	Driver <*>:35910 disassociated! Shutting down.
+65260	MemoryStore cleared
+65347	SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(yarn, curi); users with modify permissions: Set(yarn, curi)
+65444	SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(yarn, curi); users with modify permissions: Set(yarn, curi)
+65470	Created local directory at /opt/hdfs/nodemanager/usercache/curi/appcache/application_1485248649253_0167/blockmgr-d5a8874d-894f-4246-ae10-a3250cbfb123
+65669	Driver <*>:45329 disassociated! Shutting down.
+65894	Created local directory at /opt/hdfs/nodemanager/usercache/curi/appcache/application_1485248649253_0173/blockmgr-642c99bb-e0e3-435d-8cab-e1ead15b9b60
+65895	Shutdown hook called
+65897	Registered BlockManager
+65898	Successfully registered with driver
+65901	Registered signal handlers for [TERM, HUP, INT]
+65903	SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(yarn, curi); users with modify permissions: Set(yarn, curi)
+65904	Add WebUI Filter. AddWebUIFilter(<*>,Map(PROXY_HOSTS -> mesos-master-1, PROXY_URI_BASES -> http://mesos-master-1:8088/proxy/application_1485248649253_0178),/proxy/application_1485248649253_0178)
+65905	MemoryStore cleared
+65907	Container request (host: Any, capability: <memory:28160, vCores:5>)
+65908	Successfully registered with driver
+65918	Deleting directory /opt/hdfs/nodemanager/usercache/curi/appcache/application_1485248649253_0183/spark-aaba3a94-4bc8-4a84-af06-9664adace7c9
+65922	SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(yarn, curi); users with modify permissions: Set(yarn, curi)
+65983	Setting up ContainerLaunchContext
+65986	Driver commanded a shutdown
+66063	Launching ExecutorRunnable. driverUrl: spark://CoarseGrainedScheduler@<*>:54324,  executorHostname: mesos-master-3
+66148	<*> is deprecated. Instead, use <*>
