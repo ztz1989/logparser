@@ -44,7 +44,7 @@ class LogLoader(object):
         """
         print('Loading log messages to dataframe...')
         lines = []
-        with open(log_filepath, 'r', encoding='utf-8', errors='ignore') as fid:
+        with codecs.open(log_filepath, 'r', encoding='utf-8', errors='ignore') as fid:
             lines = fid.readlines()
 
         log_messages = []
