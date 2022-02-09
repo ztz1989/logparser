@@ -24,12 +24,12 @@ benchmark_settings = {
         #'split_threshold': 2
         #},
 
-    'Spark': {
-        'log_file': 'Spark/Spark_2k.log',
-        'log_format': '<Date> <Time> <Level> <Component>: <Content>',
-        'regex': [r'(\d+\.){3}\d+', r'\b[KGTM]?B\b', r'([\w-]+\.){2,}[\w-]+'],
-        'split_threshold': 5
-        },
+    #'Spark': {
+        #'log_file': 'Spark/Spark_2k.log',
+        #'log_format': '<Date> <Time> <Level> <Component>: <Content>',
+        #'regex': [r'(\d+\.){3}\d+', r'\b[KGTM]?B\b', r'([\w-]+\.){2,}[\w-]+'],
+        #'split_threshold': 5
+        #},
 
     #'Zookeeper': {
         #'log_file': 'Zookeeper/Zookeeper_2k.log',
@@ -73,12 +73,12 @@ benchmark_settings = {
         'split_threshold': 10
         },
 
-    'Andriod': {
-        'log_file': 'Andriod/Andriod_2k.log',
-        'log_format': '<Date> <Time>  <Pid>  <Tid> <Level> <Component>: <Content>',
-        'regex': [r'(/[\w-]+)+', r'([\w-]+\.){2,}[\w-]+', r'\b(\-?\+?\d+)\b|\b0[Xx][a-fA-F\d]+\b|\b[a-fA-F\d]{4,}\b'],
-        'split_threshold': 260,
-        },
+    #'Android': {
+        #'log_file': 'Andriod/Andriod_2k.log',
+        #'log_format': '<Date> <Time>  <Pid>  <Tid> <Level> <Component>: <Content>',
+        #'regex': [r'(/[\w-]+)+', r'([\w-]+\.){2,}[\w-]+', r'\b(\-?\+?\d+)\b|\b0[Xx][a-fA-F\d]+\b|\b[a-fA-F\d]{4,}\b'],
+        #'split_threshold': 260,
+        #},
 
     #'HealthApp': {
         #'log_file': 'HealthApp/HealthApp_2k.log',
