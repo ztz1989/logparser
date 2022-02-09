@@ -24,12 +24,12 @@ benchmark_settings = {
         #'support': 125
         #},
 
-    'Spark': {
-        'log_file': 'Spark/Spark_2k.log',
-        'log_format': '<Date> <Time> <Level> <Component>: <Content>', 
-        'regex': [r'(\d+\.){3}\d+', r'\b[KGTM]?B\b', r'([\w-]+\.){2,}[\w-]+'],
-        'support': 30
-        },
+    #'Spark': {
+        #'log_file': 'Spark/Spark_2k.log',
+        #'log_format': '<Date> <Time> <Level> <Component>: <Content>', 
+        #'regex': [r'(\d+\.){3}\d+', r'\b[KGTM]?B\b', r'([\w-]+\.){2,}[\w-]+'],
+        #'support': 30
+        #},
 
     #'Zookeeper': {
         #'log_file': 'Zookeeper/Zookeeper_2k.log',
@@ -73,12 +73,12 @@ benchmark_settings = {
         'support': 100
         },
 
-    'Android': {
-        'log_file': 'Android/Android_2k.log',
-        'log_format': '<Date> <Time>  <Pid>  <Tid> <Level> <Component>: <Content>',
-        'regex': [r'(/[\w-]+)+', r'([\w-]+\.){2,}[\w-]+', r'\b(\-?\+?\d+)\b|\b0[Xx][a-fA-F\d]+\b|\b[a-fA-F\d]{4,}\b'],
-        'support': 1
-        },
+    #'Android': {
+        #'log_file': 'Android/Android_2k.log',
+        #'log_format': '<Date> <Time>  <Pid>  <Tid> <Level> <Component>: <Content>',
+        #'regex': [r'(/[\w-]+)+', r'([\w-]+\.){2,}[\w-]+', r'\b(\-?\+?\d+)\b|\b0[Xx][a-fA-F\d]+\b|\b[a-fA-F\d]{4,}\b'],
+        #'support': 1
+        #},
 
     #'HealthApp': {
         #'log_file': 'HealthApp/HealthApp_2k.log',
@@ -87,12 +87,12 @@ benchmark_settings = {
         #'support': 100
         #},
 
-    'Apache': {
-        'log_file': 'Apache/Apache_2k.log',
-        'log_format': '\[<Time>\] \[<Level>\] <Content>',
-        'regex': [r'(\d+\.){3}\d+'],
-        'support': 5
-        },
+    #'Apache': {
+        #'log_file': 'Apache/Apache_2k.log',
+        #'log_format': '\[<Time>\] \[<Level>\] <Content>',
+        #'regex': [r'(\d+\.){3}\d+'],
+        #'support': 5
+        #},
 
     #'Proxifier': {
         #'log_file': 'Proxifier/Proxifier_2k.log',
@@ -115,12 +115,12 @@ benchmark_settings = {
         #'support': 18
         #},
 
-    'Mac': {
-        'log_file': 'Mac/Mac_2k.log',
-        'log_format': '<Month>  <Date> <Time> <User> <Component>\[<PID>\]( \(<Address>\))?: <Content>',
-        'regex': [r'([\w-]+\.){2,}[\w-]+'],
-        'support': 3
-        }
+    #'Mac': {
+        #'log_file': 'Mac/Mac_2k.log',
+        #'log_format': '<Month>  <Date> <Time> <User> <Component>\[<PID>\]( \(<Address>\))?: <Content>',
+        #'regex': [r'([\w-]+\.){2,}[\w-]+'],
+        #'support': 3
+        #}
 }
 
 
