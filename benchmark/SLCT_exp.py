@@ -24,12 +24,12 @@ benchmark_settings = {
         #'support': 125
         #},
 
-    'Spark': {
-        'log_file': 'Spark/Spark_2k.log',
-        'log_format': '<Date> <Time> <Level> <Component>: <Content>', 
-        'regex': [r'(\d+\.){3}\d+', r'\b[KGTM]?B\b', r'([\w-]+\.){2,}[\w-]+'],
-        'support': 30
-        },
+    #'Spark': {
+        #'log_file': 'Spark/Spark_2k.log',
+        #'log_format': '<Date> <Time> <Level> <Component>: <Content>', 
+        #'regex': [r'(\d+\.){3}\d+', r'\b[KGTM]?B\b', r'([\w-]+\.){2,}[\w-]+'],
+        #'support': 30
+        #},
 
     #'Zookeeper': {
         #'log_file': 'Zookeeper/Zookeeper_2k.log',
@@ -73,12 +73,12 @@ benchmark_settings = {
         'support': 100
         },
 
-    'Android': {
-        'log_file': 'Android/Android_2k.log',
-        'log_format': '<Date> <Time>  <Pid>  <Tid> <Level> <Component>: <Content>',
-        'regex': [r'(/[\w-]+)+', r'([\w-]+\.){2,}[\w-]+', r'\b(\-?\+?\d+)\b|\b0[Xx][a-fA-F\d]+\b|\b[a-fA-F\d]{4,}\b'],
-        'support': 1
-        },
+    #'Android': {
+        #'log_file': 'Android/Android_2k.log',
+        #'log_format': '<Date> <Time>  <Pid>  <Tid> <Level> <Component>: <Content>',
+        #'regex': [r'(/[\w-]+)+', r'([\w-]+\.){2,}[\w-]+', r'\b(\-?\+?\d+)\b|\b0[Xx][a-fA-F\d]+\b|\b[a-fA-F\d]{4,}\b'],
+        #'support': 1
+        #},
 
     #'HealthApp': {
         #'log_file': 'HealthApp/HealthApp_2k.log',
@@ -101,12 +101,12 @@ benchmark_settings = {
         #'support': 8
         #},
 
-    'OpenSSH': {
-        'log_file': 'OpenSSH/OpenSSH_2k.log',
-        'log_format': '<Date> <Day> <Time> <Component> sshd\[<Pid>\]: <Content>',
-        'regex': [r'(\d+\.){3}\d+', r'([\w-]+\.){2,}[\w-]+'],
-        'support': 45
-        },
+    #'OpenSSH': {
+        #'log_file': 'OpenSSH/OpenSSH_2k.log',
+        #'log_format': '<Date> <Day> <Time> <Component> sshd\[<Pid>\]: <Content>',
+        #'regex': [r'(\d+\.){3}\d+', r'([\w-]+\.){2,}[\w-]+'],
+        #'support': 45
+        #},
 
     #'OpenStack': {
         #'log_file': 'OpenStack/OpenStack_2k.log',
