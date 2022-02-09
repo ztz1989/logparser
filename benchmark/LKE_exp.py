@@ -10,34 +10,33 @@ input_dir = '../logs/' # The input directory of log file
 output_dir = 'LKE_result/' # The output directory of parsing results
 
 benchmark_settings = {
-    'HDFS': {
-        'log_file': 'HDFS/HDFS_2k.log',
-        'log_format': '<Date> <Time> <Pid> <Level> <Component>: <Content>',
-        'regex': [r'blk_-?\d+', r'(\d+\.){3}\d+(:\d+)?'],
-        'split_threshold': 3
-        },
+    #'HDFS': {
+        #'log_file': 'HDFS/HDFS_2k.log',
+        #'log_format': '<Date> <Time> <Pid> <Level> <Component>: <Content>',
+        #'regex': [r'blk_-?\d+', r'(\d+\.){3}\d+(:\d+)?'],
+        #'split_threshold': 3
+        #},
 
-    'Hadoop': {
-        'log_file':  'Hadoop/Hadoop_2k.log',
-        'log_format': '<Date> <Time> <Level> \[<Process>\] <Component>: <Content>',
-        'regex': [r'(\d+\.){3}\d+'],
-        'split_threshold': 2 
-        # 3
-        },
+    #'Hadoop': {
+        #'log_file':  'Hadoop/Hadoop_2k.log',
+        #'log_format': '<Date> <Time> <Level> \[<Process>\] <Component>: <Content>',
+        #'regex': [r'(\d+\.){3}\d+'],
+        #'split_threshold': 2
+        #},
 
-    'Spark': {
-        'log_file': 'Spark/Spark_2k.log',
-        'log_format': '<Date> <Time> <Level> <Component>: <Content>',
-        'regex': [r'(\d+\.){3}\d+', r'\b[KGTM]?B\b', r'([\w-]+\.){2,}[\w-]+'],
-        'split_threshold': 5
-        },
+    #'Spark': {
+        #'log_file': 'Spark/Spark_2k.log',
+        #'log_format': '<Date> <Time> <Level> <Component>: <Content>',
+        #'regex': [r'(\d+\.){3}\d+', r'\b[KGTM]?B\b', r'([\w-]+\.){2,}[\w-]+'],
+        #'split_threshold': 5
+        #},
 
-    'Zookeeper': {
-        'log_file': 'Zookeeper/Zookeeper_2k.log',
-        'log_format': '<Date> <Time> - <Level>  \[<Node>:<Component>@<Id>\] - <Content>',
-        'regex': [r'(/|)(\d+\.){3}\d+(:\d+)?'],
-        'split_threshold': 20
-        },
+    #'Zookeeper': {
+        #'log_file': 'Zookeeper/Zookeeper_2k.log',
+        #'log_format': '<Date> <Time> - <Level>  \[<Node>:<Component>@<Id>\] - <Content>',
+        #'regex': [r'(/|)(\d+\.){3}\d+(:\d+)?'],
+        #'split_threshold': 20
+        #},
 
     #'BGL': {
         #'log_file': 'BGL/BGL_2k.log',
@@ -46,12 +45,12 @@ benchmark_settings = {
         #'split_threshold': 30
         #},
 
-    'HPC': {
-        'log_file': 'HPC/HPC_2k.log',
-        'log_format': '<LogId> <Node> <Component> <State> <Time> <Flag> <Content>',
-        'regex': [r'=\d+'],
-        'split_threshold': 10
-        },
+    #'HPC': {
+        #'log_file': 'HPC/HPC_2k.log',
+        #'log_format': '<LogId> <Node> <Component> <State> <Time> <Flag> <Content>',
+        #'regex': [r'=\d+'],
+        #'split_threshold': 10
+        #},
 
     #'Thunderbird': {
         #'log_file': 'Thunderbird/Thunderbird_2k.log',
@@ -74,12 +73,12 @@ benchmark_settings = {
         'split_threshold': 10
         },
 
-    'Andriod': {
-        'log_file': 'Andriod/Andriod_2k.log',
-        'log_format': '<Date> <Time>  <Pid>  <Tid> <Level> <Component>: <Content>',
-        'regex': [r'(/[\w-]+)+', r'([\w-]+\.){2,}[\w-]+', r'\b(\-?\+?\d+)\b|\b0[Xx][a-fA-F\d]+\b|\b[a-fA-F\d]{4,}\b'],
-        'split_threshold': 260,
-        },
+    #'Android': {
+        #'log_file': 'Andriod/Andriod_2k.log',
+        #'log_format': '<Date> <Time>  <Pid>  <Tid> <Level> <Component>: <Content>',
+        #'regex': [r'(/[\w-]+)+', r'([\w-]+\.){2,}[\w-]+', r'\b(\-?\+?\d+)\b|\b0[Xx][a-fA-F\d]+\b|\b[a-fA-F\d]{4,}\b'],
+        #'split_threshold': 260,
+        #},
 
     #'HealthApp': {
         #'log_file': 'HealthApp/HealthApp_2k.log',
@@ -88,12 +87,12 @@ benchmark_settings = {
         #'split_threshold': 50,
         #},
 
-    'Apache': {
-        'log_file': 'Apache/Apache_2k.log',
-        'log_format': '\[<Time>\] \[<Level>\] <Content>',
-        'regex': [r'(\d+\.){3}\d+'],
-        'split_threshold': 5
-        },
+    #'Apache': {
+        #'log_file': 'Apache/Apache_2k.log',
+        #'log_format': '\[<Time>\] \[<Level>\] <Content>',
+        #'regex': [r'(\d+\.){3}\d+'],
+        #'split_threshold': 5
+        #},
 
     #'Proxifier': {
         #'log_file': 'Proxifier/Proxifier_2k.log',
@@ -102,26 +101,26 @@ benchmark_settings = {
         #'split_threshold': 3
         #},
 
-    'OpenSSH': {
-        'log_file': 'OpenSSH/OpenSSH_2k.log',
-        'log_format': '<Date> <Day> <Time> <Component> sshd\[<Pid>\]: <Content>',
-        'regex': [r'(\d+\.){3}\d+', r'([\w-]+\.){2,}[\w-]+'],
-        'split_threshold': 100
-        },
+    #'OpenSSH': {
+        #'log_file': 'OpenSSH/OpenSSH_2k.log',
+        #'log_format': '<Date> <Day> <Time> <Component> sshd\[<Pid>\]: <Content>',
+        #'regex': [r'(\d+\.){3}\d+', r'([\w-]+\.){2,}[\w-]+'],
+        #'split_threshold': 100
+        #},
 
-    'OpenStack': {
-        'log_file': 'OpenStack/OpenStack_2k.log',
-        'log_format': '<Logrecord> <Date> <Time> <Pid> <Level> <Component> \[<ADDR>\] <Content>',
-        'regex': [r'((\d+\.){3}\d+,?)+', r'/.+?\s', r'\d+'],
-        'split_threshold': 8
-        },
+    #'OpenStack': {
+        #'log_file': 'OpenStack/OpenStack_2k.log',
+        #'log_format': '<Logrecord> <Date> <Time> <Pid> <Level> <Component> \[<ADDR>\] <Content>',
+        #'regex': [r'((\d+\.){3}\d+,?)+', r'/.+?\s', r'\d+'],
+        #'split_threshold': 8
+        #},
 
-    'Mac': {
-        'log_file': 'Mac/Mac_2k.log',
-        'log_format': '<Month>  <Date> <Time> <User> <Component>\[<PID>\]( \(<Address>\))?: <Content>',
-        'regex': [r'([\w-]+\.){2,}[\w-]+'],
-        'split_threshold': 600
-        }
+    #'Mac': {
+        #'log_file': 'Mac/Mac_2k.log',
+        #'log_format': '<Month>  <Date> <Time> <User> <Component>\[<PID>\]( \(<Address>\))?: <Content>',
+        #'regex': [r'([\w-]+\.){2,}[\w-]+'],
+        #'split_threshold': 600
+        #}
 }
 
 
