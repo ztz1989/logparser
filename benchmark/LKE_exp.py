@@ -31,12 +31,12 @@ benchmark_settings = {
         'split_threshold': 5
         },
 
-    'Zookeeper': {
-        'log_file': 'Zookeeper/Zookeeper_2k.log',
-        'log_format': '<Date> <Time> - <Level>  \[<Node>:<Component>@<Id>\] - <Content>',
-        'regex': [r'(/|)(\d+\.){3}\d+(:\d+)?'],
-        'split_threshold': 20
-        },
+    #'Zookeeper': {
+        #'log_file': 'Zookeeper/Zookeeper_2k.log',
+        #'log_format': '<Date> <Time> - <Level>  \[<Node>:<Component>@<Id>\] - <Content>',
+        #'regex': [r'(/|)(\d+\.){3}\d+(:\d+)?'],
+        #'split_threshold': 20
+        #},
 
     #'BGL': {
         #'log_file': 'BGL/BGL_2k.log',
@@ -87,12 +87,12 @@ benchmark_settings = {
         #'split_threshold': 50,
         #},
 
-    'Apache': {
-        'log_file': 'Apache/Apache_2k.log',
-        'log_format': '\[<Time>\] \[<Level>\] <Content>',
-        'regex': [r'(\d+\.){3}\d+'],
-        'split_threshold': 5
-        },
+    #'Apache': {
+        #'log_file': 'Apache/Apache_2k.log',
+        #'log_format': '\[<Time>\] \[<Level>\] <Content>',
+        #'regex': [r'(\d+\.){3}\d+'],
+        #'split_threshold': 5
+        #},
 
     #'Proxifier': {
         #'log_file': 'Proxifier/Proxifier_2k.log',
@@ -115,12 +115,12 @@ benchmark_settings = {
         #'split_threshold': 8
         #},
 
-    'Mac': {
-        'log_file': 'Mac/Mac_2k.log',
-        'log_format': '<Month>  <Date> <Time> <User> <Component>\[<PID>\]( \(<Address>\))?: <Content>',
-        'regex': [r'([\w-]+\.){2,}[\w-]+'],
-        'split_threshold': 600
-        }
+    #'Mac': {
+        #'log_file': 'Mac/Mac_2k.log',
+        #'log_format': '<Month>  <Date> <Time> <User> <Component>\[<PID>\]( \(<Address>\))?: <Content>',
+        #'regex': [r'([\w-]+\.){2,}[\w-]+'],
+        #'split_threshold': 600
+        #}
 }
 
 
