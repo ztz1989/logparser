@@ -29,23 +29,23 @@ benchmark_settings = {
         #'regex': [r'(\d+\.){3}\d+', r'\b[KGTM]?B\b', r'([\w-]+\.){2,}[\w-]+']
         #},
 
-    'Zookeeper': {
-        'log_file': 'Zookeeper/Zookeeper_2k.log',
-        'log_format': '<Date> <Time> - <Level>  \[<Node>:<Component>@<Id>\] - <Content>',
-        'regex': [r'(/|)(\d+\.){3}\d+(:\d+)?']
-        },
+    #'Zookeeper': {
+        #'log_file': 'Zookeeper/Zookeeper_2k.log',
+        #'log_format': '<Date> <Time> - <Level>  \[<Node>:<Component>@<Id>\] - <Content>',
+        #'regex': [r'(/|)(\d+\.){3}\d+(:\d+)?']
+        #},
 
-    'BGL': {
-        'log_file': 'BGL/BGL_2k.log',
-        'log_format': '<Label> <Timestamp> <Date> <Node> <Time> <NodeRepeat> <Type> <Component> <Level> <Content>',
-        'regex': [r'core\.\d+']
-        },
+    #'BGL': {
+        #'log_file': 'BGL/BGL_2k.log',
+        #'log_format': '<Label> <Timestamp> <Date> <Node> <Time> <NodeRepeat> <Type> <Component> <Level> <Content>',
+        #'regex': [r'core\.\d+']
+        #},
 
-    'HPC': {
-        'log_file': 'HPC/HPC_2k.log',
-        'log_format': '<LogId> <Node> <Component> <State> <Time> <Flag> <Content>',
-        'regex': [r'=\d+']
-        },
+    #'HPC': {
+        #'log_file': 'HPC/HPC_2k.log',
+        #'log_format': '<LogId> <Node> <Component> <State> <Time> <Flag> <Content>',
+        #'regex': [r'=\d+']
+        #},
 
     #'Thunderbird': {
         #'log_file': 'Thunderbird/Thunderbird_2k.log',
@@ -59,17 +59,17 @@ benchmark_settings = {
         #'regex': [r'0x.*?\s']
         #},
 
-    'Linux': {
-        'log_file': 'Linux/Linux_2k.log',
-        'log_format': '<Month> <Date> <Time> <Level> <Component>(\[<PID>\])?: <Content>',
-        'regex': [r'(\d+\.){3}\d+', r'\d{2}:\d{2}:\d{2}']
-        },
+    #'Linux': {
+        #'log_file': 'Linux/Linux_2k.log',
+        #'log_format': '<Month> <Date> <Time> <Level> <Component>(\[<PID>\])?: <Content>',
+        #'regex': [r'(\d+\.){3}\d+', r'\d{2}:\d{2}:\d{2}']
+        #},
 
-    'Android': {
-        'log_file': 'Andriod/Andriod_2k.log',
-        'log_format': '<Date> <Time>  <Pid>  <Tid> <Level> <Component>: <Content>',
-        'regex': [r'(/[\w-]+)+', r'([\w-]+\.){2,}[\w-]+', r'\b(\-?\+?\d+)\b|\b0[Xx][a-fA-F\d]+\b|\b[a-fA-F\d]{4,}\b']
-        },
+    #'Android': {
+        #'log_file': 'Andriod/Andriod_2k.log',
+        #'log_format': '<Date> <Time>  <Pid>  <Tid> <Level> <Component>: <Content>',
+        #'regex': [r'(/[\w-]+)+', r'([\w-]+\.){2,}[\w-]+', r'\b(\-?\+?\d+)\b|\b0[Xx][a-fA-F\d]+\b|\b[a-fA-F\d]{4,}\b']
+        #},
 
     'HealthApp': {
         'log_file': 'HealthApp/HealthApp_2k.log',
