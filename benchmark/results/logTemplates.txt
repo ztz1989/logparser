@@ -1,179 +1,961 @@
-* INFO executor.Executor: Finished task * in stage * * * bytes result sent to driver
-* INFO executor.CoarseGrainedExecutorBackend: Got assigned task *
-* INFO * Successfully started service * on port *
-* INFO * Input split: *
-* INFO executor.Executor: Running task * in stage *
-* INFO * Block * stored as * in memory size * * free *
-* WARN executor.CoarseGrainedExecutorBackend: An unknown driver disconnected.
-* INFO * MemoryStore started with capacity * GB
-* INFO executor.CoarseGrainedExecutorBackend: Registered signal handlers for [TERM, HUP, INT]
-* ERROR executor.CoarseGrainedExecutorBackend: Driver * disassociated! Shutting down.
-* INFO Remoting: Remoting started; listening on addresses *
-* INFO * Changing * acls to: yarn,curi
-* INFO storage.BlockManagerMaster: Registered BlockManager
--> *
-* INFO * Opening proxy : *
-executor launch context:
-* INFO yarn.ExecutorRunnable:
--> curi
-* INFO * yarn.client.max-cached-nodemanagers-proxies : 0
-* INFO * Registering block manager * with * GB RAM, * *
-10:46:40 INFO cluster.YarnClusterSchedulerBackend: SchedulerBackend is ready for scheduling beginning after waiting maxRegisteredResourcesWaitingTime:
-* INFO * Adding task set * with * tasks
-* INFO * * * * * * * * * free: *
-* INFO * * * * at *
-* INFO * Starting task * in stage * * * partition * *
-* INFO * Created broadcast * from * at *
-* INFO * Submitting * missing tasks from ResultStage * at * at
-* INFO * failed:
-* INFO * Cleaned accumulator *
-* INFO * Final stage: ResultStage * at
-* INFO * Finished task * in stage * in * ms on *
-* INFO * Missing parents:
-* INFO scheduler.DAGScheduler: Got job * at with 13 output partitions
-* INFO * Asked to send map output locations for shuffle * to *
-11:14:14 INFO scheduler.DAGScheduler: Missing parents: List(ShuffleMapStage
-* INFO broadcast.TorrentBroadcast: Started reading broadcast variable *
-* INFO python.PythonRunner: Times: total = * boot = * init = * finish = *
-* INFO storage.BlockManager: Removing RDD *
-* INFO storage.BlockManager: Found block * locally
-* INFO * * * * * on host *
-* INFO spark.MapOutputTrackerWorker: Updating epoch to * and clearing cache
-* INFO mapred.SparkHadoopMapRedUtil: * Committed
-* INFO * * * * * * * ms
-* INFO output.FileOutputCommitter: Saved output of task * to *
-* INFO spark.MapOutputTrackerWorker: Got the output locations
-* INFO output.FileOutputCommitter: File Output Committer Algorithm version is 1
-* INFO spark.MapOutputTrackerWorker: Don't have map outputs for shuffle * fetching them
-* INFO storage.ShuffleBlockFetcherIterator: Getting * non-empty blocks out of * blocks
-* INFO spark.MapOutputTrackerWorker: Doing the fetch; tracker endpoint =
-* INFO executor.CoarseGrainedExecutorBackend: Driver commanded a shutdown
-11:40:07 INFO cluster.YarnSchedulerBackend$YarnSchedulerEndpoint: ApplicationMaster registered as
-* INFO * Launching ExecutorRunnable. driverUrl: * executorHostname: *
-* INFO * Preparing Local resources
-* INFO * Removed TaskSet * whose tasks have all completed, from pool
-* INFO spark.MapOutputTrackerMaster: Size of output statuses for shuffle * is * bytes
-* INFO * waiting: Set(ResultStage
-* INFO * Submitting ResultStage * at * at * which has no missing parents
-* INFO spark.SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(yarn, curi); users with modify permissions: Set(yarn,
-* INFO spark.CacheManager: Partition * not found, computing it
-* INFO * Starting Executor Container
-* WARN * Stage * contains a task of very large size KB). The maximum recommended task size is 100 KB.
-* ERROR executor.Executor: Exception in task * in stage *
-* more
-* INFO storage.BlockManagerMaster: Trying to register BlockManager
-* INFO * Setting up ContainerLaunchContext
--server -XX:OnOutOfMemoryError='kill %p' * * -Djava.io.tmpdir={{PWD}}/tmp * -Dspark.yarn.app.container.log.dir=<LOG_DIR> -XX:MaxPermSize=256m org.apache.spark.executor.CoarseGrainedExecutorBackend --driver-url * --executor-id * --hostname * --cores 5 --app-id * --user-class-path file:$PWD/__app__.jar 1> <LOG_DIR>/stdout 2> <LOG_DIR>/stderr
--> PRIVATE,PRIVATE,PRIVATE
-15:55:27 ERROR python.PythonRunner: This may have been caused by a prior exception:
-Failed to connect to *
-* ERROR storage.ShuffleBlockFetcherIterator: Failed to get from *
-* INFO netty.NettyBlockTransferService: Server created on *
-* ERROR shuffle.RetryingBlockFetcher: Exception while beginning fetch of 1 outstanding blocks *
-* WARN netty.NettyRpcEndpointRef: Error sending message [message = * in * attempts
-* INFO slf4j.Slf4jLogger: Slf4jLogger started
-* INFO YarnAllocator: Container request Any, capability: *
-* WARN Dispatcher: Message dropped.
-* INFO Configuration.deprecation: * is deprecated. Instead, use *
-* INFO Remoting: Starting remoting
-21:11:16 INFO JettyUtils: Adding filter: org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter
-* INFO ContextHandler: stopped *
--server -XX:OnOutOfMemoryError='kill %p' -Xms20480m -Xmx20480m -Djava.io.tmpdir={{PWD}}/tmp * * '-Dspark.akka.frameSize=2000' -Dspark.yarn.app.container.log.dir=<LOG_DIR> -XX:MaxPermSize=256m org.apache.spark.executor.CoarseGrainedExecutorBackend --driver-url * --executor-id * --hostname * --cores 8 --app-id * --user-class-path file:$PWD/__app__.jar 1> <LOG_DIR>/stdout 2> <LOG_DIR>/stderr
-* INFO AMRMClientImpl: Received new token for : *
-21:29:40 INFO Server: jetty-8.y.z-SNAPSHOT
-RpcEnv already stopped.
-* INFO storage.BlockManager: BlockManager stopped
-22:07:21 INFO SparkUI: Started SparkUI at http://10.10.34.24:34104
-* INFO ExecutorRunnable:
-* INFO executor.CoarseGrainedExecutorBackend: Successfully registered with driver
-* INFO storage.MemoryStore: MemoryStore cleared
-16:43:09 INFO DAGScheduler: Parents of final stage:
-17:12:57 WARN TaskSetManager: Lost task 31.0 in stage 1.0 33, mesos-slave-20): TaskKilled
-"pnmf4.py", line * in <lambda>
-iterator),
-* line 2346, in pipeline_func
-* line 106, in process
-* INFO executor.Executor: Executor killed task * in stage *
-* line 236, in mergeValues
-* INFO executor.Executor: Executor is trying to kill task * in stage *
-"/opt/hdfs/nodemanager/usercache/curi/appcache/application_1485248649253_0029/container_1485248649253_0029_01_000001/pyspark.zip/pyspark/rdd.py", line 1776, in combineLocally
-"pnmf4.py", line * in update
-* line 317, in func
-18:02:34 INFO ParallelCollectionRDD: Removing RDD 9 from persistence list
-18:41:27 INFO DAGScheduler: Registering RDD 41 at
-token is expired. current time is * found *
-sun.nio.ch.FileDispatcherImpl.read0(Native
-* WARN TaskSetManager: Lost task * in stage * * * ExecutorLostFailure * exited caused by one of the running Reason: Container killed by YARN for exceeding memory limits. * GB of * GB * memory used. Consider boosting spark.yarn.executor.memoryOverhead.
-* WARN * Container killed by YARN for exceeding memory limits. * GB of * GB * memory used. Consider boosting spark.yarn.executor.memoryOverhead.
-* INFO BlockManagerMasterEndpoint: Trying to remove executor * from BlockManagerMaster.
-10:23:17 WARN python.PythonRunner: Incomplete task interrupted: Attempting to kill Python Worker
-11:55:09 ERROR client.TransportResponseHandler: Still have 1 requests outstanding when connection from mesos-slave-13/10.10.34.23:47896 is closed
-sun.nio.ch.SocketChannelImpl.checkConnect(Native
-* INFO shuffle.RetryingBlockFetcher: Retrying fetch for * outstanding blocks after 5000 ms
-* ERROR TransportRequestHandler: Error while invoking for one-way message.
-* INFO * Remote daemon shut down; proceeding with flushing remote transports.
-Traceback recent call last):
-"/opt/hdfs/nodemanager/usercache/curi/appcache/application_1485248649253_0037/container_1485248649253_0037_02_000004/pyspark.zip/pyspark/broadcast.py", line 97, in value
-14:28:34 ERROR YarnClusterScheduler: Lost executor 3 on mesos-slave-25: Container killed by YARN for exceeding memory limits. 52.0 GB of 46.2 GB virtual memory used. Consider boosting spark.yarn.executor.memoryOverhead.
-* ERROR shuffle.OneForOneBlockFetcher: Failed while starting block fetches
-* INFO util.ShutdownHookManager: Deleting directory *
-15:13:37 ERROR executor.CoarseGrainedExecutorBackend: RECEIVED SIGNAL 15: SIGTERM
-group
-* INFO client.TransportClientFactory: Found inactive connection to * creating a new one.
-14:54:32 INFO YarnClusterSchedulerBackend: Registered executor with ID 5
-* INFO executor.CoarseGrainedExecutorBackend: Connecting to driver: *
-Connection reset by peer
-* INFO SparkContext: Invoking from shutdown hook
-by: java.net.ConnectException: Connection refused: *
-15:34:59 INFO MapOutputTrackerMasterEndpoint: MapOutputTrackerMasterEndpoint stopped!
-in thread "main" java.io.IOException: Failed to connect to /10.10.34.37:35314
-* INFO YarnRMClient: Registering the ApplicationMaster
-18:00:16 INFO YarnClusterSchedulerBackend: SchedulerBackend is ready for scheduling beginning after reached minRegisteredResourcesRatio: 0.8
-18:00:21 INFO DAGScheduler: Job 0 finished: collect at pnmf4.py:292, took 5.202508 s
-* INFO YarnAllocator: Will request 1 executor containers, each with * cores and 22528 MB memory including 2048 MB overhead
-"/opt/hdfs/nodemanager/usercache/curi/appcache/application_1485248649253_0050/container_1485248649253_0050_01_000020/pyspark.zip/pyspark/broadcast.py", line 83, in load
-* INFO * Shutdown hook called
-[Errno 2] No such file or directory: u'/opt/hdfs/nodemanager/usercache/curi/appcache/application_1485248649253_0050/spark-27b502b6-33e6-4875-8f58-9e6ea12d6e1d/broadcast7810572518515671998'
-* ERROR ApplicationMaster: Failed to connect to driver at 10.10.34.11:49939, retrying ...
-10:04:42 INFO ApplicationMaster: ApplicationAttemptId: appattempt_1485248649253_0052_000001
-17:28:06 INFO AbstractConnector: Started SelectChannelConnector@0.0.0.0:51244
-19:58:41 INFO BlockManagerMaster: Removed 1 successfully in removeExecutor
-23:20:04 INFO BlockManagerMasterEndpoint: Removing block manager BlockManagerId(1, mesos-slave-07,
-23:47:47 ERROR shuffle.RetryingBlockFetcher: Exception while beginning fetch of 1 outstanding blocks
-by: java.io.IOException: Failed to connect to mesos-slave-07/10.10.34.17:58702
-00:25:31 WARN server.TransportChannelHandler: Exception in connection from mesos-slave-20/10.10.34.30:45641
-* WARN TaskSetManager: Lost task * in stage * * * * * * shuffleId=3, * * message=
-00:03:50 INFO ShuffleMapStage: ShuffleMapStage 10 is now unavailable on executor 11
-* INFO YarnAllocator: Completed container * on host: * COMPLETE, exit status:
-23:47:16 INFO DAGScheduler: running:
-* INFO ExecutorRunnable: Prepared Local resources Map(__spark__.jar -> resource { scheme: "hdfs" host: "10.10.34.11" port: 9000 file: * } size: 109525492 timestamp: * type: FILE visibility: PRIVATE, pyspark.zip -> resource { scheme: "hdfs" host: "10.10.34.11" port: 9000 file: * } size: 355358 timestamp: * type: FILE visibility: PRIVATE, py4j-0.9-src.zip -> resource { scheme: "hdfs" host: "10.10.34.11" port: 9000 file: * } size: 44846 timestamp: * type: FILE visibility:
-row: *
-* INFO YarnAllocator: Received * containers from YARN, launching executors on * of them.
-by: java.util.concurrent.TimeoutException: Futures timed out after [120 seconds]
-15:53:43 INFO DAGScheduler: looking for newly runnable stages
-16:00:56 INFO YarnClusterSchedulerBackend: Disabling executor 7.
-19:38:06 INFO DAGScheduler: Resubmitting ShuffleMapStage 4 at and ResultStage 5 at due to fetch failure
-13:15:51 WARN TaskSetManager: Lost task 0.0 in stage 2.0 6, mesos-slave-05): ExecutorLostFailure 4 exited caused by one of the running Reason: Executor heartbeat timed out after 159094 ms
-14:16:03 INFO SparkContext: Successfully stopped SparkContext
-13:55:37 WARN netty.NettyRpcEndpointRef: Error sending message [message = Heartbeat(5,[Lscala.Tuple2;@257ccde,BlockManagerId(5, mesos-slave-14, 54540))] in 1 attempts
-by: org.apache.spark.rpc.RpcTimeoutException: Futures timed out after [120 seconds]. This timeout is controlled by spark.rpc.lookupTimeout
-14:33:10 INFO DAGScheduler: Host added was in lost list earlier: mesos-slave-05
-by: org.apache.hadoop.yarn.exceptions.YarnException: Unauthorized request to start container.
-09:29:53 INFO DAGScheduler: Executor lost: 2
-09:30:35 ERROR TransportRequestHandler: Error sending result RpcResponse{requestId=8642829483105648611, body=NioManagedBuffer{buf=java.nio.HeapByteBuffer[pos=0 lim=47 cap=47]}} to mesos-slave-17/10.10.34.27:42890; closing connection
-* INFO remote.RemoteActorRefProvider$RemotingTerminator: Shutting down remote daemon.
-22:16:25 INFO ApplicationMaster: Started progress reporter thread with : 3000, initial allocation : intervals
-up _JAVA_OPTIONS: -Djava.io.tmpdir=/opt/hdfs/tmp
-16:25:40 INFO ApplicationMaster: Driver now available: 10.10.34.11:45525
--> true
-10:21:40 INFO remote.RemoteActorRefProvider$RemotingTerminator: Remoting shut down.
-by: org.apache.spark.SparkException: Exception while starting container container_1485248649253_0113_02_000012 on host mesos-slave-15
-code: 1
-id: container_1485248649253_0126_01_000039
-Failed to send RPC 7528530389712074808 to mesos-master-1/10.10.34.11:51096: java.nio.channels.ClosedChannelException
-by: java.nio.channels.ClosedChannelException
-Connection from mesos-master-1/10.10.34.11:51096 closed
-19:01:59 INFO ApplicationMaster$AMEndpoint: Add WebUI Filter. AddWebUIFilter(org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter,Map(PROXY_HOSTS -> mesos-master-1, PROXY_URI_BASES ->
-* WARN YarnAllocator: Container marked as failed: * on host: * Exit status: -100. Diagnostics: Container expired since it was unused
-sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native
-15:44:32 ERROR server.TransportChannelHandler: Connection to mesos-master-1/10.10.34.11:47966 has been quiet for 120000 ms while there are outstanding requests. Assuming connection is dead; please adjust spark.network.timeout if this is wrong.
+3581
+3610
+* 0 4
+totalAltitude=240
+3646
+totalCalories=128917
+getTodayTotalDetailSteps = *
+* 0 0
+3711
+: * * * *
+packageName = com.huawei.health
+3761
+* * 5
+action:android.intent.action.TIME_TICK
+3786
+totalAltitude=0
+totalCalories=0
+date * *
+size = * = 1,One Data Type = * = com.huawei.health,writeStatType = 0
+4574
+totalCalories=16874
+4650
+4682
+first 500 steps sync,do all sync
+appSynTimes is 0, statsyncTimes is 0
+the * is true
+action:android.intent.action.SCREEN_ON
+5551
+totalCalories=43750
+5844
+time=25234794,0,25,0,20002
+result success
+6051
+totalCalories=49273
+time=25234811,0,17,0,20002
+time=25234843,0,112,0,20002
+autoSyncSwitch is open
+7255
+back,extendReportTimeStamp=1514093457000
+totalAltitude=30
+saveOneDetailData fail hiHealthData = * = *
+time=25234897,0,70,0,20002
+time=25234921,0,65,0,20002
+time=25234951,0,19,0,20002
+onSuccess type = 0 data=true
+the * switch is open, start push * data!
+end totalTime = *
+hiSyncOption = * syncMethod=2, syncScope=0, syncDataType=20000, syncModel=2, pushAction=0},app = 1 who = 1
+no such data in db ,type is 1 deviceCode is 0
+connect 1.0.0.0
+79
+93
+142
+174
+235
+time=25235039,0,10,0,20002
+stepStatSum or calorieStatSum is enough
+totalCalories=28791
+1353
+time=25235081,0,44,0,20002
+totalCalories=48618
+time=25235108,0,52,0,20002
+totalCalories=56585
+totalCalories=60610
+totalCalories=61038
+totalCalories=78855
+totalCalories=78898
+totalCalories=80290
+totalCalories=80397
+3785
+totalCalories=91617
+4280
+4285
+totalCalories=91832
+totalCalories=93437
+4420
+totalCalories=119191
+4661
+totalAltitude=90
+success * *
+4735
+4788
+totalCalories=123709
+totalCalories=125209
+totalAltitude=120
+totalCalories=132559
+4975
+time=25235213,0,62,30,20004
+deviceID = 2,clientID=1,id=1
+5317
+stepSum or calorieSum is enough
+5505
+5537
+totalAltitude=150
+5550
+totalCalories=158802
+5808
+totalAltitude=210
+totalCalories=166965
+5847
+5897
+5917
+action: *
+totalCalories=171033
+6130
+totalCalories=173089
+6259
+start auto sync,app is 1
+6331
+totalCalories=177544
+6391
+totalCalories=181227
+6575
+totalCalories=183326
+totalCalories=183776
+type * = * = 2,who is 1
+totalCalories=187931
+6829
+6903
+sensor data
+6975
+totalCalories=192492
+totalCalories=197010
+7447
+totalAltitude=360
+7476
+7593
+7953
+size *
+time=25235315,0,134,0,20003
+totalCalories=258260
+* 0 3
+8439
+8529
+time=25235389,0,108,0,20002
+totalCalories=281876
+totalCalories=281918
+totalCalories=281961
+totalCalories=282240
+checkAppType 0 appID = 1
+9367
+9503
+totalCalories=285773
+subscribeList = [1]
+totalCalories=293829
+time=25235395,0,104,0,20002
+9877
+totalAltitude=390
+10214
+failed message=true
+totalCalories=307813
+10510
+totalAltitude=420
+totalCalories=317561
+10591
+10639
+10643
+10734
+totalCalories=342737
+totalAltitude=540
+totalCalories=349702
+isAppValid health or wear, packageName = com.huawei.health
+totalCalories=373101
+11325
+totalCalories=376592
+11355
+totalCalories=379076
+totalAltitude=630
+totalCalories=379933
+11438
+11504
+11505
+totalCalories=384217
+totalCalories=386830
+totalCalories=403136
+totalAltitude=690
+totalCalories=403392
+11903
+12021
+12234
+totalCalories=8201
+totalCalories=8265
+size = * = *
+time=25236062,0,120,0,20002
+time=25236250,0,103,0,20002
+back,extendReportTimeStamp=1514180369000
+totalAltitude=60
+totalCalories=120999
+totalCalories=130425
+totalCalories=133422
+17366
+totalCalories=135671
+totalCalories=135971
+totalCalories=136549
+17589
+time=25236599,0,56,0,20002
+* * 1
+totalCalories=149419
+18672
+totalCalories=175170
+18712
+totalCalories=176604
+18807
+totalCalories=178274
+18820
+totalCalories=178552
+18917
+19007
+19073
+19103
+19137
+19147
+totalCalories=186691
+19298
+19304
+19358
+19382
+19390
+19458
+onResult type = 4 obj=true
+totalCalories=194764
+19698
+20047
+totalCalories=232813
+totalCalories=233798
+time=25236739,0,102,0,20002
+20730
+totalAltitude=270
+totalCalories=246495
+20905
+21344
+21354
+totalCalories=257778
+21442
+21455
+21468
+totalCalories=276481
+time=25236779,0,35,0,20002
+totalCalories=292285
+22659
+22723
+totalCalories=316644
+22887
+totalCalories=332456
+totalAltitude=480
+totalCalories=334427
+totalCalories=336032
+23137
+totalAltitude=510
+time=25236809,0,65,30,20004
+time=25236813,0,39,0,20002
+totalCalories=362268
+23943
+23990
+24075
+24121
+totalCalories=371264
+totalCalories=371521
+24162
+24163
+24168
+24222
+totalCalories=375590
+24379
+24400
+totalCalories=382486
+totalCalories=398441
+totalCalories=401011
+totalCalories=403045
+25341
+25449
+25462
+totalCalories=407692
+25531
+25576
+totalCalories=409641
+25615
+25633
+25710
+totalCalories=412831
+25753
+25839
+totalCalories=415294
+25846
+25878
+25880
+totalCalories=417477
+totalCalories=417649
+26157
+26169
+26173
+totalAltitude=570
+totalAltitude=600
+totalCalories=443981
+310
+totalCalories=18503
+516
+532
+totalCalories=21051
+627
+totalCalories=24242
+798
+875
+totalCalories=27776
+1014
+1035
+1394
+totalCalories=53312
+totalCalories=59027
+totalCalories=60655
+totalCalories=61489
+1922
+1943
+1945
+1954
+totalCalories=64166
+totalCalories=64273
+2017
+2031
+2032
+totalCalories=66179
+totalCalories=66286
+2347
+totalCalories=72904
+2408
+totalCalories=73524
+totalCalories=77465
+time=25237749,0,117,0,20002
+totalCalories=89029
+3165
+3320
+totalCalories=97963
+4008
+totalCalories=116057
+totalCalories=116357
+4194
+4200
+totalCalories=117085
+4234
+totalCalories=117621
+4239
+totalCalories=117963
+totalCalories=119805
+totalCalories=120384
+totalCalories=122504
+totalAltitude=180
+totalCalories=144104
+4555
+totalCalories=144125
+totalCalories=147187
+4753
+4827
+totalCalories=150486
+4873
+totalCalories=151985
+back,extendReportTimeStamp=1514298404000
+totalCalories=156117
+uploadStaticsToDB *
+totalCalories=156760
+totalCalories=158495
+5248
+totalCalories=165181
+5329
+totalCalories=172381
+5355
+totalCalories=173302
+5430
+back,extendReportTimeStamp=1514298820000
+totalCalories=174714
+5485
+totalCalories=214
+totalCalories=235
+5533
+5625
+totalCalories=8478
+totalCalories=8543
+totalCalories=8564
+5901
+5933
+6922
+6980
+totalCalories=55821
+9528
+9559
+totalCalories=112822
+time=25239458,0,47,0,20002
+11063
+totalCalories=153424
+11345
+totalCalories=157322
+11375
+11398
+11406
+11430
+11705
+totalCalories=165180
+totalCalories=165758
+bulkSaveDetailHiHealthData fail errorCode = 4,errorMessage = ERR_DATA_INSERT
+totalCalories=171197
+totalCalories=172717
+totalCalories=173296
+totalCalories=173360
+totalCalories=174066
+totalCalories=174923
+success
+12432
+totalCalories=187048
+totalCalories=188098
+12519
+totalCalories=188675
+12848
+totalCalories=221651
+totalCalories=221843
+12876
+12887
+totalAltitude=300
+12910
+totalCalories=222571
+back,extendReportTimeStamp=1514420815000
+by stand
+13342
+totalCalories=27883
+13967
+back,extendReportTimeStamp=1514424635000
+by ext
+14076
+14243
+14268
+not! no cloud version
+totalCalories=39896
+totalCalories=56131
+back,extendReportTimeStamp=1514435575000
+15674
+totalCalories=69666
+totalCalories=75684
+totalCalories=76176
+16007
+totalCalories=77161
+16034
+16041
+16185
+totalCalories=84229
+totalCalories=84336
+totalCalories=84720
+16405
+totalCalories=91792
+16470
+time=25240634,0,108,0,20002
+time=25240635,0,8,0,20002
+totalCalories=93505
+16499
+16652
+16827
+totalCalories=103485
+time=25240977,0,56,0,20002
+totalCalories=106912
+16998
+17003
+totalCalories=109653
+17231
+totalCalories=112329
+17398
+totalCalories=121109
+17526
+totalCalories=141161
+18203
+18559
+18575
+18587
+18607
+18666
+18918
+totalCalories=204218
+totalCalories=204838
+totalCalories=205395
+totalCalories=205416
+18999
+time=25241792,0,97,0,20002
+19339
+19442
+totalCalories=9742
+totalCalories=9999
+totalCalories=10406
+19983
+19986
+totalCalories=21561
+totalCalories=28847
+totalCalories=31201
+totalCalories=31351
+20167
+20171
+totalCalories=31501
+totalCalories=31651
+totalCalories=32593
+totalCalories=32743
+20268
+20285
+totalCalories=34242
+totalCalories=40907
+20374
+totalCalories=41849
+20522
+totalCalories=44954
+20595
+totalCalories=46602
+totalCalories=46731
+totalCalories=47437
+20697
+totalCalories=48122
+totalCalories=49193
+totalCalories=49685
+totalCalories=50842
+totalCalories=59964
+21303
+21327
+totalCalories=61828
+21380
+21427
+21451
+totalCalories=64655
+totalCalories=65019
+totalCalories=65233
+totalCalories=68060
+21740
+totalCalories=76051
+back,extendReportTimeStamp=1514527635000
+21769
+appSynTimes is 0
+totalCalories=76286
+21834
+21968
+21987
+totalCalories=80825
+time=25242381,0,63,0,20002
+totalCalories=82688
+22203
+totalCalories=85793
+22232
+totalCalories=86200
+22255
+22260
+totalCalories=87571
+22318
+totalCalories=87978
+22371
+totalCalories=88942
+totalCalories=89113
+22480
+totalCalories=118245
+back,extendReportTimeStamp=1514547102000
+23155
+totalCalories=119122
+totalCalories=119700
+23265
+totalCalories=120684
+totalCalories=121605
+totalCalories=122590
+23639
+pkgName = com.huawei.systemserver, service = com.huawei.systemserver.ihealth.connectivity.HwStepCounterService
+0
+back,extendReportTimeStamp=1514597314000
+113
+116
+202
+216
+221
+245
+271
+351
+434
+442
+449
+450
+455
+492
+535
+539
+564
+594
+655
+695
+772
+totalCalories=17196
+1218
+totalCalories=38212
+totalCalories=38790
+1281
+totalCalories=44333
+1583
+totalCalories=46517
+1648
+totalCalories=47588
+totalCalories=50970
+1855
+1876
+totalCalories=57220
+totalCalories=57884
+2142
+totalCalories=58377
+totalCalories=92506
+totalCalories=93105
+totalCalories=93555
+2948
+2965
+3723
+3725
+3809
+3813
+time=25243595,0,43,0,20002
+4210
+totalCalories=151697
+totalCalories=151996
+4401
+totalCalories=155229
+totalCalories=155807
+4465
+totalCalories=156921
+totalCalories=159340
+4654
+totalCalories=160561
+4702
+totalCalories=161460
+totalCalories=161567
+4726
+4833
+totalCalories=173735
+time=25243791,0,106,0,20002
+totalAltitude=330
+totalCalories=174441
+4987
+5046
+totalCalories=176326
+5068
+totalCalories=176540
+5090
+5144
+5158
+5176
+totalCalories=178768
+totalCalories=178789
+totalCalories=179302
+totalCalories=181337
+5356
+totalCalories=212063
+totalAltitude=450
+5508
+totalCalories=212662
+totalCalories=249513
+totalCalories=249642
+totalCalories=249984
+totalCalories=262254
+time=25243891,0,107,0,20002
+totalCalories=264803
+6762
+6789
+totalCalories=267265
+totalCalories=268614
+totalCalories=270069
+totalCalories=270262
+6969
+totalCalories=270926
+7014
+totalCalories=272317
+totalCalories=272531
+totalCalories=273730
+totalCalories=275208
+time=25244056,0,51,0,20002
+totalCalories=276493
+totalCalories=278955
+totalCalories=279362
+totalCalories=281803
+7502
+7586
+totalCalories=284951
+totalCalories=285294
+totalCalories=286001
+totalCalories=286086
+totalCalories=287243
+totalCalories=287864
+7993
+totalCalories=293067
+totalCalories=294674
+8270
+totalCalories=299707
+totalCalories=299943
+totalCalories=300307
+8416
+8446
+totalCalories=306689
+totalCalories=306710
+totalCalories=308424
+8730
+8791
+8799
+time=25244072,0,47,0,20002
+totalCalories=310930
+totalCalories=312107
+8937
+8968
+time=25244645,0,11,0,20002
+setp and calories is too less
+9571
+totalCalories=19999
+totalCalories=20834
+totalCalories=28099
+totalCalories=106818
+11506
+totalCalories=114677
+totalCalories=115105
+totalCalories=115491
+11622
+totalCalories=115705
+12152
+totalCalories=138410
+isSystemApp = true
+com.huawei.health.c.c@8e48250
+totalCalories=52024
+482
+522
+572
+totalCalories=61406
+721
+733
+749
+783
+796
+1227
+1254
+1259
+totalCalories=76804
+totalCalories=77446
+totalCalories=77939
+back,extendReportTimeStamp=1514688757000
+totalCalories=80615
+totalCalories=80872
+1751
+3003
+totalCalories=119697
+3673
+totalCalories=159907
+4054
+totalCalories=227272
+totalCalories=235301
+6084
+totalCalories=237657
+totalCalories=240139
+totalCalories=241466
+6555
+totalCalories=256673
+totalCalories=264403
+totalCalories=264446
+totalCalories=264810
+7151
+7152
+7159
+7163
+7177
+7186
+7222
+7243
+7272
+totalCalories=269115
+totalCalories=269329
+totalCalories=271963
+7463
+totalCalories=298381
+8023
+back,extendReportTimeStamp=1514728958000
+8367
+totalCalories=308695
+8433
+totalCalories=309957
+getTodayBasicStandardSteps= 1514736000229##8433##0
+8449
+totalCalories=342
+totalCalories=1904
+totalCalories=4985
+8859
+totalCalories=10959
+8945
+block report
+totalCalories=13934
+totalCalories=35388
+totalCalories=35538
+10093
+10201
+totalCalories=37892
+totalCalories=38042
+10258
+10282
+10349
+totalCalories=95064
+12944
+totalCalories=97419
+totalCalories=97761
+13003
+totalCalories=104919
+totalCalories=104940
+13235
+totalCalories=108280
+totalCalories=108323
+14222
+totalCalories=130016
+totalCalories=131408
+totalCalories=132115
+14390
+14586
+14594
+14627
+14658
+14705
+time=25247432,0,9,0,20002
+14740
+totalCalories=4239
+14884
+totalCalories=6509
+totalCalories=7215
+14998
+totalCalories=7558
+totalCalories=7644
+15313
+totalCalories=14817
+15352
+15381
+totalCalories=15545
+totalCalories=16038
+15483
+15612
+16458
+totalCalories=71030
+16841
+totalCalories=78847
+16905
+16909
+16928
+totalCalories=79939
+totalCalories=87456
+time=25247537,0,61,0,20002
+17770
+17795
+totalCalories=110743
+17835
+totalCalories=111471
+totalCalories=112456
+17925
+totalCalories=114491
+18014
+18019
+start autoSync
+18153
+18175
+18504
+18775
+totalCalories=150800
+totalCalories=160071
+time=25247762,0,91,0,20002
+21939
+totalCalories=245165
+totalCalories=245850
+totalCalories=245957
+22149
+22161
+time=25247877,0,109,0,20002
+23063
+23482
+23730
+totalCalories=297515
+24372
+24661
+24680
+time=25247917,0,19,0,20002
+totalCalories=321156
+24829
+totalCalories=322162
+totalCalories=324540
+25033
+time=25247961,0,107,0,20002
+26423
+26432
+totalCalories=382694
+26514
+totalCalories=383337
+26582
+26593
+totalCalories=386120
+totalCalories=386549
+totalCalories=386741
+26734
+26935
+time=25248032,0,45,0,20002
+28050
+totalCalories=421048
+totalAltitude=660
+totalCalories=424579
+totalCalories=425500
+28306
+totalCalories=426742
+totalCalories=426827
+28361
+totalCalories=429248
+28451
+time = 1514890379518, totalTime = 38
+checkAppType 0 appID = 1 id = 1 time= 1514890380902
+readOption = HiDataReadOption{startTime=-28800000, endTime=1514908799999, type=[42003], count = 7, sortOrder=1, readType=0, alignType=0}
+checkAppType 0 appID = 1 id = 1 time = 1514890501426
+aggregateOption is HiAggregateOption{startTime=0, endTime=1514890501424, type=[42003, 42005, 42004], alignType=0, aggregateType=1, groupUnitType=7}
+totalCalories=436164
+28780
+28816
+totalCalories=438991
+totalCalories=439997
+totalCalories=440319
+totalCalories=441068
+totalCalories=441368
+29194
+29209
+totalCalories=446058
+29232
+29242
+486
+551
+597
+totalCalories=18525
+626
+totalCalories=19145
+654
+totalCalories=25098
+1182
+1208
+totalCalories=152865
+totalCalories=209454
+totalCalories=212538
+totalCalories=212667
+totalCalories=213181
+totalCalories=238593
+totalCalories=318590
+8516
+8526
+8580
+8614
+totalAltitude=810
+8651
+totalCalories=445373
+totalCalories=445845
+totalCalories=446294
+totalCalories=448564
+totalAltitude=840
+8852
+totalCalories=456193
+8988
+totalCalories=457970
+9010
+totalCalories=749
+totalCalories=4280
+time=25248992,0,23,0,20002
+9448
+totalCalories=22618
+totalCalories=32211
+9912
+totalCalories=32617
+mStepsRecordManager=com.huawei.health.g.c@3532d33
