@@ -1,0 +1,179 @@
+* INFO executor.Executor: Finished task * in stage * * * bytes result sent to driver
+* INFO executor.CoarseGrainedExecutorBackend: Got assigned task *
+* INFO * Successfully started service * on port *
+* INFO * Input split: *
+* INFO executor.Executor: Running task * in stage *
+* INFO * Block * stored as * in memory size * * free *
+* WARN executor.CoarseGrainedExecutorBackend: An unknown driver disconnected.
+* INFO * MemoryStore started with capacity * GB
+* INFO executor.CoarseGrainedExecutorBackend: Registered signal handlers for [TERM, HUP, INT]
+* ERROR executor.CoarseGrainedExecutorBackend: Driver * disassociated! Shutting down.
+* INFO Remoting: Remoting started; listening on addresses *
+* INFO * Changing * acls to: yarn,curi
+* INFO storage.BlockManagerMaster: Registered BlockManager
+-> *
+* INFO * Opening proxy : *
+executor launch context:
+* INFO yarn.ExecutorRunnable:
+-> curi
+* INFO * yarn.client.max-cached-nodemanagers-proxies : 0
+* INFO * Registering block manager * with * GB RAM, * *
+10:46:40 INFO cluster.YarnClusterSchedulerBackend: SchedulerBackend is ready for scheduling beginning after waiting maxRegisteredResourcesWaitingTime:
+* INFO * Adding task set * with * tasks
+* INFO * * * * * * * * * free: *
+* INFO * * * * at *
+* INFO * Starting task * in stage * * * partition * *
+* INFO * Created broadcast * from * at *
+* INFO * Submitting * missing tasks from ResultStage * at * at
+* INFO * failed:
+* INFO * Cleaned accumulator *
+* INFO * Final stage: ResultStage * at
+* INFO * Finished task * in stage * in * ms on *
+* INFO * Missing parents:
+* INFO scheduler.DAGScheduler: Got job * at with 13 output partitions
+* INFO * Asked to send map output locations for shuffle * to *
+11:14:14 INFO scheduler.DAGScheduler: Missing parents: List(ShuffleMapStage
+* INFO broadcast.TorrentBroadcast: Started reading broadcast variable *
+* INFO python.PythonRunner: Times: total = * boot = * init = * finish = *
+* INFO storage.BlockManager: Removing RDD *
+* INFO storage.BlockManager: Found block * locally
+* INFO * * * * * on host *
+* INFO spark.MapOutputTrackerWorker: Updating epoch to * and clearing cache
+* INFO mapred.SparkHadoopMapRedUtil: * Committed
+* INFO * * * * * * * ms
+* INFO output.FileOutputCommitter: Saved output of task * to *
+* INFO spark.MapOutputTrackerWorker: Got the output locations
+* INFO output.FileOutputCommitter: File Output Committer Algorithm version is 1
+* INFO spark.MapOutputTrackerWorker: Don't have map outputs for shuffle * fetching them
+* INFO storage.ShuffleBlockFetcherIterator: Getting * non-empty blocks out of * blocks
+* INFO spark.MapOutputTrackerWorker: Doing the fetch; tracker endpoint =
+* INFO executor.CoarseGrainedExecutorBackend: Driver commanded a shutdown
+11:40:07 INFO cluster.YarnSchedulerBackend$YarnSchedulerEndpoint: ApplicationMaster registered as
+* INFO * Launching ExecutorRunnable. driverUrl: * executorHostname: *
+* INFO * Preparing Local resources
+* INFO * Removed TaskSet * whose tasks have all completed, from pool
+* INFO spark.MapOutputTrackerMaster: Size of output statuses for shuffle * is * bytes
+* INFO * waiting: Set(ResultStage
+* INFO * Submitting ResultStage * at * at * which has no missing parents
+* INFO spark.SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(yarn, curi); users with modify permissions: Set(yarn,
+* INFO spark.CacheManager: Partition * not found, computing it
+* INFO * Starting Executor Container
+* WARN * Stage * contains a task of very large size KB). The maximum recommended task size is 100 KB.
+* ERROR executor.Executor: Exception in task * in stage *
+* more
+* INFO storage.BlockManagerMaster: Trying to register BlockManager
+* INFO * Setting up ContainerLaunchContext
+-server -XX:OnOutOfMemoryError='kill %p' * * -Djava.io.tmpdir={{PWD}}/tmp * -Dspark.yarn.app.container.log.dir=<LOG_DIR> -XX:MaxPermSize=256m org.apache.spark.executor.CoarseGrainedExecutorBackend --driver-url * --executor-id * --hostname * --cores 5 --app-id * --user-class-path file:$PWD/__app__.jar 1> <LOG_DIR>/stdout 2> <LOG_DIR>/stderr
+-> PRIVATE,PRIVATE,PRIVATE
+15:55:27 ERROR python.PythonRunner: This may have been caused by a prior exception:
+Failed to connect to *
+* ERROR storage.ShuffleBlockFetcherIterator: Failed to get from *
+* INFO netty.NettyBlockTransferService: Server created on *
+* ERROR shuffle.RetryingBlockFetcher: Exception while beginning fetch of 1 outstanding blocks *
+* WARN netty.NettyRpcEndpointRef: Error sending message [message = * in * attempts
+* INFO slf4j.Slf4jLogger: Slf4jLogger started
+* INFO YarnAllocator: Container request Any, capability: *
+* WARN Dispatcher: Message dropped.
+* INFO Configuration.deprecation: * is deprecated. Instead, use *
+* INFO Remoting: Starting remoting
+21:11:16 INFO JettyUtils: Adding filter: org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter
+* INFO ContextHandler: stopped *
+-server -XX:OnOutOfMemoryError='kill %p' -Xms20480m -Xmx20480m -Djava.io.tmpdir={{PWD}}/tmp * * '-Dspark.akka.frameSize=2000' -Dspark.yarn.app.container.log.dir=<LOG_DIR> -XX:MaxPermSize=256m org.apache.spark.executor.CoarseGrainedExecutorBackend --driver-url * --executor-id * --hostname * --cores 8 --app-id * --user-class-path file:$PWD/__app__.jar 1> <LOG_DIR>/stdout 2> <LOG_DIR>/stderr
+* INFO AMRMClientImpl: Received new token for : *
+21:29:40 INFO Server: jetty-8.y.z-SNAPSHOT
+RpcEnv already stopped.
+* INFO storage.BlockManager: BlockManager stopped
+22:07:21 INFO SparkUI: Started SparkUI at http://10.10.34.24:34104
+* INFO ExecutorRunnable:
+* INFO executor.CoarseGrainedExecutorBackend: Successfully registered with driver
+* INFO storage.MemoryStore: MemoryStore cleared
+16:43:09 INFO DAGScheduler: Parents of final stage:
+17:12:57 WARN TaskSetManager: Lost task 31.0 in stage 1.0 33, mesos-slave-20): TaskKilled
+"pnmf4.py", line * in <lambda>
+iterator),
+* line 2346, in pipeline_func
+* line 106, in process
+* INFO executor.Executor: Executor killed task * in stage *
+* line 236, in mergeValues
+* INFO executor.Executor: Executor is trying to kill task * in stage *
+"/opt/hdfs/nodemanager/usercache/curi/appcache/application_1485248649253_0029/container_1485248649253_0029_01_000001/pyspark.zip/pyspark/rdd.py", line 1776, in combineLocally
+"pnmf4.py", line * in update
+* line 317, in func
+18:02:34 INFO ParallelCollectionRDD: Removing RDD 9 from persistence list
+18:41:27 INFO DAGScheduler: Registering RDD 41 at
+token is expired. current time is * found *
+sun.nio.ch.FileDispatcherImpl.read0(Native
+* WARN TaskSetManager: Lost task * in stage * * * ExecutorLostFailure * exited caused by one of the running Reason: Container killed by YARN for exceeding memory limits. * GB of * GB * memory used. Consider boosting spark.yarn.executor.memoryOverhead.
+* WARN * Container killed by YARN for exceeding memory limits. * GB of * GB * memory used. Consider boosting spark.yarn.executor.memoryOverhead.
+* INFO BlockManagerMasterEndpoint: Trying to remove executor * from BlockManagerMaster.
+10:23:17 WARN python.PythonRunner: Incomplete task interrupted: Attempting to kill Python Worker
+11:55:09 ERROR client.TransportResponseHandler: Still have 1 requests outstanding when connection from mesos-slave-13/10.10.34.23:47896 is closed
+sun.nio.ch.SocketChannelImpl.checkConnect(Native
+* INFO shuffle.RetryingBlockFetcher: Retrying fetch for * outstanding blocks after 5000 ms
+* ERROR TransportRequestHandler: Error while invoking for one-way message.
+* INFO * Remote daemon shut down; proceeding with flushing remote transports.
+Traceback recent call last):
+"/opt/hdfs/nodemanager/usercache/curi/appcache/application_1485248649253_0037/container_1485248649253_0037_02_000004/pyspark.zip/pyspark/broadcast.py", line 97, in value
+14:28:34 ERROR YarnClusterScheduler: Lost executor 3 on mesos-slave-25: Container killed by YARN for exceeding memory limits. 52.0 GB of 46.2 GB virtual memory used. Consider boosting spark.yarn.executor.memoryOverhead.
+* ERROR shuffle.OneForOneBlockFetcher: Failed while starting block fetches
+* INFO util.ShutdownHookManager: Deleting directory *
+15:13:37 ERROR executor.CoarseGrainedExecutorBackend: RECEIVED SIGNAL 15: SIGTERM
+group
+* INFO client.TransportClientFactory: Found inactive connection to * creating a new one.
+14:54:32 INFO YarnClusterSchedulerBackend: Registered executor with ID 5
+* INFO executor.CoarseGrainedExecutorBackend: Connecting to driver: *
+Connection reset by peer
+* INFO SparkContext: Invoking from shutdown hook
+by: java.net.ConnectException: Connection refused: *
+15:34:59 INFO MapOutputTrackerMasterEndpoint: MapOutputTrackerMasterEndpoint stopped!
+in thread "main" java.io.IOException: Failed to connect to /10.10.34.37:35314
+* INFO YarnRMClient: Registering the ApplicationMaster
+18:00:16 INFO YarnClusterSchedulerBackend: SchedulerBackend is ready for scheduling beginning after reached minRegisteredResourcesRatio: 0.8
+18:00:21 INFO DAGScheduler: Job 0 finished: collect at pnmf4.py:292, took 5.202508 s
+* INFO YarnAllocator: Will request 1 executor containers, each with * cores and 22528 MB memory including 2048 MB overhead
+"/opt/hdfs/nodemanager/usercache/curi/appcache/application_1485248649253_0050/container_1485248649253_0050_01_000020/pyspark.zip/pyspark/broadcast.py", line 83, in load
+* INFO * Shutdown hook called
+[Errno 2] No such file or directory: u'/opt/hdfs/nodemanager/usercache/curi/appcache/application_1485248649253_0050/spark-27b502b6-33e6-4875-8f58-9e6ea12d6e1d/broadcast7810572518515671998'
+* ERROR ApplicationMaster: Failed to connect to driver at 10.10.34.11:49939, retrying ...
+10:04:42 INFO ApplicationMaster: ApplicationAttemptId: appattempt_1485248649253_0052_000001
+17:28:06 INFO AbstractConnector: Started SelectChannelConnector@0.0.0.0:51244
+19:58:41 INFO BlockManagerMaster: Removed 1 successfully in removeExecutor
+23:20:04 INFO BlockManagerMasterEndpoint: Removing block manager BlockManagerId(1, mesos-slave-07,
+23:47:47 ERROR shuffle.RetryingBlockFetcher: Exception while beginning fetch of 1 outstanding blocks
+by: java.io.IOException: Failed to connect to mesos-slave-07/10.10.34.17:58702
+00:25:31 WARN server.TransportChannelHandler: Exception in connection from mesos-slave-20/10.10.34.30:45641
+* WARN TaskSetManager: Lost task * in stage * * * * * * shuffleId=3, * * message=
+00:03:50 INFO ShuffleMapStage: ShuffleMapStage 10 is now unavailable on executor 11
+* INFO YarnAllocator: Completed container * on host: * COMPLETE, exit status:
+23:47:16 INFO DAGScheduler: running:
+* INFO ExecutorRunnable: Prepared Local resources Map(__spark__.jar -> resource { scheme: "hdfs" host: "10.10.34.11" port: 9000 file: * } size: 109525492 timestamp: * type: FILE visibility: PRIVATE, pyspark.zip -> resource { scheme: "hdfs" host: "10.10.34.11" port: 9000 file: * } size: 355358 timestamp: * type: FILE visibility: PRIVATE, py4j-0.9-src.zip -> resource { scheme: "hdfs" host: "10.10.34.11" port: 9000 file: * } size: 44846 timestamp: * type: FILE visibility:
+row: *
+* INFO YarnAllocator: Received * containers from YARN, launching executors on * of them.
+by: java.util.concurrent.TimeoutException: Futures timed out after [120 seconds]
+15:53:43 INFO DAGScheduler: looking for newly runnable stages
+16:00:56 INFO YarnClusterSchedulerBackend: Disabling executor 7.
+19:38:06 INFO DAGScheduler: Resubmitting ShuffleMapStage 4 at and ResultStage 5 at due to fetch failure
+13:15:51 WARN TaskSetManager: Lost task 0.0 in stage 2.0 6, mesos-slave-05): ExecutorLostFailure 4 exited caused by one of the running Reason: Executor heartbeat timed out after 159094 ms
+14:16:03 INFO SparkContext: Successfully stopped SparkContext
+13:55:37 WARN netty.NettyRpcEndpointRef: Error sending message [message = Heartbeat(5,[Lscala.Tuple2;@257ccde,BlockManagerId(5, mesos-slave-14, 54540))] in 1 attempts
+by: org.apache.spark.rpc.RpcTimeoutException: Futures timed out after [120 seconds]. This timeout is controlled by spark.rpc.lookupTimeout
+14:33:10 INFO DAGScheduler: Host added was in lost list earlier: mesos-slave-05
+by: org.apache.hadoop.yarn.exceptions.YarnException: Unauthorized request to start container.
+09:29:53 INFO DAGScheduler: Executor lost: 2
+09:30:35 ERROR TransportRequestHandler: Error sending result RpcResponse{requestId=8642829483105648611, body=NioManagedBuffer{buf=java.nio.HeapByteBuffer[pos=0 lim=47 cap=47]}} to mesos-slave-17/10.10.34.27:42890; closing connection
+* INFO remote.RemoteActorRefProvider$RemotingTerminator: Shutting down remote daemon.
+22:16:25 INFO ApplicationMaster: Started progress reporter thread with : 3000, initial allocation : intervals
+up _JAVA_OPTIONS: -Djava.io.tmpdir=/opt/hdfs/tmp
+16:25:40 INFO ApplicationMaster: Driver now available: 10.10.34.11:45525
+-> true
+10:21:40 INFO remote.RemoteActorRefProvider$RemotingTerminator: Remoting shut down.
+by: org.apache.spark.SparkException: Exception while starting container container_1485248649253_0113_02_000012 on host mesos-slave-15
+code: 1
+id: container_1485248649253_0126_01_000039
+Failed to send RPC 7528530389712074808 to mesos-master-1/10.10.34.11:51096: java.nio.channels.ClosedChannelException
+by: java.nio.channels.ClosedChannelException
+Connection from mesos-master-1/10.10.34.11:51096 closed
+19:01:59 INFO ApplicationMaster$AMEndpoint: Add WebUI Filter. AddWebUIFilter(org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter,Map(PROXY_HOSTS -> mesos-master-1, PROXY_URI_BASES ->
+* WARN YarnAllocator: Container marked as failed: * on host: * Exit status: -100. Diagnostics: Container expired since it was unused
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native
+15:44:32 ERROR server.TransportChannelHandler: Connection to mesos-master-1/10.10.34.11:47966 has been quiet for 120000 ms while there are outstanding requests. Assuming connection is dead; please adjust spark.network.timeout if this is wrong.
