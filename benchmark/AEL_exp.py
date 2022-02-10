@@ -5,11 +5,11 @@ sys.path.append('../')
 from logparser import AEL, evaluator
 import os
 import pandas as pd
+import psutil
 
 input_dir = '../logs/' # The input directory of log file
 output_dir = 'AEL_result/' # The output directory of parsing results
 
-'''
 benchmark_settings = {
     'HDFS': {
         #'log_file': 'HDFS/HDFS_2k.log',
@@ -139,18 +139,6 @@ benchmark_settings = {
         #'merge_percent' : 0.6
         #}
 }
-'''
-
-benchmark_settings = {
-    'Mac': {
-        'log_file': 'Mac/Mac_2k.log',
-        'log_format': '<Month>  <Date> <Time> <User> <Component>\[<PID>\]( \(<Address>\))?: <Content>',
-        'regex': [r'([\w-]+\.){2,}[\w-]+'],
-        'minEventCount': 2,
-        'merge_percent' : 0.6
-        }
-
-}
 
 bechmark_result = []
 for dataset, setting in benchmark_settings.iteritems():
@@ -167,6 +155,8 @@ for dataset, setting in benchmark_settings.iteritems():
     	parser = AEL.LogParser(log_format=setting['log_format'], indir=indir, outdir=output_dir,
                              minEventCount=setting['minEventCount'], merge_percent=setting['merge_percent'], rex=setting['regex'], keep_para=False)
     	parser.parse(log_file)
+
+	print(psutil.virtual_memory())
 
         '''
     	F1_measure, accuracy = evaluator.evaluate(
