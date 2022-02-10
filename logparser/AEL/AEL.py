@@ -12,7 +12,7 @@ import pandas as pd
 from datetime import datetime
 from collections import defaultdict
 from functools import reduce
-import codecs
+import codecs, psutil
 
 class Event():
     def __init__(self, logidx, Eventstr=""):
@@ -53,9 +53,11 @@ class LogParser():
         end_time = datetime.now()
         print('Parsing done. [Time taken: {!s}]'.format(end_time - start_time))
 
-        with open("PT_AEL.txt", "a") as f:
-               f.write(logname.split('.')[0]+' '+str(end_time - start_time)+'\n')
+        #with open("PT_AEL.txt", "a") as f:
+               #f.write(logname.split('.')[0]+' '+str(end_time - start_time)+'\n')
 
+	with open("MEM_AEL.txt", 'a') as f:
+		f.write(logname.split('.')[0]+' '+ str(float(psutil.virtual_memory().used)/(1024**3))+'\n')
 
     def tokenize(self):
         '''

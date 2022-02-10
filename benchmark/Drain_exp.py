@@ -10,7 +10,6 @@ import pandas as pd
 input_dir = '../logs/' # The input directory of log file
 output_dir = 'Drain_result/' # The output directory of parsing results
 
-'''
 benchmark_settings = {
     'HDFS': {
         'log_file': 'HDFS/HDFS_2k.log',
@@ -140,17 +139,7 @@ benchmark_settings = {
         #'depth': 6
         #},
 }
-'''
 
-benchmark_settings={
-    'Mac': {
-        'log_file': 'Mac/Mac_2k.log',
-        'log_format': '<Month>  <Date> <Time> <User> <Component>\[<PID>\]( \(<Address>\))?: <Content>',
-        'regex': [r'([\w-]+\.){2,}[\w-]+'],
-        'st': 0.7,
-        'depth': 6
-        },
-}
 bechmark_result = []
 
 for dataset, setting in benchmark_settings.iteritems():

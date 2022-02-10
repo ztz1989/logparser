@@ -18,12 +18,12 @@ benchmark_settings = {
         'rsupport': 10
         },
 
-    #'Hadoop': {
-        #'log_file': 'Hadoop/Hadoop_2k.log',
-        #'log_format': '<Date> <Time> <Level> \[<Process>\] <Component>: <Content>', 
-        #'regex': [r'(\d+\.){3}\d+'],
-        #'rsupport': 10
-        #},
+    'Hadoop': {
+        'log_file': 'Hadoop/Hadoop_2k.log',
+        'log_format': '<Date> <Time> <Level> \[<Process>\] <Component>: <Content>', 
+        'regex': [r'(\d+\.){3}\d+'],
+        'rsupport': 10
+        },
 
     'Spark': {
         'log_file': 'Spark/Spark_2k.log',
@@ -39,19 +39,19 @@ benchmark_settings = {
         'rsupport': 0.5
         },
 
-    #'BGL': {
-        #'log_file': 'BGL/BGL_2k.log',
-        #'log_format': '<Label> <Timestamp> <Date> <Node> <Time> <NodeRepeat> <Type> <Component> <Level> <Content>',
-        #'regex': [r'core\.\d+'],
-        #'rsupport': 2
-        #},
+    'BGL': {
+        'log_file': 'BGL/BGL_2k.log',
+        'log_format': '<Label> <Timestamp> <Date> <Node> <Time> <NodeRepeat> <Type> <Component> <Level> <Content>',
+        'regex': [r'core\.\d+'],
+        'rsupport': 2
+        },
 
-    #'HPC': {
-        #'log_file': 'HPC/HPC_2k.log',
-        #'log_format': '<LogId> <Node> <Component> <State> <Time> <Flag> <Content>',
-        #'regex': [r'=\d+'],
-        #'rsupport': 0.1
-        #},
+    'HPC': {
+        'log_file': 'HPC/HPC_2k.log',
+        'log_format': '<LogId> <Node> <Component> <State> <Time> <Flag> <Content>',
+        'regex': [r'=\d+'],
+        'rsupport': 0.1
+        },
 
     #'Thunderbird': {
         #'log_file': 'Thunderbird/Thunderbird_2k.log',
@@ -81,12 +81,12 @@ benchmark_settings = {
         'rsupport': 1,
         },
 
-    #'HealthApp': {
-        #'log_file': 'HealthApp/HealthApp_2k.log',
-        #'log_format': '<Time>\|<Component>\|<Pid>\|<Content>',
-        #'regex': [],
-        #'rsupport': 7,
-        #},
+    'HealthApp': {
+        'log_file': 'HealthApp/HealthApp_2k.log',
+        'log_format': '<Time>\|<Component>\|<Pid>\|<Content>',
+        'regex': [],
+        'rsupport': 7,
+        },
 
     'Apache': {
         'log_file': 'Apache/Apache_2k.log',
@@ -95,12 +95,12 @@ benchmark_settings = {
         'rsupport': 30
         },
 
-    #'Proxifier': {
-        #'log_file': 'Proxifier/Proxifier_2k.log',
-        #'log_format': '\[<Time>\] <Program> - <Content>',
-        #'regex': [r'<\d+\ssec', r'([\w-]+\.)+[\w-]+(:\d+)?', r'\d{2}:\d{2}(:\d{2})*', r'\b[KGTM]?B\b'],
-        #'rsupport': 10
-        #},
+    'Proxifier': {
+        'log_file': 'Proxifier/Proxifier_2k.log',
+        'log_format': '\[<Time>\] <Program> - <Content>',
+        'regex': [r'<\d+\ssec', r'([\w-]+\.)+[\w-]+(:\d+)?', r'\d{2}:\d{2}(:\d{2})*', r'\b[KGTM]?B\b'],
+        'rsupport': 10
+        },
 
     'OpenSSH': {
         'log_file': 'OpenSSH/OpenSSH_2k.log',
@@ -109,12 +109,12 @@ benchmark_settings = {
         'rsupport': 0.1,
         },
 
-    #'OpenStack': {
-        #'log_file': 'OpenStack/OpenStack_2k.log',
-        #'log_format': '<Logrecord> <Date> <Time> <Pid> <Level> <Component> \[<ADDR>\] <Content>',
-        #'regex': [r'((\d+\.){3}\d+,?)+', r'/.+?\s', r'\d+'],
-        #'rsupport': 3,
-        #},
+    'OpenStack': {
+        'log_file': 'OpenStack/OpenStack_2k.log',
+        'log_format': '<Logrecord> <Date> <Time> <Pid> <Level> <Component> \[<ADDR>\] <Content>',
+        'regex': [r'((\d+\.){3}\d+,?)+', r'/.+?\s', r'\d+'],
+        'rsupport': 3,
+        },
 
     'Mac': {
         'log_file': 'Mac/Mac_2k.log',
