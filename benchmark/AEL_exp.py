@@ -1,10 +1,6 @@
 #!/usr/bin/env python
 
-<<<<<<< HEAD
 import sys, gc
-=======
-import sys
->>>>>>> 23b20667430e08c60d54d37065b273716a0213f0
 sys.path.append('../')
 from logparser import AEL, evaluator
 import os
@@ -135,7 +131,6 @@ benchmark_settings = {
         'merge_percent' : 0.5
         },
 
-<<<<<<< HEAD
     'Mac': {
         'log_file': 'Mac/Mac_2k.log',
         'log_format': '<Month>  <Date> <Time> <User> <Component>\[<PID>\]( \(<Address>\))?: <Content>',
@@ -143,15 +138,6 @@ benchmark_settings = {
         'minEventCount': 2,
         'merge_percent' : 0.6
         }
-=======
-    #'Mac': {
-        #'log_file': 'Mac/Mac_2k.log',
-        #'log_format': '<Month>  <Date> <Time> <User> <Component>\[<PID>\]( \(<Address>\))?: <Content>',
-        #'regex': [r'([\w-]+\.){2,}[\w-]+'],
-        #'minEventCount': 2,
-        #'merge_percent' : 0.6
-        #}
->>>>>>> 23b20667430e08c60d54d37065b273716a0213f0
 }
 
 bechmark_result = []
@@ -159,11 +145,6 @@ for dataset, setting in benchmark_settings.iteritems():
     print('\n=== Evaluation on %s ==='%dataset)
 
     sizes = [2,4,6,8,10,12,14,16,18,20,30,40,50,60,70,80,90,100]
-<<<<<<< HEAD
-    #sizes = [10, 20, 30,40,50,60,70,80,90,100]
-=======
-
->>>>>>> 23b20667430e08c60d54d37065b273716a0213f0
     for i in sizes:
 	log_file=dataset+'_'+str(i)+'k.log'
 	indir = os.path.join(input_dir, dataset)
@@ -172,17 +153,11 @@ for dataset, setting in benchmark_settings.iteritems():
 
     	parser = AEL.LogParser(log_format=setting['log_format'], indir=indir, outdir=output_dir,
                              minEventCount=setting['minEventCount'], merge_percent=setting['merge_percent'], rex=setting['regex'], keep_para=False)
-<<<<<<< HEAD
 
     	parser.parse(log_file)
 
 	print(psutil.virtual_memory())
 	gc.collect()
-=======
-    	parser.parse(log_file)
-
-	print(psutil.virtual_memory())
->>>>>>> 23b20667430e08c60d54d37065b273716a0213f0
 
         '''
     	F1_measure, accuracy = evaluator.evaluate(

@@ -19,16 +19,6 @@ benchmark_settings = {
         #'k': 1,
         #'levels': 2
         #},
-=======
-    'HDFS': {
-        'log_file': 'HDFS/HDFS_2k.log',
-        'log_format': '<Date> <Time> <Pid> <Level> <Component>: <Content>',
-        'regex': [r'blk_-?\d+', r'(\d+\.){3}\d+(:\d+)?'],
-        'max_dist': 0.005,
-        'k': 1,
-        'levels': 2
-        },
->>>>>>> 23b20667430e08c60d54d37065b273716a0213f0
 
     #'Hadoop': {
         #'log_file': 'Hadoop/Hadoop_2k.log',
@@ -66,16 +56,6 @@ benchmark_settings = {
         #'levels': 2
         #},
 
-<<<<<<< HEAD
-    #'HPC': {
-        #'log_file': 'HPC/HPC_2k.log',
-        #'log_format': '<LogId> <Node> <Component> <State> <Time> <Flag> <Content>',
-        #'regex': [r'=\d+'],
-        #'max_dist': 0.0001,
-        #'k': 0.8,
-        #'levels': 2
-        #},
-=======
     'HPC': {
         'log_file': 'HPC/HPC_2k.log',
         'log_format': '<LogId> <Node> <Component> <State> <Time> <Flag> <Content>',
@@ -84,7 +64,6 @@ benchmark_settings = {
         'k': 0.8,
         'levels': 2
         },
->>>>>>> 23b20667430e08c60d54d37065b273716a0213f0
 
     #'Thunderbird': {
         #'log_file': 'Thunderbird/Thunderbird_2k.log',
@@ -131,7 +110,6 @@ benchmark_settings = {
         #'levels': 2
         #},
 
-<<<<<<< HEAD
     #'Apache': {
         #'log_file': 'Apache/Apache_2k.log',
         #'log_format': '\[<Time>\] \[<Level>\] <Content>',
@@ -140,16 +118,6 @@ benchmark_settings = {
         #'k': 1,
         #'levels': 2
         #},
-=======
-    'Apache': {
-        'log_file': 'Apache/Apache_2k.log',
-        'log_format': '\[<Time>\] \[<Level>\] <Content>',
-        'regex': [r'(\d+\.){3}\d+'],
-        'max_dist': 0.005,
-        'k': 1,
-        'levels': 2
-        },
->>>>>>> 23b20667430e08c60d54d37065b273716a0213f0
 
     #'Proxifier': {
         #'log_file': 'Proxifier/Proxifier_2k.log',
@@ -160,7 +128,6 @@ benchmark_settings = {
         #'levels': 2
         #},
 
-<<<<<<< HEAD
     #'OpenSSH': {
         #'log_file': 'OpenSSH/OpenSSH_2k.log',
         #'log_format': '<Date> <Day> <Time> <Component> sshd\[<Pid>\]: <Content>',
@@ -169,16 +136,6 @@ benchmark_settings = {
         #'k': 1,
         #'levels': 2
         #},
-=======
-    'OpenSSH': {
-        'log_file': 'OpenSSH/OpenSSH_2k.log',
-        'log_format': '<Date> <Day> <Time> <Component> sshd\[<Pid>\]: <Content>',
-        'regex': [r'(\d+\.){3}\d+', r'([\w-]+\.){2,}[\w-]+'],
-        'max_dist': 0.001,
-        'k': 1,
-        'levels': 2
-        },
->>>>>>> 23b20667430e08c60d54d37065b273716a0213f0
 
     'OpenStack': {
         'log_file': 'OpenStack/OpenStack_2k.log',
@@ -189,7 +146,6 @@ benchmark_settings = {
         'levels': 2
         },
 
-<<<<<<< HEAD
     #'Mac': {
         #'log_file': 'Mac/Mac_2k.log',
         #'log_format': '<Month>  <Date> <Time> <User> <Component>\[<PID>\]( \(<Address>\))?: <Content>',
@@ -198,27 +154,13 @@ benchmark_settings = {
         #'k': 1,
         #'levels': 2
         #},
-=======
-    'Mac': {
-        'log_file': 'Mac/Mac_2k.log',
-        'log_format': '<Month>  <Date> <Time> <User> <Component>\[<PID>\]( \(<Address>\))?: <Content>',
-        'regex': [r'([\w-]+\.){2,}[\w-]+'],
-        'max_dist': 0.004,
-        'k': 1,
-        'levels': 2
-        },
->>>>>>> 23b20667430e08c60d54d37065b273716a0213f0
 }
 
 bechmark_result = []
 for dataset, setting in benchmark_settings.iteritems():
     print('\n=== Evaluation on %s ==='%dataset)
 
-<<<<<<< HEAD
     sizes = [2,4,6,8,10,12,14,16,18,20,30,40,50] #,60,70,80,90,100]
-=======
-    sizes = [2,4,6,8,10,12,14,16,18,20,30,40,50,60,70,80,90,100]
->>>>>>> 23b20667430e08c60d54d37065b273716a0213f0
 
     for i in sizes:
 	log_file=dataset+'_'+str(i)+'k.log'
