@@ -54,10 +54,17 @@ class LogParser():
         print('Parsing done. [Time taken: {!s}]'.format(end_time - start_time))
 
         #with open("PT_AEL.txt", "a") as f:
+<<<<<<< HEAD
         	#f.write(logname.split('.')[0]+' '+str(end_time - start_time)+'\n')
 
 	#with open("MEM_AEL.txt", 'a') as f:
 		#f.write(logname.split('.')[0]+' '+ str(float(psutil.virtual_memory().used)/(1024**3))+'\n')
+=======
+               #f.write(logname.split('.')[0]+' '+str(end_time - start_time)+'\n')
+
+	with open("MEM_AEL.txt", 'a') as f:
+		f.write(logname.split('.')[0]+' '+ str(float(psutil.virtual_memory().used)/(1024**3))+'\n')
+>>>>>>> 23b20667430e08c60d54d37065b273716a0213f0
 
     def tokenize(self):
         '''
