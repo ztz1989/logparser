@@ -24,6 +24,11 @@ def dictionaryBuilder(log_format, logFile, rex):
                     triDictionaryList[tripleTmp] = 1;
             for index in range(len(tokens)):
                 if index == len(tokens)-1:
+                    doubleTmp = tokens[index] + '^' + tokens[0]
+                    if doubleTmp in doubleDictionaryList:
+                        doubleDictionaryList[doubleTmp] = doubleDictionaryList[doubleTmp] + 1;
+                    else:
+                        doubleDictionaryList[doubleTmp] = 1;
                     break;
                 doubleTmp = tokens[index] + '^' + tokens[index+1];
                 if doubleTmp in doubleDictionaryList:

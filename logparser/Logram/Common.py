@@ -6,8 +6,9 @@ MyRegex = [
         r'(?<=[^A-Za-z0-9])(\-?\+?\d+)(?=[^A-Za-z0-9])|[0-9]+$', # Numbers
 ]
 
-def preprocess(logLine):
-    for regex in MyRegex:
+def preprocess(logLine, specialRegex):
+    line = logLine
+    for regex in specialRegex:
         line = re.sub(regex, '<*>', ' ' + logLine)
     return line
 
@@ -16,11 +17,10 @@ def tokenSpliter(logLine, regex, specialRegex):
     # print(match)
     if match == None:
         tokens = None
-        pass;
     else:
         message = match.group('Content')
         # print(message)
-        line = preprocess(message)
+        line = preprocess(message, specialRegex)
         tokens = line.strip().split()
     # print(tokens)
     return tokens
