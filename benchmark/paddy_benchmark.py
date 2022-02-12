@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 import os.path as path
 import re
 import os
@@ -20,69 +22,61 @@ INVERTED_INDEX = {}
 input_dir = '../logs/'
 
 BENCHMARK_SETTINGS = {
-    'HDFS': {
-        'log_file': 'HDFS/HDFS_2k.log',
-        'log_format': '<Date> <Time> <Pid> <Level> <Component>: <Content>',
-        'regex': [r'blk_-?\d+', r'(\d+\.){3}\d+(:\d+)?'],
-        'banned_word': []
+    #'HDFS': {
+    #    'log_file': 'HDFS/HDFS_2k.log',
+    #    'log_format': '<Date> <Time> <Pid> <Level> <Component>: <Content>',
+    #    'regex': [r'blk_-?\d+', r'(\d+\.){3}\d+(:\d+)?'],
+    #    'banned_word': []
+    #},
 
-    },
+    #'Hadoop': {
+    #    'log_file': 'Hadoop/Hadoop_2k.log',
+    #    'log_format': '<Date> <Time> <Level> \[<Process>\] <Component>: <Content>',
+    #    'regex': [r'(\d+\.){3}\d+'],
+    #    'banned_word': ['UNASSIGNED', 'SCHEDULED']
+    #},
 
-    'Hadoop': {
-        'log_file': 'Hadoop/Hadoop_2k.log',
-        'log_format': '<Date> <Time> <Level> \[<Process>\] <Component>: <Content>',
-        'regex': [r'(\d+\.){3}\d+'],
-        'banned_word': ['UNASSIGNED', 'SCHEDULED']
+    #'Spark': {
+    #    'log_file': 'Spark/Spark_2k.log',
+    #    'log_format': '<Date> <Time> <Level> <Component>: <Content>',
+    #    'regex': [r'(\d+\.){3}\d+', r'\b[KGTM]?B\b', r'([\w-]+\.){2,}[\w-]+'],
+    #    'banned_word': ['bytes', 'values']
+    #},
 
-    },
+    #'Zookeeper': {
+    #    'log_file': 'Zookeeper/Zookeeper_2k.log',
+    #    'log_format': '<Date> <Time> - <Level>  \[<Node>:<Component>@<Id>\] - <Content>',
+    #    'regex': [r'(/|)(\d+\.){3}\d+(:\d+)?'],
+    #    'banned_word': []
+    #},
 
-    'Spark': {
-        'log_file': 'Spark/Spark_2k.log',
-        'log_format': '<Date> <Time> <Level> <Component>: <Content>',
-        'regex': [r'(\d+\.){3}\d+', r'\b[KGTM]?B\b', r'([\w-]+\.){2,}[\w-]+'],
-        'banned_word': ['bytes', 'values']
+    #'BGL': {
+    #    'log_file': 'BGL/BGL_2k.log',
+    #    'log_format': '<Label> <Timestamp> <Date> <Node> <Time> <NodeRepeat> <Type> <Component> <Level> <Content>',
+    #    'regex': [r'core\.\d+'],
+    #    'banned_word': []
+    #},
 
-    },
+    #'HPC': {
+    #    'log_file': 'HPC/HPC_2k.log',
+    #    'log_format': '<LogId> <Node> <Component> <State> <Time> <Flag> <Content>',
+    #    'regex': [r'=\d+'],
+    #    'banned_word': []
+    #},
 
-    'Zookeeper': {
-        'log_file': 'Zookeeper/Zookeeper_2k.log',
-        'log_format': '<Date> <Time> - <Level>  \[<Node>:<Component>@<Id>\] - <Content>',
-        'regex': [r'(/|)(\d+\.){3}\d+(:\d+)?'],
-        'banned_word': []
+    #'Thunderbird': {
+    #    'log_file': 'Thunderbird/Thunderbird_2k.log',
+    #    'log_format': '<Label> <Timestamp> <Date> <User> <Month> <Day> <Time> <Location> <Component>(\[<PID>\])?: <Content>',
+    #    'regex': [r'(\d+\.){3}\d+'],
+    #    'banned_word': []
+    #},
 
-    },
-
-    'BGL': {
-        'log_file': 'BGL/BGL_2k.log',
-        'log_format': '<Label> <Timestamp> <Date> <Node> <Time> <NodeRepeat> <Type> <Component> <Level> <Content>',
-        'regex': [r'core\.\d+'],
-        'banned_word': []
-
-    },
-
-    'HPC': {
-        'log_file': 'HPC/HPC_2k.log',
-        'log_format': '<LogId> <Node> <Component> <State> <Time> <Flag> <Content>',
-        'regex': [r'=\d+'],
-        'banned_word': []
-
-    },
-
-    'Thunderbird': {
-        'log_file': 'Thunderbird/Thunderbird_2k.log',
-        'log_format': '<Label> <Timestamp> <Date> <User> <Month> <Day> <Time> <Location> <Component>(\[<PID>\])?: <Content>',
-        'regex': [r'(\d+\.){3}\d+'],
-        'banned_word': []
-
-    },
-
-    'Windows': {
-        'log_file': 'Windows/Windows_2k.log',
-        'log_format': '<Date> <Time>, <Level>                  <Component>    <Content>',
-        'regex': [r'0x.*?\s'],
-        'banned_word': []
-
-    },
+    #'Windows': {
+    #    'log_file': 'Windows/Windows_2k.log',
+    #    'log_format': '<Date> <Time>, <Level>                  <Component>    <Content>',
+    #    'regex': [r'0x.*?\s'],
+    #    'banned_word': []
+    #},
 
     'Linux': {
         'log_file': 'Linux/Linux_2k.log',
@@ -272,7 +266,7 @@ def generate_logformat_regex(logformat):
 def log_to_dataframe(log_file, regex, headers):
     log_messages = []
     linecount = 0
-    with open(log_file, 'r') as fin:
+    with open(log_file, 'r', encoding='utf-8', errors='ignore') as fin:
         for line in fin.readlines():
             try:
                 match = regex.search(line.strip())
