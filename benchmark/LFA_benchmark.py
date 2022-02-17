@@ -116,7 +116,7 @@ for dataset, setting in benchmark_settings.iteritems():
 
     parser = LFA.LogParser(log_format=setting['log_format'], indir=indir, outdir=output_dir, rex=setting['regex'])
     parser.parse(log_file)
-    
+
     F1_measure, accuracy = evaluator.evaluate(
                            groundtruth=os.path.join(indir, log_file + '_structured.csv'),
                            parsedresult=os.path.join(output_dir, log_file + '_structured.csv')

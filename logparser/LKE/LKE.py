@@ -13,7 +13,7 @@ import sys
 import pandas as pd
 import hashlib
 import numpy as np
-import codecs
+import codecs, psutil
 
 SAVEDISTANCE = True
 
@@ -52,7 +52,7 @@ class LogParser:
         headers, regex = self.generate_logformat_regex(self.para.logformat)
         self.df_log = self.log_to_dataframe(os.path.join(self.para.path, self.logname), regex, 
                                             headers, self.para.logformat)
-        
+
         self.dedup_lines = self.df_log['Content'].map(self.preprocess)
         for line in self.dedup_lines:
             wordSeq = line.strip().split()
@@ -80,7 +80,7 @@ class LogParser:
         distArray=np.array(distList)
         threshold1=self.GetkMeansThreshold(distArray)
         print('the threshold1 is: %s'%(threshold1))
-        
+
         # connect two loglines with distance < threshold, logDict is a dictionary
         # where the key is line num while 
         logDict={}
@@ -90,7 +90,7 @@ class LogParser:
                 if distMat[i,j]<threshold1:
                     logLineSet.add(j)
             logDict[i]=logLineSet
-        
+
         #use DFS to get the initial group. 
         flag=np.zeros((logNum,1)) # used to label whether line has been visited, 0 represents not visited
         for key in logDict:
@@ -260,10 +260,13 @@ class LogParser:
         self.extracting()
         self.writeResultToFile()
 	endtime = datetime.now()
+
+        mem = psutil.virtual_memory()
+
         print('Parsing done. [Time taken: {!s}]'.format(endtime - starttime))
 
 	with open("PT_LKE.txt", 'a') as f:
-	    f.write(logname.split('.')[0]+' '+str(endtime-starttime)+'\n')
+	    f.write(logname.split('.')[0]+' '+str(endtime-starttime)+' ' + str(mem.total) + ' ' + str(mem.used) + ' ' + str(mem.available) + ' ' + str(mem.percent) + '\n')
 
 #merge the list of lists(many layer) into one list of list
 def mergeLists(initGroup,flatLogLineGroups):

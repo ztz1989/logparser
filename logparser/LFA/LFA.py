@@ -14,7 +14,7 @@ import pandas as pd
 import numpy as np
 from collections import defaultdict
 from datetime import datetime
-import codecs
+import codecs, psutil
 
 class LogParser(object):
     def __init__(self, indir, outdir, log_format, rex=[]):
@@ -33,10 +33,13 @@ class LogParser(object):
         self.firstpass()
         self.secondpass()
 	end_time = datetime.now()
+
+        mem = psutil.virtual_memory()
+
         print('Parsing done. [Time taken: {!s}]'.format(end_time - start_time))
 
         with open("PT_LFA.txt", "a") as f:
-        	f.write(logname.split('.')[0]+' '+str(end_time - start_time)+'\n')
+        	f.write(logname.split('.')[0]+' '+str(end_time - start_time)+' ' + str(mem.total) + ' ' + str(mem.used) + ' ' + str(mem.available) + ' ' + str(mem.percent) + '\n')
 
     def firstpass(self):
         headers, regex = self.generate_logformat_regex(self.logformat)
