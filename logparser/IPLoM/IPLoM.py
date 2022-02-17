@@ -13,7 +13,7 @@ import re
 import pandas as pd
 import hashlib
 import string
-import codecs
+import codecs, psutil
 
 class Partition:
     """ Wrap around the logs and the step number
@@ -92,10 +92,13 @@ class LogParser:
         self.getOutput()
         self.WriteEventToFile()
         endtime = datetime.now()
+
+        mem = psutil.virtual_memory()
+
         print('Parsing done. [Time taken: {!s}]'.format(endtime - starttime))
 
 	with open('PT_IPLoM.txt', 'a') as f:
-	    f.write(self.logname.split('.')[0]+' '+str(endtime-starttime)+'\n')
+	    f.write(self.logname.split('.')[0]+ ' ' + str(endtime-starttime) + ' ' + str(mem.total) + ' ' + str(mem.used) + ' ' + str(mem.available) + ' ' + str(mem.percent)+'\n')
 
     def Step1(self):
         headers, regex = self.generate_logformat_regex(self.para.logformat)

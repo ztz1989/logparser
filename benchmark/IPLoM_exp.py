@@ -147,9 +147,6 @@ for dataset, setting in benchmark_settings.iteritems():
     sizes = [2,4,6,8,10,12,14,16,18,20,30,40,50,60,70,80,90,100]
 
     for i in sizes:
-	#indir = os.path.join(input_dir, os.path.dirname(setting['log_file']))
-	#log_file = os.path.basename(setting['log_file'])
-        print(i)
         log_file=dataset+'_'+str(i)+'k.log'
         indir = os.path.join(input_dir, dataset)
 

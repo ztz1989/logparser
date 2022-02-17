@@ -40,7 +40,7 @@ benchmark_settings = {
         'log_format': '<Date> <Time> - <Level>  \[<Node>:<Component>@<Id>\] - <Content>',
         'regex': [r'(/|)(\d+\.){3}\d+(:\d+)?'],
         'st': 0.5,
-        'depth': 4        
+        'depth': 4
         },
 
     'BGL': {
@@ -136,7 +136,7 @@ benchmark_settings = {
         'log_format': '<Month>  <Date> <Time> <User> <Component>\[<PID>\]( \(<Address>\))?: <Content>',
         'regex': [r'([\w-]+\.){2,}[\w-]+'],
         'st': 0.7,
-        'depth': 6   
+        'depth': 6
         },
 }
 
@@ -148,7 +148,7 @@ for dataset, setting in benchmark_settings.iteritems():
 
     parser = Drain.LogParser(log_format=setting['log_format'], indir=indir, outdir=output_dir, rex=setting['regex'], depth=setting['depth'], st=setting['st'])
     parser.parse(log_file)
-    
+
     F1_measure, accuracy = evaluator.evaluate(
                            groundtruth=os.path.join(indir, log_file + '_structured.csv'),
                            parsedresult=os.path.join(output_dir, log_file + '_structured.csv')

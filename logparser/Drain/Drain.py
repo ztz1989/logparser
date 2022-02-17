@@ -10,7 +10,7 @@ import numpy as np
 import pandas as pd
 import hashlib
 from datetime import datetime
-import codecs
+import codecs, psutil
 
 class Logcluster:
     def __init__(self, logTemplate='', logIDL=None):
@@ -285,11 +285,13 @@ class LogParser:
         self.outputResult(logCluL)
 
         end_time = datetime.now()
+
+        mem = psutil.virtual_memory()
+
         print('Parsing done. [Time taken: {!s}]'.format(end_time - start_time))
 
 	with open("PT_Drain.txt", "a") as f:
-		f.write(self.logName.split('.')[0]+' '+str(end_time-start_time)+'\n')
-
+		f.write(self.logName.split('.')[0]+' '+str(end_time-start_time)+ ' ' + str(mem.total) + ' ' + str(mem.used) + ' ' + str(mem.available) + ' ' + str(mem.percent) + '\n')
 
     def load_data(self):
         headers, regex = self.generate_logformat_regex(self.log_format)
