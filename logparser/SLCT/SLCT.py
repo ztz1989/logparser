@@ -13,7 +13,7 @@ from datetime import datetime
 from ..logmatch import regexmatch
 import subprocess
 import os
-import codecs
+import codecs, psutil
 
 class LogParser(object):
     def __init__(self, indir, outdir, log_format, support, para_j=True, saveLog=False, rex=[]):
@@ -96,10 +96,13 @@ def SLCT(para, log_format, rex):
     df_event.to_csv(os.path.join(para['savePath'], para['dataName'] + "_templates.csv"), index=False, columns=["EventId", "EventTemplate", "Occurrences"], encoding='utf-8')
     matched_df.to_csv(os.path.join(para['savePath'], para['dataName'] + "_structured.csv"), index=False, encoding='utf-8')
     endTime = datetime.now()
+
+    mem = psutil.virtual_memory()
+
     print('Parsing done. [Time: {!s}]'.format(endTime - startTime))
 
     with open("PT_SLCT.txt", "a") as f:
-	f.write(para['dataName'].split('.')[0]+' '+str(endTime-startTime)+'\n')
+	f.write(para['dataName'].split('.')[0]+' '+str(endTime-startTime)+ ' ' + str(mem.total) + ' ' + str(mem.used) + ' ' + str(mem.available) + ' ' + str(mem.percent) +'\n')
 
 def extract_command(para, logname):
     support = para['support']

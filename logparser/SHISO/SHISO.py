@@ -13,7 +13,7 @@ import numpy as np
 import pandas as pd
 import hashlib
 from datetime import datetime
-import codecs
+import codecs, psutil
 
 class Node:
     def __init__(self, format='', logIDL=None, childL=None):
@@ -88,9 +88,9 @@ class LogParser:
 
         retVal = np.array(retVal)
 
-        #Euclidean distance 
+        #Euclidean distance
         retVal = retVal / np.linalg.norm(retVal)
-        
+
         return retVal
 
 
@@ -365,12 +365,15 @@ class LogParser:
         if not os.path.exists(self.savePath):
             os.makedirs(self.savePath)
 
-        #self.outputResult(rootNode)
+        self.outputResult(rootNode)
 	endtime = datetime.now()
+
+        mem = psutil.virtual_memory()
+
         print('Parsing done. [Time taken: {!s}]'.format(endtime - starttime))
 
 	with open("PT_SHISO.txt", 'a') as f:
-		f.write(logname.split('.')[0]+' '+str(endtime-starttime)+'\n')
+		f.write(logname.split('.')[0]+' '+str(endtime-starttime)+' ' + str(mem.total) + ' ' + str(mem.used) + ' ' + str(mem.available) + ' ' + str(mem.percent) +'\n')
 
     def load_data(self):
         headers, regex = self.generate_logformat_regex(self.logformat)

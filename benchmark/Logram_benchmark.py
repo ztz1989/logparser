@@ -181,16 +181,20 @@ for dataset, setting in benchmark_settings.iteritems():
     #indir = os.path.join(input_dir, dataset)
 
     start_time = datetime.now()
-    #OnlineParser(setting['log_format'], log_file, setting['regex'], 15, 10, 'Logram_result/')
 
-    doubleDictionaryList, triDictionaryList, allTokenList = dictionaryBuilder(setting["log_format"], log_file, setting['regex'])
+    doubleDictionaryList, triDictionaryList, allTokenList = dictionaryBuilder(setting["log_format"], log_file, [])
     tokenMatch(allTokenList,doubleDictionaryList,triDictionaryList,setting["doubleThreshold"],setting["triThreshold"],'Logram_result/'+dataset)
     f_measure, accuracy = evaluate('/root/logparser/logs/'+dataset+'/'+dataset+'_2k.log_structured.csv', 'Logram_result/'+dataset+'Event.csv')
 
     end_time = datetime.now()
 
+    mem = psutil.virtual_memory()
+
     print("F-Measure: ",f_measure, "PA: ", accuracy)
     print('Parsing done. [Time taken: {!s}]'.format(end_time - start_time))
+
+    with open("PT_Logram.txt", "a") as f:
+        f.write(dataset+'_2k' + ' ' + str(end_time - start_time) + ' ' + str(mem.total) + ' ' + str(mem.used) + ' ' + str(mem.available) + ' ' + str(mem.percent) + '\n')
 
     benchmark_result.append([dataset, f_measure, accuracy])
 

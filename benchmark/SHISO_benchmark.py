@@ -118,7 +118,7 @@ benchmark_settings = {
         'maxChildNum': 4,
         'mergeThreshold': 0.0001,
         'formatLookupThreshold': 0.3,
-        'superFormatThreshold': 0.85        
+        'superFormatThreshold': 0.85
         },
 
     'Apache': {
@@ -182,13 +182,12 @@ for dataset, setting in benchmark_settings.iteritems():
                             maxChildNum=setting['maxChildNum'], mergeThreshold=setting['mergeThreshold'],
                             formatLookupThreshold=setting['formatLookupThreshold'], superFormatThreshold=setting['superFormatThreshold'])
     parser.parse(log_file)
-    
+
     F1_measure, accuracy = evaluator.evaluate(
                            groundtruth=os.path.join(indir, log_file + '_structured.csv'),
                            parsedresult=os.path.join(output_dir, log_file + '_structured.csv')
                            )
     bechmark_result.append([dataset, F1_measure, accuracy])
-
 
 print('\n=== Overall evaluation results ===')
 df_result = pd.DataFrame(bechmark_result, columns=['Dataset', 'F1_measure', 'Accuracy'])

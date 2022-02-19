@@ -12,7 +12,7 @@ import pandas as pd
 import hashlib
 from datetime import datetime
 import string
-import codecs
+import codecs, psutil
 
 class LCSObject:
     """ Class object to store a log group with the same template
@@ -158,7 +158,7 @@ class LogParser:
             tokenInSeq = seq[i]
             # Match
             if tokenInSeq in parentn.childD:
-                parentn.childD[tokenInSeq].templateNo += 1                  
+                parentn.childD[tokenInSeq].templateNo += 1
             # Do not Match
             else:
                 parentn.childD[tokenInSeq] = Node(token=tokenInSeq, templateNo=1)
@@ -185,7 +185,6 @@ class LogParser:
 
 
     def outputResult(self, logClustL):
-        
         templates = [0] * self.df_log.shape[0]
         ids = [0] * self.df_log.shape[0]
         df_event = []
@@ -225,9 +224,9 @@ class LogParser:
 
 
     def parse(self, logname):
-        starttime = datetime.now()  
+        starttime = datetime.now()
         print('Parsing file: ' + os.path.join(self.path, logname))
-        self.logname = logname  
+        self.logname = logname
         self.load_data()
         rootNode = Node()
         logCluL = []
@@ -266,12 +265,15 @@ class LogParser:
         if not os.path.exists(self.savePath):
             os.makedirs(self.savePath)
 
-        #self.outputResult(logCluL)
+        self.outputResult(logCluL)
 	endtime = datetime.now()
+
+        mem = psutil.virtual_memory()
+
         print('Parsing done. [Time taken: {!s}]'.format(endtime - starttime))
 
 	with open("PT_Spell.txt", "a") as f:
-		f.write(logname.split('.')[0]+' '+str(endtime-starttime)+'\n')
+		f.write(logname.split('.')[0]+' '+str(endtime-starttime)+ ' ' + str(mem.total) + ' ' + str(mem.used) + ' ' + str(mem.available) + ' ' + str(mem.percent) + '\n')
 
     def load_data(self):
         headers, regex = self.generate_logformat_regex(self.logformat)
@@ -283,7 +285,7 @@ class LogParser:
         return line
 
     def log_to_dataframe(self, log_file, regex, headers, logformat):
-        """ Function to transform log file to dataframe 
+        """ Function to transform log file to dataframe
         """
         log_messages = []
         linecount = 0
