@@ -73,8 +73,8 @@ benchmark_settings = {
         'groupNum': 25
         },
 
-    'Andriod': {
-        'log_file': 'Andriod/Andriod_2k.log',
+    'Android': {
+        'log_file': 'Android/Android_2k.log',
         'log_format': '<Date> <Time>  <Pid>  <Tid> <Level> <Component>: <Content>',
         'regex': [r'(/[\w-]+)+', r'([\w-]+\.){2,}[\w-]+', r'\b(\-?\+?\d+)\b|\b0[Xx][a-fA-F\d]+\b|\b[a-fA-F\d]{4,}\b'],
         'groupNum': 900
@@ -119,7 +119,7 @@ benchmark_settings = {
         'log_file': 'Mac/Mac_2k.log',
         'log_format': '<Month>  <Date> <Time> <User> <Component>\[<PID>\]( \(<Address>\))?: <Content>',
         'regex': [r'([\w-]+\.){2,}[\w-]+'],
-        'groupNum': 250  
+        'groupNum': 250
         },
 }
 
@@ -129,9 +129,9 @@ for dataset, setting in benchmark_settings.iteritems():
     indir = os.path.join(input_dir, os.path.dirname(setting['log_file']))
     log_file = os.path.basename(setting['log_file'])
 
-    parser = LogSig.LogParser(log_format=setting['log_format'], indir=indir, outdir=output_dir, rex=setting['regex'], groupNum=setting['groupNum'])
+    parser = LogSig.LogParser(log_format=setting['log_format'], indir=indir, outdir=output_dir, rex=[], groupNum=setting['groupNum'])
     parser.parse(log_file)
-    
+
     F1_measure, accuracy = evaluator.evaluate(
                            groundtruth=os.path.join(indir, log_file + '_structured.csv'),
                            parsedresult=os.path.join(output_dir, log_file + '_structured.csv')

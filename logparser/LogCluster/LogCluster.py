@@ -10,7 +10,7 @@ import re
 import hashlib
 from datetime import datetime
 import subprocess
-import codecs
+import codecs, psutil
 
 class LogParser():
     def __init__(self, indir, log_format, outdir, rex =[], support=None, rsupport=None, separator=None, lfilter=None, template=None,
@@ -77,14 +77,18 @@ class LogParser():
         except:
             print("LogCluster run failed! Please check perl installed.\n")
             raise
-        #self.wirteResultToFile()
+
+        self.wirteResultToFile()
         #os.remove("logcluster_input.log")
         #os.remove("logcluster_output.txt")
 	end_time = datetime.now()
+
+        mem = psutil.virtual_memory()
+
         print('Parsing done. [Time taken: {!s}]'.format(datetime.now() - start_time))
 
         with open("PT_LogCluster.txt", "a") as f:
-            f.write(filename.split('.')[0]+' '+str(end_time - start_time)+'\n')
+            f.write(filename.split('.')[0] + ' ' + str(end_time - start_time) + ' ' + str(mem.total) + ' ' + str(mem.used) + ' ' + str(mem.available) + ' ' + str(mem.percent) + '\n')
 
     def wirteResultToFile(self):
         if not os.path.isdir(self.savepath):

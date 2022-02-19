@@ -74,8 +74,8 @@ benchmark_settings = {
         'threshold': 0.88
         },
 
-    'Andriod': {
-        'log_file': 'Andriod/Andriod_2k.log',
+    'Android': {
+        'log_file': 'Android/Android_2k.log',
         'log_format': '<Date> <Time>  <Pid>  <Tid> <Level> <Component>: <Content>',
         'regex': [r'(/[\w-]+)+', r'([\w-]+\.){2,}[\w-]+', r'\b(\-?\+?\d+)\b|\b0[Xx][a-fA-F\d]+\b|\b[a-fA-F\d]{4,}\b'],
         'threshold': 0.86
@@ -136,7 +136,7 @@ for dataset, setting in benchmark_settings.iteritems():
 
     parser = LenMa.LogParser(log_format=setting['log_format'], indir=indir, outdir=output_dir, rex=setting['regex'], threshold=setting['threshold'])
     parser.parse(log_file)
-    
+
     F1_measure, accuracy = evaluator.evaluate(
                            groundtruth=os.path.join(indir, log_file + '_structured.csv'),
                            parsedresult=os.path.join(output_dir, log_file + '_structured.csv')

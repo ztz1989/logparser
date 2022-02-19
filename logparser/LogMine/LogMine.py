@@ -13,7 +13,7 @@ import hashlib
 import pandas as pd
 from datetime import datetime
 from collections import defaultdict
-import codecs
+import codecs, psutil
 
 import io
 #reload(sys)
@@ -63,10 +63,13 @@ class LogParser():
                 self.level_clusters[lev] = clusters
         self.dump()
         endtime = datetime.now()
+
+        mem = psutil.virtual_memory()
+
         print('Parsing done. [Time taken: {!s}]'.format(endtime - starttime))
 
         with open("PT_LogMine.txt", "a") as f:
-		f.write(logname.split('.')[0]+' '+str(endtime-starttime)+'\n')
+		f.write(logname.split('.')[0]+' '+str(endtime-starttime)+ ' ' + str(mem.total) + ' ' + str(mem.used) + ' ' + str(mem.available) + ' ' + str(mem.percent) + '\n')
 
     def dump(self):
         if not os.path.isdir(self.savePath):

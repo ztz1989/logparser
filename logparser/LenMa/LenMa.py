@@ -11,7 +11,7 @@ import os
 import hashlib
 from collections import defaultdict
 from datetime import datetime
-import codecs
+import codecs, psutil
 
 class LogParser(object):
     def __init__(self, indir, outdir, log_format, threshold=0.9, predefined_templates=None, rex=[]):
@@ -40,10 +40,13 @@ class LogParser(object):
             self.templ_mgr.infer_template(words, idx)
         self.dump_results()
         endtime = datetime.now()
+
+        mem = psutil.virtual_memory()
+
         print('Parsing done. [Time taken: {!s}]'.format(endtime - starttime))
 
         with open("PT_LenMa.txt", "a") as f:
-		f.write(logname.split('.')[0]+' '+str(endtime-starttime)+'\n')
+		f.write(logname.split('.')[0]+' '+str(endtime-starttime)+ ' ' + str(mem.total) + ' ' + str(mem.used) + ' ' + str(mem.available) + ' ' + str(mem.percent) +'\n')
 
     def dump_results(self):
         if not os.path.isdir(self.savePath):

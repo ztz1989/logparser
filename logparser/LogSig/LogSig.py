@@ -13,7 +13,7 @@ import re
 import os
 import pandas as pd
 import hashlib
-import codecs
+import codecs,psutil
 
 class Para:
     def __init__(self, path, rex, savePath, groupNum, logformat):
@@ -269,10 +269,13 @@ class LogParser:
         self.signatConstr()
         self.writeResultToFile()
 	end_time = datetime.now()
+
+        mem = psutil.virtual_memory()
+
         print('Parsing done. [Time taken: {!s}]'.format(end_time - start_time))
 
         with open("PT_LogSig.txt", "a") as f:
-		f.write(logname.split('.')[0]+' '+str(end_time-start_time)+'\n')
+		f.write(logname.split('.')[0]+' '+str(end_time-start_time)+' ' + str(mem.total) + ' ' + str(mem.used) + ' ' + str(mem.available) + ' ' + str(mem.percent) + '\n')
 
 def potenFunc(curGroupIndex, termPairLogNumLD, logNumPerGroup, lineNum, termpairLT, k):
     maxDeltaD = 0

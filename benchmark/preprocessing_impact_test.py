@@ -1,6 +1,6 @@
 #!/bin/bash
 
-count=10
+count=${2:-10}
 parser=${1:-"AEL"}
 
 for i in $(seq $count); do

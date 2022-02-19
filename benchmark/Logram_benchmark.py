@@ -9,7 +9,7 @@ import multiprocessing
 
 import time
 import psutil
-
+import pandas as pd
 from logparser.Logram.OnlineParser import OnlineParser
 from datetime import datetime
 
@@ -173,7 +173,7 @@ p = psutil.Process(Id)
 #doubleDictionaryList, triDictionaryList, allTokenList = dictionaryBuilder(Andriod_format, 'TestLogs/Android_100M.log', Andriod_Regex)
 #tokenMatch(allTokenList,doubleDictionaryList,triDictionaryList,15,10,'Output/')
 
-bechmark_result = []
+benchmark_result = []
 for dataset, setting in benchmark_settings.iteritems():
     print('\n=== Evaluation on %s ==='%dataset)
 
@@ -183,7 +183,7 @@ for dataset, setting in benchmark_settings.iteritems():
     start_time = datetime.now()
     #OnlineParser(setting['log_format'], log_file, setting['regex'], 15, 10, 'Logram_result/')
 
-    doubleDictionaryList, triDictionaryList, allTokenList = dictionaryBuilder(setting["log_format"], log_file, setting["regex"])
+    doubleDictionaryList, triDictionaryList, allTokenList = dictionaryBuilder(setting["log_format"], log_file, setting['regex'])
     tokenMatch(allTokenList,doubleDictionaryList,triDictionaryList,setting["doubleThreshold"],setting["triThreshold"],'Logram_result/'+dataset)
     f_measure, accuracy = evaluate('/root/logparser/logs/'+dataset+'/'+dataset+'_2k.log_structured.csv', 'Logram_result/'+dataset+'Event.csv')
 
@@ -192,3 +192,10 @@ for dataset, setting in benchmark_settings.iteritems():
     print("F-Measure: ",f_measure, "PA: ", accuracy)
     print('Parsing done. [Time taken: {!s}]'.format(end_time - start_time))
 
+    benchmark_result.append([dataset, f_measure, accuracy])
+
+print('\n=== Overall evaluation results ===')
+df_result = pd.DataFrame(benchmark_result, columns=['Dataset', 'F1_measure', 'Accuracy'])
+df_result.set_index('Dataset', inplace=True)
+print(df_result)
+df_result.T.to_csv('Logram_benchmark_result.csv')
