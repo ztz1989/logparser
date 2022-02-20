@@ -130,7 +130,9 @@ benchmark_settings = {
         'minEventCount': 6,
         'merge_percent' : 0.5
         },
+}
 
+benchmark_settings = {
     'Mac': {
         'log_file': 'Mac/Mac_2k.log',
         'log_format': '<Month>  <Date> <Time> <User> <Component>\[<PID>\]( \(<Address>\))?: <Content>',
@@ -144,12 +146,10 @@ bechmark_result = []
 for dataset, setting in benchmark_settings.iteritems():
     print('\n=== Evaluation on %s ==='%dataset)
 
-    sizes = [2,4,6,8,10,12,14,16,18,20,30,40,50,60,70,80,90,100]
+    sizes = [2,4,6,8,10,12,14,16,18,20] #,30,40,50,60,70,80,90,100]
     for i in sizes:
 	log_file=dataset+'_'+str(i)+'k.log'
 	indir = os.path.join(input_dir, dataset)
-    	#indir = os.path.join(input_dir, os.path.dirname(setting['log_file']))
-    	#log_file = os.path.basename(setting['log_file'])
 
     	parser = AEL.LogParser(log_format=setting['log_format'], indir=indir, outdir=output_dir,
                              minEventCount=setting['minEventCount'], merge_percent=setting['merge_percent'], rex=setting['regex'], keep_para=False)
@@ -158,19 +158,3 @@ for dataset, setting in benchmark_settings.iteritems():
 
 	print(psutil.virtual_memory())
 	gc.collect()
-
-        '''
-    	F1_measure, accuracy = evaluator.evaluate(
-                           groundtruth=os.path.join(indir, log_file + '_structured.csv'),
-                           parsedresult=os.path.join(output_dir, log_file + '_structured.csv')
-                           )
-    	bechmark_result.append([dataset, F1_measure, accuracy])
-    	'''
-
-'''
-print('\n=== Overall evaluation results ===')
-df_result = pd.DataFrame(bechmark_result, columns=['Dataset', 'F1_measure', 'Accuracy'])
-df_result.set_index('Dataset', inplace=True)
-print(df_result)
-df_result.T.to_csv('AEL_bechmark_result.csv')
-'''
