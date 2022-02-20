@@ -3,7 +3,7 @@
 import os.path as path
 import re
 import os
-import time
+import time, psutil
 
 import sys, gc
 sys.path.append('../')
@@ -64,19 +64,19 @@ BENCHMARK_SETTINGS = {
         'banned_word': []
     },
 
-    'Thunderbird': {
-        'log_file': 'Thunderbird/Thunderbird_2k.log',
-        'log_format': '<Label> <Timestamp> <Date> <User> <Month> <Day> <Time> <Location> <Component>(\[<PID>\])?: <Content>',
-        'regex': [r'(\d+\.){3}\d+'],
-        'banned_word': []
-    },
+    #'Thunderbird': {
+    #    'log_file': 'Thunderbird/Thunderbird_2k.log',
+    #    'log_format': '<Label> <Timestamp> <Date> <User> <Month> <Day> <Time> <Location> <Component>(\[<PID>\])?: <Content>',
+    #    'regex': [r'(\d+\.){3}\d+'],
+    #    'banned_word': []
+    #},
 
-    'Windows': {
-        'log_file': 'Windows/Windows_2k.log',
-        'log_format': '<Date> <Time>, <Level>                  <Component>    <Content>',
-        'regex': [r'0x.*?\s'],
-        'banned_word': []
-    },
+    #'Windows': {
+    #    'log_file': 'Windows/Windows_2k.log',
+    #    'log_format': '<Date> <Time>, <Level>                  <Component>    <Content>',
+    #    'regex': [r'0x.*?\s'],
+    #    'banned_word': []
+    #},
 
     'Linux': {
         'log_file': 'Linux/Linux_2k.log',
@@ -299,7 +299,7 @@ if __name__ == '__main__':
     for dataset, setting in BENCHMARK_SETTINGS.items():
     	print('\n=== Evaluation on %s ==='%dataset)
 
-    	sizes = [2,4,6,8,10,12,14,16,18,20,30,40,50,60,70,80,90,100]
+    	sizes = [2,4,] #6,8,10,12,14,16,18,20,30,40,50,60,70,80,90,100]
 
     	for i in sizes:
        	    log_file=dataset+'_'+str(i)+'k.log'
@@ -363,11 +363,18 @@ if __name__ == '__main__':
                         else:
                                 new_id = get_new_template(pre_processed_log)
                                 index_doc(new_id)
-                        #assert len(RESULTS) == logID
+                        assert len(RESULTS) == logID
             end_time = datetime.now()
+
+            mem = psutil.virtual_memory()
+
             print("Parse time: ", end_time-start_time)
 
             with open("PT_Paddy.txt", "a") as f:
-               f.write(os.path.basename(log_file).split('.')[0]+' '+str(end_time - start_time)+'\n')
+               f.write(os.path.basename(log_file).split('.')[0]+' '+str(end_time - start_time)+ ' ' + str(mem.total) + ' ' + str(mem.used) + ' ' + str(mem.available) + ' ' + str(mem.percent) + '\n')
 
             write_results()
+
+            RESULTS = []
+            INVERTED_INDEX = {}
+            TEMPLATES = {}

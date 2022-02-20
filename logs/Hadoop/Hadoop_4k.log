@@ -8,7 +8,6 @@
 2015-10-17 15:39:48,236 INFO [IPC Server handler 18 on 47468] org.apache.hadoop.mapred.TaskAttemptListenerImpl: Progress of TaskAttempt attempt_1445062781478_0011_m_000002_0 is : 0.5736758
 2015-10-17 15:39:53,088 INFO [IPC Server handler 29 on 47468] org.apache.hadoop.mapred.TaskAttemptListenerImpl: Progress of TaskAttempt attempt_1445062781478_0011_m_000007_0 is : 0.44964966
 2015-10-17 15:40:33,846 INFO [ContainerLauncher #1] org.apache.hadoop.yarn.client.api.impl.ContainerManagementProtocolProxy: Opening proxy : MSRA-SA-41.fareast.corp.microsoft.com:42313
-
 2015-10-17 15:40:54,081 INFO [IPC Server handler 18 on 47468] org.apache.hadoop.mapred.TaskAttemptListenerImpl: MapCompletionEvents request from attempt_1445062781478_0011_r_000000_0. startIndex 8 maxEvents 10000
 2015-10-17 15:41:27,356 INFO [IPC Server handler 29 on 47468] org.apache.hadoop.mapred.TaskAttemptListenerImpl: Progress of TaskAttempt attempt_1445062781478_0011_r_000000_0 is : 0.3
 2015-10-17 15:38:59,012 INFO [main] org.apache.hadoop.mapred.MapTask: Spilling map output
@@ -402,7 +401,6 @@ Container exited with a non-zero exit code 137
 2015-10-17 18:10:26,167 INFO [IPC Server handler 13 on 53359] org.apache.hadoop.mapred.TaskAttemptListenerImpl: Progress of TaskAttempt attempt_1445076437777_0002_m_000004_0 is : 0.36388028
 2015-10-17 18:11:24,668 INFO [IPC Server handler 7 on 53359] org.apache.hadoop.mapred.TaskAttemptListenerImpl: Progress of TaskAttempt attempt_1445076437777_0002_m_000005_0 is : 0.7934222
 2015-10-17 18:11:46,341 INFO [RMCommunicator Allocator] org.apache.hadoop.mapreduce.v2.app.rm.RMContainerAllocator: Assigned to reduce
-
 2015-10-17 18:11:54,716 INFO [RMCommunicator Allocator] org.apache.hadoop.mapreduce.v2.app.rm.RMContainerAllocator: Before Scheduling: PendingReds:0 ScheduledMaps:0 ScheduledReds:0 AssignedMaps:4 AssignedReds:1 CompletedMaps:9 CompletedReds:0 ContAlloc:13 ContRel:0 HostLocal:12 RackLocal:0
 2015-10-17 18:11:55,544 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.TaskAttemptImpl: attempt_1445076437777_0002_m_000006_0 TaskAttempt Transitioned from RUNNING to SUCCESS_CONTAINER_CLEANUP
 2015-10-17 18:09:30,830 INFO [main] org.apache.hadoop.mapred.YarnChild: Kind: mapreduce.job, Service: job_1445076437777_0002, Ident: (org.apache.hadoop.mapreduce.security.token.JobTokenIdentifier@1623b78d)
