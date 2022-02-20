@@ -74,7 +74,7 @@ benchmark_settings = {
         'filters': '([ ])',
         'num_samples':0,
         'k':95,
-        'nr_epochs':5   
+        'nr_epochs':5
         },
 
     'HealthApp': {
