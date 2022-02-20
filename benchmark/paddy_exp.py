@@ -1,12 +1,15 @@
-import sys
-sys.path.append('../')
+# -*- coding: utf-8 -*-
 
 import os.path as path
-import re, psutil
+import re
 import os
-from datetime import datetime
+import time
 
-#from Forensic_data_generation import separate_forensic_headers
+import sys, gc
+sys.path.append('../')
+
+from datetime import datetime
+from logparser.Paddy.Forensic_data_generation import separate_forensic_headers
 from logparser.Paddy.Evaluate import *
 
 TEMPLATES = {}
@@ -15,13 +18,15 @@ LAMBDA_1 = 0.5
 LAMBDA_2 = 1 - LAMBDA_1
 INVERTED_INDEX = {}
 
+
+input_dir = '../logs/'
+
 BENCHMARK_SETTINGS = {
     'HDFS': {
         'log_file': 'HDFS/HDFS_2k.log',
         'log_format': '<Date> <Time> <Pid> <Level> <Component>: <Content>',
         'regex': [r'blk_-?\d+', r'(\d+\.){3}\d+(:\d+)?'],
         'banned_word': []
-
     },
 
     'Hadoop': {
@@ -29,7 +34,6 @@ BENCHMARK_SETTINGS = {
         'log_format': '<Date> <Time> <Level> \[<Process>\] <Component>: <Content>',
         'regex': [r'(\d+\.){3}\d+'],
         'banned_word': ['UNASSIGNED', 'SCHEDULED']
-
     },
 
     'Spark': {
@@ -37,7 +41,6 @@ BENCHMARK_SETTINGS = {
         'log_format': '<Date> <Time> <Level> <Component>: <Content>',
         'regex': [r'(\d+\.){3}\d+', r'\b[KGTM]?B\b', r'([\w-]+\.){2,}[\w-]+'],
         'banned_word': ['bytes', 'values']
-
     },
 
     'Zookeeper': {
@@ -45,7 +48,6 @@ BENCHMARK_SETTINGS = {
         'log_format': '<Date> <Time> - <Level>  \[<Node>:<Component>@<Id>\] - <Content>',
         'regex': [r'(/|)(\d+\.){3}\d+(:\d+)?'],
         'banned_word': []
-
     },
 
     'BGL': {
@@ -53,7 +55,6 @@ BENCHMARK_SETTINGS = {
         'log_format': '<Label> <Timestamp> <Date> <Node> <Time> <NodeRepeat> <Type> <Component> <Level> <Content>',
         'regex': [r'core\.\d+'],
         'banned_word': []
-
     },
 
     'HPC': {
@@ -61,7 +62,6 @@ BENCHMARK_SETTINGS = {
         'log_format': '<LogId> <Node> <Component> <State> <Time> <Flag> <Content>',
         'regex': [r'=\d+'],
         'banned_word': []
-
     },
 
     'Thunderbird': {
@@ -69,7 +69,6 @@ BENCHMARK_SETTINGS = {
         'log_format': '<Label> <Timestamp> <Date> <User> <Month> <Day> <Time> <Location> <Component>(\[<PID>\])?: <Content>',
         'regex': [r'(\d+\.){3}\d+'],
         'banned_word': []
-
     },
 
     'Windows': {
@@ -77,7 +76,6 @@ BENCHMARK_SETTINGS = {
         'log_format': '<Date> <Time>, <Level>                  <Component>    <Content>',
         'regex': [r'0x.*?\s'],
         'banned_word': []
-
     },
 
     'Linux': {
@@ -165,7 +163,7 @@ def search_index(query_log):
     hits = []
 
     for token in query_log:
-        if token not in BENCHMARK_SETTINGS[DATASET]['banned_word']:
+        if token not in BENCHMARK_SETTINGS[dataset]['banned_word']:
             if token in INVERTED_INDEX:
                 hits += INVERTED_INDEX[token]
     hit_set = set(hits)
@@ -176,7 +174,7 @@ def index_doc(doc_id):
     new_template = TEMPLATES[doc_id]
 
     for token in new_template:
-        if token not in BENCHMARK_SETTINGS[DATASET]['banned_word']:
+        if token not in BENCHMARK_SETTINGS[dataset]['banned_word']:
             if token in INVERTED_INDEX:
                 INVERTED_INDEX[token].append(doc_id)
             else:
@@ -211,9 +209,9 @@ def write_results():
             templates_df.append(" ".join(TEMPLATES[j]))
     df['EventTemplate'] = templates_df
 
-    if not path.exists('paddy_results/'):
-        os.makedirs('paddy_results/')
-    df.to_csv('paddy_results/' + log_file + '_structured.csv')
+    if not path.exists('results/'):
+        os.makedirs('results/')
+    df.to_csv('results/' + dataset + '_structured.csv')
 
 
 def length(template, log_message):
@@ -268,7 +266,7 @@ def generate_logformat_regex(logformat):
 def log_to_dataframe(log_file, regex, headers):
     log_messages = []
     linecount = 0
-    with open(log_file, 'r') as fin:
+    with open(log_file, 'r', encoding='utf-8', errors='ignore') as fin:
         for line in fin.readlines():
             try:
                 match = regex.search(line.strip())
@@ -284,7 +282,7 @@ def log_to_dataframe(log_file, regex, headers):
 
 
 def preprocess(dataset, logLine):
-    regex = [] #BENCHMARK_SETTINGS[dataset]['regex']
+    regex = BENCHMARK_SETTINGS[dataset]['regex']
 
     for currentRex in regex:
         logLine = re.sub(currentRex, '<*>', logLine)
@@ -292,103 +290,84 @@ def preprocess(dataset, logLine):
 
 
 if __name__ == '__main__':
-
     BENCHMARK = pd.DataFrame()
     BENCHMARK['Dataset'] = list(BENCHMARK_SETTINGS.keys())
-    input_dir = '../logs'
-    output_dir = 'paddy_results/'
+    #input_dir = 'logs/'
     PAs = []
     f1s = []
 
-    benchmark_result = []
+    for dataset, setting in BENCHMARK_SETTINGS.items():
+    	print('\n=== Evaluation on %s ==='%dataset)
 
-    for DATASET, setting in BENCHMARK_SETTINGS.items():
-        print('\n=== Evaluation on %s ==='%DATASET)
+    	sizes = [2,4,6,8,10,12,14,16,18,20,30,40,50,60,70,80,90,100]
 
-        if DATASET == "Forensic":
-            df_log = separate_forensic_headers('logs/Forensic/Forensic_2k.log')
-        else:
-            indir = os.path.join(input_dir, os.path.dirname(setting['log_file']))
-            log_file = os.path.basename(setting['log_file'])
+    	for i in sizes:
+       	    log_file=dataset+'_'+str(i)+'k.log'
+            indir = os.path.join(input_dir, dataset)
+
+            print("Parsing ", log_file)
+
             headers, regex = generate_logformat_regex(setting['log_format'])
-            df_log = log_to_dataframe(indir + '/' + log_file, regex, headers)
+            df_log = log_to_dataframe(indir + '/' +log_file, regex, headers)
 
-        threshold = 0.79  # This is the threshold found in source independent threshold tuning
+            threshold = 0.79  # This is the threshold found in source independent threshold tuning
 
-        start_time = datetime.now()
-        for idx, line in df_log.iterrows():
-            logID = line['LineId']
-            pre_processed_log = preprocess(DATASET, line['Content']).strip().split()
+            start_time = datetime.now()
+            for idx, line in df_log.iterrows():
+            	logID = line['LineId']
+            	pre_processed_log = preprocess(dataset, line['Content']).strip().split()
 
-            log_line = filter_from_wildcards(pre_processed_log)
+            	log_line = filter_from_wildcards(pre_processed_log)
 
-            hits = search_index(log_line)
+            	hits = search_index(log_line)
 
-            # IF NO CANDIDATE FOUND
-            if len(hits) == 0:
-                new_id = get_new_template(pre_processed_log)
-                index_doc(new_id)
+            	# IF NO CANDIDATE FOUND
+            	if len(hits) == 0:
+                	new_id = get_new_template(pre_processed_log)
+                	index_doc(new_id)
 
-            # IF THERE IS AT LEAST ONE CANDIDATE
-            else:
-                max_similarity = 0
-                selected_candidate_id = None
+            	# IF THERE IS AT LEAST ONE CANDIDATE
+            	else:
+                        max_similarity = 0
+                        selected_candidate_id = None
 
-                for hit in hits:
+                        for hit in hits:
+                                candidate_template = TEMPLATES[hit]
+                                current_similarity = fitting_score(candidate_template, pre_processed_log)
+                                if current_similarity > max_similarity:
+                               		max_similarity = current_similarity
+                               		selected_candidate_id = hit
 
-                    candidate_template = TEMPLATES[hit]
-                    current_similarity = fitting_score(candidate_template, pre_processed_log)
-                    if current_similarity > max_similarity:
-                        max_similarity = current_similarity
-                        selected_candidate_id = hit
+                        # IF THERE IS A SIMILAR ENOUGH CANDIDATE FOR A GIVEN LOG MESSAGE
+                        if max_similarity > threshold:
+                                selected_candidate = TEMPLATES[selected_candidate_id]
 
-                # IF THERE IS A SIMILAR ENOUGH CANDIDATE FOR A GIVEN LOG MESSAGE
-                if max_similarity > threshold:
+                                temporary_tokens = []
+                                changed_tokens = []
 
-                    selected_candidate = TEMPLATES[selected_candidate_id]
+                                for position in range(min(len(pre_processed_log), len(selected_candidate))):
+                                        if pre_processed_log[position] == selected_candidate[position] or \
+                                		"<*>" in selected_candidate[position]:
+                                                temporary_tokens.append(selected_candidate[position])
+                                        else:
+                                                changed_tokens.append(selected_candidate[position])
+                                                temporary_tokens.append("<*>")
 
-                    temporary_tokens = []
-                    changed_tokens = []
+                                updated_template = temporary_tokens
+                                update_doc(changed_tokens, selected_candidate_id)
 
-                    for position in range(min(len(pre_processed_log), len(selected_candidate))):
-                        if pre_processed_log[position] == selected_candidate[position] or \
-                                "<*>" in selected_candidate[position]:
-                            temporary_tokens.append(selected_candidate[position])
+                                TEMPLATES[selected_candidate_id] = updated_template
+                                RESULTS.append(selected_candidate_id)
+
+                        # IF NONE OF THE CANDIDATES ARE SIMILAR ENOUGH
                         else:
-                            changed_tokens.append(selected_candidate[position])
-                            temporary_tokens.append("<*>")
+                                new_id = get_new_template(pre_processed_log)
+                                index_doc(new_id)
+                        #assert len(RESULTS) == logID
+            end_time = datetime.now()
+            print("Parse time: ", end_time-start_time)
 
-                    updated_template = temporary_tokens
-                    update_doc(changed_tokens, selected_candidate_id)
+            with open("PT_Paddy.txt", "a") as f:
+               f.write(os.path.basename(log_file).split('.')[0]+' '+str(end_time - start_time)+'\n')
 
-                    TEMPLATES[selected_candidate_id] = updated_template
-                    RESULTS.append(selected_candidate_id)
-
-                # IF NONE OF THE CANDIDATES ARE SIMILAR ENOUGH
-                else:
-                    new_id = get_new_template(pre_processed_log)
-                    index_doc(new_id)
-                assert len(RESULTS) == logID
-        end_time = datetime.now()
-        write_results()
-
-        mem = psutil.virtual_memory()
-
-        with open("PT_paddy.txt", "a") as f:
-            f.write(log_file.split('.')[0] + ' ' + str(end_time - start_time) + ' ' + str(mem.total) + ' ' + str(mem.used) + ' ' + str(mem.available) + ' ' + str(mem.percent) + '\n')
-
-        F1_measure, accuracy = evaluate(os.path.join(indir, log_file + '_structured.csv'), os.path.join(output_dir, log_file + '_structured.csv'))
-
-        print("F1_measure, Accuracy: ", F1_measure, accuracy)
-        print("Time taken: ", end_time - start_time)
-        benchmark_result.append([DATASET, F1_measure, accuracy])
-
-        RESULTS = []
-        INVERTED_INDEX = {}
-        TEMPLATES = {}
-
-print('\n=== Overall evaluation results ===')
-df_result = pd.DataFrame(benchmark_result, columns=['Dataset', 'F1_measure', 'Accuracy'])
-df_result.set_index('Dataset', inplace=True)
-print(df_result)
-df_result.T.to_csv('Paddy_bechmark_result.csv')
+            write_results()
