@@ -131,7 +131,7 @@ for dataset, setting in benchmark_settings.iteritems():
     log_file = os.path.basename(setting['log_file'])
 
     parser = SLCT.LogParser(log_format=setting['log_format'], indir=indir, outdir=output_dir,
-                            rex=setting['regex'], support=setting['support'])
+                            rex=[], support=setting['support'])
     parser.parse(log_file)
 
     F1_measure, accuracy = evaluator.evaluate(
