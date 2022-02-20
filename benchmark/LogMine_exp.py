@@ -155,7 +155,17 @@ benchmark_settings = {
         #},
 }
 
-bechmark_result = []
+benchmark_settings = {
+    'Proxifier': {
+        'log_file': 'Proxifier/Proxifier_2k.log',
+        'log_format': '\[<Time>\] <Program> - <Content>',
+        'regex': [r'<\d+\ssec', r'([\w-]+\.)+[\w-]+(:\d+)?', r'\d{2}:\d{2}(:\d{2})*', r'[KGTM]B'],
+        'max_dist': 0.002,
+        'k': 1,
+        'levels': 2
+        },
+}
+
 for dataset, setting in benchmark_settings.iteritems():
     print('\n=== Evaluation on %s ==='%dataset)
 

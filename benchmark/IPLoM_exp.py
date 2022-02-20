@@ -140,7 +140,16 @@ benchmark_settings = {
         }
 }
 
-bechmark_result = []
+benchmark_settings = {
+    'Android': {
+        'log_file': 'Android/Android_2k.log',
+        'log_format': '<Date> <Time>  <Pid>  <Tid> <Level> <Component>: <Content>',
+        'CT': 0.25,
+        'lowerBound': 0.3,
+        'regex': [r'(/[\w-]+)+', r'([\w-]+\.){2,}[\w-]+', r'\b(\-?\+?\d+)\b|\b0[Xx][a-fA-F\d]+\b|\b[a-fA-F\d]{4,}\b']
+        },
+}
+
 for dataset, setting in benchmark_settings.iteritems():
     print('\n=== Evaluation on %s ==='%dataset)
 
@@ -151,21 +160,5 @@ for dataset, setting in benchmark_settings.iteritems():
         indir = os.path.join(input_dir, dataset)
 
     	parser = IPLoM.LogParser(log_format=setting['log_format'], indir=indir, outdir=output_dir,
-                             CT=setting['CT'], lowerBound=setting['lowerBound'], rex=setting['regex'], keep_para=False)
+                             maxEventLen=1000, CT=setting['CT'], lowerBound=setting['lowerBound'], rex=setting['regex'], keep_para=False)
 	parser.parse(log_file)
-
-    '''
-    F1_measure, accuracy = evaluator.evaluate(
-                           groundtruth=os.path.join(indir, log_file + '_structured.csv'),
-                           parsedresult=os.path.join(output_dir, log_file + '_structured.csv')
-                           )
-    bechmark_result.append([dataset, F1_measure, accuracy])
-    '''
-
-'''
-print('\n=== Overall evaluation results ===')
-df_result = pd.DataFrame(bechmark_result, columns=['Dataset', 'F1_measure', 'Accuracy'])
-df_result.set_index('Dataset', inplace=True)
-print(df_result)
-df_result.T.to_csv('IPLoM_bechmark_result.csv')
-'''
