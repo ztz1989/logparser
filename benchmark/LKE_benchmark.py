@@ -21,7 +21,7 @@ benchmark_settings = {
         'log_file':  'Hadoop/Hadoop_2k.log',
         'log_format': '<Date> <Time> <Level> \[<Process>\] <Component>: <Content>',
         'regex': [r'(\d+\.){3}\d+'],
-        'split_threshold': 2 
+        'split_threshold': 2
         # 3
         },
 
@@ -85,7 +85,7 @@ benchmark_settings = {
         'log_file': 'HealthApp/HealthApp_2k.log',
         'log_format': '<Time>\|<Component>\|<Pid>\|<Content>',
         'regex': [],
-        'split_threshold': 50, 
+        'split_threshold': 50,
         },
 
     'Apache': {

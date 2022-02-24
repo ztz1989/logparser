@@ -120,7 +120,7 @@ benchmark_settings = {
         'log_format': '<Date> <Day> <Time> <Component> sshd\[<Pid>\]: <Content>',
         'regex': [r'(\d+\.){3}\d+', r'([\w-]+\.){2,}[\w-]+'],
         'st': 0.6,
-        'depth': 5   
+        'depth': 5
         },
 
     'OpenStack': {
@@ -160,4 +160,4 @@ print('\n=== Overall evaluation results ===')
 df_result = pd.DataFrame(bechmark_result, columns=['Dataset', 'F1_measure', 'Accuracy'])
 df_result.set_index('Dataset', inplace=True)
 print(df_result)
-df_result.T.to_csv('Drain_bechmark_result.csv')
+df_result.T.to_csv('Drain_benchmark_result.csv')
