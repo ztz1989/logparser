@@ -124,8 +124,15 @@ benchmark_settings = {
         }
 }
 
+benchmark_settings = {
+    'Android': {
+        'log_file': 'Android/Android_2k.log',
+        'log_format': '<Date> <Time>  <Pid>  <Tid> <Level> <Component>: <Content>',
+        'regex': [r'(/[\w-]+)+', r'([\w-]+\.){2,}[\w-]+', r'\b(\-?\+?\d+)\b|\b0[Xx][a-fA-F\d]+\b|\b[a-fA-F\d]{4,}\b'],
+        'split_threshold': 260,
+        },
+}
 
-bechmark_result = []
 for dataset, setting in benchmark_settings.iteritems():
     print('\n=== Evaluation on %s ==='%dataset)
 
@@ -138,21 +145,3 @@ for dataset, setting in benchmark_settings.iteritems():
     	parser = LKE.LogParser(log_format=setting['log_format'], indir=indir, outdir=output_dir, rex=setting['regex'],
                            split_threshold=setting['split_threshold'])
     	parser.parse(log_file)
-
-	print(psutil.virtual_memory())
-
-	'''
-    	F1_measure, accuracy = evaluator.evaluate(
-                           groundtruth=os.path.join(indir, log_file + '_structured.csv'),
-                           parsedresult=os.path.join(output_dir, log_file + '_structured.csv')
-                           )
-    	bechmark_result.append([dataset, F1_measure, accuracy])
-	'''
-
-'''
-print('\n=== Overall evaluation results ===')
-df_result = pd.DataFrame(bechmark_result, columns=['Dataset', 'F1_measure', 'Accuracy'])
-df_result.set_index('Dataset', inplace=True)
-print(df_result)
-df_result.T.to_csv('LKE_bechmark_result.csv')
-'''
