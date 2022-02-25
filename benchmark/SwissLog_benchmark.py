@@ -115,64 +115,48 @@ benchmark_settings = {
         'log_file': 'Linux/Linux_2k.log',
         'log_format': '<Month> <Date> <Time> <Level> <Component>(\[<PID>\])?: <Content>',
         'regex': [r'(\d+\.){3}\d+', r'\d{2}:\d{2}:\d{2}'],
-        'minEventCount': 2,
-        'merge_percent' : 0.6
         },
 
     'Android': {
         'log_file': 'Android/Android_2k.log',
         'log_format': '<Date> <Time>  <Pid>  <Tid> <Level> <Component>: <Content>',
         'regex': [r'(/[\w-]+)+', r'([\w-]+\.){2,}[\w-]+', r'\b(\-?\+?\d+)\b|\b0[Xx][a-fA-F\d]+\b|\b[a-fA-F\d]{4,}\b'],
-        'minEventCount': 2,
-        'merge_percent' : 0.6
         },
 
     'HealthApp': {
         'log_file': 'HealthApp/HealthApp_2k.log',
         'log_format': '<Time>\|<Component>\|<Pid>\|<Content>',
         'regex': [],
-        'minEventCount': 2,
-        'merge_percent' : 0.6
         },
 
     'Apache': {
         'log_file': 'Apache/Apache_2k.log',
         'log_format': '\[<Time>\] \[<Level>\] <Content>',
         'regex': [r'(\d+\.){3}\d+'],
-        'minEventCount': 2,
-        'merge_percent' : 0.4
         },
 
     'Proxifier': {
         'log_file': 'Proxifier/Proxifier_2k.log',
         'log_format': '\[<Time>\] <Program> - <Content>',
         'regex': [r'<\d+\s?sec', r'([\w-]+\.)+[\w-]+(:\d+)?', r'\d{2}:\d{2}(:\d{2})*', r'[KGTM]B'],
-        'minEventCount': 2,
-        'merge_percent' : 0.4
         },
 
     'OpenSSH': {
         'log_file': 'OpenSSH/OpenSSH_2k.log',
         'log_format': '<Date> <Day> <Time> <Component> sshd\[<Pid>\]: <Content>',
         'regex': [r'(\d+\.){3}\d+', r'([\w-]+\.){2,}[\w-]+'],
-        'minEventCount': 10,
-        'merge_percent' : 0.7
         },
 
     'OpenStack': {
         'log_file': 'OpenStack/OpenStack_2k.log',
         'log_format': '<Logrecord> <Date> <Time> <Pid> <Level> <Component> \[<ADDR>\] <Content>',
         'regex': [r'((\d+\.){3}\d+,?)+', r'/.+?\s', r'\d+'],
-        'minEventCount': 6,
-        'merge_percent' : 0.5
         },
 
     'Mac': {
         'log_file': 'Mac/Mac_2k.log',
         'log_format': '<Month>  <Date> <Time> <User> <Component>\[<PID>\]( \(<Address>\))?: <Content>',
         'regex': [r'([\w-]+\.){2,}[\w-]+'],
-        'minEventCount': 2,
-        'merge_percent' : 0.6
         }
 }
 

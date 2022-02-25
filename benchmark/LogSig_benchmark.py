@@ -132,10 +132,12 @@ for dataset, setting in benchmark_settings.iteritems():
     parser = LogSig.LogParser(log_format=setting['log_format'], indir=indir, outdir=output_dir, rex=[], groupNum=setting['groupNum'])
     parser.parse(log_file)
 
-    F1_measure, accuracy = evaluator.evaluate(
+    try:
+    	F1_measure, accuracy = evaluator.evaluate(
                            groundtruth=os.path.join(indir, log_file + '_structured.csv'),
                            parsedresult=os.path.join(output_dir, log_file + '_structured.csv')
                            )
+    except: continue
     bechmark_result.append([dataset, F1_measure, accuracy])
 
 print('\n=== Overall evaluation results ===')
