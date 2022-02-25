@@ -5,7 +5,7 @@ sys.path.append('../')
 from logparser import IPLoM, evaluator
 import os
 import pandas as pd
-
+import numpy as np
 
 input_dir = '../logs/'  # The input directory of log file
 output_dir = 'IPLoM_result/'  # The output directory of parsing results
@@ -140,24 +140,29 @@ benchmark_settings = {
         }
 }
 
-bechmark_result = []
 for dataset, setting in benchmark_settings.iteritems():
     print('\n=== Evaluation on %s ==='%dataset)
     indir = os.path.join(input_dir, os.path.dirname(setting['log_file']))
     log_file = os.path.basename(setting['log_file'])
+    benchmark_result = []
+    CT = 0.01*np.arange(10,100,5)
+    lowerbound = 0.01*np.arange(10,100,5)
 
-    parser = IPLoM.LogParser(log_format=setting['log_format'], indir=indir, outdir=output_dir,
-                             CT=setting['CT'], lowerBound=setting['lowerBound'], rex=setting['regex'], keep_para=False)
-    parser.parse(log_file)
+    for c in CT:
+	for l in lowerbound:
+		print("CT, lowerbound: ", c, l)
+    		parser = IPLoM.LogParser(log_format=setting['log_format'], indir=indir, outdir=output_dir,
+                             CT=c, lowerBound=l, rex=setting['regex'], keep_para=False)
+    		parser.parse(log_file)
 
-    F1_measure, accuracy = evaluator.evaluate(
+    		F1_measure, accuracy = evaluator.evaluate(
                            groundtruth=os.path.join(indir, log_file + '_structured.csv'),
                            parsedresult=os.path.join(output_dir, log_file + '_structured.csv')
                            )
-    bechmark_result.append([dataset, F1_measure, accuracy])
+    		benchmark_result.append([dataset, c, l, F1_measure, accuracy])
 
-print('\n=== Overall evaluation results ===')
-df_result = pd.DataFrame(bechmark_result, columns=['Dataset', 'F1_measure', 'Accuracy'])
-df_result.set_index('Dataset', inplace=True)
-print(df_result)
-df_result.T.to_csv('IPLoM_bechmark_result.csv')
+    print('\n=== Overall evaluation results ===')
+    df_result = pd.DataFrame(benchmark_result, columns=['Dataset', 'CT', 'lowerbound', 'F1_measure', 'Accuracy'])
+    df_result.set_index('Dataset', inplace=True)
+    print(df_result)
+    df_result.to_csv('IPLoM_benchmark_result_' + dataset +'.csv')
