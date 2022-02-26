@@ -11,12 +11,12 @@ input_dir = '../logs/' # The input directory of log file
 output_dir = 'LogSig_result/' # The output directory of parsing results
 
 benchmark_settings = {
-    'HDFS': {
-        'log_file': 'HDFS/HDFS_2k.log',
-        'log_format': '<Date> <Time> <Pid> <Level> <Component>: <Content>',
-        'regex': [r'blk_-?\d+', r'(\d+\.){3}\d+(:\d+)?'],
-        'groupNum': 15
-        },
+    #'HDFS': {
+        #'log_file': 'HDFS/HDFS_2k.log',
+        #'log_format': '<Date> <Time> <Pid> <Level> <Component>: <Content>',
+        #'regex': [r'blk_-?\d+', r'(\d+\.){3}\d+(:\d+)?'],
+        #'groupNum': 15
+        #},
 
     'Hadoop': {
         'log_file': 'Hadoop/Hadoop_2k.log',
@@ -95,12 +95,12 @@ benchmark_settings = {
         'groupNum': 8
         },
 
-    'Proxifier': {
-        'log_file': 'Proxifier/Proxifier_2k.log',
-        'log_format': '\[<Time>\] <Program> - <Content>',
-        'regex': [r'<\d+\ssec', r'([\w-]+\.)+[\w-]+(:\d+)?', r'\d{2}:\d{2}(:\d{2})*', r'[KGTM]B'],
-        'groupNum': 10
-        },
+    #'Proxifier': {
+        #'log_file': 'Proxifier/Proxifier_2k.log',
+        #'log_format': '\[<Time>\] <Program> - <Content>',
+        #'regex': [r'<\d+\ssec', r'([\w-]+\.)+[\w-]+(:\d+)?', r'\d{2}:\d{2}(:\d{2})*', r'[KGTM]B'],
+        #'groupNum': 10
+        #},
 
     'OpenSSH': {
         'log_file': 'OpenSSH/OpenSSH_2k.log',
@@ -133,13 +133,17 @@ for dataset, setting in benchmark_settings.iteritems():
     groupnum = [8, 10, 15, 25, 30, 42, 46, 50, 200, 250, 500, 800, 900]
 
     for g in groupnum:
+	print("GroupNum: ", g)
     	parser = LogSig.LogParser(log_format=setting['log_format'], indir=indir, outdir=output_dir, rex=setting['regex'], groupNum=g)
-    	parser.parse(log_file)
 
-    	F1_measure, accuracy = evaluator.evaluate(
+	try:
+    		parser.parse(log_file)
+    		F1_measure, accuracy = evaluator.evaluate(
                            groundtruth=os.path.join(indir, log_file + '_structured.csv'),
                            parsedresult=os.path.join(output_dir, log_file + '_structured.csv')
                            )
+	except: continue
+
     	benchmark_result.append([dataset, g, F1_measure, accuracy])
 
     print('\n=== Overall evaluation results ===')
