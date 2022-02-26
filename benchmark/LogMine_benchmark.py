@@ -162,7 +162,7 @@ for dataset, setting in benchmark_settings.iteritems():
     log_file = os.path.basename(setting['log_file'])
 
     parser = LogMine.LogParser(log_format=setting['log_format'], indir=indir, outdir=output_dir,
-                               rex=[], max_dist=setting['max_dist'], k=setting['k'],
+                               rex=setting['regex'], max_dist=setting['max_dist'], k=setting['k'],
                                levels=setting['levels'])
     parser.parse(log_file)
 

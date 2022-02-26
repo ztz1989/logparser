@@ -130,10 +130,10 @@ for dataset, setting in benchmark_settings.iteritems():
     log_file = os.path.basename(setting['log_file'])
     benchmark_result = []
 
-    groupnum = np.arange(10, 1000, 10)
+    groupnum = [8, 10, 15, 25, 30, 42, 46, 50, 200, 250, 500, 800, 900]
 
     for g in groupnum:
-    	parser = LogSig.LogParser(log_format=setting['log_format'], indir=indir, outdir=output_dir, rex=[], groupNum=g)
+    	parser = LogSig.LogParser(log_format=setting['log_format'], indir=indir, outdir=output_dir, rex=setting['regex'], groupNum=g)
     	parser.parse(log_file)
 
     	F1_measure, accuracy = evaluator.evaluate(

@@ -153,4 +153,4 @@ for dataset, setting in benchmark_settings.iteritems():
     df_result = pd.DataFrame(benchmark_result, columns=['Dataset', 'F1_measure', 'Accuracy'])
     df_result.set_index('Dataset', inplace=True)
     print(df_result)
-    df_result.to_csv('Lenma_bechmark_result_' + dataset + '.csv')
+    df_result.to_csv('Lenma_benchmark_result_' + dataset + '.csv')

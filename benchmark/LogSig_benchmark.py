@@ -129,7 +129,7 @@ for dataset, setting in benchmark_settings.iteritems():
     indir = os.path.join(input_dir, os.path.dirname(setting['log_file']))
     log_file = os.path.basename(setting['log_file'])
 
-    parser = LogSig.LogParser(log_format=setting['log_format'], indir=indir, outdir=output_dir, rex=[], groupNum=setting['groupNum'])
+    parser = LogSig.LogParser(log_format=setting['log_format'], indir=indir, outdir=output_dir, rex=setting['regex'], groupNum=setting['groupNum'])
     parser.parse(log_file)
 
     try:
