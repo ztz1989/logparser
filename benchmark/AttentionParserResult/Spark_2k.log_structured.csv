@@ -1,0 +1,2001 @@
+EventId,EventTemplate
+8d7c0e6bc833e2b6bf53b13839d4234d,<*> <*> <*> <*> <*> <*> <*>
+7103ffa2ce6a12d18915d6570b3f6e3f,"Changing view acls to: yarn,curi"
+91c453521d6fe33e5e7638da6fb40385,"Changing modify acls to: yarn,curi"
+756fbb96205c36aad63931eaf99a6359,"SecurityManager: authentication disabled; <*> acls disabled; users with view permissions: Set(yarn, curi); users with modify permissions: Set(yarn, curi)"
+7103ffa2ce6a12d18915d6570b3f6e3f,"Changing view acls to: yarn,curi"
+91c453521d6fe33e5e7638da6fb40385,"Changing modify acls to: yarn,curi"
+756fbb96205c36aad63931eaf99a6359,"SecurityManager: authentication disabled; <*> acls disabled; users with view permissions: Set(yarn, curi); users with modify permissions: Set(yarn, curi)"
+e4d725b2f4fdd7c5a1bff7ce502fa193,<*> started
+0a902b2fcdabb135085e16dbf9927664,Starting <*>
+9624c814f1e02d8165b987ad988c2a2b,<*> <*> <*> on <*> <*>
+52dbc429e8e0a1d0e97c12ccc91197ed,<*> started <*> <*> on <*> <*>
+fb1951956456dee1a45a176a6859d102,<*> <*> <*> <*> <*>
+d7f75b9b03c6fa5ce6668fcd30b142c1,<*> started <*> <*> <*> <*>
+9caad26953e435aa195ecd1ff065b79e,<*> to <*> <*><*><*>
+49f1853be9020e9d22066afda0d302e1,<*> <*> <*> driver
+c9e3d36cc05d6a30e5364e1daf39338a,Starting <*> <*> <*> on <*> <*>
+52dbc429e8e0a1d0e97c12ccc91197ed,<*> started <*> <*> on <*> <*>
+34ab7cdbf2300a8f7e850a97cbe2aef4,Server <*> <*> <*>
+cad93baf803d5628ab14648e59cb6295,<*> to <*> <*>
+dede275dedbf944828553c5d54f5dcc0,<*> <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+6c90e14074344d55c2d2d96535fb2395,Started reading broadcast variable <*>
+6fc5cae3d20c9b6694bdaf692e1f8878,"Block <*> stored as bytes in memory (estimated size <*><*>, free <*><*>)"
+c0edc03b950d67b3160a93d8b5d8fd3c,Reading broadcast variable <*> took <*> ms
+b32f1d8218395469c682f94524145871,"Block <*> stored as values in memory (estimated size <*><*>, free <*><*>)"
+3d6e0eb044c1fd2e5247d5bf04e7ba46,"Partition <*> not found, computing it"
+3d6e0eb044c1fd2e5247d5bf04e7ba46,"Partition <*> not found, computing it"
+3d6e0eb044c1fd2e5247d5bf04e7ba46,"Partition <*> not found, computing it"
+3d6e0eb044c1fd2e5247d5bf04e7ba46,"Partition <*> not found, computing it"
+3d6e0eb044c1fd2e5247d5bf04e7ba46,"Partition <*> not found, computing it"
+b0c14c1a583de7e8a5effb7a223297d7,Input split: hdfs://<*><*>
+b0c14c1a583de7e8a5effb7a223297d7,Input split: hdfs://<*><*>
+b0c14c1a583de7e8a5effb7a223297d7,Input split: hdfs://<*><*>
+b0c14c1a583de7e8a5effb7a223297d7,Input split: hdfs://<*><*>
+b0c14c1a583de7e8a5effb7a223297d7,Input split: hdfs://<*><*>
+6c90e14074344d55c2d2d96535fb2395,Started reading broadcast variable <*>
+6fc5cae3d20c9b6694bdaf692e1f8878,"Block <*> stored as bytes in memory (estimated size <*><*>, free <*><*>)"
+c0edc03b950d67b3160a93d8b5d8fd3c,Reading broadcast variable <*> took <*> ms
+b32f1d8218395469c682f94524145871,"Block <*> stored as values in memory (estimated size <*><*>, free <*><*>)"
+3c2836b936eb317405c5ef8c7ab78f8b,"tip. is deprecated. Instead, use task."
+ca21bf971489a6a8d397b5c17356b502,"task. is deprecated. Instead, use <*>"
+ec7e164bbb69deb15ad656b5ec8c2ef4,"<*> is deprecated. Instead, use task."
+3729a2cdb9652786ef6f1e637c5d5d7e,"<*> is deprecated. Instead, use <*>"
+86ec6a9b6e001ef3fc63cf1158c6cf14,"task. is deprecated. Instead, use task."
+6c90e14074344d55c2d2d96535fb2395,Started reading broadcast variable <*>
+6fc5cae3d20c9b6694bdaf692e1f8878,"Block <*> stored as bytes in memory (estimated size <*><*>, free <*><*>)"
+c0edc03b950d67b3160a93d8b5d8fd3c,Reading broadcast variable <*> took <*> ms
+b32f1d8218395469c682f94524145871,"Block <*> stored as values in memory (estimated size <*><*>, free <*><*>)"
+6c90e14074344d55c2d2d96535fb2395,Started reading broadcast variable <*>
+6fc5cae3d20c9b6694bdaf692e1f8878,"Block <*> stored as bytes in memory (estimated size <*><*>, free <*><*>)"
+c0edc03b950d67b3160a93d8b5d8fd3c,Reading broadcast variable <*> took <*> ms
+b32f1d8218395469c682f94524145871,"Block <*> stored as values in memory (estimated size <*><*>, free <*><*>)"
+6c90e14074344d55c2d2d96535fb2395,Started reading broadcast variable <*>
+6fc5cae3d20c9b6694bdaf692e1f8878,"Block <*> stored as bytes in memory (estimated size <*><*>, free <*><*>)"
+c0edc03b950d67b3160a93d8b5d8fd3c,Reading broadcast variable <*> took <*> ms
+b32f1d8218395469c682f94524145871,"Block <*> stored as values in memory (estimated size <*><*>, free <*><*>)"
+6c90e14074344d55c2d2d96535fb2395,Started reading broadcast variable <*>
+6fc5cae3d20c9b6694bdaf692e1f8878,"Block <*> stored as bytes in memory (estimated size <*><*>, free <*><*>)"
+c0edc03b950d67b3160a93d8b5d8fd3c,Reading broadcast variable <*> took <*> ms
+b32f1d8218395469c682f94524145871,"Block <*> stored as values in memory (estimated size <*><*>, free <*><*>)"
+6c90e14074344d55c2d2d96535fb2395,Started reading broadcast variable <*>
+6fc5cae3d20c9b6694bdaf692e1f8878,"Block <*> stored as bytes in memory (estimated size <*><*>, free <*><*>)"
+c0edc03b950d67b3160a93d8b5d8fd3c,Reading broadcast variable <*> took <*> ms
+b32f1d8218395469c682f94524145871,"Block <*> stored as values in memory (estimated size <*><*>, free <*><*>)"
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+6fc5cae3d20c9b6694bdaf692e1f8878,"Block <*> stored as bytes in memory (estimated size <*><*>, free <*><*>)"
+6fc5cae3d20c9b6694bdaf692e1f8878,"Block <*> stored as bytes in memory (estimated size <*><*>, free <*><*>)"
+6fc5cae3d20c9b6694bdaf692e1f8878,"Block <*> stored as bytes in memory (estimated size <*><*>, free <*><*>)"
+6fc5cae3d20c9b6694bdaf692e1f8878,"Block <*> stored as bytes in memory (estimated size <*><*>, free <*><*>)"
+6fc5cae3d20c9b6694bdaf692e1f8878,"Block <*> stored as bytes in memory (estimated size <*><*>, free <*><*>)"
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+6c90e14074344d55c2d2d96535fb2395,Started reading broadcast variable <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+6fc5cae3d20c9b6694bdaf692e1f8878,"Block <*> stored as bytes in memory (estimated size <*><*>, free <*><*>)"
+c0edc03b950d67b3160a93d8b5d8fd3c,Reading broadcast variable <*> took <*> ms
+b32f1d8218395469c682f94524145871,"Block <*> stored as values in memory (estimated size <*><*>, free <*><*>)"
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+6c90e14074344d55c2d2d96535fb2395,Started reading broadcast variable <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+6fc5cae3d20c9b6694bdaf692e1f8878,"Block <*> stored as bytes in memory (estimated size <*><*>, free <*><*>)"
+c0edc03b950d67b3160a93d8b5d8fd3c,Reading broadcast variable <*> took <*> ms
+b32f1d8218395469c682f94524145871,"Block <*> stored as values in memory (estimated size <*><*>, free <*><*>)"
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+6c90e14074344d55c2d2d96535fb2395,Started reading broadcast variable <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+6fc5cae3d20c9b6694bdaf692e1f8878,"Block <*> stored as bytes in memory (estimated size <*><*>, free <*><*>)"
+c0edc03b950d67b3160a93d8b5d8fd3c,Reading broadcast variable <*> took <*> ms
+b32f1d8218395469c682f94524145871,"Block <*> stored as values in memory (estimated size <*><*>, free <*><*>)"
+3d6e0eb044c1fd2e5247d5bf04e7ba46,"Partition <*> not found, computing it"
+3d6e0eb044c1fd2e5247d5bf04e7ba46,"Partition <*> not found, computing it"
+3d6e0eb044c1fd2e5247d5bf04e7ba46,"Partition <*> not found, computing it"
+3d6e0eb044c1fd2e5247d5bf04e7ba46,"Partition <*> not found, computing it"
+3d6e0eb044c1fd2e5247d5bf04e7ba46,"Partition <*> not found, computing it"
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+6fc5cae3d20c9b6694bdaf692e1f8878,"Block <*> stored as bytes in memory (estimated size <*><*>, free <*><*>)"
+6fc5cae3d20c9b6694bdaf692e1f8878,"Block <*> stored as bytes in memory (estimated size <*><*>, free <*><*>)"
+6fc5cae3d20c9b6694bdaf692e1f8878,"Block <*> stored as bytes in memory (estimated size <*><*>, free <*><*>)"
+6fc5cae3d20c9b6694bdaf692e1f8878,"Block <*> stored as bytes in memory (estimated size <*><*>, free <*><*>)"
+6fc5cae3d20c9b6694bdaf692e1f8878,"Block <*> stored as bytes in memory (estimated size <*><*>, free <*><*>)"
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+6c90e14074344d55c2d2d96535fb2395,Started reading broadcast variable <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+6fc5cae3d20c9b6694bdaf692e1f8878,"Block <*> stored as bytes in memory (estimated size <*><*>, free <*><*>)"
+c0edc03b950d67b3160a93d8b5d8fd3c,Reading broadcast variable <*> took <*> ms
+b32f1d8218395469c682f94524145871,"Block <*> stored as values in memory (estimated size <*><*>, free <*><*>)"
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+6c90e14074344d55c2d2d96535fb2395,Started reading broadcast variable <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+6fc5cae3d20c9b6694bdaf692e1f8878,"Block <*> stored as bytes in memory (estimated size <*><*>, free <*><*>)"
+c0edc03b950d67b3160a93d8b5d8fd3c,Reading broadcast variable <*> took <*> ms
+b32f1d8218395469c682f94524145871,"Block <*> stored as values in memory (estimated size <*><*>, free <*><*>)"
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+6c90e14074344d55c2d2d96535fb2395,Started reading broadcast variable <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+6fc5cae3d20c9b6694bdaf692e1f8878,"Block <*> stored as bytes in memory (estimated size <*><*>, free <*><*>)"
+c0edc03b950d67b3160a93d8b5d8fd3c,Reading broadcast variable <*> took <*> ms
+b32f1d8218395469c682f94524145871,"Block <*> stored as values in memory (estimated size <*><*>, free <*><*>)"
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+6c90e14074344d55c2d2d96535fb2395,Started reading broadcast variable <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+6fc5cae3d20c9b6694bdaf692e1f8878,"Block <*> stored as bytes in memory (estimated size <*><*>, free <*><*>)"
+c0edc03b950d67b3160a93d8b5d8fd3c,Reading broadcast variable <*> took <*> ms
+b32f1d8218395469c682f94524145871,"Block <*> stored as values in memory (estimated size <*><*>, free <*><*>)"
+3d6e0eb044c1fd2e5247d5bf04e7ba46,"Partition <*> not found, computing it"
+3d6e0eb044c1fd2e5247d5bf04e7ba46,"Partition <*> not found, computing it"
+3d6e0eb044c1fd2e5247d5bf04e7ba46,"Partition <*> not found, computing it"
+3d6e0eb044c1fd2e5247d5bf04e7ba46,"Partition <*> not found, computing it"
+3d6e0eb044c1fd2e5247d5bf04e7ba46,"Partition <*> not found, computing it"
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+6fc5cae3d20c9b6694bdaf692e1f8878,"Block <*> stored as bytes in memory (estimated size <*><*>, free <*><*>)"
+6fc5cae3d20c9b6694bdaf692e1f8878,"Block <*> stored as bytes in memory (estimated size <*><*>, free <*><*>)"
+6fc5cae3d20c9b6694bdaf692e1f8878,"Block <*> stored as bytes in memory (estimated size <*><*>, free <*><*>)"
+6fc5cae3d20c9b6694bdaf692e1f8878,"Block <*> stored as bytes in memory (estimated size <*><*>, free <*><*>)"
+6fc5cae3d20c9b6694bdaf692e1f8878,"Block <*> stored as bytes in memory (estimated size <*><*>, free <*><*>)"
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+6c90e14074344d55c2d2d96535fb2395,Started reading broadcast variable <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+6fc5cae3d20c9b6694bdaf692e1f8878,"Block <*> stored as bytes in memory (estimated size <*><*>, free <*><*>)"
+c0edc03b950d67b3160a93d8b5d8fd3c,Reading broadcast variable <*> took <*> ms
+b32f1d8218395469c682f94524145871,"Block <*> stored as values in memory (estimated size <*><*>, free <*><*>)"
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+6c90e14074344d55c2d2d96535fb2395,Started reading broadcast variable <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+6fc5cae3d20c9b6694bdaf692e1f8878,"Block <*> stored as bytes in memory (estimated size <*><*>, free <*><*>)"
+c0edc03b950d67b3160a93d8b5d8fd3c,Reading broadcast variable <*> took <*> ms
+b32f1d8218395469c682f94524145871,"Block <*> stored as values in memory (estimated size <*><*>, free <*><*>)"
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+6c90e14074344d55c2d2d96535fb2395,Started reading broadcast variable <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+6fc5cae3d20c9b6694bdaf692e1f8878,"Block <*> stored as bytes in memory (estimated size <*><*>, free <*><*>)"
+c0edc03b950d67b3160a93d8b5d8fd3c,Reading broadcast variable <*> took <*> ms
+b32f1d8218395469c682f94524145871,"Block <*> stored as values in memory (estimated size <*><*>, free <*><*>)"
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+6c90e14074344d55c2d2d96535fb2395,Started reading broadcast variable <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+6fc5cae3d20c9b6694bdaf692e1f8878,"Block <*> stored as bytes in memory (estimated size <*><*>, free <*><*>)"
+c0edc03b950d67b3160a93d8b5d8fd3c,Reading broadcast variable <*> took <*> ms
+b32f1d8218395469c682f94524145871,"Block <*> stored as values in memory (estimated size <*><*>, free <*><*>)"
+3d6e0eb044c1fd2e5247d5bf04e7ba46,"Partition <*> not found, computing it"
+3d6e0eb044c1fd2e5247d5bf04e7ba46,"Partition <*> not found, computing it"
+3d6e0eb044c1fd2e5247d5bf04e7ba46,"Partition <*> not found, computing it"
+3d6e0eb044c1fd2e5247d5bf04e7ba46,"Partition <*> not found, computing it"
+3d6e0eb044c1fd2e5247d5bf04e7ba46,"Partition <*> not found, computing it"
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+6fc5cae3d20c9b6694bdaf692e1f8878,"Block <*> stored as bytes in memory (estimated size <*><*>, free <*><*>)"
+6fc5cae3d20c9b6694bdaf692e1f8878,"Block <*> stored as bytes in memory (estimated size <*><*>, free <*><*>)"
+6fc5cae3d20c9b6694bdaf692e1f8878,"Block <*> stored as bytes in memory (estimated size <*><*>, free <*><*>)"
+6fc5cae3d20c9b6694bdaf692e1f8878,"Block <*> stored as bytes in memory (estimated size <*><*>, free <*><*>)"
+6fc5cae3d20c9b6694bdaf692e1f8878,"Block <*> stored as bytes in memory (estimated size <*><*>, free <*><*>)"
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+6c90e14074344d55c2d2d96535fb2395,Started reading broadcast variable <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+6fc5cae3d20c9b6694bdaf692e1f8878,"Block <*> stored as bytes in memory (estimated size <*><*>, free <*><*>)"
+c0edc03b950d67b3160a93d8b5d8fd3c,Reading broadcast variable <*> took <*> ms
+b32f1d8218395469c682f94524145871,"Block <*> stored as values in memory (estimated size <*><*>, free <*><*>)"
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+6c90e14074344d55c2d2d96535fb2395,Started reading broadcast variable <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+6fc5cae3d20c9b6694bdaf692e1f8878,"Block <*> stored as bytes in memory (estimated size <*><*>, free <*><*>)"
+c0edc03b950d67b3160a93d8b5d8fd3c,Reading broadcast variable <*> took <*> ms
+b32f1d8218395469c682f94524145871,"Block <*> stored as values in memory (estimated size <*><*>, free <*><*>)"
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+6c90e14074344d55c2d2d96535fb2395,Started reading broadcast variable <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+6fc5cae3d20c9b6694bdaf692e1f8878,"Block <*> stored as bytes in memory (estimated size <*><*>, free <*><*>)"
+c0edc03b950d67b3160a93d8b5d8fd3c,Reading broadcast variable <*> took <*> ms
+b32f1d8218395469c682f94524145871,"Block <*> stored as values in memory (estimated size <*><*>, free <*><*>)"
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+6c90e14074344d55c2d2d96535fb2395,Started reading broadcast variable <*>
+6fc5cae3d20c9b6694bdaf692e1f8878,"Block <*> stored as bytes in memory (estimated size <*><*>, free <*><*>)"
+c0edc03b950d67b3160a93d8b5d8fd3c,Reading broadcast variable <*> took <*> ms
+b32f1d8218395469c682f94524145871,"Block <*> stored as values in memory (estimated size <*><*>, free <*><*>)"
+3d6e0eb044c1fd2e5247d5bf04e7ba46,"Partition <*> not found, computing it"
+3d6e0eb044c1fd2e5247d5bf04e7ba46,"Partition <*> not found, computing it"
+3d6e0eb044c1fd2e5247d5bf04e7ba46,"Partition <*> not found, computing it"
+3d6e0eb044c1fd2e5247d5bf04e7ba46,"Partition <*> not found, computing it"
+3d6e0eb044c1fd2e5247d5bf04e7ba46,"Partition <*> not found, computing it"
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+6fc5cae3d20c9b6694bdaf692e1f8878,"Block <*> stored as bytes in memory (estimated size <*><*>, free <*><*>)"
+6fc5cae3d20c9b6694bdaf692e1f8878,"Block <*> stored as bytes in memory (estimated size <*><*>, free <*><*>)"
+6fc5cae3d20c9b6694bdaf692e1f8878,"Block <*> stored as bytes in memory (estimated size <*><*>, free <*><*>)"
+6fc5cae3d20c9b6694bdaf692e1f8878,"Block <*> stored as bytes in memory (estimated size <*><*>, free <*><*>)"
+6fc5cae3d20c9b6694bdaf692e1f8878,"Block <*> stored as bytes in memory (estimated size <*><*>, free <*><*>)"
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+6c90e14074344d55c2d2d96535fb2395,Started reading broadcast variable <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+6fc5cae3d20c9b6694bdaf692e1f8878,"Block <*> stored as bytes in memory (estimated size <*><*>, free <*><*>)"
+c0edc03b950d67b3160a93d8b5d8fd3c,Reading broadcast variable <*> took <*> ms
+b32f1d8218395469c682f94524145871,"Block <*> stored as values in memory (estimated size <*><*>, free <*><*>)"
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+6c90e14074344d55c2d2d96535fb2395,Started reading broadcast variable <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+6fc5cae3d20c9b6694bdaf692e1f8878,"Block <*> stored as bytes in memory (estimated size <*><*>, free <*><*>)"
+c0edc03b950d67b3160a93d8b5d8fd3c,Reading broadcast variable <*> took <*> ms
+b32f1d8218395469c682f94524145871,"Block <*> stored as values in memory (estimated size <*><*>, free <*><*>)"
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+6c90e14074344d55c2d2d96535fb2395,Started reading broadcast variable <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+6fc5cae3d20c9b6694bdaf692e1f8878,"Block <*> stored as bytes in memory (estimated size <*><*>, free <*><*>)"
+c0edc03b950d67b3160a93d8b5d8fd3c,Reading broadcast variable <*> took <*> ms
+b32f1d8218395469c682f94524145871,"Block <*> stored as values in memory (estimated size <*><*>, free <*><*>)"
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+6c90e14074344d55c2d2d96535fb2395,Started reading broadcast variable <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+6fc5cae3d20c9b6694bdaf692e1f8878,"Block <*> stored as bytes in memory (estimated size <*><*>, free <*><*>)"
+c0edc03b950d67b3160a93d8b5d8fd3c,Reading broadcast variable <*> took <*> ms
+b32f1d8218395469c682f94524145871,"Block <*> stored as values in memory (estimated size <*><*>, free <*><*>)"
+3d6e0eb044c1fd2e5247d5bf04e7ba46,"Partition <*> not found, computing it"
+3d6e0eb044c1fd2e5247d5bf04e7ba46,"Partition <*> not found, computing it"
+3d6e0eb044c1fd2e5247d5bf04e7ba46,"Partition <*> not found, computing it"
+3d6e0eb044c1fd2e5247d5bf04e7ba46,"Partition <*> not found, computing it"
+3d6e0eb044c1fd2e5247d5bf04e7ba46,"Partition <*> not found, computing it"
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+6fc5cae3d20c9b6694bdaf692e1f8878,"Block <*> stored as bytes in memory (estimated size <*><*>, free <*><*>)"
+6fc5cae3d20c9b6694bdaf692e1f8878,"Block <*> stored as bytes in memory (estimated size <*><*>, free <*><*>)"
+6fc5cae3d20c9b6694bdaf692e1f8878,"Block <*> stored as bytes in memory (estimated size <*><*>, free <*><*>)"
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+6fc5cae3d20c9b6694bdaf692e1f8878,"Block <*> stored as bytes in memory (estimated size <*><*>, free <*><*>)"
+6fc5cae3d20c9b6694bdaf692e1f8878,"Block <*> stored as bytes in memory (estimated size <*><*>, free <*><*>)"
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+6c90e14074344d55c2d2d96535fb2395,Started reading broadcast variable <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+6fc5cae3d20c9b6694bdaf692e1f8878,"Block <*> stored as bytes in memory (estimated size <*><*>, free <*><*>)"
+c0edc03b950d67b3160a93d8b5d8fd3c,Reading broadcast variable <*> took <*> ms
+b32f1d8218395469c682f94524145871,"Block <*> stored as values in memory (estimated size <*><*>, free <*><*>)"
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+6c90e14074344d55c2d2d96535fb2395,Started reading broadcast variable <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+6fc5cae3d20c9b6694bdaf692e1f8878,"Block <*> stored as bytes in memory (estimated size <*><*>, free <*><*>)"
+c0edc03b950d67b3160a93d8b5d8fd3c,Reading broadcast variable <*> took <*> ms
+b32f1d8218395469c682f94524145871,"Block <*> stored as values in memory (estimated size <*><*>, free <*><*>)"
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+6c90e14074344d55c2d2d96535fb2395,Started reading broadcast variable <*>
+6fc5cae3d20c9b6694bdaf692e1f8878,"Block <*> stored as bytes in memory (estimated size <*><*>, free <*><*>)"
+c0edc03b950d67b3160a93d8b5d8fd3c,Reading broadcast variable <*> took <*> ms
+b32f1d8218395469c682f94524145871,"Block <*> stored as values in memory (estimated size <*><*>, free <*><*>)"
+3d6e0eb044c1fd2e5247d5bf04e7ba46,"Partition <*> not found, computing it"
+3d6e0eb044c1fd2e5247d5bf04e7ba46,"Partition <*> not found, computing it"
+3d6e0eb044c1fd2e5247d5bf04e7ba46,"Partition <*> not found, computing it"
+3d6e0eb044c1fd2e5247d5bf04e7ba46,"Partition <*> not found, computing it"
+3d6e0eb044c1fd2e5247d5bf04e7ba46,"Partition <*> not found, computing it"
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+6fc5cae3d20c9b6694bdaf692e1f8878,"Block <*> stored as bytes in memory (estimated size <*><*>, free <*><*>)"
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+6fc5cae3d20c9b6694bdaf692e1f8878,"Block <*> stored as bytes in memory (estimated size <*><*>, free <*><*>)"
+6fc5cae3d20c9b6694bdaf692e1f8878,"Block <*> stored as bytes in memory (estimated size <*><*>, free <*><*>)"
+6fc5cae3d20c9b6694bdaf692e1f8878,"Block <*> stored as bytes in memory (estimated size <*><*>, free <*><*>)"
+6fc5cae3d20c9b6694bdaf692e1f8878,"Block <*> stored as bytes in memory (estimated size <*><*>, free <*><*>)"
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+6c90e14074344d55c2d2d96535fb2395,Started reading broadcast variable <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+6fc5cae3d20c9b6694bdaf692e1f8878,"Block <*> stored as bytes in memory (estimated size <*><*>, free <*><*>)"
+c0edc03b950d67b3160a93d8b5d8fd3c,Reading broadcast variable <*> took <*> ms
+b32f1d8218395469c682f94524145871,"Block <*> stored as values in memory (estimated size <*><*>, free <*><*>)"
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+6c90e14074344d55c2d2d96535fb2395,Started reading broadcast variable <*>
+6fc5cae3d20c9b6694bdaf692e1f8878,"Block <*> stored as bytes in memory (estimated size <*><*>, free <*><*>)"
+c0edc03b950d67b3160a93d8b5d8fd3c,Reading broadcast variable <*> took <*> ms
+b32f1d8218395469c682f94524145871,"Block <*> stored as values in memory (estimated size <*><*>, free <*><*>)"
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+24f60e3d82b1b4627d526de58b9c2a0f,File Output Committer Algorithm version is <*>
+24f60e3d82b1b4627d526de58b9c2a0f,File Output Committer Algorithm version is <*>
+24f60e3d82b1b4627d526de58b9c2a0f,File Output Committer Algorithm version is <*>
+24f60e3d82b1b4627d526de58b9c2a0f,File Output Committer Algorithm version is <*>
+24f60e3d82b1b4627d526de58b9c2a0f,File Output Committer Algorithm version is <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+b0b82d6836ede9200360f01306a349a1,Saved output of task <*> to hdfs://<*><*>
+b0b82d6836ede9200360f01306a349a1,Saved output of task <*> to hdfs://<*><*>
+b0b82d6836ede9200360f01306a349a1,Saved output of task <*> to hdfs://<*><*>
+b0b82d6836ede9200360f01306a349a1,Saved output of task <*> to hdfs://<*><*>
+b0b82d6836ede9200360f01306a349a1,Saved output of task <*> to hdfs://<*><*>
+9a5790d121cd1d78d2fc15415259fc64,<*> Committed
+9a5790d121cd1d78d2fc15415259fc64,<*> Committed
+9a5790d121cd1d78d2fc15415259fc64,<*> Committed
+9a5790d121cd1d78d2fc15415259fc64,<*> Committed
+9a5790d121cd1d78d2fc15415259fc64,<*> Committed
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+24f60e3d82b1b4627d526de58b9c2a0f,File Output Committer Algorithm version is <*>
+24f60e3d82b1b4627d526de58b9c2a0f,File Output Committer Algorithm version is <*>
+24f60e3d82b1b4627d526de58b9c2a0f,File Output Committer Algorithm version is <*>
+24f60e3d82b1b4627d526de58b9c2a0f,File Output Committer Algorithm version is <*>
+24f60e3d82b1b4627d526de58b9c2a0f,File Output Committer Algorithm version is <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+b0b82d6836ede9200360f01306a349a1,Saved output of task <*> to hdfs://<*><*>
+9a5790d121cd1d78d2fc15415259fc64,<*> Committed
+b0b82d6836ede9200360f01306a349a1,Saved output of task <*> to hdfs://<*><*>
+b0b82d6836ede9200360f01306a349a1,Saved output of task <*> to hdfs://<*><*>
+9a5790d121cd1d78d2fc15415259fc64,<*> Committed
+9a5790d121cd1d78d2fc15415259fc64,<*> Committed
+b0b82d6836ede9200360f01306a349a1,Saved output of task <*> to hdfs://<*><*>
+9a5790d121cd1d78d2fc15415259fc64,<*> Committed
+b0b82d6836ede9200360f01306a349a1,Saved output of task <*> to hdfs://<*><*>
+9a5790d121cd1d78d2fc15415259fc64,<*> Committed
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+24f60e3d82b1b4627d526de58b9c2a0f,File Output Committer Algorithm version is <*>
+24f60e3d82b1b4627d526de58b9c2a0f,File Output Committer Algorithm version is <*>
+24f60e3d82b1b4627d526de58b9c2a0f,File Output Committer Algorithm version is <*>
+24f60e3d82b1b4627d526de58b9c2a0f,File Output Committer Algorithm version is <*>
+24f60e3d82b1b4627d526de58b9c2a0f,File Output Committer Algorithm version is <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+b0b82d6836ede9200360f01306a349a1,Saved output of task <*> to hdfs://<*><*>
+9a5790d121cd1d78d2fc15415259fc64,<*> Committed
+b0b82d6836ede9200360f01306a349a1,Saved output of task <*> to hdfs://<*><*>
+b0b82d6836ede9200360f01306a349a1,Saved output of task <*> to hdfs://<*><*>
+9a5790d121cd1d78d2fc15415259fc64,<*> Committed
+9a5790d121cd1d78d2fc15415259fc64,<*> Committed
+b0b82d6836ede9200360f01306a349a1,Saved output of task <*> to hdfs://<*><*>
+9a5790d121cd1d78d2fc15415259fc64,<*> Committed
+b0b82d6836ede9200360f01306a349a1,Saved output of task <*> to hdfs://<*><*>
+9a5790d121cd1d78d2fc15415259fc64,<*> Committed
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+24f60e3d82b1b4627d526de58b9c2a0f,File Output Committer Algorithm version is <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+b0b82d6836ede9200360f01306a349a1,Saved output of task <*> to hdfs://<*><*>
+9a5790d121cd1d78d2fc15415259fc64,<*> Committed
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+24f60e3d82b1b4627d526de58b9c2a0f,File Output Committer Algorithm version is <*>
+24f60e3d82b1b4627d526de58b9c2a0f,File Output Committer Algorithm version is <*>
+24f60e3d82b1b4627d526de58b9c2a0f,File Output Committer Algorithm version is <*>
+24f60e3d82b1b4627d526de58b9c2a0f,File Output Committer Algorithm version is <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+b0b82d6836ede9200360f01306a349a1,Saved output of task <*> to hdfs://<*><*>
+9a5790d121cd1d78d2fc15415259fc64,<*> Committed
+b0b82d6836ede9200360f01306a349a1,Saved output of task <*> to hdfs://<*><*>
+b0b82d6836ede9200360f01306a349a1,Saved output of task <*> to hdfs://<*><*>
+9a5790d121cd1d78d2fc15415259fc64,<*> Committed
+b0b82d6836ede9200360f01306a349a1,Saved output of task <*> to hdfs://<*><*>
+9a5790d121cd1d78d2fc15415259fc64,<*> Committed
+9a5790d121cd1d78d2fc15415259fc64,<*> Committed
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+24f60e3d82b1b4627d526de58b9c2a0f,File Output Committer Algorithm version is <*>
+b0b82d6836ede9200360f01306a349a1,Saved output of task <*> to hdfs://<*><*>
+9a5790d121cd1d78d2fc15415259fc64,<*> Committed
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+24f60e3d82b1b4627d526de58b9c2a0f,File Output Committer Algorithm version is <*>
+24f60e3d82b1b4627d526de58b9c2a0f,File Output Committer Algorithm version is <*>
+b0b82d6836ede9200360f01306a349a1,Saved output of task <*> to hdfs://<*><*>
+9a5790d121cd1d78d2fc15415259fc64,<*> Committed
+b0b82d6836ede9200360f01306a349a1,Saved output of task <*> to hdfs://<*><*>
+9a5790d121cd1d78d2fc15415259fc64,<*> Committed
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+24f60e3d82b1b4627d526de58b9c2a0f,File Output Committer Algorithm version is <*>
+24f60e3d82b1b4627d526de58b9c2a0f,File Output Committer Algorithm version is <*>
+b0b82d6836ede9200360f01306a349a1,Saved output of task <*> to hdfs://<*><*>
+9a5790d121cd1d78d2fc15415259fc64,<*> Committed
+b0b82d6836ede9200360f01306a349a1,Saved output of task <*> to hdfs://<*><*>
+9a5790d121cd1d78d2fc15415259fc64,<*> Committed
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+6c90e14074344d55c2d2d96535fb2395,Started reading broadcast variable <*>
+6fc5cae3d20c9b6694bdaf692e1f8878,"Block <*> stored as bytes in memory (estimated size <*><*>, free <*><*>)"
+c0edc03b950d67b3160a93d8b5d8fd3c,Reading broadcast variable <*> took <*> ms
+b32f1d8218395469c682f94524145871,"Block <*> stored as values in memory (estimated size <*><*>, free <*><*>)"
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+24f60e3d82b1b4627d526de58b9c2a0f,File Output Committer Algorithm version is <*>
+24f60e3d82b1b4627d526de58b9c2a0f,File Output Committer Algorithm version is <*>
+24f60e3d82b1b4627d526de58b9c2a0f,File Output Committer Algorithm version is <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+24f60e3d82b1b4627d526de58b9c2a0f,File Output Committer Algorithm version is <*>
+24f60e3d82b1b4627d526de58b9c2a0f,File Output Committer Algorithm version is <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+b0b82d6836ede9200360f01306a349a1,Saved output of task <*> to hdfs://<*><*>
+9a5790d121cd1d78d2fc15415259fc64,<*> Committed
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+b0b82d6836ede9200360f01306a349a1,Saved output of task <*> to hdfs://<*><*>
+9a5790d121cd1d78d2fc15415259fc64,<*> Committed
+b0b82d6836ede9200360f01306a349a1,Saved output of task <*> to hdfs://<*><*>
+9a5790d121cd1d78d2fc15415259fc64,<*> Committed
+b0b82d6836ede9200360f01306a349a1,Saved output of task <*> to hdfs://<*><*>
+b0b82d6836ede9200360f01306a349a1,Saved output of task <*> to hdfs://<*><*>
+9a5790d121cd1d78d2fc15415259fc64,<*> Committed
+9a5790d121cd1d78d2fc15415259fc64,<*> Committed
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+6c90e14074344d55c2d2d96535fb2395,Started reading broadcast variable <*>
+6fc5cae3d20c9b6694bdaf692e1f8878,"Block <*> stored as bytes in memory (estimated size <*><*>, free <*><*>)"
+c0edc03b950d67b3160a93d8b5d8fd3c,Reading broadcast variable <*> took <*> ms
+b32f1d8218395469c682f94524145871,"Block <*> stored as values in memory (estimated size <*><*>, free <*><*>)"
+3d6e0eb044c1fd2e5247d5bf04e7ba46,"Partition <*> not found, computing it"
+b0c14c1a583de7e8a5effb7a223297d7,Input split: hdfs://<*><*>
+6c90e14074344d55c2d2d96535fb2395,Started reading broadcast variable <*>
+3d6e0eb044c1fd2e5247d5bf04e7ba46,"Partition <*> not found, computing it"
+b0c14c1a583de7e8a5effb7a223297d7,Input split: hdfs://<*><*>
+3d6e0eb044c1fd2e5247d5bf04e7ba46,"Partition <*> not found, computing it"
+b0c14c1a583de7e8a5effb7a223297d7,Input split: hdfs://<*><*>
+3d6e0eb044c1fd2e5247d5bf04e7ba46,"Partition <*> not found, computing it"
+b0c14c1a583de7e8a5effb7a223297d7,Input split: hdfs://<*><*>
+3d6e0eb044c1fd2e5247d5bf04e7ba46,"Partition <*> not found, computing it"
+b0c14c1a583de7e8a5effb7a223297d7,Input split: hdfs://<*><*>
+6fc5cae3d20c9b6694bdaf692e1f8878,"Block <*> stored as bytes in memory (estimated size <*><*>, free <*><*>)"
+c0edc03b950d67b3160a93d8b5d8fd3c,Reading broadcast variable <*> took <*> ms
+b32f1d8218395469c682f94524145871,"Block <*> stored as values in memory (estimated size <*><*>, free <*><*>)"
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+6fc5cae3d20c9b6694bdaf692e1f8878,"Block <*> stored as bytes in memory (estimated size <*><*>, free <*><*>)"
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+6fc5cae3d20c9b6694bdaf692e1f8878,"Block <*> stored as bytes in memory (estimated size <*><*>, free <*><*>)"
+6fc5cae3d20c9b6694bdaf692e1f8878,"Block <*> stored as bytes in memory (estimated size <*><*>, free <*><*>)"
+6fc5cae3d20c9b6694bdaf692e1f8878,"Block <*> stored as bytes in memory (estimated size <*><*>, free <*><*>)"
+6fc5cae3d20c9b6694bdaf692e1f8878,"Block <*> stored as bytes in memory (estimated size <*><*>, free <*><*>)"
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+3d6e0eb044c1fd2e5247d5bf04e7ba46,"Partition <*> not found, computing it"
+b0c14c1a583de7e8a5effb7a223297d7,Input split: hdfs://<*><*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+3d6e0eb044c1fd2e5247d5bf04e7ba46,"Partition <*> not found, computing it"
+b0c14c1a583de7e8a5effb7a223297d7,Input split: hdfs://<*><*>
+3d6e0eb044c1fd2e5247d5bf04e7ba46,"Partition <*> not found, computing it"
+b0c14c1a583de7e8a5effb7a223297d7,Input split: hdfs://<*><*>
+3d6e0eb044c1fd2e5247d5bf04e7ba46,"Partition <*> not found, computing it"
+b0c14c1a583de7e8a5effb7a223297d7,Input split: hdfs://<*><*>
+3d6e0eb044c1fd2e5247d5bf04e7ba46,"Partition <*> not found, computing it"
+b0c14c1a583de7e8a5effb7a223297d7,Input split: hdfs://<*><*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+6fc5cae3d20c9b6694bdaf692e1f8878,"Block <*> stored as bytes in memory (estimated size <*><*>, free <*><*>)"
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+6fc5cae3d20c9b6694bdaf692e1f8878,"Block <*> stored as bytes in memory (estimated size <*><*>, free <*><*>)"
+6fc5cae3d20c9b6694bdaf692e1f8878,"Block <*> stored as bytes in memory (estimated size <*><*>, free <*><*>)"
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+6fc5cae3d20c9b6694bdaf692e1f8878,"Block <*> stored as bytes in memory (estimated size <*><*>, free <*><*>)"
+6fc5cae3d20c9b6694bdaf692e1f8878,"Block <*> stored as bytes in memory (estimated size <*><*>, free <*><*>)"
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+3d6e0eb044c1fd2e5247d5bf04e7ba46,"Partition <*> not found, computing it"
+b0c14c1a583de7e8a5effb7a223297d7,Input split: hdfs://<*><*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+3d6e0eb044c1fd2e5247d5bf04e7ba46,"Partition <*> not found, computing it"
+b0c14c1a583de7e8a5effb7a223297d7,Input split: hdfs://<*><*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+3d6e0eb044c1fd2e5247d5bf04e7ba46,"Partition <*> not found, computing it"
+b0c14c1a583de7e8a5effb7a223297d7,Input split: hdfs://<*><*>
+3d6e0eb044c1fd2e5247d5bf04e7ba46,"Partition <*> not found, computing it"
+b0c14c1a583de7e8a5effb7a223297d7,Input split: hdfs://<*><*>
+3d6e0eb044c1fd2e5247d5bf04e7ba46,"Partition <*> not found, computing it"
+b0c14c1a583de7e8a5effb7a223297d7,Input split: hdfs://<*><*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+6fc5cae3d20c9b6694bdaf692e1f8878,"Block <*> stored as bytes in memory (estimated size <*><*>, free <*><*>)"
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+6fc5cae3d20c9b6694bdaf692e1f8878,"Block <*> stored as bytes in memory (estimated size <*><*>, free <*><*>)"
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+6fc5cae3d20c9b6694bdaf692e1f8878,"Block <*> stored as bytes in memory (estimated size <*><*>, free <*><*>)"
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+6fc5cae3d20c9b6694bdaf692e1f8878,"Block <*> stored as bytes in memory (estimated size <*><*>, free <*><*>)"
+6fc5cae3d20c9b6694bdaf692e1f8878,"Block <*> stored as bytes in memory (estimated size <*><*>, free <*><*>)"
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+3d6e0eb044c1fd2e5247d5bf04e7ba46,"Partition <*> not found, computing it"
+b0c14c1a583de7e8a5effb7a223297d7,Input split: hdfs://<*><*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+3d6e0eb044c1fd2e5247d5bf04e7ba46,"Partition <*> not found, computing it"
+b0c14c1a583de7e8a5effb7a223297d7,Input split: hdfs://<*><*>
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+3d6e0eb044c1fd2e5247d5bf04e7ba46,"Partition <*> not found, computing it"
+b0c14c1a583de7e8a5effb7a223297d7,Input split: hdfs://<*><*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+3d6e0eb044c1fd2e5247d5bf04e7ba46,"Partition <*> not found, computing it"
+b0c14c1a583de7e8a5effb7a223297d7,Input split: hdfs://<*><*>
+3d6e0eb044c1fd2e5247d5bf04e7ba46,"Partition <*> not found, computing it"
+b0c14c1a583de7e8a5effb7a223297d7,Input split: hdfs://<*><*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+6fc5cae3d20c9b6694bdaf692e1f8878,"Block <*> stored as bytes in memory (estimated size <*><*>, free <*><*>)"
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+6fc5cae3d20c9b6694bdaf692e1f8878,"Block <*> stored as bytes in memory (estimated size <*><*>, free <*><*>)"
+6fc5cae3d20c9b6694bdaf692e1f8878,"Block <*> stored as bytes in memory (estimated size <*><*>, free <*><*>)"
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+6fc5cae3d20c9b6694bdaf692e1f8878,"Block <*> stored as bytes in memory (estimated size <*><*>, free <*><*>)"
+6fc5cae3d20c9b6694bdaf692e1f8878,"Block <*> stored as bytes in memory (estimated size <*><*>, free <*><*>)"
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+3d6e0eb044c1fd2e5247d5bf04e7ba46,"Partition <*> not found, computing it"
+b0c14c1a583de7e8a5effb7a223297d7,Input split: hdfs://<*><*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+3d6e0eb044c1fd2e5247d5bf04e7ba46,"Partition <*> not found, computing it"
+b0c14c1a583de7e8a5effb7a223297d7,Input split: hdfs://<*><*>
+3d6e0eb044c1fd2e5247d5bf04e7ba46,"Partition <*> not found, computing it"
+b0c14c1a583de7e8a5effb7a223297d7,Input split: hdfs://<*><*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+3d6e0eb044c1fd2e5247d5bf04e7ba46,"Partition <*> not found, computing it"
+b0c14c1a583de7e8a5effb7a223297d7,Input split: hdfs://<*><*>
+3d6e0eb044c1fd2e5247d5bf04e7ba46,"Partition <*> not found, computing it"
+b0c14c1a583de7e8a5effb7a223297d7,Input split: hdfs://<*><*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+6fc5cae3d20c9b6694bdaf692e1f8878,"Block <*> stored as bytes in memory (estimated size <*><*>, free <*><*>)"
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+6fc5cae3d20c9b6694bdaf692e1f8878,"Block <*> stored as bytes in memory (estimated size <*><*>, free <*><*>)"
+6fc5cae3d20c9b6694bdaf692e1f8878,"Block <*> stored as bytes in memory (estimated size <*><*>, free <*><*>)"
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+6fc5cae3d20c9b6694bdaf692e1f8878,"Block <*> stored as bytes in memory (estimated size <*><*>, free <*><*>)"
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+6fc5cae3d20c9b6694bdaf692e1f8878,"Block <*> stored as bytes in memory (estimated size <*><*>, free <*><*>)"
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+3d6e0eb044c1fd2e5247d5bf04e7ba46,"Partition <*> not found, computing it"
+b0c14c1a583de7e8a5effb7a223297d7,Input split: hdfs://<*><*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+3d6e0eb044c1fd2e5247d5bf04e7ba46,"Partition <*> not found, computing it"
+b0c14c1a583de7e8a5effb7a223297d7,Input split: hdfs://<*><*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+3d6e0eb044c1fd2e5247d5bf04e7ba46,"Partition <*> not found, computing it"
+b0c14c1a583de7e8a5effb7a223297d7,Input split: hdfs://<*><*>
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+3d6e0eb044c1fd2e5247d5bf04e7ba46,"Partition <*> not found, computing it"
+b0c14c1a583de7e8a5effb7a223297d7,Input split: hdfs://<*><*>
+3d6e0eb044c1fd2e5247d5bf04e7ba46,"Partition <*> not found, computing it"
+b0c14c1a583de7e8a5effb7a223297d7,Input split: hdfs://<*><*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+6fc5cae3d20c9b6694bdaf692e1f8878,"Block <*> stored as bytes in memory (estimated size <*><*>, free <*><*>)"
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+6fc5cae3d20c9b6694bdaf692e1f8878,"Block <*> stored as bytes in memory (estimated size <*><*>, free <*><*>)"
+6fc5cae3d20c9b6694bdaf692e1f8878,"Block <*> stored as bytes in memory (estimated size <*><*>, free <*><*>)"
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+6fc5cae3d20c9b6694bdaf692e1f8878,"Block <*> stored as bytes in memory (estimated size <*><*>, free <*><*>)"
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+6fc5cae3d20c9b6694bdaf692e1f8878,"Block <*> stored as bytes in memory (estimated size <*><*>, free <*><*>)"
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+3d6e0eb044c1fd2e5247d5bf04e7ba46,"Partition <*> not found, computing it"
+b0c14c1a583de7e8a5effb7a223297d7,Input split: hdfs://<*><*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+3d6e0eb044c1fd2e5247d5bf04e7ba46,"Partition <*> not found, computing it"
+b0c14c1a583de7e8a5effb7a223297d7,Input split: hdfs://<*><*>
+3d6e0eb044c1fd2e5247d5bf04e7ba46,"Partition <*> not found, computing it"
+b0c14c1a583de7e8a5effb7a223297d7,Input split: hdfs://<*><*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+3d6e0eb044c1fd2e5247d5bf04e7ba46,"Partition <*> not found, computing it"
+b0c14c1a583de7e8a5effb7a223297d7,Input split: hdfs://<*><*>
+3d6e0eb044c1fd2e5247d5bf04e7ba46,"Partition <*> not found, computing it"
+b0c14c1a583de7e8a5effb7a223297d7,Input split: hdfs://<*><*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+6fc5cae3d20c9b6694bdaf692e1f8878,"Block <*> stored as bytes in memory (estimated size <*><*>, free <*><*>)"
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+6fc5cae3d20c9b6694bdaf692e1f8878,"Block <*> stored as bytes in memory (estimated size <*><*>, free <*><*>)"
+6fc5cae3d20c9b6694bdaf692e1f8878,"Block <*> stored as bytes in memory (estimated size <*><*>, free <*><*>)"
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+6fc5cae3d20c9b6694bdaf692e1f8878,"Block <*> stored as bytes in memory (estimated size <*><*>, free <*><*>)"
+3d6e0eb044c1fd2e5247d5bf04e7ba46,"Partition <*> not found, computing it"
+b0c14c1a583de7e8a5effb7a223297d7,Input split: hdfs://<*><*>
+6fc5cae3d20c9b6694bdaf692e1f8878,"Block <*> stored as bytes in memory (estimated size <*><*>, free <*><*>)"
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+3d6e0eb044c1fd2e5247d5bf04e7ba46,"Partition <*> not found, computing it"
+b0c14c1a583de7e8a5effb7a223297d7,Input split: hdfs://<*><*>
+3d6e0eb044c1fd2e5247d5bf04e7ba46,"Partition <*> not found, computing it"
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+b0c14c1a583de7e8a5effb7a223297d7,Input split: hdfs://<*><*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+3d6e0eb044c1fd2e5247d5bf04e7ba46,"Partition <*> not found, computing it"
+b0c14c1a583de7e8a5effb7a223297d7,Input split: hdfs://<*><*>
+3d6e0eb044c1fd2e5247d5bf04e7ba46,"Partition <*> not found, computing it"
+b0c14c1a583de7e8a5effb7a223297d7,Input split: hdfs://<*><*>
+6fc5cae3d20c9b6694bdaf692e1f8878,"Block <*> stored as bytes in memory (estimated size <*><*>, free <*><*>)"
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+6fc5cae3d20c9b6694bdaf692e1f8878,"Block <*> stored as bytes in memory (estimated size <*><*>, free <*><*>)"
+6fc5cae3d20c9b6694bdaf692e1f8878,"Block <*> stored as bytes in memory (estimated size <*><*>, free <*><*>)"
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+6fc5cae3d20c9b6694bdaf692e1f8878,"Block <*> stored as bytes in memory (estimated size <*><*>, free <*><*>)"
+6fc5cae3d20c9b6694bdaf692e1f8878,"Block <*> stored as bytes in memory (estimated size <*><*>, free <*><*>)"
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+6c90e14074344d55c2d2d96535fb2395,Started reading broadcast variable <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+6fc5cae3d20c9b6694bdaf692e1f8878,"Block <*> stored as bytes in memory (estimated size <*><*>, free <*><*>)"
+c0edc03b950d67b3160a93d8b5d8fd3c,Reading broadcast variable <*> took <*> ms
+b32f1d8218395469c682f94524145871,"Block <*> stored as values in memory (estimated size <*><*>, free <*><*>)"
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+6c90e14074344d55c2d2d96535fb2395,Started reading broadcast variable <*>
+6fc5cae3d20c9b6694bdaf692e1f8878,"Block <*> stored as bytes in memory (estimated size <*><*>, free <*><*>)"
+c0edc03b950d67b3160a93d8b5d8fd3c,Reading broadcast variable <*> took <*> ms
+b32f1d8218395469c682f94524145871,"Block <*> stored as values in memory (estimated size <*><*>, free <*><*>)"
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+6c90e14074344d55c2d2d96535fb2395,Started reading broadcast variable <*>
+6fc5cae3d20c9b6694bdaf692e1f8878,"Block <*> stored as bytes in memory (estimated size <*><*>, free <*><*>)"
+c0edc03b950d67b3160a93d8b5d8fd3c,Reading broadcast variable <*> took <*> ms
+b32f1d8218395469c682f94524145871,"Block <*> stored as values in memory (estimated size <*><*>, free <*><*>)"
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+15498983358d34b4444422d73a28dcb6,Times: total = <*> boot = <*> init = <*> finish = <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally
+33da04875377c917d20198e11b7f06e5,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+9ba7fdc2a44212d86d912e5ff1ba8412,Got assigned task <*>
+ae0572db6c00d3bd85324570583853f5,Running task <*> in stage <*> (TID <*>
+d7f242165fa14318c52640bf0031cc21,Found block <*> locally

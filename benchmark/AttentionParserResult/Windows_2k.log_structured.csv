@@ -1,0 +1,2001 @@
+EventId,EventTemplate
+3505e9385d83c0d2b91203224472bcb5,<*> <*> <*> <*> with <*> <*>
+45be16aecc57515030da2b91d411f85c,<*> WcpInitialize (wcp.dll version <*> called (stack <*> <*> <*> <*> <*> <*>
+45be16aecc57515030da2b91d411f85c,<*> WcpInitialize (wcp.dll version <*> called (stack <*> <*> <*> <*> <*> <*>
+45be16aecc57515030da2b91d411f85c,<*> WcpInitialize (wcp.dll version <*> called (stack <*> <*> <*> <*> <*> <*>
+2d8b5399455f907fb95d68f575490e51,Ending TrustedInstaller initialization.
+ddb7024583a5dc50b27d2b8c288e98c0,Starting the TrustedInstaller main loop.
+70236f55ac264429aafcca9c3e139de0,TrustedInstaller service starts successfully.
+492269e4d829033f610a40c8b72f7620,SQM: Initializing online with Windows opt-in: False
+71d4463dcb58bc7ecfa612d3db882a38,SQM: <*> up report <*> <*> <*> <*> <*>
+ef0ac8c77ef7d08e8a34a61c93e5588a,SQM: <*> upload <*> all unsent reports.
+d52d39ba8a96d1d76f95917c67749002,"SQM: Failed to start upload with <*> pattern: C:\Windows\servicing\sqm\*_std.sqm, flags: <*> [HRESULT = <*> - E_FAIL]"
+ef6d06df43356ad917e9136ec3877b98,SQM: Failed to start standard sample upload. [HRESULT = <*> - E_FAIL]
+dd69bfdf624f038cec7a0d3e5a782e73,SQM: <*> <*> <*> for upload with pattern: <*> flags: <*>
+545e1d3e22728fbc033c97a603fad6ea,SQM: Warning: Failed to upload all unsent reports. [HRESULT = <*> - E_FAIL]
+41384c8e35420bc9464ac37079e44c69,<*> startup processing <*> TrustedInstaller service was not <*> as <*> <*> <*> <*> <*> is <*> <*>
+6301377618641cea42bdd0bac790ba4e,NonStart: <*> to <*> startup processing was not <*>
+fff49c86ea62c310f912c0f61193a173,<*> IAdvancedInstallerAwareStore_ResolvePendingTransactions (call <*> <*> = <*> progress = <*> <*> = <*> <*> = <*>
+c28fe4fce1233e2b3e4bf69d241972e0,<*> Creating NT transaction (seq <*> objectname <*>
+56835c53112141832bc7443d6783daa9,<*> Created NT transaction (seq <*> result <*> handle <*>
+0d5fb9ff3ad145f4df56eeda75ef2085,<*> CSI perf trace:
+c7e0e0821cd59388edd0248e9e93a00e,"NonStart: Success, startup processing not required as expected."
+859b86c82bb6e8a7b3c1c929f37bbc4f,<*> processing thread terminated normally
+83cd15b124e27c6e37d839dcc7be753e,<*> CSI Store <*> <*> initialized
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+4153f60863d099f7f5d7c89313037d7b,Failed to internally open package. [HRESULT = <*> - CBS_E_INVALID_PACKAGE]
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+4153f60863d099f7f5d7c89313037d7b,Failed to internally open package. [HRESULT = <*> - CBS_E_INVALID_PACKAGE]
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+4153f60863d099f7f5d7c89313037d7b,Failed to internally open package. [HRESULT = <*> - CBS_E_INVALID_PACKAGE]
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+4153f60863d099f7f5d7c89313037d7b,Failed to internally open package. [HRESULT = <*> - CBS_E_INVALID_PACKAGE]
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+4153f60863d099f7f5d7c89313037d7b,Failed to internally open package. [HRESULT = <*> - CBS_E_INVALID_PACKAGE]
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+4153f60863d099f7f5d7c89313037d7b,Failed to internally open package. [HRESULT = <*> - CBS_E_INVALID_PACKAGE]
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+4153f60863d099f7f5d7c89313037d7b,Failed to internally open package. [HRESULT = <*> - CBS_E_INVALID_PACKAGE]
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+4153f60863d099f7f5d7c89313037d7b,Failed to internally open package. [HRESULT = <*> - CBS_E_INVALID_PACKAGE]
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+4153f60863d099f7f5d7c89313037d7b,Failed to internally open package. [HRESULT = <*> - CBS_E_INVALID_PACKAGE]
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+086a956e1778fdb86523c2d070def832,Failed to create backup log <*> [HRESULT = <*> - ERROR_INVALID_FUNCTION]
+8ae4d1e6819a0d1aaf0fdf33139a4888,Reboot <*> <*> <*> <*> <*>
+cce0397912a8248a741bfef32a6bb6a2,Scavenge: <*>
+9164a7d78adaca5c772488749a28a6a3,<*> CSI Transaction <*> initialized for <*> <*> <*> with <*> <*> <*> client <*> <*>
+7ca14676d51a40c5571c57fe81f522fb,Scavenge: <*> CSI Store
+f209b605d6f7ecffa6a9dfad2b4ecf66,<*> <*> <*> <*> <*> <*> not <*> <*> <*>
+46b875147245cb8c04a62f48cc47c733,<*> Store <*> <*> <*> <*> <*> <*> <*> <*>
+4d3a85ee411b7ed32f0040acb598b0e3,<*> <*> <*> <*> - <*> <*>
+c28fe4fce1233e2b3e4bf69d241972e0,<*> Creating NT transaction (seq <*> objectname <*>
+56835c53112141832bc7443d6783daa9,<*> Created NT transaction (seq <*> result <*> handle <*>
+0d5fb9ff3ad145f4df56eeda75ef2085,<*> CSI perf trace:
+5cce4764eaa44342748c9f21a0620cbf,Scavenge: <*> <*> <*>
+96b9400ab4898d94f7334bb82a8afbb8,<*> CSI Transaction <*> <*>
+1b033caa2fa6c6266df3f476183580ed,Reboot <*> <*> <*>
+859b86c82bb6e8a7b3c1c929f37bbc4f,<*> processing thread terminated normally
+1915371f62947393ce2ee14b76ef48f5,Ending the TrustedInstaller main loop.
+0c5a20aeb4aacd0fa06de6b8f314209e,Starting TrustedInstaller finalization.
+c5141d885dacd817405c63e94d55025a,Ending TrustedInstaller finalization.
+05f90e58ba19cda9efa45cd1e9911798,Starting TrustedInstaller initialization.
+3505e9385d83c0d2b91203224472bcb5,<*> <*> <*> <*> with <*> <*>
+45be16aecc57515030da2b91d411f85c,<*> WcpInitialize (wcp.dll version <*> called (stack <*> <*> <*> <*> <*> <*>
+45be16aecc57515030da2b91d411f85c,<*> WcpInitialize (wcp.dll version <*> called (stack <*> <*> <*> <*> <*> <*>
+45be16aecc57515030da2b91d411f85c,<*> WcpInitialize (wcp.dll version <*> called (stack <*> <*> <*> <*> <*> <*>
+2d8b5399455f907fb95d68f575490e51,Ending TrustedInstaller initialization.
+ddb7024583a5dc50b27d2b8c288e98c0,Starting the TrustedInstaller main loop.
+70236f55ac264429aafcca9c3e139de0,TrustedInstaller service starts successfully.
+492269e4d829033f610a40c8b72f7620,SQM: Initializing online with Windows opt-in: False
+71d4463dcb58bc7ecfa612d3db882a38,SQM: <*> up report <*> <*> <*> <*> <*>
+ef0ac8c77ef7d08e8a34a61c93e5588a,SQM: <*> upload <*> all unsent reports.
+d52d39ba8a96d1d76f95917c67749002,"SQM: Failed to start upload with <*> pattern: C:\Windows\servicing\sqm\*_std.sqm, flags: <*> [HRESULT = <*> - E_FAIL]"
+ef6d06df43356ad917e9136ec3877b98,SQM: Failed to start standard sample upload. [HRESULT = <*> - E_FAIL]
+dd69bfdf624f038cec7a0d3e5a782e73,SQM: <*> <*> <*> for upload with pattern: <*> flags: <*>
+545e1d3e22728fbc033c97a603fad6ea,SQM: Warning: Failed to upload all unsent reports. [HRESULT = <*> - E_FAIL]
+41384c8e35420bc9464ac37079e44c69,<*> startup processing <*> TrustedInstaller service was not <*> as <*> <*> <*> <*> <*> is <*> <*>
+6301377618641cea42bdd0bac790ba4e,NonStart: <*> to <*> startup processing was not <*>
+fff49c86ea62c310f912c0f61193a173,<*> IAdvancedInstallerAwareStore_ResolvePendingTransactions (call <*> <*> = <*> progress = <*> <*> = <*> <*> = <*>
+c28fe4fce1233e2b3e4bf69d241972e0,<*> Creating NT transaction (seq <*> objectname <*>
+56835c53112141832bc7443d6783daa9,<*> Created NT transaction (seq <*> result <*> handle <*>
+0d5fb9ff3ad145f4df56eeda75ef2085,<*> CSI perf trace:
+c7e0e0821cd59388edd0248e9e93a00e,"NonStart: Success, startup processing not required as expected."
+859b86c82bb6e8a7b3c1c929f37bbc4f,<*> processing thread terminated normally
+1850fbcce4cc1ca039b0a221b4250b02,Loading offline registry hive: <*> into registry key <*> from path <*>
+1850fbcce4cc1ca039b0a221b4250b02,Loading offline registry hive: <*> into registry key <*> from path <*>
+1850fbcce4cc1ca039b0a221b4250b02,Loading offline registry hive: <*> into registry key <*> from path <*>
+1850fbcce4cc1ca039b0a221b4250b02,Loading offline registry hive: <*> into registry key <*> from path <*>
+1850fbcce4cc1ca039b0a221b4250b02,Loading offline registry hive: <*> into registry key <*> from path <*>
+1850fbcce4cc1ca039b0a221b4250b02,Loading offline registry hive: <*> into registry key <*> from path <*>
+1850fbcce4cc1ca039b0a221b4250b02,Loading offline registry hive: <*> into registry key <*> from path <*>
+1850fbcce4cc1ca039b0a221b4250b02,Loading offline registry hive: <*> into registry key <*> from path <*>
+5e89c08ffdf18c127c3425edd61052d9,<*> image <*> <*>
+3e30ff7e79301c24001d4aa8388263d4,<*> <*> <*> <*> the image is not <*>
+43ce9af7c06f1222bbe9fb952fb5f50d,<*> PopulateComponentFamiliesKey - <*>
+43ce9af7c06f1222bbe9fb952fb5f50d,<*> PopulateComponentFamiliesKey - <*>
+83cd15b124e27c6e37d839dcc7be753e,<*> CSI Store <*> <*> initialized
+6b7a1fb2efc28719279de55bf46b4559,Session: <*> initialized by client SPP.
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+5c8bd3df6b4e31925ab186cc314fcd47,Unloading offline registry hive: <*>
+5c8bd3df6b4e31925ab186cc314fcd47,Unloading offline registry hive: <*>
+5c8bd3df6b4e31925ab186cc314fcd47,Unloading offline registry hive: <*>
+5c8bd3df6b4e31925ab186cc314fcd47,Unloading offline registry hive: <*>
+5c8bd3df6b4e31925ab186cc314fcd47,Unloading offline registry hive: <*>
+5c8bd3df6b4e31925ab186cc314fcd47,Unloading offline registry hive: <*>
+5c8bd3df6b4e31925ab186cc314fcd47,Unloading offline registry hive: <*>
+5c8bd3df6b4e31925ab186cc314fcd47,Unloading offline registry hive: <*>
+086a956e1778fdb86523c2d070def832,Failed to create backup log <*> [HRESULT = <*> - ERROR_INVALID_FUNCTION]
+83cd15b124e27c6e37d839dcc7be753e,<*> CSI Store <*> <*> initialized
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+4153f60863d099f7f5d7c89313037d7b,Failed to internally open package. [HRESULT = <*> - CBS_E_INVALID_PACKAGE]
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+9bd9f24365217745a340d3cb5ad1e0c2,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+0044564b80473f3111f8ab54ec040c51,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+39b783c847142143dfe229135128cc25,Warning: Unrecognized packageExtended attribute.
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+4153f60863d099f7f5d7c89313037d7b,Failed to internally open package. [HRESULT = <*> - CBS_E_INVALID_PACKAGE]
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+4153f60863d099f7f5d7c89313037d7b,Failed to internally open package. [HRESULT = <*> - CBS_E_INVALID_PACKAGE]
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+4153f60863d099f7f5d7c89313037d7b,Failed to internally open package. [HRESULT = <*> - CBS_E_INVALID_PACKAGE]
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+4153f60863d099f7f5d7c89313037d7b,Failed to internally open package. [HRESULT = <*> - CBS_E_INVALID_PACKAGE]
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+4153f60863d099f7f5d7c89313037d7b,Failed to internally open package. [HRESULT = <*> - CBS_E_INVALID_PACKAGE]
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+4153f60863d099f7f5d7c89313037d7b,Failed to internally open package. [HRESULT = <*> - CBS_E_INVALID_PACKAGE]
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+4153f60863d099f7f5d7c89313037d7b,Failed to internally open package. [HRESULT = <*> - CBS_E_INVALID_PACKAGE]
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+4153f60863d099f7f5d7c89313037d7b,Failed to internally open package. [HRESULT = <*> - CBS_E_INVALID_PACKAGE]
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>
+08fb5d73c849446d7ae9bb100902c945,Session: <*> initialized by client WindowsUpdateAgent.
+28e57347b147656e508cd951fe4c0e7f,Read out cached package applicability for package: <*> ApplicableState: <*> <*>

@@ -30,7 +30,7 @@ fc5f094011d04690508e4fc05f8df37e,generating core.<*>
 fc5f094011d04690508e4fc05f8df37e,generating core.<*>
 fc5f094011d04690508e4fc05f8df37e,generating core.<*>
 fc5f094011d04690508e4fc05f8df37e,generating core.<*>
-c46abb5e1a9d9c0b125400b3c4c6fb19,<*> <*> alignment<*><*>
+cf145002e4fb54f299a0be4ec3a89267,force load/store alignment...............<*>
 fc5f094011d04690508e4fc05f8df37e,generating core.<*>
 fc5f094011d04690508e4fc05f8df37e,generating core.<*>
 fc5f094011d04690508e4fc05f8df37e,generating core.<*>
@@ -67,7 +67,7 @@ fc5f094011d04690508e4fc05f8df37e,generating core.<*>
 3aa50e4516cd50cd76ee2323ad55476f,instruction cache parity error corrected
 fc5f094011d04690508e4fc05f8df37e,generating core.<*>
 fc5f094011d04690508e4fc05f8df37e,generating core.<*>
-28509f44b5c7ddfcc914ebc995577351,ciod: <*> <*> at <*> <*> <*> <*> message <*>
+f5021d70f7b269f9d84f697207cf03cc,ciod: <*> <*> <*> <*> <*> <*> <*> <*> <*>
 fc5f094011d04690508e4fc05f8df37e,generating core.<*>
 fc5f094011d04690508e4fc05f8df37e,generating core.<*>
 fc5f094011d04690508e4fc05f8df37e,generating core.<*>
@@ -163,7 +163,7 @@ fc5f094011d04690508e4fc05f8df37e,generating core.<*>
 38a7307dd55b086395a926f76c073027,data TLB error interrupt
 38a7307dd55b086395a926f76c073027,data TLB error interrupt
 65f23e3e7fe0e9e151b64f757f5107cb,"CE sym <*>, at <*>, mask <*>"
-08e3924d3a32f8b5a57740663f71d8aa,ciod: <*> code <*> <*> <*> <*> or <*>
+a810e5bb206fc99e5a94398b73487601,ciod: <*> <*> <*> <*> not <*> or <*>
 d2c9db9b43c92ddb4134aa40a73798bb,data storage interrupt
 d2c9db9b43c92ddb4134aa40a73798bb,data storage interrupt
 d2c9db9b43c92ddb4134aa40a73798bb,data storage interrupt
@@ -244,10 +244,10 @@ cce08081ba21bf68e0d01a804ee20b85,exception syndrome register: <*>
 066d3700a3ec59f4e9d4df82cc272e39,data store interrupt caused by dcbf.........<*>
 073c22355041910128d6267d8171b8a1,program interrupt: illegal instruction......<*>
 073c22355041910128d6267d8171b8a1,program interrupt: illegal instruction......<*>
-100039576c4d43827c2dbdac98dc907a,program interrupt: privileged instruction...<*>
-100039576c4d43827c2dbdac98dc907a,program interrupt: privileged instruction...<*>
+c1890a447c89d592cb1aeb863cac4e54,program interrupt: <*> instruction...<*>
+c1890a447c89d592cb1aeb863cac4e54,program interrupt: <*> instruction...<*>
 87bd42ba91bb730a477d407bd959ee0c,program interrupt: <*> instruction.........<*>
-07b42c3d002380c7a2767e7b3c41bd86,program interrupt: <*> exception......<*>
+e99a971ddb1d0627a0b8ea2eace253e1,program interrupt: imprecise exception......<*>
 712678e4ab40eb191c046810fd1d1e71,store <*><*><*>
 712678e4ab40eb191c046810fd1d1e71,store <*><*><*>
 8d23c69733a07a000a18e2eede9b330d,machine state register: <*>
@@ -255,50 +255,50 @@ d4a004d5da4c43099aeb9eda8a1bd265,data store interrupt caused by icbi.........<*>
 942d49222748bcacbc33cf8ac83ec683,"<*> state (<*>=<*>,<*>=<*>)<*><*>"
 d4a004d5da4c43099aeb9eda8a1bd265,data store interrupt caused by icbi.........<*>
 d4a004d5da4c43099aeb9eda8a1bd265,data store interrupt caused by icbi.........<*>
-47ced713b3543399eaa81ff17f7fe1ad,floating point instr. enabled.....<*>
-47ced713b3543399eaa81ff17f7fe1ad,floating point instr. enabled.....<*>
-47ced713b3543399eaa81ff17f7fe1ad,floating point instr. enabled.....<*>
+038ce176bdcfb68b97616fba9331798f,floating point <*> <*><*><*>
+038ce176bdcfb68b97616fba9331798f,floating point <*> <*><*><*>
+038ce176bdcfb68b97616fba9331798f,floating point <*> <*><*><*>
 b48b277c85ec5153df8008e7dcb7b7ec,auxiliary processor.........................<*>
 af86f6b3e542fd5910f857dae007ae94,machine check enable<*><*>
 af86f6b3e542fd5910f857dae007ae94,machine check enable<*><*>
 f4a80ec49c4fa02d8da77b6b2527ded3,floating pt ex mode <*> enable......<*>
 547a90db4c16e029cca185363953254f,program interrupt: <*> <*><*><*>
-456b3c4c040fb59f46d371dcac1213aa,debug interrupt enable<*><*>
-f4a80ec49c4fa02d8da77b6b2527ded3,floating pt ex mode <*> enable......<*>
+163b0c86a894eacdea8c6f62eb915465,<*> interrupt enable<*><*>
+a41941933be987817cec5941dc956a42,floating <*> ex mode <*> enable......<*>
 aaa1dd7829daaec584f1db8dfbe2a2d6,<*> <*> exception<*><*>
 aaa1dd7829daaec584f1db8dfbe2a2d6,<*> <*> exception<*><*>
 02430fd4ef4ea63bf3b7f3fc3b5f81c4,data address space................<*>
 02430fd4ef4ea63bf3b7f3fc3b5f81c4,data address space................<*>
-07b42c3d002380c7a2767e7b3c41bd86,program interrupt: <*> exception......<*>
+e99a971ddb1d0627a0b8ea2eace253e1,program interrupt: imprecise exception......<*>
 06072e40c9860e8e15d4bd84e8606661,core configuration register: <*>
-07b42c3d002380c7a2767e7b3c41bd86,program interrupt: <*> exception......<*>
+e99a971ddb1d0627a0b8ea2eace253e1,program interrupt: imprecise exception......<*>
 0fbe349a1a3d9ef37dc1aeaf39b5d521,program interrupt: fp cr <*>.............<*>
-5a5ec168b2786c3f7887155954502c76,<*> instruction cache <*> <*>
-5a5ec168b2786c3f7887155954502c76,<*> instruction cache <*> <*>
-41c5149c356ac3c01d124d0650f0eccf,program interrupt: fp cr field .............<*>
-41c5149c356ac3c01d124d0650f0eccf,program interrupt: fp cr field .............<*>
-41c5149c356ac3c01d124d0650f0eccf,program interrupt: fp cr field .............<*>
-2cd76782f5262167b2fe63ae48aab8f9,<*> data cache <*> <*><*><*>
-41c5149c356ac3c01d124d0650f0eccf,program interrupt: fp cr field .............<*>
-c46abb5e1a9d9c0b125400b3c4c6fb19,<*> <*> alignment<*><*>
+4a5b1c1449117ed1591ef7cf62bc0539,<*> instruction cache block <*>
+4a5b1c1449117ed1591ef7cf62bc0539,<*> instruction cache block <*>
+b4d2891b58dcd2c8bd46f0c68c9023fc,program interrupt: <*> cr field .............<*>
+b4d2891b58dcd2c8bd46f0c68c9023fc,program interrupt: <*> cr field .............<*>
+b4d2891b58dcd2c8bd46f0c68c9023fc,program interrupt: <*> cr field .............<*>
+55eae5baf1746fa7ad17f4c03828e8b5,<*> data cache block <*><*><*>
+b4d2891b58dcd2c8bd46f0c68c9023fc,program interrupt: <*> cr field .............<*>
+cf145002e4fb54f299a0be4ec3a89267,force load/store alignment...............<*>
 4f38b5d816dd14d65c4a534b66491060,<*> <*> <*><*><*>
 8d23c69733a07a000a18e2eede9b330d,machine state register: <*>
 8d23c69733a07a000a18e2eede9b330d,machine state register: <*>
 035b81d632387ba722e850acd5d9ad3c,<*> <*> <*>................<*>
 035b81d632387ba722e850acd5d9ad3c,<*> <*> <*>................<*>
 8d23c69733a07a000a18e2eede9b330d,machine state register: <*>
-493f61902854472c61895538491b347b,wait state enable.................<*>
-b02f76cca57cf29e9e9a64193403429e,<*> <*> interrupt enable...<*>
+44488b2c3d23a26a8b1f91641e188f64,<*> state enable<*><*>
+fb1560b44d40d3fd37ce1517c4e63ce1,critical input interrupt enable...<*>
 942d49222748bcacbc33cf8ac83ec683,"<*> state (<*>=<*>,<*>=<*>)<*><*>"
 942d49222748bcacbc33cf8ac83ec683,"<*> state (<*>=<*>,<*>=<*>)<*><*>"
-47ced713b3543399eaa81ff17f7fe1ad,floating point instr. enabled.....<*>
+038ce176bdcfb68b97616fba9331798f,floating point <*> <*><*><*>
 dc437904752e928e87377640444aa58d,<*> <*> <*>:
-7d4f15a23df9e58a3dd9ff7b10292942,<*>:<*> <*>:<*> <*>:<*> <*>:<*>
+d8b052af7647379cf6de709f9299f31b,<*>:<*> cr:<*> <*>:<*> <*>:<*>
 b24ee2d5290890b12d0b4c44305b8a90,rts <*> <*>
 f4a80ec49c4fa02d8da77b6b2527ded3,floating pt ex mode <*> enable......<*>
 f4a80ec49c4fa02d8da77b6b2527ded3,floating pt ex mode <*> enable......<*>
-3a77b37eae760777c7c0fbbf0935d150,debug wait enable.................<*>
-f4a80ec49c4fa02d8da77b6b2527ded3,floating pt ex mode <*> enable......<*>
+8715e4a414dd734436a575bc963dc52e,<*> <*> enable<*><*>
+a41941933be987817cec5941dc956a42,floating <*> ex mode <*> enable......<*>
 0b246110813f85851ef7856302e6fac7,instruction address space.........<*>
 02430fd4ef4ea63bf3b7f3fc3b5f81c4,data address space................<*>
 02430fd4ef4ea63bf3b7f3fc3b5f81c4,data address space................<*>
@@ -309,9 +309,9 @@ f4a80ec49c4fa02d8da77b6b2527ded3,floating pt ex mode <*> enable......<*>
 06072e40c9860e8e15d4bd84e8606661,core configuration register: <*>
 06072e40c9860e8e15d4bd84e8606661,core configuration register: <*>
 06072e40c9860e8e15d4bd84e8606661,core configuration register: <*>
-bb8f0e81cc7ca7a85bfe7fab1570842c,disable store <*><*><*>
-bb8f0e81cc7ca7a85bfe7fab1570842c,disable store <*><*><*>
-bb8f0e81cc7ca7a85bfe7fab1570842c,disable store <*><*><*>
+c5b54ac589fa8591d761fc9d7c3fc42f,disable store gathering..................<*>
+c5b54ac589fa8591d761fc9d7c3fc42f,disable store gathering..................<*>
+c5b54ac589fa8591d761fc9d7c3fc42f,disable store gathering..................<*>
 fc5f094011d04690508e4fc05f8df37e,generating core.<*>
 147cfcff17278e56f872ef7f13472579,total of <*> ddr error(s) detected and corrected
 fc5f094011d04690508e4fc05f8df37e,generating core.<*>
@@ -431,11 +431,11 @@ fc5f094011d04690508e4fc05f8df37e,generating core.<*>
 65f23e3e7fe0e9e151b64f757f5107cb,"CE sym <*>, at <*>, mask <*>"
 3aa50e4516cd50cd76ee2323ad55476f,instruction cache parity error corrected
 fc5f094011d04690508e4fc05f8df37e,generating core.<*>
-0d02c0e2e93c057e17ad8ad55f1de19b,program interrupt
+a94908767f7e6410a99fa6c86baaec2d,<*> interrupt
 fc5f094011d04690508e4fc05f8df37e,generating core.<*>
 073c22355041910128d6267d8171b8a1,program interrupt: illegal instruction......<*>
 073c22355041910128d6267d8171b8a1,program interrupt: illegal instruction......<*>
-100039576c4d43827c2dbdac98dc907a,program interrupt: privileged instruction...<*>
+c1890a447c89d592cb1aeb863cac4e54,program interrupt: <*> instruction...<*>
 066d3700a3ec59f4e9d4df82cc272e39,data store interrupt caused by dcbf.........<*>
 d4a004d5da4c43099aeb9eda8a1bd265,data store interrupt caused by icbi.........<*>
 d4a004d5da4c43099aeb9eda8a1bd265,data store interrupt caused by icbi.........<*>
@@ -443,15 +443,15 @@ b48b277c85ec5153df8008e7dcb7b7ec,auxiliary processor.........................<*>
 b48b277c85ec5153df8008e7dcb7b7ec,auxiliary processor.........................<*>
 b48b277c85ec5153df8008e7dcb7b7ec,auxiliary processor.........................<*>
 547a90db4c16e029cca185363953254f,program interrupt: <*> <*><*><*>
-07b42c3d002380c7a2767e7b3c41bd86,program interrupt: <*> exception......<*>
-07b42c3d002380c7a2767e7b3c41bd86,program interrupt: <*> exception......<*>
+e99a971ddb1d0627a0b8ea2eace253e1,program interrupt: imprecise exception......<*>
+e99a971ddb1d0627a0b8ea2eace253e1,program interrupt: imprecise exception......<*>
 fc5f094011d04690508e4fc05f8df37e,generating core.<*>
-0d02c0e2e93c057e17ad8ad55f1de19b,program interrupt
-0d02c0e2e93c057e17ad8ad55f1de19b,program interrupt
+a94908767f7e6410a99fa6c86baaec2d,<*> interrupt
+a94908767f7e6410a99fa6c86baaec2d,<*> interrupt
 a31b789f63d2ae7c11bdea2fadea8254,instruction address: <*>
 cce08081ba21bf68e0d01a804ee20b85,exception syndrome register: <*>
 073c22355041910128d6267d8171b8a1,program interrupt: illegal instruction......<*>
-100039576c4d43827c2dbdac98dc907a,program interrupt: privileged instruction...<*>
+c1890a447c89d592cb1aeb863cac4e54,program interrupt: <*> instruction...<*>
 066d3700a3ec59f4e9d4df82cc272e39,data store interrupt caused by dcbf.........<*>
 066d3700a3ec59f4e9d4df82cc272e39,data store interrupt caused by dcbf.........<*>
 b48b277c85ec5153df8008e7dcb7b7ec,auxiliary processor.........................<*>
@@ -520,8 +520,8 @@ fc5f094011d04690508e4fc05f8df37e,generating core.<*>
 fc5f094011d04690508e4fc05f8df37e,generating core.<*>
 fc5f094011d04690508e4fc05f8df37e,generating core.<*>
 fc5f094011d04690508e4fc05f8df37e,generating core.<*>
-e2e0f4217a342902fdffa01cb1715f6b,<*> <*> status <*>: FF:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*> <*>=<*> <*>=<*> <*>=<*> status=<*> <*> <*> <*> <*>:<*>:<*> <*> <*>
-9d5d6232c3b1888a602b9ff9f4df5c11,Can not get assembly information for node card
+5fb244e144f3ccd9a441e99bbb157ce7,<*> <*> <*> <*>: <*>:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*> <*>=<*> <*>=<*> <*>=<*> <*>=<*> <*> <*> <*> <*>:<*>:<*> <*> <*>
+e8ed66c70d6dc72a62f512ace66c82fd,<*> not <*> <*> <*> for node card
 6265c7394fe834d8f54a4901f5436efb,<*> double-hummer alignment exceptions
 6265c7394fe834d8f54a4901f5436efb,<*> double-hummer alignment exceptions
 6265c7394fe834d8f54a4901f5436efb,<*> double-hummer alignment exceptions
@@ -595,7 +595,7 @@ fc5f094011d04690508e4fc05f8df37e,generating core.<*>
 fc5f094011d04690508e4fc05f8df37e,generating core.<*>
 fc5f094011d04690508e4fc05f8df37e,generating core.<*>
 fc5f094011d04690508e4fc05f8df37e,generating core.<*>
-7e238fc0ffb4af6fcc2fa1474ce1d267,ciod: <*> or invalid <*> on line <*> of node map file <*>
+481d4c8026ccf5cff0dfab126e7e05eb,ciod: <*> or invalid <*> on <*> <*> of <*> <*> file <*>
 b9a1038ba52da7f597192bbfc7e4c1e5,<*> torus receiver <*> input <*> error(s) (dcr <*>) detected and corrected
 fc5f094011d04690508e4fc05f8df37e,generating core.<*>
 fc5f094011d04690508e4fc05f8df37e,generating core.<*>
@@ -620,7 +620,7 @@ fc5f094011d04690508e4fc05f8df37e,generating core.<*>
 fc5f094011d04690508e4fc05f8df37e,generating core.<*>
 fc5f094011d04690508e4fc05f8df37e,generating core.<*>
 a2335b6be722037e152ff421208bb422,Node card is not fully functional
-b4afbdc1a2ef72d017ce32ff41a16ef1,ciod: <*> <*> <*> to <*> <*> <*> at line <*> of node map file <*>
+29d5c7a9ba2bc0120913bc4dab2cd996,ciod: <*> <*> <*> to <*> <*> <*> <*> line <*> of node <*> file <*>
 3a83d38be1a9c5a56095f495d67f407d,ciod: Error <*> node map <*> file <*>: <*> <*> <*>
 fc5f094011d04690508e4fc05f8df37e,generating core.<*>
 fc5f094011d04690508e4fc05f8df37e,generating core.<*>
@@ -945,7 +945,7 @@ fc5f094011d04690508e4fc05f8df37e,generating core.<*>
 fc5f094011d04690508e4fc05f8df37e,generating core.<*>
 fc5f094011d04690508e4fc05f8df37e,generating core.<*>
 3556ea4abb6ac6411c65148326b70b83,ciod: Error <*> node map <*> file <*>: Permission denied
-f3758ba086ccdbc13ac5bec2d2587aa8,ciod: <*> <*> <*> <*> <*> <*> <*> at line <*> of node map file <*>
+231d06a39e84546ebc202e0a41b339bc,ciod: <*> <*> <*> <*> <*> <*> <*> <*> line <*> of node <*> file <*>
 fc5f094011d04690508e4fc05f8df37e,generating core.<*>
 fc5f094011d04690508e4fc05f8df37e,generating core.<*>
 fc5f094011d04690508e4fc05f8df37e,generating core.<*>
@@ -1028,8 +1028,8 @@ fc5f094011d04690508e4fc05f8df37e,generating core.<*>
 fc5f094011d04690508e4fc05f8df37e,generating core.<*>
 fc5f094011d04690508e4fc05f8df37e,generating core.<*>
 fc5f094011d04690508e4fc05f8df37e,generating core.<*>
-845b346edaf8e0f343f1f8b7f06e72b8,"<*>: <*> <*> <*> <*> <*>: <*> message <*>: <*> <*>, type=<*>, <*>=<*>, <*>=<*>, total=<*>"
-3a77b37eae760777c7c0fbbf0935d150,debug wait enable.................<*>
+3d103929c98c9efc779365da25379693,"<*>: <*> <*> <*> <*> <*>: <*> message <*>: <*> <*>, type=<*>, <*>=<*>, <*>=<*>, <*>=<*>"
+8715e4a414dd734436a575bc963dc52e,<*> <*> enable<*><*>
 fc5f094011d04690508e4fc05f8df37e,generating core.<*>
 1ae4a1e2817e987e78527ff359485e7e,<*> floating point alignment exceptions
 1ae4a1e2817e987e78527ff359485e7e,<*> floating point alignment exceptions
@@ -1198,14 +1198,14 @@ fc5f094011d04690508e4fc05f8df37e,generating core.<*>
 fc5f094011d04690508e4fc05f8df37e,generating core.<*>
 fc5f094011d04690508e4fc05f8df37e,generating core.<*>
 1840cbfef8d7d3c8499793ad752afe98,"<*> ddr errors(s) detected and corrected on rank <*>, symbol <*>, bit <*>"
-5aa7d03ccea0c760ea43c2192dd818bb,<*> <*> <*> <*> <*> <*> <*>: <*>:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*> <*>=<*> <*>=<*> <*>=<*>
-5aa7d03ccea0c760ea43c2192dd818bb,<*> <*> <*> <*> <*> <*> <*>: <*>:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*> <*>=<*> <*>=<*> <*>=<*>
-59e935633dfef3c72dfb931a637ba813,<*> is not fully functional
-35ecde6bbe95b2cfee46f66f5758b695,"Node card <*>: <*> <*>, <*> <*>, <*> <*>, <*> <*> is (<*>) <*> <*> <*> is <*> <*> <*> is <*> <*> <*> <*> is <*> <*> <*> <*> is not <*> <*> <*> is not <*> <*> <*> <*> <*> <*> <*> <*> is <*> <*> is <*> <*> error <*> is <*> <*> is OK. <*> error <*> is <*> <*> <*> <*> <*> is OK. <*> <*>"
-3fd17e58e871c5d81734d80075bce3c4,"Node card VPD check: <*> node in processor card slot <*> do not match. VPD ecid <*>, found <*>"
-9d5d6232c3b1888a602b9ff9f4df5c11,Can not get assembly information for node card
-5aa7d03ccea0c760ea43c2192dd818bb,<*> <*> <*> <*> <*> <*> <*>: <*>:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*> <*>=<*> <*>=<*> <*>=<*>
-9d5d6232c3b1888a602b9ff9f4df5c11,Can not get assembly information for node card
+68e935a79c8e740700d08e4b6d408cea,<*> <*> <*> <*> <*> the <*>: <*>:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*> <*>=<*> <*>=<*> <*>=<*>
+68e935a79c8e740700d08e4b6d408cea,<*> <*> <*> <*> <*> the <*>: <*>:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*> <*>=<*> <*>=<*> <*>=<*>
+7a51473d9ba4eecfeebb0811555d84a2,<*> is not fully <*>
+401ce4cf7d48ec2e9d2ed4a00c37f51f,"<*> <*> <*>: <*> <*>, <*> <*>, <*> <*>, <*> <*> is (<*>) <*> <*> <*> is <*> <*> <*> is <*> <*> <*> Reset is <*> <*> <*> Reset is <*> <*> <*> <*> is <*> <*> <*> <*> <*> <*> <*> <*> <*> is <*> <*> is <*> <*> <*> <*> is <*> <*> is OK. <*> <*> <*> is <*> The <*> <*> <*> is OK. The <*>"
+5e65f70757b95820102894c9d8c4fc76,"Node card VPD check: <*> node in processor card <*> <*> <*> not match. VPD ecid <*>, found <*>"
+e8ed66c70d6dc72a62f512ace66c82fd,<*> not <*> <*> <*> for node card
+68e935a79c8e740700d08e4b6d408cea,<*> <*> <*> <*> <*> the <*>: <*>:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*> <*>=<*> <*>=<*> <*>=<*>
+e8ed66c70d6dc72a62f512ace66c82fd,<*> not <*> <*> <*> for node card
 3c469b21557d750bd5ce7809c339c4fe,"idoproxydb hit ASSERT condition: ASSERT expression=<*> Source file=idotransportmgr.cpp Source line=<*> Function=int IdoTransportMgr::SendPacket(IdoUdpMgr*, BglCtlPavTrace*)"
 3c469b21557d750bd5ce7809c339c4fe,"idoproxydb hit ASSERT condition: ASSERT expression=<*> Source file=idotransportmgr.cpp Source line=<*> Function=int IdoTransportMgr::SendPacket(IdoUdpMgr*, BglCtlPavTrace*)"
 3c469b21557d750bd5ce7809c339c4fe,"idoproxydb hit ASSERT condition: ASSERT expression=<*> Source file=idotransportmgr.cpp Source line=<*> Function=int IdoTransportMgr::SendPacket(IdoUdpMgr*, BglCtlPavTrace*)"
@@ -1215,22 +1215,22 @@ fc5f094011d04690508e4fc05f8df37e,generating core.<*>
 3c469b21557d750bd5ce7809c339c4fe,"idoproxydb hit ASSERT condition: ASSERT expression=<*> Source file=idotransportmgr.cpp Source line=<*> Function=int IdoTransportMgr::SendPacket(IdoUdpMgr*, BglCtlPavTrace*)"
 3c469b21557d750bd5ce7809c339c4fe,"idoproxydb hit ASSERT condition: ASSERT expression=<*> Source file=idotransportmgr.cpp Source line=<*> Function=int IdoTransportMgr::SendPacket(IdoUdpMgr*, BglCtlPavTrace*)"
 3c469b21557d750bd5ce7809c339c4fe,"idoproxydb hit ASSERT condition: ASSERT expression=<*> Source file=idotransportmgr.cpp Source line=<*> Function=int IdoTransportMgr::SendPacket(IdoUdpMgr*, BglCtlPavTrace*)"
-ceee01fe40c128aed2c7d3c32adf2a1d,Node card <*>: <*> <*> <*> <*> <*> <*> is <*> <*> <*> is <*> <*> <*> <*> is <*> <*> <*> <*> is <*> <*> <*> is not <*> <*> <*> <*> <*> <*> <*> <*> is <*> <*> IS <*> <*> <*> <*> <*> IS <*> <*> IS <*> OK. <*> <*> <*> IS <*> <*> <*> <*> <*> is OK. <*> <*> <*> <*> is OK.
-3fd17e58e871c5d81734d80075bce3c4,"Node card VPD check: <*> node in processor card slot <*> do not match. VPD ecid <*>, found <*>"
+8ee077a7bc5f42f853ae6ded97d4f7e2,Node card <*>: <*> <*> <*> <*> <*> <*> is <*> <*> <*> is <*> <*> <*> Reset is <*> <*> <*> Reset is <*> <*> <*> is not <*> <*> <*> <*> <*> <*> Error <*> is <*> <*> IS <*> <*> <*> <*> <*> IS <*> MPGOOD IS <*> OK. MPGOOD <*> <*> IS <*> The <*> <*> <*> is OK. <*> <*> <*> <*> is OK.
+5e65f70757b95820102894c9d8c4fc76,"Node card VPD check: <*> node in processor card <*> <*> <*> not match. VPD ecid <*>, found <*>"
 a2335b6be722037e152ff421208bb422,Node card is not fully functional
-ceee01fe40c128aed2c7d3c32adf2a1d,Node card <*>: <*> <*> <*> <*> <*> <*> is <*> <*> <*> is <*> <*> <*> <*> is <*> <*> <*> <*> is <*> <*> <*> is not <*> <*> <*> <*> <*> <*> <*> <*> is <*> <*> IS <*> <*> <*> <*> <*> IS <*> <*> IS <*> OK. <*> <*> <*> IS <*> <*> <*> <*> <*> is OK. <*> <*> <*> <*> is OK.
-e2e0f4217a342902fdffa01cb1715f6b,<*> <*> status <*>: FF:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*> <*>=<*> <*>=<*> <*>=<*> status=<*> <*> <*> <*> <*>:<*>:<*> <*> <*>
-e2e0f4217a342902fdffa01cb1715f6b,<*> <*> status <*>: FF:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*> <*>=<*> <*>=<*> <*>=<*> status=<*> <*> <*> <*> <*>:<*>:<*> <*> <*>
+8ee077a7bc5f42f853ae6ded97d4f7e2,Node card <*>: <*> <*> <*> <*> <*> <*> is <*> <*> <*> is <*> <*> <*> Reset is <*> <*> <*> Reset is <*> <*> <*> is not <*> <*> <*> <*> <*> <*> Error <*> is <*> <*> IS <*> <*> <*> <*> <*> IS <*> MPGOOD IS <*> OK. MPGOOD <*> <*> IS <*> The <*> <*> <*> is OK. <*> <*> <*> <*> is OK.
+5fb244e144f3ccd9a441e99bbb157ce7,<*> <*> <*> <*>: <*>:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*> <*>=<*> <*>=<*> <*>=<*> <*>=<*> <*> <*> <*> <*>:<*>:<*> <*> <*>
+5fb244e144f3ccd9a441e99bbb157ce7,<*> <*> <*> <*>: <*>:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*> <*>=<*> <*>=<*> <*>=<*> <*>=<*> <*> <*> <*> <*>:<*>:<*> <*> <*>
 65f23e3e7fe0e9e151b64f757f5107cb,"CE sym <*>, at <*>, mask <*>"
-cb7e6c9fb83bcb6331c3cdbc7ca24bce,"<*> <*> <*> <*>(<*>(<*>), <*>(<*>), <*>(<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*>), <*>(<*>), <*>(<*>)) <*> <*> <*> <*> <*> <*>"
-e2e0f4217a342902fdffa01cb1715f6b,<*> <*> status <*>: FF:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*> <*>=<*> <*>=<*> <*>=<*> status=<*> <*> <*> <*> <*>:<*>:<*> <*> <*>
-9d5d6232c3b1888a602b9ff9f4df5c11,Can not get assembly information for node card
-9d5d6232c3b1888a602b9ff9f4df5c11,Can not get assembly information for node card
+a4d4763f359f78c7015fc59fef9092ed,"<*> <*> <*> <*>(<*>(<*>), <*>(<*>), <*>(<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*>), <*>(<*>), <*>(<*>)) <*> <*> of <*> <*> <*>"
+5fb244e144f3ccd9a441e99bbb157ce7,<*> <*> <*> <*>: <*>:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*> <*>=<*> <*>=<*> <*>=<*> <*>=<*> <*> <*> <*> <*>:<*>:<*> <*> <*>
+e8ed66c70d6dc72a62f512ace66c82fd,<*> not <*> <*> <*> for node card
+e8ed66c70d6dc72a62f512ace66c82fd,<*> not <*> <*> <*> for node card
 a2335b6be722037e152ff421208bb422,Node card is not fully functional
-9d5d6232c3b1888a602b9ff9f4df5c11,Can not get assembly information for node card
+e8ed66c70d6dc72a62f512ace66c82fd,<*> not <*> <*> <*> for node card
 a2335b6be722037e152ff421208bb422,Node card is not fully functional
-ceee01fe40c128aed2c7d3c32adf2a1d,Node card <*>: <*> <*> <*> <*> <*> <*> is <*> <*> <*> is <*> <*> <*> <*> is <*> <*> <*> <*> is <*> <*> <*> is not <*> <*> <*> <*> <*> <*> <*> <*> is <*> <*> IS <*> <*> <*> <*> <*> IS <*> <*> IS <*> OK. <*> <*> <*> IS <*> <*> <*> <*> <*> is OK. <*> <*> <*> <*> is OK.
-b6a345c3c48b0e7993f78b48ad248da2,<*> <*> <*> <*> failed: <*>: <*> <*> <*> <*> <*> <*> <*> <*> <*>: <*> <*> <*> <*> <*> <*>
+8ee077a7bc5f42f853ae6ded97d4f7e2,Node card <*>: <*> <*> <*> <*> <*> <*> is <*> <*> <*> is <*> <*> <*> Reset is <*> <*> <*> Reset is <*> <*> <*> is not <*> <*> <*> <*> <*> <*> Error <*> is <*> <*> IS <*> <*> <*> <*> <*> IS <*> MPGOOD IS <*> OK. MPGOOD <*> <*> IS <*> The <*> <*> <*> is OK. <*> <*> <*> <*> is OK.
+d92ab1656c6b6ac0d4888429d191b14d,<*> <*> <*> <*> <*>: <*>: <*> <*> <*> <*> <*> <*> <*> <*> <*>: <*> <*> <*> <*> <*> <*>
 65f23e3e7fe0e9e151b64f757f5107cb,"CE sym <*>, at <*>, mask <*>"
 c3c18d524004eed2451343a560ec46d4,<*> tree receiver <*> in re-synch state event(s) (dcr <*>) detected
 147cfcff17278e56f872ef7f13472579,total of <*> ddr error(s) detected and corrected
@@ -1255,10 +1255,10 @@ c3c18d524004eed2451343a560ec46d4,<*> tree receiver <*> in re-synch state event(s
 4a6807479cf3d4e56bfc79ba87849084,ciod: LOGIN chdir(<*>) failed: No such file or directory
 4a6807479cf3d4e56bfc79ba87849084,ciod: LOGIN chdir(<*>) failed: No such file or directory
 6f3620a4ce1c0b7db01d3f2eafc51549,"ciod: Error loading <*>: invalid or missing program image, No such file or directory"
-ca03efb939194296b762bbabdcc92e47,ciod: Error reading message prefix after LOAD_MESSAGE on CioStream socket to <*>:<*>: Link has been severed
-7e238fc0ffb4af6fcc2fa1474ce1d267,ciod: <*> or invalid <*> on line <*> of node map file <*>
-130bb34059e8385a58a0ccb43aaa89e5,rts: kernel terminated for reason <*>
-130bb34059e8385a58a0ccb43aaa89e5,rts: kernel terminated for reason <*>
+b13492140a4cdd06571570f4cc94e79b,ciod: Error reading message prefix after <*> on CioStream socket to <*>:<*>: Link has been severed
+481d4c8026ccf5cff0dfab126e7e05eb,ciod: <*> or invalid <*> on <*> <*> of <*> <*> file <*>
+c2b99e703c65fbe957c68f91f560fd26,rts: <*> <*> for reason <*>
+c2b99e703c65fbe957c68f91f560fd26,rts: <*> <*> for reason <*>
 65f23e3e7fe0e9e151b64f757f5107cb,"CE sym <*>, at <*>, mask <*>"
 147cfcff17278e56f872ef7f13472579,total of <*> ddr error(s) detected and corrected
 4a6807479cf3d4e56bfc79ba87849084,ciod: LOGIN chdir(<*>) failed: No such file or directory
@@ -1328,7 +1328,7 @@ ca03efb939194296b762bbabdcc92e47,ciod: Error reading message prefix after LOAD_M
 65f23e3e7fe0e9e151b64f757f5107cb,"CE sym <*>, at <*>, mask <*>"
 1840cbfef8d7d3c8499793ad752afe98,"<*> ddr errors(s) detected and corrected on rank <*>, symbol <*>, bit <*>"
 65f23e3e7fe0e9e151b64f757f5107cb,"CE sym <*>, at <*>, mask <*>"
-ceee01fe40c128aed2c7d3c32adf2a1d,Node card <*>: <*> <*> <*> <*> <*> <*> is <*> <*> <*> is <*> <*> <*> <*> is <*> <*> <*> <*> is <*> <*> <*> is not <*> <*> <*> <*> <*> <*> <*> <*> is <*> <*> IS <*> <*> <*> <*> <*> IS <*> <*> IS <*> OK. <*> <*> <*> IS <*> <*> <*> <*> <*> is OK. <*> <*> <*> <*> is OK.
+8ee077a7bc5f42f853ae6ded97d4f7e2,Node card <*>: <*> <*> <*> <*> <*> <*> is <*> <*> <*> is <*> <*> <*> Reset is <*> <*> <*> Reset is <*> <*> <*> is not <*> <*> <*> <*> <*> <*> Error <*> is <*> <*> IS <*> <*> <*> <*> <*> IS <*> MPGOOD IS <*> OK. MPGOOD <*> <*> IS <*> The <*> <*> <*> is OK. <*> <*> <*> <*> is OK.
 65f23e3e7fe0e9e151b64f757f5107cb,"CE sym <*>, at <*>, mask <*>"
 6265c7394fe834d8f54a4901f5436efb,<*> double-hummer alignment exceptions
 6265c7394fe834d8f54a4901f5436efb,<*> double-hummer alignment exceptions
@@ -1382,7 +1382,7 @@ d55367b1226f856ee1ce3a526b3a4b0a,Lustre mount FAILED : <*> : point <*>
 d55367b1226f856ee1ce3a526b3a4b0a,Lustre mount FAILED : <*> : point <*>
 d55367b1226f856ee1ce3a526b3a4b0a,Lustre mount FAILED : <*> : point <*>
 d55367b1226f856ee1ce3a526b3a4b0a,Lustre mount FAILED : <*> : point <*>
-3fd17e58e871c5d81734d80075bce3c4,"Node card VPD check: <*> node in processor card slot <*> do not match. VPD ecid <*>, found <*>"
+5e65f70757b95820102894c9d8c4fc76,"Node card VPD check: <*> node in processor card <*> <*> <*> not match. VPD ecid <*>, found <*>"
 b9a1038ba52da7f597192bbfc7e4c1e5,<*> torus receiver <*> input <*> error(s) (dcr <*>) detected and corrected
 4a6807479cf3d4e56bfc79ba87849084,ciod: LOGIN chdir(<*>) failed: No such file or directory
 d55367b1226f856ee1ce3a526b3a4b0a,Lustre mount FAILED : <*> : point <*>
@@ -1391,28 +1391,28 @@ d55367b1226f856ee1ce3a526b3a4b0a,Lustre mount FAILED : <*> : point <*>
 d55367b1226f856ee1ce3a526b3a4b0a,Lustre mount FAILED : <*> : point <*>
 65f23e3e7fe0e9e151b64f757f5107cb,"CE sym <*>, at <*>, mask <*>"
 d55367b1226f856ee1ce3a526b3a4b0a,Lustre mount FAILED : <*> : point <*>
-85833bc2bef89d5d3c9a4c4e92702738,ciod: <*>: <*> <*> <*> <*>
-b36ea550f9399753ed325fed908e49ba,"ciod: <*> <*> <*> <*> <*> (<*>:<*>), message code <*> <*> <*> <*> <*> <*> (<*>=<*> <*> <*> <*>)"
+a54fffc3d924908e76ab7d03e717f663,ciod: <*>: <*> the <*> <*>
+fd72b66289e07bbf4293ae2f2ffc7800,"ciod: <*> <*> <*> <*> <*> (<*>:<*>), message <*> <*> <*> <*> <*> or <*> (<*>=<*> <*> <*> <*>)"
 b9a1038ba52da7f597192bbfc7e4c1e5,<*> torus receiver <*> input <*> error(s) (dcr <*>) detected and corrected
 1840cbfef8d7d3c8499793ad752afe98,"<*> ddr errors(s) detected and corrected on rank <*>, symbol <*>, bit <*>"
 65f23e3e7fe0e9e151b64f757f5107cb,"CE sym <*>, at <*>, mask <*>"
 6f3620a4ce1c0b7db01d3f2eafc51549,"ciod: Error loading <*>: invalid or missing program image, No such file or directory"
-ca03efb939194296b762bbabdcc92e47,ciod: Error reading message prefix after LOAD_MESSAGE on CioStream socket to <*>:<*>: Link has been severed
-69a3d8c4913f7e6a8b5fd80d55a2e9eb,<*> <*> interrupts of <*> type
-ca03efb939194296b762bbabdcc92e47,ciod: Error reading message prefix after LOAD_MESSAGE on CioStream socket to <*>:<*>: Link has been severed
-ca03efb939194296b762bbabdcc92e47,ciod: Error reading message prefix after LOAD_MESSAGE on CioStream socket to <*>:<*>: Link has been severed
+b13492140a4cdd06571570f4cc94e79b,ciod: Error reading message prefix after <*> on CioStream socket to <*>:<*>: Link has been severed
+6b4d54a0afa785dd1aaff513999a7566,<*> <*> interrupts of <*> <*>
+b13492140a4cdd06571570f4cc94e79b,ciod: Error reading message prefix after <*> on CioStream socket to <*>:<*>: Link has been severed
+b13492140a4cdd06571570f4cc94e79b,ciod: Error reading message prefix after <*> on CioStream socket to <*>:<*>: Link has been severed
 147cfcff17278e56f872ef7f13472579,total of <*> ddr error(s) detected and corrected
 d55367b1226f856ee1ce3a526b3a4b0a,Lustre mount FAILED : <*> : point <*>
-ca03efb939194296b762bbabdcc92e47,ciod: Error reading message prefix after LOAD_MESSAGE on CioStream socket to <*>:<*>: Link has been severed
+b13492140a4cdd06571570f4cc94e79b,ciod: Error reading message prefix after <*> on CioStream socket to <*>:<*>: Link has been severed
 65f23e3e7fe0e9e151b64f757f5107cb,"CE sym <*>, at <*>, mask <*>"
-e2e0f4217a342902fdffa01cb1715f6b,<*> <*> status <*>: FF:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*> <*>=<*> <*>=<*> <*>=<*> status=<*> <*> <*> <*> <*>:<*>:<*> <*> <*>
-ceee01fe40c128aed2c7d3c32adf2a1d,Node card <*>: <*> <*> <*> <*> <*> <*> is <*> <*> <*> is <*> <*> <*> <*> is <*> <*> <*> <*> is <*> <*> <*> is not <*> <*> <*> <*> <*> <*> <*> <*> is <*> <*> IS <*> <*> <*> <*> <*> IS <*> <*> IS <*> OK. <*> <*> <*> IS <*> <*> <*> <*> <*> is OK. <*> <*> <*> <*> is OK.
-65f23e3e7fe0e9e151b64f757f5107cb,"CE sym <*>, at <*>, mask <*>"
-4a6807479cf3d4e56bfc79ba87849084,ciod: LOGIN chdir(<*>) failed: No such file or directory
-4a6807479cf3d4e56bfc79ba87849084,ciod: LOGIN chdir(<*>) failed: No such file or directory
+5fb244e144f3ccd9a441e99bbb157ce7,<*> <*> <*> <*>: <*>:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*> <*>=<*> <*>=<*> <*>=<*> <*>=<*> <*> <*> <*> <*>:<*>:<*> <*> <*>
+8ee077a7bc5f42f853ae6ded97d4f7e2,Node card <*>: <*> <*> <*> <*> <*> <*> is <*> <*> <*> is <*> <*> <*> Reset is <*> <*> <*> Reset is <*> <*> <*> is not <*> <*> <*> <*> <*> <*> Error <*> is <*> <*> IS <*> <*> <*> <*> <*> IS <*> MPGOOD IS <*> OK. MPGOOD <*> <*> IS <*> The <*> <*> <*> is OK. <*> <*> <*> <*> is OK.
 65f23e3e7fe0e9e151b64f757f5107cb,"CE sym <*>, at <*>, mask <*>"
 4a6807479cf3d4e56bfc79ba87849084,ciod: LOGIN chdir(<*>) failed: No such file or directory
-3fd17e58e871c5d81734d80075bce3c4,"Node card VPD check: <*> node in processor card slot <*> do not match. VPD ecid <*>, found <*>"
+4a6807479cf3d4e56bfc79ba87849084,ciod: LOGIN chdir(<*>) failed: No such file or directory
+65f23e3e7fe0e9e151b64f757f5107cb,"CE sym <*>, at <*>, mask <*>"
+4a6807479cf3d4e56bfc79ba87849084,ciod: LOGIN chdir(<*>) failed: No such file or directory
+c49a301fb81f939f0e3e019bcfc99f77,"Node card VPD check: <*> node in processor card <*> <*> <*> not <*> VPD <*> <*>, found <*>"
 3c469b21557d750bd5ce7809c339c4fe,"idoproxydb hit ASSERT condition: ASSERT expression=<*> Source file=idotransportmgr.cpp Source line=<*> Function=int IdoTransportMgr::SendPacket(IdoUdpMgr*, BglCtlPavTrace*)"
 3c469b21557d750bd5ce7809c339c4fe,"idoproxydb hit ASSERT condition: ASSERT expression=<*> Source file=idotransportmgr.cpp Source line=<*> Function=int IdoTransportMgr::SendPacket(IdoUdpMgr*, BglCtlPavTrace*)"
 3c469b21557d750bd5ce7809c339c4fe,"idoproxydb hit ASSERT condition: ASSERT expression=<*> Source file=idotransportmgr.cpp Source line=<*> Function=int IdoTransportMgr::SendPacket(IdoUdpMgr*, BglCtlPavTrace*)"
@@ -1437,14 +1437,14 @@ ceee01fe40c128aed2c7d3c32adf2a1d,Node card <*>: <*> <*> <*> <*> <*> <*> is <*> <
 3c469b21557d750bd5ce7809c339c4fe,"idoproxydb hit ASSERT condition: ASSERT expression=<*> Source file=idotransportmgr.cpp Source line=<*> Function=int IdoTransportMgr::SendPacket(IdoUdpMgr*, BglCtlPavTrace*)"
 3c469b21557d750bd5ce7809c339c4fe,"idoproxydb hit ASSERT condition: ASSERT expression=<*> Source file=idotransportmgr.cpp Source line=<*> Function=int IdoTransportMgr::SendPacket(IdoUdpMgr*, BglCtlPavTrace*)"
 3c469b21557d750bd5ce7809c339c4fe,"idoproxydb hit ASSERT condition: ASSERT expression=<*> Source file=idotransportmgr.cpp Source line=<*> Function=int IdoTransportMgr::SendPacket(IdoUdpMgr*, BglCtlPavTrace*)"
-3fd17e58e871c5d81734d80075bce3c4,"Node card VPD check: <*> node in processor card slot <*> do not match. VPD ecid <*>, found <*>"
-3fd17e58e871c5d81734d80075bce3c4,"Node card VPD check: <*> node in processor card slot <*> do not match. VPD ecid <*>, found <*>"
+5e65f70757b95820102894c9d8c4fc76,"Node card VPD check: <*> node in processor card <*> <*> <*> not match. VPD ecid <*>, found <*>"
+5e65f70757b95820102894c9d8c4fc76,"Node card VPD check: <*> node in processor card <*> <*> <*> not match. VPD ecid <*>, found <*>"
 3c469b21557d750bd5ce7809c339c4fe,"idoproxydb hit ASSERT condition: ASSERT expression=<*> Source file=idotransportmgr.cpp Source line=<*> Function=int IdoTransportMgr::SendPacket(IdoUdpMgr*, BglCtlPavTrace*)"
 3c469b21557d750bd5ce7809c339c4fe,"idoproxydb hit ASSERT condition: ASSERT expression=<*> Source file=idotransportmgr.cpp Source line=<*> Function=int IdoTransportMgr::SendPacket(IdoUdpMgr*, BglCtlPavTrace*)"
 6f3620a4ce1c0b7db01d3f2eafc51549,"ciod: Error loading <*>: invalid or missing program image, No such file or directory"
-7372e0fa4de3e0749f7b7a8fc2c79824,"ciod: Error loading /home/yates//torus-latency.rts: invalid or missing program image, No such file or directory"
-7372e0fa4de3e0749f7b7a8fc2c79824,"ciod: Error loading /home/yates//torus-latency.rts: invalid or missing program image, No such file or directory"
-7372e0fa4de3e0749f7b7a8fc2c79824,"ciod: Error loading /home/yates//torus-latency.rts: invalid or missing program image, No such file or directory"
+6f3620a4ce1c0b7db01d3f2eafc51549,"ciod: Error loading <*>: invalid or missing program image, No such file or directory"
+6f3620a4ce1c0b7db01d3f2eafc51549,"ciod: Error loading <*>: invalid or missing program image, No such file or directory"
+6f3620a4ce1c0b7db01d3f2eafc51549,"ciod: Error loading <*>: invalid or missing program image, No such file or directory"
 6f3620a4ce1c0b7db01d3f2eafc51549,"ciod: Error loading <*>: invalid or missing program image, No such file or directory"
 f8e54666ec82f01193c599c91ea80247,<*>: <*> <*> <*>: <*> type <*> <*> of type <*> (<*>=<*> <*> <*> <*>) <*>=<*> <*>=<*> <*>=<*> <*>=<*>
 6f3620a4ce1c0b7db01d3f2eafc51549,"ciod: Error loading <*>: invalid or missing program image, No such file or directory"
@@ -1463,11 +1463,11 @@ f8e54666ec82f01193c599c91ea80247,<*>: <*> <*> <*>: <*> type <*> <*> of type <*> 
 65f23e3e7fe0e9e151b64f757f5107cb,"CE sym <*>, at <*>, mask <*>"
 65f23e3e7fe0e9e151b64f757f5107cb,"CE sym <*>, at <*>, mask <*>"
 65f23e3e7fe0e9e151b64f757f5107cb,"CE sym <*>, at <*>, mask <*>"
-ca03efb939194296b762bbabdcc92e47,ciod: Error reading message prefix after LOAD_MESSAGE on CioStream socket to <*>:<*>: Link has been severed
+b13492140a4cdd06571570f4cc94e79b,ciod: Error reading message prefix after <*> on CioStream socket to <*>:<*>: Link has been severed
 11b69b8b14c312174ae9de949b9581e4,ciod: generated <*> core files for program <*>
 65f23e3e7fe0e9e151b64f757f5107cb,"CE sym <*>, at <*>, mask <*>"
 11b69b8b14c312174ae9de949b9581e4,ciod: generated <*> core files for program <*>
-d687eeedbdb5ee9d42fd030520307df6,<*> <*> <*> (<*>=<*> bit=<*>): warning <*> torus <*> wire
+08efdb6218d66ab8f9a50402822e6714,<*> input <*> (<*>=<*> bit=<*>): <*> <*> torus <*> <*>
 65f23e3e7fe0e9e151b64f757f5107cb,"CE sym <*>, at <*>, mask <*>"
 65f23e3e7fe0e9e151b64f757f5107cb,"CE sym <*>, at <*>, mask <*>"
 65f23e3e7fe0e9e151b64f757f5107cb,"CE sym <*>, at <*>, mask <*>"
@@ -1478,13 +1478,13 @@ d687eeedbdb5ee9d42fd030520307df6,<*> <*> <*> (<*>=<*> bit=<*>): warning <*> toru
 65f23e3e7fe0e9e151b64f757f5107cb,"CE sym <*>, at <*>, mask <*>"
 65f23e3e7fe0e9e151b64f757f5107cb,"CE sym <*>, at <*>, mask <*>"
 62adcf762baefe8f595a4b8c319eced9,"ciod: Error loading <*>: invalid or missing program image, Permission denied"
-ca03efb939194296b762bbabdcc92e47,ciod: Error reading message prefix after LOAD_MESSAGE on CioStream socket to <*>:<*>: Link has been severed
+b13492140a4cdd06571570f4cc94e79b,ciod: Error reading message prefix after <*> on CioStream socket to <*>:<*>: Link has been severed
 147cfcff17278e56f872ef7f13472579,total of <*> ddr error(s) detected and corrected
 65f23e3e7fe0e9e151b64f757f5107cb,"CE sym <*>, at <*>, mask <*>"
 65f23e3e7fe0e9e151b64f757f5107cb,"CE sym <*>, at <*>, mask <*>"
 147cfcff17278e56f872ef7f13472579,total of <*> ddr error(s) detected and corrected
 1840cbfef8d7d3c8499793ad752afe98,"<*> ddr errors(s) detected and corrected on rank <*>, symbol <*>, bit <*>"
-ca03efb939194296b762bbabdcc92e47,ciod: Error reading message prefix after LOAD_MESSAGE on CioStream socket to <*>:<*>: Link has been severed
+b13492140a4cdd06571570f4cc94e79b,ciod: Error reading message prefix after <*> on CioStream socket to <*>:<*>: Link has been severed
 65f23e3e7fe0e9e151b64f757f5107cb,"CE sym <*>, at <*>, mask <*>"
 62adcf762baefe8f595a4b8c319eced9,"ciod: Error loading <*>: invalid or missing program image, Permission denied"
 62adcf762baefe8f595a4b8c319eced9,"ciod: Error loading <*>: invalid or missing program image, Permission denied"
@@ -1493,20 +1493,20 @@ ca03efb939194296b762bbabdcc92e47,ciod: Error reading message prefix after LOAD_M
 62adcf762baefe8f595a4b8c319eced9,"ciod: Error loading <*>: invalid or missing program image, Permission denied"
 6f3620a4ce1c0b7db01d3f2eafc51549,"ciod: Error loading <*>: invalid or missing program image, No such file or directory"
 65f23e3e7fe0e9e151b64f757f5107cb,"CE sym <*>, at <*>, mask <*>"
-69a3d8c4913f7e6a8b5fd80d55a2e9eb,<*> <*> interrupts of <*> type
+6b4d54a0afa785dd1aaff513999a7566,<*> <*> interrupts of <*> <*>
 1840cbfef8d7d3c8499793ad752afe98,"<*> ddr errors(s) detected and corrected on rank <*>, symbol <*>, bit <*>"
 c3c18d524004eed2451343a560ec46d4,<*> tree receiver <*> in re-synch state event(s) (dcr <*>) detected
 65f23e3e7fe0e9e151b64f757f5107cb,"CE sym <*>, at <*>, mask <*>"
 65f23e3e7fe0e9e151b64f757f5107cb,"CE sym <*>, at <*>, mask <*>"
 11b69b8b14c312174ae9de949b9581e4,ciod: generated <*> core files for program <*>
 11b69b8b14c312174ae9de949b9581e4,ciod: generated <*> core files for program <*>
-ca03efb939194296b762bbabdcc92e47,ciod: Error reading message prefix after LOAD_MESSAGE on CioStream socket to <*>:<*>: Link has been severed
-f3eed4bf04e9fc38080756f1ced76935,data cache search parity error detected. attempting to correct
-f3eed4bf04e9fc38080756f1ced76935,data cache search parity error detected. attempting to correct
-f3eed4bf04e9fc38080756f1ced76935,data cache search parity error detected. attempting to correct
-f3eed4bf04e9fc38080756f1ced76935,data cache search parity error detected. attempting to correct
-f3eed4bf04e9fc38080756f1ced76935,data cache search parity error detected. attempting to correct
-f3eed4bf04e9fc38080756f1ced76935,data cache search parity error detected. attempting to correct
+b13492140a4cdd06571570f4cc94e79b,ciod: Error reading message prefix after <*> on CioStream socket to <*>:<*>: Link has been severed
+e4254ac0f703587cf15b2e2887485a27,data cache <*> parity error <*> <*> to correct
+e4254ac0f703587cf15b2e2887485a27,data cache <*> parity error <*> <*> to correct
+e4254ac0f703587cf15b2e2887485a27,data cache <*> parity error <*> <*> to correct
+e4254ac0f703587cf15b2e2887485a27,data cache <*> parity error <*> <*> to correct
+e4254ac0f703587cf15b2e2887485a27,data cache <*> parity error <*> <*> to correct
+e4254ac0f703587cf15b2e2887485a27,data cache <*> parity error <*> <*> to correct
 65f23e3e7fe0e9e151b64f757f5107cb,"CE sym <*>, at <*>, mask <*>"
 65f23e3e7fe0e9e151b64f757f5107cb,"CE sym <*>, at <*>, mask <*>"
 dede275dedbf944828553c5d54f5dcc0,<*> <*>
@@ -1516,9 +1516,9 @@ dede275dedbf944828553c5d54f5dcc0,<*> <*>
 147cfcff17278e56f872ef7f13472579,total of <*> ddr error(s) detected and corrected
 1840cbfef8d7d3c8499793ad752afe98,"<*> ddr errors(s) detected and corrected on rank <*>, symbol <*>, bit <*>"
 6f3620a4ce1c0b7db01d3f2eafc51549,"ciod: Error loading <*>: invalid or missing program image, No such file or directory"
-d687eeedbdb5ee9d42fd030520307df6,<*> <*> <*> (<*>=<*> bit=<*>): warning <*> torus <*> wire
+08efdb6218d66ab8f9a50402822e6714,<*> input <*> (<*>=<*> bit=<*>): <*> <*> torus <*> <*>
 c3c18d524004eed2451343a560ec46d4,<*> tree receiver <*> in re-synch state event(s) (dcr <*>) detected
-130bb34059e8385a58a0ccb43aaa89e5,rts: kernel terminated for reason <*>
+c2b99e703c65fbe957c68f91f560fd26,rts: <*> <*> for reason <*>
 388a88e8158d038270f732c7c684d680,"<*> <*> <*> on tree <*>, <*> type <*> <*> of type <*> (<*>=<*> <*> <*> <*>) <*>=<*> <*>=<*> <*>=<*> <*>=<*>"
 65f23e3e7fe0e9e151b64f757f5107cb,"CE sym <*>, at <*>, mask <*>"
 65f23e3e7fe0e9e151b64f757f5107cb,"CE sym <*>, at <*>, mask <*>"
@@ -1718,7 +1718,7 @@ c3c18d524004eed2451343a560ec46d4,<*> tree receiver <*> in re-synch state event(s
 1b700d029be2062b025b3c95ed14aa0d,iar <*> dear <*>
 1ae4a1e2817e987e78527ff359485e7e,<*> floating point alignment exceptions
 388a88e8158d038270f732c7c684d680,"<*> <*> <*> on tree <*>, <*> type <*> <*> of type <*> (<*>=<*> <*> <*> <*>) <*>=<*> <*>=<*> <*>=<*> <*>=<*>"
-100039576c4d43827c2dbdac98dc907a,program interrupt: privileged instruction...<*>
+c1890a447c89d592cb1aeb863cac4e54,program interrupt: <*> instruction...<*>
 1b700d029be2062b025b3c95ed14aa0d,iar <*> dear <*>
 1b700d029be2062b025b3c95ed14aa0d,iar <*> dear <*>
 1b700d029be2062b025b3c95ed14aa0d,iar <*> dear <*>
@@ -1731,14 +1731,14 @@ c3c18d524004eed2451343a560ec46d4,<*> tree receiver <*> in re-synch state event(s
 1b700d029be2062b025b3c95ed14aa0d,iar <*> dear <*>
 1b700d029be2062b025b3c95ed14aa0d,iar <*> dear <*>
 1b700d029be2062b025b3c95ed14aa0d,iar <*> dear <*>
-c70dad257141573f4534dd6ebe8114b4,<*> torus receiver <*> input pipe error(s) (dcr <*>) detected and corrected
+b9a1038ba52da7f597192bbfc7e4c1e5,<*> torus receiver <*> input <*> error(s) (dcr <*>) detected and corrected
 65f23e3e7fe0e9e151b64f757f5107cb,"CE sym <*>, at <*>, mask <*>"
 828a502ba1bdd354688a3d64deab82ad,<*> <*> <*> error(s) (dcr <*>) detected and corrected
 65f23e3e7fe0e9e151b64f757f5107cb,"CE sym <*>, at <*>, mask <*>"
 65f23e3e7fe0e9e151b64f757f5107cb,"CE sym <*>, at <*>, mask <*>"
 1840cbfef8d7d3c8499793ad752afe98,"<*> ddr errors(s) detected and corrected on rank <*>, symbol <*>, bit <*>"
 65f23e3e7fe0e9e151b64f757f5107cb,"CE sym <*>, at <*>, mask <*>"
-130bb34059e8385a58a0ccb43aaa89e5,rts: kernel terminated for reason <*>
+c2b99e703c65fbe957c68f91f560fd26,rts: <*> <*> for reason <*>
 1b700d029be2062b025b3c95ed14aa0d,iar <*> dear <*>
 1b700d029be2062b025b3c95ed14aa0d,iar <*> dear <*>
 1b700d029be2062b025b3c95ed14aa0d,iar <*> dear <*>
@@ -1746,16 +1746,16 @@ c70dad257141573f4534dd6ebe8114b4,<*> torus receiver <*> input pipe error(s) (dcr
 11b69b8b14c312174ae9de949b9581e4,ciod: generated <*> core files for program <*>
 1840cbfef8d7d3c8499793ad752afe98,"<*> ddr errors(s) detected and corrected on rank <*>, symbol <*>, bit <*>"
 65f23e3e7fe0e9e151b64f757f5107cb,"CE sym <*>, at <*>, mask <*>"
-130bb34059e8385a58a0ccb43aaa89e5,rts: kernel terminated for reason <*>
+c2b99e703c65fbe957c68f91f560fd26,rts: <*> <*> for reason <*>
 388a88e8158d038270f732c7c684d680,"<*> <*> <*> on tree <*>, <*> type <*> <*> of type <*> (<*>=<*> <*> <*> <*>) <*>=<*> <*>=<*> <*>=<*> <*>=<*>"
 388a88e8158d038270f732c7c684d680,"<*> <*> <*> on tree <*>, <*> type <*> <*> of type <*> (<*>=<*> <*> <*> <*>) <*>=<*> <*>=<*> <*>=<*> <*>=<*>"
-631bcd13f7aeb491a0a4be92d4417317,"critical input <*> (unit=<*> bit=<*>): warning <*> torus <*> wire, <*> <*> interrupts of <*> type"
+69f6348de747427af1a010c1aa90be67,"<*> input <*> (<*>=<*> bit=<*>): <*> <*> <*> <*> <*>, <*> <*> interrupts of <*> type"
 11b69b8b14c312174ae9de949b9581e4,ciod: generated <*> core files for program <*>
 11b69b8b14c312174ae9de949b9581e4,ciod: generated <*> core files for program <*>
 11b69b8b14c312174ae9de949b9581e4,ciod: generated <*> core files for program <*>
-3fd17e58e871c5d81734d80075bce3c4,"Node card VPD check: <*> node in processor card slot <*> do not match. VPD ecid <*>, found <*>"
-3fd17e58e871c5d81734d80075bce3c4,"Node card VPD check: <*> node in processor card slot <*> do not match. VPD ecid <*>, found <*>"
-130bb34059e8385a58a0ccb43aaa89e5,rts: kernel terminated for reason <*>
+5e65f70757b95820102894c9d8c4fc76,"Node card VPD check: <*> node in processor card <*> <*> <*> not match. VPD ecid <*>, found <*>"
+5e65f70757b95820102894c9d8c4fc76,"Node card VPD check: <*> node in processor card <*> <*> <*> not match. VPD ecid <*>, found <*>"
+c2b99e703c65fbe957c68f91f560fd26,rts: <*> <*> for reason <*>
 388a88e8158d038270f732c7c684d680,"<*> <*> <*> on tree <*>, <*> type <*> <*> of type <*> (<*>=<*> <*> <*> <*>) <*>=<*> <*>=<*> <*>=<*> <*>=<*>"
 62adcf762baefe8f595a4b8c319eced9,"ciod: Error loading <*>: invalid or missing program image, Permission denied"
 43c21335c4ccf203ac979ea956daae1d,<*> torus <*> <*> <*> error(s) (dcr <*>) detected and corrected over <*> seconds
@@ -1776,14 +1776,14 @@ e65a7ca47136e456ba4b2272f5ad97a9,MACHINE CHECK DCR read timeout (mc=<*> iar <*> 
 e65a7ca47136e456ba4b2272f5ad97a9,MACHINE CHECK DCR read timeout (mc=<*> iar <*> lr <*>)
 e65a7ca47136e456ba4b2272f5ad97a9,MACHINE CHECK DCR read timeout (mc=<*> iar <*> lr <*>)
 f9631383b941796558b494f13fddbc03,"ciod: Received signal <*>, code=<*>, errno=<*>, address=<*>"
-0b5c6b5e3e2d1fe7c4999c5226a649a3,"ciod: Error reading message prefix on CioStream socket to <*>:<*>, <*> <*> <*>"
-01f25048e371b09bfff3ff566d78752f,"ciod: Error reading message prefix on CioStream socket to <*>:<*>, <*> <*> by <*>"
+a54e73058747e8936c63584de65c6877,"ciod: Error reading message prefix on CioStream socket to <*>:<*>, Connection <*> <*>"
+be7fe4485ab9d2d1b5745bf0fab95ba8,"ciod: Error reading message prefix on CioStream socket to <*>:<*>, Connection <*> <*> <*>"
 f9631383b941796558b494f13fddbc03,"ciod: Received signal <*>, code=<*>, errno=<*>, address=<*>"
-01f25048e371b09bfff3ff566d78752f,"ciod: Error reading message prefix on CioStream socket to <*>:<*>, <*> <*> by <*>"
+be7fe4485ab9d2d1b5745bf0fab95ba8,"ciod: Error reading message prefix on CioStream socket to <*>:<*>, Connection <*> <*> <*>"
 f9631383b941796558b494f13fddbc03,"ciod: Received signal <*>, code=<*>, errno=<*>, address=<*>"
-01f25048e371b09bfff3ff566d78752f,"ciod: Error reading message prefix on CioStream socket to <*>:<*>, <*> <*> by <*>"
-0b5c6b5e3e2d1fe7c4999c5226a649a3,"ciod: Error reading message prefix on CioStream socket to <*>:<*>, <*> <*> <*>"
-01f25048e371b09bfff3ff566d78752f,"ciod: Error reading message prefix on CioStream socket to <*>:<*>, <*> <*> by <*>"
+be7fe4485ab9d2d1b5745bf0fab95ba8,"ciod: Error reading message prefix on CioStream socket to <*>:<*>, Connection <*> <*> <*>"
+a54e73058747e8936c63584de65c6877,"ciod: Error reading message prefix on CioStream socket to <*>:<*>, Connection <*> <*>"
+be7fe4485ab9d2d1b5745bf0fab95ba8,"ciod: Error reading message prefix on CioStream socket to <*>:<*>, Connection <*> <*> <*>"
 65f23e3e7fe0e9e151b64f757f5107cb,"CE sym <*>, at <*>, mask <*>"
 664f6762cfed83fa5cb21fe09f372df3,<*>=<*> <*>=<*> <*>=<*>
 855c7148ff07b7c90dc60c1e6d04bebf,"ciod: Error reading message prefix on CioStream socket to <*>:<*>, Link has been severed"
@@ -1800,7 +1800,7 @@ f9631383b941796558b494f13fddbc03,"ciod: Received signal <*>, code=<*>, errno=<*>
 a450c3901ef936d376be2b8dc149346d,<*> tree receiver <*> in re-synch state event(s) (dcr <*>) detected over <*> seconds
 f9631383b941796558b494f13fddbc03,"ciod: Received signal <*>, code=<*>, errno=<*>, address=<*>"
 f9631383b941796558b494f13fddbc03,"ciod: Received signal <*>, code=<*>, errno=<*>, address=<*>"
-3fd17e58e871c5d81734d80075bce3c4,"Node card VPD check: <*> node in processor card slot <*> do not match. VPD ecid <*>, found <*>"
+5e65f70757b95820102894c9d8c4fc76,"Node card VPD check: <*> node in processor card <*> <*> <*> not match. VPD ecid <*>, found <*>"
 f9631383b941796558b494f13fddbc03,"ciod: Received signal <*>, code=<*>, errno=<*>, address=<*>"
 65f23e3e7fe0e9e151b64f757f5107cb,"CE sym <*>, at <*>, mask <*>"
 4a6807479cf3d4e56bfc79ba87849084,ciod: LOGIN chdir(<*>) failed: No such file or directory
@@ -1932,8 +1932,8 @@ f9631383b941796558b494f13fddbc03,"ciod: Received signal <*>, code=<*>, errno=<*>
 65f23e3e7fe0e9e151b64f757f5107cb,"CE sym <*>, at <*>, mask <*>"
 65f23e3e7fe0e9e151b64f757f5107cb,"CE sym <*>, at <*>, mask <*>"
 30b3b94694c9aceb738abcc3ba1bdcf5,"<*> ddr error(s) detected and corrected on rank <*>, symbol <*> over <*> seconds"
-5c47e4f5568f250ef3c1dbc83742e5f3,"<*> <*> <*> <*> <*>(<*>(<*>), <*>(<*>), <*>(<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*>), <*>(<*>), <*>(<*>)) <*> <*> <*> <*> <*> <*>"
-86d8aec8523731088907a152c735dcc6,"Kernel detected <*> integer <*> exceptions (<*>) iar <*>, <*> <*> (<*>) iar <*>, <*> <*> (<*>) iar <*>, <*> <*> (<*>) iar <*>, <*> <*> (<*>) iar <*>, <*> <*> (<*>) iar <*>, <*> <*> (<*>) iar <*>, <*> <*> (<*>) iar <*>, <*> <*>"
+f8f74c6dcf411a5781d2ca0836272fb2,"<*> <*> <*> Node card(<*>(<*>), <*>(<*>), <*>(<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*>), <*>(<*>), <*>(<*>)) <*> <*> of <*> <*> <*>"
+af5750b8b5306aea5c272fc8e88ca4c8,"<*> detected <*> <*> alignment <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*>"
 a450c3901ef936d376be2b8dc149346d,<*> tree receiver <*> in re-synch state event(s) (dcr <*>) detected over <*> seconds
 65f23e3e7fe0e9e151b64f757f5107cb,"CE sym <*>, at <*>, mask <*>"
 65f23e3e7fe0e9e151b64f757f5107cb,"CE sym <*>, at <*>, mask <*>"
@@ -1944,20 +1944,20 @@ a450c3901ef936d376be2b8dc149346d,<*> tree receiver <*> in re-synch state event(s
 30b3b94694c9aceb738abcc3ba1bdcf5,"<*> ddr error(s) detected and corrected on rank <*>, symbol <*> over <*> seconds"
 65f23e3e7fe0e9e151b64f757f5107cb,"CE sym <*>, at <*>, mask <*>"
 8df7ac9eeaaef4e17ad03a8aeab16b82,total of <*> ddr error(s) detected and corrected over <*> seconds
-4f38b5d816dd14d65c4a534b66491060,<*> <*> <*><*><*>
+afc81aa22c5142ba82ea1ba3326da7f8,<*> <*> <*>..................<*>
 76e179e7819e7884f866810102274755,Lustre mount FAILED : <*> : <*> : <*>
 64940cec68e4cc672e293610b2058864,<*> <*>.........................<*>
 a2335b6be722037e152ff421208bb422,Node card is not fully functional
-f36be6b52437a92c4c52b10984eec3da,"critical input <*> (unit=<*> bit=<*>): warning <*> tree <*> wire, <*> <*> interrupts of <*> type"
-97194a23362b091526f0cd2c87bbea39,<*> of <*> <*> of <*>.........<*> (<*>)
-86d8aec8523731088907a152c735dcc6,"Kernel detected <*> integer <*> exceptions (<*>) iar <*>, <*> <*> (<*>) iar <*>, <*> <*> (<*>) iar <*>, <*> <*> (<*>) iar <*>, <*> <*> (<*>) iar <*>, <*> <*> (<*>) iar <*>, <*> <*> (<*>) iar <*>, <*> <*> (<*>) iar <*>, <*> <*>"
-86d8aec8523731088907a152c735dcc6,"Kernel detected <*> integer <*> exceptions (<*>) iar <*>, <*> <*> (<*>) iar <*>, <*> <*> (<*>) iar <*>, <*> <*> (<*>) iar <*>, <*> <*> (<*>) iar <*>, <*> <*> (<*>) iar <*>, <*> <*> (<*>) iar <*>, <*> <*> (<*>) iar <*>, <*> <*>"
-86d8aec8523731088907a152c735dcc6,"Kernel detected <*> integer <*> exceptions (<*>) iar <*>, <*> <*> (<*>) iar <*>, <*> <*> (<*>) iar <*>, <*> <*> (<*>) iar <*>, <*> <*> (<*>) iar <*>, <*> <*> (<*>) iar <*>, <*> <*> (<*>) iar <*>, <*> <*> (<*>) iar <*>, <*> <*>"
-86d8aec8523731088907a152c735dcc6,"Kernel detected <*> integer <*> exceptions (<*>) iar <*>, <*> <*> (<*>) iar <*>, <*> <*> (<*>) iar <*>, <*> <*> (<*>) iar <*>, <*> <*> (<*>) iar <*>, <*> <*> (<*>) iar <*>, <*> <*> (<*>) iar <*>, <*> <*> (<*>) iar <*>, <*> <*>"
-86d8aec8523731088907a152c735dcc6,"Kernel detected <*> integer <*> exceptions (<*>) iar <*>, <*> <*> (<*>) iar <*>, <*> <*> (<*>) iar <*>, <*> <*> (<*>) iar <*>, <*> <*> (<*>) iar <*>, <*> <*> (<*>) iar <*>, <*> <*> (<*>) iar <*>, <*> <*> (<*>) iar <*>, <*> <*>"
-86d8aec8523731088907a152c735dcc6,"Kernel detected <*> integer <*> exceptions (<*>) iar <*>, <*> <*> (<*>) iar <*>, <*> <*> (<*>) iar <*>, <*> <*> (<*>) iar <*>, <*> <*> (<*>) iar <*>, <*> <*> (<*>) iar <*>, <*> <*> (<*>) iar <*>, <*> <*> (<*>) iar <*>, <*> <*>"
-86d8aec8523731088907a152c735dcc6,"Kernel detected <*> integer <*> exceptions (<*>) iar <*>, <*> <*> (<*>) iar <*>, <*> <*> (<*>) iar <*>, <*> <*> (<*>) iar <*>, <*> <*> (<*>) iar <*>, <*> <*> (<*>) iar <*>, <*> <*> (<*>) iar <*>, <*> <*> (<*>) iar <*>, <*> <*>"
-7d757dba6a3a262c488ce3ce665e853c,"<*> detected <*> integer <*> exceptions (<*>) iar <*>, <*> <*> (<*>) iar <*>, <*> <*> (<*>) iar <*>, <*> <*> (<*>) iar <*>, <*> <*> (<*>) iar <*>, <*> <*> (<*>) iar <*>, <*> <*> (<*>) iar <*>, <*> <*> (<*>) iar <*>, <*> <*>"
+835e121abee814cedc5ee398b88e931e,"<*> input <*> (<*>=<*> bit=<*>): <*> <*> tree <*> <*>, <*> <*> interrupts of <*> type"
+730353b573b7714bdd479f7d9116c7dc,<*> of <*> <*> of <*><*><*> (<*>)
+62ba593b598076f289d72cb37f4c704d,"Kernel detected <*> integer alignment <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*>"
+62ba593b598076f289d72cb37f4c704d,"Kernel detected <*> integer alignment <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*>"
+62ba593b598076f289d72cb37f4c704d,"Kernel detected <*> integer alignment <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*>"
+62ba593b598076f289d72cb37f4c704d,"Kernel detected <*> integer alignment <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*>"
+62ba593b598076f289d72cb37f4c704d,"Kernel detected <*> integer alignment <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*>"
+62ba593b598076f289d72cb37f4c704d,"Kernel detected <*> integer alignment <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*>"
+62ba593b598076f289d72cb37f4c704d,"Kernel detected <*> integer alignment <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*>"
+81c5295959cb35aeae48207e6cfa6b2b,"<*> detected <*> integer alignment <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*>"
 6f3620a4ce1c0b7db01d3f2eafc51549,"ciod: Error loading <*>: invalid or missing program image, No such file or directory"
 6f3620a4ce1c0b7db01d3f2eafc51549,"ciod: Error loading <*>: invalid or missing program image, No such file or directory"
 30b3b94694c9aceb738abcc3ba1bdcf5,"<*> ddr error(s) detected and corrected on rank <*>, symbol <*> over <*> seconds"
@@ -1976,19 +1976,19 @@ f36be6b52437a92c4c52b10984eec3da,"critical input <*> (unit=<*> bit=<*>): warning
 855c7148ff07b7c90dc60c1e6d04bebf,"ciod: Error reading message prefix on CioStream socket to <*>:<*>, Link has been severed"
 30b3b94694c9aceb738abcc3ba1bdcf5,"<*> ddr error(s) detected and corrected on rank <*>, symbol <*> over <*> seconds"
 62adcf762baefe8f595a4b8c319eced9,"ciod: Error loading <*>: invalid or missing program image, Permission denied"
-631bcd13f7aeb491a0a4be92d4417317,"critical input <*> (unit=<*> bit=<*>): warning <*> torus <*> wire, <*> <*> interrupts of <*> type"
+69f6348de747427af1a010c1aa90be67,"<*> input <*> (<*>=<*> bit=<*>): <*> <*> <*> <*> <*>, <*> <*> interrupts of <*> type"
 30b3b94694c9aceb738abcc3ba1bdcf5,"<*> ddr error(s) detected and corrected on rank <*>, symbol <*> over <*> seconds"
 30b3b94694c9aceb738abcc3ba1bdcf5,"<*> ddr error(s) detected and corrected on rank <*>, symbol <*> over <*> seconds"
 855c7148ff07b7c90dc60c1e6d04bebf,"ciod: Error reading message prefix on CioStream socket to <*>:<*>, Link has been severed"
 855c7148ff07b7c90dc60c1e6d04bebf,"ciod: Error reading message prefix on CioStream socket to <*>:<*>, Link has been severed"
 8df7ac9eeaaef4e17ad03a8aeab16b82,total of <*> ddr error(s) detected and corrected over <*> seconds
-85833bc2bef89d5d3c9a4c4e92702738,ciod: <*>: <*> <*> <*> <*>
+a54fffc3d924908e76ab7d03e717f663,ciod: <*>: <*> the <*> <*>
 26c05abcb318fefe3b6e8963d26ccb76,<*> <*> <*> error(s) (dcr <*>) detected and corrected over <*> seconds
 8df7ac9eeaaef4e17ad03a8aeab16b82,total of <*> ddr error(s) detected and corrected over <*> seconds
-85833bc2bef89d5d3c9a4c4e92702738,ciod: <*>: <*> <*> <*> <*>
+a54fffc3d924908e76ab7d03e717f663,ciod: <*>: <*> the <*> <*>
 11b69b8b14c312174ae9de949b9581e4,ciod: generated <*> core files for program <*>
 4ca68f0bfcb9ea8bf2078a779b87098e,"ciod: Error loading <*>: program image <*> <*>, <*> <*> <*>"
-08300820fd19434a79e4f61e6577ed84,<*><*><*> <*> <*> <*>
+fac38c3f13b9d870dc8ec15012056824,<*>=<*> <*> <*> <*>
 097f9cca28f57ff58e3154c5b5a3b116,<*> <*> <*>: <*>
 3aa50e4516cd50cd76ee2323ad55476f,instruction cache parity error corrected
 3aa50e4516cd50cd76ee2323ad55476f,instruction cache parity error corrected

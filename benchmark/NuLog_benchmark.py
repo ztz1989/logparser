@@ -24,7 +24,7 @@ benchmark_settings = {
     },
 
     'Android': {
-        'log_file': 'Andriod/Andriod_2k.log',
+        'log_file': 'Android/Android_2k.log',
         'log_format': '<Date> <Time>  <Pid>  <Tid> <Level> <Component>: <Content>',
         'filters': '([ |:|\(|\)|=|,|"|\{|\}|@|$|\[|\]|\||;])',
         'k': 25,
@@ -105,8 +105,18 @@ benchmark_settings = {
         },
 }
 
+benchmark_settings = {
+    'Linux': {
+        'log_file': 'Linux/Linux_2k.log',
+        'log_format': '<Month> <Date> <Time> <Level> <Component>(\[<PID>\])?: <Content>',
+        'filters': ' ',
+        'num_samples':9,
+        'k': 12,
+        'nr_epochs': 1
+        },
+}
 
-for m in range(10):
+for m in range(1):
     bechmark_result = []
     for dataset, setting in benchmark_settings.items():
         print('\n=== Evaluation on %s ===' % dataset)
@@ -116,14 +126,15 @@ for m in range(10):
         parser = NuLogParser.LogParser(indir=indir, outdir=output_dir, filters=setting['filters'], k=setting['k'], log_format=setting['log_format'])
         parser.parse(log_file, nr_epochs=setting['nr_epochs'], num_samples=setting['num_samples'])
 
-        accuracy_PA, accuracy_exact_string_matching, edit_distance_result_mean, edit_distance_result_std = evaluator.evaluate(
+        #accuracy_PA, accuracy_exact_string_matching, edit_distance_result_mean, edit_distance_result_std = evaluator.evaluate(
+        f1_measure, accuracy_PA = evaluator.evaluate(
             groundtruth=os.path.join(indir, log_file + '_structured.csv'),
             parsedresult=os.path.join(output_dir, log_file + '_structured.csv')
         )
-        bechmark_result.append([dataset, accuracy_PA, accuracy_exact_string_matching, edit_distance_result_mean, edit_distance_result_std])
+        bechmark_result.append([dataset, f1_measure, accuracy_PA])
 
     print('\n=== Overall evaluation results ===')
-    df_result = pd.DataFrame(bechmark_result, columns=['Dataset', 'Accuracy_PA', 'Accuracy_ExactMatching','Edit_distance_mean', 'Edit_distance_std'])
+    df_result = pd.DataFrame(bechmark_result, columns=['Dataset', 'F1_Measure', 'Accuracy_PA']) #'Accuracy_ExactMatching','Edit_distance_mean', 'Edit_distance_std'])
     df_result.set_index('Dataset', inplace=True)
     print(df_result)
-    df_result.T.to_csv(output_dir+'NuLog_benchmark_result_run_'+str(m)+'.csv')
+    #df_result.T.to_csv(output_dir+'NuLog_benchmark_result_run_'+str(m)+'.csv')
